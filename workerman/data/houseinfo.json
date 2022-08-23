@@ -1,0 +1,10523 @@
+{
+  "3822": {
+    "key": 3822,
+    "name": "<no translation>",
+    "CP": 3,
+    "parentNode": 1763,
+    "affTown": 1124,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 2,
+      "1558": 2
+    }
+  },
+  "3821": {
+    "key": 3821,
+    "name": "<no translation>",
+    "CP": 3,
+    "parentNode": 1763,
+    "affTown": 1124,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 2,
+      "1557": 2
+    }
+  },
+  "3820": {
+    "key": 3820,
+    "name": "<no translation>",
+    "CP": 5,
+    "parentNode": 1750,
+    "affTown": 1124,
+    "needHouseKey": 3819,
+    "CraftList": {
+      "2": 5,
+      "1": 3,
+      "1407": 3,
+      "0": 1
+    }
+  },
+  "3819": {
+    "key": 3819,
+    "name": "<no translation>",
+    "CP": 4,
+    "parentNode": 1750,
+    "affTown": 1124,
+    "needHouseKey": 3818,
+    "CraftList": {
+      "2": 5,
+      "1": 2,
+      "15": 5,
+      "0": 1
+    }
+  },
+  "3818": {
+    "key": 3818,
+    "name": "<no translation>",
+    "CP": 3,
+    "parentNode": 1750,
+    "affTown": 1124,
+    "needHouseKey": 3817,
+    "CraftList": {
+      "2": 5,
+      "1559": 2,
+      "0": 1
+    }
+  },
+  "3817": {
+    "key": 3817,
+    "name": "<no translation>",
+    "CP": 2,
+    "parentNode": 1750,
+    "affTown": 1124,
+    "needHouseKey": 3816,
+    "CraftList": {
+      "2": 5,
+      "1": 1,
+      "16": 4,
+      "1407": 2,
+      "0": 1
+    }
+  },
+  "3816": {
+    "key": 3816,
+    "name": "<no translation>",
+    "CP": 2,
+    "parentNode": 1750,
+    "affTown": 1124,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1407": 1,
+      "0": 1
+    }
+  },
+  "3815": {
+    "key": 3815,
+    "name": "<no translation>",
+    "CP": 3,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 3,
+      "1556": 2,
+      "0": 1
+    }
+  },
+  "3814": {
+    "key": 3814,
+    "name": "<no translation>",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 3,
+      "15": 5,
+      "0": 1
+    }
+  },
+  "3805": {
+    "key": 3805,
+    "name": "O'draxxia 5",
+    "CP": 5,
+    "parentNode": 1691,
+    "affTown": 955,
+    "needHouseKey": 3804,
+    "CraftList": {
+      "2": 5,
+      "1": 3,
+      "1556": 2,
+      "0": 1
+    }
+  },
+  "3804": {
+    "key": 3804,
+    "name": "O'draxxia 4",
+    "CP": 4,
+    "parentNode": 1691,
+    "affTown": 955,
+    "needHouseKey": 3803,
+    "CraftList": {
+      "2": 5,
+      "1": 3,
+      "15": 5,
+      "0": 1
+    }
+  },
+  "3803": {
+    "key": 3803,
+    "name": "O'draxxia 3",
+    "CP": 3,
+    "parentNode": 1691,
+    "affTown": 955,
+    "needHouseKey": 3802,
+    "CraftList": {
+      "2": 5,
+      "1": 2,
+      "1555": 2,
+      "0": 1
+    }
+  },
+  "3802": {
+    "key": 3802,
+    "name": "O'draxxia 2",
+    "CP": 2,
+    "parentNode": 1691,
+    "affTown": 955,
+    "needHouseKey": 3801,
+    "CraftList": {
+      "2": 5,
+      "1": 2,
+      "16": 4,
+      "0": 1
+    }
+  },
+  "3801": {
+    "key": 3801,
+    "name": "O'draxxia 1",
+    "CP": 2,
+    "parentNode": 1691,
+    "affTown": 955,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 1,
+      "28": 3,
+      "0": 1
+    }
+  },
+  "3702": {
+    "key": 3702,
+    "name": "Muiquun 2",
+    "CP": 4,
+    "parentNode": 1381,
+    "affTown": 694,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "0": 1
+    }
+  },
+  "3701": {
+    "key": 3701,
+    "name": "Muiquun 1",
+    "CP": 4,
+    "parentNode": 1381,
+    "affTown": 694,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "3": 3,
+      "0": 1
+    }
+  },
+  "3617": {
+    "key": 3617,
+    "name": "Khimut Lumber Camp 1-2",
+    "CP": 10,
+    "parentNode": 1666,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "14": 2,
+      "16": 3,
+      "1506": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3616": {
+    "key": 3616,
+    "name": "Khimut Lumber Camp 1-1",
+    "CP": 8,
+    "parentNode": 1666,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "14": 4,
+      "16": 2,
+      "1553": 2,
+      "0": 1
+    }
+  },
+  "3615": {
+    "key": 3615,
+    "name": "Dormann Lumber Camp 2",
+    "CP": 10,
+    "parentNode": 1665,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "14": 1,
+      "16": 3,
+      "1552": 1,
+      "1553": 2,
+      "0": 1
+    }
+  },
+  "3614": {
+    "key": 3614,
+    "name": "Dormann Lumber Camp 1",
+    "CP": 10,
+    "parentNode": 1665,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "14": 4,
+      "16": 1,
+      "1506": 1,
+      "1554": 1,
+      "0": 1
+    }
+  },
+  "3613": {
+    "key": 3613,
+    "name": "Duvencrune 11-2",
+    "CP": 8,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3612": {
+    "key": 3612,
+    "name": "Duvencrune 11-1",
+    "CP": 8,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "16": 4,
+      "1553": 1,
+      "0": 1
+    }
+  },
+  "3611": {
+    "key": 3611,
+    "name": "Duvencrune 10",
+    "CP": 8,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "14": 3,
+      "1303": 3,
+      "0": 1
+    }
+  },
+  "3610": {
+    "key": 3610,
+    "name": "Duvencrune 9-2",
+    "CP": 10,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1426": 1,
+      "1427": 1,
+      "26": 4,
+      "1304": 2,
+      "0": 1
+    }
+  },
+  "3609": {
+    "key": 3609,
+    "name": "Duvencrune 9-1",
+    "CP": 8,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "3608": {
+    "key": 3608,
+    "name": "Duvencrune 8",
+    "CP": 8,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 2,
+      "1426": 1,
+      "1427": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3607": {
+    "key": 3607,
+    "name": "Duvencrune 7",
+    "CP": 10,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "13": 4,
+      "16": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3606": {
+    "key": 3606,
+    "name": "Duvencrune 6",
+    "CP": 8,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 2,
+      "15": 2,
+      "0": 1
+    }
+  },
+  "3605": {
+    "key": 3605,
+    "name": "Duvencrune 5",
+    "CP": 6,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "15": 4,
+      "1801": 3,
+      "0": 1
+    }
+  },
+  "3604": {
+    "key": 3604,
+    "name": "Duvencrune 4",
+    "CP": 8,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "12": 5,
+      "0": 1
+    }
+  },
+  "3603": {
+    "key": 3603,
+    "name": "Duvencrune 3",
+    "CP": 8,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 2,
+      "11": 3,
+      "0": 1
+    }
+  },
+  "3602": {
+    "key": 3602,
+    "name": "Duvencrune 2",
+    "CP": 10,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "11": 4,
+      "0": 1
+    }
+  },
+  "3601": {
+    "key": 3601,
+    "name": "Duvencrune 1",
+    "CP": 8,
+    "parentNode": 1649,
+    "affTown": 873,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "3": 5,
+      "0": 1
+    }
+  },
+  "3310": {
+    "key": 3310,
+    "name": "Barhan Farm 1-2",
+    "CP": 3,
+    "parentNode": 1351,
+    "affTown": 605,
+    "needHouseKey": 3309,
+    "CraftList": {
+      "2": 2,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3309": {
+    "key": 3309,
+    "name": "Barhan Farm 1-1",
+    "CP": 1,
+    "parentNode": 1351,
+    "affTown": 605,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3308": {
+    "key": 3308,
+    "name": "Sand Grain Bazaar 3-2",
+    "CP": 3,
+    "parentNode": 1319,
+    "affTown": 605,
+    "needHouseKey": 3307,
+    "CraftList": {
+      "2": 3,
+      "3": 3,
+      "17": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3307": {
+    "key": 3307,
+    "name": "Sand Grain Bazaar 3-1",
+    "CP": 1,
+    "parentNode": 1319,
+    "affTown": 605,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3306": {
+    "key": 3306,
+    "name": "Sand Grain Bazaar 2-3",
+    "CP": 4,
+    "parentNode": 1319,
+    "affTown": 605,
+    "needHouseKey": 3305,
+    "CraftList": {
+      "2": 4,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "3305": {
+    "key": 3305,
+    "name": "Sand Grain Bazaar 2-2",
+    "CP": 3,
+    "parentNode": 1319,
+    "affTown": 605,
+    "needHouseKey": 3304,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "16": 2,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3304": {
+    "key": 3304,
+    "name": "Sand Grain Bazaar 2-1",
+    "CP": 1,
+    "parentNode": 1319,
+    "affTown": 605,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3303": {
+    "key": 3303,
+    "name": "Sand Grain Bazaar 1-3",
+    "CP": 4,
+    "parentNode": 1319,
+    "affTown": 605,
+    "needHouseKey": 3302,
+    "CraftList": {
+      "2": 4,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "3302": {
+    "key": 3302,
+    "name": "Sand Grain Bazaar 1-2",
+    "CP": 3,
+    "parentNode": 1319,
+    "affTown": 605,
+    "needHouseKey": 3301,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "17": 1,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3301": {
+    "key": 3301,
+    "name": "Sand Grain Bazaar 1-1",
+    "CP": 1,
+    "parentNode": 1319,
+    "affTown": 605,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3207": {
+    "key": 3207,
+    "name": "Shakatu Farm 1-2",
+    "CP": 3,
+    "parentNode": 1352,
+    "affTown": 601,
+    "needHouseKey": 3206,
+    "CraftList": {
+      "2": 3,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3206": {
+    "key": 3206,
+    "name": "Shakatu Farm 1-1",
+    "CP": 2,
+    "parentNode": 1352,
+    "affTown": 601,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 2,
+      "17": 2,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3205": {
+    "key": 3205,
+    "name": "Shakatu Camp 2-2",
+    "CP": 4,
+    "parentNode": 1314,
+    "affTown": 601,
+    "needHouseKey": 3204,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "16": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3204": {
+    "key": 3204,
+    "name": "Shakatu Camp 2-1",
+    "CP": 2,
+    "parentNode": 1314,
+    "affTown": 601,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 2,
+      "1513": 1,
+      "0": 1
+    }
+  },
+  "3203": {
+    "key": 3203,
+    "name": "Shakatu Camp 1-3",
+    "CP": 4,
+    "parentNode": 1314,
+    "affTown": 601,
+    "needHouseKey": 3202,
+    "CraftList": {
+      "2": 4,
+      "1": 3,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3202": {
+    "key": 3202,
+    "name": "Shakatu Camp 1-2",
+    "CP": 2,
+    "parentNode": 1314,
+    "affTown": 601,
+    "needHouseKey": 3201,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 1,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3201": {
+    "key": 3201,
+    "name": "Shakatu Camp 1-1",
+    "CP": 1,
+    "parentNode": 1314,
+    "affTown": 601,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "3175": {
+    "key": 3175,
+    "name": "Altas Farm 1-2",
+    "CP": 3,
+    "parentNode": 1353,
+    "affTown": 619,
+    "needHouseKey": 3174,
+    "CraftList": {
+      "2": 3,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3174": {
+    "key": 3174,
+    "name": "Altas Farm 1-1",
+    "CP": 2,
+    "parentNode": 1353,
+    "affTown": 619,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3173": {
+    "key": 3173,
+    "name": "Ancado Inner Harbor 1-3",
+    "CP": 4,
+    "parentNode": 1343,
+    "affTown": 619,
+    "needHouseKey": 3172,
+    "CraftList": {
+      "2": 4,
+      "1302": 3,
+      "0": 1
+    }
+  },
+  "3172": {
+    "key": 3172,
+    "name": "Ancado Inner Harbor 1-2",
+    "CP": 3,
+    "parentNode": 1343,
+    "affTown": 619,
+    "needHouseKey": 3171,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "1106": 2,
+      "1513": 1,
+      "0": 1
+    }
+  },
+  "3171": {
+    "key": 3171,
+    "name": "Ancado Inner Harbor 1-1",
+    "CP": 1,
+    "parentNode": 1343,
+    "affTown": 619,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3168": {
+    "key": 3168,
+    "name": "Erdal Farm 1",
+    "CP": 2,
+    "parentNode": 1354,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1514": 1,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3151": {
+    "key": 3151,
+    "name": "Valencia 19-1",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3150": {
+    "key": 3150,
+    "name": "Valencia 18-2, 2F",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3149,
+    "CraftList": {
+      "2": 5,
+      "0": 1
+    }
+  },
+  "3149": {
+    "key": 3149,
+    "name": "Valencia 18-2, 1F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3147,
+    "CraftList": {
+      "2": 4,
+      "17": 1,
+      "1513": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3148": {
+    "key": 3148,
+    "name": "Valencia 18-1, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3147,
+    "CraftList": {
+      "2": 4,
+      "15": 1,
+      "0": 1
+    }
+  },
+  "3147": {
+    "key": 3147,
+    "name": "Valencia 18-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3146": {
+    "key": 3146,
+    "name": "Valencia 17-4, 2F",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3145,
+    "CraftList": {
+      "2": 5,
+      "1702": 1,
+      "0": 1
+    }
+  },
+  "3145": {
+    "key": 3145,
+    "name": "Valencia 17-4, 1F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3144,
+    "CraftList": {
+      "2": 3,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "3144": {
+    "key": 3144,
+    "name": "Valencia 17-3",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3143,
+    "CraftList": {
+      "2": 3,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3143": {
+    "key": 3143,
+    "name": "Valencia 17-2",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3141,
+    "CraftList": {
+      "2": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3141": {
+    "key": 3141,
+    "name": "Valencia 17-1",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "3167": {
+    "key": 3167,
+    "name": "Valencia Plantation 1-3",
+    "CP": 4,
+    "parentNode": 1355,
+    "affTown": 229,
+    "needHouseKey": 3166,
+    "CraftList": {
+      "2": 4,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3166": {
+    "key": 3166,
+    "name": "Valencia Plantation 1-2",
+    "CP": 2,
+    "parentNode": 1355,
+    "affTown": 229,
+    "needHouseKey": 3165,
+    "CraftList": {
+      "2": 3,
+      "1515": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3165": {
+    "key": 3165,
+    "name": "Valencia Plantation 1-1",
+    "CP": 1,
+    "parentNode": 1355,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3164": {
+    "key": 3164,
+    "name": "Fohalam Farm 1",
+    "CP": 1,
+    "parentNode": 1356,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "0": 1
+    }
+  },
+  "3162": {
+    "key": 3162,
+    "name": "Valencia 20-2, 2F",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3161,
+    "CraftList": {
+      "2": 5,
+      "1": 3,
+      "15": 5,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3161": {
+    "key": 3161,
+    "name": "Valencia 20-2, 1F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3158,
+    "CraftList": {
+      "2": 4,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "3160": {
+    "key": 3160,
+    "name": "Valencia 20-1, 3F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3159,
+    "CraftList": {
+      "2": 4,
+      "0": 1
+    }
+  },
+  "3159": {
+    "key": 3159,
+    "name": "Valencia 20-1, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3158,
+    "CraftList": {
+      "2": 3,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3158": {
+    "key": 3158,
+    "name": "Valencia 20-1, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "3157": {
+    "key": 3157,
+    "name": "Valencia 19-4, 2F",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3156,
+    "CraftList": {
+      "2": 5,
+      "1": 4,
+      "3": 5,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "3156": {
+    "key": 3156,
+    "name": "Valencia 19-4, 1F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3154,
+    "CraftList": {
+      "2": 3,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "3155": {
+    "key": 3155,
+    "name": "Valencia 19-3, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3154,
+    "CraftList": {
+      "2": 4,
+      "0": 1
+    }
+  },
+  "3154": {
+    "key": 3154,
+    "name": "Valencia 19-3, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3152,
+    "CraftList": {
+      "2": 2,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3153": {
+    "key": 3153,
+    "name": "Valencia 19-2, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3152,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "3152": {
+    "key": 3152,
+    "name": "Valencia 19-2, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3151,
+    "CraftList": {
+      "2": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3114": {
+    "key": 3114,
+    "name": "Valencia 14-4",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3112,
+    "CraftList": {
+      "2": 5,
+      "12": 4,
+      "0": 1
+    }
+  },
+  "3113": {
+    "key": 3113,
+    "name": "Valencia 14-3, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3112,
+    "CraftList": {
+      "2": 4,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "3112": {
+    "key": 3112,
+    "name": "Valencia 14-3, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3110,
+    "CraftList": {
+      "2": 2,
+      "0": 1
+    }
+  },
+  "3111": {
+    "key": 3111,
+    "name": "Valencia 14-2, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3110,
+    "CraftList": {
+      "2": 4,
+      "1303": 2,
+      "0": 1
+    }
+  },
+  "3110": {
+    "key": 3110,
+    "name": "Valencia 14-2, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3108,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3109": {
+    "key": 3109,
+    "name": "Valencia 14-1, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3108,
+    "CraftList": {
+      "2": 2,
+      "1513": 1,
+      "0": 1
+    }
+  },
+  "3108": {
+    "key": 3108,
+    "name": "Valencia 14-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3107": {
+    "key": 3107,
+    "name": "Valencia 13-4, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3106,
+    "CraftList": {
+      "2": 5,
+      "15": 5,
+      "0": 1
+    }
+  },
+  "3106": {
+    "key": 3106,
+    "name": "Valencia 13-4, 1F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3105,
+    "CraftList": {
+      "2": 4,
+      "12": 3,
+      "0": 1
+    }
+  },
+  "3105": {
+    "key": 3105,
+    "name": "Valencia 13-3",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3103,
+    "CraftList": {
+      "2": 3,
+      "14": 2,
+      "0": 1
+    }
+  },
+  "3104": {
+    "key": 3104,
+    "name": "Valencia 13-2, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3103,
+    "CraftList": {
+      "2": 3,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3134": {
+    "key": 3134,
+    "name": "Valencia 16-3, 2F",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3133,
+    "CraftList": {
+      "2": 5,
+      "15": 4,
+      "0": 1
+    }
+  },
+  "3133": {
+    "key": 3133,
+    "name": "Valencia 16-3, 1F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3131,
+    "CraftList": {
+      "2": 3,
+      "1207": 3,
+      "0": 1
+    }
+  },
+  "3132": {
+    "key": 3132,
+    "name": "Valencia 16-2, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3131,
+    "CraftList": {
+      "2": 5,
+      "17": 2,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3131": {
+    "key": 3131,
+    "name": "Valencia 16-2, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3130,
+    "CraftList": {
+      "2": 2,
+      "12": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3130": {
+    "key": 3130,
+    "name": "Valencia 16-1",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3129": {
+    "key": 3129,
+    "name": "Valencia 15-5, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3128,
+    "CraftList": {
+      "2": 4,
+      "17": 3,
+      "1405": 5,
+      "0": 1
+    }
+  },
+  "3128": {
+    "key": 3128,
+    "name": "Valencia 15-5, 1F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3127,
+    "CraftList": {
+      "2": 3,
+      "15": 4,
+      "0": 1
+    }
+  },
+  "3127": {
+    "key": 3127,
+    "name": "Valencia 15-4",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3125,
+    "CraftList": {
+      "2": 3,
+      "12": 3,
+      "0": 1
+    }
+  },
+  "3126": {
+    "key": 3126,
+    "name": "Valencia 15-3, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3125,
+    "CraftList": {
+      "2": 4,
+      "0": 1
+    }
+  },
+  "3125": {
+    "key": 3125,
+    "name": "Valencia 15-3, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3123,
+    "CraftList": {
+      "2": 2,
+      "0": 1
+    }
+  },
+  "3124": {
+    "key": 3124,
+    "name": "Valencia 15-2, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3123,
+    "CraftList": {
+      "2": 3,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3123": {
+    "key": 3123,
+    "name": "Valencia 15-2, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3121,
+    "CraftList": {
+      "2": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3122": {
+    "key": 3122,
+    "name": "Valencia 15-1, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3121,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "3121": {
+    "key": 3121,
+    "name": "Valencia 15-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3087": {
+    "key": 3087,
+    "name": "Valencia 11-5, 1F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3085,
+    "CraftList": {
+      "2": 3,
+      "15": 4,
+      "0": 1
+    }
+  },
+  "3086": {
+    "key": 3086,
+    "name": "Valencia 11-4, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3085,
+    "CraftList": {
+      "2": 4,
+      "16": 4,
+      "0": 1
+    }
+  },
+  "3085": {
+    "key": 3085,
+    "name": "Valencia 11-4, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3084,
+    "CraftList": {
+      "2": 2,
+      "0": 1
+    }
+  },
+  "3084": {
+    "key": 3084,
+    "name": "Valencia 11-3",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3082,
+    "CraftList": {
+      "2": 2,
+      "14": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "3083": {
+    "key": 3083,
+    "name": "Valencia 11-2, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3082,
+    "CraftList": {
+      "2": 3,
+      "1513": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3082": {
+    "key": 3082,
+    "name": "Valencia 11-2, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3081,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "13": 1,
+      "0": 1
+    }
+  },
+  "3081": {
+    "key": 3081,
+    "name": "Valencia 11-1",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3075": {
+    "key": 3075,
+    "name": "Valencia 10-2",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3072,
+    "CraftList": {
+      "2": 5,
+      "11": 3,
+      "14": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3074": {
+    "key": 3074,
+    "name": "Valencia 10-1, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3072,
+    "CraftList": {
+      "2": 5,
+      "13": 1,
+      "15": 2,
+      "0": 1
+    }
+  },
+  "3073": {
+    "key": 3073,
+    "name": "Valencia 10-1, 1F, Rm. 2",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3072,
+    "CraftList": {
+      "2": 3,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "3072": {
+    "key": 3072,
+    "name": "Valencia 10-1, 1F, Rm. 1",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3103": {
+    "key": 3103,
+    "name": "Valencia 13-2, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3101,
+    "CraftList": {
+      "2": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3102": {
+    "key": 3102,
+    "name": "Valencia 13-1, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3101,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "3101": {
+    "key": 3101,
+    "name": "Valencia 13-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "3093": {
+    "key": 3093,
+    "name": "Valencia 12-3",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3091,
+    "CraftList": {
+      "2": 5,
+      "0": 1
+    }
+  },
+  "3092": {
+    "key": 3092,
+    "name": "Valencia 12-2, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3091,
+    "CraftList": {
+      "2": 4,
+      "16": 3,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3091": {
+    "key": 3091,
+    "name": "Valencia 12-2, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3089,
+    "CraftList": {
+      "2": 2,
+      "12": 1,
+      "14": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3090": {
+    "key": 3090,
+    "name": "Valencia 12-1, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3089,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "0": 1
+    }
+  },
+  "3089": {
+    "key": 3089,
+    "name": "Valencia 12-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3088": {
+    "key": 3088,
+    "name": "Valencia 11-5, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3087,
+    "CraftList": {
+      "2": 5,
+      "12": 5,
+      "0": 1
+    }
+  },
+  "3552": {
+    "key": 3552,
+    "name": "Viv Foretta Hamlet 2",
+    "CP": 3,
+    "parentNode": 1610,
+    "affTown": 706,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "14": 2,
+      "16": 1,
+      "1518": 1,
+      "0": 1
+    }
+  },
+  "3551": {
+    "key": 3551,
+    "name": "Viv Foretta Hamlet 1",
+    "CP": 2,
+    "parentNode": 1610,
+    "affTown": 706,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "15": 2,
+      "1517": 1,
+      "0": 1
+    }
+  },
+  "3503": {
+    "key": 3503,
+    "name": "Gr\u00e1na 3, 1F",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "17": 3,
+      "21": 3,
+      "0": 1
+    }
+  },
+  "3502": {
+    "key": 3502,
+    "name": "Gr\u00e1na 2",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1426": 1,
+      "1427": 1,
+      "1406": 4,
+      "0": 1
+    }
+  },
+  "3501": {
+    "key": 3501,
+    "name": "Gr\u00e1na 1",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "3": 5,
+      "0": 1
+    }
+  },
+  "3519": {
+    "key": 3519,
+    "name": "Gr\u00e1na 17",
+    "CP": 8,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 4,
+      "1516": 2,
+      "1518": 2,
+      "0": 1
+    }
+  },
+  "3518": {
+    "key": 3518,
+    "name": "Gr\u00e1na 16",
+    "CP": 5,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 4,
+      "1": 2,
+      "1518": 2,
+      "0": 1
+    }
+  },
+  "3517": {
+    "key": 3517,
+    "name": "Gr\u00e1na 15",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "12": 5,
+      "17": 3,
+      "1554": 2,
+      "0": 1
+    }
+  },
+  "3516": {
+    "key": 3516,
+    "name": "Gr\u00e1na 14",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "13": 4,
+      "1426": 1,
+      "1427": 1,
+      "27": 2,
+      "0": 1
+    }
+  },
+  "3515": {
+    "key": 3515,
+    "name": "Gr\u00e1na 13",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "14": 4,
+      "0": 1
+    }
+  },
+  "3514": {
+    "key": 3514,
+    "name": "Gr\u00e1na 12, 2F",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "15": 5,
+      "21": 3,
+      "0": 1
+    }
+  },
+  "3513": {
+    "key": 3513,
+    "name": "Gr\u00e1na 12, 1F",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "16": 4,
+      "0": 1
+    }
+  },
+  "3512": {
+    "key": 3512,
+    "name": "Gr\u00e1na 11",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "11": 3,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "3511": {
+    "key": 3511,
+    "name": "Gr\u00e1na 10",
+    "CP": 8,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 4,
+      "1": 3,
+      "21": 3,
+      "1517": 2,
+      "0": 1
+    }
+  },
+  "3510": {
+    "key": 3510,
+    "name": "Gr\u00e1na 9",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "12": 4,
+      "1426": 1,
+      "1406": 4,
+      "1553": 2,
+      "0": 1
+    }
+  },
+  "3509": {
+    "key": 3509,
+    "name": "Gr\u00e1na 8",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "13": 3,
+      "21": 3,
+      "0": 1
+    }
+  },
+  "3508": {
+    "key": 3508,
+    "name": "Gr\u00e1na 7",
+    "CP": 5,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 4,
+      "1": 2,
+      "17": 3,
+      "1516": 2,
+      "1517": 2,
+      "0": 1
+    }
+  },
+  "3507": {
+    "key": 3507,
+    "name": "Gr\u00e1na 6",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "3506": {
+    "key": 3506,
+    "name": "Gr\u00e1na 5",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "15": 4,
+      "1406": 5,
+      "0": 1
+    }
+  },
+  "3505": {
+    "key": 3505,
+    "name": "Gr\u00e1na 4",
+    "CP": 15,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "11": 4,
+      "1208": 4,
+      "0": 1
+    }
+  },
+  "3504": {
+    "key": 3504,
+    "name": "Gr\u00e1na 3, 2F",
+    "CP": 11,
+    "parentNode": 1623,
+    "affTown": 735,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "16": 3,
+      "1303": 4,
+      "0": 1
+    }
+  },
+  "3404": {
+    "key": 3404,
+    "name": "Arehaza 2-2",
+    "CP": 3,
+    "parentNode": 1380,
+    "affTown": 693,
+    "needHouseKey": 3403,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "16": 3,
+      "1106": 2,
+      "1405": 3,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3403": {
+    "key": 3403,
+    "name": "Arehaza 2-1",
+    "CP": 1,
+    "parentNode": 1380,
+    "affTown": 693,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "24": 3,
+      "0": 1
+    }
+  },
+  "3402": {
+    "key": 3402,
+    "name": "Arehaza 1-2",
+    "CP": 3,
+    "parentNode": 1380,
+    "affTown": 693,
+    "needHouseKey": 3401,
+    "CraftList": {
+      "2": 3,
+      "1": 1,
+      "14": 3,
+      "1302": 3,
+      "1513": 1,
+      "0": 1
+    }
+  },
+  "3401": {
+    "key": 3401,
+    "name": "Arehaza 1-1",
+    "CP": 1,
+    "parentNode": 1380,
+    "affTown": 693,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "0": 1
+    }
+  },
+  "2799": {
+    "key": 2799,
+    "name": "Calpheon East Gate 6, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2798,
+    "CraftList": {
+      "2": 3,
+      "15": 1,
+      "1301": 2,
+      "0": 1
+    }
+  },
+  "2798": {
+    "key": 2798,
+    "name": "Calpheon East Gate 6, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2792,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2797": {
+    "key": 2797,
+    "name": "Calpheon East Gate 5, 2F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2796,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "1301": 2,
+      "0": 1
+    }
+  },
+  "2796": {
+    "key": 2796,
+    "name": "Calpheon East Gate 5, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2793,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2795": {
+    "key": 2795,
+    "name": "Calpheon East Gate 4, 3F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2794,
+    "CraftList": {
+      "2": 4,
+      "1": 3,
+      "1404": 4,
+      "0": 1
+    }
+  },
+  "2794": {
+    "key": 2794,
+    "name": "Calpheon East Gate 4, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2793,
+    "CraftList": {
+      "2": 3,
+      "1": 3,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "2793": {
+    "key": 2793,
+    "name": "Calpheon East Gate 4, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2792,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "15": 1,
+      "0": 1
+    }
+  },
+  "2792": {
+    "key": 2792,
+    "name": "Calpheon East Gate 3",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2805,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2791": {
+    "key": 2791,
+    "name": "Calpheon East Gate 1, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2815": {
+    "key": 2815,
+    "name": "Gabino Farm 3, 2F",
+    "CP": 2,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2814,
+    "CraftList": {
+      "2": 2,
+      "17": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2814": {
+    "key": 2814,
+    "name": "Gabino Farm 3, 1F",
+    "CP": 1,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2813,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2813": {
+    "key": 2813,
+    "name": "Gabino Farm 2, 2F",
+    "CP": 1,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2812": {
+    "key": 2812,
+    "name": "Gabino Farm 1, 2F",
+    "CP": 2,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2811,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2811": {
+    "key": 2811,
+    "name": "Gabino Farm 1, 1F",
+    "CP": 1,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2813,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1051": 1,
+      "0": 1
+    }
+  },
+  "2805": {
+    "key": 2805,
+    "name": "Calpheon East Gate 2",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2791,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2804": {
+    "key": 2804,
+    "name": "Calpheon East Gate 1, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2791,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2803": {
+    "key": 2803,
+    "name": "Calpheon East Gate 9",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2801,
+    "CraftList": {
+      "2": 2,
+      "1301": 1,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2802": {
+    "key": 2802,
+    "name": "Calpheon East Gate 8, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2801,
+    "CraftList": {
+      "2": 2,
+      "14": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2801": {
+    "key": 2801,
+    "name": "Calpheon East Gate 8, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2800,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2800": {
+    "key": 2800,
+    "name": "Calpheon East Gate 7",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2755": {
+    "key": 2755,
+    "name": "Calpheon North Gate 4, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2754,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "17": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2754": {
+    "key": 2754,
+    "name": "Calpheon North Gate 4, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2753": {
+    "key": 2753,
+    "name": "Calpheon North Gate 3",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2754,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2752": {
+    "key": 2752,
+    "name": "Calpheon North Gate 2",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2753,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2776": {
+    "key": 2776,
+    "name": "Calpheon South Gate 4, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2775,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2775": {
+    "key": 2775,
+    "name": "Calpheon South Gate 4, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2774,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2774": {
+    "key": 2774,
+    "name": "Calpheon South Gate 3",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2773": {
+    "key": 2773,
+    "name": "Calpheon South Gate 2, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2772,
+    "CraftList": {
+      "2": 3,
+      "1": 3,
+      "0": 1
+    }
+  },
+  "2772": {
+    "key": 2772,
+    "name": "Calpheon South Gate 2, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2771,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2771": {
+    "key": 2771,
+    "name": "Calpheon South Gate 1",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2751": {
+    "key": 2751,
+    "name": "Calpheon North Gate 1",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2752,
+    "CraftList": {
+      "2": 3,
+      "1": 3,
+      "3": 5,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2703": {
+    "key": 2703,
+    "name": "Chapel 2-2, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2663,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "15": 1,
+      "0": 1
+    }
+  },
+  "2702": {
+    "key": 2702,
+    "name": "Chapel 2-1, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2662,
+    "CraftList": {
+      "2": 2,
+      "11": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2701": {
+    "key": 2701,
+    "name": "Chapel 1-4, 3F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2700,
+    "CraftList": {
+      "2": 4,
+      "12": 3,
+      "15": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2700": {
+    "key": 2700,
+    "name": "Chapel 1-4, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2661,
+    "CraftList": {
+      "2": 3,
+      "14": 3,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2699": {
+    "key": 2699,
+    "name": "Chapel 1-3, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2660,
+    "CraftList": {
+      "2": 3,
+      "11": 2,
+      "14": 2,
+      "1303": 2,
+      "0": 1
+    }
+  },
+  "2698": {
+    "key": 2698,
+    "name": "Chapel 1-1, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2658,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2697": {
+    "key": 2697,
+    "name": "Chapel 4-6",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2689,
+    "CraftList": {
+      "2": 4,
+      "11": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2696": {
+    "key": 2696,
+    "name": "Workshop District 1-2, B1",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2637,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2695": {
+    "key": 2695,
+    "name": "Merchant Lane 3-10",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2634,
+    "CraftList": {
+      "2": 4,
+      "11": 3,
+      "12": 3,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "2694": {
+    "key": 2694,
+    "name": "Chapel 4-7",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2692,
+    "CraftList": {
+      "2": 5,
+      "12": 4,
+      "1404": 4,
+      "0": 1
+    }
+  },
+  "2693": {
+    "key": 2693,
+    "name": "Chapel 4-5, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2692,
+    "CraftList": {
+      "2": 4,
+      "17": 3,
+      "1301": 2,
+      "1303": 3,
+      "0": 1
+    }
+  },
+  "2692": {
+    "key": 2692,
+    "name": "Chapel 4-5, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2690,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2690": {
+    "key": 2690,
+    "name": "Chapel 4-4, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2689,
+    "CraftList": {
+      "2": 3,
+      "12": 2,
+      "1301": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2689": {
+    "key": 2689,
+    "name": "Chapel 4-3",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2687,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2688": {
+    "key": 2688,
+    "name": "Chapel 4-2, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2687,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "15": 1,
+      "0": 1
+    }
+  },
+  "2671": {
+    "key": 2671,
+    "name": "Chapel 3-2",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2670,
+    "CraftList": {
+      "2": 2,
+      "14": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2670": {
+    "key": 2670,
+    "name": "Chapel 3-1",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2669": {
+    "key": 2669,
+    "name": "Chapel 2-5, 3F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2668,
+    "CraftList": {
+      "2": 4,
+      "1": 3,
+      "1302": 3,
+      "0": 1
+    }
+  },
+  "2668": {
+    "key": 2668,
+    "name": "Chapel 2-5, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2667,
+    "CraftList": {
+      "2": 3,
+      "1": 3,
+      "1423": 1,
+      "1427": 1,
+      "0": 1
+    }
+  },
+  "2667": {
+    "key": 2667,
+    "name": "Chapel 2-5, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2666,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2666": {
+    "key": 2666,
+    "name": "Chapel 2-4",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2663,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "2665": {
+    "key": 2665,
+    "name": "Chapel 2-3, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2664,
+    "CraftList": {
+      "2": 3,
+      "11": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2664": {
+    "key": 2664,
+    "name": "Chapel 2-3, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2663,
+    "CraftList": {
+      "2": 3,
+      "16": 2,
+      "1301": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2663": {
+    "key": 2663,
+    "name": "Chapel 2-2, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2662,
+    "CraftList": {
+      "2": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2662": {
+    "key": 2662,
+    "name": "Chapel 2-1, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2661": {
+    "key": 2661,
+    "name": "Chapel 1-4, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2660,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2660": {
+    "key": 2660,
+    "name": "Chapel 1-3, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2659,
+    "CraftList": {
+      "2": 2,
+      "1551": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2659": {
+    "key": 2659,
+    "name": "Chapel 1-2",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2658,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2658": {
+    "key": 2658,
+    "name": "Chapel 1-1, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2657": {
+    "key": 2657,
+    "name": "Workshop District 2-5, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2656,
+    "CraftList": {
+      "2": 5,
+      "1301": 3,
+      "0": 1
+    }
+  },
+  "2656": {
+    "key": 2656,
+    "name": "Workshop District 2-5, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2655,
+    "CraftList": {
+      "2": 4,
+      "11": 3,
+      "12": 3,
+      "1051": 3,
+      "0": 1
+    }
+  },
+  "2687": {
+    "key": 2687,
+    "name": "Chapel 4-2, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2685,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2686": {
+    "key": 2686,
+    "name": "Chapel 4-1, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2685,
+    "CraftList": {
+      "2": 2,
+      "14": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2685": {
+    "key": 2685,
+    "name": "Chapel 4-1, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2684": {
+    "key": 2684,
+    "name": "Chapel 3-10, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2683": {
+    "key": 2683,
+    "name": "Chapel 3-9, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2682,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2682": {
+    "key": 2682,
+    "name": "Chapel 3-9, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2684,
+    "CraftList": {
+      "2": 2,
+      "12": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2681": {
+    "key": 2681,
+    "name": "Chapel 3-8, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2680,
+    "CraftList": {
+      "2": 3,
+      "1301": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2680": {
+    "key": 2680,
+    "name": "Chapel 3-8, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2682,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2679": {
+    "key": 2679,
+    "name": "Chapel 3-7, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2678,
+    "CraftList": {
+      "2": 3,
+      "13": 3,
+      "14": 3,
+      "1302": 2,
+      "0": 1
+    }
+  },
+  "2678": {
+    "key": 2678,
+    "name": "Chapel 3-7, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2680,
+    "CraftList": {
+      "2": 2,
+      "11": 2,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "2677": {
+    "key": 2677,
+    "name": "Chapel 3-6",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2678,
+    "CraftList": {
+      "2": 4,
+      "12": 3,
+      "1301": 3,
+      "0": 1
+    }
+  },
+  "2676": {
+    "key": 2676,
+    "name": "Chapel 3-5, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2675,
+    "CraftList": {
+      "2": 4,
+      "11": 3,
+      "0": 1
+    }
+  },
+  "2675": {
+    "key": 2675,
+    "name": "Chapel 3-5, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2673,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "1404": 4,
+      "0": 1
+    }
+  },
+  "2674": {
+    "key": 2674,
+    "name": "Chapel 3-4, 2F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2673,
+    "CraftList": {
+      "2": 4,
+      "13": 3,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "2673": {
+    "key": 2673,
+    "name": "Chapel 3-4, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2672,
+    "CraftList": {
+      "2": 3,
+      "11": 3,
+      "15": 1,
+      "0": 1
+    }
+  },
+  "2672": {
+    "key": 2672,
+    "name": "Chapel 3-3",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2671,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2639": {
+    "key": 2639,
+    "name": "Workshop District 1-2, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2696,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2638": {
+    "key": 2638,
+    "name": "Workshop District 1-1, Rm. 2",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2637,
+    "CraftList": {
+      "2": 2,
+      "11": 1,
+      "1051": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2637": {
+    "key": 2637,
+    "name": "Workshop District 1-1, Rm. 1",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2636": {
+    "key": 2636,
+    "name": "Merchant Lane 3-9, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2635,
+    "CraftList": {
+      "2": 5,
+      "1404": 4,
+      "0": 1
+    }
+  },
+  "2635": {
+    "key": 2635,
+    "name": "Merchant Lane 3-9, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2634,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "2634": {
+    "key": 2634,
+    "name": "Merchant Lane 3-8",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2632,
+    "CraftList": {
+      "2": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2633": {
+    "key": 2633,
+    "name": "Merchant Lane 3-7, 2F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2632,
+    "CraftList": {
+      "2": 3,
+      "13": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2632": {
+    "key": 2632,
+    "name": "Merchant Lane 3-7, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2630,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "0": 1
+    }
+  },
+  "2631": {
+    "key": 2631,
+    "name": "Merchant Lane 3-6, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2630,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2630": {
+    "key": 2630,
+    "name": "Merchant Lane 3-6, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2628,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2629": {
+    "key": 2629,
+    "name": "Merchant Lane 3-5, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2628,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2628": {
+    "key": 2628,
+    "name": "Merchant Lane 3-5, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2627": {
+    "key": 2627,
+    "name": "Merchant Lane 3-4, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2626,
+    "CraftList": {
+      "2": 2,
+      "0": 1
+    }
+  },
+  "2626": {
+    "key": 2626,
+    "name": "Merchant Lane 3-4, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2628,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2625": {
+    "key": 2625,
+    "name": "Merchant Lane 3-3, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2624,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2624": {
+    "key": 2624,
+    "name": "Merchant Lane 3-3, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2626,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2655": {
+    "key": 2655,
+    "name": "Workshop District 2-4, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2652,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2653": {
+    "key": 2653,
+    "name": "Workshop District 2-3, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2652,
+    "CraftList": {
+      "2": 4,
+      "1404": 5,
+      "0": 1
+    }
+  },
+  "2652": {
+    "key": 2652,
+    "name": "Workshop District 2-3, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2650,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2651": {
+    "key": 2651,
+    "name": "Workshop District 2-2, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2650,
+    "CraftList": {
+      "2": 2,
+      "14": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2650": {
+    "key": 2650,
+    "name": "Workshop District 2-2, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2648,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2649": {
+    "key": 2649,
+    "name": "Workshop District 2-1, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2648,
+    "CraftList": {
+      "2": 2,
+      "12": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2648": {
+    "key": 2648,
+    "name": "Workshop District 2-1, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2646": {
+    "key": 2646,
+    "name": "Workshop District 1-6, 1F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2644,
+    "CraftList": {
+      "2": 5,
+      "1203": 3,
+      "0": 1
+    }
+  },
+  "2645": {
+    "key": 2645,
+    "name": "Workshop District 1-5, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2644,
+    "CraftList": {
+      "2": 4,
+      "13": 3,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "2644": {
+    "key": 2644,
+    "name": "Workshop District 1-5, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2642,
+    "CraftList": {
+      "2": 3,
+      "14": 3,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2643": {
+    "key": 2643,
+    "name": "Workshop District 1-4, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2642,
+    "CraftList": {
+      "2": 3,
+      "12": 3,
+      "0": 1
+    }
+  },
+  "2642": {
+    "key": 2642,
+    "name": "Workshop District 1-4, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2641,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "2641": {
+    "key": 2641,
+    "name": "Workshop District 1-3",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2696,
+    "CraftList": {
+      "2": 2,
+      "1301": 1,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2607": {
+    "key": 2607,
+    "name": "Merchant Lane 2-2, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2606": {
+    "key": 2606,
+    "name": "Merchant Lane 2-1, Rm. 2",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2605,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2605": {
+    "key": 2605,
+    "name": "Merchant Lane 2-1, Rm. 1",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2607,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1051": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2604": {
+    "key": 2604,
+    "name": "Merchant Lane 1-2",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1701": 1,
+      "0": 1
+    }
+  },
+  "2603": {
+    "key": 2603,
+    "name": "Merchant Lane 1-1, Rm. 3",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2602,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "1302": 2,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2602": {
+    "key": 2602,
+    "name": "Merchant Lane 1-1, Rm. 2",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2601,
+    "CraftList": {
+      "2": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2601": {
+    "key": 2601,
+    "name": "Merchant Lane 1-1, Rm. 1",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2604,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2623": {
+    "key": 2623,
+    "name": "Merchant Lane 3-2, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2622,
+    "CraftList": {
+      "2": 4,
+      "14": 3,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "2622": {
+    "key": 2622,
+    "name": "Merchant Lane 3-2, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2624,
+    "CraftList": {
+      "2": 3,
+      "16": 2,
+      "1301": 2,
+      "0": 1
+    }
+  },
+  "2621": {
+    "key": 2621,
+    "name": "Merchant Lane 3-1",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2622,
+    "CraftList": {
+      "2": 5,
+      "1301": 3,
+      "0": 1
+    }
+  },
+  "2620": {
+    "key": 2620,
+    "name": "Merchant Lane 2-9, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2619,
+    "CraftList": {
+      "2": 4,
+      "0": 1
+    }
+  },
+  "2619": {
+    "key": 2619,
+    "name": "Merchant Lane 2-9, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2607,
+    "CraftList": {
+      "2": 2,
+      "11": 1,
+      "1404": 1,
+      "0": 1
+    }
+  },
+  "2618": {
+    "key": 2618,
+    "name": "Merchant Lane 2-8",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2619,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "0": 1
+    }
+  },
+  "2617": {
+    "key": 2617,
+    "name": "Merchant Lane 2-7, 3F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2616,
+    "CraftList": {
+      "2": 4,
+      "1301": 3,
+      "0": 1
+    }
+  },
+  "2616": {
+    "key": 2616,
+    "name": "Merchant Lane 2-7, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2615,
+    "CraftList": {
+      "2": 3,
+      "17": 3,
+      "1303": 2,
+      "0": 1
+    }
+  },
+  "2615": {
+    "key": 2615,
+    "name": "Merchant Lane 2-7, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2618,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2614": {
+    "key": 2614,
+    "name": "Merchant Lane 2-6",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2612,
+    "CraftList": {
+      "2": 5,
+      "1404": 4,
+      "0": 1
+    }
+  },
+  "2613": {
+    "key": 2613,
+    "name": "Merchant Lane 2-5, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2612,
+    "CraftList": {
+      "2": 5,
+      "1423": 2,
+      "1427": 1,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2612": {
+    "key": 2612,
+    "name": "Merchant Lane 2-5, B1",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2610,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "0": 1
+    }
+  },
+  "2611": {
+    "key": 2611,
+    "name": "Merchant Lane 2-4, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2610,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "14": 2,
+      "0": 1
+    }
+  },
+  "2610": {
+    "key": 2610,
+    "name": "Merchant Lane 2-4, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2609,
+    "CraftList": {
+      "2": 2,
+      "14": 1,
+      "0": 1
+    }
+  },
+  "2609": {
+    "key": 2609,
+    "name": "Merchant Lane 2-3, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2607,
+    "CraftList": {
+      "2": 1,
+      "1508": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2571": {
+    "key": 2571,
+    "name": "Noble Quarter 2-3, 3F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2566,
+    "CraftList": {
+      "2": 4,
+      "13": 3,
+      "1051": 3,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2568": {
+    "key": 2568,
+    "name": "Noble Quarter 2-4, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2567,
+    "CraftList": {
+      "2": 3,
+      "11": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2567": {
+    "key": 2567,
+    "name": "Noble Quarter 2-4, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2563,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1303": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2566": {
+    "key": 2566,
+    "name": "Noble Quarter 2-3, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2565,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "14": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2565": {
+    "key": 2565,
+    "name": "Noble Quarter 2-3, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2563,
+    "CraftList": {
+      "2": 2,
+      "16": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2564": {
+    "key": 2564,
+    "name": "Noble Quarter 2-2, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2563,
+    "CraftList": {
+      "2": 1,
+      "15": 1,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2563": {
+    "key": 2563,
+    "name": "Noble Quarter 2-2, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2562,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2562": {
+    "key": 2562,
+    "name": "Noble Quarter 2-1",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2561": {
+    "key": 2561,
+    "name": "Noble Quarter 1-7, 3F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2560,
+    "CraftList": {
+      "2": 5,
+      "17": 3,
+      "1404": 4,
+      "0": 1
+    }
+  },
+  "2560": {
+    "key": 2560,
+    "name": "Noble Quarter 1-7, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2559,
+    "CraftList": {
+      "2": 4,
+      "11": 3,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "3053": {
+    "key": 3053,
+    "name": "Valencia 7-2, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3052,
+    "CraftList": {
+      "2": 5,
+      "17": 2,
+      "1513": 1,
+      "0": 1
+    }
+  },
+  "3052": {
+    "key": 3052,
+    "name": "Valencia 7-2, 1F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3049,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3051": {
+    "key": 3051,
+    "name": "Valencia 7-1, 3F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3050,
+    "CraftList": {
+      "2": 4,
+      "11": 2,
+      "0": 1
+    }
+  },
+  "3050": {
+    "key": 3050,
+    "name": "Valencia 7-1, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3049,
+    "CraftList": {
+      "2": 3,
+      "14": 1,
+      "1303": 1,
+      "0": 1
+    }
+  },
+  "3049": {
+    "key": 3049,
+    "name": "Valencia 7-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3048": {
+    "key": 3048,
+    "name": "Valencia 6-2, 2F, Rm. 3",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3046,
+    "CraftList": {
+      "2": 5,
+      "17": 2,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3047": {
+    "key": 3047,
+    "name": "Valencia 6-2, 1F, Rm. 2",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3046,
+    "CraftList": {
+      "2": 4,
+      "11": 2,
+      "0": 1
+    }
+  },
+  "3046": {
+    "key": 3046,
+    "name": "Valencia 6-2, 1F, Rm. 1",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3044,
+    "CraftList": {
+      "2": 2,
+      "14": 1,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "3045": {
+    "key": 3045,
+    "name": "Valencia 6-1, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3044,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "15": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3044": {
+    "key": 3044,
+    "name": "Valencia 6-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3043": {
+    "key": 3043,
+    "name": "Valencia 5-4, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3042,
+    "CraftList": {
+      "2": 4,
+      "14": 4,
+      "0": 1
+    }
+  },
+  "3042": {
+    "key": 3042,
+    "name": "Valencia 5-4, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3040,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "3041": {
+    "key": 3041,
+    "name": "Valencia 5-3, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3040,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "3040": {
+    "key": 3040,
+    "name": "Valencia 5-3, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3038,
+    "CraftList": {
+      "2": 2,
+      "11": 2,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3071": {
+    "key": 3071,
+    "name": "Valencia 9-5, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3070,
+    "CraftList": {
+      "2": 5,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "3070": {
+    "key": 3070,
+    "name": "Valencia 9-5, 1F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3068,
+    "CraftList": {
+      "2": 3,
+      "11": 3,
+      "0": 1
+    }
+  },
+  "3069": {
+    "key": 3069,
+    "name": "Valencia 9-4, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3068,
+    "CraftList": {
+      "2": 4,
+      "16": 4,
+      "0": 1
+    }
+  },
+  "3068": {
+    "key": 3068,
+    "name": "Valencia 9-4, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3067,
+    "CraftList": {
+      "2": 3,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "3067": {
+    "key": 3067,
+    "name": "Valencia 9-3",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3066,
+    "CraftList": {
+      "2": 2,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3066": {
+    "key": 3066,
+    "name": "Valencia 9-2",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3065,
+    "CraftList": {
+      "2": 2,
+      "13": 1,
+      "15": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3065": {
+    "key": 3065,
+    "name": "Valencia 9-1",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3064": {
+    "key": 3064,
+    "name": "Valencia 8-5, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3063,
+    "CraftList": {
+      "2": 5,
+      "11": 4,
+      "0": 1
+    }
+  },
+  "3063": {
+    "key": 3063,
+    "name": "Valencia 8-5, 1F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3061,
+    "CraftList": {
+      "2": 4,
+      "13": 4,
+      "0": 1
+    }
+  },
+  "3062": {
+    "key": 3062,
+    "name": "Valencia 8-4, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3061,
+    "CraftList": {
+      "2": 4,
+      "0": 1
+    }
+  },
+  "3061": {
+    "key": 3061,
+    "name": "Valencia 8-4, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3059,
+    "CraftList": {
+      "2": 2,
+      "12": 3,
+      "1303": 2,
+      "0": 1
+    }
+  },
+  "3060": {
+    "key": 3060,
+    "name": "Valencia 8-3, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3059,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "3059": {
+    "key": 3059,
+    "name": "Valencia 8-3, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3057,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "3058": {
+    "key": 3058,
+    "name": "Valencia 8-2, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3057,
+    "CraftList": {
+      "2": 3,
+      "1513": 1,
+      "0": 1
+    }
+  },
+  "3057": {
+    "key": 3057,
+    "name": "Valencia 8-2, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3056,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "14": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3056": {
+    "key": 3056,
+    "name": "Valencia 8-1",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "3023": {
+    "key": 3023,
+    "name": "Valencia 3-2, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3022,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "3022": {
+    "key": 3022,
+    "name": "Valencia 3-2, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3021,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "11": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3021": {
+    "key": 3021,
+    "name": "Valencia 3-1",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3016": {
+    "key": 3016,
+    "name": "Valencia 2-6",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3014,
+    "CraftList": {
+      "2": 5,
+      "17": 3,
+      "999": 3,
+      "0": 1
+    }
+  },
+  "3015": {
+    "key": 3015,
+    "name": "Valencia 2-5, Rm. 2",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3014,
+    "CraftList": {
+      "2": 4,
+      "13": 4,
+      "0": 1
+    }
+  },
+  "3014": {
+    "key": 3014,
+    "name": "Valencia 2-5, Rm. 1",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3012,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "3013": {
+    "key": 3013,
+    "name": "Valencia 2-4, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3012,
+    "CraftList": {
+      "2": 3,
+      "1303": 3,
+      "0": 1
+    }
+  },
+  "3012": {
+    "key": 3012,
+    "name": "Valencia 2-4, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3011,
+    "CraftList": {
+      "2": 2,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "3011": {
+    "key": 3011,
+    "name": "Valencia 2-3",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3009,
+    "CraftList": {
+      "2": 4,
+      "15": 1,
+      "0": 1
+    }
+  },
+  "3010": {
+    "key": 3010,
+    "name": "Valencia 2-2, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3009,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "1513": 1,
+      "0": 1
+    }
+  },
+  "3009": {
+    "key": 3009,
+    "name": "Valencia 2-2, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3008,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "11": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "3008": {
+    "key": 3008,
+    "name": "Valencia 2-1",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3039": {
+    "key": 3039,
+    "name": "Valencia 5-2, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3038,
+    "CraftList": {
+      "2": 4,
+      "13": 3,
+      "0": 1
+    }
+  },
+  "3038": {
+    "key": 3038,
+    "name": "Valencia 5-2, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3036,
+    "CraftList": {
+      "2": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3037": {
+    "key": 3037,
+    "name": "Valencia 5-1, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3036,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "3036": {
+    "key": 3036,
+    "name": "Valencia 5-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3035": {
+    "key": 3035,
+    "name": "Valencia 4-2, 2F",
+    "CP": 5,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3033,
+    "CraftList": {
+      "2": 5,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "3034": {
+    "key": 3034,
+    "name": "Valencia 4-2, 1F, Rm. 2",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3033,
+    "CraftList": {
+      "2": 4,
+      "13": 3,
+      "0": 1
+    }
+  },
+  "3033": {
+    "key": 3033,
+    "name": "Valencia 4-2, 1F, Rm. 1",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3031,
+    "CraftList": {
+      "2": 3,
+      "11": 1,
+      "1515": 1,
+      "0": 1
+    }
+  },
+  "3032": {
+    "key": 3032,
+    "name": "Valencia 4-1, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3031,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "3031": {
+    "key": 3031,
+    "name": "Valencia 4-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "3028": {
+    "key": 3028,
+    "name": "Valencia 3-6, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3027,
+    "CraftList": {
+      "2": 4,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "3027": {
+    "key": 3027,
+    "name": "Valencia 3-6, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3026,
+    "CraftList": {
+      "2": 4,
+      "14": 4,
+      "0": 1
+    }
+  },
+  "3026": {
+    "key": 3026,
+    "name": "Valencia 3-5",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3025,
+    "CraftList": {
+      "2": 3,
+      "12": 2,
+      "0": 1
+    }
+  },
+  "3025": {
+    "key": 3025,
+    "name": "Valencia 3-4",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3024,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "16": 3,
+      "1405": 3,
+      "0": 1
+    }
+  },
+  "3024": {
+    "key": 3024,
+    "name": "Valencia 3-3",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3022,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "1514": 1,
+      "0": 1
+    }
+  },
+  "3007": {
+    "key": 3007,
+    "name": "Valencia 1-4, 2F",
+    "CP": 4,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3006,
+    "CraftList": {
+      "2": 5,
+      "11": 4,
+      "0": 1
+    }
+  },
+  "3006": {
+    "key": 3006,
+    "name": "Valencia 1-4, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3004,
+    "CraftList": {
+      "2": 2,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "3005": {
+    "key": 3005,
+    "name": "Valencia 1-3, 2F",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3004,
+    "CraftList": {
+      "2": 4,
+      "15": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "3004": {
+    "key": 3004,
+    "name": "Valencia 1-3, 1F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3003,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "13": 3,
+      "0": 1
+    }
+  },
+  "3003": {
+    "key": 3003,
+    "name": "Valencia 1-2",
+    "CP": 3,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3001,
+    "CraftList": {
+      "2": 2,
+      "1": 3,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "3002": {
+    "key": 3002,
+    "name": "Valencia 1-1, 2F",
+    "CP": 2,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 3001,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "12": 1,
+      "0": 1
+    }
+  },
+  "3001": {
+    "key": 3001,
+    "name": "Valencia 1-1, 1F",
+    "CP": 1,
+    "parentNode": 1301,
+    "affTown": 229,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "2916": {
+    "key": 2916,
+    "name": "Altinova 7-3",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2915,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "14": 1,
+      "0": 1
+    }
+  },
+  "2915": {
+    "key": 2915,
+    "name": "Altinova 7-4",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1510": 1,
+      "0": 1
+    }
+  },
+  "2914": {
+    "key": 2914,
+    "name": "Altinova 10-4",
+    "CP": 5,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2913,
+    "CraftList": {
+      "2": 4,
+      "11": 4,
+      "1403": 4,
+      "0": 1
+    }
+  },
+  "2913": {
+    "key": 2913,
+    "name": "Altinova 10-3",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2912,
+    "CraftList": {
+      "2": 3,
+      "14": 2,
+      "0": 1
+    }
+  },
+  "2912": {
+    "key": 2912,
+    "name": "Altinova 10-2",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2911,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2895": {
+    "key": 2895,
+    "name": "Altinova 6-1",
+    "CP": 1,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2894": {
+    "key": 2894,
+    "name": "Altinova 5-8",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2893,
+    "CraftList": {
+      "2": 5,
+      "12": 5,
+      "17": 3,
+      "1206": 3,
+      "999": 3,
+      "0": 1
+    }
+  },
+  "2893": {
+    "key": 2893,
+    "name": "Altinova 5-7",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2892,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "1051": 3,
+      "0": 1
+    }
+  },
+  "2892": {
+    "key": 2892,
+    "name": "Altinova 5-6",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2891,
+    "CraftList": {
+      "2": 2,
+      "11": 2,
+      "13": 3,
+      "0": 1
+    }
+  },
+  "2891": {
+    "key": 2891,
+    "name": "Altinova 5-5",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2889,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2889": {
+    "key": 2889,
+    "name": "Altinova 5-4",
+    "CP": 1,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1512": 1,
+      "0": 1
+    }
+  },
+  "2888": {
+    "key": 2888,
+    "name": "Altinova 5-3",
+    "CP": 5,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2887,
+    "CraftList": {
+      "2": 4,
+      "14": 4,
+      "0": 1
+    }
+  },
+  "2887": {
+    "key": 2887,
+    "name": "Altinova 5-2",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2886,
+    "CraftList": {
+      "2": 2,
+      "15": 3,
+      "1051": 2,
+      "0": 1
+    }
+  },
+  "2886": {
+    "key": 2886,
+    "name": "Altinova 5-1",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "14": 2,
+      "0": 1
+    }
+  },
+  "2885": {
+    "key": 2885,
+    "name": "Altinova 4-5",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2884,
+    "CraftList": {
+      "2": 5,
+      "15": 5,
+      "1302": 3,
+      "0": 1
+    }
+  },
+  "2884": {
+    "key": 2884,
+    "name": "Altinova 4-4",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2883,
+    "CraftList": {
+      "2": 3,
+      "1403": 3,
+      "0": 1
+    }
+  },
+  "2883": {
+    "key": 2883,
+    "name": "Altinova 4-3",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2882,
+    "CraftList": {
+      "2": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2882": {
+    "key": 2882,
+    "name": "Altinova 4-2",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2881,
+    "CraftList": {
+      "2": 2,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2881": {
+    "key": 2881,
+    "name": "Altinova 4-1",
+    "CP": 1,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2911": {
+    "key": 2911,
+    "name": "Altinova 10-1",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2910": {
+    "key": 2910,
+    "name": "Altinova 9",
+    "CP": 5,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 4,
+      "3": 4,
+      "1051": 2,
+      "0": 1
+    }
+  },
+  "2909": {
+    "key": 2909,
+    "name": "Altinova 8-4",
+    "CP": 5,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2908,
+    "CraftList": {
+      "2": 5,
+      "12": 5,
+      "1303": 3,
+      "0": 1
+    }
+  },
+  "2908": {
+    "key": 2908,
+    "name": "Altinova 8-3",
+    "CP": 4,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2907,
+    "CraftList": {
+      "2": 3,
+      "1301": 2,
+      "0": 1
+    }
+  },
+  "2907": {
+    "key": 2907,
+    "name": "Altinova 8-2",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2906,
+    "CraftList": {
+      "2": 2,
+      "1302": 1,
+      "1403": 2,
+      "0": 1
+    }
+  },
+  "2906": {
+    "key": 2906,
+    "name": "Altinova 8-1",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1510": 1,
+      "0": 1
+    }
+  },
+  "2904": {
+    "key": 2904,
+    "name": "Altinova 7-2",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2916,
+    "CraftList": {
+      "2": 3,
+      "15": 3,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "2903": {
+    "key": 2903,
+    "name": "Altinova 7-1",
+    "CP": 5,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2904,
+    "CraftList": {
+      "2": 5,
+      "17": 3,
+      "1105": 2,
+      "1702": 1,
+      "0": 1
+    }
+  },
+  "2902": {
+    "key": 2902,
+    "name": "Altinova 6-6",
+    "CP": 4,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2901,
+    "CraftList": {
+      "2": 5,
+      "0": 1
+    }
+  },
+  "2901": {
+    "key": 2901,
+    "name": "Altinova 6-5",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2900,
+    "CraftList": {
+      "2": 3,
+      "15": 4,
+      "1424": 2,
+      "1427": 1,
+      "1051": 3,
+      "0": 1
+    }
+  },
+  "2900": {
+    "key": 2900,
+    "name": "Altinova 6-4",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2897,
+    "CraftList": {
+      "2": 3,
+      "1": 3,
+      "13": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2898": {
+    "key": 2898,
+    "name": "Altinova 6-3, 2F",
+    "CP": 4,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2897,
+    "CraftList": {
+      "2": 4,
+      "13": 4,
+      "0": 1
+    }
+  },
+  "2897": {
+    "key": 2897,
+    "name": "Altinova 6-3, 1F",
+    "CP": 1,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2896,
+    "CraftList": {
+      "2": 1,
+      "1": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2896": {
+    "key": 2896,
+    "name": "Altinova 6-2",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2895,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "12": 1,
+      "0": 1
+    }
+  },
+  "2863": {
+    "key": 2863,
+    "name": "Splashing Point 2-3",
+    "CP": 1,
+    "parentNode": 1165,
+    "affTown": 221,
+    "needHouseKey": 2862,
+    "CraftList": {
+      "2": 2,
+      "13": 1,
+      "0": 1
+    }
+  },
+  "2862": {
+    "key": 2862,
+    "name": "Splashing Point 2-2",
+    "CP": 1,
+    "parentNode": 1165,
+    "affTown": 221,
+    "needHouseKey": 2861,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2861": {
+    "key": 2861,
+    "name": "Splashing Point 2-1",
+    "CP": 1,
+    "parentNode": 1165,
+    "affTown": 221,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1510": 1,
+      "0": 1
+    }
+  },
+  "2860": {
+    "key": 2860,
+    "name": "Splashing Point 1-2",
+    "CP": 1,
+    "parentNode": 1165,
+    "affTown": 221,
+    "needHouseKey": 2859,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "1403": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2859": {
+    "key": 2859,
+    "name": "Splashing Point 1-1",
+    "CP": 1,
+    "parentNode": 1165,
+    "affTown": 221,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1510": 1,
+      "0": 1
+    }
+  },
+  "2857": {
+    "key": 2857,
+    "name": "Tarif 2-3",
+    "CP": 3,
+    "parentNode": 1141,
+    "affTown": 221,
+    "needHouseKey": 2855,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "23": 3,
+      "0": 1
+    }
+  },
+  "2856": {
+    "key": 2856,
+    "name": "Tarif 2-2, 2F",
+    "CP": 2,
+    "parentNode": 1141,
+    "affTown": 221,
+    "needHouseKey": 2855,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "1403": 2,
+      "0": 1
+    }
+  },
+  "2855": {
+    "key": 2855,
+    "name": "Tarif 2-2, 1F",
+    "CP": 1,
+    "parentNode": 1141,
+    "affTown": 221,
+    "needHouseKey": 2853,
+    "CraftList": {
+      "2": 1,
+      "14": 1,
+      "15": 1,
+      "25": 1,
+      "0": 1
+    }
+  },
+  "2854": {
+    "key": 2854,
+    "name": "Tarif 2-1, Rm. 2",
+    "CP": 1,
+    "parentNode": 1141,
+    "affTown": 221,
+    "needHouseKey": 2853,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "1511": 1,
+      "0": 1
+    }
+  },
+  "2853": {
+    "key": 2853,
+    "name": "Tarif 2-1, Rm. 1",
+    "CP": 1,
+    "parentNode": 1141,
+    "affTown": 221,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1510": 1,
+      "0": 1
+    }
+  },
+  "2852": {
+    "key": 2852,
+    "name": "Tarif 1-3",
+    "CP": 2,
+    "parentNode": 1141,
+    "affTown": 221,
+    "needHouseKey": 2851,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1301": 1,
+      "1403": 1,
+      "0": 1
+    }
+  },
+  "2851": {
+    "key": 2851,
+    "name": "Tarif 1-2",
+    "CP": 1,
+    "parentNode": 1141,
+    "affTown": 221,
+    "needHouseKey": 2850,
+    "CraftList": {
+      "2": 1,
+      "1551": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2850": {
+    "key": 2850,
+    "name": "Tarif 1-1",
+    "CP": 1,
+    "parentNode": 1141,
+    "affTown": 221,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1512": 1,
+      "0": 1
+    }
+  },
+  "2849": {
+    "key": 2849,
+    "name": "Tarif 1-4",
+    "CP": 3,
+    "parentNode": 1141,
+    "affTown": 221,
+    "needHouseKey": 2852,
+    "CraftList": {
+      "2": 3,
+      "17": 3,
+      "1105": 1,
+      "0": 1
+    }
+  },
+  "2848": {
+    "key": 2848,
+    "name": "Kusha 1-3",
+    "CP": 2,
+    "parentNode": 1153,
+    "affTown": 202,
+    "needHouseKey": 2847,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2879": {
+    "key": 2879,
+    "name": "Altinova 3-5",
+    "CP": 4,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2878,
+    "CraftList": {
+      "2": 5,
+      "1302": 3,
+      "1403": 4,
+      "0": 1
+    }
+  },
+  "2878": {
+    "key": 2878,
+    "name": "Altinova 3-4",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2877,
+    "CraftList": {
+      "2": 3,
+      "12": 4,
+      "0": 1
+    }
+  },
+  "2877": {
+    "key": 2877,
+    "name": "Altinova 3-3",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2876,
+    "CraftList": {
+      "2": 3,
+      "11": 2,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "2876": {
+    "key": 2876,
+    "name": "Altinova 3-2",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2875,
+    "CraftList": {
+      "2": 2,
+      "13": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2875": {
+    "key": 2875,
+    "name": "Altinova 3-1",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2874": {
+    "key": 2874,
+    "name": "Altinova 2-3",
+    "CP": 5,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2873,
+    "CraftList": {
+      "2": 4,
+      "16": 3,
+      "1424": 2,
+      "1427": 1,
+      "1301": 3,
+      "0": 1
+    }
+  },
+  "2873": {
+    "key": 2873,
+    "name": "Altinova 2-2",
+    "CP": 3,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2870,
+    "CraftList": {
+      "2": 3,
+      "15": 1,
+      "0": 1
+    }
+  },
+  "2871": {
+    "key": 2871,
+    "name": "Altinova 2-1, 2F",
+    "CP": 4,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2870,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "1303": 1,
+      "0": 1
+    }
+  },
+  "2870": {
+    "key": 2870,
+    "name": "Altinova 2-1, 1F",
+    "CP": 1,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1511": 1,
+      "0": 1
+    }
+  },
+  "2869": {
+    "key": 2869,
+    "name": "Altinova 1-2",
+    "CP": 4,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2866,
+    "CraftList": {
+      "2": 3,
+      "12": 2,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2867": {
+    "key": 2867,
+    "name": "Altinova 1-1, 2F",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 2866,
+    "CraftList": {
+      "2": 2,
+      "1403": 1,
+      "0": 1
+    }
+  },
+  "2866": {
+    "key": 2866,
+    "name": "Altinova 1-1, 1F",
+    "CP": 2,
+    "parentNode": 1101,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2865": {
+    "key": 2865,
+    "name": "Shuri Farm 2",
+    "CP": 2,
+    "parentNode": 1160,
+    "affTown": 221,
+    "needHouseKey": 2864,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "2864": {
+    "key": 2864,
+    "name": "Shuri Farm 1",
+    "CP": 1,
+    "parentNode": 1160,
+    "affTown": 221,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1512": 1,
+      "0": 1
+    }
+  },
+  "2831": {
+    "key": 2831,
+    "name": "Abun 1-1",
+    "CP": 1,
+    "parentNode": 1145,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2826": {
+    "key": 2826,
+    "name": "Delphe Knights Castle 1, 2F",
+    "CP": 2,
+    "parentNode": 375,
+    "affTown": 77,
+    "needHouseKey": 2825,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2825": {
+    "key": 2825,
+    "name": "Delphe Knights Castle 1, 1F",
+    "CP": 1,
+    "parentNode": 375,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "0": 1
+    }
+  },
+  "2822": {
+    "key": 2822,
+    "name": "Gabino Farm 7",
+    "CP": 4,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2820,
+    "CraftList": {
+      "2": 4,
+      "15": 2,
+      "0": 1
+    }
+  },
+  "2821": {
+    "key": 2821,
+    "name": "Gabino Farm 6, 2F",
+    "CP": 2,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2820,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2820": {
+    "key": 2820,
+    "name": "Gabino Farm 6, 1F",
+    "CP": 2,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2818,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2818": {
+    "key": 2818,
+    "name": "Gabino Farm 5",
+    "CP": 1,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2813,
+    "CraftList": {
+      "2": 2,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2817": {
+    "key": 2817,
+    "name": "Gabino Farm 4, 2F",
+    "CP": 3,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2816,
+    "CraftList": {
+      "2": 3,
+      "1": 5,
+      "17": 3,
+      "1051": 2,
+      "0": 1
+    }
+  },
+  "2816": {
+    "key": 2816,
+    "name": "Gabino Farm 4, 1F",
+    "CP": 2,
+    "parentNode": 712,
+    "affTown": 77,
+    "needHouseKey": 2814,
+    "CraftList": {
+      "2": 2,
+      "17": 2,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2847": {
+    "key": 2847,
+    "name": "Kusha 1-2",
+    "CP": 1,
+    "parentNode": 1153,
+    "affTown": 202,
+    "needHouseKey": 2846,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1511": 1,
+      "0": 1
+    }
+  },
+  "2846": {
+    "key": 2846,
+    "name": "Kusha 1-1",
+    "CP": 1,
+    "parentNode": 1153,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2845": {
+    "key": 2845,
+    "name": "Kusha 2",
+    "CP": 2,
+    "parentNode": 1153,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1512": 1,
+      "0": 1
+    }
+  },
+  "2844": {
+    "key": 2844,
+    "name": "Stonetail Horse Ranch 3",
+    "CP": 2,
+    "parentNode": 1158,
+    "affTown": 202,
+    "needHouseKey": 2843,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "17": 1,
+      "1304": 3,
+      "0": 1
+    }
+  },
+  "2843": {
+    "key": 2843,
+    "name": "Stonetail Horse Ranch 2",
+    "CP": 1,
+    "parentNode": 1158,
+    "affTown": 202,
+    "needHouseKey": 2842,
+    "CraftList": {
+      "2": 1,
+      "1511": 1,
+      "0": 1
+    }
+  },
+  "2842": {
+    "key": 2842,
+    "name": "Stonetail Horse Ranch 1",
+    "CP": 1,
+    "parentNode": 1158,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2841": {
+    "key": 2841,
+    "name": "Kasula Farm 4",
+    "CP": 1,
+    "parentNode": 1161,
+    "affTown": 221,
+    "needHouseKey": 2840,
+    "CraftList": {
+      "2": 1,
+      "14": 1,
+      "0": 1
+    }
+  },
+  "2840": {
+    "key": 2840,
+    "name": "Kasula Farm 3",
+    "CP": 1,
+    "parentNode": 1161,
+    "affTown": 221,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1511": 1,
+      "0": 1
+    }
+  },
+  "2839": {
+    "key": 2839,
+    "name": "Kasula Farm 2",
+    "CP": 2,
+    "parentNode": 1161,
+    "affTown": 221,
+    "needHouseKey": 2838,
+    "CraftList": {
+      "2": 2,
+      "13": 1,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "2838": {
+    "key": 2838,
+    "name": "Kasula Farm 1",
+    "CP": 1,
+    "parentNode": 1161,
+    "affTown": 221,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1511": 1,
+      "0": 1
+    }
+  },
+  "2837": {
+    "key": 2837,
+    "name": "Ahto Farm 2",
+    "CP": 2,
+    "parentNode": 1159,
+    "affTown": 221,
+    "needHouseKey": 2836,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2836": {
+    "key": 2836,
+    "name": "Ahto Farm 1",
+    "CP": 1,
+    "parentNode": 1159,
+    "affTown": 221,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2835": {
+    "key": 2835,
+    "name": "Abun 2-2",
+    "CP": 1,
+    "parentNode": 1145,
+    "affTown": 202,
+    "needHouseKey": 2834,
+    "CraftList": {
+      "2": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2834": {
+    "key": 2834,
+    "name": "Abun 2-1",
+    "CP": 1,
+    "parentNode": 1145,
+    "affTown": 202,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1510": 1,
+      "0": 1
+    }
+  },
+  "2833": {
+    "key": 2833,
+    "name": "Abun 1-3",
+    "CP": 2,
+    "parentNode": 1145,
+    "affTown": 202,
+    "needHouseKey": 2832,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "2832": {
+    "key": 2832,
+    "name": "Abun 1-2",
+    "CP": 1,
+    "parentNode": 1145,
+    "affTown": 202,
+    "needHouseKey": 2831,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2303": {
+    "key": 2303,
+    "name": "Trent 3",
+    "CP": 3,
+    "parentNode": 608,
+    "affTown": 126,
+    "needHouseKey": 2301,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2302": {
+    "key": 2302,
+    "name": "Trent 2",
+    "CP": 2,
+    "parentNode": 608,
+    "affTown": 126,
+    "needHouseKey": 2301,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2301": {
+    "key": 2301,
+    "name": "Trent 1",
+    "CP": 1,
+    "parentNode": 608,
+    "affTown": 126,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2255": {
+    "key": 2255,
+    "name": "Keplan 1-3, 2F",
+    "CP": 4,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2254,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2254": {
+    "key": 2254,
+    "name": "Keplan 1-3, 1F",
+    "CP": 1,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2252,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2253": {
+    "key": 2253,
+    "name": "Keplan 1-2, 2F",
+    "CP": 3,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2252,
+    "CraftList": {
+      "2": 3,
+      "15": 1,
+      "1301": 2,
+      "0": 1
+    }
+  },
+  "2252": {
+    "key": 2252,
+    "name": "Keplan 1-2, 1F",
+    "CP": 2,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2251,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2251": {
+    "key": 2251,
+    "name": "Keplan 1-1",
+    "CP": 1,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2249": {
+    "key": 2249,
+    "name": "Serendia 5, Lynch Ranch",
+    "CP": 2,
+    "parentNode": 328,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1505": 1,
+      "1506": 1,
+      "0": 1
+    }
+  },
+  "2246": {
+    "key": 2246,
+    "name": "Wale Farm 2",
+    "CP": 2,
+    "parentNode": 65,
+    "affTown": 88,
+    "needHouseKey": 2245,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2245": {
+    "key": 2245,
+    "name": "Wale Farm 1",
+    "CP": 2,
+    "parentNode": 65,
+    "affTown": 88,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "1501": 1,
+      "0": 1
+    }
+  },
+  "2244": {
+    "key": 2244,
+    "name": "Casta Farm 2",
+    "CP": 2,
+    "parentNode": 64,
+    "affTown": 88,
+    "needHouseKey": 2243,
+    "CraftList": {
+      "2": 2,
+      "1502": 1,
+      "1503": 1,
+      "0": 1
+    }
+  },
+  "2243": {
+    "key": 2243,
+    "name": "Casta Farm 1",
+    "CP": 1,
+    "parentNode": 64,
+    "affTown": 88,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2242": {
+    "key": 2242,
+    "name": "Olvia 7-4",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2241,
+    "CraftList": {
+      "2": 3,
+      "1401": 3,
+      "0": 1
+    }
+  },
+  "2241": {
+    "key": 2241,
+    "name": "Olvia 7-3",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2240,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "1503": 1,
+      "0": 1
+    }
+  },
+  "2240": {
+    "key": 2240,
+    "name": "Olvia 7-2, 1F",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2238,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2271": {
+    "key": 2271,
+    "name": "Keplan 3-3",
+    "CP": 1,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2269,
+    "CraftList": {
+      "2": 2,
+      "1508": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2270": {
+    "key": 2270,
+    "name": "Keplan 3-3, Storage",
+    "CP": 4,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2271,
+    "CraftList": {
+      "2": 4,
+      "3": 4,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2269": {
+    "key": 2269,
+    "name": "Keplan 3-2",
+    "CP": 1,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2268,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2268": {
+    "key": 2268,
+    "name": "Keplan 3-1",
+    "CP": 2,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2267": {
+    "key": 2267,
+    "name": "Keplan 3-1, Storage",
+    "CP": 4,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2268,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2266": {
+    "key": 2266,
+    "name": "Keplan 2-3, 3F",
+    "CP": 5,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2265,
+    "CraftList": {
+      "2": 5,
+      "14": 4,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "2265": {
+    "key": 2265,
+    "name": "Keplan 2-3, 2F",
+    "CP": 3,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2264,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2264": {
+    "key": 2264,
+    "name": "Keplan 2-3, 1F",
+    "CP": 2,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2261,
+    "CraftList": {
+      "2": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2263": {
+    "key": 2263,
+    "name": "Keplan 2-2, 3F",
+    "CP": 4,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2262,
+    "CraftList": {
+      "2": 4,
+      "13": 4,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "2262": {
+    "key": 2262,
+    "name": "Keplan 2-2, 2F",
+    "CP": 5,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2261,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2261": {
+    "key": 2261,
+    "name": "Keplan 2-2, 1F",
+    "CP": 2,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2260,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2260": {
+    "key": 2260,
+    "name": "Keplan 2-1, 2F",
+    "CP": 1,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2259": {
+    "key": 2259,
+    "name": "Keplan 1-5, 3F",
+    "CP": 5,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2258,
+    "CraftList": {
+      "2": 5,
+      "11": 4,
+      "12": 5,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "2258": {
+    "key": 2258,
+    "name": "Keplan 1-5, 2F",
+    "CP": 3,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2256,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "0": 1
+    }
+  },
+  "2257": {
+    "key": 2257,
+    "name": "Keplan 1-4, 2F",
+    "CP": 3,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2256,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2256": {
+    "key": 2256,
+    "name": "Keplan 1-4, 1F",
+    "CP": 1,
+    "parentNode": 602,
+    "affTown": 107,
+    "needHouseKey": 2254,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2223": {
+    "key": 2223,
+    "name": "Heidel 2-3, 2F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2222,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "1422": 2,
+      "1427": 1,
+      "0": 1
+    }
+  },
+  "2222": {
+    "key": 2222,
+    "name": "Heidel 2-3, 1F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2172,
+    "CraftList": {
+      "2": 2,
+      "14": 2,
+      "15": 2,
+      "0": 1
+    }
+  },
+  "2221": {
+    "key": 2221,
+    "name": "Heidel 4-2, 2F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2220,
+    "CraftList": {
+      "2": 2,
+      "1506": 1,
+      "0": 1
+    }
+  },
+  "2220": {
+    "key": 2220,
+    "name": "Heidel 4-2, 1F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2219": {
+    "key": 2219,
+    "name": "Heidel 9-1, 2F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2168,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1506": 1,
+      "0": 1
+    }
+  },
+  "2218": {
+    "key": 2218,
+    "name": "Serendia 3, Elda Farm",
+    "CP": 2,
+    "parentNode": 346,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1505": 1,
+      "1506": 1,
+      "0": 1
+    }
+  },
+  "2217": {
+    "key": 2217,
+    "name": "Serendia 2-3, Costa Farm",
+    "CP": 3,
+    "parentNode": 322,
+    "affTown": 32,
+    "needHouseKey": 2214,
+    "CraftList": {
+      "2": 3,
+      "14": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2216": {
+    "key": 2216,
+    "name": "Serendia 2-1, 2F, Costa Farm",
+    "CP": 2,
+    "parentNode": 322,
+    "affTown": 32,
+    "needHouseKey": 2215,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2215": {
+    "key": 2215,
+    "name": "Serendia 2-1, 1F, Costa Farm",
+    "CP": 1,
+    "parentNode": 322,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1506": 1,
+      "0": 1
+    }
+  },
+  "2214": {
+    "key": 2214,
+    "name": "Serendia 2-2, Costa Farm",
+    "CP": 2,
+    "parentNode": 322,
+    "affTown": 32,
+    "needHouseKey": 2215,
+    "CraftList": {
+      "2": 2,
+      "1402": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2213": {
+    "key": 2213,
+    "name": "Serendia 4, Moretti Plantation",
+    "CP": 2,
+    "parentNode": 323,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1506": 1,
+      "0": 1
+    }
+  },
+  "2212": {
+    "key": 2212,
+    "name": "Dernyl Farm, Glish",
+    "CP": 2,
+    "parentNode": 344,
+    "affTown": 52,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1551": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2211": {
+    "key": 2211,
+    "name": "Glish 1, Rm. 1",
+    "CP": 1,
+    "parentNode": 302,
+    "affTown": 52,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2210": {
+    "key": 2210,
+    "name": "Glish 1, Rm. 2",
+    "CP": 2,
+    "parentNode": 302,
+    "affTown": 52,
+    "needHouseKey": 2211,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2209": {
+    "key": 2209,
+    "name": "Glish 1, Rm. 3",
+    "CP": 2,
+    "parentNode": 302,
+    "affTown": 52,
+    "needHouseKey": 2210,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "16": 3,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2208": {
+    "key": 2208,
+    "name": "Glish 3",
+    "CP": 3,
+    "parentNode": 302,
+    "affTown": 52,
+    "needHouseKey": 2206,
+    "CraftList": {
+      "2": 4,
+      "15": 3,
+      "16": 4,
+      "17": 3,
+      "1301": 2,
+      "1402": 3,
+      "0": 1
+    }
+  },
+  "2239": {
+    "key": 2239,
+    "name": "Olvia 7-2, 2F",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2240,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2238": {
+    "key": 2238,
+    "name": "Olvia 7-1",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2237": {
+    "key": 2237,
+    "name": "Olvia 6-3",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2236,
+    "CraftList": {
+      "2": 3,
+      "1": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2236": {
+    "key": 2236,
+    "name": "Olvia 6-2",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2235,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2235": {
+    "key": 2235,
+    "name": "Olvia 6-1",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2234": {
+    "key": 2234,
+    "name": "Olvia 4-4",
+    "CP": 3,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2233,
+    "CraftList": {
+      "2": 3,
+      "1201": 1,
+      "0": 1
+    }
+  },
+  "2233": {
+    "key": 2233,
+    "name": "Olvia 4-3",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2232,
+    "CraftList": {
+      "2": 2,
+      "15": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2232": {
+    "key": 2232,
+    "name": "Olvia 4-2",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2231,
+    "CraftList": {
+      "2": 2,
+      "1401": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2231": {
+    "key": 2231,
+    "name": "Olvia 4-1",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2230": {
+    "key": 2230,
+    "name": "Olvia 5-2",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2229,
+    "CraftList": {
+      "2": 2,
+      "1401": 2,
+      "0": 1
+    }
+  },
+  "2229": {
+    "key": 2229,
+    "name": "Olvia 5-1",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2231,
+    "CraftList": {
+      "2": 1,
+      "13": 1,
+      "0": 1
+    }
+  },
+  "2227": {
+    "key": 2227,
+    "name": "Heidel 4-4",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2160,
+    "CraftList": {
+      "2": 2,
+      "1505": 1,
+      "0": 1
+    }
+  },
+  "2226": {
+    "key": 2226,
+    "name": "Heidel 4-5",
+    "CP": 3,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2227,
+    "CraftList": {
+      "2": 3,
+      "1303": 2,
+      "1402": 2,
+      "0": 1
+    }
+  },
+  "2225": {
+    "key": 2225,
+    "name": "Heidel 3-3",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2224,
+    "CraftList": {
+      "2": 2,
+      "1402": 1,
+      "1505": 1,
+      "1506": 1,
+      "0": 1
+    }
+  },
+  "2224": {
+    "key": 2224,
+    "name": "Heidel 3-2",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2180,
+    "CraftList": {
+      "2": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2191": {
+    "key": 2191,
+    "name": "Heidel 8-2, 1F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2190,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2190": {
+    "key": 2190,
+    "name": "Heidel 8-2, B1",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2202,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2189": {
+    "key": 2189,
+    "name": "Heidel 8-3",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2190,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "15": 1,
+      "0": 1
+    }
+  },
+  "2187": {
+    "key": 2187,
+    "name": "Heidel 7-4, 2F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2186,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "16": 3,
+      "1422": 2,
+      "1427": 1,
+      "0": 1
+    }
+  },
+  "2186": {
+    "key": 2186,
+    "name": "Heidel 7-4, 1F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2184,
+    "CraftList": {
+      "2": 2,
+      "17": 2,
+      "1402": 3,
+      "0": 1
+    }
+  },
+  "2185": {
+    "key": 2185,
+    "name": "Heidel 7-3, 2F",
+    "CP": 4,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2184,
+    "CraftList": {
+      "2": 3,
+      "12": 3,
+      "0": 1
+    }
+  },
+  "2184": {
+    "key": 2184,
+    "name": "Heidel 7-3, 1F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2194,
+    "CraftList": {
+      "2": 2,
+      "1": 3,
+      "14": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2182": {
+    "key": 2182,
+    "name": "Heidel 3-4",
+    "CP": 5,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2225,
+    "CraftList": {
+      "2": 3,
+      "1422": 2,
+      "1427": 1,
+      "1202": 2,
+      "0": 1
+    }
+  },
+  "2181": {
+    "key": 2181,
+    "name": "Heidel 3-1, 2F",
+    "CP": 4,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2180,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2180": {
+    "key": 2180,
+    "name": "Heidel 3-1, 1F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1701": 1,
+      "0": 1
+    }
+  },
+  "2179": {
+    "key": 2179,
+    "name": "Heidel 8-4",
+    "CP": 3,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2189,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2178": {
+    "key": 2178,
+    "name": "Heidel 9-3",
+    "CP": 4,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2170,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2177": {
+    "key": 2177,
+    "name": "Heidel 7-5",
+    "CP": 5,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2186,
+    "CraftList": {
+      "2": 4,
+      "12": 4,
+      "0": 1
+    }
+  },
+  "2176": {
+    "key": 2176,
+    "name": "Heidel 6-4, 2F",
+    "CP": 5,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2175,
+    "CraftList": {
+      "2": 5,
+      "0": 1
+    }
+  },
+  "2207": {
+    "key": 2207,
+    "name": "Glish 4",
+    "CP": 4,
+    "parentNode": 302,
+    "affTown": 52,
+    "needHouseKey": 2208,
+    "CraftList": {
+      "2": 5,
+      "11": 4,
+      "12": 5,
+      "13": 4,
+      "14": 4,
+      "0": 1
+    }
+  },
+  "2206": {
+    "key": 2206,
+    "name": "Glish 2",
+    "CP": 2,
+    "parentNode": 302,
+    "affTown": 52,
+    "needHouseKey": 2209,
+    "CraftList": {
+      "2": 3,
+      "3": 4,
+      "19": 3,
+      "0": 1
+    }
+  },
+  "2205": {
+    "key": 2205,
+    "name": "Serendia 1-2, Alejandro Farm",
+    "CP": 2,
+    "parentNode": 321,
+    "affTown": 32,
+    "needHouseKey": 2204,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2204": {
+    "key": 2204,
+    "name": "Serendia 1-1, 2F, Alejandro Farm",
+    "CP": 2,
+    "parentNode": 321,
+    "affTown": 32,
+    "needHouseKey": 2203,
+    "CraftList": {
+      "2": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2203": {
+    "key": 2203,
+    "name": "Serendia 1-1, 1F, Alejandro Farm",
+    "CP": 1,
+    "parentNode": 321,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1505": 1,
+      "0": 1
+    }
+  },
+  "2202": {
+    "key": 2202,
+    "name": "Heidel 8-1, Rm. 1",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2201": {
+    "key": 2201,
+    "name": "Heidel 8-1, Rm. 2",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2202,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2200": {
+    "key": 2200,
+    "name": "Heidel 8-1, Rm. 3",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2201,
+    "CraftList": {
+      "2": 3,
+      "1": 3,
+      "0": 1
+    }
+  },
+  "2199": {
+    "key": 2199,
+    "name": "Heidel 8-1, Rm. 4",
+    "CP": 3,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2200,
+    "CraftList": {
+      "2": 4,
+      "1": 5,
+      "0": 1
+    }
+  },
+  "2198": {
+    "key": 2198,
+    "name": "Heidel 8-1, Rm. 5",
+    "CP": 4,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2199,
+    "CraftList": {
+      "2": 4,
+      "15": 3,
+      "17": 3,
+      "1301": 3,
+      "0": 1
+    }
+  },
+  "2197": {
+    "key": 2197,
+    "name": "Heidel 5-4, 2F",
+    "CP": 5,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2152,
+    "CraftList": {
+      "2": 5,
+      "17": 3,
+      "1103": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2196": {
+    "key": 2196,
+    "name": "Heidel 7-1",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2195": {
+    "key": 2195,
+    "name": "Heidel 7-2, 2F",
+    "CP": 3,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2194,
+    "CraftList": {
+      "2": 3,
+      "11": 2,
+      "16": 2,
+      "1051": 2,
+      "0": 1
+    }
+  },
+  "2194": {
+    "key": 2194,
+    "name": "Heidel 7-2, 1F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2196,
+    "CraftList": {
+      "2": 2,
+      "14": 1,
+      "17": 1,
+      "1551": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2193": {
+    "key": 2193,
+    "name": "Heidel 8-5",
+    "CP": 4,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2189,
+    "CraftList": {
+      "2": 3,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "2192": {
+    "key": 2192,
+    "name": "Heidel 8-2, 2F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2191,
+    "CraftList": {
+      "2": 2,
+      "17": 2,
+      "1303": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2159": {
+    "key": 2159,
+    "name": "Heidel 1-3",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2156,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2158": {
+    "key": 2158,
+    "name": "Heidel 1-4",
+    "CP": 3,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2159,
+    "CraftList": {
+      "2": 3,
+      "1051": 3,
+      "1402": 3,
+      "1501": 1,
+      "0": 1
+    }
+  },
+  "2157": {
+    "key": 2157,
+    "name": "Heidel 1-1",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2156": {
+    "key": 2156,
+    "name": "Heidel 1-2",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2157,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2155": {
+    "key": 2155,
+    "name": "Heidel 1-5",
+    "CP": 4,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2156,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "15": 2,
+      "17": 2,
+      "1302": 2,
+      "0": 1
+    }
+  },
+  "2154": {
+    "key": 2154,
+    "name": "Heidel 5-1, 2F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2153,
+    "CraftList": {
+      "2": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2153": {
+    "key": 2153,
+    "name": "Heidel 5-1, 1F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2152": {
+    "key": 2152,
+    "name": "Heidel 5-3",
+    "CP": 4,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2153,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "1402": 5,
+      "0": 1
+    }
+  },
+  "2151": {
+    "key": 2151,
+    "name": "Heidel 5-2",
+    "CP": 5,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2153,
+    "CraftList": {
+      "2": 3,
+      "11": 3,
+      "0": 1
+    }
+  },
+  "2150": {
+    "key": 2150,
+    "name": "Olvia 3-4",
+    "CP": 3,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2149,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "2149": {
+    "key": 2149,
+    "name": "Olvia 3-3",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2148,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2148": {
+    "key": 2148,
+    "name": "Olvia 3-2",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2147,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2147": {
+    "key": 2147,
+    "name": "Olvia 3-1",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2146": {
+    "key": 2146,
+    "name": "Olvia 2-5, 2F",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2145,
+    "CraftList": {
+      "2": 3,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "2145": {
+    "key": 2145,
+    "name": "Olvia 2-5, 1F",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2144,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "14": 2,
+      "0": 1
+    }
+  },
+  "2144": {
+    "key": 2144,
+    "name": "Olvia 2-4",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2143,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "1401": 1,
+      "0": 1
+    }
+  },
+  "2175": {
+    "key": 2175,
+    "name": "Heidel 6-4, 1F",
+    "CP": 3,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2167,
+    "CraftList": {
+      "2": 4,
+      "1301": 3,
+      "1302": 3,
+      "1402": 3,
+      "0": 1
+    }
+  },
+  "2174": {
+    "key": 2174,
+    "name": "Heidel 2-1, 2F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2173,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2173": {
+    "key": 2173,
+    "name": "Heidel 2-1, 1F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2172": {
+    "key": 2172,
+    "name": "Heidel 2-2",
+    "CP": 3,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2173,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "1302": 1,
+      "1402": 2,
+      "0": 1
+    }
+  },
+  "2171": {
+    "key": 2171,
+    "name": "Heidel 9-2, 2F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2170,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1051": 1,
+      "0": 1
+    }
+  },
+  "2170": {
+    "key": 2170,
+    "name": "Heidel 9-2, 1F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2168,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "16": 1,
+      "0": 1
+    }
+  },
+  "2169": {
+    "key": 2169,
+    "name": "Heidel 9-4",
+    "CP": 5,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2178,
+    "CraftList": {
+      "2": 4,
+      "15": 3,
+      "17": 3,
+      "1303": 3,
+      "0": 1
+    }
+  },
+  "2168": {
+    "key": 2168,
+    "name": "Heidel 9-1, 1F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2167": {
+    "key": 2167,
+    "name": "Heidel 6-3",
+    "CP": 4,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2165,
+    "CraftList": {
+      "2": 3,
+      "3": 4,
+      "0": 1
+    }
+  },
+  "2166": {
+    "key": 2166,
+    "name": "Heidel 6-2, 2F",
+    "CP": 3,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2165,
+    "CraftList": {
+      "2": 1,
+      "12": 3,
+      "0": 1
+    }
+  },
+  "2165": {
+    "key": 2165,
+    "name": "Heidel 6-2, 1F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2163,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2164": {
+    "key": 2164,
+    "name": "Heidel 6-1, 2F",
+    "CP": 2,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2163,
+    "CraftList": {
+      "2": 2,
+      "1402": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2163": {
+    "key": 2163,
+    "name": "Heidel 6-1, 1F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2162": {
+    "key": 2162,
+    "name": "Heidel 4-1, 2F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2161,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "1506": 1,
+      "0": 1
+    }
+  },
+  "2161": {
+    "key": 2161,
+    "name": "Heidel 4-1, 1F",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2160": {
+    "key": 2160,
+    "name": "Heidel 4-3",
+    "CP": 1,
+    "parentNode": 301,
+    "affTown": 32,
+    "needHouseKey": 2161,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2127": {
+    "key": 2127,
+    "name": "Iliya Island 1-1",
+    "CP": 1,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2126": {
+    "key": 2126,
+    "name": "Balenos 6-2, Toscani Farm",
+    "CP": 3,
+    "parentNode": 45,
+    "affTown": 5,
+    "needHouseKey": 2125,
+    "CraftList": {
+      "2": 4,
+      "16": 2,
+      "17": 2,
+      "1401": 4,
+      "0": 1
+    }
+  },
+  "2125": {
+    "key": 2125,
+    "name": "Balenos 6-1, Toscani Farm",
+    "CP": 3,
+    "parentNode": 45,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "17": 1,
+      "1503": 1,
+      "0": 1
+    }
+  },
+  "2123": {
+    "key": 2123,
+    "name": "Lema Island 1",
+    "CP": 1,
+    "parentNode": 1001,
+    "affTown": 182,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "0": 1
+    }
+  },
+  "2122": {
+    "key": 2122,
+    "name": "Balenos 5, Marino Farm",
+    "CP": 2,
+    "parentNode": 27,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2121": {
+    "key": 2121,
+    "name": "Balenos 3-2, Loggia Farm",
+    "CP": 1,
+    "parentNode": 26,
+    "affTown": 5,
+    "needHouseKey": 2120,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2120": {
+    "key": 2120,
+    "name": "Balenos 3-1, Loggia Farm",
+    "CP": 2,
+    "parentNode": 26,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1501": 1,
+      "1503": 1,
+      "0": 1
+    }
+  },
+  "2119": {
+    "key": 2119,
+    "name": "Balenos 4-2, DelLucci Farm",
+    "CP": 1,
+    "parentNode": 44,
+    "affTown": 5,
+    "needHouseKey": 2118,
+    "CraftList": {
+      "2": 2,
+      "1401": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2118": {
+    "key": 2118,
+    "name": "Balenos 4-1, DelLucci Farm",
+    "CP": 2,
+    "parentNode": 44,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1503": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2117": {
+    "key": 2117,
+    "name": "Balenos 1-2, Bartali Farm",
+    "CP": 1,
+    "parentNode": 21,
+    "affTown": 5,
+    "needHouseKey": 2116,
+    "CraftList": {
+      "2": 2,
+      "16": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2116": {
+    "key": 2116,
+    "name": "Balenos 1-1, Bartali Farm",
+    "CP": 2,
+    "parentNode": 21,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1503": 1,
+      "0": 1
+    }
+  },
+  "2115": {
+    "key": 2115,
+    "name": "Balenos 2-2, Finto Farm",
+    "CP": 2,
+    "parentNode": 22,
+    "affTown": 5,
+    "needHouseKey": 2114,
+    "CraftList": {
+      "2": 2,
+      "16": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2114": {
+    "key": 2114,
+    "name": "Balenos 2-1, Finto Farm",
+    "CP": 1,
+    "parentNode": 22,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1503": 1,
+      "0": 1
+    }
+  },
+  "2113": {
+    "key": 2113,
+    "name": "Velia 1, Rm. 3",
+    "CP": 1,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 2112,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "1501": 1,
+      "0": 1
+    }
+  },
+  "2112": {
+    "key": 2112,
+    "name": "Velia 1, Rm. 2",
+    "CP": 1,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 2111,
+    "CraftList": {
+      "2": 1,
+      "1": 2,
+      "1401": 1,
+      "0": 1
+    }
+  },
+  "2143": {
+    "key": 2143,
+    "name": "Olvia 2-3",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2142,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "14": 1,
+      "0": 1
+    }
+  },
+  "2142": {
+    "key": 2142,
+    "name": "Olvia 2-2",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2141": {
+    "key": 2141,
+    "name": "Olvia 2-1",
+    "CP": 3,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2142,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "1401": 2,
+      "0": 1
+    }
+  },
+  "2139": {
+    "key": 2139,
+    "name": "Olvia 1-3",
+    "CP": 2,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2138,
+    "CraftList": {
+      "2": 2,
+      "1401": 1,
+      "0": 1
+    }
+  },
+  "2138": {
+    "key": 2138,
+    "name": "Olvia 1-2",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 2137,
+    "CraftList": {
+      "2": 1,
+      "1502": 1,
+      "1503": 1,
+      "0": 1
+    }
+  },
+  "2137": {
+    "key": 2137,
+    "name": "Olvia 1-1",
+    "CP": 1,
+    "parentNode": 61,
+    "affTown": 88,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2136": {
+    "key": 2136,
+    "name": "Iliya Island 6-2",
+    "CP": 2,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 2135,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "21": 1,
+      "0": 1
+    }
+  },
+  "2135": {
+    "key": 2135,
+    "name": "Iliya Island 6-1",
+    "CP": 1,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1503": 1,
+      "0": 1
+    }
+  },
+  "2134": {
+    "key": 2134,
+    "name": "Iliya Island 5",
+    "CP": 2,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2133": {
+    "key": 2133,
+    "name": "Iliya Island 4-2",
+    "CP": 1,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2132": {
+    "key": 2132,
+    "name": "Iliya Island 4-1",
+    "CP": 3,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 2133,
+    "CraftList": {
+      "2": 2,
+      "17": 2,
+      "21": 2,
+      "0": 1
+    }
+  },
+  "2131": {
+    "key": 2131,
+    "name": "Iliya Island 3",
+    "CP": 3,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 2132,
+    "CraftList": {
+      "2": 4,
+      "1102": 2,
+      "1901": 1,
+      "0": 1
+    }
+  },
+  "2130": {
+    "key": 2130,
+    "name": "Iliya Island 2-2",
+    "CP": 2,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 2129,
+    "CraftList": {
+      "2": 4,
+      "17": 3,
+      "1302": 2,
+      "0": 1
+    }
+  },
+  "2129": {
+    "key": 2129,
+    "name": "Iliya Island 2-1",
+    "CP": 2,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 2128,
+    "CraftList": {
+      "2": 2,
+      "11": 1,
+      "12": 1,
+      "1302": 1,
+      "0": 1
+    }
+  },
+  "2128": {
+    "key": 2128,
+    "name": "Iliya Island 1-2",
+    "CP": 1,
+    "parentNode": 1002,
+    "affTown": 182,
+    "needHouseKey": 2127,
+    "CraftList": {
+      "2": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2111": {
+    "key": 2111,
+    "name": "Velia 1, Rm. 1",
+    "CP": 1,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2109": {
+    "key": 2109,
+    "name": "Velia 3-2, 2F",
+    "CP": 5,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 2108,
+    "CraftList": {
+      "2": 3,
+      "1102": 1,
+      "0": 1
+    }
+  },
+  "2108": {
+    "key": 2108,
+    "name": "Velia 3-2, 1F",
+    "CP": 2,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 2105,
+    "CraftList": {
+      "2": 2,
+      "13": 1,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2107": {
+    "key": 2107,
+    "name": "Velia 2-1",
+    "CP": 1,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2106": {
+    "key": 2106,
+    "name": "Velia 2-3",
+    "CP": 5,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 2102,
+    "CraftList": {
+      "2": 3,
+      "1201": 1,
+      "1401": 2,
+      "0": 1
+    }
+  },
+  "2105": {
+    "key": 2105,
+    "name": "Velia 3-1",
+    "CP": 1,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2104": {
+    "key": 2104,
+    "name": "Velia 5-2",
+    "CP": 2,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 2103,
+    "CraftList": {
+      "2": 2,
+      "13": 1,
+      "1502": 1,
+      "0": 1
+    }
+  },
+  "2103": {
+    "key": 2103,
+    "name": "Velia 5-1",
+    "CP": 1,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2102": {
+    "key": 2102,
+    "name": "Velia 2-2",
+    "CP": 2,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 2107,
+    "CraftList": {
+      "2": 2,
+      "14": 1,
+      "1401": 1,
+      "0": 1
+    }
+  },
+  "2101": {
+    "key": 2101,
+    "name": "Velia 4",
+    "CP": 3,
+    "parentNode": 1,
+    "affTown": 5,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "3": 2,
+      "11": 1,
+      "12": 1,
+      "1701": 1,
+      "0": 1
+    }
+  },
+  "2559": {
+    "key": 2559,
+    "name": "Noble Quarter 1-7, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2556,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2558": {
+    "key": 2558,
+    "name": "Noble Quarter 1-6",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2556,
+    "CraftList": {
+      "2": 3,
+      "1423": 2,
+      "1427": 1,
+      "1301": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2557": {
+    "key": 2557,
+    "name": "Noble Quarter 1-5, 2F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2556,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "1404": 4,
+      "0": 1
+    }
+  },
+  "2556": {
+    "key": 2556,
+    "name": "Noble Quarter 1-5, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2553,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2555": {
+    "key": 2555,
+    "name": "Noble Quarter 1-4, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2554,
+    "CraftList": {
+      "2": 3,
+      "12": 5,
+      "1301": 3,
+      "0": 1
+    }
+  },
+  "2554": {
+    "key": 2554,
+    "name": "Noble Quarter 1-4, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2553,
+    "CraftList": {
+      "2": 3,
+      "13": 2,
+      "14": 2,
+      "0": 1
+    }
+  },
+  "2553": {
+    "key": 2553,
+    "name": "Noble Quarter 1-3",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2552,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2552": {
+    "key": 2552,
+    "name": "Noble Quarter 1-2, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2551,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2551": {
+    "key": 2551,
+    "name": "Noble Quarter 1-1",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2511": {
+    "key": 2511,
+    "name": "Market Street 7-1, Rm. 1",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2513,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "17": 2,
+      "1051": 3,
+      "0": 1
+    }
+  },
+  "2510": {
+    "key": 2510,
+    "name": "Market Street 6-5, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2509,
+    "CraftList": {
+      "2": 4,
+      "1301": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2509": {
+    "key": 2509,
+    "name": "Market Street 6-5, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2508,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2508": {
+    "key": 2508,
+    "name": "Market Street 6-4",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2506,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2507": {
+    "key": 2507,
+    "name": "Market Street 6-3, 2F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2506,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2506": {
+    "key": 2506,
+    "name": "Market Street 6-3, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2505,
+    "CraftList": {
+      "2": 2,
+      "13": 1,
+      "14": 1,
+      "0": 1
+    }
+  },
+  "2505": {
+    "key": 2505,
+    "name": "Market Street 6-2",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2504,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2504": {
+    "key": 2504,
+    "name": "Market Street 6-1, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2502": {
+    "key": 2502,
+    "name": "Market Street 5-7",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2500,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "15": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2501": {
+    "key": 2501,
+    "name": "Market Street 5-6, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2500,
+    "CraftList": {
+      "2": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2500": {
+    "key": 2500,
+    "name": "Market Street 5-6, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2498,
+    "CraftList": {
+      "2": 2,
+      "16": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2499": {
+    "key": 2499,
+    "name": "Market Street 5-5, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2498,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2498": {
+    "key": 2498,
+    "name": "Market Street 5-5, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2497": {
+    "key": 2497,
+    "name": "Market Street 5-4, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2496,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2496": {
+    "key": 2496,
+    "name": "Market Street 5-4, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2494,
+    "CraftList": {
+      "2": 2,
+      "11": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2522": {
+    "key": 2522,
+    "name": "Market Street 7-7, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2521,
+    "CraftList": {
+      "2": 5,
+      "1104": 1,
+      "0": 1
+    }
+  },
+  "2521": {
+    "key": 2521,
+    "name": "Market Street 7-7, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2518,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2520": {
+    "key": 2520,
+    "name": "Market Street 7-6, 3F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2519,
+    "CraftList": {
+      "2": 4,
+      "1": 3,
+      "0": 1
+    }
+  },
+  "2519": {
+    "key": 2519,
+    "name": "Market Street 7-6, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2518,
+    "CraftList": {
+      "2": 3,
+      "1": 3,
+      "1423": 1,
+      "1427": 1,
+      "0": 1
+    }
+  },
+  "2518": {
+    "key": 2518,
+    "name": "Market Street 7-6, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2516,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2517": {
+    "key": 2517,
+    "name": "Market Street 7-5, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2516,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "0": 1
+    }
+  },
+  "2516": {
+    "key": 2516,
+    "name": "Market Street 7-4, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2514,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2515": {
+    "key": 2515,
+    "name": "Market Street 7-3, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2514,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2514": {
+    "key": 2514,
+    "name": "Market Street 7-3, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1508": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2513": {
+    "key": 2513,
+    "name": "Market Street 7-2",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2514,
+    "CraftList": {
+      "2": 3,
+      "14": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2512": {
+    "key": 2512,
+    "name": "Market Street 7-1, Rm. 2",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2511,
+    "CraftList": {
+      "2": 4,
+      "0": 1
+    }
+  },
+  "2479": {
+    "key": 2479,
+    "name": "Market Street 3-5, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2478,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2478": {
+    "key": 2478,
+    "name": "Market Street 3-4",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2476,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "1303": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2477": {
+    "key": 2477,
+    "name": "Market Street 3-3, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2476,
+    "CraftList": {
+      "2": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2476": {
+    "key": 2476,
+    "name": "Market Street 3-3, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2473,
+    "CraftList": {
+      "2": 2,
+      "1404": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2475": {
+    "key": 2475,
+    "name": "Market Street 3-2, 3F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2474,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2474": {
+    "key": 2474,
+    "name": "Market Street 3-2, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2473,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2473": {
+    "key": 2473,
+    "name": "Market Street 3-2, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2472,
+    "CraftList": {
+      "2": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2472": {
+    "key": 2472,
+    "name": "Market Street 3-1, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2471": {
+    "key": 2471,
+    "name": "Market Street 2-4",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2469,
+    "CraftList": {
+      "2": 4,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2470": {
+    "key": 2470,
+    "name": "Market Street 2-3, 2F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2469,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2469": {
+    "key": 2469,
+    "name": "Market Street 2-3, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2468,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1303": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2468": {
+    "key": 2468,
+    "name": "Market Street 2-2, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2466,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2467": {
+    "key": 2467,
+    "name": "Market Street 2-1, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2466,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2466": {
+    "key": 2466,
+    "name": "Market Street 2-1, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2495": {
+    "key": 2495,
+    "name": "Market Street 5-3, 2F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2494,
+    "CraftList": {
+      "2": 2,
+      "17": 2,
+      "1302": 2,
+      "0": 1
+    }
+  },
+  "2494": {
+    "key": 2494,
+    "name": "Market Street 5-3, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2493,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2493": {
+    "key": 2493,
+    "name": "Market Street 5-2",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2498,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2492": {
+    "key": 2492,
+    "name": "Market Street 5-1",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2493,
+    "CraftList": {
+      "2": 2,
+      "0": 1
+    }
+  },
+  "2491": {
+    "key": 2491,
+    "name": "Market Street 4-7",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2490,
+    "CraftList": {
+      "2": 2,
+      "14": 3,
+      "15": 3,
+      "0": 1
+    }
+  },
+  "2490": {
+    "key": 2490,
+    "name": "Market Street 4-6",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2488,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2489": {
+    "key": 2489,
+    "name": "Market Street 4-5, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2488,
+    "CraftList": {
+      "2": 3,
+      "11": 3,
+      "0": 1
+    }
+  },
+  "2488": {
+    "key": 2488,
+    "name": "Market Street 4-5, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2482,
+    "CraftList": {
+      "2": 2,
+      "14": 2,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2487": {
+    "key": 2487,
+    "name": "Market Street 4-4, 2F",
+    "CP": 4,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2486,
+    "CraftList": {
+      "2": 3,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2486": {
+    "key": 2486,
+    "name": "Market Street 4-4, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2485,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2485": {
+    "key": 2485,
+    "name": "Market Street 4-3",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2482,
+    "CraftList": {
+      "2": 1,
+      "16": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2484": {
+    "key": 2484,
+    "name": "Market Street 4-2, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2483,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2483": {
+    "key": 2483,
+    "name": "Market Street 4-2, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2482,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2482": {
+    "key": 2482,
+    "name": "Market Street 4-1",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2481": {
+    "key": 2481,
+    "name": "Market Street 3-6, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2480,
+    "CraftList": {
+      "2": 3,
+      "11": 4,
+      "12": 4,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "2480": {
+    "key": 2480,
+    "name": "Market Street 3-6, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2478,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "0": 1
+    }
+  },
+  "2463": {
+    "key": 2463,
+    "name": "Market Street 1-8, 3F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2462,
+    "CraftList": {
+      "2": 3,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "2462": {
+    "key": 2462,
+    "name": "Market Street 1-8, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2461,
+    "CraftList": {
+      "2": 2,
+      "1301": 3,
+      "0": 1
+    }
+  },
+  "2461": {
+    "key": 2461,
+    "name": "Market Street 1-8, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2460,
+    "CraftList": {
+      "2": 3,
+      "1404": 1,
+      "0": 1
+    }
+  },
+  "2460": {
+    "key": 2460,
+    "name": "Market Street 1-7, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2458,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2459": {
+    "key": 2459,
+    "name": "Market Street 1-6, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2458,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1302": 1,
+      "0": 1
+    }
+  },
+  "2458": {
+    "key": 2458,
+    "name": "Market Street 1-6, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2457,
+    "CraftList": {
+      "2": 1,
+      "1404": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2457": {
+    "key": 2457,
+    "name": "Market Street 1-5",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2456": {
+    "key": 2456,
+    "name": "Market Street 1-4, 2F",
+    "CP": 5,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2455,
+    "CraftList": {
+      "2": 5,
+      "13": 4,
+      "14": 4,
+      "17": 3,
+      "1404": 4,
+      "0": 1
+    }
+  },
+  "2455": {
+    "key": 2455,
+    "name": "Market Street 1-3, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2453,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "2454": {
+    "key": 2454,
+    "name": "Market Street 1-2, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2453,
+    "CraftList": {
+      "2": 3,
+      "11": 2,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2453": {
+    "key": 2453,
+    "name": "Market Street 1-2, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2452,
+    "CraftList": {
+      "2": 2,
+      "12": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2452": {
+    "key": 2452,
+    "name": "Market Street 1-1, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2415": {
+    "key": 2415,
+    "name": "Slum 2-3, 3F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2414,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2414": {
+    "key": 2414,
+    "name": "Slum 2-3, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2412,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2413": {
+    "key": 2413,
+    "name": "Slum 2-2, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2412,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2412": {
+    "key": 2412,
+    "name": "Slum 2-2, 1F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2411,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2411": {
+    "key": 2411,
+    "name": "Slum 2-1",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2410": {
+    "key": 2410,
+    "name": "Slum 1-5",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2407,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "16": 2,
+      "0": 1
+    }
+  },
+  "2409": {
+    "key": 2409,
+    "name": "Slum 1-4, 3F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2408,
+    "CraftList": {
+      "2": 3,
+      "15": 1,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2408": {
+    "key": 2408,
+    "name": "Slum 1-4, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2407,
+    "CraftList": {
+      "2": 2,
+      "14": 2,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2407": {
+    "key": 2407,
+    "name": "Slum 1-4, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2405,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2406": {
+    "key": 2406,
+    "name": "Slum 1-3, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2405,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2405": {
+    "key": 2405,
+    "name": "Slum 1-3, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2404": {
+    "key": 2404,
+    "name": "Slum 1-2, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2403,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "1404": 1,
+      "0": 1
+    }
+  },
+  "2403": {
+    "key": 2403,
+    "name": "Slum 1-2, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2401,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2402": {
+    "key": 2402,
+    "name": "Slum 1-1, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2401,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2401": {
+    "key": 2401,
+    "name": "Slum 1-1, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2428": {
+    "key": 2428,
+    "name": "Slum 3-6",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2422,
+    "CraftList": {
+      "2": 2,
+      "13": 2,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2426": {
+    "key": 2426,
+    "name": "Slum 3-4",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2425,
+    "CraftList": {
+      "2": 3,
+      "14": 3,
+      "1423": 1,
+      "1427": 1,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2425": {
+    "key": 2425,
+    "name": "Slum 3-3",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2424,
+    "CraftList": {
+      "2": 2,
+      "15": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2424": {
+    "key": 2424,
+    "name": "Slum 3-2",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2422,
+    "CraftList": {
+      "2": 1,
+      "17": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2423": {
+    "key": 2423,
+    "name": "Slum 3-1, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2422,
+    "CraftList": {
+      "2": 2,
+      "14": 1,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2422": {
+    "key": 2422,
+    "name": "Slum 3-1, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2421": {
+    "key": 2421,
+    "name": "Slum 2-7",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2419,
+    "CraftList": {
+      "2": 3,
+      "13": 3,
+      "15": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2420": {
+    "key": 2420,
+    "name": "Slum 2-6, 2F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2419,
+    "CraftList": {
+      "2": 3,
+      "14": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2419": {
+    "key": 2419,
+    "name": "Slum 2-6, 1F",
+    "CP": 2,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2412,
+    "CraftList": {
+      "2": 3,
+      "16": 2,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2418": {
+    "key": 2418,
+    "name": "Slum 2-5, 2F",
+    "CP": 3,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2417,
+    "CraftList": {
+      "2": 4,
+      "11": 3,
+      "13": 3,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "2417": {
+    "key": 2417,
+    "name": "Slum 2-5, 1F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2416,
+    "CraftList": {
+      "2": 3,
+      "12": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2416": {
+    "key": 2416,
+    "name": "Slum 2-4, 2F",
+    "CP": 1,
+    "parentNode": 601,
+    "affTown": 77,
+    "needHouseKey": 2414,
+    "CraftList": {
+      "2": 2,
+      "15": 1,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2378": {
+    "key": 2378,
+    "name": "2nd Floor, Longleaf Tree Sentry Post",
+    "CP": 3,
+    "parentNode": 719,
+    "affTown": 126,
+    "needHouseKey": 2377,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2377": {
+    "key": 2377,
+    "name": "1st Floor, Longleaf Tree Sentry Post",
+    "CP": 3,
+    "parentNode": 719,
+    "affTown": 126,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2376": {
+    "key": 2376,
+    "name": "Gianin Farm 1",
+    "CP": 3,
+    "parentNode": 670,
+    "affTown": 107,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2375": {
+    "key": 2375,
+    "name": "Bain Farmland 1",
+    "CP": 3,
+    "parentNode": 663,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2374": {
+    "key": 2374,
+    "name": "Northern Wheat Plantation 2",
+    "CP": 1,
+    "parentNode": 628,
+    "affTown": 77,
+    "needHouseKey": 2373,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1508": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2373": {
+    "key": 2373,
+    "name": "Northern Wheat Plantation 1",
+    "CP": 2,
+    "parentNode": 628,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1507": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2372": {
+    "key": 2372,
+    "name": "Falres Dirt Farm 1",
+    "CP": 2,
+    "parentNode": 661,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2371": {
+    "key": 2371,
+    "name": "Port Epheria 3-5, 2F",
+    "CP": 3,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2359,
+    "CraftList": {
+      "2": 5,
+      "1": 3,
+      "1101": 3,
+      "0": 1
+    }
+  },
+  "2370": {
+    "key": 2370,
+    "name": "Port Epheria 1-4, 2F",
+    "CP": 3,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2340,
+    "CraftList": {
+      "2": 5,
+      "1": 3,
+      "15": 3,
+      "1302": 4,
+      "0": 1
+    }
+  },
+  "2369": {
+    "key": 2369,
+    "name": "Port Epheria 3-2, 2F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2354,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2368": {
+    "key": 2368,
+    "name": "Dias Farm 2, 2F",
+    "CP": 2,
+    "parentNode": 633,
+    "affTown": 77,
+    "needHouseKey": 2367,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1301": 1,
+      "0": 1
+    }
+  },
+  "2351": {
+    "key": 2351,
+    "name": "Port Epheria 3-1, 1F",
+    "CP": 1,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2350": {
+    "key": 2350,
+    "name": "Port Epheria 2-5",
+    "CP": 5,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2348,
+    "CraftList": {
+      "2": 5,
+      "1": 3,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "2349": {
+    "key": 2349,
+    "name": "Port Epheria 2-4, 2F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2348,
+    "CraftList": {
+      "2": 1,
+      "13": 3,
+      "0": 1
+    }
+  },
+  "2348": {
+    "key": 2348,
+    "name": "Port Epheria 2-4, 1F",
+    "CP": 1,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2346,
+    "CraftList": {
+      "2": 2,
+      "1404": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2347": {
+    "key": 2347,
+    "name": "Port Epheria 2-3, 2F",
+    "CP": 1,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2346,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2346": {
+    "key": 2346,
+    "name": "Port Epheria 2-3, 1F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2344,
+    "CraftList": {
+      "2": 2,
+      "15": 2,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2345": {
+    "key": 2345,
+    "name": "Port Epheria 2-2, 2F",
+    "CP": 4,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2344,
+    "CraftList": {
+      "2": 3,
+      "0": 1
+    }
+  },
+  "2344": {
+    "key": 2344,
+    "name": "Port Epheria 2-2, 1F",
+    "CP": 1,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2343,
+    "CraftList": {
+      "2": 2,
+      "16": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2343": {
+    "key": 2343,
+    "name": "Port Epheria 2-1, 1F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2341,
+    "CraftList": {
+      "2": 2,
+      "1508": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2342": {
+    "key": 2342,
+    "name": "Port Epheria 2-1, Rm. 2",
+    "CP": 1,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2341,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2341": {
+    "key": 2341,
+    "name": "Port Epheria 2-1, Rm. 1",
+    "CP": 1,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "2340": {
+    "key": 2340,
+    "name": "Port Epheria 1-4, 1F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2339,
+    "CraftList": {
+      "2": 4,
+      "1": 3,
+      "0": 1
+    }
+  },
+  "2339": {
+    "key": 2339,
+    "name": "Port Epheria 1-3",
+    "CP": 4,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2336,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2338": {
+    "key": 2338,
+    "name": "Port Epheria 1-2, 3F",
+    "CP": 3,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2337,
+    "CraftList": {
+      "2": 1,
+      "17": 2,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2337": {
+    "key": 2337,
+    "name": "Port Epheria 1-2, 2F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2336,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "14": 2,
+      "0": 1
+    }
+  },
+  "2336": {
+    "key": 2336,
+    "name": "Port Epheria 1-2, 1F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2334,
+    "CraftList": {
+      "2": 2,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2367": {
+    "key": 2367,
+    "name": "Dias Farm 2, 1F",
+    "CP": 1,
+    "parentNode": 633,
+    "affTown": 77,
+    "needHouseKey": 2366,
+    "CraftList": {
+      "2": 2,
+      "1508": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2366": {
+    "key": 2366,
+    "name": "Dias Farm 1",
+    "CP": 1,
+    "parentNode": 633,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1509": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2365": {
+    "key": 2365,
+    "name": "Florin 2-4",
+    "CP": 3,
+    "parentNode": 603,
+    "affTown": 77,
+    "needHouseKey": 2364,
+    "CraftList": {
+      "2": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2364": {
+    "key": 2364,
+    "name": "Florin 2-3",
+    "CP": 2,
+    "parentNode": 603,
+    "affTown": 77,
+    "needHouseKey": 2363,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1404": 2,
+      "0": 1
+    }
+  },
+  "2363": {
+    "key": 2363,
+    "name": "Florin 2-2",
+    "CP": 1,
+    "parentNode": 603,
+    "affTown": 77,
+    "needHouseKey": 2362,
+    "CraftList": {
+      "2": 1,
+      "1508": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2362": {
+    "key": 2362,
+    "name": "Florin 2-1",
+    "CP": 1,
+    "parentNode": 603,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1509": 1,
+      "0": 1
+    }
+  },
+  "2361": {
+    "key": 2361,
+    "name": "Florin 1-3",
+    "CP": 4,
+    "parentNode": 603,
+    "affTown": 77,
+    "needHouseKey": 2360,
+    "CraftList": {
+      "2": 3,
+      "15": 2,
+      "22": 3,
+      "1404": 3,
+      "0": 1
+    }
+  },
+  "2360": {
+    "key": 2360,
+    "name": "Florin 1-2",
+    "CP": 2,
+    "parentNode": 603,
+    "affTown": 77,
+    "needHouseKey": 2331,
+    "CraftList": {
+      "2": 1,
+      "16": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2359": {
+    "key": 2359,
+    "name": "Port Epheria 3-5, 1F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2357,
+    "CraftList": {
+      "2": 4,
+      "14": 3,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2358": {
+    "key": 2358,
+    "name": "Port Epheria 3-4, 2F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2357,
+    "CraftList": {
+      "2": 1,
+      "1301": 2,
+      "0": 1
+    }
+  },
+  "2357": {
+    "key": 2357,
+    "name": "Port Epheria 3-4, 1F",
+    "CP": 3,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2355,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2356": {
+    "key": 2356,
+    "name": "Port Epheria 3-3, 2F",
+    "CP": 1,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2355,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "11": 2,
+      "0": 1
+    }
+  },
+  "2355": {
+    "key": 2355,
+    "name": "Port Epheria 3-3, 1F",
+    "CP": 1,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2354,
+    "CraftList": {
+      "2": 2,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2354": {
+    "key": 2354,
+    "name": "Port Epheria 3-2, 1F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2351,
+    "CraftList": {
+      "2": 2,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2353": {
+    "key": 2353,
+    "name": "Port Epheria 3-1, 3F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2352,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "17": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2352": {
+    "key": 2352,
+    "name": "Port Epheria 3-1, 2F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2351,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1507": 1,
+      "0": 1
+    }
+  },
+  "2312": {
+    "key": 2312,
+    "name": "Behr 6",
+    "CP": 3,
+    "parentNode": 609,
+    "affTown": 126,
+    "needHouseKey": 2311,
+    "CraftList": {
+      "2": 5,
+      "17": 3,
+      "1205": 1,
+      "0": 1
+    }
+  },
+  "2311": {
+    "key": 2311,
+    "name": "Behr 5",
+    "CP": 3,
+    "parentNode": 609,
+    "affTown": 126,
+    "needHouseKey": 2310,
+    "CraftList": {
+      "2": 4,
+      "11": 3,
+      "13": 3,
+      "14": 3,
+      "0": 1
+    }
+  },
+  "2310": {
+    "key": 2310,
+    "name": "Behr 4",
+    "CP": 2,
+    "parentNode": 609,
+    "affTown": 126,
+    "needHouseKey": 2309,
+    "CraftList": {
+      "2": 3,
+      "16": 3,
+      "17": 1,
+      "1552": 1,
+      "0": 1
+    }
+  },
+  "2309": {
+    "key": 2309,
+    "name": "Behr 3",
+    "CP": 2,
+    "parentNode": 609,
+    "affTown": 126,
+    "needHouseKey": 2308,
+    "CraftList": {
+      "2": 2,
+      "14": 2,
+      "0": 1
+    }
+  },
+  "2308": {
+    "key": 2308,
+    "name": "Behr 2",
+    "CP": 1,
+    "parentNode": 609,
+    "affTown": 126,
+    "needHouseKey": 2307,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 1,
+      "1551": 1,
+      "0": 1
+    }
+  },
+  "2307": {
+    "key": 2307,
+    "name": "Behr 1",
+    "CP": 2,
+    "parentNode": 609,
+    "affTown": 126,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "1508": 1,
+      "0": 1
+    }
+  },
+  "2306": {
+    "key": 2306,
+    "name": "Trent 6",
+    "CP": 5,
+    "parentNode": 608,
+    "affTown": 126,
+    "needHouseKey": 2304,
+    "CraftList": {
+      "2": 5,
+      "17": 3,
+      "0": 1
+    }
+  },
+  "2305": {
+    "key": 2305,
+    "name": "Trent 5",
+    "CP": 4,
+    "parentNode": 608,
+    "affTown": 126,
+    "needHouseKey": 2302,
+    "CraftList": {
+      "2": 3,
+      "1": 2,
+      "3": 4,
+      "16": 3,
+      "17": 2,
+      "0": 1
+    }
+  },
+  "2304": {
+    "key": 2304,
+    "name": "Trent 4",
+    "CP": 4,
+    "parentNode": 608,
+    "affTown": 126,
+    "needHouseKey": 2303,
+    "CraftList": {
+      "2": 3,
+      "14": 3,
+      "1301": 2,
+      "0": 1
+    }
+  },
+  "2335": {
+    "key": 2335,
+    "name": "Port Epheria 1-1, 2F",
+    "CP": 2,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 2334,
+    "CraftList": {
+      "2": 2,
+      "1": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2334": {
+    "key": 2334,
+    "name": "Port Epheria 1-1, 1F",
+    "CP": 1,
+    "parentNode": 604,
+    "affTown": 120,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "1503": 1,
+      "0": 1
+    }
+  },
+  "2333": {
+    "key": 2333,
+    "name": "Florin 1-1, Rm. 3",
+    "CP": 2,
+    "parentNode": 603,
+    "affTown": 77,
+    "needHouseKey": 2332,
+    "CraftList": {
+      "2": 2,
+      "1": 2,
+      "0": 1
+    }
+  },
+  "2332": {
+    "key": 2332,
+    "name": "Florin 1-1, Rm. 2",
+    "CP": 1,
+    "parentNode": 603,
+    "affTown": 77,
+    "needHouseKey": 2331,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "17": 1,
+      "0": 1
+    }
+  },
+  "2331": {
+    "key": 2331,
+    "name": "Florin 1-1, Rm. 1",
+    "CP": 1,
+    "parentNode": 603,
+    "affTown": 77,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1509": 1,
+      "0": 1
+    }
+  }
+}

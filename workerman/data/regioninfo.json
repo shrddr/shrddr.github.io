@@ -1,0 +1,7478 @@
+{
+  "559": {
+    "key": 559,
+    "name": "Evergart Falls",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "47": {
+    "key": 47,
+    "name": "Central Neutral Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 17
+  },
+  "370": {
+    "key": 370,
+    "name": "Fribancy Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "8": {
+    "key": 8,
+    "name": "Fleme Hills",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 4
+  },
+  "748": {
+    "key": 748,
+    "name": "White Tree Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 154
+  },
+  "196": {
+    "key": 196,
+    "name": "Balenos Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 33
+  },
+  "1": {
+    "key": 1,
+    "name": "Test Zone",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "214": {
+    "key": 214,
+    "name": "Wandering Rogue Den",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "52": {
+    "key": 52,
+    "name": "Glish",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "2": {
+    "key": 2,
+    "name": "Sea",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "880": {
+    "key": 880,
+    "name": "Duvencrune",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "3": {
+    "key": 3,
+    "name": "Balenos Bay",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 8
+  },
+  "724": {
+    "key": 724,
+    "name": "Kamasylvia Castle",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "406": {
+    "key": 406,
+    "name": "Rameda Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 108
+  },
+  "23": {
+    "key": 23,
+    "name": "Ossuary",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "131": {
+    "key": 131,
+    "name": "Upper Demi River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "396": {
+    "key": 396,
+    "name": "Randis Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 106
+  },
+  "990": {
+    "key": 990,
+    "name": "Oquilla's Eye",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 178
+  },
+  "5": {
+    "key": 5,
+    "name": "Velia",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "730": {
+    "key": 730,
+    "name": "Tooth Fairy Cabin",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 155
+  },
+  "372": {
+    "key": 372,
+    "name": "Ephde Rune Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "297": {
+    "key": 297,
+    "name": "Witch's Chapel",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 43
+  },
+  "46": {
+    "key": 46,
+    "name": "Southern Neutral Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 24
+  },
+  "896": {
+    "key": 896,
+    "name": "Sherekhan Mine Road",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "998": {
+    "key": 998,
+    "name": "Crow Merchant Ship",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 185
+  },
+  "593": {
+    "key": 593,
+    "name": "Deserted City of Runn",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "4": {
+    "key": 4,
+    "name": "Balenos Plains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "6": {
+    "key": 6,
+    "name": "Agris Steppe",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 2
+  },
+  "603": {
+    "key": 603,
+    "name": "Gahaz Bandit's Lair",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "255": {
+    "key": 255,
+    "name": "Kaia River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "30": {
+    "key": 30,
+    "name": "Heidel Castle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 11
+  },
+  "7": {
+    "key": 7,
+    "name": "Altar of Agris",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 2
+  },
+  "310": {
+    "key": 310,
+    "name": "Calpheon City Trade Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "48": {
+    "key": 48,
+    "name": "Sanctuary Valley Path",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "1073": {
+    "key": 1073,
+    "name": "Lake Flondor",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 154
+  },
+  "897": {
+    "key": 897,
+    "name": "Khimut Great Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 234
+  },
+  "957": {
+    "key": 957,
+    "name": "La O'delle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 161
+  },
+  "122": {
+    "key": 122,
+    "name": "Northern Wheat Plantation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "9": {
+    "key": 9,
+    "name": "Western Guard Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 3
+  },
+  "756": {
+    "key": 756,
+    "name": "Acher Western Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "41": {
+    "key": 41,
+    "name": "Wizard's Altar",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 14
+  },
+  "347": {
+    "key": 347,
+    "name": "Epheria Ridge",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "10": {
+    "key": 10,
+    "name": "Forest of Seclusion",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 3
+  },
+  "257": {
+    "key": 257,
+    "name": "Slum Church",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "40": {
+    "key": 40,
+    "name": "Southern Plain of Serendia",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "922": {
+    "key": 922,
+    "name": "Akum Rocky Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 225
+  },
+  "389": {
+    "key": 389,
+    "name": "Ajir Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 105
+  },
+  "197": {
+    "key": 197,
+    "name": "Contaminated Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "11": {
+    "key": 11,
+    "name": "Balenos Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 5
+  },
+  "35": {
+    "key": 35,
+    "name": "Northern Plain of Serendia",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 14
+  },
+  "904": {
+    "key": 904,
+    "name": "Forgotten Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 236
+  },
+  "174": {
+    "key": 174,
+    "name": "Rugged Balenos Mountains",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "846": {
+    "key": 846,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "12": {
+    "key": 12,
+    "name": "Forest of Plunder",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 6
+  },
+  "17": {
+    "key": 17,
+    "name": "Finto Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "269": {
+    "key": 269,
+    "name": "Gehaku Plain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 46
+  },
+  "343": {
+    "key": 343,
+    "name": "Wolf Hills",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 62
+  },
+  "13": {
+    "key": 13,
+    "name": "Ehwaz Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 7
+  },
+  "742": {
+    "key": 742,
+    "name": "Yianaros's Field",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "194": {
+    "key": 194,
+    "name": "Anti-Troll Fortification",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 36
+  },
+  "885": {
+    "key": 885,
+    "name": "Night Crow Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 229
+  },
+  "14": {
+    "key": 14,
+    "name": "Cron Castle Site",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 7
+  },
+  "15": {
+    "key": 15,
+    "name": "Cron Castle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 7
+  },
+  "749": {
+    "key": 749,
+    "name": "Southern Kamasylvia",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 158
+  },
+  "51": {
+    "key": 51,
+    "name": "Extraction Mill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 19
+  },
+  "1149": {
+    "key": 1149,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 81
+  },
+  "16": {
+    "key": 16,
+    "name": "Bartali Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "843": {
+    "key": 843,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "18": {
+    "key": 18,
+    "name": "Loggia Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "725": {
+    "key": 725,
+    "name": "Kamasylvia Vicinity",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 150
+  },
+  "19": {
+    "key": 19,
+    "name": "Marino Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 4
+  },
+  "344": {
+    "key": 344,
+    "name": "Balenos River Mouth",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 62
+  },
+  "20": {
+    "key": 20,
+    "name": "Toscani Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 4
+  },
+  "169": {
+    "key": 169,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 13
+  },
+  "21": {
+    "key": 21,
+    "name": "DelLucci Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 5
+  },
+  "723": {
+    "key": 723,
+    "name": "Manshaum Forest Path",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 152
+  },
+  "729": {
+    "key": 729,
+    "name": "Tooth Fairy Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 155
+  },
+  "1076": {
+    "key": 1076,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 207
+  },
+  "81": {
+    "key": 81,
+    "name": "Second Territory",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 255
+  },
+  "22": {
+    "key": 22,
+    "name": "Fiazza Farm Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 7
+  },
+  "44": {
+    "key": 44,
+    "name": "Western Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "24": {
+    "key": 24,
+    "name": "Coastal Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 8
+  },
+  "296": {
+    "key": 296,
+    "name": "Marie Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 43
+  },
+  "1109": {
+    "key": 1109,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "1173": {
+    "key": 1173,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 72
+  },
+  "342": {
+    "key": 342,
+    "name": "Altinova Entrance",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "34": {
+    "key": 34,
+    "name": "King's Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 13
+  },
+  "25": {
+    "key": 25,
+    "name": "Imp Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 2
+  },
+  "706": {
+    "key": 706,
+    "name": "Old Wisdom Tree",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 151
+  },
+  "346": {
+    "key": 346,
+    "name": "Olvia Foothills",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 61
+  },
+  "26": {
+    "key": 26,
+    "name": "Ancient Stone Chamber",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 3
+  },
+  "441": {
+    "key": 441,
+    "name": "Terrmian Waterpark",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "27": {
+    "key": 27,
+    "name": "Balenos Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 6
+  },
+  "72": {
+    "key": 72,
+    "name": "Watchtower",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "262": {
+    "key": 262,
+    "name": "Cohen Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "216": {
+    "key": 216,
+    "name": "Hasrah Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 58
+  },
+  "699": {
+    "key": 699,
+    "name": "Southern Sand Dune",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "60": {
+    "key": 60,
+    "name": "Alejandro Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 13
+  },
+  "28": {
+    "key": 28,
+    "name": "Heidel Pass",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 5
+  },
+  "721": {
+    "key": 721,
+    "name": "Caduil Forest Path",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 151
+  },
+  "393": {
+    "key": 393,
+    "name": "Marka Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 103
+  },
+  "127": {
+    "key": 127,
+    "name": "Trina Fort",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "29": {
+    "key": 29,
+    "name": "Goat Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 14
+  },
+  "328": {
+    "key": 328,
+    "name": "The Mausoleum",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 52
+  },
+  "31": {
+    "key": 31,
+    "name": "Northern Guard Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 12
+  },
+  "411": {
+    "key": 411,
+    "name": "Highland Junction",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "32": {
+    "key": 32,
+    "name": "Heidel",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 11
+  },
+  "90": {
+    "key": 90,
+    "name": "Foot of Terrmian Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "43": {
+    "key": 43,
+    "name": "Southern Mountain Range",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 23
+  },
+  "925": {
+    "key": 925,
+    "name": "Tuir Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 240
+  },
+  "567": {
+    "key": 567,
+    "name": "Abandoned Mine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 58
+  },
+  "918": {
+    "key": 918,
+    "name": "Doroter Hills",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 231
+  },
+  "33": {
+    "key": 33,
+    "name": "Northern Heidel Quarry",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 12
+  },
+  "36": {
+    "key": 36,
+    "name": "Eastern Border",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 12
+  },
+  "611": {
+    "key": 611,
+    "name": "Pilgrim's Sanctum: Sharing",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 206
+  },
+  "911": {
+    "key": 911,
+    "name": "Morning Fog Peak",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 228
+  },
+  "520": {
+    "key": 520,
+    "name": "Bree Tree Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "57": {
+    "key": 57,
+    "name": "Southern Guard Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "37": {
+    "key": 37,
+    "name": "Glish Swamp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 19
+  },
+  "981": {
+    "key": 981,
+    "name": "Northwestern Calpheon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 173
+  },
+  "320": {
+    "key": 320,
+    "name": "Velia Duel Arena",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "716": {
+    "key": 716,
+    "name": "Atanis Stream",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 150
+  },
+  "395": {
+    "key": 395,
+    "name": "Staren Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 103
+  },
+  "38": {
+    "key": 38,
+    "name": "Demi Riverbank",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 16
+  },
+  "261": {
+    "key": 261,
+    "name": "Troll Watchtower",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 36
+  },
+  "534": {
+    "key": 534,
+    "name": "Rumbling Land",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "39": {
+    "key": 39,
+    "name": "Demi River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 16
+  },
+  "42": {
+    "key": 42,
+    "name": "Grain Belt",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 21
+  },
+  "1082": {
+    "key": 1082,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "841": {
+    "key": 841,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "1175": {
+    "key": 1175,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 78
+  },
+  "85": {
+    "key": 85,
+    "name": "Helms Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "45": {
+    "key": 45,
+    "name": "Northern Neutral Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 15
+  },
+  "49": {
+    "key": 49,
+    "name": "Naga Marsh",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 19
+  },
+  "276": {
+    "key": 276,
+    "name": "Riverside Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "50": {
+    "key": 50,
+    "name": "Fogan Marsh",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "1169": {
+    "key": 1169,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 73
+  },
+  "144": {
+    "key": 144,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 8
+  },
+  "120": {
+    "key": 120,
+    "name": "Port Epheria",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "642": {
+    "key": 642,
+    "name": "Kunid's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 209
+  },
+  "53": {
+    "key": 53,
+    "name": "Glish Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "568": {
+    "key": 568,
+    "name": "Cox Pirates' Lair",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 112
+  },
+  "54": {
+    "key": 54,
+    "name": "Northern Cienaga",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "55": {
+    "key": 55,
+    "name": "Southern Cienaga",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "58": {
+    "key": 58,
+    "name": "Northwestern Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 19
+  },
+  "572": {
+    "key": 572,
+    "name": "Portanen Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 110
+  },
+  "56": {
+    "key": 56,
+    "name": "Central Guard Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "59": {
+    "key": 59,
+    "name": "Eastern Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 21
+  },
+  "61": {
+    "key": 61,
+    "name": "Costa Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 19
+  },
+  "258": {
+    "key": 258,
+    "name": "Holy College of Calpheon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "658": {
+    "key": 658,
+    "name": "Caphras Secret Base",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "64": {
+    "key": 64,
+    "name": "Dernyl Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "62": {
+    "key": 62,
+    "name": "Moretti Plantation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 21
+  },
+  "555": {
+    "key": 555,
+    "name": "Abandoned Iron Mine Rhutum District",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 56
+  },
+  "63": {
+    "key": 63,
+    "name": "Lynch Farm Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 14
+  },
+  "254": {
+    "key": 254,
+    "name": "Abandoned Monastery",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "682": {
+    "key": 682,
+    "name": "Ancado Coast",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "916": {
+    "key": 916,
+    "name": "Tshira Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 237
+  },
+  "338": {
+    "key": 338,
+    "name": "Kusha",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "65": {
+    "key": 65,
+    "name": "Elda Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "66": {
+    "key": 66,
+    "name": "Rugged Southern Mountain Range",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 14
+  },
+  "111": {
+    "key": 111,
+    "name": "Dane Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "97": {
+    "key": 97,
+    "name": "Finto Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "67": {
+    "key": 67,
+    "name": "Bloody Monastery",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 23
+  },
+  "68": {
+    "key": 68,
+    "name": "Monastery Riverhead",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 23
+  },
+  "242": {
+    "key": 242,
+    "name": "Boulder Intersection",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "247": {
+    "key": 247,
+    "name": "Calpheon Castle Site",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 38
+  },
+  "69": {
+    "key": 69,
+    "name": "Death's Pilgrimage",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 23
+  },
+  "94": {
+    "key": 94,
+    "name": "Toscani Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 4
+  },
+  "70": {
+    "key": 70,
+    "name": "Serendia Shrine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 22
+  },
+  "71": {
+    "key": 71,
+    "name": "Castle Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 21
+  },
+  "1115": {
+    "key": 1115,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 67
+  },
+  "188": {
+    "key": 188,
+    "name": "Delphe Outpost",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 33
+  },
+  "73": {
+    "key": 73,
+    "name": "Biraghi Den",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 15
+  },
+  "339": {
+    "key": 339,
+    "name": "Kasula Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "1057": {
+    "key": 1057,
+    "name": "Bahit Sanctum",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 165
+  },
+  "74": {
+    "key": 74,
+    "name": "Orc Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 17
+  },
+  "726": {
+    "key": 726,
+    "name": "Shady Tree Forest Path",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 151
+  },
+  "942": {
+    "key": 942,
+    "name": "Tuir River Downstream",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 240
+  },
+  "75": {
+    "key": 75,
+    "name": "Bradie Fortress",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 17
+  },
+  "958": {
+    "key": 958,
+    "name": "Olun's Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 162
+  },
+  "76": {
+    "key": 76,
+    "name": "Southern Mountain Range",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 16
+  },
+  "77": {
+    "key": 77,
+    "name": "Calpheon City",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "78": {
+    "key": 78,
+    "name": "Desert Region",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "1112": {
+    "key": 1112,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 243
+  },
+  "934": {
+    "key": 934,
+    "name": "Tshira Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 237
+  },
+  "79": {
+    "key": 79,
+    "name": "Other Regions",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 255
+  },
+  "436": {
+    "key": 436,
+    "name": "Battle Arena",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 9
+  },
+  "80": {
+    "key": 80,
+    "name": "Calpheon Territory",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "550": {
+    "key": 550,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "82": {
+    "key": 82,
+    "name": "Third Territory",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 255
+  },
+  "321": {
+    "key": 321,
+    "name": "Heidel Duel Arena",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 11
+  },
+  "1032": {
+    "key": 1032,
+    "name": "Talibahr's Rope",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 169
+  },
+  "83": {
+    "key": 83,
+    "name": "Fifth Territory",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 255
+  },
+  "84": {
+    "key": 84,
+    "name": "Southwestern Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "86": {
+    "key": 86,
+    "name": "Western Balenos Highlands",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "87": {
+    "key": 87,
+    "name": "Coastal Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 8
+  },
+  "114": {
+    "key": 114,
+    "name": "Faust Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "289": {
+    "key": 289,
+    "name": "Mansha Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "944": {
+    "key": 944,
+    "name": "Khimut Lumber Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 235
+  },
+  "1186": {
+    "key": 1186,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 70
+  },
+  "88": {
+    "key": 88,
+    "name": "Olvia",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 61
+  },
+  "518": {
+    "key": 518,
+    "name": "Quint Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 36
+  },
+  "89": {
+    "key": 89,
+    "name": "Elder's Bridge",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "622": {
+    "key": 622,
+    "name": "Crescent Shrine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 207
+  },
+  "91": {
+    "key": 91,
+    "name": "Terrmian Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 63
+  },
+  "287": {
+    "key": 287,
+    "name": "Lumberjack's Rest Area",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "927": {
+    "key": 927,
+    "name": "Sherekhan Necropolis",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 223
+  },
+  "1058": {
+    "key": 1058,
+    "name": "Olun's Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 162
+  },
+  "92": {
+    "key": 92,
+    "name": "Olvia Coast",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 63
+  },
+  "93": {
+    "key": 93,
+    "name": "Goblin Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 6
+  },
+  "741": {
+    "key": 741,
+    "name": "Western Valtarra Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "830": {
+    "key": 830,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "1049": {
+    "key": 1049,
+    "name": "Tunkuta",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 171
+  },
+  "508": {
+    "key": 508,
+    "name": "Southern Neutral Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 17
+  },
+  "959": {
+    "key": 959,
+    "name": "Black Mountains",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 163
+  },
+  "360": {
+    "key": 360,
+    "name": "Banto Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 112
+  },
+  "1034": {
+    "key": 1034,
+    "name": "Tunkuta",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 171
+  },
+  "965": {
+    "key": 965,
+    "name": "Talibahr's Rope",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 169
+  },
+  "355": {
+    "key": 355,
+    "name": "Cron Islands",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 104
+  },
+  "1022": {
+    "key": 1022,
+    "name": "Salanar Pond",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 195
+  },
+  "1027": {
+    "key": 1027,
+    "name": "Walk of the Banished",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 162
+  },
+  "95": {
+    "key": 95,
+    "name": "Bartali Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "96": {
+    "key": 96,
+    "name": "Marino Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 4
+  },
+  "615": {
+    "key": 615,
+    "name": "Pilgrim's Sanctum: Fast",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 206
+  },
+  "170": {
+    "key": 170,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "311": {
+    "key": 311,
+    "name": "Calpheon Market Trade Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "98": {
+    "key": 98,
+    "name": "Cron Castle Site  ",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 7
+  },
+  "99": {
+    "key": 99,
+    "name": "Balenos Plains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "100": {
+    "key": 100,
+    "name": "Fleme Hills",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 4
+  },
+  "732": {
+    "key": 732,
+    "name": "White Tree Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 154
+  },
+  "101": {
+    "key": 101,
+    "name": "Ehwaz Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 7
+  },
+  "232": {
+    "key": 232,
+    "name": "Gateway 1",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "435": {
+    "key": 435,
+    "name": "Savage Rift",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 9
+  },
+  "102": {
+    "key": 102,
+    "name": "Agris Steppe",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 2
+  },
+  "578": {
+    "key": 578,
+    "name": "Gorgo Rock Belt",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "502": {
+    "key": 502,
+    "name": "Balenos River Mouth",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 62
+  },
+  "103": {
+    "key": 103,
+    "name": "Heidel Pass",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 5
+  },
+  "198": {
+    "key": 198,
+    "name": "Khuruto Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 33
+  },
+  "104": {
+    "key": 104,
+    "name": "Coastal Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 8
+  },
+  "1042": {
+    "key": 1042,
+    "name": "Bahit Sanctum",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 165
+  },
+  "407": {
+    "key": 407,
+    "name": "Theonil Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 108
+  },
+  "105": {
+    "key": 105,
+    "name": "Balenos River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 25
+  },
+  "714": {
+    "key": 714,
+    "name": "Lemoria Beacon Towers",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 154
+  },
+  "397": {
+    "key": 397,
+    "name": "Serca Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 106
+  },
+  "353": {
+    "key": 353,
+    "name": "Nox Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 102
+  },
+  "106": {
+    "key": 106,
+    "name": "Lynch Ranch",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 14
+  },
+  "511": {
+    "key": 511,
+    "name": "Demi Riverbank",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 16
+  },
+  "1154": {
+    "key": 1154,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 67
+  },
+  "107": {
+    "key": 107,
+    "name": "Keplan",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "422": {
+    "key": 422,
+    "name": "Ivero Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 215
+  },
+  "333": {
+    "key": 333,
+    "name": "Ancient Fissure",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "210": {
+    "key": 210,
+    "name": "Canyon of Corruption",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "1030": {
+    "key": 1030,
+    "name": "Bahit Sanctum",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 165
+  },
+  "108": {
+    "key": 108,
+    "name": "Rugged Mountain Range",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "109": {
+    "key": 109,
+    "name": "Mountainous Area",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "110": {
+    "key": 110,
+    "name": "Marni Cave Path",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "442": {
+    "key": 442,
+    "name": "Terrmian Waterpark",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "587": {
+    "key": 587,
+    "name": "Rock Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "190": {
+    "key": 190,
+    "name": "Caphras Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "1054": {
+    "key": 1054,
+    "name": "Salanar Pond",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 195
+  },
+  "112": {
+    "key": 112,
+    "name": "Saunil Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "113": {
+    "key": 113,
+    "name": "Hexe Sanctuary",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 43
+  },
+  "182": {
+    "key": 182,
+    "name": "Iliya Island",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 9
+  },
+  "1104": {
+    "key": 1104,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 243
+  },
+  "562": {
+    "key": 562,
+    "name": "Kuit Islands",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 112
+  },
+  "115": {
+    "key": 115,
+    "name": "Lumbering 1",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "116": {
+    "key": 116,
+    "name": "Lumbering 2",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "117": {
+    "key": 117,
+    "name": "Primal Giant Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 46
+  },
+  "118": {
+    "key": 118,
+    "name": "North Quarry",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "859": {
+    "key": 859,
+    "name": "Vadabin Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "368": {
+    "key": 368,
+    "name": "Eveto Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "335": {
+    "key": 335,
+    "name": "Shuri Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "1023": {
+    "key": 1023,
+    "name": "Delmira Plantation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 196
+  },
+  "119": {
+    "key": 119,
+    "name": "Florin",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "121": {
+    "key": 121,
+    "name": "Refugee Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "123": {
+    "key": 123,
+    "name": "Calpheon Castle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 38
+  },
+  "369": {
+    "key": 369,
+    "name": "Luivano Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "209": {
+    "key": 209,
+    "name": "Asula Highland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "979": {
+    "key": 979,
+    "name": "Mountain of Sanctity",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 174
+  },
+  "363": {
+    "key": 363,
+    "name": "Altinova Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "124": {
+    "key": 124,
+    "name": "Lake Kaia",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 38
+  },
+  "222": {
+    "key": 222,
+    "name": "Kamasylve Temple",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "142": {
+    "key": 142,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 7
+  },
+  "906": {
+    "key": 906,
+    "name": "Doroter Hills",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 231
+  },
+  "1040": {
+    "key": 1040,
+    "name": "Forgotten Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 194
+  },
+  "125": {
+    "key": 125,
+    "name": "Behr",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 43
+  },
+  "863": {
+    "key": 863,
+    "name": "Vadabin Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "126": {
+    "key": 126,
+    "name": "Trent",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "215": {
+    "key": 215,
+    "name": "Tungrad Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 58
+  },
+  "128": {
+    "key": 128,
+    "name": "Glutoni Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "129": {
+    "key": 129,
+    "name": "Marni's Lab",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "668": {
+    "key": 668,
+    "name": "Kashuma Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "591": {
+    "key": 591,
+    "name": "Yalt Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "130": {
+    "key": 130,
+    "name": "Trina Beacon Towers",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "132": {
+    "key": 132,
+    "name": "Fogan Marsh",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "133": {
+    "key": 133,
+    "name": "Southern Mountain Range Brook",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 22
+  },
+  "134": {
+    "key": 134,
+    "name": "Ossuary",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "281": {
+    "key": 281,
+    "name": "Hill Path",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "1096": {
+    "key": 1096,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 178
+  },
+  "135": {
+    "key": 135,
+    "name": "Coastal Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 8
+  },
+  "654": {
+    "key": 654,
+    "name": "Shandi's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "136": {
+    "key": 136,
+    "name": "Imp Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 2
+  },
+  "137": {
+    "key": 137,
+    "name": "Ancient Stone Chamber",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 3
+  },
+  "138": {
+    "key": 138,
+    "name": "Goblin Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 6
+  },
+  "195": {
+    "key": 195,
+    "name": "Waragon-Infested Area",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "933": {
+    "key": 933,
+    "name": "Windy Peak",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 230
+  },
+  "139": {
+    "key": 139,
+    "name": "Serendia Shrine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 22
+  },
+  "1137": {
+    "key": 1137,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 69
+  },
+  "248": {
+    "key": 248,
+    "name": "Abandoned Quarry",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "140": {
+    "key": 140,
+    "name": "Valley Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "954": {
+    "key": 954,
+    "name": "Corridor of Chaos",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 23
+  },
+  "1121": {
+    "key": 1121,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 73
+  },
+  "141": {
+    "key": 141,
+    "name": "Veiled Labyrinth",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "687": {
+    "key": 687,
+    "name": "Shakatu Abandoned Pier",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "143": {
+    "key": 143,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 8
+  },
+  "145": {
+    "key": 145,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 14
+  },
+  "834": {
+    "key": 834,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "886": {
+    "key": 886,
+    "name": "Night Crow Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 229
+  },
+  "146": {
+    "key": 146,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 14
+  },
+  "147": {
+    "key": 147,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 22
+  },
+  "503": {
+    "key": 503,
+    "name": "Olvia Coast",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 63
+  },
+  "148": {
+    "key": 148,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 23
+  },
+  "1168": {
+    "key": 1168,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 72
+  },
+  "149": {
+    "key": 149,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "970": {
+    "key": 970,
+    "name": "Northwestern Calpheon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 173
+  },
+  "525": {
+    "key": 525,
+    "name": "Hexe Sanctuary",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 43
+  },
+  "150": {
+    "key": 150,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 19
+  },
+  "552": {
+    "key": 552,
+    "name": "Hasrah Ancient Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 58
+  },
+  "151": {
+    "key": 151,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 23
+  },
+  "901": {
+    "key": 901,
+    "name": "Gayak Altar",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 240
+  },
+  "1081": {
+    "key": 1081,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "230": {
+    "key": 230,
+    "name": "The Great Desert of Valencia (Black Desert)",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "264": {
+    "key": 264,
+    "name": "Epheria Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "855": {
+    "key": 855,
+    "name": "Juur Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 219
+  },
+  "152": {
+    "key": 152,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "1139": {
+    "key": 1139,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 71
+  },
+  "153": {
+    "key": 153,
+    "name": "Balenos Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 14
+  },
+  "176": {
+    "key": 176,
+    "name": "Bandit's Den Byway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 15
+  },
+  "752": {
+    "key": 752,
+    "name": "Western Valtarra Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "154": {
+    "key": 154,
+    "name": "Demi River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 17
+  },
+  "319": {
+    "key": 319,
+    "name": "Northern Wheat Plantation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "155": {
+    "key": 155,
+    "name": "Ancient Stone Chamber",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 3
+  },
+  "156": {
+    "key": 156,
+    "name": "Battlefield of Honor",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 221
+  },
+  "439": {
+    "key": 439,
+    "name": "Terrmian Waterpark",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "1021": {
+    "key": 1021,
+    "name": "Forgotten Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 194
+  },
+  "167": {
+    "key": 167,
+    "name": "Watchtower Underground Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "168": {
+    "key": 168,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "1091": {
+    "key": 1091,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "171": {
+    "key": 171,
+    "name": "Basement Cellar",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 15
+  },
+  "563": {
+    "key": 563,
+    "name": "Almai Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 112
+  },
+  "251": {
+    "key": 251,
+    "name": "South Kaia Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 41
+  },
+  "220": {
+    "key": 220,
+    "name": "Fort Barran",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "172": {
+    "key": 172,
+    "name": "Basement Cellar",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "173": {
+    "key": 173,
+    "name": "Soldiers' Tombs (Rugged Southern Mountain Range)",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "1120": {
+    "key": 1120,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 72
+  },
+  "527": {
+    "key": 527,
+    "name": "Riverside Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "649": {
+    "key": 649,
+    "name": "Gahaz's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "175": {
+    "key": 175,
+    "name": "Deep Sea",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "177": {
+    "key": 177,
+    "name": "Southern Mountain Range Riverhead",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 22
+  },
+  "972": {
+    "key": 972,
+    "name": "Brellin Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 175
+  },
+  "734": {
+    "key": 734,
+    "name": "Kamasylve",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 154
+  },
+  "709": {
+    "key": 709,
+    "name": "Navarn Springs",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 151
+  },
+  "1014": {
+    "key": 1014,
+    "name": "Gr\u00e1ndiha",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 193
+  },
+  "408": {
+    "key": 408,
+    "name": "Modric Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 108
+  },
+  "178": {
+    "key": 178,
+    "name": "Southern Mountain Range",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 21
+  },
+  "822": {
+    "key": 822,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "627": {
+    "key": 627,
+    "name": "Altinova Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "179": {
+    "key": 179,
+    "name": "Neutral Zone Brook",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 22
+  },
+  "971": {
+    "key": 971,
+    "name": "Star's End",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 174
+  },
+  "373": {
+    "key": 373,
+    "name": "Invernen Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 102
+  },
+  "1142": {
+    "key": 1142,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 74
+  },
+  "180": {
+    "key": 180,
+    "name": "King's Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 11
+  },
+  "181": {
+    "key": 181,
+    "name": "Lema Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 109
+  },
+  "183": {
+    "key": 183,
+    "name": "Old Dandelion",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 33
+  },
+  "184": {
+    "key": 184,
+    "name": "Bree Tree Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "620": {
+    "key": 620,
+    "name": "Katan Military",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "1159": {
+    "key": 1159,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 74
+  },
+  "185": {
+    "key": 185,
+    "name": "Abandoned Land",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "186": {
+    "key": 186,
+    "name": "Quint Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 36
+  },
+  "1051": {
+    "key": 1051,
+    "name": "Thornwood Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 166
+  },
+  "542": {
+    "key": 542,
+    "name": "Marni's 2nd Lab Basement Cellar",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "892": {
+    "key": 892,
+    "name": "Tuir Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "895": {
+    "key": 895,
+    "name": "Tshira Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 237
+  },
+  "945": {
+    "key": 945,
+    "name": "Dormann Lumber Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 234
+  },
+  "506": {
+    "key": 506,
+    "name": "Western Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "187": {
+    "key": 187,
+    "name": "Delphe Knights Castle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 33
+  },
+  "902": {
+    "key": 902,
+    "name": "Gervish Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 233
+  },
+  "1007": {
+    "key": 1007,
+    "name": "Oquilla's Eye",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 178
+  },
+  "1133": {
+    "key": 1133,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 65
+  },
+  "564": {
+    "key": 564,
+    "name": "Padix Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 112
+  },
+  "189": {
+    "key": 189,
+    "name": "Khuruto Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 33
+  },
+  "412": {
+    "key": 412,
+    "name": "Mediah Shore",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "191": {
+    "key": 191,
+    "name": "Ruins Underground",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "928": {
+    "key": 928,
+    "name": "Hoom Highland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "192": {
+    "key": 192,
+    "name": "Waragon Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "809": {
+    "key": 809,
+    "name": "Zagam Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "224": {
+    "key": 224,
+    "name": "Mediah Castle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "193": {
+    "key": 193,
+    "name": "Karanda Ridge",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 33
+  },
+  "199": {
+    "key": 199,
+    "name": "Caphras Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "200": {
+    "key": 200,
+    "name": "Ruins Underground",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "201": {
+    "key": 201,
+    "name": "Keplan Quarry",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "202": {
+    "key": 202,
+    "name": "Altinova",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "1147": {
+    "key": 1147,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 79
+  },
+  "203": {
+    "key": 203,
+    "name": "Mediah Northern Highlands",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 52
+  },
+  "204": {
+    "key": 204,
+    "name": "Stonebeak Shore",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "365": {
+    "key": 365,
+    "name": "Balvege Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "594": {
+    "key": 594,
+    "name": "Runn Gateway Intersection",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "205": {
+    "key": 205,
+    "name": "Abun",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "960": {
+    "key": 960,
+    "name": "Narcion",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 164
+  },
+  "362": {
+    "key": 362,
+    "name": "Mediah Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "206": {
+    "key": 206,
+    "name": "Rumbling Land",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "592": {
+    "key": 592,
+    "name": "Kmach Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "364": {
+    "key": 364,
+    "name": "Marlene Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "207": {
+    "key": 207,
+    "name": "Stonetail Wasteland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "967": {
+    "key": 967,
+    "name": "Tunkuta",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 171
+  },
+  "208": {
+    "key": 208,
+    "name": "Stonetail Horse Ranch",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "899": {
+    "key": 899,
+    "name": "Macalod Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 235
+  },
+  "225": {
+    "key": 225,
+    "name": "Southern Mediah",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "515": {
+    "key": 515,
+    "name": "North Kaia Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 40
+  },
+  "211": {
+    "key": 211,
+    "name": "Abandoned Iron Mine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 56
+  },
+  "541": {
+    "key": 541,
+    "name": "Sausan Islands",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 111
+  },
+  "212": {
+    "key": 212,
+    "name": "Omar Lava Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "213": {
+    "key": 213,
+    "name": "Manes Hideout",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "217": {
+    "key": 217,
+    "name": "Alumn Rock Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 56
+  },
+  "663": {
+    "key": 663,
+    "name": "Riyed Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "836": {
+    "key": 836,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "218": {
+    "key": 218,
+    "name": "Boing Valley",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "272": {
+    "key": 272,
+    "name": "Saunil Battlefield",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "219": {
+    "key": 219,
+    "name": "Small Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "384": {
+    "key": 384,
+    "name": "Ostra Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 111
+  },
+  "221": {
+    "key": 221,
+    "name": "Tarif",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "424": {
+    "key": 424,
+    "name": "Lohan's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "930": {
+    "key": 930,
+    "name": "Blood Wolf Settlement",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 238
+  },
+  "223": {
+    "key": 223,
+    "name": "Junaid River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "226": {
+    "key": 226,
+    "name": "Mediah Mountains",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "402": {
+    "key": 402,
+    "name": "Dunde Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 107
+  },
+  "227": {
+    "key": 227,
+    "name": "Amphitheater",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "228": {
+    "key": 228,
+    "name": "Amphitheater",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "382": {
+    "key": 382,
+    "name": "Beiruwa Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 111
+  },
+  "229": {
+    "key": 229,
+    "name": "Valencia City",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "963": {
+    "key": 963,
+    "name": "Crypt of Resting Thoughts",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 167
+  },
+  "231": {
+    "key": 231,
+    "name": "Rock Belt (Desert 2 Region)",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "233": {
+    "key": 233,
+    "name": "Red Desert",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "356": {
+    "key": 356,
+    "name": "Arsha Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 105
+  },
+  "234": {
+    "key": 234,
+    "name": "Gateway 3",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "235": {
+    "key": 235,
+    "name": "Gateway 4",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "236": {
+    "key": 236,
+    "name": "Altinova Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "237": {
+    "key": 237,
+    "name": "North Abandoned Quarry",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "238": {
+    "key": 238,
+    "name": "Keplan Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 46
+  },
+  "588": {
+    "key": 588,
+    "name": "Kuzas Inner Harbor",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "352": {
+    "key": 352,
+    "name": "Balenos Islands",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "239": {
+    "key": 239,
+    "name": "Oze Pass",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "903": {
+    "key": 903,
+    "name": "Marak Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 239
+  },
+  "240": {
+    "key": 240,
+    "name": "Epheria Sentry Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "820": {
+    "key": 820,
+    "name": "Kingdom of Haso",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 216
+  },
+  "376": {
+    "key": 376,
+    "name": "Tashu Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 102
+  },
+  "241": {
+    "key": 241,
+    "name": "Bashim Base",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 210
+  },
+  "243": {
+    "key": 243,
+    "name": "Taphtar Plain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "244": {
+    "key": 244,
+    "name": "Kzarka Priests Region",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "245": {
+    "key": 245,
+    "name": "Atumach",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "517": {
+    "key": 517,
+    "name": "Abandoned Land",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "394": {
+    "key": 394,
+    "name": "Louruve Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 103
+  },
+  "696": {
+    "key": 696,
+    "name": "Cantusa Desert",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 213
+  },
+  "875": {
+    "key": 875,
+    "name": "Sherekhan Necropolis",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 223
+  },
+  "246": {
+    "key": 246,
+    "name": "Western Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 2
+  },
+  "715": {
+    "key": 715,
+    "name": "Atanis Waterway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 150
+  },
+  "249": {
+    "key": 249,
+    "name": "Cyclops Land",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "423": {
+    "key": 423,
+    "name": "Valencia Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 212
+  },
+  "250": {
+    "key": 250,
+    "name": "Treant Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "252": {
+    "key": 252,
+    "name": "North Kaia Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 40
+  },
+  "914": {
+    "key": 914,
+    "name": "Garmoth's Nest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 226
+  },
+  "438": {
+    "key": 438,
+    "name": "Terrmian Beach",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "579": {
+    "key": 579,
+    "name": "Cadry Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 209
+  },
+  "253": {
+    "key": 253,
+    "name": "Rhutum Outstation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "674": {
+    "key": 674,
+    "name": "Pujiya Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 210
+  },
+  "308": {
+    "key": 308,
+    "name": "Southern Mountain Range",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 22
+  },
+  "256": {
+    "key": 256,
+    "name": "Rhutum Sentry Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "573": {
+    "key": 573,
+    "name": "Shasha Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 110
+  },
+  "259": {
+    "key": 259,
+    "name": "Kalis Plaza",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "1015": {
+    "key": 1015,
+    "name": "Wave's Rest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 179
+  },
+  "260": {
+    "key": 260,
+    "name": "Calpheon Demi River Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "688": {
+    "key": 688,
+    "name": "Aakman Temple",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 213
+  },
+  "924": {
+    "key": 924,
+    "name": "Marcha Outpost",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 231
+  },
+  "390": {
+    "key": 390,
+    "name": "Pujara Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 105
+  },
+  "263": {
+    "key": 263,
+    "name": "Elder's Bridge Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 36
+  },
+  "265": {
+    "key": 265,
+    "name": "Quint Plain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 36
+  },
+  "693": {
+    "key": 693,
+    "name": "Arehaza Town",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 212
+  },
+  "266": {
+    "key": 266,
+    "name": "Southern Wheat Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "337": {
+    "key": 337,
+    "name": "Elric Shrine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "267": {
+    "key": 267,
+    "name": "Falres Dirt Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "636": {
+    "key": 636,
+    "name": "Bazaar Farmland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "1090": {
+    "key": 1090,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1004": {
+    "key": 1004,
+    "name": "Shipwrecked Ancient Relic Transport Vessel",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 190
+  },
+  "634": {
+    "key": 634,
+    "name": "Abandoned Pier",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 209
+  },
+  "268": {
+    "key": 268,
+    "name": "Hexe Stone Wall",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 46
+  },
+  "652": {
+    "key": 652,
+    "name": "Kiyak's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "270": {
+    "key": 270,
+    "name": "Tarte Rock Fork",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "271": {
+    "key": 271,
+    "name": "Beacon Entrance Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "740": {
+    "key": 740,
+    "name": "Southern Kamasylvia",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 158
+  },
+  "860": {
+    "key": 860,
+    "name": "Vadabin Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "273": {
+    "key": 273,
+    "name": "Oberen Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "590": {
+    "key": 590,
+    "name": "Shakatu's Territory",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "274": {
+    "key": 274,
+    "name": "Bain Farmland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "275": {
+    "key": 275,
+    "name": "Gianin Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 46
+  },
+  "277": {
+    "key": 277,
+    "name": "Quarry Byway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "278": {
+    "key": 278,
+    "name": "Keplan Vicinity",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "575": {
+    "key": 575,
+    "name": "Feltron Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 110
+  },
+  "279": {
+    "key": 279,
+    "name": "Serendia Western Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 46
+  },
+  "1122": {
+    "key": 1122,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 74
+  },
+  "280": {
+    "key": 280,
+    "name": "Oze's House",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "282": {
+    "key": 282,
+    "name": "Behr Riverhead",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 41
+  },
+  "421": {
+    "key": 421,
+    "name": "Ivory Wasteland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 215
+  },
+  "283": {
+    "key": 283,
+    "name": "South Kaia Pier",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 38
+  },
+  "284": {
+    "key": 284,
+    "name": "Catfishman Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 38
+  },
+  "285": {
+    "key": 285,
+    "name": "Calpheon Castle Western Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 38
+  },
+  "536": {
+    "key": 536,
+    "name": "Asula Highland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "286": {
+    "key": 286,
+    "name": "Lake Kaia",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 38
+  },
+  "288": {
+    "key": 288,
+    "name": "Tobare's Cabin",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "1134": {
+    "key": 1134,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 66
+  },
+  "290": {
+    "key": 290,
+    "name": "Longleaf Tree Sentry Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "291": {
+    "key": 291,
+    "name": "North Kaia Pier",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 40
+  },
+  "549": {
+    "key": 549,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "1046": {
+    "key": 1046,
+    "name": "Salanar Pond",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 195
+  },
+  "292": {
+    "key": 292,
+    "name": "Phoniel's Cabin",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 40
+  },
+  "293": {
+    "key": 293,
+    "name": "Phoniel's Cabin Entrance",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 40
+  },
+  "613": {
+    "key": 613,
+    "name": "Pilgrim's Sanctum: Humility",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 206
+  },
+  "294": {
+    "key": 294,
+    "name": "Rhua Tree Stub",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 43
+  },
+  "295": {
+    "key": 295,
+    "name": "Behr Downstream",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 43
+  },
+  "987": {
+    "key": 987,
+    "name": "Queekity Thumpity Moon Village",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 179
+  },
+  "298": {
+    "key": 298,
+    "name": "Calpheon Plain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "427": {
+    "key": 427,
+    "name": "Dudora's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "299": {
+    "key": 299,
+    "name": "Crioville",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "879": {
+    "key": 879,
+    "name": "Ahib Conflict Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 224
+  },
+  "1025": {
+    "key": 1025,
+    "name": "Shiv Valley Road",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 198
+  },
+  "300": {
+    "key": 300,
+    "name": "Gabino Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "583": {
+    "key": 583,
+    "name": "Leical Grand Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 209
+  },
+  "301": {
+    "key": 301,
+    "name": "Calpheon Market",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "302": {
+    "key": 302,
+    "name": "Abandoned Monastery",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "303": {
+    "key": 303,
+    "name": "Kzarka Shrine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "361": {
+    "key": 361,
+    "name": "Zenato Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 112
+  },
+  "304": {
+    "key": 304,
+    "name": "Longleaf Tree Forest Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "305": {
+    "key": 305,
+    "name": "Glutoni Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "868": {
+    "key": 868,
+    "name": "Ross Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 217
+  },
+  "566": {
+    "key": 566,
+    "name": "Arita Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 112
+  },
+  "306": {
+    "key": 306,
+    "name": "North Quarry",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "307": {
+    "key": 307,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "616": {
+    "key": 616,
+    "name": "Rakshan Observatory",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "745": {
+    "key": 745,
+    "name": "Tooth Fairy Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 155
+  },
+  "331": {
+    "key": 331,
+    "name": "Abun Outpost",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "1124": {
+    "key": 1124,
+    "name": "<no translation>",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 76
+  },
+  "309": {
+    "key": 309,
+    "name": "Balenos Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 36
+  },
+  "414": {
+    "key": 414,
+    "name": "Splashing Point",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 56
+  },
+  "1077": {
+    "key": 1077,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "383": {
+    "key": 383,
+    "name": "Taramura Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 111
+  },
+  "684": {
+    "key": 684,
+    "name": "Outer Valencia City",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "312": {
+    "key": 312,
+    "name": "Calpheon Holy College Trade Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "313": {
+    "key": 313,
+    "name": "Bernianto Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "378": {
+    "key": 378,
+    "name": "Weita Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 104
+  },
+  "667": {
+    "key": 667,
+    "name": "Halmad Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "314": {
+    "key": 314,
+    "name": "Longleaf Tree Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "315": {
+    "key": 315,
+    "name": "Keplan Extraction Mill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "375": {
+    "key": 375,
+    "name": "Orffs Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 102
+  },
+  "316": {
+    "key": 316,
+    "name": "Epheria Bay",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "900": {
+    "key": 900,
+    "name": "Marcha Outpost",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 231
+  },
+  "381": {
+    "key": 381,
+    "name": "Arakil Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 104
+  },
+  "317": {
+    "key": 317,
+    "name": "Kzarka Shrine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "318": {
+    "key": 318,
+    "name": "Moretti Plantation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 21
+  },
+  "322": {
+    "key": 322,
+    "name": "Calpheon Duel Arena",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "1060": {
+    "key": 1060,
+    "name": "Delmira Plantation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 196
+  },
+  "323": {
+    "key": 323,
+    "name": "Balenos Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "864": {
+    "key": 864,
+    "name": "Ross Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 217
+  },
+  "420": {
+    "key": 420,
+    "name": "Roud Sulfur Works",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 214
+  },
+  "324": {
+    "key": 324,
+    "name": "Epheria Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "325": {
+    "key": 325,
+    "name": "Marni Farm Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "326": {
+    "key": 326,
+    "name": "Serene Spring",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 6
+  },
+  "327": {
+    "key": 327,
+    "name": "Sausan Garrison",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 52
+  },
+  "915": {
+    "key": 915,
+    "name": "Gervish Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 233
+  },
+  "1035": {
+    "key": 1035,
+    "name": "La O'delle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 161
+  },
+  "675": {
+    "key": 675,
+    "name": "Kisleev Crag",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "329": {
+    "key": 329,
+    "name": "Sarma Outpost",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "539": {
+    "key": 539,
+    "name": "Kzarka Shrine Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "910": {
+    "key": 910,
+    "name": "Fountain of Origin",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 232
+  },
+  "986": {
+    "key": 986,
+    "name": "Papua Crinea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 179
+  },
+  "330": {
+    "key": 330,
+    "name": "Marni's 2nd Lab",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "332": {
+    "key": 332,
+    "name": "Helms Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "334": {
+    "key": 334,
+    "name": "Ancient Ruins Excavation Site",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "336": {
+    "key": 336,
+    "name": "Ahto Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "340": {
+    "key": 340,
+    "name": "Wuxi Farm Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "341": {
+    "key": 341,
+    "name": "Mediah Northern Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 52
+  },
+  "874": {
+    "key": 874,
+    "name": "Duvencrune Farmland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "345": {
+    "key": 345,
+    "name": "Mask Owl's Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "348": {
+    "key": 348,
+    "name": "Olvia Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 61
+  },
+  "349": {
+    "key": 349,
+    "name": "Casta Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 61
+  },
+  "387": {
+    "key": 387,
+    "name": "Racid Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 105
+  },
+  "350": {
+    "key": 350,
+    "name": "Wale Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 61
+  },
+  "351": {
+    "key": 351,
+    "name": "Florin Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 63
+  },
+  "398": {
+    "key": 398,
+    "name": "Daton Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 107
+  },
+  "1194": {
+    "key": 1194,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 244
+  },
+  "354": {
+    "key": 354,
+    "name": "Olvia Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 103
+  },
+  "415": {
+    "key": 415,
+    "name": "Sausan Garrison Wharf",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 52
+  },
+  "357": {
+    "key": 357,
+    "name": "Epheria Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 106
+  },
+  "401": {
+    "key": 401,
+    "name": "Eberdeen Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 107
+  },
+  "519": {
+    "key": 519,
+    "name": "Northern Wheat Plantation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "358": {
+    "key": 358,
+    "name": "Ahrmo Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 107
+  },
+  "509": {
+    "key": 509,
+    "name": "Northern Neutral Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 15
+  },
+  "707": {
+    "key": 707,
+    "name": "Shady Tree Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 151
+  },
+  "755": {
+    "key": 755,
+    "name": "Gyfin Rhasia Temple",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 158
+  },
+  "359": {
+    "key": 359,
+    "name": "Peyon Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 108
+  },
+  "522": {
+    "key": 522,
+    "name": "Treant Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "366": {
+    "key": 366,
+    "name": "Angie Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "367": {
+    "key": 367,
+    "name": "Duch Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "371": {
+    "key": 371,
+    "name": "Mariveno Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 101
+  },
+  "374": {
+    "key": 374,
+    "name": "Tulu Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 102
+  },
+  "538": {
+    "key": 538,
+    "name": "Abandoned Monastery Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "377": {
+    "key": 377,
+    "name": "Baremi Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 104
+  },
+  "405": {
+    "key": 405,
+    "name": "Ginburrey Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 107
+  },
+  "379": {
+    "key": 379,
+    "name": "Paratama Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 104
+  },
+  "380": {
+    "key": 380,
+    "name": "Kanvera Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 104
+  },
+  "385": {
+    "key": 385,
+    "name": "Delinghart Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 111
+  },
+  "521": {
+    "key": 521,
+    "name": "Old Dandelion",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 33
+  },
+  "865": {
+    "key": 865,
+    "name": "Ross Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 217
+  },
+  "983": {
+    "key": 983,
+    "name": "Crow's Nest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 177
+  },
+  "386": {
+    "key": 386,
+    "name": "Pilava Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 111
+  },
+  "526": {
+    "key": 526,
+    "name": "Marni's Lab",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "388": {
+    "key": 388,
+    "name": "Al-Naha Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 105
+  },
+  "705": {
+    "key": 705,
+    "name": "Atanis Pond",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 150
+  },
+  "869": {
+    "key": 869,
+    "name": "Ross Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 217
+  },
+  "391": {
+    "key": 391,
+    "name": "Lisz Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 103
+  },
+  "635": {
+    "key": 635,
+    "name": "Expedition Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 209
+  },
+  "703": {
+    "key": 703,
+    "name": "Lemoria Guard Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 150
+  },
+  "392": {
+    "key": 392,
+    "name": "Narvo Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 103
+  },
+  "507": {
+    "key": 507,
+    "name": "Central Neutral Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 24
+  },
+  "823": {
+    "key": 823,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "399": {
+    "key": 399,
+    "name": "Netnume Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 107
+  },
+  "400": {
+    "key": 400,
+    "name": "Oben Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 107
+  },
+  "403": {
+    "key": 403,
+    "name": "Albresser Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 107
+  },
+  "614": {
+    "key": 614,
+    "name": "Pilgrim's Sanctum: Purity",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 206
+  },
+  "404": {
+    "key": 404,
+    "name": "Barater Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 107
+  },
+  "596": {
+    "key": 596,
+    "name": "Capotia",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "569": {
+    "key": 569,
+    "name": "Eltro Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 110
+  },
+  "409": {
+    "key": 409,
+    "name": "Baeza Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 108
+  },
+  "629": {
+    "key": 629,
+    "name": "Pila Fe",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "1016": {
+    "key": 1016,
+    "name": "Papuraora Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 179
+  },
+  "410": {
+    "key": 410,
+    "name": "Teyamal Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 108
+  },
+  "844": {
+    "key": 844,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "413": {
+    "key": 413,
+    "name": "Omar Lava Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "416": {
+    "key": 416,
+    "name": "Racetrack",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "417": {
+    "key": 417,
+    "name": "Soldier's Grave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "698": {
+    "key": 698,
+    "name": "Northern Sand Dune",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 213
+  },
+  "418": {
+    "key": 418,
+    "name": "Gavinya Great Crater",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 214
+  },
+  "419": {
+    "key": 419,
+    "name": "Gavinya Coastal Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 214
+  },
+  "727": {
+    "key": 727,
+    "name": "Acher Guard Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "425": {
+    "key": 425,
+    "name": "Inaha's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "917": {
+    "key": 917,
+    "name": "Blood Wolf Settlement",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 238
+  },
+  "951": {
+    "key": 951,
+    "name": "Bloody Monastery",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 23
+  },
+  "426": {
+    "key": 426,
+    "name": "Atosa's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "428": {
+    "key": 428,
+    "name": "Oberin's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "429": {
+    "key": 429,
+    "name": "Dona Rocky Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 213
+  },
+  "430": {
+    "key": 430,
+    "name": "Hakoven Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 212
+  },
+  "431": {
+    "key": 431,
+    "name": "Scarlet Sand Chamber",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "432": {
+    "key": 432,
+    "name": "Kuit Strait",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 112
+  },
+  "609": {
+    "key": 609,
+    "name": "Pilgrim's Sanctum: Obedience",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 206
+  },
+  "650": {
+    "key": 650,
+    "name": "Marzana's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "433": {
+    "key": 433,
+    "name": "Arena of Arsha",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 105
+  },
+  "434": {
+    "key": 434,
+    "name": "Iliya Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 9
+  },
+  "553": {
+    "key": 553,
+    "name": "Mediah Castle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "437": {
+    "key": 437,
+    "name": "Battle Arena",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 9
+  },
+  "513": {
+    "key": 513,
+    "name": "Fogan Marsh",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 20
+  },
+  "440": {
+    "key": 440,
+    "name": "Terrmian Waterpark",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "1117": {
+    "key": 1117,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 69
+  },
+  "444": {
+    "key": 444,
+    "name": "Velia Beach",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "501": {
+    "key": 501,
+    "name": "Epheria Ridge",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "504": {
+    "key": 504,
+    "name": "Terrmian Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 63
+  },
+  "1037": {
+    "key": 1037,
+    "name": "Shiv Valley Road",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 198
+  },
+  "505": {
+    "key": 505,
+    "name": "Cliff Road",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "720": {
+    "key": 720,
+    "name": "Okiara River Downstream",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 151
+  },
+  "1140": {
+    "key": 1140,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 72
+  },
+  "701": {
+    "key": 701,
+    "name": "Kamasylvia",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "510": {
+    "key": 510,
+    "name": "King's Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 13
+  },
+  "512": {
+    "key": 512,
+    "name": "Naga Marsh",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 19
+  },
+  "514": {
+    "key": 514,
+    "name": "Southern Mountain Range",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 18
+  },
+  "722": {
+    "key": 722,
+    "name": "Mirumok Ruins Entrance",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 152
+  },
+  "545": {
+    "key": 545,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 56
+  },
+  "516": {
+    "key": 516,
+    "name": "Epheria Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 37
+  },
+  "523": {
+    "key": 523,
+    "name": "Mansha Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 39
+  },
+  "647": {
+    "key": 647,
+    "name": "Alsabi's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "524": {
+    "key": 524,
+    "name": "Longleaf Tree Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "528": {
+    "key": 528,
+    "name": "Saunil Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "574": {
+    "key": 574,
+    "name": "Rosevan Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 110
+  },
+  "1052": {
+    "key": 1052,
+    "name": "La O'delle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 161
+  },
+  "529": {
+    "key": 529,
+    "name": "Hill Path",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "558": {
+    "key": 558,
+    "name": "Awakening Bell",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "530": {
+    "key": 530,
+    "name": "North Abandoned Quarry",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 45
+  },
+  "1079": {
+    "key": 1079,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "531": {
+    "key": 531,
+    "name": "Primal Giant Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 46
+  },
+  "532": {
+    "key": 532,
+    "name": "Keplan Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 46
+  },
+  "533": {
+    "key": 533,
+    "name": "Mediah Northern Highlands",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 52
+  },
+  "1190": {
+    "key": 1190,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 71
+  },
+  "535": {
+    "key": 535,
+    "name": "Mediah Shore",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "624": {
+    "key": 624,
+    "name": "Ancient Dungeon (Temporary)",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "537": {
+    "key": 537,
+    "name": "Abandoned Iron Mine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 56
+  },
+  "540": {
+    "key": 540,
+    "name": "Mediah Castle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "651": {
+    "key": 651,
+    "name": "Talia's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "543": {
+    "key": 543,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "878": {
+    "key": 878,
+    "name": "Kiernak Falls",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "1095": {
+    "key": 1095,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 12
+  },
+  "544": {
+    "key": 544,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 51
+  },
+  "626": {
+    "key": 626,
+    "name": "Iris Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "546": {
+    "key": 546,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "547": {
+    "key": 547,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 53
+  },
+  "548": {
+    "key": 548,
+    "name": "Secret Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 52
+  },
+  "551": {
+    "key": 551,
+    "name": "Ruins Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "554": {
+    "key": 554,
+    "name": "Omar Lava Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 54
+  },
+  "556": {
+    "key": 556,
+    "name": "Abandoned Iron Mine Saunil District",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 56
+  },
+  "826": {
+    "key": 826,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "557": {
+    "key": 557,
+    "name": "Abandoned Iron Mine Entrance",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 56
+  },
+  "560": {
+    "key": 560,
+    "name": "Altinova Arena",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "1066": {
+    "key": 1066,
+    "name": "Thornwood Castle Dungeon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 168
+  },
+  "561": {
+    "key": 561,
+    "name": "Dias Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 31
+  },
+  "565": {
+    "key": 565,
+    "name": "Teste Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 112
+  },
+  "577": {
+    "key": 577,
+    "name": "Rock Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "570": {
+    "key": 570,
+    "name": "Tinberra Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 110
+  },
+  "856": {
+    "key": 856,
+    "name": "Juur Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 219
+  },
+  "571": {
+    "key": 571,
+    "name": "Lerao Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 110
+  },
+  "576": {
+    "key": 576,
+    "name": "Altinova Arena Waiting Room",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 55
+  },
+  "861": {
+    "key": 861,
+    "name": "Vadabin Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "833": {
+    "key": 833,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "580": {
+    "key": 580,
+    "name": "Veteran's Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "581": {
+    "key": 581,
+    "name": "Kunid's Shelter",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 209
+  },
+  "582": {
+    "key": 582,
+    "name": "Valencia Western Highlands",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "905": {
+    "key": 905,
+    "name": "Dormann Lumber Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 234
+  },
+  "584": {
+    "key": 584,
+    "name": "Pila Fe",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "585": {
+    "key": 585,
+    "name": "Pujiya Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 210
+  },
+  "586": {
+    "key": 586,
+    "name": "Waragon Nest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 210
+  },
+  "1013": {
+    "key": 1013,
+    "name": "Tunkuta Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 171
+  },
+  "589": {
+    "key": 589,
+    "name": "Kisleev Crag",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "595": {
+    "key": 595,
+    "name": "Leical Falls",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 209
+  },
+  "1045": {
+    "key": 1045,
+    "name": "Salun's Border",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 172
+  },
+  "597": {
+    "key": 597,
+    "name": "Al Halam Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "1111": {
+    "key": 1111,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "598": {
+    "key": 598,
+    "name": "Pilgrim's Haven",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "599": {
+    "key": 599,
+    "name": "Valencia Southwestern Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "600": {
+    "key": 600,
+    "name": "Talid Plain",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "601": {
+    "key": 601,
+    "name": "Shakatu",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "602": {
+    "key": 602,
+    "name": "Hope Pier",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "935": {
+    "key": 935,
+    "name": "Khimut Great Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 234
+  },
+  "604": {
+    "key": 604,
+    "name": "Bambu Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "605": {
+    "key": 605,
+    "name": "Sand Grain Bazaar",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "1005": {
+    "key": 1005,
+    "name": "Cholace Chico's Pirate Union",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 191
+  },
+  "606": {
+    "key": 606,
+    "name": "Closed Dungeon",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "842": {
+    "key": 842,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "607": {
+    "key": 607,
+    "name": "Desert Naga Temple",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "608": {
+    "key": 608,
+    "name": "Ibellab Oasis",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 206
+  },
+  "610": {
+    "key": 610,
+    "name": "Pilgrim's Sanctum: Abstinence",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 206
+  },
+  "612": {
+    "key": 612,
+    "name": "Pilgrim's Sanctum: Sincerity",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 206
+  },
+  "617": {
+    "key": 617,
+    "name": "Valencia Castle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "618": {
+    "key": 618,
+    "name": "Aakman",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 206
+  },
+  "753": {
+    "key": 753,
+    "name": "Ash Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "619": {
+    "key": 619,
+    "name": "Ancado Inner Harbor",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "1157": {
+    "key": 1157,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 72
+  },
+  "621": {
+    "key": 621,
+    "name": "Ruba Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "623": {
+    "key": 623,
+    "name": "Titium Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 208
+  },
+  "625": {
+    "key": 625,
+    "name": "Crescent Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 207
+  },
+  "628": {
+    "key": 628,
+    "name": "Rock Post (NONE)",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "825": {
+    "key": 825,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "630": {
+    "key": 630,
+    "name": "Gorgo Rock Belt",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "631": {
+    "key": 631,
+    "name": "Cadry Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 209
+  },
+  "949": {
+    "key": 949,
+    "name": "Sycraia Underwater Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 9
+  },
+  "1000": {
+    "key": 1000,
+    "name": "Oquilla's Eye",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 178
+  },
+  "1160": {
+    "key": 1160,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 75
+  },
+  "853": {
+    "key": 853,
+    "name": "Juur Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 219
+  },
+  "632": {
+    "key": 632,
+    "name": "Basilisk Den",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "633": {
+    "key": 633,
+    "name": "Barhan Gateway",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 205
+  },
+  "751": {
+    "key": 751,
+    "name": "Lake Flondor",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 154
+  },
+  "1119": {
+    "key": 1119,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 71
+  },
+  "637": {
+    "key": 637,
+    "name": "Shakatu Farmland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "638": {
+    "key": 638,
+    "name": "Altas Farmland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "639": {
+    "key": 639,
+    "name": "Erdal Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "640": {
+    "key": 640,
+    "name": "Valencia Plantation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "1080": {
+    "key": 1080,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "641": {
+    "key": 641,
+    "name": "Fohalam Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "643": {
+    "key": 643,
+    "name": "Karashu's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "1165": {
+    "key": 1165,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 80
+  },
+  "644": {
+    "key": 644,
+    "name": "Amir's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 210
+  },
+  "646": {
+    "key": 646,
+    "name": "Shakatu's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "648": {
+    "key": 648,
+    "name": "Muna's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "873": {
+    "key": 873,
+    "name": "Duvencrune",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "653": {
+    "key": 653,
+    "name": "Tasaila's Villa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "655": {
+    "key": 655,
+    "name": "Basilisk Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "656": {
+    "key": 656,
+    "name": "Hope Pier Coastal Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "821": {
+    "key": 821,
+    "name": "Port Ratt",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 216
+  },
+  "908": {
+    "key": 908,
+    "name": "Doroter Hills",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 231
+  },
+  "1192": {
+    "key": 1192,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 244
+  },
+  "657": {
+    "key": 657,
+    "name": "Centaurus Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "659": {
+    "key": 659,
+    "name": "Cokro Chamber",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "660": {
+    "key": 660,
+    "name": "Desert Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "661": {
+    "key": 661,
+    "name": "Palm Tree Forest",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "894": {
+    "key": 894,
+    "name": "Hoom Highland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "662": {
+    "key": 662,
+    "name": "Sokota Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "664": {
+    "key": 664,
+    "name": "Esfah Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "665": {
+    "key": 665,
+    "name": "Tigris Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "666": {
+    "key": 666,
+    "name": "Shirna Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "669": {
+    "key": 669,
+    "name": "Orisha Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "1108": {
+    "key": 1108,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 243
+  },
+  "671": {
+    "key": 671,
+    "name": "Boa Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "672": {
+    "key": 672,
+    "name": "Valencia Arena",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "673": {
+    "key": 673,
+    "name": "Valencia Castle Site",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "676": {
+    "key": 676,
+    "name": "Shakatu's Territory",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "677": {
+    "key": 677,
+    "name": "Yalt Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "678": {
+    "key": 678,
+    "name": "Gahaz Bandit's Lair",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 204
+  },
+  "679": {
+    "key": 679,
+    "name": "Dreaming Oasis",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "680": {
+    "key": 680,
+    "name": "Oasis of Time",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "1150": {
+    "key": 1150,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 69
+  },
+  "681": {
+    "key": 681,
+    "name": "Oasis of Bless",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "683": {
+    "key": 683,
+    "name": "Rock Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 203
+  },
+  "685": {
+    "key": 685,
+    "name": "Derko Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "1107": {
+    "key": 1107,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 243
+  },
+  "992": {
+    "key": 992,
+    "name": "Kratuga Ancient Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 58
+  },
+  "686": {
+    "key": 686,
+    "name": "Gavinya Volcano Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 214
+  },
+  "689": {
+    "key": 689,
+    "name": "Hystria Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 213
+  },
+  "690": {
+    "key": 690,
+    "name": "Roud Sulfur Mine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 214
+  },
+  "1001": {
+    "key": 1001,
+    "name": "Shipwrecked Cox Pirates's Ship",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 187
+  },
+  "691": {
+    "key": 691,
+    "name": "Pila Ku Jail",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 213
+  },
+  "692": {
+    "key": 692,
+    "name": "Areha Palm Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 212
+  },
+  "1185": {
+    "key": 1185,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 69
+  },
+  "694": {
+    "key": 694,
+    "name": "Muiquun",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 213
+  },
+  "695": {
+    "key": 695,
+    "name": "Central Cantusa",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 213
+  },
+  "697": {
+    "key": 697,
+    "name": "Jail",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 214
+  },
+  "1105": {
+    "key": 1105,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 243
+  },
+  "938": {
+    "key": 938,
+    "name": "Khimut Lumber Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 235
+  },
+  "702": {
+    "key": 702,
+    "name": "Kamasylvia Vicinity",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 150
+  },
+  "738": {
+    "key": 738,
+    "name": "Looney Cabin",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 156
+  },
+  "966": {
+    "key": 966,
+    "name": "Starry Midnight Port",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 170
+  },
+  "704": {
+    "key": 704,
+    "name": "Caduil Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 150
+  },
+  "735": {
+    "key": 735,
+    "name": "Gr\u00e1na",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 154
+  },
+  "1180": {
+    "key": 1180,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 65
+  },
+  "708": {
+    "key": 708,
+    "name": "Navarn Steppe",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 151
+  },
+  "710": {
+    "key": 710,
+    "name": "Central Lemoria Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 152
+  },
+  "837": {
+    "key": 837,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "711": {
+    "key": 711,
+    "name": "Manshaum Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 152
+  },
+  "712": {
+    "key": 712,
+    "name": "Mirumok Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 152
+  },
+  "737": {
+    "key": 737,
+    "name": "Weenie Cabin",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 156
+  },
+  "713": {
+    "key": 713,
+    "name": "Holo Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 152
+  },
+  "717": {
+    "key": 717,
+    "name": "Valtarra Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 153
+  },
+  "718": {
+    "key": 718,
+    "name": "Valtarra - Altar of Training",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 153
+  },
+  "719": {
+    "key": 719,
+    "name": "Viv Foretta Hamlet",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 153
+  },
+  "728": {
+    "key": 728,
+    "name": "Loopy Tree Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "731": {
+    "key": 731,
+    "name": "Lake Flondor",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 154
+  },
+  "733": {
+    "key": 733,
+    "name": "Okiara River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 154
+  },
+  "736": {
+    "key": 736,
+    "name": "Polly's Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 156
+  },
+  "744": {
+    "key": 744,
+    "name": "Krogdalo's Trace",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 156
+  },
+  "832": {
+    "key": 832,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "739": {
+    "key": 739,
+    "name": "Gyfin Rhasia Temple",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 158
+  },
+  "743": {
+    "key": 743,
+    "name": "Ash Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "746": {
+    "key": 746,
+    "name": "Loopy Tree Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "962": {
+    "key": 962,
+    "name": "Thornwood Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 166
+  },
+  "1161": {
+    "key": 1161,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 76
+  },
+  "870": {
+    "key": 870,
+    "name": "Ross Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 217
+  },
+  "747": {
+    "key": 747,
+    "name": "Polly's Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 156
+  },
+  "754": {
+    "key": 754,
+    "name": "Tulid's Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 157
+  },
+  "757": {
+    "key": 757,
+    "name": "Acher Southern Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 158
+  },
+  "801": {
+    "key": 801,
+    "name": "The Red Battlefield",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 1
+  },
+  "806": {
+    "key": 806,
+    "name": "Vadabin Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "807": {
+    "key": 807,
+    "name": "Nada Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "808": {
+    "key": 808,
+    "name": "Mariul Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "824": {
+    "key": 824,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "827": {
+    "key": 827,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "828": {
+    "key": 828,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "829": {
+    "key": 829,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "831": {
+    "key": 831,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "835": {
+    "key": 835,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "838": {
+    "key": 838,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "1053": {
+    "key": 1053,
+    "name": "Narcion",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 164
+  },
+  "854": {
+    "key": 854,
+    "name": "Juur Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 219
+  },
+  "839": {
+    "key": 839,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "840": {
+    "key": 840,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "845": {
+    "key": 845,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "847": {
+    "key": 847,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "999": {
+    "key": 999,
+    "name": "Rickun's Shipwreck Boat",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 186
+  },
+  "848": {
+    "key": 848,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "849": {
+    "key": 849,
+    "name": "Margoria",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "937": {
+    "key": 937,
+    "name": "Gervish Mountains",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 233
+  },
+  "850": {
+    "key": 850,
+    "name": "Juur Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 219
+  },
+  "1059": {
+    "key": 1059,
+    "name": "Forgotten Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 194
+  },
+  "851": {
+    "key": 851,
+    "name": "Juur Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 219
+  },
+  "852": {
+    "key": 852,
+    "name": "Juur Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 219
+  },
+  "857": {
+    "key": 857,
+    "name": "Vadabin Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "858": {
+    "key": 858,
+    "name": "Vadabin Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "862": {
+    "key": 862,
+    "name": "Vadabin Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 220
+  },
+  "866": {
+    "key": 866,
+    "name": "Ross Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 217
+  },
+  "867": {
+    "key": 867,
+    "name": "Ross Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 217
+  },
+  "871": {
+    "key": 871,
+    "name": "Margoria (Vell's Realm)",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 218
+  },
+  "872": {
+    "key": 872,
+    "name": "Kingdom of Haso Bamboo Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 216
+  },
+  "876": {
+    "key": 876,
+    "name": "Blood Wolf Settlement",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 238
+  },
+  "877": {
+    "key": 877,
+    "name": "Garmoth's Nest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 226
+  },
+  "881": {
+    "key": 881,
+    "name": "Khalk Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 227
+  },
+  "882": {
+    "key": 882,
+    "name": "Akum Rocky Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 225
+  },
+  "883": {
+    "key": 883,
+    "name": "Harak's Shelter",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 223
+  },
+  "884": {
+    "key": 884,
+    "name": "Morning Fog Peak",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 228
+  },
+  "980": {
+    "key": 980,
+    "name": "Calpheon Northwestern Outpost",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 173
+  },
+  "887": {
+    "key": 887,
+    "name": "Windy Peak",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 230
+  },
+  "888": {
+    "key": 888,
+    "name": "Morning Fog Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 228
+  },
+  "889": {
+    "key": 889,
+    "name": "Night Crow Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 229
+  },
+  "890": {
+    "key": 890,
+    "name": "Duvencrune Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "891": {
+    "key": 891,
+    "name": "Doroter Hills",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 231
+  },
+  "893": {
+    "key": 893,
+    "name": "Fountain of Origin",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 232
+  },
+  "1183": {
+    "key": 1183,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 65
+  },
+  "898": {
+    "key": 898,
+    "name": "Khimut Lumber Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 235
+  },
+  "907": {
+    "key": 907,
+    "name": "Khalk Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 224
+  },
+  "909": {
+    "key": 909,
+    "name": "Sherekhan Necropolis",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 223
+  },
+  "1083": {
+    "key": 1083,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "940": {
+    "key": 940,
+    "name": "Macalod Lake",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 235
+  },
+  "1127": {
+    "key": 1127,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 79
+  },
+  "912": {
+    "key": 912,
+    "name": "Kiernak Falls",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "913": {
+    "key": 913,
+    "name": "Duvencrune Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "919": {
+    "key": 919,
+    "name": "Blood Wolf Settlement",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 231
+  },
+  "920": {
+    "key": 920,
+    "name": "Khalk Canyon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 227
+  },
+  "921": {
+    "key": 921,
+    "name": "Ahib Conflict Zone",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 224
+  },
+  "923": {
+    "key": 923,
+    "name": "Doroter Hills",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 231
+  },
+  "1038": {
+    "key": 1038,
+    "name": "O'draxxia",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 241
+  },
+  "926": {
+    "key": 926,
+    "name": "Duvencrune Farmland",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "929": {
+    "key": 929,
+    "name": "Sherekhan Mine Road",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "931": {
+    "key": 931,
+    "name": "Night Crow Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 229
+  },
+  "932": {
+    "key": 932,
+    "name": "Garmoth's Nest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 226
+  },
+  "950": {
+    "key": 950,
+    "name": "Pit of the Undying",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 199
+  },
+  "936": {
+    "key": 936,
+    "name": "Dormann Lumber Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 234
+  },
+  "939": {
+    "key": 939,
+    "name": "Marroba River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 233
+  },
+  "941": {
+    "key": 941,
+    "name": "Tuir River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 222
+  },
+  "1143": {
+    "key": 1143,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 75
+  },
+  "943": {
+    "key": 943,
+    "name": "Fountain of Origin",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 232
+  },
+  "946": {
+    "key": 946,
+    "name": "Macalod Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 235
+  },
+  "947": {
+    "key": 947,
+    "name": "Ellie's Mystical Lake",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 34
+  },
+  "989": {
+    "key": 989,
+    "name": "Elsana Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 180
+  },
+  "948": {
+    "key": 948,
+    "name": "Protty Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 104
+  },
+  "952": {
+    "key": 952,
+    "name": "Sycraia Underwater Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 105
+  },
+  "953": {
+    "key": 953,
+    "name": "Kzarka Shrine",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 42
+  },
+  "955": {
+    "key": 955,
+    "name": "O'draxxia",
+    "has_lodging": true,
+    "is_accessible": 1,
+    "regiongroup": 241
+  },
+  "956": {
+    "key": 956,
+    "name": "O'dyllita",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 0
+  },
+  "961": {
+    "key": 961,
+    "name": "Bahit Sanctum",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 165
+  },
+  "964": {
+    "key": 964,
+    "name": "Thornwood Castle",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 168
+  },
+  "968": {
+    "key": 968,
+    "name": "Salun's Border",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 172
+  },
+  "969": {
+    "key": 969,
+    "name": "Calpheon Northwestern Outpost",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 173
+  },
+  "973": {
+    "key": 973,
+    "name": "Outpost Supply Port",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 176
+  },
+  "974": {
+    "key": 974,
+    "name": "Mountain of Sanctity",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 174
+  },
+  "1174": {
+    "key": 1174,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 72
+  },
+  "975": {
+    "key": 975,
+    "name": "Calpheon Northwestern Outpost",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 173
+  },
+  "976": {
+    "key": 976,
+    "name": "Northwestern Calpheon",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 173
+  },
+  "977": {
+    "key": 977,
+    "name": "Star's End",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 174
+  },
+  "978": {
+    "key": 978,
+    "name": "Brellin Farm",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 175
+  },
+  "982": {
+    "key": 982,
+    "name": "Mountain of Sanctity",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 174
+  },
+  "984": {
+    "key": 984,
+    "name": "Oquilla's Eye",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 178
+  },
+  "1148": {
+    "key": 1148,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 80
+  },
+  "985": {
+    "key": 985,
+    "name": "Hall of Heroes",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 177
+  },
+  "988": {
+    "key": 988,
+    "name": "Serni Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 180
+  },
+  "991": {
+    "key": 991,
+    "name": "Territory of Darkness",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 23
+  },
+  "995": {
+    "key": 995,
+    "name": "Incomplete Ship",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 182
+  },
+  "993": {
+    "key": 993,
+    "name": "Sea of Silence",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 211
+  },
+  "994": {
+    "key": 994,
+    "name": "Shipwrecked Cargo Ship",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 181
+  },
+  "1019": {
+    "key": 1019,
+    "name": "Bloodshed Beach",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 179
+  },
+  "996": {
+    "key": 996,
+    "name": "Lantinia's Combat Raft",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 183
+  },
+  "997": {
+    "key": 997,
+    "name": "Pakio's Combat Raft",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 184
+  },
+  "1002": {
+    "key": 1002,
+    "name": "Shipwrecked Naval Ship",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 188
+  },
+  "1003": {
+    "key": 1003,
+    "name": "Old Moon Guild Carrack",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 189
+  },
+  "1006": {
+    "key": 1006,
+    "name": "Wandering Merchant Ship",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 192
+  },
+  "1008": {
+    "key": 1008,
+    "name": "Oquilla Coast",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 178
+  },
+  "1009": {
+    "key": 1009,
+    "name": "Thornwood Archive",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 166
+  },
+  "1010": {
+    "key": 1010,
+    "name": "Thornwood Prison",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 166
+  },
+  "1011": {
+    "key": 1011,
+    "name": "Talibahr's Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 169
+  },
+  "1012": {
+    "key": 1012,
+    "name": "Narcion Cave",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 164
+  },
+  "1017": {
+    "key": 1017,
+    "name": "Garden of Birth",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 179
+  },
+  "1018": {
+    "key": 1018,
+    "name": "Crioniak Island",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 179
+  },
+  "1020": {
+    "key": 1020,
+    "name": "Coastal Cliff",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 8
+  },
+  "1024": {
+    "key": 1024,
+    "name": "Mountain of Division",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 197
+  },
+  "1026": {
+    "key": 1026,
+    "name": "Altar of the Condemned",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 167
+  },
+  "1028": {
+    "key": 1028,
+    "name": "Dead Moon Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 164
+  },
+  "1029": {
+    "key": 1029,
+    "name": "Thornwood Castle Inner Wall",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 168
+  },
+  "1031": {
+    "key": 1031,
+    "name": "Zulatia Sea",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 170
+  },
+  "1033": {
+    "key": 1033,
+    "name": "Starry Midnight Port",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 170
+  },
+  "1088": {
+    "key": 1088,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1036": {
+    "key": 1036,
+    "name": "Narcion",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 164
+  },
+  "1099": {
+    "key": 1099,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1039": {
+    "key": 1039,
+    "name": "Delmira Plantation",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 196
+  },
+  "1041": {
+    "key": 1041,
+    "name": "Olun's Valley",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 162
+  },
+  "1043": {
+    "key": 1043,
+    "name": "Crypt of Resting Thoughts",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 167
+  },
+  "1044": {
+    "key": 1044,
+    "name": "Mountain of Division",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 197
+  },
+  "1047": {
+    "key": 1047,
+    "name": "Thornwood Forest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 166
+  },
+  "1048": {
+    "key": 1048,
+    "name": "Talibahr's Rope",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 169
+  },
+  "1050": {
+    "key": 1050,
+    "name": "Salun's Border",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 172
+  },
+  "1055": {
+    "key": 1055,
+    "name": "Crypt of Resting Thoughts",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 167
+  },
+  "1056": {
+    "key": 1056,
+    "name": "Mountain of Division",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 197
+  },
+  "1061": {
+    "key": 1061,
+    "name": "Shiv Valley Road",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 198
+  },
+  "1062": {
+    "key": 1062,
+    "name": "O'draxxia",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 241
+  },
+  "1063": {
+    "key": 1063,
+    "name": "Narcion",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 164
+  },
+  "1074": {
+    "key": 1074,
+    "name": "Tyrant's Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 202
+  },
+  "1064": {
+    "key": 1064,
+    "name": "Shiv Valley Road",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 198
+  },
+  "1065": {
+    "key": 1065,
+    "name": "Al Halam Sea",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 211
+  },
+  "1067": {
+    "key": 1067,
+    "name": "Duvencrune",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 222
+  },
+  "1068": {
+    "key": 1068,
+    "name": "Blood Wolf Settlement",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 238
+  },
+  "1069": {
+    "key": 1069,
+    "name": "Tuir Valley",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 222
+  },
+  "1070": {
+    "key": 1070,
+    "name": "Pit of the Undying",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 199
+  },
+  "1071": {
+    "key": 1071,
+    "name": "Crow's Nest",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 177
+  },
+  "1072": {
+    "key": 1072,
+    "name": "Battle Arena",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 9
+  },
+  "1097": {
+    "key": 1097,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1075": {
+    "key": 1075,
+    "name": "Foot of Terrmian Mountain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 64
+  },
+  "1078": {
+    "key": 1078,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1084": {
+    "key": 1084,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1085": {
+    "key": 1085,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 242
+  },
+  "1086": {
+    "key": 1086,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 242
+  },
+  "1087": {
+    "key": 1087,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 242
+  },
+  "1106": {
+    "key": 1106,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 243
+  },
+  "1089": {
+    "key": 1089,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1092": {
+    "key": 1092,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1093": {
+    "key": 1093,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1094": {
+    "key": 1094,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1098": {
+    "key": 1098,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1100": {
+    "key": 1100,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1101": {
+    "key": 1101,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1102": {
+    "key": 1102,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1103": {
+    "key": 1103,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 242
+  },
+  "1172": {
+    "key": 1172,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 76
+  },
+  "1155": {
+    "key": 1155,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 70
+  },
+  "1110": {
+    "key": 1110,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 44
+  },
+  "1113": {
+    "key": 1113,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 65
+  },
+  "1114": {
+    "key": 1114,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 66
+  },
+  "1116": {
+    "key": 1116,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 68
+  },
+  "1118": {
+    "key": 1118,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 70
+  },
+  "1123": {
+    "key": 1123,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 75
+  },
+  "1125": {
+    "key": 1125,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 77
+  },
+  "1126": {
+    "key": 1126,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 78
+  },
+  "1128": {
+    "key": 1128,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 80
+  },
+  "1129": {
+    "key": 1129,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 81
+  },
+  "1130": {
+    "key": 1130,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 82
+  },
+  "1131": {
+    "key": 1131,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 69
+  },
+  "1132": {
+    "key": 1132,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 81
+  },
+  "1135": {
+    "key": 1135,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 67
+  },
+  "1136": {
+    "key": 1136,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 68
+  },
+  "1138": {
+    "key": 1138,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 70
+  },
+  "1141": {
+    "key": 1141,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 73
+  },
+  "1144": {
+    "key": 1144,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 76
+  },
+  "1145": {
+    "key": 1145,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 77
+  },
+  "1146": {
+    "key": 1146,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 78
+  },
+  "1188": {
+    "key": 1188,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 72
+  },
+  "1151": {
+    "key": 1151,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 81
+  },
+  "1152": {
+    "key": 1152,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 65
+  },
+  "1153": {
+    "key": 1153,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 66
+  },
+  "1156": {
+    "key": 1156,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 71
+  },
+  "1158": {
+    "key": 1158,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 73
+  },
+  "1162": {
+    "key": 1162,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 81
+  },
+  "1163": {
+    "key": 1163,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 78
+  },
+  "1164": {
+    "key": 1164,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 79
+  },
+  "1166": {
+    "key": 1166,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 81
+  },
+  "1167": {
+    "key": 1167,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 72
+  },
+  "1170": {
+    "key": 1170,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 70
+  },
+  "1171": {
+    "key": 1171,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 72
+  },
+  "1176": {
+    "key": 1176,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 78
+  },
+  "1177": {
+    "key": 1177,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 78
+  },
+  "1178": {
+    "key": 1178,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 78
+  },
+  "1179": {
+    "key": 1179,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 65
+  },
+  "1181": {
+    "key": 1181,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 65
+  },
+  "1182": {
+    "key": 1182,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 65
+  },
+  "1184": {
+    "key": 1184,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 66
+  },
+  "1187": {
+    "key": 1187,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 73
+  },
+  "1189": {
+    "key": 1189,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 71
+  },
+  "1191": {
+    "key": 1191,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 6
+  },
+  "1193": {
+    "key": 1193,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 244
+  },
+  "1195": {
+    "key": 1195,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 78
+  },
+  "1196": {
+    "key": 1196,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 7
+  }
+}
