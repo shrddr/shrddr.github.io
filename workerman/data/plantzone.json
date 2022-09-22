@@ -10,7 +10,7 @@
       },
       "kind": 15,
       "CP": 3,
-      "name": "<no translation>",
+      "name": "Excavation",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -41,7 +41,7 @@
       },
       "kind": 6,
       "CP": 2,
-      "name": "<no translation>",
+      "name": "Gathering",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -73,7 +73,7 @@
       },
       "kind": 6,
       "CP": 2,
-      "name": "<no translation>",
+      "name": "Gathering",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -105,7 +105,7 @@
       },
       "kind": 7,
       "CP": 5,
-      "name": "<no translation>",
+      "name": "Mining",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -136,7 +136,7 @@
       },
       "kind": 8,
       "CP": 2,
-      "name": "<no translation>",
+      "name": "Lumbering",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -168,7 +168,7 @@
       },
       "kind": 15,
       "CP": 3,
-      "name": "<no translation>",
+      "name": "Excavation",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -200,7 +200,7 @@
       },
       "kind": 7,
       "CP": 1,
-      "name": "<no translation>",
+      "name": "Mining",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -231,7 +231,7 @@
       },
       "kind": 6,
       "CP": 2,
-      "name": "<no translation>",
+      "name": "Gathering",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -262,7 +262,7 @@
       },
       "kind": 7,
       "CP": 5,
-      "name": "<no translation>",
+      "name": "Mining",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -294,7 +294,7 @@
       },
       "kind": 8,
       "CP": 2,
-      "name": "<no translation>",
+      "name": "Lumbering",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -326,7 +326,7 @@
       },
       "kind": 14,
       "CP": 1,
-      "name": "<no translation>",
+      "name": "Honey Production",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -357,7 +357,7 @@
       },
       "kind": 15,
       "CP": 3,
-      "name": "<no translation>",
+      "name": "Excavation",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -389,7 +389,7 @@
       },
       "kind": 8,
       "CP": 2,
-      "name": "<no translation>",
+      "name": "Lumbering",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -421,7 +421,7 @@
       },
       "kind": 6,
       "CP": 2,
-      "name": "<no translation>",
+      "name": "Gathering",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -485,7 +485,7 @@
       },
       "kind": 15,
       "CP": 3,
-      "name": "Chiro's Prow Statue Workshop",
+      "name": "Chiro's Figurehead Workshop",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -7095,6 +7095,223 @@
     "regiongroup": 220,
     "parent": 1399
   },
+  "619": {
+    "key": 619,
+    "node": {
+      "key": 619,
+      "pos": {
+        "x": -134991.0,
+        "y": 2381.6,
+        "z": -44793.3
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 974,
+      "time": 1475,
+      "subgroup": {
+        "key": 44474,
+        "drops": [
+          55860
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 33,
+    "parent": 375
+  },
+  "618": {
+    "key": 618,
+    "node": {
+      "key": 618,
+      "pos": {
+        "x": -118686.0,
+        "y": 3233.87,
+        "z": -176472.0
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 973,
+      "time": 1110,
+      "subgroup": {
+        "key": 44473,
+        "drops": [
+          7600
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 46,
+    "parent": 670
+  },
+  "617": {
+    "key": 617,
+    "node": {
+      "key": 617,
+      "pos": {
+        "x": -248562.0,
+        "y": -1174.87,
+        "z": -138748.0
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 972,
+      "time": 1050,
+      "subgroup": {
+        "key": 44472,
+        "drops": [
+          7594
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 44,
+    "parent": 663
+  },
+  "616": {
+    "key": 616,
+    "node": {
+      "key": 616,
+      "pos": {
+        "x": -292142.0,
+        "y": -1570.57,
+        "z": -68362.4
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 971,
+      "time": 3050,
+      "subgroup": {
+        "key": 44471,
+        "drops": [
+          7586
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 31,
+    "parent": 712
+  },
+  "615": {
+    "key": 615,
+    "node": {
+      "key": 615,
+      "pos": {
+        "x": -212224.0,
+        "y": -2256.6,
+        "z": -32585.7
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 970,
+      "time": 2750,
+      "subgroup": {
+        "key": 44470,
+        "drops": [
+          7589
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 31,
+    "parent": 633
+  },
+  "614": {
+    "key": 614,
+    "node": {
+      "key": 614,
+      "pos": {
+        "x": -347262.0,
+        "y": 13543.2,
+        "z": -253711.0
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 969,
+      "time": 900,
+      "subgroup": {
+        "key": 44469,
+        "drops": [
+          55829
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 42,
+    "parent": 719
+  },
+  "613": {
+    "key": 613,
+    "node": {
+      "key": 613,
+      "pos": {
+        "x": -200742.0,
+        "y": -2720.71,
+        "z": -63991.8
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 968,
+      "time": 1400,
+      "subgroup": {
+        "key": 44468,
+        "drops": [
+          55828
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 31,
+    "parent": 661
+  },
   "612": {
     "key": 612,
     "node": {
@@ -7548,6 +7765,44 @@
     "regiongroup": 46,
     "parent": 656
   },
+  "911": {
+    "key": 911,
+    "node": {
+      "key": 911,
+      "pos": {
+        "x": -186059.0,
+        "y": 7746.04,
+        "z": -252397.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "Gathering",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1235,
+      "time": 150,
+      "subgroup": {
+        "key": 43105,
+        "drops": [
+          5414,
+          5433
+        ]
+      },
+      "subgroupLuck": {
+        "key": 43115,
+        "drops": [
+          5414,
+          5433
+        ]
+      }
+    },
+    "regiongroup": 43,
+    "parent": 716
+  },
   "910": {
     "key": 910,
     "node": {
@@ -7895,6 +8150,157 @@
     },
     "regiongroup": 39,
     "parent": 715
+  },
+  "915": {
+    "key": 915,
+    "node": {
+      "key": 915,
+      "pos": {
+        "x": -382746.0,
+        "y": 9965.71,
+        "z": -229073.0
+      },
+      "kind": 13,
+      "CP": 0,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 959,
+      "time": 9000,
+      "subgroup": {
+        "key": 44459,
+        "drops": [
+          55840
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 42,
+    "parent": 608
+  },
+  "914": {
+    "key": 914,
+    "node": {
+      "key": 914,
+      "pos": {
+        "x": -301314.0,
+        "y": 2750.21,
+        "z": -184943.0
+      },
+      "kind": 7,
+      "CP": 1,
+      "name": "Mining",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1211,
+      "time": 200,
+      "subgroup": {
+        "key": 41101,
+        "drops": [
+          4004,
+          4804
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41111,
+        "drops": [
+          4004,
+          4804
+        ]
+      }
+    },
+    "regiongroup": 41,
+    "parent": 705
+  },
+  "913": {
+    "key": 913,
+    "node": {
+      "key": 913,
+      "pos": {
+        "x": -340375.0,
+        "y": 1502.17,
+        "z": -151320.0
+      },
+      "kind": 7,
+      "CP": 1,
+      "name": "Mining",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1213,
+      "time": 200,
+      "subgroup": {
+        "key": 41103,
+        "drops": [
+          4004,
+          4409
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41113,
+        "drops": [
+          4004,
+          4409
+        ]
+      }
+    },
+    "regiongroup": 39,
+    "parent": 706
+  },
+  "912": {
+    "key": 912,
+    "node": {
+      "key": 912,
+      "pos": {
+        "x": -252225.0,
+        "y": -244.682,
+        "z": -210124.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "Excavation",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 23,
+      "time": 600,
+      "subgroup": {
+        "key": 44025,
+        "drops": [
+          44255,
+          44250,
+          44256,
+          5952,
+          5960
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44026,
+        "drops": [
+          44255,
+          44250,
+          44256,
+          5952,
+          5960
+        ]
+      }
+    },
+    "regiongroup": 43,
+    "parent": 710
   },
   "843": {
     "key": 843,
@@ -9601,6 +10007,223 @@
     },
     "regiongroup": 3,
     "parent": 24
+  },
+  "110": {
+    "key": 110,
+    "node": {
+      "key": 110,
+      "pos": {
+        "x": 158534.0,
+        "y": -7904.9,
+        "z": 291830.0
+      },
+      "kind": 13,
+      "CP": 0,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 977,
+      "time": 1060,
+      "subgroup": {
+        "key": 44477,
+        "drops": [
+          55825
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 9,
+    "parent": 1002
+  },
+  "109": {
+    "key": 109,
+    "node": {
+      "key": 109,
+      "pos": {
+        "x": -145240.0,
+        "y": -1298.05,
+        "z": 139174.0
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 976,
+      "time": 3050,
+      "subgroup": {
+        "key": 44476,
+        "drops": [
+          7587
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 61,
+    "parent": 65
+  },
+  "108": {
+    "key": 108,
+    "node": {
+      "key": 108,
+      "pos": {
+        "x": -123975.0,
+        "y": -1407.95,
+        "z": 115739.0
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 975,
+      "time": 2950,
+      "subgroup": {
+        "key": 44475,
+        "drops": [
+          7585
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 61,
+    "parent": 64
+  },
+  "107": {
+    "key": 107,
+    "node": {
+      "key": 107,
+      "pos": {
+        "x": -27550.6,
+        "y": -3280.07,
+        "z": 28544.0
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 963,
+      "time": 1050,
+      "subgroup": {
+        "key": 44463,
+        "drops": [
+          7594
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 4,
+    "parent": 45
+  },
+  "106": {
+    "key": 106,
+    "node": {
+      "key": 106,
+      "pos": {
+        "x": 990.583,
+        "y": -3478.26,
+        "z": 47567.9
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 962,
+      "time": 1450,
+      "subgroup": {
+        "key": 44462,
+        "drops": [
+          55861
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 4,
+    "parent": 27
+  },
+  "105": {
+    "key": 105,
+    "node": {
+      "key": 105,
+      "pos": {
+        "x": 37558.6,
+        "y": -4438.21,
+        "z": 78682.3
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 961,
+      "time": 1500,
+      "subgroup": {
+        "key": 44461,
+        "drops": [
+          55824
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 1,
+    "parent": 22
+  },
+  "104": {
+    "key": 104,
+    "node": {
+      "key": 104,
+      "pos": {
+        "x": 13170.8,
+        "y": -4460.58,
+        "z": 55790.2
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 960,
+      "time": 900,
+      "subgroup": {
+        "key": 44460,
+        "drops": [
+          55823
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 1,
+    "parent": 21
   },
   "103": {
     "key": 103,
