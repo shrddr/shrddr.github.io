@@ -1,4 +1,14 @@
 {
+  "706": {
+    "region": {
+      "key": 706,
+      "name": "Old Wisdom Tree",
+      "has_lodging": false,
+      "is_accessible": 1,
+      "regiongroup": 151
+    },
+    "houses": []
+  },
   "1124": {
     "region": {
       "key": 1124,
