@@ -1,43 +1,36 @@
 {
   "50006": {
     "key": 50006,
-    "name": "Guild Storage level 7",
     "groupType": 2,
     "groups": []
   },
   "50005": {
     "key": 50005,
-    "name": "Guild Storage level 6",
     "groupType": 2,
     "groups": []
   },
   "50004": {
     "key": 50004,
-    "name": "Guild Storage level 5",
     "groupType": 2,
     "groups": []
   },
   "50003": {
     "key": 50003,
-    "name": "Guild Storage level 4",
     "groupType": 2,
     "groups": []
   },
   "50002": {
     "key": 50002,
-    "name": "Guild Storage level 3",
     "groupType": 2,
     "groups": []
   },
   "50001": {
     "key": 50001,
-    "name": "Guild Storage Level 2",
     "groupType": 2,
     "groups": []
   },
   "1702": {
     "key": 1702,
-    "name": "Risk Asset Management Bank",
     "groupType": 8,
     "groups": [
       [
@@ -48,7 +41,6 @@
   },
   "1701": {
     "key": 1701,
-    "name": "Safe Asset Management Bank",
     "groupType": 8,
     "groups": [
       [
@@ -59,7 +51,6 @@
   },
   "1610": {
     "key": 1610,
-    "name": "Mount Part Workshop",
     "groupType": 13,
     "groups": [
       [
@@ -70,55 +61,60 @@
   },
   "1609": {
     "key": 1609,
-    "name": "Valencia Specialties Packing",
     "groupType": 13,
     "groups": [
-      7908
+      [
+        7908
+      ]
     ]
   },
   "1608": {
     "key": 1608,
-    "name": "Mediah Specialties Packing",
     "groupType": 13,
     "groups": [
-      7907
+      [
+        7907
+      ]
     ]
   },
   "1607": {
     "key": 1607,
-    "name": "Calpheon Specialties Packing",
     "groupType": 13,
     "groups": [
-      7906
+      [
+        7906
+      ]
     ]
   },
   "1606": {
     "key": 1606,
-    "name": "Serendia Specialties Packing",
     "groupType": 13,
     "groups": [
-      7905
+      [
+        7905
+      ]
     ]
   },
   "1605": {
     "key": 1605,
-    "name": "Balenos Specialties Packing",
     "groupType": 13,
     "groups": [
-      7904
+      [
+        7904
+      ]
     ]
   },
   "1604": {
     "key": 1604,
-    "name": "Imperial Trade Packing",
     "groupType": 13,
     "groups": [
-      7916
+      [
+        7916
+      ]
     ]
   },
   "1602": {
     "key": 1602,
-    "name": "Elephant Nursery",
     "groupType": 14,
     "groups": [
       [
@@ -139,10 +135,11 @@
   },
   "1601": {
     "key": 1601,
-    "name": "Guild Shipyard",
     "groupType": 13,
     "groups": [
-      7901,
+      [
+        7901
+      ],
       [
         7923,
         7924,
@@ -153,7 +150,6 @@
   },
   "1551": {
     "key": 1551,
-    "name": "Wood Workbench",
     "groupType": 17,
     "groups": [
       [
@@ -206,7 +202,6 @@
   },
   "1559": {
     "key": 1559,
-    "name": "<no translation>",
     "groupType": 17,
     "groups": [
       [
@@ -302,7 +297,6 @@
   },
   "1558": {
     "key": 1558,
-    "name": "<no translation>",
     "groupType": 17,
     "groups": [
       [
@@ -379,7 +373,6 @@
   },
   "1557": {
     "key": 1557,
-    "name": "<no translation>",
     "groupType": 17,
     "groups": [
       [
@@ -436,7 +429,6 @@
   },
   "1556": {
     "key": 1556,
-    "name": "Mineral Workbench",
     "groupType": 17,
     "groups": [
       [
@@ -513,7 +505,6 @@
   },
   "1555": {
     "key": 1555,
-    "name": "Wood Workbench",
     "groupType": 17,
     "groups": [
       [
@@ -570,7 +561,6 @@
   },
   "1554": {
     "key": 1554,
-    "name": "Mineral Workbench",
     "groupType": 17,
     "groups": [
       [
@@ -647,7 +637,6 @@
   },
   "1553": {
     "key": 1553,
-    "name": "Wood Workbench",
     "groupType": 17,
     "groups": [
       [
@@ -704,7 +693,6 @@
   },
   "1552": {
     "key": 1552,
-    "name": "Mineral Workbench",
     "groupType": 17,
     "groups": [
       [
@@ -774,7 +762,6 @@
   },
   "1901": {
     "key": 1901,
-    "name": "Chiro's Ship Part Workshop",
     "groupType": 20,
     "groups": [
       [
@@ -800,10 +787,11 @@
   },
   "1801": {
     "key": 1801,
-    "name": "Duvencrune Weapon Workshop",
     "groupType": 4,
     "groups": [
-      7625,
+      [
+        7625
+      ],
       [
         7643,
         7644,
@@ -827,7 +815,8 @@
         7690,
         7970,
         8006,
-        8136
+        8136,
+        8139
       ],
       [
         7628,
@@ -851,47 +840,62 @@
         7689,
         7969,
         8005,
-        8135
+        8135,
+        8138
       ]
     ]
   },
   "1208": {
     "key": 1208,
-    "name": "Wagon Workshop",
     "groupType": 14,
     "groups": [
-      8508,
-      8505,
-      8507,
-      8510
+      [
+        8508
+      ],
+      [
+        8505
+      ],
+      [
+        8507
+      ],
+      [
+        8510
+      ]
     ]
   },
   "1207": {
     "key": 1207,
-    "name": "Wagon Workshop",
     "groupType": 14,
     "groups": [
-      8508,
-      8505,
-      8507
+      [
+        8508
+      ],
+      [
+        8505
+      ],
+      [
+        8507
+      ]
     ]
   },
   "1206": {
     "key": 1206,
-    "name": "Wagon Workshop",
     "groupType": 14,
     "groups": [
       [
         8503,
         8508
       ],
-      8506,
-      8507
+      [
+        8506
+      ],
+      [
+        8507
+      ]
     ]
   },
   "1205": {
     "key": 1205,
-    "name": "Wagon Workshop",
     "groupType": 14,
     "groups": [
       [
@@ -902,44 +906,48 @@
   },
   "1204": {
     "key": 1204,
-    "name": "Wagon Workshop",
     "groupType": 14,
     "groups": [
       [
         8502,
         8508
       ],
-      8505
+      [
+        8505
+      ]
     ]
   },
   "1203": {
     "key": 1203,
-    "name": "Wagon Workshop",
     "groupType": 14,
     "groups": [
       [
         8502,
         8508
       ],
-      8505,
-      8507
+      [
+        8505
+      ],
+      [
+        8507
+      ]
     ]
   },
   "1202": {
     "key": 1202,
-    "name": "Wagon Workshop",
     "groupType": 14,
     "groups": [
       [
         8502,
         8508
       ],
-      8504
+      [
+        8504
+      ]
     ]
   },
   "1201": {
     "key": 1201,
-    "name": "Wagon Workshop",
     "groupType": 14,
     "groups": [
       [
@@ -950,7 +958,6 @@
   },
   "1103": {
     "key": 1103,
-    "name": "Shipyard",
     "groupType": 13,
     "groups": [
       [
@@ -961,7 +968,6 @@
   },
   "1102": {
     "key": 1102,
-    "name": "Shipyard",
     "groupType": 13,
     "groups": [
       [
@@ -977,10 +983,11 @@
   },
   "1101": {
     "key": 1101,
-    "name": "Shipyard",
     "groupType": 13,
     "groups": [
-      8802,
+      [
+        8802
+      ],
       [
         8805,
         8833,
@@ -994,7 +1001,6 @@
   },
   "1106": {
     "key": 1106,
-    "name": "Shipyard",
     "groupType": 13,
     "groups": [
       [
@@ -1010,10 +1016,11 @@
   },
   "1105": {
     "key": 1105,
-    "name": "Shipyard",
     "groupType": 13,
     "groups": [
-      8803,
+      [
+        8803
+      ],
       [
         8805,
         8833,
@@ -1023,7 +1030,6 @@
   },
   "1104": {
     "key": 1104,
-    "name": "Shipyard",
     "groupType": 13,
     "groups": [
       [
@@ -1034,7 +1040,6 @@
   },
   "1051": {
     "key": 1051,
-    "name": "Siege Weapon Workshop",
     "groupType": 19,
     "groups": [
       [
@@ -1054,13 +1059,13 @@
         8061,
         8062,
         8063,
-        8064
+        8064,
+        8137
       ]
     ]
   },
   "1518": {
     "key": 1518,
-    "name": "Crop Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1171,7 +1176,6 @@
   },
   "1517": {
     "key": 1517,
-    "name": "Mushroom Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1267,7 +1271,6 @@
   },
   "1516": {
     "key": 1516,
-    "name": "Fish Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1359,7 +1362,6 @@
   },
   "1515": {
     "key": 1515,
-    "name": "Crop Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1444,7 +1446,6 @@
   },
   "1514": {
     "key": 1514,
-    "name": "Mushroom Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1523,7 +1524,6 @@
   },
   "1513": {
     "key": 1513,
-    "name": "Fish Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1581,7 +1581,6 @@
   },
   "1512": {
     "key": 1512,
-    "name": "Crop Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1657,7 +1656,6 @@
   },
   "1511": {
     "key": 1511,
-    "name": "Mushroom Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1701,6 +1699,18 @@
         9308,
         9309,
         9310,
+        9315,
+        9316,
+        9317,
+        9318,
+        9322,
+        9323,
+        9324,
+        9325,
+        9329,
+        9330,
+        9331,
+        9332,
         9375,
         9376,
         9377,
@@ -1724,7 +1734,6 @@
   },
   "1510": {
     "key": 1510,
-    "name": "Fish Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1782,7 +1791,6 @@
   },
   "1509": {
     "key": 1509,
-    "name": "Crop Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1858,7 +1866,6 @@
   },
   "1508": {
     "key": 1508,
-    "name": "Mushroom Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1902,6 +1909,18 @@
         9308,
         9309,
         9310,
+        9315,
+        9316,
+        9317,
+        9318,
+        9322,
+        9323,
+        9324,
+        9325,
+        9329,
+        9330,
+        9331,
+        9332,
         9375,
         9376,
         9377,
@@ -1925,7 +1944,6 @@
   },
   "1507": {
     "key": 1507,
-    "name": "Fish Factory",
     "groupType": 17,
     "groups": [
       [
@@ -1983,7 +2001,6 @@
   },
   "1506": {
     "key": 1506,
-    "name": "Crop Factory",
     "groupType": 17,
     "groups": [
       [
@@ -2059,7 +2076,6 @@
   },
   "1505": {
     "key": 1505,
-    "name": "Mushroom Factory",
     "groupType": 17,
     "groups": [
       [
@@ -2103,6 +2119,18 @@
         9308,
         9309,
         9310,
+        9315,
+        9316,
+        9317,
+        9318,
+        9322,
+        9323,
+        9324,
+        9325,
+        9329,
+        9330,
+        9331,
+        9332,
         9375,
         9376,
         9377,
@@ -2126,7 +2154,6 @@
   },
   "1504": {
     "key": 1504,
-    "name": "Fish Factory",
     "groupType": 17,
     "groups": [
       [
@@ -2163,7 +2190,6 @@
   },
   "1503": {
     "key": 1503,
-    "name": "Crop Factory",
     "groupType": 17,
     "groups": [
       [
@@ -2239,7 +2265,6 @@
   },
   "1502": {
     "key": 1502,
-    "name": "Mushroom Factory",
     "groupType": 17,
     "groups": [
       [
@@ -2283,6 +2308,18 @@
         9308,
         9309,
         9310,
+        9315,
+        9316,
+        9317,
+        9318,
+        9322,
+        9323,
+        9324,
+        9325,
+        9329,
+        9330,
+        9331,
+        9332,
         9375,
         9376,
         9377,
@@ -2306,7 +2343,6 @@
   },
   "1501": {
     "key": 1501,
-    "name": "Fish Factory",
     "groupType": 17,
     "groups": [
       [
@@ -2363,7 +2399,6 @@
   },
   "1423": {
     "key": 1423,
-    "name": "Costume Mill",
     "groupType": 18,
     "groups": [
       [
@@ -2503,7 +2538,6 @@
   },
   "1422": {
     "key": 1422,
-    "name": "Costume Mill",
     "groupType": 18,
     "groups": [
       [
@@ -2633,7 +2667,6 @@
   },
   "1421": {
     "key": 1421,
-    "name": "Costume Mill",
     "groupType": 18,
     "groups": [
       [
@@ -2702,7 +2735,6 @@
   },
   "1427": {
     "key": 1427,
-    "name": "Old Moon Costume Mill",
     "groupType": 18,
     "groups": [
       [
@@ -2717,10 +2749,16 @@
   },
   "1426": {
     "key": 1426,
-    "name": "Costume Mill",
     "groupType": 18,
     "groups": [
       [
+        7411,
+        7412,
+        7413,
+        7414,
+        7415,
+        7416,
+        7423,
         7437,
         7439,
         7440,
@@ -2748,6 +2786,7 @@
         8212,
         8215,
         8219,
+        8220,
         8265,
         8269,
         8272,
@@ -2778,7 +2817,6 @@
   },
   "1425": {
     "key": 1425,
-    "name": "Costume Workshop",
     "groupType": 18,
     "groups": [
       [
@@ -2847,7 +2885,6 @@
   },
   "1424": {
     "key": 1424,
-    "name": "Costume Mill",
     "groupType": 18,
     "groups": [
       [
@@ -2978,7 +3015,6 @@
   },
   "1407": {
     "key": 1407,
-    "name": "<no translation>",
     "groupType": 16,
     "groups": [
       [
@@ -3006,7 +3042,6 @@
   },
   "1406": {
     "key": 1406,
-    "name": "Furniture Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -3095,7 +3130,6 @@
   },
   "1405": {
     "key": 1405,
-    "name": "Furniture Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -3142,7 +3176,6 @@
   },
   "1404": {
     "key": 1404,
-    "name": "Furniture Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -3240,7 +3273,6 @@
   },
   "1403": {
     "key": 1403,
-    "name": "Furniture Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -3272,7 +3304,6 @@
   },
   "1402": {
     "key": 1402,
-    "name": "Furniture Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -3358,7 +3389,6 @@
   },
   "1401": {
     "key": 1401,
-    "name": "Furniture Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -3386,7 +3416,6 @@
   },
   "1304": {
     "key": 1304,
-    "name": "Horse Gear Workshop",
     "groupType": 15,
     "groups": [
       [
@@ -3433,7 +3462,6 @@
   },
   "1303": {
     "key": 1303,
-    "name": "Wagon Part Workshop",
     "groupType": 21,
     "groups": [
       [
@@ -3481,7 +3509,6 @@
   },
   "1302": {
     "key": 1302,
-    "name": "Ship Part Workshop",
     "groupType": 20,
     "groups": [
       [
@@ -3543,7 +3570,6 @@
   },
   "1301": {
     "key": 1301,
-    "name": "Horse Gear Workshop",
     "groupType": 15,
     "groups": [
       [
@@ -3580,7 +3606,6 @@
   },
   "999": {
     "key": 999,
-    "name": "Manos Jeweler",
     "groupType": 8,
     "groups": [
       [
@@ -3608,7 +3633,6 @@
   },
   "15": {
     "key": 15,
-    "name": "Jeweler",
     "groupType": 8,
     "groups": [
       [
@@ -3683,7 +3707,6 @@
   },
   "14": {
     "key": 14,
-    "name": "Carpentry Workshop",
     "groupType": 7,
     "groups": [
       [
@@ -3745,7 +3768,6 @@
   },
   "13": {
     "key": 13,
-    "name": "Handcraft Workshop",
     "groupType": 6,
     "groups": [
       [
@@ -3846,7 +3868,6 @@
   },
   "12": {
     "key": 12,
-    "name": "Armor Workshop",
     "groupType": 5,
     "groups": [
       [
@@ -3887,7 +3908,6 @@
   },
   "11": {
     "key": 11,
-    "name": "Weapon Workshop",
     "groupType": 4,
     "groups": [
       [
@@ -4018,31 +4038,26 @@
   },
   "3": {
     "key": 3,
-    "name": "Horse Ranch",
     "groupType": 3,
     "groups": []
   },
   "2": {
     "key": 2,
-    "name": "Storage",
     "groupType": 2,
     "groups": []
   },
   "1": {
     "key": 1,
-    "name": "Lodging",
     "groupType": 1,
     "groups": []
   },
   "0": {
     "key": 0,
-    "name": "Residence",
     "groupType": 0,
     "groups": []
   },
   "28": {
     "key": 28,
-    "name": "O'draxxia Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -4070,7 +4085,6 @@
   },
   "27": {
     "key": 27,
-    "name": "Gr\u00e1na Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -4106,7 +4120,6 @@
   },
   "26": {
     "key": 26,
-    "name": "Duvencrune Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -4148,7 +4161,6 @@
   },
   "25": {
     "key": 25,
-    "name": "Old Moon Workshop",
     "groupType": 9,
     "groups": [
       [
@@ -4159,7 +4171,6 @@
   },
   "24": {
     "key": 24,
-    "name": "Arehaza Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -4179,7 +4190,6 @@
   },
   "23": {
     "key": 23,
-    "name": "Tarif Workshop",
     "groupType": 16,
     "groups": [
       [
@@ -4199,10 +4209,11 @@
   },
   "22": {
     "key": 22,
-    "name": "Florin Workshop",
     "groupType": 16,
     "groups": [
-      7311,
+      [
+        7311
+      ],
       [
         7312,
         7313,
@@ -4217,7 +4228,6 @@
   },
   "21": {
     "key": 21,
-    "name": "Tool Workshop",
     "groupType": 9,
     "groups": [
       [
@@ -4256,12 +4266,13 @@
         6498,
         6499
       ],
-      6514
+      [
+        6514
+      ]
     ]
   },
   "19": {
     "key": 19,
-    "name": "Ceramics Workshop",
     "groupType": 23,
     "groups": [
       [
@@ -4284,10 +4295,16 @@
   },
   "18": {
     "key": 18,
-    "name": "Costume Mill",
     "groupType": 18,
     "groups": [
       [
+        7411,
+        7412,
+        7413,
+        7414,
+        7415,
+        7416,
+        7423,
         7437,
         7439,
         7440,
@@ -4315,6 +4332,7 @@
         8212,
         8215,
         8219,
+        8220,
         8265,
         8269,
         8272,
@@ -4345,7 +4363,6 @@
   },
   "17": {
     "key": 17,
-    "name": "Refinery",
     "groupType": 10,
     "groups": [
       [
@@ -4369,7 +4386,6 @@
   },
   "16": {
     "key": 16,
-    "name": "Tool Workshop",
     "groupType": 9,
     "groups": [
       [
