@@ -1,7 +1,7 @@
 {
   "3822": {
     "key": 3822,
-    "name": "<no translation>",
+    "name": "Camp Balacs 2",
     "CP": 3,
     "parentNode": 1763,
     "affTown": 1124,
@@ -14,7 +14,7 @@
   },
   "3821": {
     "key": 3821,
-    "name": "<no translation>",
+    "name": "Camp Balacs 1",
     "CP": 3,
     "parentNode": 1763,
     "affTown": 1124,
@@ -27,7 +27,7 @@
   },
   "3820": {
     "key": 3820,
-    "name": "<no translation>",
+    "name": "Eilton 5",
     "CP": 5,
     "parentNode": 1750,
     "affTown": 1124,
@@ -41,7 +41,7 @@
   },
   "3819": {
     "key": 3819,
-    "name": "<no translation>",
+    "name": "Eilton 4",
     "CP": 4,
     "parentNode": 1750,
     "affTown": 1124,
@@ -55,7 +55,7 @@
   },
   "3818": {
     "key": 3818,
-    "name": "<no translation>",
+    "name": "Eilton 3",
     "CP": 3,
     "parentNode": 1750,
     "affTown": 1124,
@@ -68,7 +68,7 @@
   },
   "3817": {
     "key": 3817,
-    "name": "<no translation>",
+    "name": "Eilton 2",
     "CP": 2,
     "parentNode": 1750,
     "affTown": 1124,
@@ -83,7 +83,7 @@
   },
   "3816": {
     "key": 3816,
-    "name": "<no translation>",
+    "name": "Eilton 1",
     "CP": 2,
     "parentNode": 1750,
     "affTown": 1124,
@@ -96,7 +96,7 @@
   },
   "3815": {
     "key": 3815,
-    "name": "<no translation>",
+    "name": "Blue Maned Lion's Manor",
     "CP": 3,
     "parentNode": 301,
     "affTown": 32,
@@ -110,7 +110,7 @@
   },
   "3814": {
     "key": 3814,
-    "name": "<no translation>",
+    "name": "Blue Maned Lion's Manor",
     "CP": 2,
     "parentNode": 301,
     "affTown": 32,
@@ -220,7 +220,7 @@
   "3617": {
     "key": 3617,
     "name": "Khimut Lumber Camp 1-2",
-    "CP": 10,
+    "CP": 7,
     "parentNode": 1666,
     "affTown": 873,
     "needHouseKey": 0,
@@ -236,7 +236,7 @@
   "3616": {
     "key": 3616,
     "name": "Khimut Lumber Camp 1-1",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1666,
     "affTown": 873,
     "needHouseKey": 0,
@@ -251,7 +251,7 @@
   "3615": {
     "key": 3615,
     "name": "Dormann Lumber Camp 2",
-    "CP": 10,
+    "CP": 7,
     "parentNode": 1665,
     "affTown": 873,
     "needHouseKey": 0,
@@ -267,7 +267,7 @@
   "3614": {
     "key": 3614,
     "name": "Dormann Lumber Camp 1",
-    "CP": 10,
+    "CP": 7,
     "parentNode": 1665,
     "affTown": 873,
     "needHouseKey": 0,
@@ -283,7 +283,7 @@
   "3613": {
     "key": 3613,
     "name": "Duvencrune 11-2",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -297,7 +297,7 @@
   "3612": {
     "key": 3612,
     "name": "Duvencrune 11-1",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -311,7 +311,7 @@
   "3611": {
     "key": 3611,
     "name": "Duvencrune 10",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -325,7 +325,7 @@
   "3610": {
     "key": 3610,
     "name": "Duvencrune 9-2",
-    "CP": 10,
+    "CP": 7,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -341,7 +341,7 @@
   "3609": {
     "key": 3609,
     "name": "Duvencrune 9-1",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -354,7 +354,7 @@
   "3608": {
     "key": 3608,
     "name": "Duvencrune 8",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -370,7 +370,7 @@
   "3607": {
     "key": 3607,
     "name": "Duvencrune 7",
-    "CP": 10,
+    "CP": 7,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -385,7 +385,7 @@
   "3606": {
     "key": 3606,
     "name": "Duvencrune 6",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -399,7 +399,7 @@
   "3605": {
     "key": 3605,
     "name": "Duvencrune 5",
-    "CP": 6,
+    "CP": 4,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -413,7 +413,7 @@
   "3604": {
     "key": 3604,
     "name": "Duvencrune 4",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -426,7 +426,7 @@
   "3603": {
     "key": 3603,
     "name": "Duvencrune 3",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -440,7 +440,7 @@
   "3602": {
     "key": 3602,
     "name": "Duvencrune 2",
-    "CP": 10,
+    "CP": 7,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -453,7 +453,7 @@
   "3601": {
     "key": 3601,
     "name": "Duvencrune 1",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -1737,7 +1737,7 @@
   "3503": {
     "key": 3503,
     "name": "Gr\u00e1na 3, 1F",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1751,7 +1751,7 @@
   "3502": {
     "key": 3502,
     "name": "Gr\u00e1na 2",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1766,7 +1766,7 @@
   "3501": {
     "key": 3501,
     "name": "Gr\u00e1na 1",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1779,7 +1779,7 @@
   "3519": {
     "key": 3519,
     "name": "Gr\u00e1na 17",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1807,7 +1807,7 @@
   "3517": {
     "key": 3517,
     "name": "Gr\u00e1na 15",
-    "CP": 11,
+    "CP": 6,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1822,7 +1822,7 @@
   "3516": {
     "key": 3516,
     "name": "Gr\u00e1na 14",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1838,7 +1838,7 @@
   "3515": {
     "key": 3515,
     "name": "Gr\u00e1na 13",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1851,7 +1851,7 @@
   "3514": {
     "key": 3514,
     "name": "Gr\u00e1na 12, 2F",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1865,7 +1865,7 @@
   "3513": {
     "key": 3513,
     "name": "Gr\u00e1na 12, 1F",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1878,7 +1878,7 @@
   "3512": {
     "key": 3512,
     "name": "Gr\u00e1na 11",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1892,7 +1892,7 @@
   "3511": {
     "key": 3511,
     "name": "Gr\u00e1na 10",
-    "CP": 8,
+    "CP": 5,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1907,7 +1907,7 @@
   "3510": {
     "key": 3510,
     "name": "Gr\u00e1na 9",
-    "CP": 11,
+    "CP": 6,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1923,7 +1923,7 @@
   "3509": {
     "key": 3509,
     "name": "Gr\u00e1na 8",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1953,7 +1953,7 @@
   "3507": {
     "key": 3507,
     "name": "Gr\u00e1na 6",
-    "CP": 11,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1966,7 +1966,7 @@
   "3506": {
     "key": 3506,
     "name": "Gr\u00e1na 5",
-    "CP": 11,
+    "CP": 6,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1980,7 +1980,7 @@
   "3505": {
     "key": 3505,
     "name": "Gr\u00e1na 4",
-    "CP": 15,
+    "CP": 8,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -1994,7 +1994,7 @@
   "3504": {
     "key": 3504,
     "name": "Gr\u00e1na 3, 2F",
-    "CP": 11,
+    "CP": 6,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
