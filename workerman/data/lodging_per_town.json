@@ -270,7 +270,7 @@
       {
         "key": 3603,
         "name": "Duvencrune 3",
-        "CP": 8,
+        "CP": 5,
         "parentNode": 1649,
         "affTown": 873,
         "needHouseKey": 0,
@@ -279,7 +279,7 @@
       {
         "key": 3606,
         "name": "Duvencrune 6",
-        "CP": 8,
+        "CP": 5,
         "parentNode": 1649,
         "affTown": 873,
         "needHouseKey": 0,
@@ -288,7 +288,7 @@
       {
         "key": 3608,
         "name": "Duvencrune 8",
-        "CP": 8,
+        "CP": 5,
         "parentNode": 1649,
         "affTown": 873,
         "needHouseKey": 0,
@@ -297,7 +297,7 @@
       {
         "key": 3613,
         "name": "Duvencrune 11-2",
-        "CP": 8,
+        "CP": 5,
         "parentNode": 1649,
         "affTown": 873,
         "needHouseKey": 0,
@@ -757,7 +757,7 @@
       {
         "key": 3511,
         "name": "Gr\u00e1na 10",
-        "CP": 8,
+        "CP": 5,
         "parentNode": 1623,
         "affTown": 735,
         "needHouseKey": 0,
