@@ -65,143 +65,6 @@
       }
     ]
   },
-  "32": {
-    "region": {
-      "key": 32,
-      "name": "Heidel",
-      "has_lodging": true,
-      "is_accessible": 1,
-      "regiongroup": 11
-    },
-    "houses": [
-      {
-        "key": 2155,
-        "name": "Heidel 1-5",
-        "CP": 4,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 2156,
-        "lodgingSpaces": 2
-      },
-      {
-        "key": 2156,
-        "name": "Heidel 1-2",
-        "CP": 1,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 2157,
-        "lodgingSpaces": 1
-      },
-      {
-        "key": 2161,
-        "name": "Heidel 4-1, 1F",
-        "CP": 1,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 0,
-        "lodgingSpaces": 1
-      },
-      {
-        "key": 2170,
-        "name": "Heidel 9-2, 1F",
-        "CP": 1,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 2168,
-        "lodgingSpaces": 1
-      },
-      {
-        "key": 2171,
-        "name": "Heidel 9-2, 2F",
-        "CP": 2,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 2170,
-        "lodgingSpaces": 1
-      },
-      {
-        "key": 2184,
-        "name": "Heidel 7-3, 1F",
-        "CP": 1,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 2194,
-        "lodgingSpaces": 4
-      },
-      {
-        "key": 2199,
-        "name": "Heidel 8-1, Rm. 4",
-        "CP": 3,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 2200,
-        "lodgingSpaces": 8
-      },
-      {
-        "key": 2200,
-        "name": "Heidel 8-1, Rm. 3",
-        "CP": 2,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 2201,
-        "lodgingSpaces": 4
-      },
-      {
-        "key": 2201,
-        "name": "Heidel 8-1, Rm. 2",
-        "CP": 2,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 2202,
-        "lodgingSpaces": 2
-      },
-      {
-        "key": 2202,
-        "name": "Heidel 8-1, Rm. 1",
-        "CP": 1,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 0,
-        "lodgingSpaces": 1
-      },
-      {
-        "key": 2216,
-        "name": "Serendia 2-1, 2F, Costa Farm",
-        "CP": 2,
-        "parentNode": 322,
-        "affTown": 32,
-        "needHouseKey": 2215,
-        "lodgingSpaces": 1
-      },
-      {
-        "key": 2219,
-        "name": "Heidel 9-1, 2F",
-        "CP": 1,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 2168,
-        "lodgingSpaces": 1
-      },
-      {
-        "key": 3814,
-        "name": "Blue Maned Lion's Manor",
-        "CP": 2,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 0,
-        "lodgingSpaces": 4
-      },
-      {
-        "key": 3815,
-        "name": "Blue Maned Lion's Manor",
-        "CP": 3,
-        "parentNode": 301,
-        "affTown": 32,
-        "needHouseKey": 0,
-        "lodgingSpaces": 4
-      }
-    ]
-  },
   "955": {
     "region": {
       "key": 955,
@@ -1640,6 +1503,125 @@
         "affTown": 88,
         "needHouseKey": 0,
         "lodgingSpaces": 2
+      }
+    ]
+  },
+  "32": {
+    "region": {
+      "key": 32,
+      "name": "Heidel",
+      "has_lodging": true,
+      "is_accessible": 1,
+      "regiongroup": 11
+    },
+    "houses": [
+      {
+        "key": 2155,
+        "name": "Heidel 1-5",
+        "CP": 4,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 2156,
+        "lodgingSpaces": 2
+      },
+      {
+        "key": 2156,
+        "name": "Heidel 1-2",
+        "CP": 1,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 2157,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 2161,
+        "name": "Heidel 4-1, 1F",
+        "CP": 1,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 2170,
+        "name": "Heidel 9-2, 1F",
+        "CP": 1,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 2168,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 2171,
+        "name": "Heidel 9-2, 2F",
+        "CP": 2,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 2170,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 2184,
+        "name": "Heidel 7-3, 1F",
+        "CP": 1,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 2194,
+        "lodgingSpaces": 4
+      },
+      {
+        "key": 2199,
+        "name": "Heidel 8-1, Rm. 4",
+        "CP": 3,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 2200,
+        "lodgingSpaces": 8
+      },
+      {
+        "key": 2200,
+        "name": "Heidel 8-1, Rm. 3",
+        "CP": 2,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 2201,
+        "lodgingSpaces": 4
+      },
+      {
+        "key": 2201,
+        "name": "Heidel 8-1, Rm. 2",
+        "CP": 2,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 2202,
+        "lodgingSpaces": 2
+      },
+      {
+        "key": 2202,
+        "name": "Heidel 8-1, Rm. 1",
+        "CP": 1,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 2216,
+        "name": "Serendia 2-1, 2F, Costa Farm",
+        "CP": 2,
+        "parentNode": 322,
+        "affTown": 32,
+        "needHouseKey": 2215,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 2219,
+        "name": "Heidel 9-1, 2F",
+        "CP": 1,
+        "parentNode": 301,
+        "affTown": 32,
+        "needHouseKey": 2168,
+        "lodgingSpaces": 1
       }
     ]
   },
