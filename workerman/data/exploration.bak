@@ -97,7 +97,7 @@
       "z": 39304.9
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -277,7 +277,7 @@
       "z": 28577.5
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Nutmeg",
     "is_main": 0,
     "has_lodging": false,
@@ -608,7 +608,7 @@
     },
     "kind": 1,
     "CP": 0,
-    "name": "Arehaza",
+    "name": "Arehaza Town",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
@@ -642,7 +642,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "23": {
     "key": 23,
@@ -712,7 +712,7 @@
       "z": -172745.0
     },
     "kind": 7,
-    "CP": 1,
+    "CP": 3,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -787,7 +787,7 @@
       "z": 330263.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Teff",
     "is_main": 0,
     "has_lodging": false,
@@ -818,7 +818,7 @@
     },
     "kind": 9,
     "CP": 1,
-    "name": "Abandoned Iron Mine Rhutum District",
+    "name": "Abdn. Iron Mine Rhutum Dt.",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -897,7 +897,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1029": {
     "key": 1029,
@@ -972,7 +972,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1030": {
     "key": 1030,
@@ -1077,7 +1077,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "950": {
     "key": 950,
@@ -1152,7 +1152,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1375": {
     "key": 1375,
@@ -1212,7 +1212,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1743": {
     "key": 1743,
@@ -1287,7 +1287,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "437": {
     "key": 437,
@@ -1313,7 +1313,7 @@
     },
     "kind": 15,
     "CP": 3,
-    "name": "Chiro's Figurehead Workshop",
+    "name": "Chiro's Prow Statue Workshop",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -1478,7 +1478,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "Sherekhan Iron Mine",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -1523,7 +1523,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "Snowstorm Guard Post",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -1917,7 +1917,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "139": {
     "key": 139,
@@ -2918,7 +2918,7 @@
     },
     "kind": 15,
     "CP": 3,
-    "name": "Excavation",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -3113,7 +3113,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "Southern Swamp",
+    "name": "Southern Cienaga",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -3173,7 +3173,7 @@
     },
     "kind": 5,
     "CP": 2,
-    "name": "Northern Swamp",
+    "name": "Northern Cienaga",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -3218,7 +3218,7 @@
     },
     "kind": 0,
     "CP": 2,
-    "name": "Zvier Highlands",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -3277,7 +3277,7 @@
       "z": -429092.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Farming",
     "is_main": 0,
     "has_lodging": false,
@@ -3552,7 +3552,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "409": {
     "key": 409,
@@ -4437,7 +4437,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1546": {
     "key": 1546,
@@ -4482,7 +4482,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1534": {
     "key": 1534,
@@ -4492,7 +4492,7 @@
       "z": 224206.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Pistachio",
     "is_main": 0,
     "has_lodging": false,
@@ -4512,7 +4512,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1604": {
     "key": 1604,
@@ -4557,7 +4557,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1606": {
     "key": 1606,
@@ -4602,7 +4602,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1434": {
     "key": 1434,
@@ -4632,7 +4632,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "621": {
     "key": 621,
@@ -5032,7 +5032,7 @@
       "z": 370351.0
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -5783,7 +5783,7 @@
     },
     "kind": 9,
     "CP": 1,
-    "name": "Calpheon Castle Western Forest",
+    "name": "Calpheon Castle W. Forest",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -5828,7 +5828,7 @@
     },
     "kind": 6,
     "CP": 2,
-    "name": "Gathering",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -5918,7 +5918,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "Jade Starlight Forest",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -6232,7 +6232,7 @@
       "z": -12844.2
     },
     "kind": 7,
-    "CP": 2,
+    "CP": 3,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -6562,7 +6562,7 @@
       "z": 410879.0
     },
     "kind": 15,
-    "CP": 2,
+    "CP": 5,
     "name": "Excavation",
     "is_main": 0,
     "has_lodging": false,
@@ -6687,7 +6687,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1149": {
     "key": 1149,
@@ -6717,7 +6717,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1638": {
     "key": 1638,
@@ -6747,7 +6747,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "915": {
     "key": 915,
@@ -6762,7 +6762,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
+    "is_plantzone": false
   },
   "1540": {
     "key": 1540,
@@ -6772,7 +6772,7 @@
       "z": 180897.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Teff",
     "is_main": 0,
     "has_lodging": false,
@@ -7823,7 +7823,7 @@
     },
     "kind": 9,
     "CP": 1,
-    "name": "Soldiers' Cemetery",
+    "name": "Soldier's Grave",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8033,7 +8033,7 @@
     },
     "kind": 9,
     "CP": 1,
-    "name": "Abandoned Iron Mine Saunil District",
+    "name": "Abdn. Iron Mine Saunil Dt.",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8227,7 +8227,7 @@
       "z": -122692.0
     },
     "kind": 7,
-    "CP": 1,
+    "CP": 3,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -8242,7 +8242,7 @@
       "z": 75655.2
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -8272,7 +8272,7 @@
       "z": 25634.9
     },
     "kind": 7,
-    "CP": 2,
+    "CP": 3,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -8302,7 +8302,7 @@
       "z": 27182.3
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -8572,7 +8572,7 @@
       "z": 41616.7
     },
     "kind": 9,
-    "CP": 2,
+    "CP": 4,
     "name": "Basilisk Den",
     "is_main": 1,
     "has_lodging": false,
@@ -8648,7 +8648,7 @@
     },
     "kind": 9,
     "CP": 1,
-    "name": "Gahaz Bandits' Lair",
+    "name": "Gahaz Bandit's Lair",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8752,7 +8752,7 @@
       "z": -110341.0
     },
     "kind": 5,
-    "CP": 2,
+    "CP": 5,
     "name": "Aakman",
     "is_main": 1,
     "has_lodging": false,
@@ -8992,7 +8992,7 @@
       "z": 415735.0
     },
     "kind": 0,
-    "CP": 2,
+    "CP": 5,
     "name": "Derko Island",
     "is_main": 1,
     "has_lodging": false,
@@ -9007,7 +9007,7 @@
       "z": -392450.0
     },
     "kind": 7,
-    "CP": 3,
+    "CP": 5,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -9037,7 +9037,7 @@
       "z": -224821.0
     },
     "kind": 8,
-    "CP": 3,
+    "CP": 5,
     "name": "Lumbering",
     "is_main": 0,
     "has_lodging": false,
@@ -9112,7 +9112,7 @@
       "z": -301268.0
     },
     "kind": 15,
-    "CP": 2,
+    "CP": 3,
     "name": "Excavation",
     "is_main": 0,
     "has_lodging": false,
@@ -9203,7 +9203,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "Derelict Trade Post",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -9263,7 +9263,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "Charbonneau Villa",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -9323,7 +9323,7 @@
     },
     "kind": 6,
     "CP": 2,
-    "name": "Gathering",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -9397,8 +9397,8 @@
       "z": -494690.0
     },
     "kind": 7,
-    "CP": 2,
-    "name": "Mining",
+    "CP": 5,
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -9652,7 +9652,7 @@
       "z": 222054.0
     },
     "kind": 14,
-    "CP": 1,
+    "CP": 3,
     "name": "Silk Culture",
     "is_main": 0,
     "has_lodging": false,
@@ -10013,7 +10013,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "Wind Nol's Perch",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -10222,7 +10222,7 @@
       "z": -82160.0
     },
     "kind": 7,
-    "CP": 1,
+    "CP": 3,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -10282,7 +10282,7 @@
       "z": 109279.0
     },
     "kind": 7,
-    "CP": 1,
+    "CP": 3,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -10297,7 +10297,7 @@
       "z": 404513.0
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -10357,7 +10357,7 @@
       "z": 361030.0
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -10372,7 +10372,7 @@
       "z": -114888.0
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -10402,7 +10402,7 @@
       "z": -199362.0
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -10417,7 +10417,7 @@
       "z": -167420.0
     },
     "kind": 7,
-    "CP": 1,
+    "CP": 3,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -10447,7 +10447,7 @@
       "z": -161613.0
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -10462,7 +10462,7 @@
       "z": -172166.0
     },
     "kind": 6,
-    "CP": 1,
+    "CP": 3,
     "name": "Gathering",
     "is_main": 0,
     "has_lodging": false,
@@ -10507,7 +10507,7 @@
       "z": 26605.3
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Teff",
     "is_main": 0,
     "has_lodging": false,
@@ -10522,7 +10522,7 @@
       "z": 286691.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Fig",
     "is_main": 0,
     "has_lodging": false,
@@ -10537,7 +10537,7 @@
       "z": 280271.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Fig",
     "is_main": 0,
     "has_lodging": false,
@@ -10552,7 +10552,7 @@
       "z": 278040.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Star Anise",
     "is_main": 0,
     "has_lodging": false,
@@ -10582,7 +10582,7 @@
       "z": 334191.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Teff",
     "is_main": 0,
     "has_lodging": false,
@@ -10597,7 +10597,7 @@
       "z": 217973.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Date Palm",
     "is_main": 0,
     "has_lodging": false,
@@ -10612,7 +10612,7 @@
       "z": 198557.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Pistachio",
     "is_main": 0,
     "has_lodging": false,
@@ -10627,7 +10627,7 @@
       "z": 201023.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Date Palm",
     "is_main": 0,
     "has_lodging": false,
@@ -10642,7 +10642,7 @@
       "z": 190395.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Freekeh",
     "is_main": 0,
     "has_lodging": false,
@@ -10657,7 +10657,7 @@
       "z": 181912.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Teff",
     "is_main": 0,
     "has_lodging": false,
@@ -11437,7 +11437,7 @@
       "z": -421166.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Farming",
     "is_main": 0,
     "has_lodging": false,
@@ -11452,7 +11452,7 @@
       "z": -399958.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Farming",
     "is_main": 0,
     "has_lodging": false,
@@ -11467,7 +11467,7 @@
       "z": -395923.0
     },
     "kind": 4,
-    "CP": 1,
+    "CP": 3,
     "name": "Farming",
     "is_main": 0,
     "has_lodging": false,
@@ -11512,7 +11512,7 @@
       "z": -379596.0
     },
     "kind": 7,
-    "CP": 3,
+    "CP": 5,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -11527,7 +11527,7 @@
       "z": -423421.0
     },
     "kind": 7,
-    "CP": 3,
+    "CP": 5,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -11542,7 +11542,7 @@
       "z": -418018.0
     },
     "kind": 7,
-    "CP": 3,
+    "CP": 5,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -11557,7 +11557,7 @@
       "z": -222245.0
     },
     "kind": 8,
-    "CP": 3,
+    "CP": 5,
     "name": "Lumbering",
     "is_main": 0,
     "has_lodging": false,
@@ -11572,7 +11572,7 @@
       "z": -211543.0
     },
     "kind": 8,
-    "CP": 3,
+    "CP": 5,
     "name": "Lumbering",
     "is_main": 0,
     "has_lodging": false,
@@ -11587,7 +11587,7 @@
       "z": -205575.0
     },
     "kind": 8,
-    "CP": 3,
+    "CP": 5,
     "name": "Lumbering",
     "is_main": 0,
     "has_lodging": false,
@@ -11602,7 +11602,7 @@
       "z": -360678.0
     },
     "kind": 15,
-    "CP": 2,
+    "CP": 3,
     "name": "Excavation",
     "is_main": 0,
     "has_lodging": false,
@@ -11798,7 +11798,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "UnKnown",
+    "name": "Black Mountains",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -11842,7 +11842,7 @@
       "z": -521000.0
     },
     "kind": 15,
-    "CP": 3,
+    "CP": 5,
     "name": "Excavation",
     "is_main": 0,
     "has_lodging": false,
@@ -11857,7 +11857,7 @@
       "z": -515349.0
     },
     "kind": 7,
-    "CP": 3,
+    "CP": 5,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -11872,7 +11872,7 @@
       "z": -529284.0
     },
     "kind": 7,
-    "CP": 2,
+    "CP": 5,
     "name": "Mining",
     "is_main": 0,
     "has_lodging": false,
@@ -11947,7 +11947,7 @@
       "z": -455994.0
     },
     "kind": 15,
-    "CP": 2,
+    "CP": 3,
     "name": "Excavation",
     "is_main": 0,
     "has_lodging": false,
@@ -12098,7 +12098,7 @@
     },
     "kind": 0,
     "CP": 0,
-    "name": "Unknown",
+    "name": "Pit of the Undying",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12128,7 +12128,7 @@
     },
     "kind": 0,
     "CP": 2,
-    "name": "Awina's Tail",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12143,7 +12143,7 @@
     },
     "kind": 0,
     "CP": 2,
-    "name": "Erethea's Belt",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12158,7 +12158,7 @@
     },
     "kind": 2,
     "CP": 0,
-    "name": "Eilton",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
@@ -12173,7 +12173,7 @@
     },
     "kind": 0,
     "CP": 2,
-    "name": "Maslan's Yulas Citron Orchard",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12188,7 +12188,7 @@
     },
     "kind": 0,
     "CP": 2,
-    "name": "Mountain of Eternal Winter",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12203,7 +12203,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "Bronte's Bolt",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12218,7 +12218,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "Mountain Top Guard Post",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12233,7 +12233,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "Tori Woods",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12248,7 +12248,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "Shrine of Silent Prayers",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12263,7 +12263,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "Camp Balacs",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
@@ -12278,7 +12278,7 @@
     },
     "kind": 0,
     "CP": 2,
-    "name": "Pilgrim's End",
+    "name": "<no translation>",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12292,8 +12292,8 @@
       "z": -506317.0
     },
     "kind": 7,
-    "CP": 2,
-    "name": "Mining",
+    "CP": 5,
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -12308,7 +12308,7 @@
     },
     "kind": 7,
     "CP": 1,
-    "name": "Mining",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -12323,7 +12323,7 @@
     },
     "kind": 15,
     "CP": 3,
-    "name": "Excavation",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -12338,7 +12338,7 @@
     },
     "kind": 8,
     "CP": 2,
-    "name": "Lumbering",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -12353,7 +12353,7 @@
     },
     "kind": 6,
     "CP": 2,
-    "name": "Gathering",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -12368,7 +12368,7 @@
     },
     "kind": 6,
     "CP": 2,
-    "name": "Gathering",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -12383,7 +12383,7 @@
     },
     "kind": 15,
     "CP": 3,
-    "name": "Excavation",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -12398,7 +12398,7 @@
     },
     "kind": 8,
     "CP": 2,
-    "name": "Lumbering",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -12413,7 +12413,7 @@
     },
     "kind": 14,
     "CP": 1,
-    "name": "Honey Production",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -12428,7 +12428,7 @@
     },
     "kind": 8,
     "CP": 2,
-    "name": "Lumbering",
+    "name": "<no translation>",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
