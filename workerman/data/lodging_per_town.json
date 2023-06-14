@@ -5,9 +5,76 @@
       "name": "Old Wisdom Tree",
       "has_lodging": false,
       "is_accessible": 1,
-      "regiongroup": 151
+      "regiongroup": 151,
+      "waypoint": 1604
     },
     "houses": []
+  },
+  "1219": {
+    "region": {
+      "key": 1219,
+      "name": "Nampo's Moodle Village",
+      "has_lodging": true,
+      "is_accessible": 1,
+      "regiongroup": 118,
+      "waypoint": 1785
+    },
+    "houses": [
+      {
+        "key": 3823,
+        "name": "Morning Light Nampo 1",
+        "CP": 1,
+        "parentNode": 1785,
+        "affTown": 1219,
+        "needHouseKey": 0,
+        "lodgingSpaces": 2
+      },
+      {
+        "key": 3824,
+        "name": "Morning Light Nampo 2",
+        "CP": 1,
+        "parentNode": 1785,
+        "affTown": 1219,
+        "needHouseKey": 0,
+        "lodgingSpaces": 4
+      },
+      {
+        "key": 3825,
+        "name": "Morning Light Nampo 3",
+        "CP": 1,
+        "parentNode": 1785,
+        "affTown": 1219,
+        "needHouseKey": 0,
+        "lodgingSpaces": 4
+      },
+      {
+        "key": 3826,
+        "name": "Morning Light Nampo 4",
+        "CP": 1,
+        "parentNode": 1785,
+        "affTown": 1219,
+        "needHouseKey": 0,
+        "lodgingSpaces": 4
+      },
+      {
+        "key": 3843,
+        "name": "Solbaram Neowa House",
+        "CP": 2,
+        "parentNode": 1785,
+        "affTown": 1219,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 3844,
+        "name": "Solbaram Neowa House",
+        "CP": 3,
+        "parentNode": 1785,
+        "affTown": 1219,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      }
+    ]
   },
   "1124": {
     "region": {
@@ -15,7 +82,8 @@
       "name": "Eilton",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 76
+      "regiongroup": 76,
+      "waypoint": 1750
     },
     "houses": [
       {
@@ -65,13 +133,182 @@
       }
     ]
   },
+  "1210": {
+    "region": {
+      "key": 1210,
+      "name": "Dalbeol Village",
+      "has_lodging": true,
+      "is_accessible": 1,
+      "regiongroup": 114,
+      "waypoint": 1781
+    },
+    "houses": [
+      {
+        "key": 3827,
+        "name": "Morning Light Dalbeol 1",
+        "CP": 1,
+        "parentNode": 1781,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 2
+      },
+      {
+        "key": 3828,
+        "name": "Morning Light Dalbeol 2",
+        "CP": 1,
+        "parentNode": 1781,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 2
+      },
+      {
+        "key": 3829,
+        "name": "Morning Light Dalbeol 3",
+        "CP": 1,
+        "parentNode": 1781,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 3830,
+        "name": "Morning Light Dalbeol 4",
+        "CP": 1,
+        "parentNode": 1781,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 3831,
+        "name": "Morning Light Dalbeol 5",
+        "CP": 1,
+        "parentNode": 1781,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 3837,
+        "name": "Dokkebi Jar",
+        "CP": 1,
+        "parentNode": 1788,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 4
+      },
+      {
+        "key": 3838,
+        "name": "Dokkebi Jar",
+        "CP": 1,
+        "parentNode": 1788,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 2
+      },
+      {
+        "key": 3839,
+        "name": "Dokkebi Jar",
+        "CP": 1,
+        "parentNode": 1788,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 3840,
+        "name": "Dokkebi Jar",
+        "CP": 1,
+        "parentNode": 1788,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 3841,
+        "name": "Shimhyangje",
+        "CP": 2,
+        "parentNode": 1781,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 3842,
+        "name": "Shimhyangje",
+        "CP": 3,
+        "parentNode": 1781,
+        "affTown": 1210,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      }
+    ]
+  },
+  "1246": {
+    "region": {
+      "key": 1246,
+      "name": "Nopsae's Byeot County",
+      "has_lodging": true,
+      "is_accessible": 1,
+      "regiongroup": 128,
+      "waypoint": 1795
+    },
+    "houses": [
+      {
+        "key": 3832,
+        "name": "Morning Light Nopsae 1",
+        "CP": 1,
+        "parentNode": 1795,
+        "affTown": 1246,
+        "needHouseKey": 0,
+        "lodgingSpaces": 4
+      },
+      {
+        "key": 3833,
+        "name": "Morning Light Nopsae 2",
+        "CP": 1,
+        "parentNode": 1795,
+        "affTown": 1246,
+        "needHouseKey": 0,
+        "lodgingSpaces": 2
+      },
+      {
+        "key": 3834,
+        "name": "Morning Light Nopsae 3",
+        "CP": 1,
+        "parentNode": 1795,
+        "affTown": 1246,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 3835,
+        "name": "Morning Light Nopsae 4",
+        "CP": 1,
+        "parentNode": 1795,
+        "affTown": 1246,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      },
+      {
+        "key": 3836,
+        "name": "Morning Light Nopsae 5",
+        "CP": 1,
+        "parentNode": 1795,
+        "affTown": 1246,
+        "needHouseKey": 0,
+        "lodgingSpaces": 1
+      }
+    ]
+  },
   "955": {
     "region": {
       "key": 955,
       "name": "O'draxxia",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 241
+      "regiongroup": 241,
+      "waypoint": 1691
     },
     "houses": [
       {
@@ -127,7 +364,8 @@
       "name": "Duvencrune",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 222
+      "regiongroup": 222,
+      "waypoint": 1649
     },
     "houses": [
       {
@@ -174,7 +412,8 @@
       "name": "Sand Grain Bazaar",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 205
+      "regiongroup": 205,
+      "waypoint": 1319
     },
     "houses": [
       {
@@ -230,7 +469,8 @@
       "name": "Shakatu",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 204
+      "regiongroup": 204,
+      "waypoint": 1314
     },
     "houses": [
       {
@@ -295,7 +535,8 @@
       "name": "Ancado Inner Harbor",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 202
+      "regiongroup": 202,
+      "waypoint": 1343
     },
     "houses": [
       {
@@ -324,7 +565,8 @@
       "name": "Valencia City",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 202
+      "regiongroup": 202,
+      "waypoint": 1301
     },
     "houses": [
       {
@@ -605,7 +847,8 @@
       "name": "Gr\u00e1na",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 154
+      "regiongroup": 154,
+      "waypoint": 1623
     },
     "houses": [
       {
@@ -643,7 +886,8 @@
       "name": "Arehaza",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 212
+      "regiongroup": 212,
+      "waypoint": 1380
     },
     "houses": [
       {
@@ -672,7 +916,8 @@
       "name": "Calpheon City",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 31
+      "regiongroup": 31,
+      "waypoint": 601
     },
     "houses": [
       {
@@ -1115,7 +1360,8 @@
       "name": "Altinova",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 55
+      "regiongroup": 55,
+      "waypoint": 1101
     },
     "houses": [
       {
@@ -1216,7 +1462,8 @@
       "name": "Tarif",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 54
+      "regiongroup": 54,
+      "waypoint": 1141
     },
     "houses": [
       {
@@ -1272,7 +1519,8 @@
       "name": "Trent",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 42
+      "regiongroup": 42,
+      "waypoint": 608
     },
     "houses": [
       {
@@ -1346,7 +1594,8 @@
       "name": "Keplan",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 44
+      "regiongroup": 44,
+      "waypoint": 602
     },
     "houses": [
       {
@@ -1429,7 +1678,8 @@
       "name": "Olvia",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 61
+      "regiongroup": 61,
+      "waypoint": 61
     },
     "houses": [
       {
@@ -1512,7 +1762,8 @@
       "name": "Heidel",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 11
+      "regiongroup": 11,
+      "waypoint": 301
     },
     "houses": [
       {
@@ -1631,7 +1882,8 @@
       "name": "Glish",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 20
+      "regiongroup": 20,
+      "waypoint": 302
     },
     "houses": [
       {
@@ -1669,7 +1921,8 @@
       "name": "Velia",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 1
+      "regiongroup": 1,
+      "waypoint": 1
     },
     "houses": [
       {
@@ -1716,7 +1969,8 @@
       "name": "Iliya Island",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 9
+      "regiongroup": 9,
+      "waypoint": 1002
     },
     "houses": [
       {
@@ -1745,7 +1999,8 @@
       "name": "Port Epheria",
       "has_lodging": true,
       "is_accessible": 1,
-      "regiongroup": 37
+      "regiongroup": 37,
+      "waypoint": 604
     },
     "houses": [
       {

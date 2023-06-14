@@ -12,6 +12,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1008": {
@@ -21,12 +22,13 @@
       "y": -2527.4,
       "z": 408777.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Racid Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1053": {
@@ -42,6 +44,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1": {
@@ -57,6 +60,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "66": {
@@ -72,6 +76,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1054": {
@@ -87,6 +92,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1509": {
@@ -102,6 +108,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "2": {
@@ -117,6 +124,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1207": {
@@ -132,6 +140,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "131": {
@@ -147,6 +156,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1143": {
@@ -162,6 +172,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "67": {
@@ -177,6 +188,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "910": {
@@ -192,6 +204,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1079": {
@@ -207,6 +220,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "3": {
@@ -222,6 +236,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1192": {
@@ -237,6 +252,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "132": {
@@ -252,6 +268,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "451": {
@@ -267,6 +284,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1527": {
@@ -282,6 +300,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "68": {
@@ -297,6 +316,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1064": {
@@ -312,6 +332,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "4": {
@@ -327,6 +348,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1081": {
@@ -342,6 +364,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "21": {
@@ -357,21 +380,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": false
-  },
-  "133": {
-    "key": 133,
-    "pos": {
-      "x": 12903.4,
-      "y": -5207.93,
-      "z": 64447.4
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Ossuary",
-    "is_main": 1,
-    "has_lodging": false,
-    "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1314": {
@@ -387,6 +396,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1193": {
@@ -402,6 +412,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "69": {
@@ -417,6 +428,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1012": {
@@ -432,6 +444,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1065": {
@@ -447,6 +460,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "5": {
@@ -462,6 +476,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1082": {
@@ -477,6 +492,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1409": {
@@ -492,6 +508,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "22": {
@@ -501,12 +518,13 @@
       "y": -4476.81,
       "z": 80100.9
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Finto Farm",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1194": {
@@ -522,22 +540,8 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
-  },
-  "134": {
-    "key": 134,
-    "pos": {
-      "x": 13261.8,
-      "y": -4946.81,
-      "z": 66210.6
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Ossuary",
-    "is_main": 1,
-    "has_lodging": false,
-    "is_planttown": true,
-    "is_plantzone": false
   },
   "1521": {
     "key": 1521,
@@ -552,6 +556,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "70": {
@@ -567,6 +572,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1066": {
@@ -576,12 +582,13 @@
       "y": -4709.68,
       "z": 115769.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Theonil Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "6": {
@@ -597,6 +604,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1380": {
@@ -612,6 +620,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "151": {
@@ -627,6 +636,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "914": {
@@ -642,6 +652,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "23": {
@@ -657,6 +668,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "152": {
@@ -672,6 +684,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "487": {
@@ -687,6 +700,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1140": {
@@ -702,6 +716,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1523": {
@@ -717,6 +732,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "24": {
@@ -732,6 +748,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1141": {
@@ -747,6 +764,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "25": {
@@ -762,6 +780,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "904": {
@@ -777,6 +796,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1533": {
@@ -792,6 +812,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "26": {
@@ -801,12 +822,13 @@
       "y": -4321.23,
       "z": 76679.2
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Loggia Farm",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1167": {
@@ -822,6 +844,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "155": {
@@ -837,6 +860,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1039": {
@@ -852,6 +876,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "27": {
@@ -861,12 +886,13 @@
       "y": -3513.68,
       "z": 47496.2
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Marino Farm",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1093": {
@@ -882,6 +908,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "105": {
@@ -897,6 +924,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1029": {
@@ -912,6 +940,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "41": {
@@ -927,6 +956,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "856": {
@@ -942,6 +972,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1094": {
@@ -957,6 +988,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "106": {
@@ -972,6 +1004,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1030": {
@@ -987,6 +1020,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1421": {
@@ -1002,6 +1036,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "42": {
@@ -1017,6 +1052,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "171": {
@@ -1032,6 +1068,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1014": {
@@ -1047,6 +1084,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1055": {
@@ -1062,6 +1100,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "107": {
@@ -1077,6 +1116,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "950": {
@@ -1092,6 +1132,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "43": {
@@ -1107,6 +1148,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1040": {
@@ -1122,14 +1164,15 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1439": {
     "key": 1439,
     "pos": {
-      "x": -1191710.0,
+      "x": -1172390.0,
       "y": -8150.0,
-      "z": 1093300.0
+      "z": 967917.0
     },
     "kind": 0,
     "CP": 0,
@@ -1137,6 +1180,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "108": {
@@ -1152,6 +1196,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1375": {
@@ -1167,6 +1212,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "44": {
@@ -1176,12 +1222,13 @@
       "y": -3814.08,
       "z": 46568.1
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Balenos Forest",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1041": {
@@ -1197,6 +1244,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "109": {
@@ -1212,6 +1260,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1743": {
@@ -1227,6 +1276,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "45": {
@@ -1236,12 +1286,13 @@
       "y": -3017.58,
       "z": 28481.4
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Toscani Farm",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1042": {
@@ -1257,6 +1308,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1433": {
@@ -1272,6 +1324,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "110": {
@@ -1287,6 +1340,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "437": {
@@ -1302,6 +1356,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1736": {
@@ -1317,6 +1372,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1369": {
@@ -1332,6 +1388,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "46": {
@@ -1347,6 +1404,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1083": {
@@ -1362,6 +1420,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "47": {
@@ -1377,6 +1436,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1036": {
@@ -1392,6 +1452,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1419": {
@@ -1407,6 +1468,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "48": {
@@ -1422,6 +1484,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1037": {
@@ -1437,6 +1500,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "49": {
@@ -1452,6 +1516,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1057": {
@@ -1467,6 +1532,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1759": {
@@ -1482,6 +1548,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "61": {
@@ -1497,6 +1564,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1058": {
@@ -1512,6 +1580,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1752": {
@@ -1527,14 +1596,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1449": {
     "key": 1449,
     "pos": {
-      "x": -1259220.0,
+      "x": -1056870.0,
       "y": -8150.0,
-      "z": 1403140.0
+      "z": 1506020.0
     },
     "kind": 0,
     "CP": 0,
@@ -1542,6 +1612,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "62": {
@@ -1557,6 +1628,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "954": {
@@ -1572,6 +1644,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1035": {
@@ -1587,6 +1660,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "63": {
@@ -1602,6 +1676,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "463": {
@@ -1617,6 +1692,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "64": {
@@ -1632,6 +1708,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1171": {
@@ -1647,6 +1724,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "135": {
@@ -1662,22 +1740,8 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
-  },
-  "962": {
-    "key": 962,
-    "pos": {
-      "x": -233795.0,
-      "y": -3636.43,
-      "z": -47991.6
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Calpheon Market Trade Zone",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": true,
-    "is_plantzone": false
   },
   "71": {
     "key": 71,
@@ -1692,6 +1756,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "136": {
@@ -1707,6 +1772,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "471": {
@@ -1722,6 +1788,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "72": {
@@ -1737,6 +1804,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1034": {
@@ -1752,6 +1820,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1425": {
@@ -1767,6 +1836,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "102": {
@@ -1782,6 +1852,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "167": {
@@ -1797,6 +1868,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1332": {
@@ -1812,6 +1884,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1203": {
@@ -1827,6 +1900,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1139": {
@@ -1842,6 +1916,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "103": {
@@ -1857,7 +1932,24 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
+  },
+  "1813": {
+    "key": 1813,
+    "pos": {
+      "x": -1070500.0,
+      "y": -5407.79,
+      "z": 1124060.0
+    },
+    "kind": 8,
+    "CP": 1,
+    "name": "Lumbering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
   },
   "1156": {
     "key": 1156,
@@ -1872,6 +1964,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "168": {
@@ -1887,6 +1980,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1092": {
@@ -1902,6 +1996,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "104": {
@@ -1917,6 +2012,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "139": {
@@ -1932,6 +2028,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1328": {
@@ -1947,6 +2044,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1215": {
@@ -1962,6 +2060,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1202": {
@@ -1977,6 +2076,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "142": {
@@ -1992,6 +2092,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "144": {
@@ -2007,6 +2108,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "147": {
@@ -2022,6 +2124,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1336": {
@@ -2037,6 +2140,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1159": {
@@ -2052,6 +2156,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1208": {
@@ -2067,6 +2172,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "148": {
@@ -2082,6 +2188,23 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1809": {
+    "key": 1809,
+    "pos": {
+      "x": -1143350.0,
+      "y": -952.743,
+      "z": 1152630.0
+    },
+    "kind": 15,
+    "CP": 1,
+    "name": "Excavation",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1152": {
@@ -2097,6 +2220,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "156": {
@@ -2112,6 +2236,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1388": {
@@ -2127,6 +2252,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "159": {
@@ -2142,6 +2268,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1212": {
@@ -2157,6 +2284,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "160": {
@@ -2172,6 +2300,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1096": {
@@ -2187,6 +2316,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "164": {
@@ -2202,6 +2332,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1503": {
@@ -2217,6 +2348,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "172": {
@@ -2232,6 +2364,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "175": {
@@ -2247,6 +2380,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1340": {
@@ -2262,6 +2396,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1211": {
@@ -2277,6 +2412,23 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1821": {
+    "key": 1821,
+    "pos": {
+      "x": -1202700.0,
+      "y": 26928.4,
+      "z": 1385620.0
+    },
+    "kind": 8,
+    "CP": 1,
+    "name": "Lumbering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1164": {
@@ -2292,6 +2444,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "176": {
@@ -2307,6 +2460,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "308": {
@@ -2322,6 +2476,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1191": {
@@ -2337,6 +2492,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "179": {
@@ -2352,6 +2508,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1155": {
@@ -2367,6 +2524,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "183": {
@@ -2382,6 +2540,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1172": {
@@ -2397,6 +2556,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "184": {
@@ -2412,6 +2572,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "187": {
@@ -2427,6 +2588,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1312": {
@@ -2436,12 +2598,13 @@
       "y": 738.631,
       "z": 176016.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Deserted City of Runn",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1199": {
@@ -2457,6 +2620,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "188": {
@@ -2472,6 +2636,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "322": {
@@ -2481,12 +2646,13 @@
       "y": -1319.24,
       "z": -62420.7
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Costa Farm",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1374": {
@@ -2502,6 +2668,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "201": {
@@ -2517,6 +2684,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "202": {
@@ -2532,6 +2700,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1392": {
@@ -2547,6 +2716,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "203": {
@@ -2562,6 +2732,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "204": {
@@ -2577,6 +2748,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "326": {
@@ -2592,6 +2764,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "205": {
@@ -2607,6 +2780,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "301": {
@@ -2622,6 +2796,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "604": {
@@ -2637,6 +2812,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "302": {
@@ -2652,6 +2828,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1339": {
@@ -2667,6 +2844,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1670": {
@@ -2682,6 +2860,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "303": {
@@ -2697,6 +2876,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "304": {
@@ -2712,6 +2892,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1163": {
@@ -2727,6 +2908,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "305": {
@@ -2742,6 +2924,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "672": {
@@ -2757,6 +2940,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "306": {
@@ -2772,6 +2956,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "702": {
@@ -2787,6 +2972,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1319": {
@@ -2802,6 +2988,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1698": {
@@ -2817,6 +3004,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "307": {
@@ -2832,6 +3020,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "309": {
@@ -2847,6 +3036,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "676": {
@@ -2856,12 +3046,13 @@
       "y": 1516.53,
       "z": -201187.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Dane Canyon",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "321": {
@@ -2877,21 +3068,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": false
-  },
-  "1399": {
-    "key": 1399,
-    "pos": {
-      "x": -1375200.0,
-      "y": -8130.92,
-      "z": 1260210.0
-    },
-    "kind": 0,
-    "CP": 3,
-    "name": "Nada Island",
-    "is_main": 1,
-    "has_lodging": false,
-    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "718": {
@@ -2907,6 +3084,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1778": {
@@ -2922,6 +3100,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "323": {
@@ -2931,12 +3110,13 @@
       "y": -1403.05,
       "z": -71092.9
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Moretti Plantation",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "324": {
@@ -2952,6 +3132,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "325": {
@@ -2967,6 +3148,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "706": {
@@ -2982,6 +3164,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "327": {
@@ -2997,6 +3180,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "328": {
@@ -3006,12 +3190,13 @@
       "y": 7572.63,
       "z": -5787.49
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Lynch Ranch",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "341": {
@@ -3027,6 +3212,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "708": {
@@ -3042,6 +3228,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "343": {
@@ -3057,6 +3244,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1060": {
@@ -3072,14 +3260,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1443": {
     "key": 1443,
     "pos": {
-      "x": -1386660.0,
+      "x": -1458810.0,
       "y": -8150.0,
-      "z": 1108780.0
+      "z": 1013400.0
     },
     "kind": 0,
     "CP": 0,
@@ -3087,6 +3276,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "722": {
@@ -3096,12 +3286,13 @@
       "y": 7176.35,
       "z": -146278.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Phoniel's Cabin",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "344": {
@@ -3117,6 +3308,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "345": {
@@ -3132,6 +3324,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "712": {
@@ -3141,12 +3334,13 @@
       "y": -1532.39,
       "z": -70783.3
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Gabino Farm",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1070": {
@@ -3162,6 +3356,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "346": {
@@ -3171,12 +3366,13 @@
       "y": -3034.68,
       "z": -71397.6
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Northern Swamp",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1738": {
@@ -3192,6 +3388,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "347": {
@@ -3207,6 +3404,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1762": {
@@ -3222,6 +3420,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "371": {
@@ -3237,6 +3436,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1304": {
@@ -3252,6 +3452,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "372": {
@@ -3267,6 +3468,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1672": {
@@ -3282,6 +3484,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1305": {
@@ -3297,6 +3500,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "373": {
@@ -3312,6 +3516,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1306": {
@@ -3327,6 +3532,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "374": {
@@ -3342,6 +3548,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1347": {
@@ -3357,6 +3564,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1742": {
@@ -3372,6 +3580,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "375": {
@@ -3387,6 +3596,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1364": {
@@ -3402,6 +3612,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "376": {
@@ -3417,6 +3628,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "401": {
@@ -3432,6 +3644,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1635": {
@@ -3447,6 +3660,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "402": {
@@ -3462,6 +3676,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "405": {
@@ -3477,6 +3692,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1074": {
@@ -3492,6 +3708,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "406": {
@@ -3507,6 +3724,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "407": {
@@ -3522,6 +3740,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "408": {
@@ -3537,6 +3756,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "617": {
@@ -3552,6 +3772,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "409": {
@@ -3567,6 +3788,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1134": {
@@ -3582,21 +3804,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": false
-  },
-  "1643": {
-    "key": 1643,
-    "pos": {
-      "x": -492854.0,
-      "y": 7747.91,
-      "z": -466693.0
-    },
-    "kind": 10,
-    "CP": 0,
-    "name": "Investment Bank",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "410": {
@@ -3612,6 +3820,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "431": {
@@ -3627,6 +3836,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1084": {
@@ -3642,6 +3852,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "432": {
@@ -3657,6 +3868,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "435": {
@@ -3672,6 +3884,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "436": {
@@ -3687,6 +3900,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "438": {
@@ -3702,6 +3916,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "439": {
@@ -3717,6 +3932,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1028": {
@@ -3732,6 +3948,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "440": {
@@ -3747,6 +3964,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "441": {
@@ -3762,6 +3980,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1038": {
@@ -3777,6 +3996,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "443": {
@@ -3792,6 +4012,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1056": {
@@ -3801,12 +4022,13 @@
       "y": -4645.65,
       "z": 172260.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Albresser Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "452": {
@@ -3822,6 +4044,23 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1829": {
+    "key": 1829,
+    "pos": {
+      "x": -1006000.0,
+      "y": -5663.17,
+      "z": 1294740.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "455": {
@@ -3837,6 +4076,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "459": {
@@ -3852,6 +4092,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1136": {
@@ -3867,6 +4108,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "464": {
@@ -3882,6 +4124,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "673": {
@@ -3891,12 +4134,13 @@
       "y": 1311.96,
       "z": -113886.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Quarry Byway",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "473": {
@@ -3912,6 +4156,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1198": {
@@ -3927,6 +4172,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "472": {
@@ -3942,6 +4188,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "475": {
@@ -3957,6 +4204,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1088": {
@@ -3972,6 +4220,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1617": {
@@ -3987,21 +4236,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": true,
-    "is_plantzone": false
-  },
-  "806": {
-    "key": 806,
-    "pos": {
-      "x": -170719.0,
-      "y": 5052.39,
-      "z": 55186.2
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Florin_2",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "476": {
@@ -4017,6 +4252,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "479": {
@@ -4032,6 +4268,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1196": {
@@ -4047,22 +4284,8 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
-  },
-  "801": {
-    "key": 801,
-    "pos": {
-      "x": -245616.0,
-      "y": -3060.0,
-      "z": -46745.6
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Calpheon Trade Exchange",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_plantzone": false
   },
   "480": {
     "key": 480,
@@ -4077,6 +4300,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "625": {
@@ -4092,6 +4316,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "483": {
@@ -4107,6 +4332,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1032": {
@@ -4122,6 +4348,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "484": {
@@ -4137,6 +4364,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "629": {
@@ -4152,6 +4380,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "488": {
@@ -4167,6 +4396,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "633": {
@@ -4176,12 +4406,13 @@
       "y": -2296.53,
       "z": -32908.5
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Dias Farm",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "601": {
@@ -4197,6 +4428,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "602": {
@@ -4212,6 +4444,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "603": {
@@ -4227,6 +4460,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "605": {
@@ -4242,6 +4476,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "606": {
@@ -4257,6 +4492,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "607": {
@@ -4272,6 +4508,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1660": {
@@ -4287,6 +4524,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1007": {
@@ -4302,6 +4540,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "608": {
@@ -4317,6 +4556,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "609": {
@@ -4332,6 +4572,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1662": {
@@ -4347,6 +4588,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1001": {
@@ -4362,6 +4604,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "610": {
@@ -4377,6 +4620,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1426": {
@@ -4392,6 +4636,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "611": {
@@ -4407,21 +4652,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
-  },
-  "612": {
-    "key": 612,
-    "pos": {
-      "x": -170373.0,
-      "y": 4915.05,
-      "z": 52688.7
-    },
-    "kind": 12,
-    "CP": 1,
-    "name": "Valentine Investment Bank",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "613": {
@@ -4437,6 +4668,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1546": {
@@ -4452,6 +4684,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1005": {
@@ -4467,6 +4700,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "614": {
@@ -4482,6 +4716,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1534": {
@@ -4497,6 +4732,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "615": {
@@ -4512,6 +4748,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1604": {
@@ -4527,6 +4764,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1015": {
@@ -4542,6 +4780,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "616": {
@@ -4557,6 +4796,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1606": {
@@ -4572,6 +4812,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1009": {
@@ -4581,12 +4822,13 @@
       "y": -5196.13,
       "z": 290557.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Baremi Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "618": {
@@ -4602,6 +4844,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1434": {
@@ -4617,6 +4860,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "619": {
@@ -4632,6 +4876,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "621": {
@@ -4647,6 +4892,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1554": {
@@ -4662,6 +4908,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1013": {
@@ -4677,6 +4924,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "622": {
@@ -4692,6 +4940,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "623": {
@@ -4707,6 +4956,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1612": {
@@ -4722,6 +4972,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1023": {
@@ -4737,6 +4988,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "624": {
@@ -4752,6 +5004,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1614": {
@@ -4767,6 +5020,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1017": {
@@ -4782,6 +5036,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "626": {
@@ -4797,6 +5052,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1506": {
@@ -4812,6 +5068,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "627": {
@@ -4827,6 +5084,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1560": {
@@ -4842,6 +5100,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1011": {
@@ -4851,12 +5110,13 @@
       "y": -6334.9,
       "z": 165217.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Beiruwa Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "628": {
@@ -4872,6 +5132,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1562": {
@@ -4887,6 +5148,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1021": {
@@ -4902,6 +5164,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "630": {
@@ -4911,12 +5174,13 @@
       "y": -2096.44,
       "z": -23246.2
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Contaminated Farm",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "631": {
@@ -4932,6 +5196,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1620": {
@@ -4947,6 +5212,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1317": {
@@ -4962,6 +5228,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "632": {
@@ -4977,6 +5244,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1622": {
@@ -4986,27 +5254,13 @@
       "y": -4790.85,
       "z": -413458.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 3,
     "name": "Lake Flondor",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": false
-  },
-  "961": {
-    "key": 961,
-    "pos": {
-      "x": -253879.0,
-      "y": -2558.66,
-      "z": -31157.9
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Calpheon City Trade Zone",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "634": {
@@ -5022,6 +5276,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1514": {
@@ -5037,6 +5292,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "635": {
@@ -5052,6 +5308,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1632": {
@@ -5067,6 +5324,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1019": {
@@ -5076,12 +5334,13 @@
       "y": -7479.39,
       "z": 207815.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Duch Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "636": {
@@ -5091,12 +5350,13 @@
       "y": -3787.37,
       "z": -41874.5
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Cohen Farm",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "637": {
@@ -5112,6 +5372,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "638": {
@@ -5121,12 +5382,13 @@
       "y": -2335.06,
       "z": 11949.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Bernianto Farm",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "651": {
@@ -5142,6 +5404,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "652": {
@@ -5157,6 +5420,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "653": {
@@ -5172,6 +5436,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "654": {
@@ -5187,6 +5452,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1335": {
@@ -5202,7 +5468,24 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
+  },
+  "1820": {
+    "key": 1820,
+    "pos": {
+      "x": -1102560.0,
+      "y": -7020.57,
+      "z": 1418170.0
+    },
+    "kind": 8,
+    "CP": 1,
+    "name": "Lumbering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
   },
   "655": {
     "key": 655,
@@ -5217,6 +5500,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "656": {
@@ -5232,6 +5516,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "657": {
@@ -5247,6 +5532,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1379": {
@@ -5262,6 +5548,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "658": {
@@ -5277,6 +5564,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "659": {
@@ -5292,6 +5580,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "660": {
@@ -5307,6 +5596,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "661": {
@@ -5316,12 +5606,13 @@
       "y": -2742.01,
       "z": -62634.9
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Falres Dirt Farm",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "662": {
@@ -5337,6 +5628,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1343": {
@@ -5352,6 +5644,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "663": {
@@ -5361,12 +5654,13 @@
       "y": -1220.56,
       "z": -137605.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Bain Farmland",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "664": {
@@ -5382,6 +5676,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "665": {
@@ -5391,12 +5686,13 @@
       "y": -783.542,
       "z": -112397.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Oberen Farm",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1387": {
@@ -5412,6 +5708,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "666": {
@@ -5421,12 +5718,29 @@
       "y": -67.0195,
       "z": -131749.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 3,
     "name": "Beacon Entrance Post",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1792": {
+    "key": 1792,
+    "pos": {
+      "x": -1069940.0,
+      "y": -5893.55,
+      "z": 1122840.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Bomnae County",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "667": {
@@ -5436,12 +5750,13 @@
       "y": -1083.87,
       "z": -185902.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Abandoned Quarry",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "668": {
@@ -5457,6 +5772,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "669": {
@@ -5472,6 +5788,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "670": {
@@ -5481,12 +5798,13 @@
       "y": 3188.03,
       "z": -178080.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Gianin Farm",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "671": {
@@ -5502,6 +5820,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "674": {
@@ -5517,6 +5836,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1331": {
@@ -5526,12 +5846,13 @@
       "y": 3398.56,
       "z": 196810.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 3,
     "name": "Ibellab Oasis",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "675": {
@@ -5547,6 +5868,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "677": {
@@ -5562,6 +5884,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "701": {
@@ -5577,6 +5900,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "703": {
@@ -5592,6 +5916,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "704": {
@@ -5607,6 +5932,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1062": {
@@ -5616,12 +5942,13 @@
       "y": -7187.92,
       "z": 110496.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Randis Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "705": {
@@ -5637,6 +5964,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "707": {
@@ -5646,12 +5974,13 @@
       "y": 1660.73,
       "z": -131523.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 3,
     "name": "Rhutum Sentry Post",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "709": {
@@ -5661,12 +5990,13 @@
       "y": 9619.44,
       "z": -261253.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Crioville",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1391": {
@@ -5682,6 +6012,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "710": {
@@ -5697,6 +6028,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "711": {
@@ -5712,6 +6044,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1061": {
@@ -5727,6 +6060,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "834": {
@@ -5742,6 +6076,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "713": {
@@ -5757,6 +6092,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1371": {
@@ -5766,12 +6102,13 @@
       "y": -2896.65,
       "z": 324117.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Orisha Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "714": {
@@ -5787,6 +6124,23 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1791": {
+    "key": 1791,
+    "pos": {
+      "x": -1115820.0,
+      "y": 127.689,
+      "z": 1139580.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Drybranch Village",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "844": {
@@ -5802,6 +6156,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "715": {
@@ -5811,12 +6166,13 @@
       "y": 714.427,
       "z": -123663.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Mansha Forest",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1776": {
@@ -5832,6 +6188,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1345": {
@@ -5847,6 +6204,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "716": {
@@ -5862,6 +6220,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "717": {
@@ -5871,12 +6230,13 @@
       "y": 1168.48,
       "z": -147835.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Tobare's Cabin",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "719": {
@@ -5886,12 +6246,13 @@
       "y": 13993.8,
       "z": -255672.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Longleaf Tree Sentry Post",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1069": {
@@ -5907,6 +6268,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1755": {
@@ -5922,6 +6284,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "832": {
@@ -5937,6 +6300,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "720": {
@@ -5952,6 +6316,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1078": {
@@ -5967,6 +6332,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "842": {
@@ -5982,6 +6348,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "721": {
@@ -5997,6 +6364,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1735": {
@@ -6012,6 +6380,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "852": {
@@ -6027,6 +6396,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "723": {
@@ -6042,6 +6412,23 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1784": {
+    "key": 1784,
+    "pos": {
+      "x": -1346900.0,
+      "y": 4863.8,
+      "z": 1165660.0
+    },
+    "kind": 3,
+    "CP": 1,
+    "name": "Nampo Gate",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1353": {
@@ -6057,6 +6444,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "724": {
@@ -6072,6 +6460,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "725": {
@@ -6087,6 +6476,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1407": {
@@ -6102,6 +6492,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "726": {
@@ -6117,6 +6508,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "727": {
@@ -6132,6 +6524,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1077": {
@@ -6147,6 +6540,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "840": {
@@ -6162,6 +6556,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1144": {
@@ -6177,36 +6572,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": false
-  },
-  "805": {
-    "key": 805,
-    "pos": {
-      "x": -171201.0,
-      "y": 4938.18,
-      "z": 55200.8
-    },
-    "kind": 13,
-    "CP": 1,
-    "name": "Specialties",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_plantzone": true
-  },
-  "807": {
-    "key": 807,
-    "pos": {
-      "x": -170786.0,
-      "y": 4982.85,
-      "z": 54346.6
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Florin_3",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1214": {
@@ -6222,7 +6588,24 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
+  },
+  "1797": {
+    "key": 1797,
+    "pos": {
+      "x": -1199430.0,
+      "y": 26355.5,
+      "z": 1387610.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Beombawi Valley",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
   },
   "1204": {
     "key": 1204,
@@ -6237,6 +6620,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "809": {
@@ -6252,6 +6636,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1677": {
@@ -6267,6 +6652,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "810": {
@@ -6282,6 +6668,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "831": {
@@ -6297,6 +6684,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "835": {
@@ -6312,6 +6700,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "841": {
@@ -6327,6 +6716,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "843": {
@@ -6342,6 +6732,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "849": {
@@ -6357,6 +6748,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "850": {
@@ -6372,6 +6764,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1059": {
@@ -6381,12 +6774,13 @@
       "y": -1988.7,
       "z": 213565.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Daton Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "857": {
@@ -6402,6 +6796,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "853": {
@@ -6417,6 +6812,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "854": {
@@ -6432,6 +6828,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "855": {
@@ -6447,6 +6844,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "858": {
@@ -6462,6 +6860,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1067": {
@@ -6477,6 +6876,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "901": {
@@ -6492,6 +6892,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "902": {
@@ -6507,6 +6908,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1071": {
@@ -6522,6 +6924,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1556": {
@@ -6537,6 +6940,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "903": {
@@ -6552,6 +6956,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1566": {
@@ -6567,6 +6972,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "905": {
@@ -6582,6 +6988,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "906": {
@@ -6597,6 +7004,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1051": {
@@ -6612,6 +7020,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "907": {
@@ -6627,6 +7036,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "908": {
@@ -6642,6 +7052,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "909": {
@@ -6657,6 +7068,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1564": {
@@ -6672,6 +7084,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "911": {
@@ -6687,6 +7100,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1149": {
@@ -6696,12 +7110,13 @@
       "y": -5625.74,
       "z": -15730.9
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Omar Lava Cave",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "912": {
@@ -6717,6 +7132,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1638": {
@@ -6732,6 +7148,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "913": {
@@ -6747,6 +7164,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "915": {
@@ -6762,6 +7180,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1540": {
@@ -6777,6 +7196,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "951": {
@@ -6792,6 +7212,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "952": {
@@ -6807,6 +7228,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1550": {
@@ -6822,6 +7244,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "953": {
@@ -6837,6 +7260,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "955": {
@@ -6852,6 +7276,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1073": {
@@ -6867,6 +7292,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "956": {
@@ -6882,6 +7308,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "957": {
@@ -6897,6 +7324,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "958": {
@@ -6912,6 +7340,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1063": {
@@ -6927,6 +7356,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1548": {
@@ -6942,6 +7372,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "959": {
@@ -6957,6 +7388,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "960": {
@@ -6972,6 +7404,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1318": {
@@ -6987,6 +7420,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1197": {
@@ -7002,6 +7436,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1640": {
@@ -7017,22 +7452,8 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
-  },
-  "963": {
-    "key": 963,
-    "pos": {
-      "x": -248898.0,
-      "y": -1829.99,
-      "z": -76170.3
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Calpheon Holy College Trade Zone",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": true,
-    "is_plantzone": false
   },
   "1145": {
     "key": 1145,
@@ -7047,6 +7468,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "964": {
@@ -7062,6 +7484,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1002": {
@@ -7077,6 +7500,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1147": {
@@ -7092,6 +7516,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1552": {
@@ -7107,6 +7532,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1003": {
@@ -7116,12 +7542,13 @@
       "y": -6358.02,
       "z": 191862.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Pilava Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1004": {
@@ -7137,6 +7564,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1006": {
@@ -7152,6 +7580,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1047": {
@@ -7167,6 +7596,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1010": {
@@ -7182,6 +7612,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1091": {
@@ -7197,6 +7628,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1189": {
@@ -7212,6 +7644,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1016": {
@@ -7227,6 +7660,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1018": {
@@ -7236,12 +7670,13 @@
       "y": -6213.56,
       "z": 181358.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Luivano Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1099": {
@@ -7257,6 +7692,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1137": {
@@ -7272,6 +7708,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1020": {
@@ -7287,6 +7724,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1022": {
@@ -7302,6 +7740,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1024": {
@@ -7317,6 +7756,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1026": {
@@ -7332,6 +7772,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1027": {
@@ -7347,6 +7788,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1031": {
@@ -7362,6 +7804,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1033": {
@@ -7377,6 +7820,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1043": {
@@ -7392,6 +7836,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1044": {
@@ -7407,6 +7852,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1045": {
@@ -7422,6 +7868,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1046": {
@@ -7437,6 +7884,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1048": {
@@ -7452,21 +7900,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": true
-  },
-  "1049": {
-    "key": 1049,
-    "pos": {
-      "x": -49145.3,
-      "y": -8150.0,
-      "z": 376699.0
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Fish Drying Yard",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1050": {
@@ -7482,6 +7916,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1052": {
@@ -7491,12 +7926,13 @@
       "y": -4464.43,
       "z": 234473.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Louruve Island",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1068": {
@@ -7512,6 +7948,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1072": {
@@ -7527,6 +7964,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1075": {
@@ -7542,6 +7980,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1076": {
@@ -7557,6 +7996,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1080": {
@@ -7572,6 +8012,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1085": {
@@ -7587,6 +8028,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1086": {
@@ -7602,6 +8044,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1087": {
@@ -7617,6 +8060,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1089": {
@@ -7632,6 +8076,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1090": {
@@ -7647,6 +8092,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1095": {
@@ -7662,6 +8108,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1097": {
@@ -7677,6 +8124,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1098": {
@@ -7692,6 +8140,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1100": {
@@ -7707,6 +8156,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1101": {
@@ -7722,6 +8172,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1131": {
@@ -7737,6 +8188,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1132": {
@@ -7752,6 +8204,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1133": {
@@ -7767,6 +8220,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1135": {
@@ -7782,6 +8236,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1138": {
@@ -7797,6 +8252,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1146": {
@@ -7812,6 +8268,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1148": {
@@ -7823,10 +8280,11 @@
     },
     "kind": 9,
     "CP": 1,
-    "name": "Soldiers' Cemetery",
+    "name": "Soldier's Cemetery",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1150": {
@@ -7842,6 +8300,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1151": {
@@ -7857,6 +8316,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1338": {
@@ -7872,6 +8332,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1153": {
@@ -7887,6 +8348,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1154": {
@@ -7902,6 +8364,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1342": {
@@ -7917,6 +8380,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1157": {
@@ -7932,6 +8396,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1158": {
@@ -7947,7 +8412,24 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
+  },
+  "1817": {
+    "key": 1817,
+    "pos": {
+      "x": -1084960.0,
+      "y": 22336.1,
+      "z": 1239460.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
   },
   "1160": {
     "key": 1160,
@@ -7956,12 +8438,13 @@
       "y": -272.65,
       "z": 23967.5
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Shuri Farm",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1161": {
@@ -7971,12 +8454,13 @@
       "y": -1441.83,
       "z": -77109.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Kasula Farm",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1162": {
@@ -7992,6 +8476,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1165": {
@@ -8001,12 +8486,13 @@
       "y": -6733.04,
       "z": -172636.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 1,
     "name": "Splashing Point",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1166": {
@@ -8022,6 +8508,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1168": {
@@ -8037,6 +8524,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1169": {
@@ -8052,6 +8540,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1170": {
@@ -8067,6 +8556,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1190": {
@@ -8082,6 +8572,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1324": {
@@ -8097,6 +8588,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1195": {
@@ -8112,7 +8604,24 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
+  },
+  "1793": {
+    "key": 1793,
+    "pos": {
+      "x": -1084290.0,
+      "y": 11247.5,
+      "z": 1198410.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Honglim Base",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
   },
   "1200": {
     "key": 1200,
@@ -8127,6 +8636,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1322": {
@@ -8142,6 +8652,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1201": {
@@ -8157,6 +8668,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1326": {
@@ -8172,6 +8684,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1205": {
@@ -8187,6 +8700,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1206": {
@@ -8202,6 +8716,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1330": {
@@ -8217,6 +8732,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1209": {
@@ -8232,6 +8748,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1210": {
@@ -8247,6 +8764,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1334": {
@@ -8262,6 +8780,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1213": {
@@ -8277,6 +8796,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1216": {
@@ -8292,6 +8812,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1217": {
@@ -8307,6 +8828,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1218": {
@@ -8322,6 +8844,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1219": {
@@ -8337,6 +8860,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1220": {
@@ -8352,6 +8876,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1221": {
@@ -8367,6 +8892,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1668": {
@@ -8382,6 +8908,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1301": {
@@ -8397,6 +8924,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1302": {
@@ -8412,6 +8940,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1303": {
@@ -8427,6 +8956,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1307": {
@@ -8442,6 +8972,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1308": {
@@ -8457,6 +8988,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1676": {
@@ -8472,6 +9004,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1309": {
@@ -8487,6 +9020,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1310": {
@@ -8502,6 +9036,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1311": {
@@ -8517,6 +9052,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1616": {
@@ -8532,6 +9068,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1313": {
@@ -8547,6 +9084,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1315": {
@@ -8562,6 +9100,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1316": {
@@ -8577,6 +9116,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1624": {
@@ -8592,6 +9132,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1321": {
@@ -8607,6 +9148,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1628": {
@@ -8622,6 +9164,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1325": {
@@ -8637,6 +9180,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1327": {
@@ -8652,6 +9196,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1696": {
@@ -8667,6 +9212,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1329": {
@@ -8682,6 +9228,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1700": {
@@ -8697,6 +9244,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1333": {
@@ -8712,6 +9260,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1704": {
@@ -8727,6 +9276,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1337": {
@@ -8742,6 +9292,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1344": {
@@ -8751,12 +9302,13 @@
       "y": 5502.69,
       "z": -110341.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Aakman",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1346": {
@@ -8772,6 +9324,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1350": {
@@ -8787,6 +9340,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1351": {
@@ -8802,6 +9356,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1352": {
@@ -8817,6 +9372,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1354": {
@@ -8832,6 +9388,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1355": {
@@ -8847,6 +9404,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1356": {
@@ -8862,6 +9420,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1365": {
@@ -8877,6 +9436,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1366": {
@@ -8892,6 +9452,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1367": {
@@ -8907,6 +9468,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1368": {
@@ -8922,6 +9484,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1370": {
@@ -8937,6 +9500,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1372": {
@@ -8952,6 +9516,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1740": {
@@ -8967,6 +9532,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1373": {
@@ -8982,6 +9548,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1376": {
@@ -8997,6 +9564,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1680": {
@@ -9012,6 +9580,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1377": {
@@ -9027,6 +9596,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1684": {
@@ -9042,6 +9612,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1381": {
@@ -9057,6 +9628,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1382": {
@@ -9072,6 +9644,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1383": {
@@ -9087,6 +9660,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1384": {
@@ -9102,6 +9676,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1688": {
@@ -9117,6 +9692,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1385": {
@@ -9132,6 +9708,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1648": {
@@ -9147,6 +9724,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1692": {
@@ -9162,6 +9740,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1389": {
@@ -9177,6 +9756,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1390": {
@@ -9192,6 +9772,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1760": {
@@ -9207,6 +9788,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1393": {
@@ -9222,6 +9804,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1394": {
@@ -9237,66 +9820,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
-    "is_plantzone": false
-  },
-  "1395": {
-    "key": 1395,
-    "pos": {
-      "x": -1269650.0,
-      "y": -8150.0,
-      "z": 1516410.0
-    },
-    "kind": 1,
-    "CP": 0,
-    "name": "Port Ratt",
-    "is_main": 1,
-    "has_lodging": false,
-    "is_planttown": true,
-    "is_plantzone": false
-  },
-  "1764": {
-    "key": 1764,
-    "pos": {
-      "x": 94034.1,
-      "y": 24293.0,
-      "z": -403331.0
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Charbonneau Villa",
-    "is_main": 1,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_plantzone": false
-  },
-  "1397": {
-    "key": 1397,
-    "pos": {
-      "x": -1280590.0,
-      "y": -6622.67,
-      "z": 1256340.0
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Zagam Island",
-    "is_main": 1,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_plantzone": false
-  },
-  "1398": {
-    "key": 1398,
-    "pos": {
-      "x": -1319380.0,
-      "y": -3734.62,
-      "z": 1341970.0
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "Mariul Island",
-    "is_main": 1,
-    "has_lodging": false,
-    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1400": {
@@ -9312,6 +9836,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1768": {
@@ -9327,6 +9852,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1401": {
@@ -9342,6 +9868,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1402": {
@@ -9357,6 +9884,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1403": {
@@ -9372,6 +9900,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1404": {
@@ -9387,6 +9916,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1772": {
@@ -9402,6 +9932,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1405": {
@@ -9417,6 +9948,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1406": {
@@ -9432,6 +9964,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1553": {
@@ -9447,6 +9980,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1408": {
@@ -9462,6 +9996,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1410": {
@@ -9477,6 +10012,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1411": {
@@ -9492,6 +10028,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1557": {
@@ -9507,6 +10044,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1412": {
@@ -9522,6 +10060,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1413": {
@@ -9537,6 +10076,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1414": {
@@ -9552,6 +10092,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1415": {
@@ -9567,6 +10108,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1561": {
@@ -9582,6 +10124,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1416": {
@@ -9597,6 +10140,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1417": {
@@ -9612,6 +10156,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1418": {
@@ -9627,6 +10172,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1452": {
@@ -9642,6 +10188,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1565": {
@@ -9657,6 +10204,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1420": {
@@ -9672,6 +10220,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1422": {
@@ -9687,6 +10236,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1423": {
@@ -9702,6 +10252,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1633": {
@@ -9717,6 +10268,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1424": {
@@ -9732,6 +10284,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1427": {
@@ -9747,6 +10300,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1637": {
@@ -9762,6 +10316,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1428": {
@@ -9777,6 +10332,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1429": {
@@ -9792,14 +10348,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1430": {
     "key": 1430,
     "pos": {
-      "x": -1074870.0,
-      "y": -7696.43,
-      "z": 959175.0
+      "x": -1025060.0,
+      "y": -8150.0,
+      "z": 897476.0
     },
     "kind": 0,
     "CP": 0,
@@ -9807,14 +10364,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1431": {
     "key": 1431,
     "pos": {
-      "x": -895150.0,
-      "y": -7697.84,
-      "z": 1087400.0
+      "x": -866210.0,
+      "y": -8150.0,
+      "z": 1044800.0
     },
     "kind": 0,
     "CP": 0,
@@ -9822,6 +10380,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1641": {
@@ -9837,6 +10396,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1432": {
@@ -9852,6 +10412,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1435": {
@@ -9867,6 +10428,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1645": {
@@ -9882,6 +10444,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1436": {
@@ -9897,14 +10460,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1437": {
     "key": 1437,
     "pos": {
-      "x": -831191.0,
-      "y": -7520.08,
-      "z": 1344160.0
+      "x": -797279.0,
+      "y": -8150.0,
+      "z": 1317240.0
     },
     "kind": 0,
     "CP": 0,
@@ -9912,14 +10476,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1438": {
     "key": 1438,
     "pos": {
-      "x": -1024140.0,
-      "y": -7706.19,
-      "z": 1202790.0
+      "x": -944380.0,
+      "y": -8150.0,
+      "z": 1117870.0
     },
     "kind": 0,
     "CP": 0,
@@ -9927,14 +10492,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1440": {
     "key": 1440,
     "pos": {
-      "x": -1360930.0,
+      "x": -1273330.0,
       "y": -8150.0,
-      "z": 975268.0
+      "z": 933392.0
     },
     "kind": 0,
     "CP": 0,
@@ -9942,6 +10508,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1744": {
@@ -9957,6 +10524,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1441": {
@@ -9972,6 +10540,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1442": {
@@ -9987,14 +10556,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1444": {
     "key": 1444,
     "pos": {
-      "x": -1250650.0,
+      "x": -914792.0,
       "y": -8150.0,
-      "z": 1192270.0
+      "z": 1429670.0
     },
     "kind": 0,
     "CP": 0,
@@ -10002,6 +10572,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1748": {
@@ -10017,14 +10588,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1445": {
     "key": 1445,
     "pos": {
-      "x": -1124920.0,
+      "x": -917473.0,
       "y": -8150.0,
-      "z": 1318870.0
+      "z": 1521750.0
     },
     "kind": 0,
     "CP": 0,
@@ -10032,14 +10604,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1446": {
     "key": 1446,
     "pos": {
-      "x": -998167.0,
+      "x": -758248.0,
       "y": -8150.0,
-      "z": 1433780.0
+      "z": 1564030.0
     },
     "kind": 0,
     "CP": 0,
@@ -10047,14 +10620,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1447": {
     "key": 1447,
     "pos": {
-      "x": -831728.0,
+      "x": -673038.0,
       "y": -8150.0,
-      "z": 1561200.0
+      "z": 1651290.0
     },
     "kind": 0,
     "CP": 0,
@@ -10062,14 +10636,15 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1448": {
     "key": 1448,
     "pos": {
-      "x": -664916.0,
+      "x": -582609.0,
       "y": -8150.0,
-      "z": 1653990.0
+      "z": 1696590.0
     },
     "kind": 0,
     "CP": 0,
@@ -10077,37 +10652,8 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
-  },
-  "1450": {
-    "key": 1450,
-    "pos": {
-      "x": -1372510.0,
-      "y": -8150.0,
-      "z": 1276460.0
-    },
-    "kind": 11,
-    "CP": 2,
-    "name": "Fish Drying Yard 1",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_plantzone": true
-  },
-  "1451": {
-    "key": 1451,
-    "pos": {
-      "x": -1367730.0,
-      "y": -8150.0,
-      "z": 1269770.0
-    },
-    "kind": 11,
-    "CP": 2,
-    "name": "Fish Drying Yard 2",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_plantzone": true
   },
   "1501": {
     "key": 1501,
@@ -10122,6 +10668,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1502": {
@@ -10137,6 +10684,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1649": {
@@ -10152,6 +10700,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1504": {
@@ -10167,6 +10716,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1505": {
@@ -10182,6 +10732,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1507": {
@@ -10197,6 +10748,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1653": {
@@ -10212,6 +10764,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1508": {
@@ -10227,6 +10780,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1510": {
@@ -10242,6 +10796,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1657": {
@@ -10257,6 +10812,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1512": {
@@ -10272,6 +10828,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1513": {
@@ -10287,6 +10844,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1515": {
@@ -10302,6 +10860,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1661": {
@@ -10317,6 +10876,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1516": {
@@ -10332,6 +10892,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1517": {
@@ -10347,6 +10908,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1518": {
@@ -10362,6 +10924,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1519": {
@@ -10377,6 +10940,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1601": {
@@ -10392,6 +10956,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1520": {
@@ -10407,6 +10972,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1522": {
@@ -10422,6 +10988,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1605": {
@@ -10437,6 +11004,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1524": {
@@ -10452,6 +11020,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1525": {
@@ -10467,6 +11036,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1526": {
@@ -10482,6 +11052,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1609": {
@@ -10497,6 +11068,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1528": {
@@ -10512,6 +11084,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1529": {
@@ -10527,6 +11100,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1530": {
@@ -10542,6 +11116,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1531": {
@@ -10557,6 +11132,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1613": {
@@ -10572,6 +11148,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1532": {
@@ -10587,6 +11164,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1535": {
@@ -10602,6 +11180,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1536": {
@@ -10617,6 +11196,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1537": {
@@ -10632,6 +11212,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1538": {
@@ -10647,6 +11228,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1539": {
@@ -10662,6 +11244,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1541": {
@@ -10677,6 +11260,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1542": {
@@ -10692,6 +11276,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1543": {
@@ -10707,6 +11292,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1544": {
@@ -10722,6 +11308,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1545": {
@@ -10737,6 +11324,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1547": {
@@ -10752,6 +11340,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1549": {
@@ -10767,6 +11356,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1551": {
@@ -10782,6 +11372,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1555": {
@@ -10797,6 +11388,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1558": {
@@ -10812,6 +11404,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1559": {
@@ -10827,6 +11420,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1563": {
@@ -10842,6 +11436,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1600": {
@@ -10857,6 +11452,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1602": {
@@ -10872,6 +11468,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1603": {
@@ -10887,6 +11484,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1607": {
@@ -10902,6 +11500,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1608": {
@@ -10917,6 +11516,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1610": {
@@ -10926,12 +11526,13 @@
       "y": 26385.1,
       "z": -312312.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Viv Foretta Hamlet",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1611": {
@@ -10947,6 +11548,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1615": {
@@ -10962,6 +11564,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1618": {
@@ -10977,6 +11580,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1619": {
@@ -10992,6 +11596,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1621": {
@@ -11007,6 +11612,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1623": {
@@ -11022,6 +11628,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1625": {
@@ -11037,6 +11644,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1626": {
@@ -11052,6 +11660,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1627": {
@@ -11067,6 +11676,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1629": {
@@ -11082,6 +11692,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1630": {
@@ -11097,6 +11708,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1631": {
@@ -11112,6 +11724,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1634": {
@@ -11127,6 +11740,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1636": {
@@ -11142,6 +11756,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1639": {
@@ -11157,6 +11772,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1642": {
@@ -11172,22 +11788,8 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
-  },
-  "1644": {
-    "key": 1644,
-    "pos": {
-      "x": -503910.0,
-      "y": 5456.62,
-      "z": -431959.0
-    },
-    "kind": 10,
-    "CP": 0,
-    "name": "Investment Bank",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_plantzone": false
   },
   "1646": {
     "key": 1646,
@@ -11202,6 +11804,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1647": {
@@ -11217,6 +11820,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1650": {
@@ -11232,6 +11836,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1651": {
@@ -11247,6 +11852,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1652": {
@@ -11262,6 +11868,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1654": {
@@ -11277,6 +11884,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1655": {
@@ -11292,6 +11900,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1656": {
@@ -11307,6 +11916,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1658": {
@@ -11322,6 +11932,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1659": {
@@ -11337,6 +11948,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1663": {
@@ -11352,6 +11964,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1664": {
@@ -11367,6 +11980,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1665": {
@@ -11382,6 +11996,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1666": {
@@ -11391,12 +12006,13 @@
       "y": 11127.1,
       "z": -209077.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Khimut Lumber Camp",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1667": {
@@ -11412,6 +12028,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1669": {
@@ -11427,6 +12044,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1671": {
@@ -11442,6 +12060,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1673": {
@@ -11457,6 +12076,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1674": {
@@ -11472,6 +12092,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1675": {
@@ -11487,6 +12108,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1678": {
@@ -11502,6 +12124,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1679": {
@@ -11517,6 +12140,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1681": {
@@ -11532,6 +12156,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1682": {
@@ -11547,6 +12172,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1683": {
@@ -11562,6 +12188,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1685": {
@@ -11577,6 +12204,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1686": {
@@ -11592,6 +12220,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1687": {
@@ -11607,6 +12236,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1689": {
@@ -11622,6 +12252,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1690": {
@@ -11637,6 +12268,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1691": {
@@ -11652,6 +12284,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1693": {
@@ -11667,6 +12300,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1694": {
@@ -11682,6 +12316,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1695": {
@@ -11697,6 +12332,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1697": {
@@ -11712,6 +12348,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1699": {
@@ -11727,6 +12364,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1701": {
@@ -11742,6 +12380,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1702": {
@@ -11757,6 +12396,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1703": {
@@ -11772,6 +12412,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1705": {
@@ -11787,6 +12428,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1706": {
@@ -11802,6 +12444,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1707": {
@@ -11817,6 +12460,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1708": {
@@ -11832,6 +12476,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1709": {
@@ -11847,6 +12492,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1710": {
@@ -11862,6 +12508,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1711": {
@@ -11877,6 +12524,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1712": {
@@ -11892,6 +12540,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1713": {
@@ -11907,6 +12556,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1714": {
@@ -11922,6 +12572,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1715": {
@@ -11937,6 +12588,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1716": {
@@ -11952,6 +12604,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1717": {
@@ -11967,6 +12620,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1718": {
@@ -11982,6 +12636,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1719": {
@@ -11997,6 +12652,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1720": {
@@ -12012,21 +12668,23 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1727": {
     "key": 1727,
     "pos": {
-      "x": -86344.1,
-      "y": -7285.57,
-      "z": 624816.0
+      "x": -87425.0,
+      "y": -6783.45,
+      "z": 626563.0
     },
-    "kind": 0,
+    "kind": 2,
     "CP": 0,
     "name": "Oquilla's Eye",
     "is_main": 1,
     "has_lodging": false,
-    "is_planttown": false,
+    "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1734": {
@@ -12042,6 +12700,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1737": {
@@ -12057,6 +12716,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1739": {
@@ -12066,12 +12726,13 @@
       "y": -8125.33,
       "z": -185590.0
     },
-    "kind": 5,
+    "kind": 0,
     "CP": 2,
     "name": "Papua Crinea",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1741": {
@@ -12087,6 +12748,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1745": {
@@ -12098,10 +12760,11 @@
     },
     "kind": 0,
     "CP": 0,
-    "name": "Unknown",
+    "name": "Pit of the Undying",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1746": {
@@ -12117,6 +12780,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1747": {
@@ -12132,6 +12796,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1749": {
@@ -12147,6 +12812,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1750": {
@@ -12162,6 +12828,7 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1751": {
@@ -12177,6 +12844,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1753": {
@@ -12192,6 +12860,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1754": {
@@ -12207,6 +12876,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1756": {
@@ -12222,6 +12892,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1757": {
@@ -12237,6 +12908,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1761": {
@@ -12252,6 +12924,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1763": {
@@ -12267,6 +12940,23 @@
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1764": {
+    "key": 1764,
+    "pos": {
+      "x": 94034.1,
+      "y": 24293.0,
+      "z": -403331.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Charbonneau Villa",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1766": {
@@ -12282,6 +12972,7 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": false
   },
   "1767": {
@@ -12297,6 +12988,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1769": {
@@ -12312,6 +13004,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1770": {
@@ -12327,6 +13020,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1771": {
@@ -12342,6 +13036,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1773": {
@@ -12357,6 +13052,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1774": {
@@ -12372,6 +13068,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1775": {
@@ -12387,6 +13084,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1777": {
@@ -12402,6 +13100,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1779": {
@@ -12417,6 +13116,7 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
   },
   "1780": {
@@ -12432,6 +13132,551 @@
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
     "is_plantzone": true
+  },
+  "1781": {
+    "key": 1781,
+    "pos": {
+      "x": -1129940.0,
+      "y": 12854.0,
+      "z": 1272350.0
+    },
+    "kind": 1,
+    "CP": 0,
+    "name": "Dalbeol Village",
+    "is_main": 1,
+    "has_lodging": true,
+    "is_planttown": true,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1782": {
+    "key": 1782,
+    "pos": {
+      "x": -1324280.0,
+      "y": 14768.4,
+      "z": 1242690.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Hanji County",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1783": {
+    "key": 1783,
+    "pos": {
+      "x": -1296750.0,
+      "y": -2275.23,
+      "z": 1176650.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Shimnidae Forest",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1785": {
+    "key": 1785,
+    "pos": {
+      "x": -1312270.0,
+      "y": -7894.92,
+      "z": 1136060.0
+    },
+    "kind": 2,
+    "CP": 0,
+    "name": "Nampo's Moodle Village",
+    "is_main": 1,
+    "has_lodging": true,
+    "is_planttown": true,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1786": {
+    "key": 1786,
+    "pos": {
+      "x": -1253520.0,
+      "y": -3978.47,
+      "z": 1183370.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Solgaji Forest",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1787": {
+    "key": 1787,
+    "pos": {
+      "x": -1207910.0,
+      "y": 3402.64,
+      "z": 1148260.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Cheongsan Institute",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1788": {
+    "key": 1788,
+    "pos": {
+      "x": -1215750.0,
+      "y": 6823.65,
+      "z": 1258110.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Dokkebi Forest",
+    "is_main": 1,
+    "has_lodging": true,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1789": {
+    "key": 1789,
+    "pos": {
+      "x": -1148250.0,
+      "y": -1919.29,
+      "z": 1152180.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Golden Pig Cave",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1790": {
+    "key": 1790,
+    "pos": {
+      "x": -1162750.0,
+      "y": 18854.2,
+      "z": 1190940.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Gowun Plateau",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1794": {
+    "key": 1794,
+    "pos": {
+      "x": -1077990.0,
+      "y": 22259.8,
+      "z": 1240560.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Yeowoo Pass",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1795": {
+    "key": 1795,
+    "pos": {
+      "x": -1031140.0,
+      "y": -3281.28,
+      "z": 1298580.0
+    },
+    "kind": 1,
+    "CP": 0,
+    "name": "Nopsae's Byeot County",
+    "is_main": 1,
+    "has_lodging": true,
+    "is_planttown": true,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1796": {
+    "key": 1796,
+    "pos": {
+      "x": -1105830.0,
+      "y": -6933.33,
+      "z": 1421990.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Bari Forest",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1798": {
+    "key": 1798,
+    "pos": {
+      "x": -1229820.0,
+      "y": 15194.9,
+      "z": 1444380.0
+    },
+    "kind": 3,
+    "CP": 1,
+    "name": "Beombawi Gate",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1799": {
+    "key": 1799,
+    "pos": {
+      "x": -1384770.0,
+      "y": -2975.9,
+      "z": 1006880.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Haemo Island",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1800": {
+    "key": 1800,
+    "pos": {
+      "x": -1229970.0,
+      "y": 3509.08,
+      "z": 1073860.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "Byukgye Island",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1803": {
+    "key": 1803,
+    "pos": {
+      "x": -1244770.0,
+      "y": -2198.53,
+      "z": 1181790.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1807": {
+    "key": 1807,
+    "pos": {
+      "x": -1217180.0,
+      "y": 6866.49,
+      "z": 1260100.0
+    },
+    "kind": 15,
+    "CP": 1,
+    "name": "Excavation",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1808": {
+    "key": 1808,
+    "pos": {
+      "x": -1217380.0,
+      "y": 4955.69,
+      "z": 1248360.0
+    },
+    "kind": 15,
+    "CP": 1,
+    "name": "Excavation",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1811": {
+    "key": 1811,
+    "pos": {
+      "x": -1164240.0,
+      "y": 19020.7,
+      "z": 1193780.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1812": {
+    "key": 1812,
+    "pos": {
+      "x": -1160130.0,
+      "y": 18687.2,
+      "z": 1190220.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1814": {
+    "key": 1814,
+    "pos": {
+      "x": -1065190.0,
+      "y": -6489.76,
+      "z": 1122260.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1815": {
+    "key": 1815,
+    "pos": {
+      "x": -1085110.0,
+      "y": 12346.3,
+      "z": 1201270.0
+    },
+    "kind": 8,
+    "CP": 1,
+    "name": "Lumbering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1816": {
+    "key": 1816,
+    "pos": {
+      "x": -1082560.0,
+      "y": 10874.8,
+      "z": 1195180.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1818": {
+    "key": 1818,
+    "pos": {
+      "x": -1075410.0,
+      "y": 22757.3,
+      "z": 1237370.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1819": {
+    "key": 1819,
+    "pos": {
+      "x": -1109500.0,
+      "y": -5564.56,
+      "z": 1427000.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1822": {
+    "key": 1822,
+    "pos": {
+      "x": -1194070.0,
+      "y": 24962.8,
+      "z": 1383800.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1823": {
+    "key": 1823,
+    "pos": {
+      "x": -1391420.0,
+      "y": -5013.37,
+      "z": 1008200.0
+    },
+    "kind": 15,
+    "CP": 1,
+    "name": "Excavation",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1824": {
+    "key": 1824,
+    "pos": {
+      "x": -1317030.0,
+      "y": 14605.0,
+      "z": 1247080.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1825": {
+    "key": 1825,
+    "pos": {
+      "x": -1325270.0,
+      "y": 14793.2,
+      "z": 1239910.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "Gathering",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1826": {
+    "key": 1826,
+    "pos": {
+      "x": -1020120.0,
+      "y": -5500.15,
+      "z": 1285580.0
+    },
+    "kind": 4,
+    "CP": 1,
+    "name": "Farming",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1827": {
+    "key": 1827,
+    "pos": {
+      "x": -1022980.0,
+      "y": -3877.94,
+      "z": 1300130.0
+    },
+    "kind": 4,
+    "CP": 1,
+    "name": "Farming",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1828": {
+    "key": 1828,
+    "pos": {
+      "x": -1020000.0,
+      "y": -4095.3,
+      "z": 1301300.0
+    },
+    "kind": 4,
+    "CP": 1,
+    "name": "Farming",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1830": {
+    "key": 1830,
+    "pos": {
+      "x": -1195450.0,
+      "y": 24447.3,
+      "z": 1391560.0
+    },
+    "kind": 15,
+    "CP": 1,
+    "name": "Excavation",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "1831": {
+    "key": 1831,
+    "pos": {
+      "x": -48835.6,
+      "y": -7579.59,
+      "z": 75968.2
+    },
+    "kind": 15,
+    "CP": 1,
+    "name": "UnKnown",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
   }
 }

@@ -1,4 +1,20 @@
 {
+  "3823": {
+    "key": 3823,
+    "name": "Morning Light Nampo 1",
+    "CP": 1,
+    "parentNode": 1785,
+    "affTown": 1219,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 2,
+      "3": 2,
+      "2007": 2,
+      "2009": 1,
+      "2010": 2
+    }
+  },
   "3822": {
     "key": 3822,
     "name": "Camp Balacs 2",
@@ -91,7 +107,228 @@
     "CraftList": {
       "2": 5,
       "1407": 1,
+      "1409": 3,
       "0": 1
+    }
+  },
+  "3839": {
+    "key": 3839,
+    "name": "Dokkebi Jar",
+    "CP": 1,
+    "parentNode": 1788,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 3,
+      "1": 1
+    }
+  },
+  "3838": {
+    "key": 3838,
+    "name": "Dokkebi Jar",
+    "CP": 1,
+    "parentNode": 1788,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 2,
+      "2002": 1
+    }
+  },
+  "3837": {
+    "key": 3837,
+    "name": "Dokkebi Jar",
+    "CP": 1,
+    "parentNode": 1788,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 3
+    }
+  },
+  "3836": {
+    "key": 3836,
+    "name": "Morning Light Nopsae 5",
+    "CP": 1,
+    "parentNode": 1795,
+    "affTown": 1246,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 1,
+      "2008": 1,
+      "2009": 1
+    }
+  },
+  "3835": {
+    "key": 3835,
+    "name": "Morning Light Nopsae 4",
+    "CP": 1,
+    "parentNode": 1795,
+    "affTown": 1246,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 3,
+      "1": 1,
+      "2004": 2,
+      "2009": 1,
+      "2010": 1
+    }
+  },
+  "3834": {
+    "key": 3834,
+    "name": "Morning Light Nopsae 3",
+    "CP": 1,
+    "parentNode": 1795,
+    "affTown": 1246,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 1,
+      "2009": 1
+    }
+  },
+  "3833": {
+    "key": 3833,
+    "name": "Morning Light Nopsae 2",
+    "CP": 1,
+    "parentNode": 1795,
+    "affTown": 1246,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 2,
+      "3": 2,
+      "2009": 1
+    }
+  },
+  "3832": {
+    "key": 3832,
+    "name": "Morning Light Nopsae 1",
+    "CP": 1,
+    "parentNode": 1795,
+    "affTown": 1246,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 3,
+      "2007": 2,
+      "2009": 1,
+      "2010": 1
+    }
+  },
+  "3831": {
+    "key": 3831,
+    "name": "Morning Light Dalbeol 5",
+    "CP": 1,
+    "parentNode": 1781,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 4,
+      "1": 1,
+      "2003": 3,
+      "2009": 1
+    }
+  },
+  "3830": {
+    "key": 3830,
+    "name": "Morning Light Dalbeol 4",
+    "CP": 1,
+    "parentNode": 1781,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 1,
+      "2009": 1
+    }
+  },
+  "3829": {
+    "key": 3829,
+    "name": "Morning Light Dalbeol 3",
+    "CP": 1,
+    "parentNode": 1781,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 3,
+      "1": 1,
+      "2007": 2,
+      "2009": 1
+    }
+  },
+  "3828": {
+    "key": 3828,
+    "name": "Morning Light Dalbeol 2",
+    "CP": 1,
+    "parentNode": 1781,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 2,
+      "3": 1,
+      "2009": 1
+    }
+  },
+  "3827": {
+    "key": 3827,
+    "name": "Morning Light Dalbeol 1",
+    "CP": 1,
+    "parentNode": 1781,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 2,
+      "2009": 1
+    }
+  },
+  "3826": {
+    "key": 3826,
+    "name": "Morning Light Nampo 4",
+    "CP": 1,
+    "parentNode": 1785,
+    "affTown": 1219,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 3,
+      "1": 3,
+      "2003": 3,
+      "2009": 1,
+      "2011": 1
+    }
+  },
+  "3825": {
+    "key": 3825,
+    "name": "Morning Light Nampo 3",
+    "CP": 1,
+    "parentNode": 1785,
+    "affTown": 1219,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 4,
+      "1": 3,
+      "2008": 1,
+      "2009": 1,
+      "2010": 1
+    }
+  },
+  "3824": {
+    "key": 3824,
+    "name": "Morning Light Nampo 2",
+    "CP": 1,
+    "parentNode": 1785,
+    "affTown": 1219,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 3,
+      "2004": 2,
+      "2009": 1
     }
   },
   "3805": {
@@ -433,6 +670,70 @@
       "2": 5,
       "3": 5,
       "0": 1
+    }
+  },
+  "3844": {
+    "key": 3844,
+    "name": "Solbaram Neowa House",
+    "CP": 3,
+    "parentNode": 1785,
+    "affTown": 1219,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3843": {
+    "key": 3843,
+    "name": "Solbaram Neowa House",
+    "CP": 2,
+    "parentNode": 1785,
+    "affTown": 1219,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3842": {
+    "key": 3842,
+    "name": "Shimhyangje",
+    "CP": 3,
+    "parentNode": 1781,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3841": {
+    "key": 3841,
+    "name": "Shimhyangje",
+    "CP": 2,
+    "parentNode": 1781,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 1,
+      "1": 1,
+      "0": 1
+    }
+  },
+  "3840": {
+    "key": 3840,
+    "name": "Dokkebi Jar",
+    "CP": 1,
+    "parentNode": 1788,
+    "affTown": 1210,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "1": 1
     }
   },
   "3310": {
@@ -1290,6 +1591,7 @@
     "CraftList": {
       "2": 1,
       "1": 1,
+      "1412": 3,
       "0": 1
     }
   },
@@ -1732,6 +2034,7 @@
       "1426": 1,
       "1427": 1,
       "1406": 4,
+      "1408": 3,
       "0": 1
     }
   },
@@ -3514,6 +3817,7 @@
       "2": 2,
       "1301": 1,
       "1404": 2,
+      "1410": 3,
       "0": 1
     }
   },
@@ -6371,6 +6675,7 @@
     "needHouseKey": 0,
     "CraftList": {
       "2": 1,
+      "1411": 3,
       "1551": 1,
       "0": 1
     }
@@ -7319,6 +7624,7 @@
     "CraftList": {
       "2": 1,
       "17": 1,
+      "1414": 3,
       "0": 1
     }
   },
@@ -9989,6 +10295,7 @@
     "CraftList": {
       "2": 1,
       "1": 1,
+      "1413": 3,
       "0": 1
     }
   },

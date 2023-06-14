@@ -14,6 +14,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -25,7 +26,12 @@
           8933
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41064,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 69,
     "parent": 1763
@@ -45,6 +51,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -57,7 +64,12 @@
           5550
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40111,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 65,
     "parent": 1766
@@ -77,6 +89,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -89,7 +102,12 @@
           5548
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40111,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 65,
     "parent": 1766
@@ -109,6 +127,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -120,7 +139,12 @@
           4414
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 79,
     "parent": 1755
@@ -140,6 +164,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -152,7 +177,16 @@
           5024
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 79,
     "parent": 1755
@@ -172,6 +206,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -184,7 +219,12 @@
           4015
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41064,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 68,
     "parent": 1759
@@ -204,6 +244,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -215,7 +256,12 @@
           4207
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 68,
     "parent": 1759
@@ -235,6 +281,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -246,7 +293,12 @@
           7360
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40111,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 82,
     "parent": 1751
@@ -266,6 +318,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -278,7 +331,12 @@
           9071
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 78,
     "parent": 1753
@@ -298,6 +356,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -310,7 +369,16 @@
           5024
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 72,
     "parent": 1748
@@ -330,6 +398,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -341,7 +410,12 @@
           7702
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 42063,
+        "drops": [
+          7702
+        ]
+      }
     },
     "regiongroup": 74,
     "parent": 1762
@@ -361,6 +435,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -373,7 +448,12 @@
           4015
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41114,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 74,
     "parent": 1762
@@ -393,6 +473,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -405,7 +486,16 @@
           5007
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 80,
     "parent": 1756
@@ -425,6 +515,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -436,7 +527,12 @@
           5532
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40111,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 81,
     "parent": 1757
@@ -456,6 +552,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -469,7 +566,12 @@
           4001
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41112,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 110,
     "parent": 1100
@@ -489,6 +591,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -502,7 +605,12 @@
           4001
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41112,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 110,
     "parent": 1099
@@ -522,6 +630,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -535,7 +644,12 @@
           4001
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41112,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 105,
     "parent": 1008
@@ -555,6 +669,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -568,7 +683,12 @@
           4001
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41112,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 105,
     "parent": 1007
@@ -588,6 +708,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -600,7 +721,12 @@
           4801
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 162,
     "parent": 1703
@@ -620,6 +746,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -632,7 +759,12 @@
           4206
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 162,
     "parent": 1703
@@ -652,6 +784,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -664,7 +797,12 @@
           5958
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41163,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 167,
     "parent": 1694
@@ -684,6 +822,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -695,7 +834,12 @@
           7003
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40114,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 196,
     "parent": 1742
@@ -715,6 +859,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -726,7 +871,12 @@
           7307
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40114,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 196,
     "parent": 1742
@@ -746,6 +896,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -759,7 +910,12 @@
           5962
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41116,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 174,
     "parent": 1704
@@ -779,6 +935,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -792,7 +949,12 @@
           4057
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41061,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 174,
     "parent": 1704
@@ -812,6 +974,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -824,7 +987,12 @@
           5961
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41117,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 197,
     "parent": 1743
@@ -844,6 +1012,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -856,7 +1025,16 @@
           5023
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 198,
     "parent": 1744
@@ -876,6 +1054,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -891,12 +1070,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44959,
+        "key": 42012,
         "drops": [
-          8536,
-          8662,
-          8663,
-          8665
+          1027,
+          6501
         ]
       }
     },
@@ -918,6 +1095,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -956,6 +1134,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -968,7 +1147,16 @@
           5023
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 166,
     "parent": 1693
@@ -988,6 +1176,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1000,7 +1189,12 @@
           4413
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 225,
     "parent": 1653
@@ -1020,6 +1214,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1031,7 +1226,12 @@
           5404
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40111,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 237,
     "parent": 1668
@@ -1051,6 +1251,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1062,7 +1263,12 @@
           5532
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40111,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 237,
     "parent": 1668
@@ -1082,6 +1288,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1093,7 +1300,12 @@
           5401
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40111,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 233,
     "parent": 1664
@@ -1113,6 +1325,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1124,7 +1337,12 @@
           5532
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40111,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 233,
     "parent": 1664
@@ -1144,18 +1362,24 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
       "key": 1674,
       "time": 280,
       "subgroup": {
-        "key": 40193,
+        "key": 40194,
         "drops": [
-          7002
+          7005
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40114,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 239,
     "parent": 1670
@@ -1175,18 +1399,24 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
       "key": 1673,
       "time": 280,
       "subgroup": {
-        "key": 40194,
+        "key": 40193,
         "drops": [
-          7005
+          7002
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40114,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 239,
     "parent": 1670
@@ -1206,6 +1436,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1217,7 +1448,12 @@
           7005
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41011,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 222,
     "parent": 1650
@@ -1237,6 +1473,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1248,7 +1485,12 @@
           7002
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41011,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 222,
     "parent": 1650
@@ -1268,6 +1510,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -1301,6 +1544,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -1333,6 +1577,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1345,7 +1590,12 @@
           5957
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41116,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 232,
     "parent": 1663
@@ -1365,6 +1615,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1377,7 +1628,12 @@
           5963
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41163,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 223,
     "parent": 1655
@@ -1397,6 +1653,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1410,7 +1667,16 @@
           5004
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 235,
     "parent": 1666
@@ -1430,6 +1696,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1443,7 +1710,16 @@
           5003
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 235,
     "parent": 1666
@@ -1463,6 +1739,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1476,7 +1753,16 @@
           5009
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 234,
     "parent": 1665
@@ -1496,6 +1782,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1509,7 +1796,16 @@
           5020
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 234,
     "parent": 1665
@@ -1529,6 +1825,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1541,7 +1838,12 @@
           4206
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 227,
     "parent": 1654
@@ -1561,6 +1863,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1573,7 +1876,12 @@
           4206
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 227,
     "parent": 1654
@@ -1593,6 +1901,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1605,7 +1914,12 @@
           4413
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 225,
     "parent": 1653
@@ -1625,6 +1939,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1637,10 +1952,101 @@
           4803
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 158,
     "parent": 1625
+  },
+  "1644": {
+    "key": 1644,
+    "node": {
+      "key": 1644,
+      "pos": {
+        "x": -503910.0,
+        "y": 5456.62,
+        "z": -431959.0
+      },
+      "kind": 10,
+      "CP": 0,
+      "name": "Investment Bank",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": true,
+      "is_plantzone": false
+    },
+    "peg": {
+      "key": 1541,
+      "time": 200,
+      "subgroup": {
+        "key": 42170,
+        "drops": [
+          4610,
+          7026,
+          4670
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 154,
+    "parent": 1623
+  },
+  "1643": {
+    "key": 1643,
+    "node": {
+      "key": 1643,
+      "pos": {
+        "x": -492854.0,
+        "y": 7747.91,
+        "z": -466693.0
+      },
+      "kind": 10,
+      "CP": 0,
+      "name": "Investment Bank",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": true,
+      "is_plantzone": false
+    },
+    "peg": {
+      "key": 1541,
+      "time": 200,
+      "subgroup": {
+        "key": 42170,
+        "drops": [
+          4610,
+          7026,
+          4670
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 154,
+    "parent": 1623
   },
   "1642": {
     "key": 1642,
@@ -1657,6 +2063,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1669,7 +2076,12 @@
           4804
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 154,
     "parent": 1622
@@ -1689,6 +2101,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1702,10 +2115,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43179,
+        "key": 40111,
         "drops": [
-          5519,
-          5521
+          1024
         ]
       }
     },
@@ -1727,6 +2139,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1740,10 +2153,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43178,
+        "key": 40111,
         "drops": [
-          5517,
-          5520
+          1024
         ]
       }
     },
@@ -1765,6 +2177,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1778,10 +2191,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43177,
+        "key": 40111,
         "drops": [
-          5516,
-          5518
+          1024
         ]
       }
     },
@@ -1803,6 +2215,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1816,7 +2229,16 @@
           4697
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 157,
     "parent": 1618
@@ -1836,6 +2258,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1849,7 +2272,12 @@
           5522
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41114,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 155,
     "parent": 1619
@@ -1869,6 +2297,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1881,7 +2310,12 @@
           4805
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 152,
     "parent": 1609
@@ -1901,6 +2335,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1914,7 +2349,16 @@
           4694
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 151,
     "parent": 1605
@@ -1934,6 +2378,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1965,6 +2410,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -1977,7 +2423,12 @@
           7321
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41011,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 153,
     "parent": 1610
@@ -1997,6 +2448,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -2029,6 +2481,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -2062,6 +2515,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -2094,6 +2548,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -2127,6 +2582,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -2159,6 +2615,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2190,6 +2647,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2221,6 +2679,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2252,6 +2711,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2283,6 +2743,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2314,6 +2775,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2345,6 +2807,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2356,7 +2819,12 @@
           7022
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41012,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1356
@@ -2376,6 +2844,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2387,7 +2856,12 @@
           7022
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41012,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1356
@@ -2407,6 +2881,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2418,7 +2893,12 @@
           7021
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41012,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1355
@@ -2438,6 +2918,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2449,7 +2930,12 @@
           7016
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41012,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1355
@@ -2469,6 +2955,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2480,7 +2967,12 @@
           7017
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41012,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1355
@@ -2500,6 +2992,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2514,7 +3007,12 @@
           42418
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41115,
+        "drops": [
+          1026
+        ]
+      }
     },
     "regiongroup": 214,
     "parent": 1390
@@ -2534,6 +3032,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2546,7 +3045,13 @@
           5853
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 42062,
+        "drops": [
+          5803,
+          5853
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1354
@@ -2566,6 +3071,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2597,6 +3103,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2610,7 +3117,12 @@
           4412
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 214,
     "parent": 1387
@@ -2630,6 +3142,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2643,7 +3156,12 @@
           4411
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 214,
     "parent": 1387
@@ -2663,6 +3181,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2676,7 +3195,16 @@
           4683
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 213,
     "parent": 1385
@@ -2696,6 +3224,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2709,7 +3238,12 @@
           5471
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40112,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 215,
     "parent": 1392
@@ -2729,6 +3263,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2742,7 +3277,12 @@
           4412
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 214,
     "parent": 1388
@@ -2762,6 +3302,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2775,10 +3316,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43011,
+        "key": 40112,
         "drops": [
-          5401,
-          5421
+          1024
         ]
       }
     },
@@ -2800,6 +3340,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2813,7 +3354,12 @@
           4204
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 214,
     "parent": 1389
@@ -2833,6 +3379,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2846,7 +3393,16 @@
           4670
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 212,
     "parent": 1379
@@ -2866,6 +3422,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2879,7 +3436,16 @@
           4670
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 212,
     "parent": 1379
@@ -2899,6 +3465,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -2912,10 +3479,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44034,
+        "key": 41111,
         "drops": [
-          44230,
-          5963
+          1026
         ]
       }
     },
@@ -2937,6 +3503,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -2955,6 +3522,929 @@
     "regiongroup": 202,
     "parent": 1301
   },
+  "1830": {
+    "key": 1830,
+    "node": {
+      "key": 1830,
+      "pos": {
+        "x": -1195450.0,
+        "y": 24447.3,
+        "z": 1391560.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1830,
+      "time": 5100,
+      "subgroup": {
+        "key": 44053,
+        "drops": [
+          820039,
+          5954,
+          820138
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41162,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 130,
+    "parent": 1797
+  },
+  "1829": {
+    "key": 1829,
+    "node": {
+      "key": 1829,
+      "pos": {
+        "x": -1006000.0,
+        "y": -5663.17,
+        "z": 1294740.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1829,
+      "time": 150,
+      "subgroup": {
+        "key": 43289,
+        "drops": [
+          820101,
+          820102
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 128,
+    "parent": 1795
+  },
+  "1828": {
+    "key": 1828,
+    "node": {
+      "key": 1828,
+      "pos": {
+        "x": -1020000.0,
+        "y": -4095.3,
+        "z": 1301300.0
+      },
+      "kind": 4,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1828,
+      "time": 200,
+      "subgroup": {
+        "key": 40205,
+        "drops": [
+          820123
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40114,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 128,
+    "parent": 1795
+  },
+  "1827": {
+    "key": 1827,
+    "node": {
+      "key": 1827,
+      "pos": {
+        "x": -1022980.0,
+        "y": -3877.94,
+        "z": 1300130.0
+      },
+      "kind": 4,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1827,
+      "time": 200,
+      "subgroup": {
+        "key": 40204,
+        "drops": [
+          820120
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40114,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 128,
+    "parent": 1795
+  },
+  "1826": {
+    "key": 1826,
+    "node": {
+      "key": 1826,
+      "pos": {
+        "x": -1020120.0,
+        "y": -5500.15,
+        "z": 1285580.0
+      },
+      "kind": 4,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1826,
+      "time": 200,
+      "subgroup": {
+        "key": 40203,
+        "drops": [
+          820117
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40114,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 128,
+    "parent": 1795
+  },
+  "1825": {
+    "key": 1825,
+    "node": {
+      "key": 1825,
+      "pos": {
+        "x": -1325270.0,
+        "y": 14793.2,
+        "z": 1239910.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1825,
+      "time": 280,
+      "subgroup": {
+        "key": 43291,
+        "drops": [
+          820113
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 115,
+    "parent": 1782
+  },
+  "1824": {
+    "key": 1824,
+    "node": {
+      "key": 1824,
+      "pos": {
+        "x": -1317030.0,
+        "y": 14605.0,
+        "z": 1247080.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1824,
+      "time": 150,
+      "subgroup": {
+        "key": 43290,
+        "drops": [
+          820108
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 115,
+    "parent": 1782
+  },
+  "1807": {
+    "key": 1807,
+    "node": {
+      "key": 1807,
+      "pos": {
+        "x": -1217180.0,
+        "y": 6866.49,
+        "z": 1260100.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1807,
+      "time": 5100,
+      "subgroup": {
+        "key": 44049,
+        "drops": [
+          5954,
+          4406,
+          820138,
+          65267,
+          820036
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41161,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 121,
+    "parent": 1788
+  },
+  "1803": {
+    "key": 1803,
+    "node": {
+      "key": 1803,
+      "pos": {
+        "x": -1244770.0,
+        "y": -2198.53,
+        "z": 1181790.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1803,
+      "time": 280,
+      "subgroup": {
+        "key": 43280,
+        "drops": [
+          5532
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 119,
+    "parent": 1786
+  },
+  "1823": {
+    "key": 1823,
+    "node": {
+      "key": 1823,
+      "pos": {
+        "x": -1391420.0,
+        "y": -5013.37,
+        "z": 1008200.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1823,
+      "time": 5100,
+      "subgroup": {
+        "key": 44052,
+        "drops": [
+          5963,
+          820138
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41112,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 132,
+    "parent": 1799
+  },
+  "1822": {
+    "key": 1822,
+    "node": {
+      "key": 1822,
+      "pos": {
+        "x": -1194070.0,
+        "y": 24962.8,
+        "z": 1383800.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1822,
+      "time": 150,
+      "subgroup": {
+        "key": 43288,
+        "drops": [
+          820107
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 130,
+    "parent": 1797
+  },
+  "1821": {
+    "key": 1821,
+    "node": {
+      "key": 1821,
+      "pos": {
+        "x": -1202700.0,
+        "y": 26928.4,
+        "z": 1385620.0
+      },
+      "kind": 8,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1821,
+      "time": 200,
+      "subgroup": {
+        "key": 42187,
+        "drops": [
+          4602,
+          5002,
+          5008
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 130,
+    "parent": 1797
+  },
+  "1820": {
+    "key": 1820,
+    "node": {
+      "key": 1820,
+      "pos": {
+        "x": -1102560.0,
+        "y": -7020.57,
+        "z": 1418170.0
+      },
+      "kind": 8,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1820,
+      "time": 150,
+      "subgroup": {
+        "key": 42186,
+        "drops": [
+          4607,
+          5006
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 129,
+    "parent": 1796
+  },
+  "1819": {
+    "key": 1819,
+    "node": {
+      "key": 1819,
+      "pos": {
+        "x": -1109500.0,
+        "y": -5564.56,
+        "z": 1427000.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1819,
+      "time": 150,
+      "subgroup": {
+        "key": 43287,
+        "drops": [
+          820107
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 129,
+    "parent": 1796
+  },
+  "1818": {
+    "key": 1818,
+    "node": {
+      "key": 1818,
+      "pos": {
+        "x": -1075410.0,
+        "y": 22757.3,
+        "z": 1237370.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1818,
+      "time": 150,
+      "subgroup": {
+        "key": 43286,
+        "drops": [
+          820136
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 127,
+    "parent": 1794
+  },
+  "1817": {
+    "key": 1817,
+    "node": {
+      "key": 1817,
+      "pos": {
+        "x": -1084960.0,
+        "y": 22336.1,
+        "z": 1239460.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1817,
+      "time": 150,
+      "subgroup": {
+        "key": 43285,
+        "drops": [
+          820108
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 127,
+    "parent": 1794
+  },
+  "1816": {
+    "key": 1816,
+    "node": {
+      "key": 1816,
+      "pos": {
+        "x": -1082560.0,
+        "y": 10874.8,
+        "z": 1195180.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1816,
+      "time": 280,
+      "subgroup": {
+        "key": 43280,
+        "drops": [
+          5532
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 126,
+    "parent": 1793
+  },
+  "1815": {
+    "key": 1815,
+    "node": {
+      "key": 1815,
+      "pos": {
+        "x": -1085110.0,
+        "y": 12346.3,
+        "z": 1201270.0
+      },
+      "kind": 8,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1815,
+      "time": 150,
+      "subgroup": {
+        "key": 42185,
+        "drops": [
+          4603,
+          5003
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 126,
+    "parent": 1793
+  },
+  "1814": {
+    "key": 1814,
+    "node": {
+      "key": 1814,
+      "pos": {
+        "x": -1065190.0,
+        "y": -6489.76,
+        "z": 1122260.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1814,
+      "time": 280,
+      "subgroup": {
+        "key": 43280,
+        "drops": [
+          5532
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 125,
+    "parent": 1792
+  },
+  "1813": {
+    "key": 1813,
+    "node": {
+      "key": 1813,
+      "pos": {
+        "x": -1070500.0,
+        "y": -5407.79,
+        "z": 1124060.0
+      },
+      "kind": 8,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1813,
+      "time": 150,
+      "subgroup": {
+        "key": 42184,
+        "drops": [
+          4603,
+          5003
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 125,
+    "parent": 1792
+  },
+  "1812": {
+    "key": 1812,
+    "node": {
+      "key": 1812,
+      "pos": {
+        "x": -1160130.0,
+        "y": 18687.2,
+        "z": 1190220.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1812,
+      "time": 150,
+      "subgroup": {
+        "key": 43282,
+        "drops": [
+          820110
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 123,
+    "parent": 1790
+  },
+  "1811": {
+    "key": 1811,
+    "node": {
+      "key": 1811,
+      "pos": {
+        "x": -1164240.0,
+        "y": 19020.7,
+        "z": 1193780.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1811,
+      "time": 150,
+      "subgroup": {
+        "key": 43281,
+        "drops": [
+          820110
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40012,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 123,
+    "parent": 1790
+  },
+  "1809": {
+    "key": 1809,
+    "node": {
+      "key": 1809,
+      "pos": {
+        "x": -1143350.0,
+        "y": -952.743,
+        "z": 1152630.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1809,
+      "time": 5100,
+      "subgroup": {
+        "key": 44051,
+        "drops": [
+          820037,
+          820038,
+          5956,
+          820138
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41117,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 122,
+    "parent": 1789
+  },
+  "1808": {
+    "key": 1808,
+    "node": {
+      "key": 1808,
+      "pos": {
+        "x": -1217380.0,
+        "y": 4955.69,
+        "z": 1248360.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "UnKnown",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1808,
+      "time": 5100,
+      "subgroup": {
+        "key": 44050,
+        "drops": [
+          5955,
+          4406,
+          820138,
+          820035
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41161,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 121,
+    "parent": 1788
+  },
   "1221": {
     "key": 1221,
     "node": {
@@ -2970,10 +4460,11 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
-      "key": 1103,
+      "key": 1106,
       "time": 200,
       "subgroup": {
         "key": 40053,
@@ -2983,10 +4474,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40063,
+        "key": 40164,
         "drops": [
-          5802,
-          5852
+          1024
         ]
       }
     },
@@ -3008,6 +4498,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3023,12 +4514,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44032,
+        "key": 41164,
         "drops": [
-          44260,
-          44179,
-          5954,
-          5951
+          1026
         ]
       }
     },
@@ -3050,6 +4538,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3064,11 +4553,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42163,
+        "key": 44961,
         "drops": [
-          4609,
-          5013,
-          5005
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -3090,6 +4581,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3104,11 +4596,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41165,
+        "key": 41013,
         "drops": [
-          4003,
-          4802,
-          4204
+          1025
         ]
       }
     },
@@ -3130,10 +4620,11 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
-      "key": 1231,
+      "key": 1240,
       "time": 150,
       "subgroup": {
         "key": 43101,
@@ -3143,10 +4634,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43111,
+        "key": 40063,
         "drops": [
-          5405,
-          5425
+          1024
         ]
       }
     },
@@ -3168,6 +4658,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3182,10 +4673,12 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42164,
+        "key": 44961,
         "drops": [
-          4602,
-          5002,
+          5007,
+          5006,
+          5011,
+          5005,
           5008
         ]
       }
@@ -3208,6 +4701,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3239,6 +4733,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3270,6 +4765,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3301,6 +4797,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3332,6 +4829,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3363,6 +4861,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3394,6 +4893,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3425,6 +4925,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -3458,6 +4959,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -3490,6 +4992,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -3523,6 +5026,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -3555,6 +5059,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3569,11 +5074,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42162,
+        "key": 44961,
         "drops": [
-          4608,
-          5012,
-          5005
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -3595,10 +5102,11 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
-      "key": 1231,
+      "key": 1239,
       "time": 150,
       "subgroup": {
         "key": 43101,
@@ -3608,10 +5116,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43111,
+        "key": 40063,
         "drops": [
-          5405,
-          5425
+          1024
         ]
       }
     },
@@ -3633,6 +5140,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3647,11 +5155,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41161,
+        "key": 41013,
         "drops": [
-          4005,
-          4805,
-          4408
+          1025
         ]
       }
     },
@@ -3673,6 +5179,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3687,10 +5194,12 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42161,
+        "key": 44961,
         "drops": [
-          4608,
-          5012,
+          5007,
+          5006,
+          5011,
+          5005,
           5008
         ]
       }
@@ -3713,10 +5222,11 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
-      "key": 1233,
+      "key": 1238,
       "time": 150,
       "subgroup": {
         "key": 43103,
@@ -3726,10 +5236,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43113,
+        "key": 40063,
         "drops": [
-          5412,
-          5431
+          1024
         ]
       }
     },
@@ -3751,10 +5260,11 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
-      "key": 1232,
+      "key": 1237,
       "time": 150,
       "subgroup": {
         "key": 43102,
@@ -3764,10 +5274,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43112,
+        "key": 40063,
         "drops": [
-          5411,
-          5430
+          1024
         ]
       }
     },
@@ -3789,6 +5298,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3803,11 +5313,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41164,
+        "key": 41013,
         "drops": [
-          4001,
-          4801,
-          4410
+          1025
         ]
       }
     },
@@ -3829,6 +5337,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3843,11 +5352,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41162,
+        "key": 41013,
         "drops": [
-          4005,
-          4805,
-          4203
+          1025
         ]
       }
     },
@@ -3869,6 +5376,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3881,9 +5389,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40163,
+        "key": 40164,
         "drops": [
-          7348
+          1024
         ]
       }
     },
@@ -3905,10 +5413,11 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
-      "key": 1301,
+      "key": 1305,
       "time": 200,
       "subgroup": {
         "key": 40151,
@@ -3918,10 +5427,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40161,
+        "key": 40164,
         "drops": [
-          5801,
-          5851
+          1024
         ]
       }
     },
@@ -3943,6 +5451,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3959,9 +5468,7 @@
       "subgroupLuck": {
         "key": 40164,
         "drops": [
-          7004,
-          7009,
-          7014
+          1024
         ]
       }
     },
@@ -3983,6 +5490,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -3997,11 +5505,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41163,
+        "key": 41013,
         "drops": [
-          4007,
-          4803,
-          4401
+          1025
         ]
       }
     },
@@ -4023,6 +5529,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4037,11 +5544,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41162,
+        "key": 41013,
         "drops": [
-          4005,
-          4805,
-          4203
+          1025
         ]
       }
     },
@@ -4063,6 +5568,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4075,9 +5581,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40162,
+        "key": 40163,
         "drops": [
-          7347
+          1024
         ]
       }
     },
@@ -4099,6 +5605,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4112,10 +5619,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40161,
+        "key": 40163,
         "drops": [
-          5801,
-          5851
+          1024
         ]
       }
     },
@@ -4137,6 +5643,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4168,6 +5675,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4183,12 +5691,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44919,
+        "key": 42061,
         "drops": [
-          8568,
-          8534,
-          8530,
-          8572
+          1027,
+          6501
         ]
       }
     },
@@ -4210,6 +5716,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4225,12 +5732,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44921,
+        "key": 41165,
         "drops": [
-          8574,
-          8573,
-          8577,
-          8571
+          1027,
+          6501
         ]
       }
     },
@@ -4252,6 +5757,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4267,12 +5773,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44926,
+        "key": 42012,
         "drops": [
-          8568,
-          8602,
-          8604,
-          8502
+          1027,
+          6501
         ]
       }
     },
@@ -4294,6 +5798,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4309,12 +5814,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44935,
+        "key": 42013,
         "drops": [
-          8536,
-          8535,
-          8529,
-          8507
+          1027,
+          6501
         ]
       }
     },
@@ -4336,6 +5839,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4351,12 +5855,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44925,
+        "key": 42012,
         "drops": [
-          8567,
-          8534,
-          8530,
-          8598
+          1027,
+          6501
         ]
       }
     },
@@ -4378,6 +5880,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4393,12 +5896,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44924,
+        "key": 42012,
         "drops": [
-          8568,
-          8573,
-          8604,
-          8502
+          1027,
+          6501
         ]
       }
     },
@@ -4420,6 +5921,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4435,12 +5937,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44923,
+        "key": 42012,
         "drops": [
-          8567,
-          8534,
-          8510,
-          8598
+          1027,
+          6501
         ]
       }
     },
@@ -4462,6 +5962,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4477,12 +5978,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44922,
+        "key": 42012,
         "drops": [
-          8568,
-          8535,
-          8604,
-          8502
+          1027,
+          6501
         ]
       }
     },
@@ -4504,6 +6003,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4519,12 +6019,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44943,
+        "key": 42011,
         "drops": [
-          8536,
-          8531,
-          8578,
-          8512
+          1027,
+          6501
         ]
       }
     },
@@ -4546,6 +6044,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4561,12 +6060,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44942,
+        "key": 42011,
         "drops": [
-          8536,
-          8509,
-          8529,
-          8585
+          1027,
+          6501
         ]
       }
     },
@@ -4588,6 +6085,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4603,12 +6101,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44941,
+        "key": 42011,
         "drops": [
-          8574,
-          8536,
-          8531,
-          8578
+          1027,
+          6501
         ]
       }
     },
@@ -4630,6 +6126,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4645,12 +6142,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44940,
+        "key": 42011,
         "drops": [
-          8509,
-          8585,
-          8529,
-          8508
+          1027,
+          6501
         ]
       }
     },
@@ -4672,6 +6167,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4687,12 +6183,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44939,
+        "key": 42011,
         "drops": [
-          8574,
-          8536,
-          8578,
-          8508
+          1027,
+          6501
         ]
       }
     },
@@ -4714,6 +6208,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4729,12 +6224,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44937,
+        "key": 42011,
         "drops": [
-          8535,
-          8585,
-          8578,
-          8581
+          1027,
+          6501
         ]
       }
     },
@@ -4756,6 +6249,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4771,12 +6265,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44938,
+        "key": 42011,
         "drops": [
-          8509,
-          8529,
-          8585,
-          8525
+          1027,
+          6501
         ]
       }
     },
@@ -4798,6 +6290,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4813,12 +6306,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44936,
+        "key": 42011,
         "drops": [
-          8509,
-          8585,
-          8577,
-          8512
+          1027,
+          6501
         ]
       }
     },
@@ -4840,6 +6331,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4855,12 +6347,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44947,
+        "key": 42013,
         "drops": [
-          8574,
-          8579,
-          8509,
-          8529
+          1027,
+          6501
         ]
       }
     },
@@ -4882,6 +6372,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4897,12 +6388,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44946,
+        "key": 42013,
         "drops": [
-          8509,
-          8578,
-          8556,
-          8512
+          1027,
+          6501
         ]
       }
     },
@@ -4924,6 +6413,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4939,12 +6429,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44945,
+        "key": 42013,
         "drops": [
-          8574,
-          8509,
-          8585,
-          8556
+          1027,
+          6501
         ]
       }
     },
@@ -4966,6 +6454,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -4981,12 +6470,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44944,
+        "key": 42013,
         "drops": [
-          8536,
-          8509,
-          8512,
-          8571
+          1027,
+          6501
         ]
       }
     },
@@ -5008,6 +6495,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5023,12 +6511,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44920,
+        "key": 42061,
         "drops": [
-          8568,
-          8574,
-          8508,
-          8571
+          1027,
+          6501
         ]
       }
     },
@@ -5050,6 +6536,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5065,12 +6552,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44956,
+        "key": 42061,
         "drops": [
-          8560,
-          8574,
-          8566,
-          8603
+          1027,
+          6501
         ]
       }
     },
@@ -5092,6 +6577,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5107,12 +6593,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44955,
+        "key": 41165,
         "drops": [
-          8564,
-          8574,
-          8566,
-          8510
+          1027,
+          6501
         ]
       }
     },
@@ -5134,6 +6618,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5149,12 +6634,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44954,
+        "key": 41165,
         "drops": [
-          8560,
-          8566,
-          8603,
-          8603
+          1027,
+          6501
         ]
       }
     },
@@ -5176,6 +6659,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5191,12 +6675,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44953,
+        "key": 41165,
         "drops": [
-          8564,
-          8574,
-          8603,
-          8510
+          1027,
+          6501
         ]
       }
     },
@@ -5218,6 +6700,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5233,12 +6716,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44952,
+        "key": 41165,
         "drops": [
-          8560,
-          8566,
-          8603,
-          8508
+          1027,
+          6501
         ]
       }
     },
@@ -5260,6 +6741,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5275,12 +6757,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44951,
+        "key": 41165,
         "drops": [
-          8564,
-          8510,
-          8603,
-          8584
+          1027,
+          6501
         ]
       }
     },
@@ -5302,6 +6782,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5317,12 +6798,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44950,
+        "key": 41165,
         "drops": [
-          8566,
-          8560,
-          8603,
-          8561
+          1027,
+          6501
         ]
       }
     },
@@ -5344,6 +6823,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5359,12 +6839,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44929,
+        "key": 41165,
         "drops": [
-          8568,
-          8567,
-          8530,
-          8570
+          1027,
+          6501
         ]
       }
     },
@@ -5386,6 +6864,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5401,12 +6880,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44928,
+        "key": 41165,
         "drops": [
-          8534,
-          8530,
-          8602,
-          8527
+          1027,
+          6501
         ]
       }
     },
@@ -5428,6 +6905,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5443,17 +6921,56 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44934,
+        "key": 42013,
         "drops": [
-          8509,
-          8567,
-          8568,
-          8530
+          1027,
+          6501
         ]
       }
     },
     "regiongroup": 102,
     "parent": 1026
+  },
+  "1049": {
+    "key": 1049,
+    "node": {
+      "key": 1049,
+      "pos": {
+        "x": -49145.3,
+        "y": -8150.0,
+        "z": 376699.0
+      },
+      "kind": 0,
+      "CP": 1,
+      "name": "Fish Drying Yard",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": true,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 2021,
+      "time": 1200,
+      "subgroup": {
+        "key": 44833,
+        "drops": [
+          8534,
+          8574,
+          8573,
+          8602
+        ]
+      },
+      "subgroupLuck": {
+        "key": 42013,
+        "drops": [
+          1027,
+          6501
+        ]
+      }
+    },
+    "regiongroup": 109,
+    "parent": 1001
   },
   "1048": {
     "key": 1048,
@@ -5470,6 +6987,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5485,12 +7003,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44932,
+        "key": 42013,
         "drops": [
-          8568,
-          8509,
-          8567,
-          8526
+          1027,
+          6501
         ]
       }
     },
@@ -5512,6 +7028,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5527,12 +7044,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44931,
+        "key": 42013,
         "drops": [
-          8534,
-          8574,
-          8602,
-          8561
+          1027,
+          6501
         ]
       }
     },
@@ -5554,6 +7069,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5569,12 +7085,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44930,
+        "key": 42013,
         "drops": [
-          8509,
-          8568,
-          8567,
-          8561
+          1027,
+          6501
         ]
       }
     },
@@ -5596,6 +7110,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5611,12 +7126,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44918,
+        "key": 42061,
         "drops": [
-          8567,
-          8568,
-          8573,
-          8602
+          1027,
+          6501
         ]
       }
     },
@@ -5638,6 +7151,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5653,12 +7167,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44916,
+        "key": 42061,
         "drops": [
-          8568,
-          8534,
-          8530,
-          8573
+          1027,
+          6501
         ]
       }
     },
@@ -5680,6 +7192,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5695,12 +7208,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44915,
+        "key": 42061,
         "drops": [
-          8567,
-          8574,
-          8568,
-          8530
+          1027,
+          6501
         ]
       }
     },
@@ -5722,6 +7233,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5737,12 +7249,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44914,
+        "key": 42061,
         "drops": [
-          8568,
-          8573,
-          8602,
-          8572
+          1027,
+          6501
         ]
       }
     },
@@ -5764,6 +7274,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5779,12 +7290,10 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44913,
+        "key": 42061,
         "drops": [
-          8567,
-          8568,
-          8534,
-          8530
+          1027,
+          6501
         ]
       }
     },
@@ -5806,6 +7315,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5818,9 +7328,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43172,
+        "key": 40112,
         "drops": [
-          7018
+          1024
         ]
       }
     },
@@ -5842,6 +7352,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5854,9 +7365,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43171,
+        "key": 40061,
         "drops": [
-          7019
+          1024
         ]
       }
     },
@@ -5878,6 +7389,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5891,7 +7403,12 @@
           4411
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 204,
     "parent": 1330
@@ -5911,6 +7428,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5924,7 +7442,16 @@
           5014
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 204,
     "parent": 1329
@@ -5944,6 +7471,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5956,9 +7484,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43170,
+        "key": 40061,
         "drops": [
-          7020
+          1024
         ]
       }
     },
@@ -5980,6 +7508,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -5992,9 +7521,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43169,
+        "key": 40061,
         "drops": [
-          7021
+          1024
         ]
       }
     },
@@ -6016,6 +7545,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6029,7 +7559,12 @@
           4410
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 205,
     "parent": 1325
@@ -6049,6 +7584,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6062,7 +7598,16 @@
           4683
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 205,
     "parent": 1325
@@ -6082,6 +7627,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6095,7 +7641,12 @@
           4204
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41013,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 205,
     "parent": 1318
@@ -6115,6 +7666,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6127,9 +7679,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43167,
+        "key": 40061,
         "drops": [
-          7022
+          1024
         ]
       }
     },
@@ -6151,6 +7703,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6164,7 +7717,12 @@
           4410
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41013,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 210,
     "parent": 1310
@@ -6184,6 +7742,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6197,7 +7756,12 @@
           4204
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41013,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 210,
     "parent": 1309
@@ -6217,6 +7781,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6230,10 +7795,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43166,
+        "key": 40061,
         "drops": [
-          6657,
-          6656
+          1024
         ]
       }
     },
@@ -6255,6 +7819,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6268,10 +7833,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43165,
+        "key": 40061,
         "drops": [
-          6657,
-          6656
+          1024
         ]
       }
     },
@@ -6293,6 +7857,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6306,7 +7871,16 @@
           5014
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 203,
     "parent": 1305
@@ -6326,6 +7900,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6337,7 +7912,12 @@
           7016
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41012,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1354
@@ -6357,6 +7937,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6368,7 +7949,12 @@
           7017
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41012,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1354
@@ -6388,6 +7974,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6399,7 +7986,12 @@
           7022
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40162,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1353
@@ -6419,6 +8011,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6430,7 +8023,12 @@
           7022
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40162,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 202,
     "parent": 1353
@@ -6450,6 +8048,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6461,7 +8060,12 @@
           7019
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40162,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 204,
     "parent": 1352
@@ -6481,6 +8085,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6492,7 +8097,12 @@
           7018
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40162,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 204,
     "parent": 1352
@@ -6512,6 +8122,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6523,7 +8134,12 @@
           7018
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40162,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 204,
     "parent": 1352
@@ -6543,6 +8159,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6554,7 +8171,12 @@
           7022
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40162,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 205,
     "parent": 1351
@@ -6574,6 +8196,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6585,7 +8208,12 @@
           7020
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40162,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 205,
     "parent": 1351
@@ -6605,6 +8233,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6618,7 +8247,16 @@
           4670
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 208,
     "parent": 1347
@@ -6638,6 +8276,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6650,9 +8289,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43175,
+        "key": 40112,
         "drops": [
-          7022
+          1024
         ]
       }
     },
@@ -6674,6 +8313,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6686,9 +8326,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43174,
+        "key": 40112,
         "drops": [
-          7017
+          1024
         ]
       }
     },
@@ -6710,6 +8350,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6723,7 +8364,12 @@
           4410
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 207,
     "parent": 1346
@@ -6743,6 +8389,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6756,7 +8403,12 @@
           4410
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 207,
     "parent": 1346
@@ -6776,6 +8428,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6789,7 +8442,12 @@
           4412
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 207,
     "parent": 1345
@@ -6809,6 +8467,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6821,9 +8480,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43173,
+        "key": 40112,
         "drops": [
-          7016
+          1024
         ]
       }
     },
@@ -6845,6 +8504,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6858,7 +8518,16 @@
           5014
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 203,
     "parent": 1304
@@ -6878,6 +8547,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -6890,102 +8560,14 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43164,
+        "key": 40061,
         "drops": [
-          7017
+          1024
         ]
       }
     },
     "regiongroup": 203,
     "parent": 1304
-  },
-  "1451": {
-    "key": 1451,
-    "node": {
-      "key": 1451,
-      "pos": {
-        "x": -1367730.0,
-        "y": -8150.0,
-        "z": 1269770.0
-      },
-      "kind": 11,
-      "CP": 2,
-      "name": "Fish Drying Yard 2",
-      "is_main": 0,
-      "has_lodging": false,
-      "is_planttown": false,
-      "is_plantzone": true
-    },
-    "peg": {
-      "key": 2046,
-      "time": 1200,
-      "subgroup": {
-        "key": 44858,
-        "drops": [
-          8529,
-          8527,
-          8583,
-          6516,
-          8525
-        ]
-      },
-      "subgroupLuck": {
-        "key": 44958,
-        "drops": [
-          8529,
-          8527,
-          8583,
-          6516,
-          8525
-        ]
-      }
-    },
-    "regiongroup": 220,
-    "parent": 1399
-  },
-  "1450": {
-    "key": 1450,
-    "node": {
-      "key": 1450,
-      "pos": {
-        "x": -1372510.0,
-        "y": -8150.0,
-        "z": 1276460.0
-      },
-      "kind": 11,
-      "CP": 2,
-      "name": "Fish Drying Yard 1",
-      "is_main": 0,
-      "has_lodging": false,
-      "is_planttown": false,
-      "is_plantzone": true
-    },
-    "peg": {
-      "key": 2045,
-      "time": 1200,
-      "subgroup": {
-        "key": 44857,
-        "drops": [
-          8529,
-          8527,
-          8583,
-          6515,
-          8525
-        ]
-      },
-      "subgroupLuck": {
-        "key": 44957,
-        "drops": [
-          8529,
-          8527,
-          8583,
-          6515,
-          8525
-        ]
-      }
-    },
-    "regiongroup": 220,
-    "parent": 1399
   },
   "619": {
     "key": 619,
@@ -7002,6 +8584,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7033,6 +8616,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7064,6 +8648,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7095,6 +8680,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7126,6 +8712,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7157,6 +8744,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7188,6 +8776,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7204,6 +8793,39 @@
     "regiongroup": 31,
     "parent": 661
   },
+  "612": {
+    "key": 612,
+    "node": {
+      "key": 612,
+      "pos": {
+        "x": -170373.0,
+        "y": 4915.05,
+        "z": 52688.7
+      },
+      "kind": 12,
+      "CP": 1,
+      "name": "Valentine Investment Bank",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": true,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 930,
+      "time": 7200,
+      "subgroup": {
+        "key": 44430,
+        "drops": [
+          2,
+          1
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 34,
+    "parent": 603
+  },
   "611": {
     "key": 611,
     "node": {
@@ -7219,6 +8841,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7251,6 +8874,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -7284,6 +8908,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -7317,6 +8942,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -7349,6 +8975,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -7381,6 +9008,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7412,6 +9040,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7425,10 +9054,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41118,
+        "key": 41062,
         "drops": [
-          4001,
-          4801
+          1025
         ]
       }
     },
@@ -7450,6 +9078,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7463,10 +9092,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41116,
+        "key": 41062,
         "drops": [
-          4007,
-          4803
+          1025
         ]
       }
     },
@@ -7488,10 +9116,11 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
-      "key": 1234,
+      "key": 1236,
       "time": 150,
       "subgroup": {
         "key": 43104,
@@ -7501,10 +9130,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43114,
+        "key": 40063,
         "drops": [
-          5413,
-          5432
+          1024
         ]
       }
     },
@@ -7526,6 +9154,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7539,10 +9168,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42113,
+        "key": 44961,
         "drops": [
-          4607,
-          5007
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -7564,6 +9196,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7577,10 +9210,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41117,
+        "key": 41062,
         "drops": [
-          4007,
-          4803
+          1025
         ]
       }
     },
@@ -7602,6 +9234,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7615,10 +9248,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41115,
+        "key": 41062,
         "drops": [
-          4002,
-          4803
+          1025
         ]
       }
     },
@@ -7640,6 +9272,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7653,10 +9286,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43115,
+        "key": 40063,
         "drops": [
-          5414,
-          5433
+          1024
         ]
       }
     },
@@ -7678,6 +9310,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7691,10 +9324,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42118,
+        "key": 44961,
         "drops": [
-          4603,
-          5003
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -7716,6 +9352,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7729,10 +9366,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42116,
+        "key": 44961,
         "drops": [
-          4606,
-          5005
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -7754,6 +9394,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7767,10 +9408,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42115,
+        "key": 44961,
         "drops": [
-          4607,
-          5010
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -7792,6 +9436,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7805,10 +9450,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43111,
+        "key": 40062,
         "drops": [
-          5405,
-          5425
+          1024
         ]
       }
     },
@@ -7830,6 +9474,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7843,10 +9488,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42114,
+        "key": 44961,
         "drops": [
-          4607,
-          5006
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -7868,6 +9516,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7881,10 +9530,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43114,
+        "key": 40062,
         "drops": [
-          5413,
-          5432
+          1024
         ]
       }
     },
@@ -7906,6 +9554,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7919,10 +9568,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42117,
+        "key": 44961,
         "drops": [
-          4606,
-          5009
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -7944,6 +9596,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -7960,13 +9613,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44024,
+        "key": 41161,
         "drops": [
-          44250,
-          44035,
-          44259,
-          5961,
-          5952
+          1026
         ]
       }
     },
@@ -7988,6 +9637,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8001,10 +9651,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42117,
+        "key": 44961,
         "drops": [
-          4606,
-          5009
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -8026,6 +9679,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8057,6 +9711,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8070,10 +9725,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41111,
+        "key": 41062,
         "drops": [
-          4004,
-          4804
+          1025
         ]
       }
     },
@@ -8095,6 +9749,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8108,10 +9763,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41113,
+        "key": 41062,
         "drops": [
-          4004,
-          4409
+          1025
         ]
       }
     },
@@ -8133,6 +9787,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8149,13 +9804,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44026,
+        "key": 41118,
         "drops": [
-          44255,
-          44250,
-          44256,
-          5952,
-          5960
+          1026
         ]
       }
     },
@@ -8177,6 +9828,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8190,10 +9842,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41112,
+        "key": 41061,
         "drops": [
-          4004,
-          4408
+          1025
         ]
       }
     },
@@ -8215,6 +9866,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8231,13 +9883,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44022,
+        "key": 41113,
         "drops": [
-          44141,
-          44257,
-          44258,
-          5958,
-          5960
+          1026
         ]
       }
     },
@@ -8259,6 +9907,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8272,10 +9921,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43113,
+        "key": 40062,
         "drops": [
-          5412,
-          5431
+          1024
         ]
       }
     },
@@ -8297,6 +9945,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8310,10 +9959,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42112,
+        "key": 44961,
         "drops": [
-          4604,
-          5004
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -8335,6 +9987,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8348,10 +10001,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41114,
+        "key": 41061,
         "drops": [
-          4002,
-          4805
+          1025
         ]
       }
     },
@@ -8373,6 +10025,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8386,10 +10039,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42111,
+        "key": 44961,
         "drops": [
-          4604,
-          5011
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -8411,6 +10067,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8442,6 +10099,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8473,6 +10131,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8486,10 +10145,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42111,
+        "key": 44961,
         "drops": [
-          4604,
-          5011
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -8511,6 +10173,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8523,9 +10186,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40113,
+        "key": 40163,
         "drops": [
-          7312
+          1024
         ]
       }
     },
@@ -8547,6 +10210,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8559,9 +10223,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40112,
+        "key": 40163,
         "drops": [
-          7002
+          1024
         ]
       }
     },
@@ -8583,6 +10247,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8595,9 +10260,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40111,
+        "key": 40163,
         "drops": [
-          7001
+          1024
         ]
       }
     },
@@ -8619,6 +10284,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8632,10 +10298,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43111,
+        "key": 40062,
         "drops": [
-          5405,
-          5425
+          1024
         ]
       }
     },
@@ -8657,6 +10322,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -8689,6 +10355,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -8707,6 +10374,38 @@
     "regiongroup": 44,
     "parent": 602
   },
+  "805": {
+    "key": 805,
+    "node": {
+      "key": 805,
+      "pos": {
+        "x": -171201.0,
+        "y": 4938.18,
+        "z": 55200.8
+      },
+      "kind": 13,
+      "CP": 1,
+      "name": "Specialties",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": true,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 957,
+      "time": 1800,
+      "subgroup": {
+        "key": 44457,
+        "drops": [
+          7601
+        ]
+      },
+      "subgroupLuck": null
+    },
+    "regiongroup": 34,
+    "parent": 603
+  },
   "831": {
     "key": 831,
     "node": {
@@ -8722,6 +10421,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8735,10 +10435,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43112,
+        "key": 40062,
         "drops": [
-          5411,
-          5430
+          1024
         ]
       }
     },
@@ -8760,6 +10459,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8791,6 +10491,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8802,7 +10503,12 @@
           7309
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40161,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 61,
     "parent": 65
@@ -8822,6 +10528,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8833,7 +10540,12 @@
           7307
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 40161,
+        "drops": [
+          1024
+        ]
+      }
     },
     "regiongroup": 61,
     "parent": 64
@@ -8853,6 +10565,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8864,7 +10577,12 @@
           4003
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 41015,
+        "drops": [
+          1025
+        ]
+      }
     },
     "regiongroup": 63,
     "parent": 68
@@ -8884,6 +10602,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8895,7 +10614,16 @@
           4601
         ]
       },
-      "subgroupLuck": null
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
     },
     "regiongroup": 62,
     "parent": 66
@@ -8915,6 +10643,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8928,10 +10657,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41012,
+        "key": 41015,
         "drops": [
-          4003,
-          4802
+          1025
         ]
       }
     },
@@ -8953,6 +10681,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -8965,9 +10694,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40012,
+        "key": 40161,
         "drops": [
-          7005
+          1024
         ]
       }
     },
@@ -8989,6 +10718,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9001,9 +10731,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40012,
+        "key": 40161,
         "drops": [
-          7005
+          1024
         ]
       }
     },
@@ -9025,6 +10755,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9038,10 +10769,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43011,
+        "key": 40014,
         "drops": [
-          5401,
-          5421
+          1024
         ]
       }
     },
@@ -9063,6 +10793,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9076,10 +10807,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42011,
+        "key": 44961,
         "drops": [
-          4601,
-          5006
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -9101,6 +10835,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9114,10 +10849,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43013,
+        "key": 40014,
         "drops": [
-          5408,
-          5427
+          1024
         ]
       }
     },
@@ -9139,6 +10873,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9152,10 +10887,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42012,
+        "key": 44961,
         "drops": [
-          4601,
-          5001
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -9177,6 +10915,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9192,8 +10931,7 @@
       "subgroupLuck": {
         "key": 41015,
         "drops": [
-          4001,
-          4801
+          1025
         ]
       }
     },
@@ -9215,6 +10953,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9228,10 +10967,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43012,
+        "key": 40014,
         "drops": [
-          5407,
-          5426
+          1024
         ]
       }
     },
@@ -9253,6 +10991,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9266,10 +11005,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41012,
+        "key": 41015,
         "drops": [
-          4003,
-          4802
+          1025
         ]
       }
     },
@@ -9291,6 +11029,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9304,10 +11043,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42013,
+        "key": 44961,
         "drops": [
-          4602,
-          5007
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -9329,6 +11071,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9342,10 +11085,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41014,
+        "key": 41015,
         "drops": [
-          4001,
-          4801
+          1025
         ]
       }
     },
@@ -9367,6 +11109,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9380,10 +11123,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42011,
+        "key": 44961,
         "drops": [
-          4601,
-          5006
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -9405,6 +11151,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9418,10 +11165,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41013,
+        "key": 41015,
         "drops": [
-          4003,
-          4406
+          1025
         ]
       }
     },
@@ -9443,20 +11189,21 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
-      "key": 1003,
+      "key": 1005,
       "time": 200,
       "subgroup": {
-        "key": 40003,
+        "key": 40005,
         "drops": [
           7921,
           9064
         ]
       },
       "subgroupLuck": {
-        "key": 40013,
+        "key": 40015,
         "drops": [
           7921,
           9064
@@ -9481,21 +11228,22 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
-      "key": 1001,
+      "key": 1004,
       "time": 200,
       "subgroup": {
-        "key": 40001,
+        "key": 40004,
         "drops": [
           7003
         ]
       },
       "subgroupLuck": {
-        "key": 40011,
+        "key": 40161,
         "drops": [
-          7003
+          1024
         ]
       }
     },
@@ -9517,6 +11265,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9555,6 +11304,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9567,9 +11317,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40011,
+        "key": 40161,
         "drops": [
-          7003
+          1024
         ]
       }
     },
@@ -9591,6 +11341,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9604,10 +11355,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43012,
+        "key": 40014,
         "drops": [
-          5407,
-          5426
+          1024
         ]
       }
     },
@@ -9629,6 +11379,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9642,10 +11393,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43011,
+        "key": 40014,
         "drops": [
-          5401,
-          5421
+          1024
         ]
       }
     },
@@ -9667,6 +11417,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9698,6 +11449,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9710,9 +11462,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40011,
+        "key": 40161,
         "drops": [
-          7003
+          1024
         ]
       }
     },
@@ -9734,6 +11486,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9747,10 +11500,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41011,
+        "key": 41015,
         "drops": [
-          4003,
-          4802
+          1025
         ]
       }
     },
@@ -9772,6 +11524,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9785,10 +11538,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41011,
+        "key": 41015,
         "drops": [
-          4003,
-          4802
+          1025
         ]
       }
     },
@@ -9810,6 +11562,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9825,12 +11578,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44002,
+        "key": 41164,
         "drops": [
-          44287,
-          44288,
-          5954,
-          5955
+          1026
         ]
       }
     },
@@ -9852,6 +11602,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9883,6 +11634,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9914,6 +11666,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9945,6 +11698,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -9976,6 +11730,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10007,6 +11762,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10038,6 +11794,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10069,6 +11826,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -10101,6 +11859,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -10134,6 +11893,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10150,13 +11910,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44014,
+        "key": 41113,
         "drops": [
-          44253,
-          44119,
-          44121,
-          5956,
-          5959
+          1026
         ]
       }
     },
@@ -10178,6 +11934,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10191,10 +11948,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43061,
+        "key": 40011,
         "drops": [
-          5402,
-          5422
+          1024
         ]
       }
     },
@@ -10216,6 +11972,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10229,10 +11986,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43062,
+        "key": 40011,
         "drops": [
-          5409,
-          5428
+          1024
         ]
       }
     },
@@ -10254,6 +12010,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10270,13 +12027,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 44012,
+        "key": 41113,
         "drops": [
-          44118,
-          44065,
-          44254,
-          5957,
-          5959
+          1026
         ]
       }
     },
@@ -10298,6 +12051,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10311,10 +12065,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43061,
+        "key": 40011,
         "drops": [
-          5402,
-          5422
+          1024
         ]
       }
     },
@@ -10336,6 +12089,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10374,6 +12128,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10387,10 +12142,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42063,
+        "key": 44961,
         "drops": [
-          4603,
-          5007
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -10412,6 +12170,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10425,10 +12184,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41063,
+        "key": 41061,
         "drops": [
-          4003,
-          4802
+          1025
         ]
       }
     },
@@ -10450,6 +12208,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10465,8 +12224,7 @@
       "subgroupLuck": {
         "key": 41061,
         "drops": [
-          4001,
-          4801
+          1025
         ]
       }
     },
@@ -10488,6 +12246,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10501,10 +12260,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41062,
+        "key": 41061,
         "drops": [
-          4001,
-          4407
+          1025
         ]
       }
     },
@@ -10526,6 +12284,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10539,10 +12298,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43063,
+        "key": 40011,
         "drops": [
-          5410,
-          5429
+          1024
         ]
       }
     },
@@ -10564,6 +12322,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10595,6 +12354,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10608,10 +12368,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 41064,
+        "key": 41061,
         "drops": [
-          4002,
-          4805
+          1025
         ]
       }
     },
@@ -10633,6 +12392,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10646,10 +12406,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 43063,
+        "key": 40011,
         "drops": [
-          5410,
-          5429
+          1024
         ]
       }
     },
@@ -10671,6 +12430,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10684,10 +12444,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42061,
+        "key": 44961,
         "drops": [
-          4602,
-          5011
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -10709,6 +12472,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10721,9 +12485,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40062,
+        "key": 40113,
         "drops": [
-          7306
+          1024
         ]
       }
     },
@@ -10745,6 +12509,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10758,10 +12523,13 @@
         ]
       },
       "subgroupLuck": {
-        "key": 42062,
+        "key": 44961,
         "drops": [
-          4602,
-          5002
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -10783,6 +12551,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10796,10 +12565,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40063,
+        "key": 40113,
         "drops": [
-          5802,
-          5852
+          1024
         ]
       }
     },
@@ -10821,6 +12589,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10833,9 +12602,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40061,
+        "key": 40113,
         "drops": [
-          7001
+          1024
         ]
       }
     },
@@ -10857,6 +12626,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10870,10 +12640,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40063,
+        "key": 40113,
         "drops": [
-          5802,
-          5852
+          1024
         ]
       }
     },
@@ -10895,6 +12664,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10926,6 +12696,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10938,9 +12709,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40062,
+        "key": 40113,
         "drops": [
-          7306
+          1024
         ]
       }
     },
@@ -10962,6 +12733,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -10974,9 +12746,9 @@
         ]
       },
       "subgroupLuck": {
-        "key": 40061,
+        "key": 40113,
         "drops": [
-          7001
+          1024
         ]
       }
     },
@@ -10998,6 +12770,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -11034,6 +12807,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -11065,6 +12839,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -11096,6 +12871,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -11127,6 +12903,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": true
     },
     "peg": {
@@ -11158,6 +12935,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -11190,6 +12968,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -11223,6 +13002,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
@@ -11255,6 +13035,7 @@
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
+      "is_hidden": false,
       "is_plantzone": false
     },
     "peg": {
