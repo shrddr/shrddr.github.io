@@ -753,7 +753,7 @@
   },
   "1264": {
     "key": 1264,
-    "name": "UnKnown",
+    "name": "Nampo Gate",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 117,
@@ -1153,7 +1153,7 @@
   },
   "1290": {
     "key": 1290,
-    "name": "UnKnown",
+    "name": "Bari Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -1329,7 +1329,7 @@
   },
   "1242": {
     "key": 1242,
-    "name": "UnKnown",
+    "name": "Yeowoo Pass",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 127,
@@ -1689,7 +1689,7 @@
   },
   "1241": {
     "key": 1241,
-    "name": "UnKnown",
+    "name": "Yeowoo Pass Beacon Tower",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 127,
@@ -1801,7 +1801,7 @@
   },
   "1287": {
     "key": 1287,
-    "name": "UnKnown",
+    "name": "Honglim Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -1969,7 +1969,7 @@
   },
   "1230": {
     "key": 1230,
-    "name": "UnKnown",
+    "name": "Soopmool in Ruins",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 121,
@@ -2177,7 +2177,7 @@
   },
   "1258": {
     "key": 1258,
-    "name": "UnKnown",
+    "name": "Byukgye Institute",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 133,
@@ -2185,7 +2185,7 @@
   },
   "1229": {
     "key": 1229,
-    "name": "UnKnown",
+    "name": "Cheongsan Institute",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 120,
@@ -2209,7 +2209,7 @@
   },
   "1345": {
     "key": 1345,
-    "name": "<no translation>",
+    "name": "UnKnown",
     "has_lodging": false,
     "is_accessible": 0,
     "regiongroup": 125,
@@ -2345,7 +2345,7 @@
   },
   "1291": {
     "key": 1291,
-    "name": "UnKnown",
+    "name": "Traveller's Den",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -2449,7 +2449,7 @@
   },
   "1270": {
     "key": 1270,
-    "name": "UnKnown",
+    "name": "Gowun Plateau",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 123,
@@ -2505,7 +2505,7 @@
   },
   "1245": {
     "key": 1245,
-    "name": "UnKnown",
+    "name": "Nopsae Angler's Point",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 128,
@@ -2873,7 +2873,7 @@
   },
   "1308": {
     "key": 1308,
-    "name": "UnKnown",
+    "name": "Hidden Bomnae Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -2913,7 +2913,7 @@
   },
   "1307": {
     "key": 1307,
-    "name": "UnKnown",
+    "name": "Yeowoo Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -3001,7 +3001,7 @@
   },
   "1232": {
     "key": 1232,
-    "name": "UnKnown",
+    "name": "Golden Pig Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 122,
@@ -3193,7 +3193,7 @@
   },
   "1239": {
     "key": 1239,
-    "name": "UnKnown",
+    "name": "Bomnae County",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 125,
@@ -3329,7 +3329,7 @@
   },
   "1297": {
     "key": 1297,
-    "name": "UnKnown",
+    "name": "Dokkebi Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -3449,7 +3449,7 @@
   },
   "1276": {
     "key": 1276,
-    "name": "UnKnown",
+    "name": "Beombawi Valley",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 130,
@@ -3609,7 +3609,7 @@
   },
   "1300": {
     "key": 1300,
-    "name": "UnKnown",
+    "name": "Nampo Sea",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -3673,7 +3673,7 @@
   },
   "1228": {
     "key": 1228,
-    "name": "UnKnown",
+    "name": "Solbaram Neowa House",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 119,
@@ -4081,7 +4081,7 @@
   },
   "1317": {
     "key": 1317,
-    "name": "UnKnown",
+    "name": "Beombawi Valley",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 130,
@@ -4249,7 +4249,7 @@
   },
   "1217": {
     "key": 1217,
-    "name": "UnKnown",
+    "name": "Shimnidae Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 116,
@@ -4361,7 +4361,7 @@
   },
   "1293": {
     "key": 1293,
-    "name": "UnKnown",
+    "name": "Nopsae Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -4505,7 +4505,7 @@
   },
   "1247": {
     "key": 1247,
-    "name": "UnKnown",
+    "name": "Nopsae Pass",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 128,
@@ -4553,7 +4553,7 @@
   },
   "1213": {
     "key": 1213,
-    "name": "UnKnown",
+    "name": "Honorable Choi House",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 114,
@@ -4593,7 +4593,7 @@
   },
   "1316": {
     "key": 1316,
-    "name": "UnKnown",
+    "name": "Nopsae Pass",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 128,
@@ -4625,7 +4625,7 @@
   },
   "1224": {
     "key": 1224,
-    "name": "UnKnown",
+    "name": "Ooldool Strait",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 118,
@@ -4825,7 +4825,7 @@
   },
   "1263": {
     "key": 1263,
-    "name": "UnKnown",
+    "name": "Shimnidae Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 116,
@@ -4841,7 +4841,7 @@
   },
   "1215": {
     "key": 1215,
-    "name": "UnKnown",
+    "name": "Hanji County",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 115,
@@ -4897,7 +4897,7 @@
   },
   "1271": {
     "key": 1271,
-    "name": "UnKnown",
+    "name": "Drybranch Village",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 124,
@@ -4921,7 +4921,7 @@
   },
   "1282": {
     "key": 1282,
-    "name": "UnKnown",
+    "name": "Shinsun Grotto",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -4969,7 +4969,7 @@
   },
   "1248": {
     "key": 1248,
-    "name": "UnKnown",
+    "name": "Stone Island",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 128,
@@ -5113,7 +5113,7 @@
   },
   "1309": {
     "key": 1309,
-    "name": "UnKnown",
+    "name": "Tiger Palace",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -5193,7 +5193,7 @@
   },
   "1211": {
     "key": 1211,
-    "name": "UnKnown",
+    "name": "Nampo's Moodle Village",
     "has_lodging": false,
     "is_accessible": 0,
     "regiongroup": 0,
@@ -5449,7 +5449,7 @@
   },
   "1314": {
     "key": 1314,
-    "name": "UnKnown",
+    "name": "Shimnidae Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 116,
@@ -5489,7 +5489,7 @@
   },
   "1273": {
     "key": 1273,
-    "name": "UnKnown",
+    "name": "Honglim Base",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 126,
@@ -5561,7 +5561,7 @@
   },
   "417": {
     "key": 417,
-    "name": "Soldiers' Cemetery",
+    "name": "Soldier's Cemetery",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 53,
@@ -5625,7 +5625,7 @@
   },
   "1222": {
     "key": 1222,
-    "name": "UnKnown",
+    "name": "Dami Pier",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 118,
@@ -5705,7 +5705,7 @@
   },
   "1303": {
     "key": 1303,
-    "name": "UnKnown",
+    "name": "Moon Grotto",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -5793,7 +5793,7 @@
   },
   "1294": {
     "key": 1294,
-    "name": "UnKnown",
+    "name": "Bari Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -5833,7 +5833,7 @@
   },
   "1254": {
     "key": 1254,
-    "name": "UnKnown",
+    "name": "Tiger Palace",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 130,
@@ -5889,7 +5889,7 @@
   },
   "1280": {
     "key": 1280,
-    "name": "UnKnown",
+    "name": "Solgaji Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -6185,7 +6185,7 @@
   },
   "1295": {
     "key": 1295,
-    "name": "UnKnown",
+    "name": "Haemo Coastal Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -6849,7 +6849,7 @@
   },
   "1288": {
     "key": 1288,
-    "name": "UnKnown",
+    "name": "Humid Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -6913,7 +6913,7 @@
   },
   "1223": {
     "key": 1223,
-    "name": "UnKnown",
+    "name": "Nampo",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 118,
@@ -6929,7 +6929,7 @@
   },
   "1283": {
     "key": 1283,
-    "name": "UnKnown",
+    "name": "Hanji Hollow",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -7065,7 +7065,7 @@
   },
   "1236": {
     "key": 1236,
-    "name": "UnKnown",
+    "name": "Dalim Village in Ruins",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 125,
@@ -7097,7 +7097,7 @@
   },
   "1265": {
     "key": 1265,
-    "name": "UnKnown",
+    "name": "Nampo's Moodle Village",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 118,
@@ -7185,7 +7185,7 @@
   },
   "1231": {
     "key": 1231,
-    "name": "UnKnown",
+    "name": "Dokkebi Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 121,
@@ -7225,7 +7225,7 @@
   },
   "1302": {
     "key": 1302,
-    "name": "UnKnown",
+    "name": "Hanji Shrine",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -7985,7 +7985,7 @@
   },
   "1281": {
     "key": 1281,
-    "name": "UnKnown",
+    "name": "Enlightenment Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -8041,7 +8041,7 @@
   },
   "1216": {
     "key": 1216,
-    "name": "UnKnown",
+    "name": "Ojukheon",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 116,
@@ -8065,7 +8065,7 @@
   },
   "1262": {
     "key": 1262,
-    "name": "UnKnown",
+    "name": "Hanji County",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 115,
@@ -8945,7 +8945,7 @@
   },
   "1292": {
     "key": 1292,
-    "name": "UnKnown",
+    "name": "Dalbeol Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -8953,7 +8953,7 @@
   },
   "1238": {
     "key": 1238,
-    "name": "UnKnown",
+    "name": "Bomnae County Beacon Tower",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 125,
@@ -9105,7 +9105,7 @@
   },
   "1209": {
     "key": 1209,
-    "name": "UnKnown",
+    "name": "Land of the Morning Light",
     "has_lodging": false,
     "is_accessible": 0,
     "regiongroup": 0,
@@ -9113,7 +9113,7 @@
   },
   "1210": {
     "key": 1210,
-    "name": "UnKnown",
+    "name": "Dalbeol Village",
     "has_lodging": true,
     "is_accessible": 1,
     "regiongroup": 114,
@@ -9121,7 +9121,7 @@
   },
   "1212": {
     "key": 1212,
-    "name": "UnKnown",
+    "name": "Dalbeol Office",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 114,
@@ -9129,7 +9129,7 @@
   },
   "1214": {
     "key": 1214,
-    "name": "UnKnown",
+    "name": "Shimhyangje",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 115,
@@ -9137,7 +9137,7 @@
   },
   "1218": {
     "key": 1218,
-    "name": "UnKnown",
+    "name": "Nampo Gate",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 117,
@@ -9145,7 +9145,7 @@
   },
   "1219": {
     "key": 1219,
-    "name": "UnKnown",
+    "name": "Nampo's Moodle Village",
     "has_lodging": true,
     "is_accessible": 1,
     "regiongroup": 118,
@@ -9153,7 +9153,7 @@
   },
   "1220": {
     "key": 1220,
-    "name": "UnKnown",
+    "name": "Nampo Shipyard",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 118,
@@ -9161,7 +9161,7 @@
   },
   "1221": {
     "key": 1221,
-    "name": "UnKnown",
+    "name": "Donghae Office",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 118,
@@ -9169,7 +9169,7 @@
   },
   "1225": {
     "key": 1225,
-    "name": "UnKnown",
+    "name": "Solgaji Forest Beacon Tower",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 119,
@@ -9177,7 +9177,7 @@
   },
   "1226": {
     "key": 1226,
-    "name": "UnKnown",
+    "name": "Solgaji Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 119,
@@ -9185,7 +9185,7 @@
   },
   "1227": {
     "key": 1227,
-    "name": "UnKnown",
+    "name": "Hamlet",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 119,
@@ -9193,7 +9193,7 @@
   },
   "1233": {
     "key": 1233,
-    "name": "UnKnown",
+    "name": "Old Crane's Home",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 122,
@@ -9201,7 +9201,7 @@
   },
   "1234": {
     "key": 1234,
-    "name": "UnKnown",
+    "name": "Sky Altar",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 122,
@@ -9209,7 +9209,7 @@
   },
   "1235": {
     "key": 1235,
-    "name": "UnKnown",
+    "name": "Gowun Plateau",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 123,
@@ -9217,7 +9217,7 @@
   },
   "1237": {
     "key": 1237,
-    "name": "UnKnown",
+    "name": "Drybranch Village",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 124,
@@ -9225,7 +9225,7 @@
   },
   "1240": {
     "key": 1240,
-    "name": "UnKnown",
+    "name": "Honglim Base",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 126,
@@ -9233,7 +9233,7 @@
   },
   "1243": {
     "key": 1243,
-    "name": "UnKnown",
+    "name": "Dallae Pier",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 128,
@@ -9241,7 +9241,7 @@
   },
   "1244": {
     "key": 1244,
-    "name": "UnKnown",
+    "name": "Rosebay School",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 128,
@@ -9249,7 +9249,7 @@
   },
   "1246": {
     "key": 1246,
-    "name": "UnKnown",
+    "name": "Nopsae's Byeot County",
     "has_lodging": true,
     "is_accessible": 1,
     "regiongroup": 128,
@@ -9257,7 +9257,7 @@
   },
   "1255": {
     "key": 1255,
-    "name": "UnKnown",
+    "name": "Beombawi Valley",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 130,
@@ -9265,7 +9265,7 @@
   },
   "1249": {
     "key": 1249,
-    "name": "UnKnown",
+    "name": "Birigongdeoks' Home",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 129,
@@ -9273,7 +9273,7 @@
   },
   "1250": {
     "key": 1250,
-    "name": "UnKnown",
+    "name": "Bari Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 129,
@@ -9281,7 +9281,7 @@
   },
   "1251": {
     "key": 1251,
-    "name": "UnKnown",
+    "name": "Old Owl's Home",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 130,
@@ -9289,7 +9289,7 @@
   },
   "1252": {
     "key": 1252,
-    "name": "UnKnown",
+    "name": "Beombawi Tavern",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 130,
@@ -9305,7 +9305,7 @@
   },
   "1253": {
     "key": 1253,
-    "name": "UnKnown",
+    "name": "Tigerslayers Base",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 130,
@@ -9313,7 +9313,7 @@
   },
   "1315": {
     "key": 1315,
-    "name": "UnKnown",
+    "name": "Solgaji Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 119,
@@ -9321,7 +9321,7 @@
   },
   "1256": {
     "key": 1256,
-    "name": "UnKnown",
+    "name": "Beombawi Gate",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 131,
@@ -9329,7 +9329,7 @@
   },
   "1257": {
     "key": 1257,
-    "name": "UnKnown",
+    "name": "Haemo Island",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 132,
@@ -9337,7 +9337,7 @@
   },
   "1259": {
     "key": 1259,
-    "name": "UnKnown",
+    "name": "Byukgye Island",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 133,
@@ -9345,7 +9345,7 @@
   },
   "1260": {
     "key": 1260,
-    "name": "UnKnown",
+    "name": "Land of the Morning Light",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9353,7 +9353,7 @@
   },
   "1261": {
     "key": 1261,
-    "name": "UnKnown",
+    "name": "Shimnidae Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9361,7 +9361,7 @@
   },
   "1266": {
     "key": 1266,
-    "name": "UnKnown",
+    "name": "Solgaji Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 119,
@@ -9369,7 +9369,7 @@
   },
   "1267": {
     "key": 1267,
-    "name": "UnKnown",
+    "name": "Cheongsan Institute",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 120,
@@ -9377,7 +9377,7 @@
   },
   "1268": {
     "key": 1268,
-    "name": "UnKnown",
+    "name": "Dokkebi Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 121,
@@ -9385,7 +9385,7 @@
   },
   "1269": {
     "key": 1269,
-    "name": "UnKnown",
+    "name": "Golden Pig Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 122,
@@ -9393,7 +9393,7 @@
   },
   "1272": {
     "key": 1272,
-    "name": "UnKnown",
+    "name": "Bomnae County",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 125,
@@ -9401,7 +9401,7 @@
   },
   "1274": {
     "key": 1274,
-    "name": "UnKnown",
+    "name": "Nopsae Pass",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 128,
@@ -9409,7 +9409,7 @@
   },
   "1275": {
     "key": 1275,
-    "name": "UnKnown",
+    "name": "Bari Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 129,
@@ -9417,7 +9417,7 @@
   },
   "1277": {
     "key": 1277,
-    "name": "UnKnown",
+    "name": "Beombawi Gate",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 131,
@@ -9425,7 +9425,7 @@
   },
   "1278": {
     "key": 1278,
-    "name": "UnKnown",
+    "name": "Haemo Island",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 132,
@@ -9433,7 +9433,7 @@
   },
   "1279": {
     "key": 1279,
-    "name": "UnKnown",
+    "name": "Shimnidae Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9441,7 +9441,7 @@
   },
   "1284": {
     "key": 1284,
-    "name": "UnKnown",
+    "name": "Ooldool Coastal Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9449,7 +9449,7 @@
   },
   "1285": {
     "key": 1285,
-    "name": "UnKnown",
+    "name": "Bomnae Coastal Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9457,7 +9457,7 @@
   },
   "1286": {
     "key": 1286,
-    "name": "UnKnown",
+    "name": "Small Yeowoo Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9465,7 +9465,7 @@
   },
   "1289": {
     "key": 1289,
-    "name": "UnKnown",
+    "name": "Young Tiger's Den",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9473,7 +9473,7 @@
   },
   "1296": {
     "key": 1296,
-    "name": "UnKnown",
+    "name": "Seagrace Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9481,7 +9481,7 @@
   },
   "1298": {
     "key": 1298,
-    "name": "UnKnown",
+    "name": "Dokkebi Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9489,7 +9489,7 @@
   },
   "1299": {
     "key": 1299,
-    "name": "UnKnown",
+    "name": "Dokkebi Altar",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9497,7 +9497,7 @@
   },
   "1301": {
     "key": 1301,
-    "name": "UnKnown",
+    "name": "Nopsae Sea",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9505,7 +9505,7 @@
   },
   "1304": {
     "key": 1304,
-    "name": "UnKnown",
+    "name": "Golden Pig Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9513,7 +9513,7 @@
   },
   "1305": {
     "key": 1305,
-    "name": "UnKnown",
+    "name": "Honglim Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9521,7 +9521,7 @@
   },
   "1306": {
     "key": 1306,
-    "name": "UnKnown",
+    "name": "Yeowoo Den",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9529,7 +9529,7 @@
   },
   "1310": {
     "key": 1310,
-    "name": "UnKnown",
+    "name": "Beombawi Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9537,7 +9537,7 @@
   },
   "1311": {
     "key": 1311,
-    "name": "UnKnown",
+    "name": "Beombawi Grotto",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9545,7 +9545,7 @@
   },
   "1312": {
     "key": 1312,
-    "name": "UnKnown",
+    "name": "Land of the Morning Light",
     "has_lodging": false,
     "is_accessible": 0,
     "regiongroup": 134,
@@ -9553,7 +9553,7 @@
   },
   "1313": {
     "key": 1313,
-    "name": "UnKnown",
+    "name": "Hanji County",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 115,
@@ -9561,7 +9561,7 @@
   },
   "1318": {
     "key": 1318,
-    "name": "UnKnown",
+    "name": "Bari Forest",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 129,
@@ -9569,7 +9569,7 @@
   },
   "1319": {
     "key": 1319,
-    "name": "UnKnown",
+    "name": "Chief's Home",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 118,
@@ -9577,7 +9577,7 @@
   },
   "1320": {
     "key": 1320,
-    "name": "UnKnown",
+    "name": "Oduksini's Domain",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,
@@ -9585,7 +9585,7 @@
   },
   "1321": {
     "key": 1321,
-    "name": "UnKnown",
+    "name": "Golden Pig Cave",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 113,

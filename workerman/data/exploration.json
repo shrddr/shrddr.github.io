@@ -13662,21 +13662,5 @@
     "is_planttown": false,
     "is_hidden": false,
     "is_plantzone": true
-  },
-  "1831": {
-    "key": 1831,
-    "pos": {
-      "x": -48835.6,
-      "y": -7579.59,
-      "z": 75968.2
-    },
-    "kind": 15,
-    "CP": 1,
-    "name": "UnKnown",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_hidden": false,
-    "is_plantzone": false
   }
 }
