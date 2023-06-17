@@ -5,12 +5,12 @@
     "luck": 50000,
     "stamina": 8,
     "species": 6,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8046": {
     "wspd": 115000000,
@@ -18,12 +18,12 @@
     "luck": 60000,
     "stamina": 15,
     "species": 6,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8045": {
     "wspd": 115000000,
@@ -31,12 +31,12 @@
     "luck": 60000,
     "stamina": 15,
     "species": 0,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8044": {
     "wspd": 115000000,
@@ -44,12 +44,12 @@
     "luck": 60000,
     "stamina": 15,
     "species": 0,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8043": {
     "wspd": 85000000,
@@ -213,12 +213,12 @@
     "luck": 60000,
     "stamina": 15,
     "species": 0,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8059": {
     "wspd": 115000000,
@@ -226,12 +226,12 @@
     "luck": 60000,
     "stamina": 15,
     "species": 0,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8058": {
     "wspd": 85000000,
@@ -239,12 +239,12 @@
     "luck": 60000,
     "stamina": 40,
     "species": 8,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8057": {
     "wspd": 70000000,
@@ -252,12 +252,12 @@
     "luck": 55000,
     "stamina": 30,
     "species": 8,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8056": {
     "wspd": 55000000,
@@ -265,12 +265,12 @@
     "luck": 50000,
     "stamina": 25,
     "species": 8,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8055": {
     "wspd": 40000000,
@@ -278,12 +278,12 @@
     "luck": 50000,
     "stamina": 25,
     "species": 8,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8054": {
     "wspd": 85000000,
@@ -291,12 +291,12 @@
     "luck": 200000,
     "stamina": 23,
     "species": 7,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8053": {
     "wspd": 70000000,
@@ -304,12 +304,12 @@
     "luck": 190000,
     "stamina": 20,
     "species": 7,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8052": {
     "wspd": 50000000,
@@ -317,12 +317,12 @@
     "luck": 180000,
     "stamina": 17,
     "species": 7,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8051": {
     "wspd": 40000000,
@@ -330,12 +330,12 @@
     "luck": 130000,
     "stamina": 17,
     "species": 7,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8050": {
     "wspd": 115000000,
@@ -343,12 +343,12 @@
     "luck": 60000,
     "stamina": 15,
     "species": 6,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8049": {
     "wspd": 90000000,
@@ -356,12 +356,12 @@
     "luck": 55000,
     "stamina": 10,
     "species": 6,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8048": {
     "wspd": 65000000,
@@ -369,12 +369,12 @@
     "luck": 50000,
     "stamina": 8,
     "species": 6,
-    "wspd_lo": 1,
-    "wspd_hi": 1,
-    "mspd_lo": 1,
-    "mspd_hi": 1,
-    "luck_lo": 1,
-    "luck_hi": 1
+    "wspd_lo": 100000,
+    "wspd_hi": 200000,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 1000,
+    "luck_hi": 2000
   },
   "8014": {
     "wspd": 55000000,
@@ -726,19 +726,6 @@
     "luck_hi": 2500,
     "wspd_lo": 100000,
     "wspd_hi": 430000
-  },
-  "7995": {
-    "wspd": 25000000,
-    "mspd": 250,
-    "luck": 0,
-    "stamina": 10,
-    "species": 2,
-    "mspd_lo": 1,
-    "mspd_hi": 6,
-    "luck_lo": 0,
-    "luck_hi": 0,
-    "wspd_lo": 50000,
-    "wspd_hi": 250000
   },
   "7631": {
     "wspd": 75000000,
@@ -1172,7 +1159,7 @@
   "7573": {
     "wspd": 85000000,
     "mspd": 300,
-    "luck": 230000,
+    "luck": 200000,
     "stamina": 23,
     "species": 1,
     "mspd_lo": 10000,
@@ -1246,19 +1233,6 @@
     "luck_hi": 2500,
     "wspd_lo": 100000,
     "wspd_hi": 640000
-  },
-  "7501": {
-    "wspd": 25000000,
-    "mspd": 150,
-    "luck": 0,
-    "stamina": 10,
-    "species": 2,
-    "mspd_lo": 10000,
-    "mspd_hi": 20000,
-    "luck_lo": 0,
-    "luck_hi": 0,
-    "wspd_lo": 50000,
-    "wspd_hi": 270000
   },
   "7507": {
     "wspd": 25000000,
