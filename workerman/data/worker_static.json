@@ -241,7 +241,7 @@
     "species": 8,
     "wspd_lo": 100000,
     "mspd_lo": 10000,
-    "luck_lo": 750,
+    "luck_lo": 500,
     "wspd_hi": 1000000,
     "mspd_hi": 24000,
     "luck_hi": 3000
@@ -346,8 +346,8 @@
     "wspd_lo": 100000,
     "mspd_lo": 10000,
     "luck_lo": 500,
-    "wspd_hi": 1000000,
-    "mspd_hi": 24000,
+    "wspd_hi": 1800000,
+    "mspd_hi": 25000,
     "luck_hi": 3000
   },
   "8049": {
@@ -359,8 +359,8 @@
     "wspd_lo": 100000,
     "mspd_lo": 10000,
     "luck_lo": 500,
-    "wspd_hi": 1420000,
-    "mspd_hi": 30000,
+    "wspd_hi": 1300000,
+    "mspd_hi": 25000,
     "luck_hi": 3000
   },
   "8048": {
@@ -374,7 +374,7 @@
     "luck_lo": 500,
     "wspd_hi": 1400000,
     "mspd_hi": 25000,
-    "luck_hi": 3800
+    "luck_hi": 3000
   },
   "8014": {
     "wspd": 55000000,
