@@ -13662,5 +13662,37 @@
     "is_planttown": false,
     "is_hidden": false,
     "is_plantzone": true
+  },
+  "1832": {
+    "key": 1832,
+    "pos": {
+      "x": -994803.0,
+      "y": -7819.19,
+      "z": 1341090.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "<no translation>",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1833": {
+    "key": 1833,
+    "pos": {
+      "x": -1002290.0,
+      "y": -7680.98,
+      "z": 1340590.0
+    },
+    "kind": 15,
+    "CP": 1,
+    "name": "<no translation>",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
   }
 }

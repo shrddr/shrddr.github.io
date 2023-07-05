@@ -3436,6 +3436,48 @@
     "regiongroup": 202,
     "parent": 1301
   },
+  "1833": {
+    "key": 1833,
+    "node": {
+      "key": 1833,
+      "pos": {
+        "x": -1002290.0,
+        "y": -7680.98,
+        "z": 1340590.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "<no translation>",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1833,
+      "time": 4000,
+      "subgroup": {
+        "key": 44055,
+        "drops": [
+          8027,
+          8028,
+          8029,
+          8030,
+          8022,
+          820138
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41112,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 128,
+    "parent": 1832
+  },
   "1830": {
     "key": 1830,
     "node": {
