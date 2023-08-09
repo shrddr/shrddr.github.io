@@ -727,6 +727,19 @@
     "wspd_lo": 100000,
     "wspd_hi": 430000
   },
+  "7995": {
+    "wspd": 25000000,
+    "mspd": 250,
+    "luck": 0,
+    "stamina": 10,
+    "species": 2,
+    "mspd_lo": 1,
+    "mspd_hi": 6,
+    "luck_lo": 0,
+    "luck_hi": 1,
+    "wspd_lo": 50000,
+    "wspd_hi": 250000
+  },
   "7631": {
     "wspd": 75000000,
     "mspd": 350,
@@ -1233,6 +1246,19 @@
     "luck_hi": 2500,
     "wspd_lo": 100000,
     "wspd_hi": 640000
+  },
+  "7501": {
+    "wspd": 25000000,
+    "mspd": 150,
+    "luck": 0,
+    "stamina": 10,
+    "species": 2,
+    "mspd_lo": 10000,
+    "mspd_hi": 20000,
+    "luck_lo": 0,
+    "luck_hi": 1,
+    "wspd_lo": 50000,
+    "wspd_hi": 270000
   },
   "7507": {
     "wspd": 25000000,
