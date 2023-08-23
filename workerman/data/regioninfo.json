@@ -543,6 +543,14 @@
     "regiongroup": 218,
     "waypoint": 1428
   },
+  "1350": {
+    "key": 1350,
+    "name": "Tungrad Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 139,
+    "waypoint": 1838
+  },
   "18": {
     "key": 18,
     "name": "Loggia Farm",
@@ -2209,9 +2217,9 @@
   },
   "1345": {
     "key": 1345,
-    "name": "UnKnown",
+    "name": "Sea Palace",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 125,
     "waypoint": 0
   },
@@ -2287,6 +2295,14 @@
     "regiongroup": 101,
     "waypoint": 1022
   },
+  "1352": {
+    "key": 1352,
+    "name": "Junaid River Border Post",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 135,
+    "waypoint": 0
+  },
   "335": {
     "key": 335,
     "name": "Shuri Farm",
@@ -2337,7 +2353,7 @@
   },
   "209": {
     "key": 209,
-    "name": "Asula Highland",
+    "name": "Asula Highlands",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 54,
@@ -3641,11 +3657,11 @@
   },
   "218": {
     "key": 218,
-    "name": "Boing Valley",
+    "name": "Asparkan",
     "has_lodging": false,
-    "is_accessible": 0,
-    "regiongroup": 0,
-    "waypoint": 0
+    "is_accessible": 1,
+    "regiongroup": 135,
+    "waypoint": 1834
   },
   "272": {
     "key": 272,
@@ -4279,6 +4295,14 @@
     "regiongroup": 44,
     "waypoint": 663
   },
+  "1364": {
+    "key": 1364,
+    "name": "Tomb of Forgotten Records",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 139,
+    "waypoint": 0
+  },
   "275": {
     "key": 275,
     "name": "Gianin Farm",
@@ -4385,7 +4409,7 @@
   },
   "536": {
     "key": 536,
-    "name": "Asula Highland",
+    "name": "Asula Highlands",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 54,
@@ -4751,6 +4775,14 @@
     "regiongroup": 31,
     "waypoint": 963
   },
+  "1366": {
+    "key": 1366,
+    "name": "Cave of Lament",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 138,
+    "waypoint": 0
+  },
   "313": {
     "key": 313,
     "name": "Bernianto Farm",
@@ -4758,6 +4790,14 @@
     "is_accessible": 1,
     "regiongroup": 34,
     "waypoint": 638
+  },
+  "1363": {
+    "key": 1363,
+    "name": "Tungrad Ruins",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 139,
+    "waypoint": 0
   },
   "378": {
     "key": 378,
@@ -5343,6 +5383,14 @@
     "regiongroup": 177,
     "waypoint": 0
   },
+  "1355": {
+    "key": 1355,
+    "name": "City of the Dead",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 138,
+    "waypoint": 0
+  },
   "386": {
     "key": 386,
     "name": "Pilava Island",
@@ -5357,6 +5405,14 @@
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 44,
+    "waypoint": 0
+  },
+  "1371": {
+    "key": 1371,
+    "name": "Kermelun Wilds",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 139,
     "waypoint": 0
   },
   "388": {
@@ -5438,6 +5494,14 @@
     "is_accessible": 1,
     "regiongroup": 107,
     "waypoint": 1070
+  },
+  "1349": {
+    "key": 1349,
+    "name": "City of the Dead",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 138,
+    "waypoint": 1837
   },
   "400": {
     "key": 400,
@@ -6527,6 +6591,14 @@
     "regiongroup": 72,
     "waypoint": 0
   },
+  "1373": {
+    "key": 1373,
+    "name": "Secirtash Prison",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 138,
+    "waypoint": 0
+  },
   "623": {
     "key": 623,
     "name": "Titium Valley",
@@ -6781,6 +6853,14 @@
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 203,
+    "waypoint": 0
+  },
+  "1353": {
+    "key": 1353,
+    "name": "Asparkan Bridge",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 135,
     "waypoint": 0
   },
   "659": {
@@ -7607,6 +7687,14 @@
     "regiongroup": 218,
     "waypoint": 1452
   },
+  "1369": {
+    "key": 1369,
+    "name": "Neruda Plain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 135,
+    "waypoint": 0
+  },
   "876": {
     "key": 876,
     "name": "Blood Wolf Settlement",
@@ -8270,6 +8358,14 @@
     "is_accessible": 1,
     "regiongroup": 197,
     "waypoint": 1743
+  },
+  "1365": {
+    "key": 1365,
+    "name": "Corpus Tomb",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 138,
+    "waypoint": 0
   },
   "1026": {
     "key": 1026,
@@ -9693,6 +9789,134 @@
     "has_lodging": false,
     "is_accessible": 0,
     "regiongroup": 217,
+    "waypoint": 0
+  },
+  "1346": {
+    "key": 1346,
+    "name": "Sea Palace",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 125,
+    "waypoint": 0
+  },
+  "1347": {
+    "key": 1347,
+    "name": "Atessahra",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 136,
+    "waypoint": 1835
+  },
+  "1348": {
+    "key": 1348,
+    "name": "Sezec Mercenary Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 137,
+    "waypoint": 1836
+  },
+  "1351": {
+    "key": 1351,
+    "name": "Asparkan Work Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 135,
+    "waypoint": 0
+  },
+  "1354": {
+    "key": 1354,
+    "name": "Tremorin Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 138,
+    "waypoint": 1841
+  },
+  "1356": {
+    "key": 1356,
+    "name": "Kermelun Wilds",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 139,
+    "waypoint": 1842
+  },
+  "1357": {
+    "key": 1357,
+    "name": "Tomb of Forgotten Records",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 139,
+    "waypoint": 0
+  },
+  "1358": {
+    "key": 1358,
+    "name": "Asparkan",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 135,
+    "waypoint": 0
+  },
+  "1359": {
+    "key": 1359,
+    "name": "Asparkan",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 135,
+    "waypoint": 0
+  },
+  "1360": {
+    "key": 1360,
+    "name": "City of the Dead",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 138,
+    "waypoint": 0
+  },
+  "1361": {
+    "key": 1361,
+    "name": "Atessahra",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 136,
+    "waypoint": 0
+  },
+  "1362": {
+    "key": 1362,
+    "name": "Sezec Mercenary Camp",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 137,
+    "waypoint": 0
+  },
+  "1367": {
+    "key": 1367,
+    "name": "Neruda Plain",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 135,
+    "waypoint": 1840
+  },
+  "1368": {
+    "key": 1368,
+    "name": "Junaid River",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 135,
+    "waypoint": 0
+  },
+  "1370": {
+    "key": 1370,
+    "name": "Tremorin Hill",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 138,
+    "waypoint": 0
+  },
+  "1372": {
+    "key": 1372,
+    "name": "Junaid River",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 135,
     "waypoint": 0
   }
 }
