@@ -150,14 +150,14 @@ function tryGeocode(engine, n, addr, next) {
 	//console.log('Trying ' + engine + ' for line ' + n + ' addr: ' + addr);
 	var server, params = { q: addr };
 	if( engine == 'osmru' ) {
-		server = 'http://openstreetmap.ru/api/search';
+		server = 'https://openstreetmap.ru/api/search';
 	} else if( engine == 'nominatim' ) {
-		server = 'http://open.mapquestapi.com/nominatim/v1/search.php';
+		server = 'https://open.mapquestapi.com/nominatim/v1/search.php';
 		params['format'] = 'json';
 		params['viewbox'] = [bounds.getWest(), bounds.getNorth(), bounds.getEast(), bounds.getSouth()].join(',');
 		params['bounded'] = 1;
 	} else if( engine == 'sputnik' ) {
-		server = 'http://search.maps.sputnik.ru/search';
+		server = 'https://search.maps.sputnik.ru/search';
 		params['vlat'] = bounds.getCenter().lat;
 		params['vlon'] = bounds.getCenter().lng;
 	} else {
