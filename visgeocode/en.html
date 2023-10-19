@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Visual Geocoding</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="Edit.SimpleShape.js"></script>
+<script src="Edit.Rectangle.js"></script>
+<script src="FunctionButton.js"></script>
+<script src="visgeocode.js"></script>
+<style>
+html, body { height: 100%; }
+#map { height: 400px; }
+#meters { position: absolute; bottom: 10px; left: 10px; background: white; padding: 3px 6px; z-index: 999; font-size: 10px; display: none; }
+#objdata { position: absolute; bottom: 35px; left: 10px; background: white; padding: 3px 6px; z-index: 999; display: none; }
+</style>
+</head>
+<body>
+
+<div id="form">
+<div>CSV file with ";" as a separator. First line should be a header, address should be either in "address" or "addr" column, or in the first column. Or you can paste a saved GeoJSON here.</div>
+<textarea id="text" cols="80" rows="10">address;built
+</textarea><br>
+City: <input type="text" id="city" size="60" value=""><br>
+<input type="button" value="Start geocoding" onclick="geocode();">
+<p>A rectangle that contains all points from the list. Missing addresses would be placed at the south border. After geocoding, double-click on the frame to toggle its editing. Double-clicking a building contour would revert it to a marker.</p>
+</div>
+<div id="map"></div>
+<div id="meters"></div>
+<div id="objdata"></div>
+
+<script type="text/javascript">
+window.visgeocode.findbuildings = 'http://tile.osmz.ru/cgi-bin/findbuildings.py';
+window.visgeocode.bbox = [26, 58, 31, 60];
+window.visgeocode.geocode = function(n, addr, city) {
+	tryGeocode('nominatim', n, addr + ' ' + city);
+}
+</script>
+</body>
+</html>
