@@ -674,6 +674,30 @@
       "0": 1
     }
   },
+  "3846": {
+    "key": 3846,
+    "name": "<no translation>",
+    "CP": 1,
+    "parentNode": 1843,
+    "affTown": 1375,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "0": 1
+    }
+  },
+  "3845": {
+    "key": 3845,
+    "name": "<no translation>",
+    "CP": 1,
+    "parentNode": 1843,
+    "affTown": 1375,
+    "needHouseKey": 0,
+    "CraftList": {
+      "2": 5,
+      "0": 1
+    }
+  },
   "3844": {
     "key": 3844,
     "name": "Solbaram Neowa House",

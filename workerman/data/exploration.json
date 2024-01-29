@@ -120,7 +120,7 @@
     },
     "kind": 1,
     "CP": 1,
-    "name": "\uc11c\ubd80 \uacbd\ube44\ucea0\ud504",
+    "name": "\uc11c\ubd80 \uacbd\ube44 \ucea0\ud504",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": true,
@@ -184,7 +184,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "\ubc1c\ub808\ub178\uc2a4\uac15 \uc5b4\uadc0",
+    "name": "\ubc1c\ub808\ub178\uc2a4 \uac15 \uc5b4\uadc0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -232,7 +232,23 @@
     },
     "kind": 9,
     "CP": 2,
-    "name": "\ud06c\ub860\uc131",
+    "name": "\ud06c\ub860 \uc131",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1849": {
+    "key": 1849,
+    "pos": {
+      "x": 411728.0,
+      "y": 9415.27,
+      "z": -371625.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "UnKnown",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -968,7 +984,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "\ud06c\ub860\uc131\ud130",
+    "name": "\ud06c\ub860 \uc131\ud130",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -1288,7 +1304,7 @@
     },
     "kind": 0,
     "CP": 2,
-    "name": "\uad6c\ubd84 \uc9d3\ub294 \uc0b0",
+    "name": "\uad6c\ubd84\uc9d3\ub294 \uc0b0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -1807,6 +1823,22 @@
     "is_hidden": false,
     "is_plantzone": true
   },
+  "1845": {
+    "key": 1845,
+    "pos": {
+      "x": 301031.0,
+      "y": 16722.6,
+      "z": -399660.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "UnKnown",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
   "471": {
     "key": 471,
     "pos": {
@@ -2110,6 +2142,22 @@
     "is_planttown": false,
     "is_hidden": false,
     "is_plantzone": true
+  },
+  "1847": {
+    "key": 1847,
+    "pos": {
+      "x": 448063.0,
+      "y": 4112.27,
+      "z": -314751.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "\uce74\ub974\uc544\uc26c \ud611\uace1",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
   },
   "142": {
     "key": 142,
@@ -2904,7 +2952,7 @@
     },
     "kind": 3,
     "CP": 3,
-    "name": "\ubd81\ubd80 \uacbd\ube44\ucea0\ud504",
+    "name": "\ubd81\ubd80 \uacbd\ube44 \ucea0\ud504",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -3480,7 +3528,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "\uace0\ub974\uace0 \uc554\uc11d\uc9c0\ub300",
+    "name": "\uace0\ub974\uace0 \uc554\uc11d \uc9c0\ub300",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -4127,6 +4175,22 @@
     "is_hidden": false,
     "is_plantzone": false
   },
+  "1846": {
+    "key": 1846,
+    "pos": {
+      "x": 391902.0,
+      "y": 11164.3,
+      "z": -283834.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "\uc5b4\ub460 \ucd94\uc885\uc790 \uce68\uc18c",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
   "464": {
     "key": 464,
     "pos": {
@@ -4632,7 +4696,7 @@
     },
     "kind": 1,
     "CP": 1,
-    "name": "\ub808\ub9c8\uc12c",
+    "name": "\ub808\ub9c8 \uc12c",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": true,
@@ -4984,7 +5048,7 @@
     },
     "kind": 3,
     "CP": 3,
-    "name": "\ud2b8\ub864 \ubc29\uc5b4\uae30\uc9c0",
+    "name": "\ud2b8\ub864 \ubc29\uc5b4 \uae30\uc9c0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -5080,7 +5144,7 @@
     },
     "kind": 3,
     "CP": 3,
-    "name": "\ub378\ud398 \uc804\uc9c4\uae30\uc9c0",
+    "name": "\ub378\ud398 \uc804\uc9c4 \uae30\uc9c0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -5160,7 +5224,7 @@
     },
     "kind": 1,
     "CP": 2,
-    "name": "\ubd81\ubd80 \ubc00\ub18d\uc7a5",
+    "name": "\ubd81\ubd80 \ubc00 \ub18d\uc7a5",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
@@ -5631,6 +5695,22 @@
     "is_hidden": false,
     "is_plantzone": false
   },
+  "1848": {
+    "key": 1848,
+    "pos": {
+      "x": 501095.0,
+      "y": -942.739,
+      "z": -308334.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "\ubc14\ub974\ud55c \ucea0\ud504",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
   "659": {
     "key": 659,
     "pos": {
@@ -5784,7 +5864,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "\uac00\ube44\ub0d0 \ud654\uc0b0\uc9c0\ub300",
+    "name": "\uac00\ube44\ub0d0 \ud654\uc0b0 \uc9c0\ub300",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -5852,6 +5932,22 @@
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1850": {
+    "key": 1850,
+    "pos": {
+      "x": 385844.0,
+      "y": 16298.9,
+      "z": -391792.0
+    },
+    "kind": 1,
+    "CP": 0,
+    "name": "UnKnown",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": true,
     "is_hidden": false,
     "is_plantzone": false
   },
@@ -6040,7 +6136,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "\ubca0\uc5b4\uac15 \uc218\uc6d0\uc9c0",
+    "name": "\ubca0\uc5b4 \uac15 \uc218\uc6d0\uc9c0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -6056,7 +6152,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "\ub8e8\ud23c \uac10\uc2dc\ucd08\uc18c",
+    "name": "\ub8e8\ud23c \uac10\uc2dc \ucd08\uc18c",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -6488,7 +6584,7 @@
     },
     "kind": 0,
     "CP": 3,
-    "name": "\ubca0\uc5b4\uac15 \ud558\ub958",
+    "name": "\ubca0\uc5b4 \uac15 \ud558\ub958",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -6936,7 +7032,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "\ubd81\ubd80 \ubc00\ub18d\uc7a5 \uc548\uc804\uc9c0\ub300",
+    "name": "\ubd81\ubd80 \ubc00 \ub18d\uc7a5 \uc548\uc804\uc9c0\ub300",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -7570,13 +7666,13 @@
   "1002": {
     "key": 1002,
     "pos": {
-      "x": 157320.0,
-      "y": -8008.3,
-      "z": 290939.0
+      "x": 153562.0,
+      "y": -8150.0,
+      "z": 289760.0
     },
     "kind": 1,
     "CP": 0,
-    "name": "\uc77c\ub9ac\uc57c\uc12c",
+    "name": "\uc77c\ub9ac\uc57c \uc12c",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
@@ -8488,7 +8584,7 @@
     },
     "kind": 5,
     "CP": 1,
-    "name": "\ub3cc\uaf2c\ub9ac \uc5b8\ub355 \ub9d0\ubaa9\uc7a5",
+    "name": "\ub3cc\uaf2c\ub9ac \uc5b8\ub355 \ub9d0 \ubaa9\uc7a5",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": false,
@@ -9624,7 +9720,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "\ud0a4\uc2ac\ub9ac\ube0c \uc554\uc11d\uc9c0\ub300",
+    "name": "\ud0a4\uc2ac\ub9ac\ube0c \uc554\uc11d \uc9c0\ub300",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -9810,11 +9906,11 @@
   "1692": {
     "key": 1692,
     "pos": {
-      "x": -228034.0,
-      "y": -8150.0,
-      "z": -636031.0
+      "x": -296815.0,
+      "y": -5314.39,
+      "z": -645118.0
     },
-    "kind": 0,
+    "kind": 3,
     "CP": 1,
     "name": "\uc624\ub51c\ub9ac\ud0c0 \uc131",
     "is_main": 1,
@@ -10600,7 +10696,7 @@
     },
     "kind": 0,
     "CP": 2,
-    "name": "\uce7c\ub0a0\ud611\ub85c",
+    "name": "\uce7c\ub0a0 \ud611\ub85c",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -10952,7 +11048,7 @@
     },
     "kind": 3,
     "CP": 3,
-    "name": "\ub9c8\ub974\ucc28 \uc804\ucd08\uae30\uc9c0",
+    "name": "\ub9c8\ub974\ucc28 \uc804\ucd08 \uae30\uc9c0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -11634,13 +11730,13 @@
   "1615": {
     "key": 1615,
     "pos": {
-      "x": -552073.0,
-      "y": 476.525,
-      "z": -510788.0
+      "x": -547882.0,
+      "y": -5478.63,
+      "z": -559954.0
     },
-    "kind": 0,
+    "kind": 3,
     "CP": 2,
-    "name": "\uce74\ub9c8\uc2e4\ube44\uc544 \uc11c\ub0a8\ubd80",
+    "name": "\uce74\ub9c8\uc2e4\ube44\uc544 \uc131",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -11944,7 +12040,7 @@
     },
     "kind": 3,
     "CP": 2,
-    "name": "\uc544\ud788\ube0c \ubd84\uc7c1\uc9c0\uc5ed",
+    "name": "\uc544\ud788\ube0c \ubd84\uc7c1 \uc9c0\uc5ed",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12434,13 +12530,13 @@
   "1699": {
     "key": 1699,
     "pos": {
-      "x": -303950.0,
-      "y": -5401.42,
-      "z": -626938.0
+      "x": -301109.0,
+      "y": -5349.6,
+      "z": -625374.0
     },
     "kind": 0,
     "CP": 2,
-    "name": "\uac00\uc2dc\ub098\ubb34 \uc131",
+    "name": "\uc624\ub51c\ub9ac\ud0c0 \uc131 \uc9c4\uc785\ub85c",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -12920,7 +13016,7 @@
     },
     "kind": 0,
     "CP": 2,
-    "name": "\ub9c8\uc2a4\ub780\uc758 \uc728\ub77c\uc2a4 \uc720\uc790\ub18d\uc7a5",
+    "name": "\ub9c8\uc2a4\ub780\uc758 \uc728\ub77c\uc2a4 \uc720\uc790 \ub18d\uc7a5",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -13224,7 +13320,7 @@
     },
     "kind": 1,
     "CP": 0,
-    "name": "\ub2ec\ubc8c\ub9c8\uc744",
+    "name": "\ub2ec\ubc8c \ub9c8\uc744",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
@@ -13272,7 +13368,7 @@
     },
     "kind": 2,
     "CP": 0,
-    "name": "\ub0a8\ud3ec \ubb34\ub4e4\ub9c8\uc744",
+    "name": "\ub0a8\ud3ec \ubb34\ub4e4 \ub9c8\uc744",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
@@ -13368,7 +13464,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "\uc5ec\uc6b0\uace0\uac1c",
+    "name": "\uc5ec\uc6b0 \uace0\uac1c",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -13384,7 +13480,7 @@
     },
     "kind": 1,
     "CP": 0,
-    "name": "\ub192\uc0c8 \ubccf\uace8\ub9c8\uc744",
+    "name": "\ub192\uc0c8 \ubccf\uace8 \ub9c8\uc744",
     "is_main": 1,
     "has_lodging": true,
     "is_planttown": true,
@@ -13432,7 +13528,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "\ud574\ubaa8\uc12c",
+    "name": "\ud574\ubaa8 \uc12c",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -13448,7 +13544,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "\ubcbd\uacc4\uc12c",
+    "name": "\ubcbd\uacc4 \uc12c",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -13801,6 +13897,54 @@
     "kind": 0,
     "CP": 1,
     "name": "\ud2b8\ub808\ubaa8 \uc5b8\ub355",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1843": {
+    "key": 1843,
+    "pos": {
+      "x": 360019.0,
+      "y": 466.708,
+      "z": -317836.0
+    },
+    "kind": 1,
+    "CP": 0,
+    "name": "\ubb34\uc988\uac00\ub974",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": true,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1844": {
+    "key": 1844,
+    "pos": {
+      "x": 301696.0,
+      "y": 7560.77,
+      "z": -352624.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "UnKnown",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "1851": {
+    "key": 1851,
+    "pos": {
+      "x": 484215.0,
+      "y": 8161.46,
+      "z": -391712.0
+    },
+    "kind": 0,
+    "CP": 0,
+    "name": "UnKnown",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,

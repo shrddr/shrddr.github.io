@@ -99,8 +99,8 @@
     "key": 724,
     "name": "Kamasylvia Castle",
     "has_lodging": false,
-    "is_accessible": 0,
-    "regiongroup": 0,
+    "is_accessible": 1,
+    "regiongroup": 159,
     "waypoint": 1615
   },
   "406": {
@@ -1559,6 +1559,14 @@
     "regiongroup": 237,
     "waypoint": 0
   },
+  "1376": {
+    "key": 1376,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 1844
+  },
   "79": {
     "key": 79,
     "name": "Other Regions",
@@ -1581,6 +1589,14 @@
     "has_lodging": false,
     "is_accessible": 0,
     "regiongroup": 0,
+    "waypoint": 0
+  },
+  "1390": {
+    "key": 1390,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
     "waypoint": 0
   },
   "550": {
@@ -2535,6 +2551,14 @@
     "regiongroup": 22,
     "waypoint": 0
   },
+  "1402": {
+    "key": 1402,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 0
+  },
   "134": {
     "key": 134,
     "name": "Ossuary",
@@ -2645,6 +2669,14 @@
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 18,
+    "waypoint": 0
+  },
+  "1404": {
+    "key": 1404,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
     "waypoint": 0
   },
   "954": {
@@ -3255,6 +3287,14 @@
     "regiongroup": 166,
     "waypoint": 0
   },
+  "1394": {
+    "key": 1394,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
+  },
   "542": {
     "key": 542,
     "name": "Marni's 2nd Lab Basement Cellar",
@@ -3727,6 +3767,14 @@
     "regiongroup": 54,
     "waypoint": 0
   },
+  "1385": {
+    "key": 1385,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
+  },
   "226": {
     "key": 226,
     "name": "Mediah Mountains",
@@ -3934,6 +3982,14 @@
     "is_accessible": 1,
     "regiongroup": 205,
     "waypoint": 0
+  },
+  "1379": {
+    "key": 1379,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 1847
   },
   "517": {
     "key": 517,
@@ -4735,6 +4791,14 @@
     "regiongroup": 36,
     "waypoint": 0
   },
+  "1391": {
+    "key": 1391,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
+  },
   "414": {
     "key": 414,
     "name": "Splashing Point",
@@ -5439,6 +5503,14 @@
     "regiongroup": 217,
     "waypoint": 1405
   },
+  "1398": {
+    "key": 1398,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 0
+  },
   "391": {
     "key": 391,
     "name": "Lisz Island",
@@ -5462,6 +5534,14 @@
     "is_accessible": 1,
     "regiongroup": 150,
     "waypoint": 1601
+  },
+  "1387": {
+    "key": 1387,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
   },
   "392": {
     "key": 392,
@@ -5757,6 +5837,14 @@
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 202,
+    "waypoint": 0
+  },
+  "1405": {
+    "key": 1405,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
     "waypoint": 0
   },
   "433": {
@@ -7511,6 +7599,14 @@
     "regiongroup": 218,
     "waypoint": 1416
   },
+  "1384": {
+    "key": 1384,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
+  },
   "835": {
     "key": 835,
     "name": "Margoria",
@@ -7518,6 +7614,14 @@
     "is_accessible": 1,
     "regiongroup": 218,
     "waypoint": 1420
+  },
+  "1380": {
+    "key": 1380,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 1848
   },
   "838": {
     "key": 838,
@@ -8023,6 +8127,14 @@
     "regiongroup": 104,
     "waypoint": 0
   },
+  "1386": {
+    "key": 1386,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 0
+  },
   "952": {
     "key": 952,
     "name": "Sycraia Underwater Ruins",
@@ -8051,8 +8163,8 @@
     "key": 956,
     "name": "O'dyllita",
     "has_lodging": false,
-    "is_accessible": 0,
-    "regiongroup": 0,
+    "is_accessible": 1,
+    "regiongroup": 160,
     "waypoint": 1692
   },
   "961": {
@@ -8206,6 +8318,14 @@
     "is_accessible": 1,
     "regiongroup": 180,
     "waypoint": 0
+  },
+  "1377": {
+    "key": 1377,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 1845
   },
   "991": {
     "key": 991,
@@ -8531,7 +8651,7 @@
     "key": 1063,
     "name": "Narcion",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 164,
     "waypoint": 0
   },
@@ -8798,6 +8918,14 @@
     "is_accessible": 1,
     "regiongroup": 70,
     "waypoint": 1764
+  },
+  "1396": {
+    "key": 1396,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
   },
   "1123": {
     "key": 1123,
@@ -9519,6 +9647,14 @@
     "regiongroup": 131,
     "waypoint": 0
   },
+  "1382": {
+    "key": 1382,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 1850
+  },
   "1278": {
     "key": 1278,
     "name": "Haemo Island",
@@ -9917,6 +10053,118 @@
     "has_lodging": false,
     "is_accessible": 0,
     "regiongroup": 135,
+    "waypoint": 0
+  },
+  "1374": {
+    "key": 1374,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 136,
+    "waypoint": 0
+  },
+  "1375": {
+    "key": 1375,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 1843
+  },
+  "1378": {
+    "key": 1378,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 1846
+  },
+  "1381": {
+    "key": 1381,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 1849
+  },
+  "1383": {
+    "key": 1383,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
+  },
+  "1388": {
+    "key": 1388,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 0
+  },
+  "1389": {
+    "key": 1389,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 0
+  },
+  "1392": {
+    "key": 1392,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
+  },
+  "1393": {
+    "key": 1393,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
+  },
+  "1397": {
+    "key": 1397,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 1,
+    "regiongroup": 140,
+    "waypoint": 0
+  },
+  "1399": {
+    "key": 1399,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 0
+  },
+  "1400": {
+    "key": 1400,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 1851
+  },
+  "1401": {
+    "key": 1401,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
+    "waypoint": 0
+  },
+  "1403": {
+    "key": 1403,
+    "name": "<no translation>",
+    "has_lodging": false,
+    "is_accessible": 0,
+    "regiongroup": 141,
     "waypoint": 0
   }
 }
