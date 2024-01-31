@@ -1561,9 +1561,9 @@
   },
   "1376": {
     "key": 1376,
-    "name": "<no translation>",
+    "name": "Aakshrad Mountains",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 1844
   },
@@ -1593,7 +1593,7 @@
   },
   "1390": {
     "key": 1390,
-    "name": "<no translation>",
+    "name": "Darkseekers' Retreat",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -1921,7 +1921,7 @@
   },
   "98": {
     "key": 98,
-    "name": "Cron Castle Site  ",
+    "name": "Cron Castle Site",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 7,
@@ -2553,9 +2553,9 @@
   },
   "1402": {
     "key": 1402,
-    "name": "<no translation>",
+    "name": "Aakshrad Mountains",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   },
@@ -2673,9 +2673,9 @@
   },
   "1404": {
     "key": 1404,
-    "name": "<no translation>",
+    "name": "Shakhtar Wilds",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   },
@@ -3289,7 +3289,7 @@
   },
   "1394": {
     "key": 1394,
-    "name": "<no translation>",
+    "name": "Larc Guard Post",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -3769,7 +3769,7 @@
   },
   "1385": {
     "key": 1385,
-    "name": "<no translation>",
+    "name": "Muzgar Black Stone Mine",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -3985,7 +3985,7 @@
   },
   "1379": {
     "key": 1379,
-    "name": "<no translation>",
+    "name": "Karasi Canyon",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -4793,7 +4793,7 @@
   },
   "1391": {
     "key": 1391,
-    "name": "<no translation>",
+    "name": "Karasi Canyon",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -5505,9 +5505,9 @@
   },
   "1398": {
     "key": 1398,
-    "name": "<no translation>",
+    "name": "Lake Sefirah - Upstream",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   },
@@ -5537,7 +5537,7 @@
   },
   "1387": {
     "key": 1387,
-    "name": "<no translation>",
+    "name": "Gladios Inn",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -5841,9 +5841,9 @@
   },
   "1405": {
     "key": 1405,
-    "name": "<no translation>",
+    "name": "Fris Snowfield",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   },
@@ -7601,7 +7601,7 @@
   },
   "1384": {
     "key": 1384,
-    "name": "<no translation>",
+    "name": "Larc Guard Post",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -7617,7 +7617,7 @@
   },
   "1380": {
     "key": 1380,
-    "name": "<no translation>",
+    "name": "Barhan Camp",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -8129,9 +8129,9 @@
   },
   "1386": {
     "key": 1386,
-    "name": "<no translation>",
+    "name": "Yzrahid Highlands Cave",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   },
@@ -8161,7 +8161,7 @@
   },
   "956": {
     "key": 956,
-    "name": "O'dyllita",
+    "name": "O'dyllita Castle",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 160,
@@ -8177,7 +8177,7 @@
   },
   "964": {
     "key": 964,
-    "name": "Thornwood Castle",
+    "name": "O'dyllita Castle Vicinity",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 168,
@@ -8321,9 +8321,9 @@
   },
   "1377": {
     "key": 1377,
-    "name": "<no translation>",
+    "name": "Yzrahid Highlands",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 1845
   },
@@ -8649,7 +8649,7 @@
   },
   "1063": {
     "key": 1063,
-    "name": "Narcion",
+    "name": "Zulatia Sea",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 164,
@@ -8921,7 +8921,7 @@
   },
   "1396": {
     "key": 1396,
-    "name": "<no translation>",
+    "name": "Gladios Inn",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -9649,9 +9649,9 @@
   },
   "1382": {
     "key": 1382,
-    "name": "<no translation>",
+    "name": "Velandir",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 1850
   },
@@ -10057,7 +10057,7 @@
   },
   "1374": {
     "key": 1374,
-    "name": "<no translation>",
+    "name": "Atessahra",
     "has_lodging": false,
     "is_accessible": 0,
     "regiongroup": 136,
@@ -10065,7 +10065,7 @@
   },
   "1375": {
     "key": 1375,
-    "name": "<no translation>",
+    "name": "Muzgar",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -10073,7 +10073,7 @@
   },
   "1378": {
     "key": 1378,
-    "name": "<no translation>",
+    "name": "Darkseekers' Retreat",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -10081,15 +10081,15 @@
   },
   "1381": {
     "key": 1381,
-    "name": "<no translation>",
+    "name": "Shakhtar Wilds",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 1849
   },
   "1383": {
     "key": 1383,
-    "name": "<no translation>",
+    "name": "Turba Farm",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -10097,23 +10097,23 @@
   },
   "1388": {
     "key": 1388,
-    "name": "<no translation>",
+    "name": "Shakhtar Pier",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   },
   "1389": {
     "key": 1389,
-    "name": "<no translation>",
+    "name": "Resh's Camp",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   },
   "1392": {
     "key": 1392,
-    "name": "<no translation>",
+    "name": "Barhan Camp",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -10121,7 +10121,7 @@
   },
   "1393": {
     "key": 1393,
-    "name": "<no translation>",
+    "name": "Turba Farm",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -10129,7 +10129,7 @@
   },
   "1397": {
     "key": 1397,
-    "name": "<no translation>",
+    "name": "Lake Sefirah",
     "has_lodging": false,
     "is_accessible": 1,
     "regiongroup": 140,
@@ -10137,33 +10137,33 @@
   },
   "1399": {
     "key": 1399,
-    "name": "<no translation>",
+    "name": "Society of Equilibrium",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   },
   "1400": {
     "key": 1400,
-    "name": "<no translation>",
+    "name": "Stofbir",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 1851
   },
   "1401": {
     "key": 1401,
-    "name": "<no translation>",
+    "name": "Fris Snowfield",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   },
   "1403": {
     "key": 1403,
-    "name": "<no translation>",
+    "name": "Yzrahid Highlands",
     "has_lodging": false,
-    "is_accessible": 0,
+    "is_accessible": 1,
     "regiongroup": 141,
     "waypoint": 0
   }
