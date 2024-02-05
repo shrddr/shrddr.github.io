@@ -2080,9 +2080,9 @@ void main(void) {
 `)},L(n.gameStore.nodeName(s.tnk)),9,FCt)]),b("td",BCt,L(o.formatFixed(s.dist,0)),1),b("td",$Ct,L(s.cp),1),b("td",zCt,[b("abbr",{class:"tooltip nound",title:s.alt_workers.map(l=>`${n.gameStore.uloc.char[l.charkey]}: ${o.formatFixed(l.priceDaily,2)} M$/day \u2192 ${o.formatFixed(100*l.priceDaily/s.priceDaily)}%`).join(`
 `)},L({goblin:"\u{1F47A}",giant:"\u{1F422}",human:"\u{1F468}"}[s.kind]),9,VCt)]),b("td",UCt,L(o.formatFixed(s.wspd+5,1)),1),b("td",GCt,[n.userStore.allowFloating&&n.userStore.useFloatingModifiers[s.regiongroup]?(I(),R(j,{key:0},[z(" ~"+L(o.formatFixed(n.userStore.medianWorkloads[s.key],2)),1)],64)):(I(),R(j,{key:1},[z(L(o.formatFixed(s.activeWorkload,2)),1)],64))]),b("td",WCt,L(o.formatFixed(s.cyclesDaily,1)),1),b("td",jCt,L(o.formatFixed(s.priceDaily,2)),1),b("td",HCt,L(o.formatFixed(s.dailyPerCp,3)),1),n.userStore.workedPlantzones.size?(I(),R("td",XCt,[n.userStore.workedPlantzones.has(s.key.toString())?(I(),R(j,{key:0},[n.userStore.pzJobs[s.key].worker.tnk==s.tnk?(I(),R(j,{key:0},[n.userStore.pzJobs[s.key].worker.charkey==s.charkey?(I(),R("abbr",YCt,"\u2714\uFE0F")):(I(),R("abbr",{key:1,class:"tooltip nound",title:`worker used: ${n.gameStore.uloc.char[n.userStore.pzJobs[s.key].worker.charkey]}
 suggested: ${n.gameStore.uloc.char[s.charkey]}`+(n.userStore.pzJobs[s.key].worker.charkey in s.alt_workers_dict?` (${o.formatFixed(s.priceDaily/s.alt_workers_dict[n.userStore.pzJobs[s.key].worker.charkey]*100-100)}% better)`:"")},[n.userStore.pzJobs[s.key].worker.charkey in s.alt_workers_dict&&s.priceDaily/s.alt_workers_dict[n.userStore.pzJobs[s.key].worker.charkey]>1.1?(I(),R(j,{key:0},[ZCt],64)):(I(),R(j,{key:1},[KCt],64))],8,qCt))],64)):(I(),R("abbr",{key:1,class:"tooltip nound",title:`town used: ${n.gameStore.nodeName(n.userStore.pzJobs[s.key].worker.tnk)}
-suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk in s.alt_towns_dict?` (${o.formatFixed(s.dailyPerCp/s.alt_towns_dict[n.userStore.pzJobs[s.key].worker.tnk]*100-100)}% better)`:"")}," \u26A0\uFE0F ",8,JCt))],64)):(I(),R("abbr",QCt,"\u274C"))])):tt("",!0)],8,xCt))),256))])])])}const eMt=Ne(tCt,[["render",tMt],["__scopeId","data-v-cb75007a"]]),rMt={setup(){const e=Et(),t=Jt(),r=ii();return t.$subscribe((n,i)=>{const o=Date.now();localStorage.setItem("user",JSON.stringify(i)),console.log("userStore subscription took",Date.now()-o,"ms")}),{gameStore:e,userStore:t,marketStore:r}},data:()=>({}),created(){},mounted(){},watch:{},methods:{}},nMt=b("br",null,null,-1),iMt=b("br",null,null,-1),oMt=b("tr",null,[b("th"),b("th",null,"Town / House"),b("th",null,"Lodging"),b("th",null,"CP")],-1),aMt=b("td",null,null,-1),sMt={class:"header"},lMt=z(" P2W: "),uMt=["onUpdate:modelValue"],cMt=["onUpdate:modelValue"],fMt=["href"];function hMt(e,t,r,n,i,o){return I(),R("main",null,[z(" Total lodging slots: "+L(n.userStore.haveLodging.slots.total),1),nMt,z(" Total CP spent: "+L(n.userStore.haveLodging.cp.total),1),iMt,b("table",null,[oMt,(I(!0),R(j,null,Lt(n.gameStore.lodgingPerTown,(a,s)=>(I(),R(j,null,[b("tr",null,[aMt,b("td",null,[b("span",sMt,L(n.gameStore.uloc.town[s]),1),lMt,vt(b("input",{type:"number","onUpdate:modelValue":l=>n.userStore.lodgingP2W[s]=l,class:"short"},null,8,uMt),[[pe,n.userStore.lodgingP2W[s],void 0,{number:!0}]])]),b("td",null,L(n.userStore.haveLodging.slots.perTown[s]),1),b("td",null,L(n.userStore.haveLodging.cp.perTown[s]),1)]),(I(!0),R(j,null,Lt(a.houses,l=>(I(),R("tr",null,[b("td",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":u=>n.userStore.lodgingTaken[l.key]=u},null,8,cMt),[[sr,n.userStore.lodgingTaken[l.key]]])]),b("td",null,[b("a",{href:"https://bdocodex.com/us/npc/"+l.key},L(n.gameStore.uloc.char[l.key]),9,fMt)]),b("td",null,L(l.lodgingSpaces),1),b("td",null,L(l.CP),1)]))),256))],64))),256))])])}const dMt=Ne(rMt,[["render",hMt]]);const pMt={setup(){const e=Et(),t=Jt(),r=ii();return t.$subscribe((n,i)=>{const o=Date.now();localStorage.setItem("user",JSON.stringify(i)),console.log("userStore subscription took",Date.now()-o,"ms")}),{gameStore:e,userStore:t,marketStore:r}},components:{ModalDialog:PP,FloatingModifierEdit:HE},data:()=>({floatingDialogWspd:150,floatingDialogRgroup:1,floatingDialogWkld:400,floatingDialogVisible:!1,importDialogVisible:!1}),watch:{"userStore.marketUrl":{handler(e,t){this.marketStore.fetchData()}}},methods:{formatFixed:Ft,fileParse(e){let t=e.target.result,r=JSON.parse(t);this.userStore.$patch(r),this.importDialogVisible=!1},fileImport(e){if(!e)return;const t=e.target[0].files;if(t.length<1)return;const r=t[0];console.log("fileImport",r);let n=new FileReader;n.onload=this.fileParse,n.readAsText(r)},showDialog(e){this.floatingDialogVisible=!0,this.floatingDialogRgroup=Number(e);for(let t of this.gameStore.regionGroups[e]){this.floatingDialogWkld=this.gameStore.plantzones[t].peg.time;break}},fileExport(){var e=document.createElement("a");let t={regionModifiers:this.userStore.regionModifiers,regionModifiers2:this.userStore.regionModifiers2};const r=JSON.stringify(t);var n=new Blob([r],{type:"text/plain"});e.href=URL.createObjectURL(n),e.download="modifiers.json",e.click()},clear(){this.userStore.regionModifiers={},this.userStore.regionModifiers2={}}}},Hi=e=>(gr("data-v-399865a4"),e=e(),mr(),e),vMt=Hi(()=>b("button",null,"import",-1)),gMt=Hi(()=>b("br",null,null,-1)),mMt=z(" Test on node: "),_Mt=["value"],yMt=Hi(()=>b("br",null,null,-1)),bMt=z(" With workspeed: "),wMt={id:"toptext"},SMt=Hi(()=>b("p",null,"Productivity modifiers are shown ingame as green bars at world map > resource view. Some green bars are hidden though, for those you can see the current worload in ingame worker assignment panel and calculate the modifier off that.",-1)),TMt=Hi(()=>b("p",null,"Low modifier means lots of players are working in the area and workloads are increased (up to 2x of base).",-1)),PMt=Hi(()=>b("p",null,"If unspecified, 0% modifier will be used (= max workload = longest cycle = min cycles per day = min profit)",-1)),EMt=Hi(()=>b("summary",null,"Advanced",-1)),kMt=z("allow floating modifiers "),AMt=Hi(()=>b("tr",null,[b("th",null,"#"),b("th",null,"Modifier%"),b("th",null,"Contains nodes")],-1)),CMt={class:"center"},MMt={class:"center"},xMt={key:0,class:"switch mauto"},LMt=["onUpdate:modelValue"],IMt=Hi(()=>b("span",{class:"slider"},null,-1)),OMt=z(" floating"),RMt=Hi(()=>b("br",null,null,-1)),DMt=["onClick"],NMt=z(" constant"),FMt=Hi(()=>b("br",null,null,-1)),BMt=["onUpdate:modelValue"];function $Mt(e,t,r,n,i,o){const a=he("ModalDialog"),s=he("FloatingModifierEdit"),l=he("RouterLink");return I(),R(j,null,[Ct(a,{show:e.importDialogVisible,"onUpdate:show":t[2]||(t[2]=u=>e.importDialogVisible=u)},{default:Ee(()=>[b("form",{onSubmit:t[1]||(t[1]=wm(u=>o.fileImport(u),["prevent"]))},[b("input",{type:"file",accept:".json",onClick:t[0]||(t[0]=u=>o.fileImport())}),vMt],32)]),_:1},8,["show"]),Ct(a,{show:e.floatingDialogVisible,"onUpdate:show":t[6]||(t[6]=u=>e.floatingDialogVisible=u)},{default:Ee(()=>[Ct(s,{rgk:e.floatingDialogRgroup,wspd:e.floatingDialogWspd,workload:e.floatingDialogWkld,show:e.floatingDialogVisible,"onUpdate:show":t[3]||(t[3]=u=>e.floatingDialogVisible=u)},null,8,["rgk","wspd","workload","show"]),gMt,mMt,vt(b("select",{"onUpdate:modelValue":t[4]||(t[4]=u=>e.floatingDialogWkld=u)},[(I(!0),R(j,null,Lt(n.gameStore.regionGroups[e.floatingDialogRgroup],u=>(I(),R("option",{value:n.gameStore.plantzones[u]&&n.gameStore.plantzones[u].peg.time},L(n.gameStore.plantzoneName(u))+" - "+L(n.gameStore.plantzones[u]&&n.gameStore.plantzones[u].peg.time)+" base ",9,_Mt))),256))],512),[[dr,e.floatingDialogWkld]]),yMt,bMt,vt(b("input",{type:"range",class:"vmid","onUpdate:modelValue":t[5]||(t[5]=u=>e.floatingDialogWspd=u),min:"40",max:"200",step:"0.01"},null,512),[[pe,e.floatingDialogWspd,void 0,{number:!0}]]),z(" "+L(e.floatingDialogWspd),1)]),_:1},8,["show"]),b("div",wMt,[SMt,TMt,PMt,b("details",null,[EMt,b("button",{onClick:t[7]||(t[7]=u=>e.importDialogVisible=!0)},"import"),b("button",{onClick:t[8]||(t[8]=u=>o.fileExport())},"export"),b("button",{onClick:t[9]||(t[9]=u=>o.clear())},"clear"),b("label",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":t[10]||(t[10]=u=>n.userStore.allowFloating=u)},null,512),[[sr,n.userStore.allowFloating]]),kMt])])]),b("table",null,[AMt,(I(!0),R(j,null,Lt(n.gameStore.regionGroups,(u,c)=>(I(),R("tr",null,[b("td",CMt,L(c),1),b("td",MMt,[n.userStore.allowFloating?(I(),R("label",xMt,[vt(b("input",{type:"checkbox","onUpdate:modelValue":f=>n.userStore.useFloatingModifiers[c]=f},null,8,LMt),[[sr,n.userStore.useFloatingModifiers[c]]]),IMt])):tt("",!0),n.userStore.allowFloating&&n.userStore.useFloatingModifiers[c]?(I(),R(j,{key:1},[OMt,RMt,z(" ~"+L(o.formatFixed(n.userStore.medianModifiers[c],2))+" ",1),b("button",{onClick:f=>o.showDialog(c)},"edit",8,DMt)],64)):(I(),R(j,{key:2},[NMt,FMt,vt(b("input",{type:"number","onUpdate:modelValue":f=>n.userStore.regionModifiers[c]=f,min:"0",max:"100",step:"0.01",class:"w42em"},null,8,BMt),[[pe,n.userStore.regionModifiers[c],void 0,{number:!0}]])],64))]),b("td",null,[(I(!0),R(j,null,Lt(u,f=>(I(),R("div",null,[Ct(l,{tag:"a",to:{path:"./",hash:"#node"+f}},{default:Ee(()=>[z(L(n.gameStore.plantzoneName(f)),1)]),_:2},1032,["to"]),z(" "+L(n.gameStore.ready&&n.gameStore.plantzones[f].peg.time)+" ",1),n.userStore.allowFloating&&n.userStore.useFloatingModifiers[c]?(I(),R(j,{key:0},[z(" \u2933 "+L(o.formatFixed(n.userStore.medianWorkloads[f],2)),1)],64)):(I(),R(j,{key:1},[z(" \u2192 "+L(n.gameStore.ready?o.formatFixed(n.gameStore.plantzones[f].activeWorkload,2):""),1)],64))]))),256))])]))),256))])],64)}const zMt=Ne(pMt,[["render",$Mt],["__scopeId","data-v-399865a4"]]);const VMt={setup(){const e=Jt();return{gameStore:Et(),userStore:e}},props:{show:{type:Boolean,default:!1}},created(){this.fetchData()},data:()=>({houses:{},towns:[-1],usages:[-1],levels:[-1],filterTown:-1,filterUsage:-1,filterLevel:-1,selectedHouse:-1}),computed:{filteredTowns(){const e=new Set([-1]);for(const[t,r]of Object.entries(this.houses))(this.filterUsage==-1||this.filterUsage in r.CraftList)&&(this.filterLevel==-1||this.filterLevel<=r.CraftList[this.filterUsage])&&r.affTown!=694&&e.add(r.affTown);return[...e].sort((t,r)=>t-r)},filteredUsages(){const e=new Set([-1]);for(const[t,r]of Object.entries(this.houses))if(this.filterTown==-1||r.affTown==this.filterTown)for(const[n,i]of Object.entries(r.CraftList))n>10&&e.add(n);return[...e].sort((t,r)=>t-r)},filteredLevels(){const e=new Set([-1]);if(this.filterUsage!=-1)for(const[t,r]of Object.entries(this.houses))(this.filterTown==-1||r.affTown==this.filterTown)&&this.filterUsage in r.CraftList&&e.add(r.CraftList[this.filterUsage]);return[...e].sort((t,r)=>t-r)},filteredHouses(){const e=[];for(const[t,r]of Object.entries(this.houses))(this.filterTown==-1||r.affTown==this.filterTown)&&(this.filterUsage==-1||this.filterUsage in r.CraftList)&&(this.filterLevel==-1||this.filterLevel<=r.CraftList[this.filterUsage])&&e.push(Number(t));return e}},methods:{formatFixed:Ft,async fetchData(){this.houses=await(await fetch("data/houseinfo.json")).json();const e=new Set([-1]),t=new Set([-1]);for(const[r,n]of Object.entries(this.houses)){e.add(n.affTown);for(const[o,a]of Object.entries(n.CraftList))o>10&&t.add(o);this.houses[r].CPfull=this.houses[r].CP;let i=n.needHouseKey;for(;i;)this.houses[r].CPfull+=this.houses[i].CP,i=this.houses[i].needHouseKey}this.towns=e,this.usages=[...t].sort((r,n)=>r-n)},addWorkshop(e){this.userStore.userWorkshops[e]={...this.userStore.defaultUserWorkshop}},deleteWorkshop(e){delete this.userStore.userWorkshops[e]}}},Tu=e=>(gr("data-v-f0b2630c"),e=e(),mr(),e),UMt=Tu(()=>b("h3",null,"\u{1F3ED}Workshops config",-1)),GMt={class:"sa"},WMt=Tu(()=>b("tr",null,[b("th",null,"House"),b("th",null,"label"),b("th",null,"worktype"),b("th",null,"workload"),b("th",null,[z("$/cycle "),b("abbr",{title:"use Sho's Workshop Profitability Calculator & gpw Trading/Crates Calculator",class:"tooltip"},"\u2139\uFE0F")]),b("th",null,[z("CP "),b("abbr",{title:"full cost of operating the workshop (including storage for mats, PLUS connection cost - which MAY also produce storage but at suboptimal cost)",class:"tooltip"},"\u2139\uFE0F")]),b("th",null,"action")],-1)),jMt=["onUpdate:modelValue"],HMt=["onUpdate:modelValue"],XMt=$1('<option value="unk" data-v-f0b2630c>unknown</option><option value="jewelry" data-v-f0b2630c>jewelry</option><option value="mass" data-v-f0b2630c>mass</option><option value="weap" data-v-f0b2630c>weapon</option><option value="tool" data-v-f0b2630c>tool</option><option value="furn" data-v-f0b2630c>furniture</option><option value="costume" data-v-f0b2630c>costume</option><option value="refine" data-v-f0b2630c>refine</option><option value="siege" data-v-f0b2630c>siege</option><option value="mount" data-v-f0b2630c>mount</option><option value="exclus" data-v-f0b2630c>exclusive</option><option value="pack_produce" data-v-f0b2630c>pack_produce</option><option value="pack_herb" data-v-f0b2630c>pack_herb</option><option value="pack_mushr" data-v-f0b2630c>pack_mushr</option><option value="pack_fish" data-v-f0b2630c>pack_fish</option><option value="pack_timber" data-v-f0b2630c>pack_timber</option><option value="pack_ore" data-v-f0b2630c>pack_ore</option>',17),YMt=[XMt],qMt=["onUpdate:modelValue"],ZMt=["onUpdate:modelValue"],KMt=["onUpdate:modelValue"],JMt=["onClick"],QMt=z(" new entry:"),t4t=Tu(()=>b("br",null,null,-1)),e4t={class:"borderless"},r4t=Tu(()=>b("td",null,"town",-1)),n4t=["value"],i4t=Tu(()=>b("td",null,"usage",-1)),o4t=["value"],a4t=Tu(()=>b("td",null,"level",-1)),s4t=["value"],l4t=Tu(()=>b("td",null,"house",-1)),u4t=["value"],c4t=["disabled"],f4t={key:0,class:"fsxs"};function h4t(e,t,r,n,i,o){return I(),R(j,null,[UMt,b("table",GMt,[WMt,(I(!0),R(j,null,Lt(n.userStore.userWorkshops,(a,s)=>(I(),R("tr",null,[b("td",null,L(n.gameStore.uloc.char[s]),1),b("td",null,[vt(b("input",{class:"w5em","onUpdate:modelValue":l=>a.label=l},null,8,jMt),[[pe,a.label,void 0,{number:!0}]])]),b("td",null,[vt(b("select",{"onUpdate:modelValue":l=>a.industry=l},YMt,8,HMt),[[dr,a.industry]])]),b("td",null,[vt(b("input",{type:"number",class:"w5em","onUpdate:modelValue":l=>a.manualWorkload=l},null,8,qMt),[[pe,a.manualWorkload,void 0,{number:!0}]])]),b("td",null,[vt(b("input",{type:"number",class:"w5em","onUpdate:modelValue":l=>a.manualCycleIncome=l},null,8,ZMt),[[pe,a.manualCycleIncome,void 0,{number:!0}]])]),b("td",null,[vt(b("input",{type:"number",class:"float4","onUpdate:modelValue":l=>a.manualCp=l},null,8,KMt),[[pe,a.manualCp,void 0,{number:!0}]])]),b("td",null,[b("button",{onClick:l=>o.deleteWorkshop(s)},"delete",8,JMt)])]))),256))]),QMt,t4t,b("table",e4t,[b("tr",null,[r4t,b("td",null,[vt(b("select",{"onUpdate:modelValue":t[0]||(t[0]=a=>e.filterTown=a)},[(I(!0),R(j,null,Lt(o.filteredTowns,a=>(I(),R("option",{value:a},L(a>=0?n.gameStore.uloc.town[a]:"any"),9,n4t))),256))],512),[[dr,e.filterTown]])])]),b("tr",null,[i4t,b("td",null,[vt(b("select",{"onUpdate:modelValue":t[1]||(t[1]=a=>e.filterUsage=a)},[(I(!0),R(j,null,Lt(o.filteredUsages,a=>(I(),R("option",{value:a},L(a>=0?n.gameStore.uloc.housetype[a]+" "+a:"any"),9,o4t))),256))],512),[[dr,e.filterUsage]])])]),b("tr",null,[a4t,b("td",null,[vt(b("select",{"onUpdate:modelValue":t[2]||(t[2]=a=>e.filterLevel=a)},[(I(!0),R(j,null,Lt(o.filteredLevels,a=>(I(),R("option",{value:a},L(a>=0?a+"+":"any"),9,s4t))),256))],512),[[dr,e.filterLevel]])])]),b("tr",null,[l4t,b("td",null,[vt(b("select",{"onUpdate:modelValue":t[3]||(t[3]=a=>e.selectedHouse=a)},[(I(!0),R(j,null,Lt(o.filteredHouses,a=>(I(),R("option",{value:a},L(a)+" "+L(n.gameStore.uloc.char[a])+" "+L(a in n.userStore.userWorkshops?"\u{1F451}":""),9,u4t))),256))],512),[[dr,e.selectedHouse]])])])]),b("button",{disabled:e.selectedHouse==-1||e.selectedHouse in n.userStore.userWorkshops,onClick:t[4]||(t[4]=a=>o.addWorkshop(e.selectedHouse))},"add",8,c4t),e.selectedHouse in n.userStore.userWorkshops?(I(),R("span",f4t," already in list! ")):tt("",!0)],64)}const d4t=Ne(VMt,[["render",h4t],["__scopeId","data-v-f0b2630c"]]);const p4t={setup(){const e=Et(),t=Jt(),r=ii();return t.$subscribe((n,i)=>{const o=Date.now();localStorage.setItem("user",JSON.stringify(i)),console.log("userStore subscription took",Date.now()-o,"ms")}),{gameStore:e,userStore:t,marketStore:r}},components:{ModalDialog:PP,WorkerEdit:w$,WorkshopsConfig:d4t},data:()=>({workerDialogVisible:!1,workshopsConfigVisible:!1,highlightPending:!1}),watch:{"userStore.marketUrl":{handler(e,t){this.marketStore.fetchData()}}},methods:{makeIconSrc:li,formatFixed:Ft,reload(){this.marketStore.ready=!1,this.marketStore.fetchData()},highlightHash(){if(!!this.highlightPending&&(console.log("highlighting",this.$route.hash,this.highlightPending),this.$route.hash)){const e=document.querySelector(this.$route.hash);e&&(this.highlightPending=!1,e.scrollIntoView(),e.classList.add("anim"))}}},mounted(){this.highlightPending=!0,this.highlightHash()},updated(){this.$nextTick(()=>{this.highlightHash()})}},_r=e=>(gr("data-v-3b84c107"),e=e(),mr(),e),v4t={id:"toptext"},g4t={class:"settings-tiles"},m4t={class:"settings-tile"},_4t=z(" Server: "),y4t=$1("<option data-v-3b84c107>NA</option><option data-v-3b84c107>EU</option><option data-v-3b84c107>RU</option><option data-v-3b84c107>KR</option><option data-v-3b84c107>JP</option><option data-v-3b84c107>TH</option><option data-v-3b84c107>TW</option><option data-v-3b84c107>SA</option><option data-v-3b84c107>SEA</option><option data-v-3b84c107>MENA</option><option data-v-3b84c107>CEU</option><option data-v-3b84c107>CNA</option>",12),b4t=[y4t],w4t=_r(()=>b("br",null,null,-1)),S4t=_r(()=>b("label",{for:"vp_t"},"VP always on",-1)),T4t=z(") "),P4t=z(" Tax: "),E4t=$1('<option value="0.65" data-v-3b84c107>0.65 (0)</option><option value="0.65325" data-v-3b84c107>0.65325 (1000)</option><option value="0.6565" data-v-3b84c107>0.6565 (4000)</option><option value="0.65975" data-v-3b84c107>0.65975 (7000)</option><option value="0.65975" data-v-3b84c107>0.69225 (7000 + ring)</option><option value="0.845" data-v-3b84c107>0.845 (0 + VP)</option><option value="0.84825" data-v-3b84c107>0.84825 (1000 + VP)</option><option value="0.8515" data-v-3b84c107>0.8515 (4000 + VP)</option><option value="0.85475" data-v-3b84c107>0.85475 (7000 + VP)</option><option value="0.88725" data-v-3b84c107>0.88725 (7000 + ring + VP)</option><option value="1" data-v-3b84c107>1 (ironman)</option>',11),k4t=[E4t],A4t=z(" Language: "),C4t=_r(()=>b("option",null,"en",-1)),M4t=_r(()=>b("option",null,"ru",-1)),x4t=_r(()=>b("option",null,"ko",-1)),L4t=_r(()=>b("option",null,"jp",-1)),I4t=[C4t,M4t,x4t,L4t],O4t={class:"settings-tile"},R4t=_r(()=>b("div",null,"Default worker for hire:",-1)),D4t=_r(()=>b("label",{for:"dw_f"},"Random Artisan Goblin",-1)),N4t={for:"dw_t"},F4t={class:"settings-tile"},B4t=z(" \u{1F33B}Farming "),$4t=_r(()=>b("label",{for:"fe_t"},"enable",-1)),z4t={class:"slider-container"},V4t=_r(()=>b("span",null,"F2P",-1)),U4t=_r(()=>b("span",null,"P2W",-1)),G4t={key:0,style:{display:"flex"}},W4t=z(" Total profit from 10 large fences (use "),j4t=_r(()=>b("a",{href:"https://bit.ly/MagicalFarmingProfit"},"MFP",-1)),H4t=z(" to estimate):"),X4t=_r(()=>b("br",null,null,-1)),Y4t=z(" M$/day with 10 workers "),q4t=_r(()=>b("br",null,null,-1)),Z4t=z(" M$/day with 0 workers (half growth speed) "),K4t={class:"settings-tile"},J4t=z(" \u{1F3ED}Workshops "),Q4t=_r(()=>b("div",{class:"spacer"},null,-1)),t6t=z(" Market API status: "),e6t={key:0},r6t={key:1},n6t=z(" \xA0"),i6t=_r(()=>b("p",null,"By default everything marketable is supposed to be sold on Central Market (with tax).",-1)),o6t=_r(()=>b("p",null,"If the item is for self use, select Keep (=untax) and/or enter Custom price:",-1)),a6t={class:"scrollable"},s6t=_r(()=>b("tr",null,[b("th",null,"Item"),b("th",null,"Market"),b("th",null,"Custom"),b("th",null,"Keep"),b("th",null,"Value")],-1)),l6t=["id"],u6t=["href"],c6t=["src","data-key"],f6t=z(" "+L(" ")+" "),h6t={key:0},d6t=["title"],p6t={class:"right"},v6t=["href"],g6t=["onUpdate:modelValue"],m6t={class:"center"},_6t=["disabled","onUpdate:modelValue"],y6t={class:"right"};function b6t(e,t,r,n,i,o){const a=he("WorkerEdit"),s=he("ModalDialog"),l=he("WorkshopsConfig");return I(),R(j,null,[Ct(s,{show:e.workerDialogVisible,"onUpdate:show":t[1]||(t[1]=u=>e.workerDialogVisible=u)},{default:Ee(()=>[Ct(a,{workerEditing:n.userStore.defaultWorker,initialProfit:0,show:e.workerDialogVisible,"onUpdate:show":t[0]||(t[0]=u=>e.workerDialogVisible=u)},null,8,["workerEditing","show"])]),_:1},8,["show"]),Ct(s,{show:e.workshopsConfigVisible,"onUpdate:show":t[2]||(t[2]=u=>e.workshopsConfigVisible=u)},{default:Ee(()=>[Ct(l)]),_:1},8,["show"]),b("main",null,[b("div",v4t,[b("div",g4t,[b("div",m4t,[b("div",null,[_4t,vt(b("select",{"onUpdate:modelValue":t[3]||(t[3]=u=>n.userStore.selectedRegion=u),onChange:t[4]||(t[4]=(...u)=>e.fetchMarket&&e.fetchMarket(...u))},b4t,544),[[dr,n.userStore.selectedRegion]]),w4t,z(" \u2937 base storage: "+L(n.userStore.baseStorage)+" (",1),vt(b("input",{type:"checkbox",id:"vp_t","onUpdate:modelValue":t[5]||(t[5]=u=>n.userStore.storageVP=u)},null,512),[[sr,n.userStore.storageVP]]),S4t,T4t]),b("div",null,[P4t,vt(b("select",{"onUpdate:modelValue":t[6]||(t[6]=u=>n.userStore.selectedTax=u)},k4t,512),[[dr,n.userStore.selectedTax]])]),b("div",null,[A4t,vt(b("select",{"onUpdate:modelValue":t[7]||(t[7]=u=>n.userStore.selectedLang=u),onChange:t[8]||(t[8]=(...u)=>e.fetchMarket&&e.fetchMarket(...u))},I4t,544),[[dr,n.userStore.selectedLang]])])]),b("div",O4t,[R4t,b("div",null,[vt(b("input",{type:"radio",name:"dw",id:"dw_f",value:!1,"onUpdate:modelValue":t[9]||(t[9]=u=>n.userStore.useDefaultWorker=u)},null,512),[[hd,n.userStore.useDefaultWorker]]),D4t]),b("div",null,[vt(b("input",{type:"radio",name:"dw",id:"dw_t",value:!0,"onUpdate:modelValue":t[10]||(t[10]=u=>n.userStore.useDefaultWorker=u)},null,512),[[hd,n.userStore.useDefaultWorker]]),b("label",N4t,[z("Custom ("+L(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).wspd,2))+"\u{1F528} "+L(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).mspd,2))+"\u{1F9B6} "+L(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).luck,2))+"\u{1F340}) ",1),b("button",{onClick:t[11]||(t[11]=u=>e.workerDialogVisible=!0)},"edit")])])]),b("div",F4t,[B4t,vt(b("input",{type:"checkbox",id:"fe_t","onUpdate:modelValue":t[12]||(t[12]=u=>n.userStore.farmingEnable=u)},null,512),[[sr,n.userStore.farmingEnable]]),$4t,b("div",z4t,[V4t,vt(b("input",{type:"range",style:{width:"4em"},"onUpdate:modelValue":t[13]||(t[13]=u=>n.userStore.farmingP2WShare=u),min:"0",max:"80",step:"10"},null,512),[[pe,n.userStore.farmingP2WShare,void 0,{number:!0}]]),U4t]),z(" (using "+L(80-n.userStore.farmingP2WShare)+"CP) ",1),n.userStore.farmingEnable?(I(),R("div",G4t,[b("div",null,[W4t,j4t,H4t,X4t,vt(b("input",{type:"number",class:"float4","onUpdate:modelValue":t[14]||(t[14]=u=>n.userStore.farmingProfit=u)},null,512),[[pe,n.userStore.farmingProfit,void 0,{number:!0}]]),Y4t,q4t,vt(b("input",{type:"number",class:"float4","onUpdate:modelValue":t[15]||(t[15]=u=>n.userStore.farmingBareProfit=u)},null,512),[[pe,n.userStore.farmingBareProfit,void 0,{number:!0}]]),Z4t])])):tt("",!0)]),b("div",K4t,[J4t,b("div",null,[b("button",{onClick:t[16]||(t[16]=u=>e.workshopsConfigVisible=!0)},"config")])])]),Q4t,t6t,n.marketStore.apiAlive?(I(),R("span",e6t,"\u2713")):(I(),R("span",r6t,"\u274C")),n6t,b("button",{onClick:t[17]||(t[17]=u=>o.reload())},"reload"),i6t,o6t]),b("div",a6t,[b("table",null,[s6t,(I(!0),R(j,null,Lt(n.gameStore.itemKeys,u=>(I(),R("tr",{id:"item"+u},[b("td",null,[b("a",{href:this.userStore.itemUrl+u},[b("img",{src:o.makeIconSrc(u),class:"iconitem","data-key":u},null,8,c6t),z(" "+L(n.gameStore.uloc.item[u]),1)],8,u6t),f6t,u in n.marketStore.calculatedPrices?(I(),R("span",h6t,[b("abbr",{class:"tooltip",title:`contains:
+suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk in s.alt_towns_dict?` (${o.formatFixed(s.dailyPerCp/s.alt_towns_dict[n.userStore.pzJobs[s.key].worker.tnk]*100-100)}% better)`:"")}," \u26A0\uFE0F ",8,JCt))],64)):(I(),R("abbr",QCt,"\u274C"))])):tt("",!0)],8,xCt))),256))])])])}const eMt=Ne(tCt,[["render",tMt],["__scopeId","data-v-cb75007a"]]),rMt={setup(){const e=Et(),t=Jt(),r=ii();return t.$subscribe((n,i)=>{const o=Date.now();localStorage.setItem("user",JSON.stringify(i)),console.log("userStore subscription took",Date.now()-o,"ms")}),{gameStore:e,userStore:t,marketStore:r}},data:()=>({}),created(){},mounted(){},watch:{},methods:{}},nMt=b("br",null,null,-1),iMt=b("br",null,null,-1),oMt=b("tr",null,[b("th"),b("th",null,"Town / House"),b("th",null,"Lodging"),b("th",null,"CP")],-1),aMt=b("td",null,null,-1),sMt={class:"header"},lMt=z(" P2W: "),uMt=["onUpdate:modelValue"],cMt=["onUpdate:modelValue"],fMt=["href"];function hMt(e,t,r,n,i,o){return I(),R("main",null,[z(" Total lodging slots: "+L(n.userStore.haveLodging.slots.total),1),nMt,z(" Total CP spent: "+L(n.userStore.haveLodging.cp.total),1),iMt,b("table",null,[oMt,(I(!0),R(j,null,Lt(n.gameStore.lodgingPerTown,(a,s)=>(I(),R(j,null,[b("tr",null,[aMt,b("td",null,[b("span",sMt,L(n.gameStore.uloc.town[s]),1),lMt,vt(b("input",{type:"number","onUpdate:modelValue":l=>n.userStore.lodgingP2W[s]=l,class:"short"},null,8,uMt),[[pe,n.userStore.lodgingP2W[s],void 0,{number:!0}]])]),b("td",null,L(n.userStore.haveLodging.slots.perTown[s]),1),b("td",null,L(n.userStore.haveLodging.cp.perTown[s]),1)]),(I(!0),R(j,null,Lt(a.houses,l=>(I(),R("tr",null,[b("td",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":u=>n.userStore.lodgingTaken[l.key]=u},null,8,cMt),[[sr,n.userStore.lodgingTaken[l.key]]])]),b("td",null,[b("a",{href:"https://bdocodex.com/us/npc/"+l.key},L(n.gameStore.uloc.char[l.key]),9,fMt)]),b("td",null,L(l.lodgingSpaces),1),b("td",null,L(l.CP),1)]))),256))],64))),256))])])}const dMt=Ne(rMt,[["render",hMt]]);const pMt={setup(){const e=Et(),t=Jt(),r=ii();return t.$subscribe((n,i)=>{const o=Date.now();localStorage.setItem("user",JSON.stringify(i)),console.log("userStore subscription took",Date.now()-o,"ms")}),{gameStore:e,userStore:t,marketStore:r}},components:{ModalDialog:PP,FloatingModifierEdit:HE},data:()=>({floatingDialogWspd:150,floatingDialogRgroup:1,floatingDialogWkld:400,floatingDialogVisible:!1,importDialogVisible:!1}),watch:{"userStore.marketUrl":{handler(e,t){this.marketStore.fetchData()}}},methods:{formatFixed:Ft,fileParse(e){let t=e.target.result,r=JSON.parse(t);this.userStore.$patch(r),this.importDialogVisible=!1},fileImport(e){if(!e)return;const t=e.target[0].files;if(t.length<1)return;const r=t[0];console.log("fileImport",r);let n=new FileReader;n.onload=this.fileParse,n.readAsText(r)},showDialog(e){this.floatingDialogVisible=!0,this.floatingDialogRgroup=Number(e);for(let t of this.gameStore.regionGroups[e]){this.floatingDialogWkld=this.gameStore.plantzones[t].peg.time;break}},fileExport(){var e=document.createElement("a");let t={regionModifiers:this.userStore.regionModifiers,regionModifiers2:this.userStore.regionModifiers2};const r=JSON.stringify(t);var n=new Blob([r],{type:"text/plain"});e.href=URL.createObjectURL(n),e.download="modifiers.json",e.click()},clear(){this.userStore.regionModifiers={},this.userStore.regionModifiers2={}}}},Hi=e=>(gr("data-v-399865a4"),e=e(),mr(),e),vMt=Hi(()=>b("button",null,"import",-1)),gMt=Hi(()=>b("br",null,null,-1)),mMt=z(" Test on node: "),_Mt=["value"],yMt=Hi(()=>b("br",null,null,-1)),bMt=z(" With workspeed: "),wMt={id:"toptext"},SMt=Hi(()=>b("p",null,"Productivity modifiers are shown ingame as green bars at world map > resource view. Some green bars are hidden though, for those you can see the current worload in ingame worker assignment panel and calculate the modifier off that.",-1)),TMt=Hi(()=>b("p",null,"Low modifier means lots of players are working in the area and workloads are increased (up to 2x of base).",-1)),PMt=Hi(()=>b("p",null,"If unspecified, 0% modifier will be used (= max workload = longest cycle = min cycles per day = min profit)",-1)),EMt=Hi(()=>b("summary",null,"Advanced",-1)),kMt=z("allow floating modifiers "),AMt=Hi(()=>b("tr",null,[b("th",null,"#"),b("th",null,"Modifier%"),b("th",null,"Contains nodes")],-1)),CMt={class:"center"},MMt={class:"center"},xMt={key:0,class:"switch mauto"},LMt=["onUpdate:modelValue"],IMt=Hi(()=>b("span",{class:"slider"},null,-1)),OMt=z(" floating"),RMt=Hi(()=>b("br",null,null,-1)),DMt=["onClick"],NMt=z(" constant"),FMt=Hi(()=>b("br",null,null,-1)),BMt=["onUpdate:modelValue"];function $Mt(e,t,r,n,i,o){const a=he("ModalDialog"),s=he("FloatingModifierEdit"),l=he("RouterLink");return I(),R(j,null,[Ct(a,{show:e.importDialogVisible,"onUpdate:show":t[2]||(t[2]=u=>e.importDialogVisible=u)},{default:Ee(()=>[b("form",{onSubmit:t[1]||(t[1]=wm(u=>o.fileImport(u),["prevent"]))},[b("input",{type:"file",accept:".json",onClick:t[0]||(t[0]=u=>o.fileImport())}),vMt],32)]),_:1},8,["show"]),Ct(a,{show:e.floatingDialogVisible,"onUpdate:show":t[6]||(t[6]=u=>e.floatingDialogVisible=u)},{default:Ee(()=>[Ct(s,{rgk:e.floatingDialogRgroup,wspd:e.floatingDialogWspd,workload:e.floatingDialogWkld,show:e.floatingDialogVisible,"onUpdate:show":t[3]||(t[3]=u=>e.floatingDialogVisible=u)},null,8,["rgk","wspd","workload","show"]),gMt,mMt,vt(b("select",{"onUpdate:modelValue":t[4]||(t[4]=u=>e.floatingDialogWkld=u)},[(I(!0),R(j,null,Lt(n.gameStore.regionGroups[e.floatingDialogRgroup],u=>(I(),R("option",{value:n.gameStore.plantzones[u]&&n.gameStore.plantzones[u].peg.time},L(n.gameStore.plantzoneName(u))+" - "+L(n.gameStore.plantzones[u]&&n.gameStore.plantzones[u].peg.time)+" base ",9,_Mt))),256))],512),[[dr,e.floatingDialogWkld]]),yMt,bMt,vt(b("input",{type:"range",class:"vmid","onUpdate:modelValue":t[5]||(t[5]=u=>e.floatingDialogWspd=u),min:"40",max:"200",step:"0.01"},null,512),[[pe,e.floatingDialogWspd,void 0,{number:!0}]]),z(" "+L(e.floatingDialogWspd),1)]),_:1},8,["show"]),b("div",wMt,[SMt,TMt,PMt,b("details",null,[EMt,b("button",{onClick:t[7]||(t[7]=u=>e.importDialogVisible=!0)},"import"),b("button",{onClick:t[8]||(t[8]=u=>o.fileExport())},"export"),b("button",{onClick:t[9]||(t[9]=u=>o.clear())},"clear"),b("label",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":t[10]||(t[10]=u=>n.userStore.allowFloating=u)},null,512),[[sr,n.userStore.allowFloating]]),kMt])])]),b("table",null,[AMt,(I(!0),R(j,null,Lt(n.gameStore.regionGroups,(u,c)=>(I(),R("tr",null,[b("td",CMt,L(c),1),b("td",MMt,[n.userStore.allowFloating?(I(),R("label",xMt,[vt(b("input",{type:"checkbox","onUpdate:modelValue":f=>n.userStore.useFloatingModifiers[c]=f},null,8,LMt),[[sr,n.userStore.useFloatingModifiers[c]]]),IMt])):tt("",!0),n.userStore.allowFloating&&n.userStore.useFloatingModifiers[c]?(I(),R(j,{key:1},[OMt,RMt,z(" ~"+L(o.formatFixed(n.userStore.medianModifiers[c],2))+" ",1),b("button",{onClick:f=>o.showDialog(c)},"edit",8,DMt)],64)):(I(),R(j,{key:2},[NMt,FMt,vt(b("input",{type:"number","onUpdate:modelValue":f=>n.userStore.regionModifiers[c]=f,min:"0",max:"100",step:"0.01",class:"w42em"},null,8,BMt),[[pe,n.userStore.regionModifiers[c],void 0,{number:!0}]])],64))]),b("td",null,[(I(!0),R(j,null,Lt(u,f=>(I(),R("div",null,[Ct(l,{tag:"a",to:{path:"./",hash:"#node"+f}},{default:Ee(()=>[z(L(n.gameStore.plantzoneName(f)),1)]),_:2},1032,["to"]),z(" "+L(n.gameStore.ready&&n.gameStore.plantzones[f].peg.time)+" ",1),n.userStore.allowFloating&&n.userStore.useFloatingModifiers[c]?(I(),R(j,{key:0},[z(" \u2933 "+L(o.formatFixed(n.userStore.medianWorkloads[f],2)),1)],64)):(I(),R(j,{key:1},[z(" \u2192 "+L(n.gameStore.ready?o.formatFixed(n.gameStore.plantzones[f].activeWorkload,2):""),1)],64))]))),256))])]))),256))])],64)}const zMt=Ne(pMt,[["render",$Mt],["__scopeId","data-v-399865a4"]]);const VMt={setup(){const e=Jt();return{gameStore:Et(),userStore:e}},props:{show:{type:Boolean,default:!1}},created(){this.fetchData()},data:()=>({houses:{},towns:[-1],usages:[-1],levels:[-1],filterTown:-1,filterUsage:-1,filterLevel:-1,selectedHouse:-1}),computed:{filteredTowns(){const e=new Set([-1]);for(const[t,r]of Object.entries(this.houses))(this.filterUsage==-1||this.filterUsage in r.CraftList)&&(this.filterLevel==-1||this.filterLevel<=r.CraftList[this.filterUsage])&&r.affTown!=694&&e.add(r.affTown);return[...e].sort((t,r)=>t-r)},filteredUsages(){const e=new Set([-1]);for(const[t,r]of Object.entries(this.houses))if(this.filterTown==-1||r.affTown==this.filterTown)for(const[n,i]of Object.entries(r.CraftList))n>10&&e.add(n);return[...e].sort((t,r)=>t-r)},filteredLevels(){const e=new Set([-1]);if(this.filterUsage!=-1)for(const[t,r]of Object.entries(this.houses))(this.filterTown==-1||r.affTown==this.filterTown)&&this.filterUsage in r.CraftList&&e.add(r.CraftList[this.filterUsage]);return[...e].sort((t,r)=>t-r)},filteredHouses(){const e=[];for(const[t,r]of Object.entries(this.houses))(this.filterTown==-1||r.affTown==this.filterTown)&&(this.filterUsage==-1||this.filterUsage in r.CraftList)&&(this.filterLevel==-1||this.filterLevel<=r.CraftList[this.filterUsage])&&e.push(Number(t));return e}},methods:{formatFixed:Ft,async fetchData(){this.houses=await(await fetch("data/houseinfo.json")).json();const e=new Set([-1]),t=new Set([-1]);for(const[r,n]of Object.entries(this.houses)){e.add(n.affTown);for(const[o,a]of Object.entries(n.CraftList))o>10&&t.add(o);this.houses[r].CPfull=this.houses[r].CP;let i=n.needHouseKey;for(;i;)this.houses[r].CPfull+=this.houses[i].CP,i=this.houses[i].needHouseKey}this.towns=e,this.usages=[...t].sort((r,n)=>r-n)},addWorkshop(e){this.userStore.userWorkshops[e]={...this.userStore.defaultUserWorkshop}},deleteWorkshop(e){delete this.userStore.userWorkshops[e]}}},Tu=e=>(gr("data-v-f0b2630c"),e=e(),mr(),e),UMt=Tu(()=>b("h3",null,"\u{1F3ED}Workshops config",-1)),GMt={class:"sa"},WMt=Tu(()=>b("tr",null,[b("th",null,"House"),b("th",null,"label"),b("th",null,"worktype"),b("th",null,"workload"),b("th",null,[z("$/cycle "),b("abbr",{title:"use Sho's Workshop Profitability Calculator & gpw Trading/Crates Calculator",class:"tooltip"},"\u2139\uFE0F")]),b("th",null,[z("CP "),b("abbr",{title:"full cost of operating the workshop (including storage for mats, PLUS connection cost - which MAY also produce storage but at suboptimal cost)",class:"tooltip"},"\u2139\uFE0F")]),b("th",null,"action")],-1)),jMt=["onUpdate:modelValue"],HMt=["onUpdate:modelValue"],XMt=$1('<option value="unk" data-v-f0b2630c>unknown</option><option value="jewelry" data-v-f0b2630c>jewelry</option><option value="mass" data-v-f0b2630c>mass</option><option value="weap" data-v-f0b2630c>weapon</option><option value="tool" data-v-f0b2630c>tool</option><option value="furn" data-v-f0b2630c>furniture</option><option value="costume" data-v-f0b2630c>costume</option><option value="refine" data-v-f0b2630c>refine</option><option value="siege" data-v-f0b2630c>siege</option><option value="mount" data-v-f0b2630c>mount</option><option value="exclus" data-v-f0b2630c>exclusive</option><option value="pack_produce" data-v-f0b2630c>pack_produce</option><option value="pack_herb" data-v-f0b2630c>pack_herb</option><option value="pack_mushr" data-v-f0b2630c>pack_mushr</option><option value="pack_fish" data-v-f0b2630c>pack_fish</option><option value="pack_timber" data-v-f0b2630c>pack_timber</option><option value="pack_ore" data-v-f0b2630c>pack_ore</option>',17),YMt=[XMt],qMt=["onUpdate:modelValue"],ZMt=["onUpdate:modelValue"],KMt=["onUpdate:modelValue"],JMt=["onClick"],QMt=z(" new entry:"),t4t=Tu(()=>b("br",null,null,-1)),e4t={class:"borderless"},r4t=Tu(()=>b("td",null,"town",-1)),n4t=["value"],i4t=Tu(()=>b("td",null,"usage",-1)),o4t=["value"],a4t=Tu(()=>b("td",null,"level",-1)),s4t=["value"],l4t=Tu(()=>b("td",null,"house",-1)),u4t=["value"],c4t=["disabled"],f4t={key:0,class:"fsxs"};function h4t(e,t,r,n,i,o){return I(),R(j,null,[UMt,b("table",GMt,[WMt,(I(!0),R(j,null,Lt(n.userStore.userWorkshops,(a,s)=>(I(),R("tr",null,[b("td",null,L(n.gameStore.uloc.char[s]),1),b("td",null,[vt(b("input",{class:"w5em","onUpdate:modelValue":l=>a.label=l},null,8,jMt),[[pe,a.label,void 0,{number:!0}]])]),b("td",null,[vt(b("select",{"onUpdate:modelValue":l=>a.industry=l},YMt,8,HMt),[[dr,a.industry]])]),b("td",null,[vt(b("input",{type:"number",class:"w5em","onUpdate:modelValue":l=>a.manualWorkload=l},null,8,qMt),[[pe,a.manualWorkload,void 0,{number:!0}]])]),b("td",null,[vt(b("input",{type:"number",class:"w5em","onUpdate:modelValue":l=>a.manualCycleIncome=l},null,8,ZMt),[[pe,a.manualCycleIncome,void 0,{number:!0}]])]),b("td",null,[vt(b("input",{type:"number",class:"float4","onUpdate:modelValue":l=>a.manualCp=l},null,8,KMt),[[pe,a.manualCp,void 0,{number:!0}]])]),b("td",null,[b("button",{onClick:l=>o.deleteWorkshop(s)},"delete",8,JMt)])]))),256))]),QMt,t4t,b("table",e4t,[b("tr",null,[r4t,b("td",null,[vt(b("select",{"onUpdate:modelValue":t[0]||(t[0]=a=>e.filterTown=a)},[(I(!0),R(j,null,Lt(o.filteredTowns,a=>(I(),R("option",{value:a},L(a>=0?n.gameStore.uloc.town[a]:"any"),9,n4t))),256))],512),[[dr,e.filterTown]])])]),b("tr",null,[i4t,b("td",null,[vt(b("select",{"onUpdate:modelValue":t[1]||(t[1]=a=>e.filterUsage=a)},[(I(!0),R(j,null,Lt(o.filteredUsages,a=>(I(),R("option",{value:a},L(a>=0?n.gameStore.uloc.housetype[a]+" "+a:"any"),9,o4t))),256))],512),[[dr,e.filterUsage]])])]),b("tr",null,[a4t,b("td",null,[vt(b("select",{"onUpdate:modelValue":t[2]||(t[2]=a=>e.filterLevel=a)},[(I(!0),R(j,null,Lt(o.filteredLevels,a=>(I(),R("option",{value:a},L(a>=0?a+"+":"any"),9,s4t))),256))],512),[[dr,e.filterLevel]])])]),b("tr",null,[l4t,b("td",null,[vt(b("select",{"onUpdate:modelValue":t[3]||(t[3]=a=>e.selectedHouse=a)},[(I(!0),R(j,null,Lt(o.filteredHouses,a=>(I(),R("option",{value:a},L(a)+" "+L(n.gameStore.uloc.char[a])+" "+L(a in n.userStore.userWorkshops?"\u{1F451}":""),9,u4t))),256))],512),[[dr,e.selectedHouse]])])])]),b("button",{disabled:e.selectedHouse==-1||e.selectedHouse in n.userStore.userWorkshops,onClick:t[4]||(t[4]=a=>o.addWorkshop(e.selectedHouse))},"add",8,c4t),e.selectedHouse in n.userStore.userWorkshops?(I(),R("span",f4t," already in list! ")):tt("",!0)],64)}const d4t=Ne(VMt,[["render",h4t],["__scopeId","data-v-f0b2630c"]]);const p4t={setup(){const e=Et(),t=Jt(),r=ii();return t.$subscribe((n,i)=>{const o=Date.now();localStorage.setItem("user",JSON.stringify(i)),console.log("userStore subscription took",Date.now()-o,"ms")}),{gameStore:e,userStore:t,marketStore:r}},components:{ModalDialog:PP,WorkerEdit:w$,WorkshopsConfig:d4t},data:()=>({workerDialogVisible:!1,workshopsConfigVisible:!1,highlightPending:!1}),watch:{"userStore.marketUrl":{handler(e,t){this.marketStore.fetchData()}}},methods:{makeIconSrc:li,formatFixed:Ft,reload(){this.marketStore.ready=!1,this.marketStore.fetchData()},highlightHash(){if(!!this.highlightPending&&(console.log("highlighting",this.$route.hash,this.highlightPending),this.$route.hash)){const e=document.querySelector(this.$route.hash);e&&(this.highlightPending=!1,e.scrollIntoView(),e.classList.add("anim"))}}},mounted(){this.highlightPending=!0,this.highlightHash()},updated(){this.$nextTick(()=>{this.highlightHash()})}},_r=e=>(gr("data-v-bb043e98"),e=e(),mr(),e),v4t={id:"toptext"},g4t={class:"settings-tiles"},m4t={class:"settings-tile"},_4t=z(" Server: "),y4t=$1("<option data-v-bb043e98>NA</option><option data-v-bb043e98>EU</option><option data-v-bb043e98>RU</option><option data-v-bb043e98>KR</option><option data-v-bb043e98>JP</option><option data-v-bb043e98>TH</option><option data-v-bb043e98>TW</option><option data-v-bb043e98>SA</option><option data-v-bb043e98>SEA</option><option data-v-bb043e98>MENA</option><option data-v-bb043e98>CEU</option><option data-v-bb043e98>CNA</option>",12),b4t=[y4t],w4t=_r(()=>b("br",null,null,-1)),S4t=_r(()=>b("label",{for:"vp_t"},"VP always on",-1)),T4t=z(") "),P4t=z(" Tax: "),E4t=$1('<option value="0.65" data-v-bb043e98>0.65 (0)</option><option value="0.65325" data-v-bb043e98>0.65325 (1000)</option><option value="0.6565" data-v-bb043e98>0.6565 (4000)</option><option value="0.65975" data-v-bb043e98>0.65975 (7000)</option><option value="0.65975" data-v-bb043e98>0.69225 (7000 + ring)</option><option value="0.845" data-v-bb043e98>0.845 (0 + VP)</option><option value="0.84825" data-v-bb043e98>0.84825 (1000 + VP)</option><option value="0.8515" data-v-bb043e98>0.8515 (4000 + VP)</option><option value="0.85475" data-v-bb043e98>0.85475 (7000 + VP)</option><option value="0.88725" data-v-bb043e98>0.88725 (7000 + ring + VP)</option><option value="1" data-v-bb043e98>1 (ironman)</option>',11),k4t=[E4t],A4t=z(" Language: "),C4t=_r(()=>b("option",null,"en",-1)),M4t=_r(()=>b("option",null,"ru",-1)),x4t=_r(()=>b("option",null,"ko",-1)),L4t=_r(()=>b("option",null,"jp",-1)),I4t=[C4t,M4t,x4t,L4t],O4t={class:"settings-tile"},R4t=_r(()=>b("div",null,"Default worker for hire:",-1)),D4t=_r(()=>b("label",{for:"dw_f"},"Random Artisan Goblin",-1)),N4t={for:"dw_t"},F4t={class:"settings-tile"},B4t=z(" \u{1F33B}Farming "),$4t=_r(()=>b("label",{for:"fe_t"},"enable",-1)),z4t={key:0},V4t={class:"slider-container"},U4t=_r(()=>b("span",null,"F2P",-1)),G4t=_r(()=>b("span",null,"P2W",-1)),W4t={style:{display:"flex"}},j4t=z(" Total profit from 10 large fences (use "),H4t=_r(()=>b("a",{href:"https://bit.ly/MagicalFarmingProfit"},"MFP",-1)),X4t=z(" to estimate):"),Y4t=_r(()=>b("br",null,null,-1)),q4t=z(" M$/day with 10 workers "),Z4t=_r(()=>b("br",null,null,-1)),K4t=z(" M$/day with 0 workers (half growth speed) "),J4t={class:"settings-tile"},Q4t=z(" \u{1F3ED}Workshops "),t6t=_r(()=>b("div",{class:"spacer"},null,-1)),e6t=z(" Market API status: "),r6t={key:0},n6t={key:1},i6t=z(" \xA0"),o6t=_r(()=>b("p",null,"By default everything marketable is supposed to be sold on Central Market (with tax).",-1)),a6t=_r(()=>b("p",null,"If the item is for self use, select Keep (=untax) and/or enter Custom price:",-1)),s6t={class:"scrollable"},l6t=_r(()=>b("tr",null,[b("th",null,"Item"),b("th",null,"Market"),b("th",null,"Custom"),b("th",null,"Keep"),b("th",null,"Value")],-1)),u6t=["id"],c6t=["href"],f6t=["src","data-key"],h6t=z(" "+L(" ")+" "),d6t={key:0},p6t=["title"],v6t={class:"right"},g6t=["href"],m6t=["onUpdate:modelValue"],_6t={class:"center"},y6t=["disabled","onUpdate:modelValue"],b6t={class:"right"};function w6t(e,t,r,n,i,o){const a=he("WorkerEdit"),s=he("ModalDialog"),l=he("WorkshopsConfig");return I(),R(j,null,[Ct(s,{show:e.workerDialogVisible,"onUpdate:show":t[1]||(t[1]=u=>e.workerDialogVisible=u)},{default:Ee(()=>[Ct(a,{workerEditing:n.userStore.defaultWorker,initialProfit:0,show:e.workerDialogVisible,"onUpdate:show":t[0]||(t[0]=u=>e.workerDialogVisible=u)},null,8,["workerEditing","show"])]),_:1},8,["show"]),Ct(s,{show:e.workshopsConfigVisible,"onUpdate:show":t[2]||(t[2]=u=>e.workshopsConfigVisible=u)},{default:Ee(()=>[Ct(l)]),_:1},8,["show"]),b("main",null,[b("div",v4t,[b("div",g4t,[b("div",m4t,[b("div",null,[_4t,vt(b("select",{"onUpdate:modelValue":t[3]||(t[3]=u=>n.userStore.selectedRegion=u),onChange:t[4]||(t[4]=(...u)=>e.fetchMarket&&e.fetchMarket(...u))},b4t,544),[[dr,n.userStore.selectedRegion]]),w4t,z(" \u2937 base storage: "+L(n.userStore.baseStorage)+" (",1),vt(b("input",{type:"checkbox",id:"vp_t","onUpdate:modelValue":t[5]||(t[5]=u=>n.userStore.storageVP=u)},null,512),[[sr,n.userStore.storageVP]]),S4t,T4t]),b("div",null,[P4t,vt(b("select",{"onUpdate:modelValue":t[6]||(t[6]=u=>n.userStore.selectedTax=u)},k4t,512),[[dr,n.userStore.selectedTax]])]),b("div",null,[A4t,vt(b("select",{"onUpdate:modelValue":t[7]||(t[7]=u=>n.userStore.selectedLang=u),onChange:t[8]||(t[8]=(...u)=>e.fetchMarket&&e.fetchMarket(...u))},I4t,544),[[dr,n.userStore.selectedLang]])])]),b("div",O4t,[R4t,b("div",null,[vt(b("input",{type:"radio",name:"dw",id:"dw_f",value:!1,"onUpdate:modelValue":t[9]||(t[9]=u=>n.userStore.useDefaultWorker=u)},null,512),[[hd,n.userStore.useDefaultWorker]]),D4t]),b("div",null,[vt(b("input",{type:"radio",name:"dw",id:"dw_t",value:!0,"onUpdate:modelValue":t[10]||(t[10]=u=>n.userStore.useDefaultWorker=u)},null,512),[[hd,n.userStore.useDefaultWorker]]),b("label",N4t,[z("Custom ("+L(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).wspd,2))+"\u{1F528} "+L(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).mspd,2))+"\u{1F9B6} "+L(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).luck,2))+"\u{1F340}) ",1),b("button",{onClick:t[11]||(t[11]=u=>e.workerDialogVisible=!0)},"edit")])])]),b("div",F4t,[B4t,vt(b("input",{type:"checkbox",id:"fe_t","onUpdate:modelValue":t[12]||(t[12]=u=>n.userStore.farmingEnable=u)},null,512),[[sr,n.userStore.farmingEnable]]),$4t,n.userStore.farmingEnable?(I(),R("span",z4t,[b("div",V4t,[U4t,vt(b("input",{type:"range",style:{width:"4em"},"onUpdate:modelValue":t[13]||(t[13]=u=>n.userStore.farmingP2WShare=u),min:"0",max:"80",step:"10"},null,512),[[pe,n.userStore.farmingP2WShare,void 0,{number:!0}]]),G4t]),z(" (using "+L(80-n.userStore.farmingP2WShare)+"CP) ",1),b("div",W4t,[b("div",null,[j4t,H4t,X4t,Y4t,vt(b("input",{type:"number",class:"float4","onUpdate:modelValue":t[14]||(t[14]=u=>n.userStore.farmingProfit=u)},null,512),[[pe,n.userStore.farmingProfit,void 0,{number:!0}]]),q4t,Z4t,vt(b("input",{type:"number",class:"float4","onUpdate:modelValue":t[15]||(t[15]=u=>n.userStore.farmingBareProfit=u)},null,512),[[pe,n.userStore.farmingBareProfit,void 0,{number:!0}]]),K4t])])])):tt("",!0)]),b("div",J4t,[Q4t,b("div",null,[b("button",{onClick:t[16]||(t[16]=u=>e.workshopsConfigVisible=!0)},"config")])])]),t6t,e6t,n.marketStore.apiAlive?(I(),R("span",r6t,"\u2713")):(I(),R("span",n6t,"\u274C")),i6t,b("button",{onClick:t[17]||(t[17]=u=>o.reload())},"reload"),o6t,a6t]),b("div",s6t,[b("table",null,[l6t,(I(!0),R(j,null,Lt(n.gameStore.itemKeys,u=>(I(),R("tr",{id:"item"+u},[b("td",null,[b("a",{href:this.userStore.itemUrl+u},[b("img",{src:o.makeIconSrc(u),class:"iconitem","data-key":u},null,8,f6t),z(" "+L(n.gameStore.uloc.item[u]),1)],8,c6t),h6t,u in n.marketStore.calculatedPrices?(I(),R("span",d6t,[b("abbr",{class:"tooltip",title:`contains:
 `+Object.entries(n.marketStore.calculatedPrices[u]).map(([c,f])=>o.formatFixed(f,3)+" "+n.gameStore.uloc.item[c]).join(`
-`)},"\u2139\uFE0F",8,d6t)])):tt("",!0)]),b("td",p6t,[u in n.marketStore.apiPrices?(I(),R("a",{key:0,href:this.marketStore.itemPriceUrl(u)},L(o.formatFixed(n.marketStore.apiPrices[u])),9,v6t)):(I(),R(j,{key:1},[z(L(o.formatFixed(n.gameStore.vendorPrices[u])),1)],64))]),b("td",null,[vt(b("input",{type:"number",class:"price right","onUpdate:modelValue":c=>n.userStore.customPrices[u]=c},null,8,g6t),[[pe,n.userStore.customPrices[u],void 0,{number:!0}]])]),b("td",m6t,[vt(b("input",{type:"checkbox",disabled:u in n.gameStore.vendorPrices,"onUpdate:modelValue":c=>n.userStore.keepItems[u]=c},null,8,_6t),[[sr,n.userStore.keepItems[u]]])]),b("td",y6t,L(o.formatFixed(n.marketStore.prices[u])),1)],8,l6t))),256))])])])],64)}const w6t=Ne(p4t,[["render",b6t],["__scopeId","data-v-3b84c107"]]);const S6t={setup(){const e=Et(),t=Jt(),r=ii();return{gameStore:e,userStore:t,marketStore:r}},data:()=>({}),watch:{},methods:{formatFixed:Ft},computed:{plantzonesNearestCpTownsProfits150(){const e=Date.now();let t={};for(const r of Object.keys(this.gameStore.plantzones))t[r]=this.gameStore.plantzoneNearestCpTownsProfits150(r,3);return console.log("cpt: plantzonesNearestCpTownsProfits took",Date.now()-e,"ms"),t}}},T6t=b("div",{id:"toptext"},[b("p",null,"Using 150/10/10 worker")],-1),P6t=b("tr",null,[b("th",null,"Node/Town"),b("th",null,"connect"),b("th",null,"distance"),b("th",null,"M$/day"),b("th",null,"M$/day/CP")],-1),E6t={colspan:"5"};function k6t(e,t,r,n,i,o){return I(),R(j,null,[T6t,b("table",null,[P6t,(I(!0),R(j,null,Lt(n.gameStore.plantzones,(a,s)=>(I(),R(j,null,[b("tr",null,[b("td",E6t,[b("h3",null,L(s)+" "+L(a.name),1)])]),(I(!0),R(j,null,Lt(o.plantzonesNearestCpTownsProfits150[s],l=>(I(),R("tr",null,[b("td",null,L(n.gameStore.nodeName(l.tnk)),1),b("td",null,L(l.cp)+"CP ",1),b("td",null,L(o.formatFixed(l.dist,0)),1),b("td",null,L(o.formatFixed(l.priceDaily,2)),1),b("td",null,L(o.formatFixed(l.dailyPerCp,3)),1)]))),256))],64))),256))])],64)}const A6t=Ne(S6t,[["render",k6t]]),C6t={setup(){const e=Et(),t=Jt();return{gameStore:e,userStore:t}},data:()=>({houses:{},houseCrafts:{},towns:new Set([-1]),usages:[-1],filterTown:-1,filterUsage:-1}),created(){this.fetchData()},mounted(){},watch:{},methods:{makeIconSrc:li,async fetchData(){this.houseCrafts=await(await fetch("data/houseinforeceipe.json")).json(),this.craftItems=await(await fetch("data/house_craft_outputs.json")).json(),this.houses=await(await fetch("data/houseinfo.json")).json();const e=new Set([-1]),t=new Set([-1]);for(const[r,n]of Object.entries(this.houses)){e.add(n.affTown);for(const[o,a]of Object.entries(n.CraftList))t.add(o);this.houses[r].CPfull=this.houses[r].CP;let i=n.needHouseKey;for(;i;)this.houses[r].CPfull+=this.houses[i].CP,i=this.houses[i].needHouseKey}this.towns=e,this.usages=[...t].sort((r,n)=>r-n)}}},M6t={id:"toptext"},x6t=z(" Town: "),L6t=["value"],I6t=z(" Usage: "),O6t=["value"],R6t={key:0},D6t=b("summary",null,"Craftables",-1),N6t=["href"],F6t=["src","data-key"],B6t=b("tr",null,[b("th",null,"town"),b("th",null,"node"),b("th",null,"name"),b("th",null,"CP"),b("th",null,"usage/level")],-1),$6t={key:0},z6t=["href"],V6t=z(L(" "));function U6t(e,t,r,n,i,o){return I(),R("main",null,[b("div",M6t,[x6t,vt(b("select",{"onUpdate:modelValue":t[0]||(t[0]=a=>e.filterTown=a)},[(I(!0),R(j,null,Lt(e.towns,a=>(I(),R("option",{value:a},L(a>=0?n.gameStore.uloc.town[a]:"any"),9,L6t))),256))],512),[[dr,e.filterTown]]),I6t,vt(b("select",{"onUpdate:modelValue":t[1]||(t[1]=a=>e.filterUsage=a)},[(I(!0),R(j,null,Lt(e.usages,a=>(I(),R("option",{value:a},L(a>=0?n.gameStore.uloc.housetype[a]+" "+a:"any"),9,O6t))),256))],512),[[dr,e.filterUsage]]),e.filterUsage!=-1?(I(),R("details",R6t,[D6t,(I(!0),R(j,null,Lt(this.houseCrafts[e.filterUsage].groups,(a,s)=>(I(),R("div",null,[z(" level "+L(s+1)+": ",1),b("table",null,[(I(!0),R(j,null,Lt(a,l=>(I(),R("tr",null,[(I(!0),R(j,null,Lt(this.craftItems[l],u=>(I(),R("a",{href:this.userStore.itemUrl+u},[b("img",{src:o.makeIconSrc(u),class:"iconitem","data-key":u},null,8,F6t),z(" "+L(n.gameStore.uloc.item[u]),1)],8,N6t))),256))]))),256))])]))),256))])):tt("",!0)]),b("table",null,[B6t,(I(!0),R(j,null,Lt(e.houses,(a,s)=>(I(),R(j,null,[(e.filterTown==-1||a.affTown==e.filterTown)&&(e.filterUsage==-1||e.filterUsage in a.CraftList)?(I(),R("tr",$6t,[b("td",null,L(a.affTown),1),b("td",null,L(a.parentNode),1),b("td",null,[b("a",{href:"https://bdocodex.com/us/npc/"+a.key},L(n.gameStore.uloc.char[a.key]),9,z6t)]),b("td",null,L(a.CP)+" ("+L(a.CPfull)+")",1),b("td",null,[(I(!0),R(j,null,Lt(a.CraftList,(l,u)=>(I(),R("span",null,[z(L(n.gameStore.uloc.housetype[u]),1),b("sup",null,L(l),1),V6t]))),256))])])):tt("",!0)],64))),256))])])}const G6t=Ne(C6t,[["render",U6t]]);Xr([yf,xst,Sf,wf,Tf]);const W6t={setup(){const e=Jt();return{gameStore:Et(),userStore:e}},components:{VChart:Pf},props:{show:{type:Boolean,default:!1}},data:()=>({tk:5,wantLodging:0,wantStorage:0}),computed:{bestLookup(){return this.gameStore.lsLookup(this.tk,this.wantLodging,this.wantStorage)},sortedResult(){const e=[],t=this.bestLookup;if(t&&t.success){for(let r=0;r<t.indices.length;r++){const n=t.indices[r],i=this.gameStore.uloc.char[n],o=t.states[r];e.push({hk:n,name:i,state:o})}e.sort((r,n)=>r.hk-n.hk)}return e},storageCost(){let e=0;for(const t of this.sortedResult)t.state==1&&(e+=this.gameStore.houseCost(t.hk));return e},lodgingCost(){let e=0;for(const t of this.sortedResult)t.state==2&&(e+=this.gameStore.houseCost(t.hk));return e},townChains(){const e={};for(const t of this.gameStore.housesPerTown[this.tk]){e[t]=[];let r=Number(t);for(;r!=0;)e[t].unshift(r),r=this.gameStore.houseInfo[r].needHouseKey}return e},townTree(){const e={name:"",value:this.gameStore.uloc.town[this.tk],children:[]};if(!this.gameStore.ready||!this.bestLookup.success)return e;for(const t of this.gameStore.housesPerTown[this.tk]){let r=e;for(const n of this.townChains[t]){const i=r.children.findIndex(o=>o.name==n);if(i>=0)r=r.children[i];else{let o=0;if(this.bestLookup){const s=this.bestLookup.indices.indexOf(n);s!==-1&&(o=this.bestLookup.states[s])}const a={name:n,value:{label:this.gameStore.uloc.char[n],lodging:this.gameStore.houseLodging(n),storage:this.gameStore.houseStorage(n),cp:this.gameStore.houseCost(n)},lineStyle:r.name==0?{color:"transparent"}:o>0?o==2?{color:"#fe6"}:{color:"#a5f"}:{},itemStyle:o>0?o==2?{color:"#fe6"}:{color:"#a5f"}:{},children:[]};r.children.push(a),r=a}}}return e},chartOption(){return{tooltip:{trigger:"item",triggerOn:"mousemove",formatter:function(e){const t=e.value;return e.name==0?t:`${e.name} ${t.label}<br/>${t.lodging}\u{1F6CF}\uFE0F ${t.storage}\u{1F4E6} ${t.cp}CP`}},series:[{type:"tree",layout:"radial",roam:!0,data:[this.townTree],top:"1%",left:"1%",bottom:"1%",right:"1%",symbolSize:6,initialTreeDepth:9,label:{fontSize:9,color:"gray",position:"top",formatter:function(e){const t=e.value;return e.name==0?"":`{r|${t.lodging}} {o|${t.storage}} ${t.cp}`},rich:{r:{fontSize:9},o:{fontSize:9}}},leaves:{label:{}},emphasis:{focus:"descendant"}}]}}},methods:{formatFixed:Ft}},tp=e=>(gr("data-v-11d057ef"),e=e(),mr(),e),j6t={class:"limit"},H6t={id:"controls"},X6t=tp(()=>b("p",null,[z("data from "),b("a",{href:"https://github.com/Thell/bdo-housecraft"},"Thell/bdo-housecraft")],-1)),Y6t={id:"fluid"},q6t={id:"sliders"},Z6t={key:0},K6t=tp(()=>b("tr",null,[b("th"),b("th",null,"wanted"),b("th",null,"found"),b("th",null,"cost"),b("th",null,"per CP")],-1)),J6t=tp(()=>b("th",{class:"lodging"},"lodging ",-1)),Q6t=["max"],t5t=tp(()=>b("th",{class:"storage"},"storage",-1)),e5t=["max"],r5t={colspan:"3"},n5t=z(" town "),i5t=["value"],o5t={colspan:"2"},a5t=tp(()=>b("div",{style:{clear:"both"}},null,-1)),s5t={key:0,id:"houselist"};function l5t(e,t,r,n,i,o){const a=he("v-chart");return I(),R("main",null,[b("div",j6t,[b("div",H6t,[X6t,b("div",Y6t,[b("div",q6t,[this.gameStore.ready?(I(),R("table",Z6t,[K6t,b("tr",null,[J6t,b("th",null,[vt(b("input",{type:"range",class:"wlong","onUpdate:modelValue":t[0]||(t[0]=s=>e.wantLodging=s),min:"0",max:Math.min(n.gameStore.ready?n.gameStore.townUpperLimits[e.tk].lodging:999,100)},null,8,Q6t),[[pe,e.wantLodging,void 0,{number:!0}]]),z(L(e.wantLodging),1)]),b("th",null,L(o.bestLookup?o.bestLookup.lodging:"?"),1),b("th",null,L(o.lodgingCost)+" CP",1),b("th",null,L(o.bestLookup?o.formatFixed(o.bestLookup.lodging/o.lodgingCost,3):"?"),1)]),b("tr",null,[t5t,b("th",null,[vt(b("input",{type:"range",class:"wlong","onUpdate:modelValue":t[1]||(t[1]=s=>e.wantStorage=s),min:"0",max:Math.min(n.gameStore.ready?n.gameStore.townUpperLimits[e.tk].storage:999,192-8)},null,8,e5t),[[pe,e.wantStorage,void 0,{number:!0}]]),z(L(e.wantStorage),1)]),b("th",null,L(o.bestLookup?o.bestLookup.storage:"?"),1),b("th",null,L(o.storageCost)+" CP",1),b("th",null,L(o.bestLookup?o.formatFixed(o.bestLookup.storage/o.storageCost,3):"?"),1)]),b("tr",null,[b("th",r5t,[n5t,vt(b("select",{"onUpdate:modelValue":t[2]||(t[2]=s=>e.tk=s)},[(I(!0),R(j,null,Lt(this.gameStore._tk2tnk,(s,l)=>(I(),R("option",{value:l},L(n.gameStore.uloc.town[l]),9,i5t))),256))],512),[[dr,e.tk]])]),b("th",o5t,L(o.bestLookup?o.bestLookup.cost:"?")+" CP total",1)])])):tt("",!0)])])]),a5t,o.bestLookup?(I(),R("div",s5t,[(I(!0),R(j,null,Lt(o.sortedResult,s=>(I(),R(j,null,[s.state>0?(I(),R("p",{key:0,class:rn({storage:s.state==1,lodging:s.state==2})},L(s.name),3)):tt("",!0)],64))),256))])):tt("",!0),Ct(a,{class:"chart",option:o.chartOption},null,8,["option"])])])}const u5t=Ne(W6t,[["render",l5t],["__scopeId","data-v-11d057ef"]]);/**
+`)},"\u2139\uFE0F",8,p6t)])):tt("",!0)]),b("td",v6t,[u in n.marketStore.apiPrices?(I(),R("a",{key:0,href:this.marketStore.itemPriceUrl(u)},L(o.formatFixed(n.marketStore.apiPrices[u])),9,g6t)):(I(),R(j,{key:1},[z(L(o.formatFixed(n.gameStore.vendorPrices[u])),1)],64))]),b("td",null,[vt(b("input",{type:"number",class:"price right","onUpdate:modelValue":c=>n.userStore.customPrices[u]=c},null,8,m6t),[[pe,n.userStore.customPrices[u],void 0,{number:!0}]])]),b("td",_6t,[vt(b("input",{type:"checkbox",disabled:u in n.gameStore.vendorPrices,"onUpdate:modelValue":c=>n.userStore.keepItems[u]=c},null,8,y6t),[[sr,n.userStore.keepItems[u]]])]),b("td",b6t,L(o.formatFixed(n.marketStore.prices[u])),1)],8,u6t))),256))])])])],64)}const S6t=Ne(p4t,[["render",w6t],["__scopeId","data-v-bb043e98"]]);const T6t={setup(){const e=Et(),t=Jt(),r=ii();return{gameStore:e,userStore:t,marketStore:r}},data:()=>({}),watch:{},methods:{formatFixed:Ft},computed:{plantzonesNearestCpTownsProfits150(){const e=Date.now();let t={};for(const r of Object.keys(this.gameStore.plantzones))t[r]=this.gameStore.plantzoneNearestCpTownsProfits150(r,3);return console.log("cpt: plantzonesNearestCpTownsProfits took",Date.now()-e,"ms"),t}}},P6t=b("div",{id:"toptext"},[b("p",null,"Using 150/10/10 worker")],-1),E6t=b("tr",null,[b("th",null,"Node/Town"),b("th",null,"connect"),b("th",null,"distance"),b("th",null,"M$/day"),b("th",null,"M$/day/CP")],-1),k6t={colspan:"5"};function A6t(e,t,r,n,i,o){return I(),R(j,null,[P6t,b("table",null,[E6t,(I(!0),R(j,null,Lt(n.gameStore.plantzones,(a,s)=>(I(),R(j,null,[b("tr",null,[b("td",k6t,[b("h3",null,L(s)+" "+L(a.name),1)])]),(I(!0),R(j,null,Lt(o.plantzonesNearestCpTownsProfits150[s],l=>(I(),R("tr",null,[b("td",null,L(n.gameStore.nodeName(l.tnk)),1),b("td",null,L(l.cp)+"CP ",1),b("td",null,L(o.formatFixed(l.dist,0)),1),b("td",null,L(o.formatFixed(l.priceDaily,2)),1),b("td",null,L(o.formatFixed(l.dailyPerCp,3)),1)]))),256))],64))),256))])],64)}const C6t=Ne(T6t,[["render",A6t]]),M6t={setup(){const e=Et(),t=Jt();return{gameStore:e,userStore:t}},data:()=>({houses:{},houseCrafts:{},towns:new Set([-1]),usages:[-1],filterTown:-1,filterUsage:-1}),created(){this.fetchData()},mounted(){},watch:{},methods:{makeIconSrc:li,async fetchData(){this.houseCrafts=await(await fetch("data/houseinforeceipe.json")).json(),this.craftItems=await(await fetch("data/house_craft_outputs.json")).json(),this.houses=await(await fetch("data/houseinfo.json")).json();const e=new Set([-1]),t=new Set([-1]);for(const[r,n]of Object.entries(this.houses)){e.add(n.affTown);for(const[o,a]of Object.entries(n.CraftList))t.add(o);this.houses[r].CPfull=this.houses[r].CP;let i=n.needHouseKey;for(;i;)this.houses[r].CPfull+=this.houses[i].CP,i=this.houses[i].needHouseKey}this.towns=e,this.usages=[...t].sort((r,n)=>r-n)}}},x6t={id:"toptext"},L6t=z(" Town: "),I6t=["value"],O6t=z(" Usage: "),R6t=["value"],D6t={key:0},N6t=b("summary",null,"Craftables",-1),F6t=["href"],B6t=["src","data-key"],$6t=b("tr",null,[b("th",null,"town"),b("th",null,"node"),b("th",null,"name"),b("th",null,"CP"),b("th",null,"usage/level")],-1),z6t={key:0},V6t=["href"],U6t=z(L(" "));function G6t(e,t,r,n,i,o){return I(),R("main",null,[b("div",x6t,[L6t,vt(b("select",{"onUpdate:modelValue":t[0]||(t[0]=a=>e.filterTown=a)},[(I(!0),R(j,null,Lt(e.towns,a=>(I(),R("option",{value:a},L(a>=0?n.gameStore.uloc.town[a]:"any"),9,I6t))),256))],512),[[dr,e.filterTown]]),O6t,vt(b("select",{"onUpdate:modelValue":t[1]||(t[1]=a=>e.filterUsage=a)},[(I(!0),R(j,null,Lt(e.usages,a=>(I(),R("option",{value:a},L(a>=0?n.gameStore.uloc.housetype[a]+" "+a:"any"),9,R6t))),256))],512),[[dr,e.filterUsage]]),e.filterUsage!=-1?(I(),R("details",D6t,[N6t,(I(!0),R(j,null,Lt(this.houseCrafts[e.filterUsage].groups,(a,s)=>(I(),R("div",null,[z(" level "+L(s+1)+": ",1),b("table",null,[(I(!0),R(j,null,Lt(a,l=>(I(),R("tr",null,[(I(!0),R(j,null,Lt(this.craftItems[l],u=>(I(),R("a",{href:this.userStore.itemUrl+u},[b("img",{src:o.makeIconSrc(u),class:"iconitem","data-key":u},null,8,B6t),z(" "+L(n.gameStore.uloc.item[u]),1)],8,F6t))),256))]))),256))])]))),256))])):tt("",!0)]),b("table",null,[$6t,(I(!0),R(j,null,Lt(e.houses,(a,s)=>(I(),R(j,null,[(e.filterTown==-1||a.affTown==e.filterTown)&&(e.filterUsage==-1||e.filterUsage in a.CraftList)?(I(),R("tr",z6t,[b("td",null,L(a.affTown),1),b("td",null,L(a.parentNode),1),b("td",null,[b("a",{href:"https://bdocodex.com/us/npc/"+a.key},L(n.gameStore.uloc.char[a.key]),9,V6t)]),b("td",null,L(a.CP)+" ("+L(a.CPfull)+")",1),b("td",null,[(I(!0),R(j,null,Lt(a.CraftList,(l,u)=>(I(),R("span",null,[z(L(n.gameStore.uloc.housetype[u]),1),b("sup",null,L(l),1),U6t]))),256))])])):tt("",!0)],64))),256))])])}const W6t=Ne(M6t,[["render",G6t]]);Xr([yf,xst,Sf,wf,Tf]);const j6t={setup(){const e=Jt();return{gameStore:Et(),userStore:e}},components:{VChart:Pf},props:{show:{type:Boolean,default:!1}},data:()=>({tk:5,wantLodging:0,wantStorage:0}),computed:{bestLookup(){return this.gameStore.lsLookup(this.tk,this.wantLodging,this.wantStorage)},sortedResult(){const e=[],t=this.bestLookup;if(t&&t.success){for(let r=0;r<t.indices.length;r++){const n=t.indices[r],i=this.gameStore.uloc.char[n],o=t.states[r];e.push({hk:n,name:i,state:o})}e.sort((r,n)=>r.hk-n.hk)}return e},storageCost(){let e=0;for(const t of this.sortedResult)t.state==1&&(e+=this.gameStore.houseCost(t.hk));return e},lodgingCost(){let e=0;for(const t of this.sortedResult)t.state==2&&(e+=this.gameStore.houseCost(t.hk));return e},townChains(){const e={};for(const t of this.gameStore.housesPerTown[this.tk]){e[t]=[];let r=Number(t);for(;r!=0;)e[t].unshift(r),r=this.gameStore.houseInfo[r].needHouseKey}return e},townTree(){const e={name:"",value:this.gameStore.uloc.town[this.tk],children:[]};if(!this.gameStore.ready||!this.bestLookup.success)return e;for(const t of this.gameStore.housesPerTown[this.tk]){let r=e;for(const n of this.townChains[t]){const i=r.children.findIndex(o=>o.name==n);if(i>=0)r=r.children[i];else{let o=0;if(this.bestLookup){const s=this.bestLookup.indices.indexOf(n);s!==-1&&(o=this.bestLookup.states[s])}const a={name:n,value:{label:this.gameStore.uloc.char[n],lodging:this.gameStore.houseLodging(n),storage:this.gameStore.houseStorage(n),cp:this.gameStore.houseCost(n)},lineStyle:r.name==0?{color:"transparent"}:o>0?o==2?{color:"#fe6"}:{color:"#a5f"}:{},itemStyle:o>0?o==2?{color:"#fe6"}:{color:"#a5f"}:{},children:[]};r.children.push(a),r=a}}}return e},chartOption(){return{tooltip:{trigger:"item",triggerOn:"mousemove",formatter:function(e){const t=e.value;return e.name==0?t:`${e.name} ${t.label}<br/>${t.lodging}\u{1F6CF}\uFE0F ${t.storage}\u{1F4E6} ${t.cp}CP`}},series:[{type:"tree",layout:"radial",roam:!0,data:[this.townTree],top:"1%",left:"1%",bottom:"1%",right:"1%",symbolSize:6,initialTreeDepth:9,label:{fontSize:9,color:"gray",position:"top",formatter:function(e){const t=e.value;return e.name==0?"":`{r|${t.lodging}} {o|${t.storage}} ${t.cp}`},rich:{r:{fontSize:9},o:{fontSize:9}}},leaves:{label:{}},emphasis:{focus:"descendant"}}]}}},methods:{formatFixed:Ft}},tp=e=>(gr("data-v-11d057ef"),e=e(),mr(),e),H6t={class:"limit"},X6t={id:"controls"},Y6t=tp(()=>b("p",null,[z("data from "),b("a",{href:"https://github.com/Thell/bdo-housecraft"},"Thell/bdo-housecraft")],-1)),q6t={id:"fluid"},Z6t={id:"sliders"},K6t={key:0},J6t=tp(()=>b("tr",null,[b("th"),b("th",null,"wanted"),b("th",null,"found"),b("th",null,"cost"),b("th",null,"per CP")],-1)),Q6t=tp(()=>b("th",{class:"lodging"},"lodging ",-1)),t5t=["max"],e5t=tp(()=>b("th",{class:"storage"},"storage",-1)),r5t=["max"],n5t={colspan:"3"},i5t=z(" town "),o5t=["value"],a5t={colspan:"2"},s5t=tp(()=>b("div",{style:{clear:"both"}},null,-1)),l5t={key:0,id:"houselist"};function u5t(e,t,r,n,i,o){const a=he("v-chart");return I(),R("main",null,[b("div",H6t,[b("div",X6t,[Y6t,b("div",q6t,[b("div",Z6t,[this.gameStore.ready?(I(),R("table",K6t,[J6t,b("tr",null,[Q6t,b("th",null,[vt(b("input",{type:"range",class:"wlong","onUpdate:modelValue":t[0]||(t[0]=s=>e.wantLodging=s),min:"0",max:Math.min(n.gameStore.ready?n.gameStore.townUpperLimits[e.tk].lodging:999,100)},null,8,t5t),[[pe,e.wantLodging,void 0,{number:!0}]]),z(L(e.wantLodging),1)]),b("th",null,L(o.bestLookup?o.bestLookup.lodging:"?"),1),b("th",null,L(o.lodgingCost)+" CP",1),b("th",null,L(o.bestLookup?o.formatFixed(o.bestLookup.lodging/o.lodgingCost,3):"?"),1)]),b("tr",null,[e5t,b("th",null,[vt(b("input",{type:"range",class:"wlong","onUpdate:modelValue":t[1]||(t[1]=s=>e.wantStorage=s),min:"0",max:Math.min(n.gameStore.ready?n.gameStore.townUpperLimits[e.tk].storage:999,192-8)},null,8,r5t),[[pe,e.wantStorage,void 0,{number:!0}]]),z(L(e.wantStorage),1)]),b("th",null,L(o.bestLookup?o.bestLookup.storage:"?"),1),b("th",null,L(o.storageCost)+" CP",1),b("th",null,L(o.bestLookup?o.formatFixed(o.bestLookup.storage/o.storageCost,3):"?"),1)]),b("tr",null,[b("th",n5t,[i5t,vt(b("select",{"onUpdate:modelValue":t[2]||(t[2]=s=>e.tk=s)},[(I(!0),R(j,null,Lt(this.gameStore._tk2tnk,(s,l)=>(I(),R("option",{value:l},L(n.gameStore.uloc.town[l]),9,o5t))),256))],512),[[dr,e.tk]])]),b("th",a5t,L(o.bestLookup?o.bestLookup.cost:"?")+" CP total",1)])])):tt("",!0)])])]),s5t,o.bestLookup?(I(),R("div",l5t,[(I(!0),R(j,null,Lt(o.sortedResult,s=>(I(),R(j,null,[s.state>0?(I(),R("p",{key:0,class:rn({storage:s.state==1,lodging:s.state==2})},L(s.name),3)):tt("",!0)],64))),256))])):tt("",!0),Ct(a,{class:"chart",option:o.chartOption},null,8,["option"])])])}const c5t=Ne(j6t,[["render",u5t],["__scopeId","data-v-11d057ef"]]);/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -2098,7 +2098,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var c5t=typeof Object.defineProperty=="function"?Object.defineProperty:null,f5t=c5t;/**
+*/var f5t=typeof Object.defineProperty=="function"?Object.defineProperty:null,h5t=f5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -2114,7 +2114,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var h5t=f5t;function d5t(){try{return h5t({},"x",{}),!0}catch{return!1}}var p5t=d5t;/**
+*/var d5t=h5t;function p5t(){try{return d5t({},"x",{}),!0}catch{return!1}}var v5t=p5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2130,7 +2130,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var v5t=Object.defineProperty,g5t=v5t;/**
+*/var g5t=Object.defineProperty,m5t=g5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2146,7 +2146,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var xf=Object.prototype,HI=xf.toString,XI=xf.__defineGetter__,YI=xf.__defineSetter__,m5t=xf.__lookupGetter__,_5t=xf.__lookupSetter__;function y5t(e,t,r){var n,i,o,a;if(typeof e!="object"||e===null||HI.call(e)==="[object Array]")throw new TypeError("invalid argument. First argument must be an object. Value: `"+e+"`.");if(typeof r!="object"||r===null||HI.call(r)==="[object Array]")throw new TypeError("invalid argument. Property descriptor must be an object. Value: `"+r+"`.");if(i="value"in r,i&&(m5t.call(e,t)||_5t.call(e,t)?(n=e.__proto__,e.__proto__=xf,delete e[t],e[t]=r.value,e.__proto__=n):e[t]=r.value),o="get"in r,a="set"in r,i&&(o||a))throw new Error("invalid argument. Cannot specify one or more accessors and a value or writable attribute in the property descriptor.");return o&&XI&&XI.call(e,t,r.get),a&&YI&&YI.call(e,t,r.set),e}var b5t=y5t;/**
+*/var xf=Object.prototype,HI=xf.toString,XI=xf.__defineGetter__,YI=xf.__defineSetter__,_5t=xf.__lookupGetter__,y5t=xf.__lookupSetter__;function b5t(e,t,r){var n,i,o,a;if(typeof e!="object"||e===null||HI.call(e)==="[object Array]")throw new TypeError("invalid argument. First argument must be an object. Value: `"+e+"`.");if(typeof r!="object"||r===null||HI.call(r)==="[object Array]")throw new TypeError("invalid argument. Property descriptor must be an object. Value: `"+r+"`.");if(i="value"in r,i&&(_5t.call(e,t)||y5t.call(e,t)?(n=e.__proto__,e.__proto__=xf,delete e[t],e[t]=r.value,e.__proto__=n):e[t]=r.value),o="get"in r,a="set"in r,i&&(o||a))throw new Error("invalid argument. Cannot specify one or more accessors and a value or writable attribute in the property descriptor.");return o&&XI&&XI.call(e,t,r.get),a&&YI&&YI.call(e,t,r.set),e}var w5t=b5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2162,7 +2162,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var w5t=p5t,S5t=g5t,T5t=b5t,yT;w5t()?yT=S5t:yT=T5t;var HV=yT;/**
+*/var S5t=v5t,T5t=m5t,P5t=w5t,yT;S5t()?yT=T5t:yT=P5t;var HV=yT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2178,7 +2178,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var P5t=HV;function E5t(e,t,r){P5t(e,t,{configurable:!1,enumerable:!0,writable:!1,value:r})}var k5t=E5t;/**
+*/var E5t=HV;function k5t(e,t,r){E5t(e,t,{configurable:!1,enumerable:!0,writable:!1,value:r})}var A5t=k5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2194,7 +2194,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var A5t=k5t,C5t=A5t;/**
+*/var C5t=A5t,M5t=C5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2210,7 +2210,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var M5t=HV;function x5t(e,t,r){M5t(e,t,{configurable:!1,enumerable:!1,writable:!1,value:r})}var L5t=x5t;/**
+*/var x5t=HV;function L5t(e,t,r){x5t(e,t,{configurable:!1,enumerable:!1,writable:!1,value:r})}var I5t=L5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2226,7 +2226,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var I5t=L5t,yr=I5t;/**
+*/var O5t=I5t,yr=O5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2242,7 +2242,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var O5t=Math.floor,R5t=O5t;/**
+*/var R5t=Math.floor,D5t=R5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2258,7 +2258,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var D5t=R5t,Rn=D5t;/**
+*/var N5t=D5t,Rn=N5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2274,7 +2274,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var N5t=Rn;function F5t(e){return N5t(e)===e}var B5t=F5t;/**
+*/var F5t=Rn;function B5t(e){return F5t(e)===e}var $5t=B5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2290,7 +2290,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $5t=B5t,Bs=$5t;/**
+*/var z5t=$5t,Bs=z5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2306,7 +2306,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var z5t=4294967295>>>0,V5t=z5t;/**
+*/var V5t=4294967295>>>0,U5t=V5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2322,7 +2322,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var U5t=Bs,G5t=V5t;function W5t(e){return e!=null&&typeof e!="function"&&typeof e.length=="number"&&U5t(e.length)&&e.length>=0&&e.length<=G5t}var j5t=W5t;/**
+*/var G5t=Bs,W5t=U5t;function j5t(e){return e!=null&&typeof e!="function"&&typeof e.length=="number"&&G5t(e.length)&&e.length>=0&&e.length<=W5t}var H5t=j5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2338,7 +2338,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var H5t=j5t,X5t=H5t;/**
+*/var X5t=H5t,Y5t=X5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2354,7 +2354,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Y5t=X5t;function q5t(e){if(typeof e!="function")throw new TypeError("invalid argument. Must provide a function. Value: `"+e+"`.");return t;function t(r){var n,i;if(!Y5t(r)||(n=r.length,n===0))return!1;for(i=0;i<n;i++)if(e(r[i])===!1)return!1;return!0}}var Z5t=q5t;/**
+*/var q5t=Y5t;function Z5t(e){if(typeof e!="function")throw new TypeError("invalid argument. Must provide a function. Value: `"+e+"`.");return t;function t(r){var n,i;if(!q5t(r)||(n=r.length,n===0))return!1;for(i=0;i<n;i++)if(e(r[i])===!1)return!1;return!0}}var K5t=Z5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2370,7 +2370,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var K5t=Z5t,J5t=K5t;/**
+*/var J5t=K5t,Q5t=J5t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2386,7 +2386,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Q5t(e){return typeof e=="number"}var XV=Q5t;/**
+*/function txt(e){return typeof e=="number"}var XV=txt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2402,7 +2402,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function txt(){return typeof Symbol=="function"&&typeof Symbol("foo")=="symbol"}var ext=txt;/**
+*/function ext(){return typeof Symbol=="function"&&typeof Symbol("foo")=="symbol"}var rxt=ext;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2418,7 +2418,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rxt=ext,nxt=rxt;/**
+*/var nxt=rxt,ixt=nxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2434,7 +2434,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ixt=nxt,oxt=ixt();function axt(){return oxt&&typeof Symbol.toStringTag=="symbol"}var sxt=axt;/**
+*/var oxt=ixt,axt=oxt();function sxt(){return axt&&typeof Symbol.toStringTag=="symbol"}var lxt=sxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2450,7 +2450,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var lxt=sxt,B_=lxt;/**
+*/var uxt=lxt,B_=uxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2466,7 +2466,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var uxt=Object.prototype.toString,YV=uxt;/**
+*/var cxt=Object.prototype.toString,YV=cxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2482,7 +2482,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var cxt=YV;function fxt(e){return cxt.call(e)}var hxt=fxt;/**
+*/var fxt=YV;function hxt(e){return fxt.call(e)}var dxt=hxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2498,7 +2498,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dxt=Object.prototype.hasOwnProperty;function pxt(e,t){return e==null?!1:dxt.call(e,t)}var vxt=pxt;/**
+*/var pxt=Object.prototype.hasOwnProperty;function vxt(e,t){return e==null?!1:pxt.call(e,t)}var gxt=vxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2514,7 +2514,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var gxt=vxt,$_=gxt;/**
+*/var mxt=gxt,$_=mxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2530,7 +2530,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mxt=typeof Symbol=="function"?Symbol.toStringTag:"",_xt=mxt;/**
+*/var _xt=typeof Symbol=="function"?Symbol.toStringTag:"",yxt=_xt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2546,7 +2546,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var yxt=$_,Ch=_xt,Fb=YV;function bxt(e){var t,r,n;if(e==null)return Fb.call(e);r=e[Ch],t=yxt(e,Ch);try{e[Ch]=void 0}catch{return Fb.call(e)}return n=Fb.call(e),t?e[Ch]=r:delete e[Ch],n}var wxt=bxt;/**
+*/var bxt=$_,Ch=yxt,Fb=YV;function wxt(e){var t,r,n;if(e==null)return Fb.call(e);r=e[Ch],t=bxt(e,Ch);try{e[Ch]=void 0}catch{return Fb.call(e)}return n=Fb.call(e),t?e[Ch]=r:delete e[Ch],n}var Sxt=wxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2562,7 +2562,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Sxt=B_,Txt=hxt,Pxt=wxt,bT;Sxt()?bT=Pxt:bT=Txt;var Xi=bT;/**
+*/var Txt=B_,Pxt=dxt,Ext=Sxt,bT;Txt()?bT=Ext:bT=Pxt;var Xi=bT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2578,7 +2578,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Ext=Number;/**
+*/var kxt=Number;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2594,7 +2594,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kxt=Ext,Vk=kxt;/**
+*/var Axt=kxt,Vk=Axt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2610,7 +2610,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Axt=Vk,Cxt=Axt.prototype.toString,Mxt=Cxt;/**
+*/var Cxt=Vk,Mxt=Cxt.prototype.toString,xxt=Mxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2626,7 +2626,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var xxt=Mxt;function Lxt(e){try{return xxt.call(e),!0}catch{return!1}}var Ixt=Lxt;/**
+*/var Lxt=xxt;function Ixt(e){try{return Lxt.call(e),!0}catch{return!1}}var Oxt=Ixt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2642,7 +2642,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Oxt=B_,Rxt=Xi,Dxt=Vk,Nxt=Ixt,Fxt=Oxt();function Bxt(e){return typeof e=="object"?e instanceof Dxt?!0:Fxt?Nxt(e):Rxt(e)==="[object Number]":!1}var qV=Bxt;/**
+*/var Rxt=B_,Dxt=Xi,Nxt=Vk,Fxt=Oxt,Bxt=Rxt();function $xt(e){return typeof e=="object"?e instanceof Nxt?!0:Bxt?Fxt(e):Dxt(e)==="[object Number]":!1}var qV=$xt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2658,7 +2658,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $xt=XV,zxt=qV;function Vxt(e){return $xt(e)||zxt(e)}var Uxt=Vxt;/**
+*/var zxt=XV,Vxt=qV;function Uxt(e){return zxt(e)||Vxt(e)}var Gxt=Uxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2674,7 +2674,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ZV=yr,Uk=Uxt,Gxt=XV,Wxt=qV;ZV(Uk,"isPrimitive",Gxt);ZV(Uk,"isObject",Wxt);var Lf=Uk;/**
+*/var ZV=yr,Uk=Gxt,Wxt=XV,jxt=qV;ZV(Uk,"isPrimitive",Wxt);ZV(Uk,"isObject",jxt);var Lf=Uk;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2690,7 +2690,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var KV=yr,Gk=J5t,Wk=Lf,jxt=Gk(Wk.isPrimitive),Hxt=Gk(Wk.isObject),jk=Gk(Wk);KV(jk,"primitives",jxt);KV(jk,"objects",Hxt);var Xxt=jk;/**
+*/var KV=yr,Gk=Q5t,Wk=Lf,Hxt=Gk(Wk.isPrimitive),Xxt=Gk(Wk.isObject),jk=Gk(Wk);KV(jk,"primitives",Hxt);KV(jk,"objects",Xxt);var Yxt=jk;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2706,7 +2706,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Yxt=Number.POSITIVE_INFINITY,Fe=Yxt;/**
+*/var qxt=Number.POSITIVE_INFINITY,Fe=qxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2722,7 +2722,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var qxt=Vk,Zxt=qxt.NEGATIVE_INFINITY,Lr=Zxt;/**
+*/var Zxt=Vk,Kxt=Zxt.NEGATIVE_INFINITY,Lr=Kxt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2738,7 +2738,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Kxt=Fe,Jxt=Lr,Qxt=Bs;function tLt(e){return e<Kxt&&e>Jxt&&Qxt(e)}var JV=tLt;/**
+*/var Jxt=Fe,Qxt=Lr,tLt=Bs;function eLt(e){return e<Jxt&&e>Qxt&&tLt(e)}var JV=eLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2754,7 +2754,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eLt=Lf.isPrimitive,rLt=JV;function nLt(e){return eLt(e)&&rLt(e)}var QV=nLt;/**
+*/var rLt=Lf.isPrimitive,nLt=JV;function iLt(e){return rLt(e)&&nLt(e)}var QV=iLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2770,7 +2770,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var iLt=Lf.isObject,oLt=JV;function aLt(e){return iLt(e)&&oLt(e.valueOf())}var tU=aLt;/**
+*/var oLt=Lf.isObject,aLt=JV;function sLt(e){return oLt(e)&&aLt(e.valueOf())}var tU=sLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2786,7 +2786,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sLt=QV,lLt=tU;function uLt(e){return sLt(e)||lLt(e)}var cLt=uLt;/**
+*/var lLt=QV,uLt=tU;function cLt(e){return lLt(e)||uLt(e)}var fLt=cLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2802,7 +2802,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eU=yr,Hk=cLt,fLt=QV,hLt=tU;eU(Hk,"isPrimitive",fLt);eU(Hk,"isObject",hLt);var z_=Hk;/**
+*/var eU=yr,Hk=fLt,hLt=QV,dLt=tU;eU(Hk,"isPrimitive",hLt);eU(Hk,"isObject",dLt);var z_=Hk;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2818,7 +2818,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dLt=z_.isPrimitive;function pLt(e){return dLt(e)&&e>=0}var rU=pLt;/**
+*/var pLt=z_.isPrimitive;function vLt(e){return pLt(e)&&e>=0}var rU=vLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2834,7 +2834,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var vLt=z_.isObject;function gLt(e){return vLt(e)&&e.valueOf()>=0}var nU=gLt;/**
+*/var gLt=z_.isObject;function mLt(e){return gLt(e)&&e.valueOf()>=0}var nU=mLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2850,7 +2850,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mLt=rU,_Lt=nU;function yLt(e){return mLt(e)||_Lt(e)}var bLt=yLt;/**
+*/var _Lt=rU,yLt=nU;function bLt(e){return _Lt(e)||yLt(e)}var wLt=bLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2866,7 +2866,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var iU=yr,Xk=bLt,wLt=rU,SLt=nU;iU(Xk,"isPrimitive",wLt);iU(Xk,"isObject",SLt);var TLt=Xk;/**
+*/var iU=yr,Xk=wLt,SLt=rU,TLt=nU;iU(Xk,"isPrimitive",SLt);iU(Xk,"isObject",TLt);var PLt=Xk;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2882,7 +2882,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function PLt(e){return e!==e}var ELt=PLt;/**
+*/function ELt(e){return e!==e}var kLt=ELt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2898,7 +2898,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kLt=ELt,Zt=kLt;/**
+*/var ALt=kLt,Zt=ALt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2914,7 +2914,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function ALt(e,t){var r,n;if(n=e.length,n<2||t===0)return n===0?0:e[0];for(n-=1,r=e[n]*t+e[n-1],n-=2;n>=0;)r=r*t+e[n],n-=1;return r}var oU=ALt;/**
+*/function CLt(e,t){var r,n;if(n=e.length,n<2||t===0)return n===0?0:e[0];for(n-=1,r=e[n]*t+e[n-1],n-=2;n>=0;)r=r*t+e[n],n-=1;return r}var oU=CLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2930,7 +2930,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var CLt=oU;function MLt(e){var t,r,n,i;if(e.length>500)return o;if(t="return function evalpoly(x){",r=e.length,r===0)t+="return 0.0;";else if(r===1)t+="return "+e[0]+";";else{for(t+="if(x===0.0){return "+e[0]+";}",t+="return "+e[0],n=r-1,i=1;i<r;i++)t+="+x*",i<n&&(t+="("),t+=e[i];for(i=0;i<n-1;i++)t+=")";t+=";"}return t+="}",t+="//# sourceURL=evalpoly.factory.js",new Function(t)();function o(a){return CLt(e,a)}}var xLt=MLt;/**
+*/var MLt=oU;function xLt(e){var t,r,n,i;if(e.length>500)return o;if(t="return function evalpoly(x){",r=e.length,r===0)t+="return 0.0;";else if(r===1)t+="return "+e[0]+";";else{for(t+="if(x===0.0){return "+e[0]+";}",t+="return "+e[0],n=r-1,i=1;i<r;i++)t+="+x*",i<n&&(t+="("),t+=e[i];for(i=0;i<n-1;i++)t+=")";t+=";"}return t+="}",t+="//# sourceURL=evalpoly.factory.js",new Function(t)();function o(a){return MLt(e,a)}}var LLt=xLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2946,7 +2946,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var LLt=yr,aU=oU,ILt=xLt;LLt(aU,"factory",ILt);var $s=aU;/**
+*/var ILt=yr,aU=oU,OLt=LLt;ILt(aU,"factory",OLt);var $s=aU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2962,7 +2962,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var OLt=Xi,RLt=typeof Uint32Array=="function";function DLt(e){return RLt&&e instanceof Uint32Array||OLt(e)==="[object Uint32Array]"}var NLt=DLt;/**
+*/var RLt=Xi,DLt=typeof Uint32Array=="function";function NLt(e){return DLt&&e instanceof Uint32Array||RLt(e)==="[object Uint32Array]"}var FLt=NLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2978,7 +2978,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var FLt=NLt,BLt=FLt;/**
+*/var BLt=FLt,$Lt=BLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2994,7 +2994,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $Lt=4294967295,zLt=$Lt;/**
+*/var zLt=4294967295,VLt=zLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3010,7 +3010,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var VLt=typeof Uint32Array=="function"?Uint32Array:null,ULt=VLt;/**
+*/var ULt=typeof Uint32Array=="function"?Uint32Array:null,GLt=ULt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3026,7 +3026,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GLt=BLt,Bb=zLt,qI=ULt;function WLt(){var e,t;if(typeof qI!="function")return!1;try{t=[1,3.14,-3.14,Bb+1,Bb+2],t=new qI(t),e=GLt(t)&&t[0]===1&&t[1]===3&&t[2]===Bb-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var jLt=WLt;/**
+*/var WLt=$Lt,Bb=VLt,qI=GLt;function jLt(){var e,t;if(typeof qI!="function")return!1;try{t=[1,3.14,-3.14,Bb+1,Bb+2],t=new qI(t),e=WLt(t)&&t[0]===1&&t[1]===3&&t[2]===Bb-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var HLt=jLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3042,7 +3042,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var HLt=jLt,XLt=HLt;/**
+*/var XLt=HLt,YLt=XLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3058,7 +3058,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YLt=typeof Uint32Array=="function"?Uint32Array:void 0,qLt=YLt;/**
+*/var qLt=typeof Uint32Array=="function"?Uint32Array:void 0,ZLt=qLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3074,7 +3074,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function ZLt(){throw new Error("not implemented")}var KLt=ZLt;/**
+*/function KLt(){throw new Error("not implemented")}var JLt=KLt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3090,7 +3090,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var JLt=XLt,QLt=qLt,tIt=KLt,wT;JLt()?wT=QLt:wT=tIt;var If=wT;/**
+*/var QLt=YLt,tIt=ZLt,eIt=JLt,wT;QLt()?wT=tIt:wT=eIt;var If=wT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3106,7 +3106,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eIt=Xi,rIt=typeof Float64Array=="function";function nIt(e){return rIt&&e instanceof Float64Array||eIt(e)==="[object Float64Array]"}var iIt=nIt;/**
+*/var rIt=Xi,nIt=typeof Float64Array=="function";function iIt(e){return nIt&&e instanceof Float64Array||rIt(e)==="[object Float64Array]"}var oIt=iIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3122,7 +3122,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var oIt=iIt,aIt=oIt;/**
+*/var aIt=oIt,sIt=aIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3138,7 +3138,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sIt=typeof Float64Array=="function"?Float64Array:null,lIt=sIt;/**
+*/var lIt=typeof Float64Array=="function"?Float64Array:null,uIt=lIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3154,7 +3154,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var uIt=aIt,ZI=lIt;function cIt(){var e,t;if(typeof ZI!="function")return!1;try{t=new ZI([1,3.14,-3.14,NaN]),e=uIt(t)&&t[0]===1&&t[1]===3.14&&t[2]===-3.14&&t[3]!==t[3]}catch{e=!1}return e}var fIt=cIt;/**
+*/var cIt=sIt,ZI=uIt;function fIt(){var e,t;if(typeof ZI!="function")return!1;try{t=new ZI([1,3.14,-3.14,NaN]),e=cIt(t)&&t[0]===1&&t[1]===3.14&&t[2]===-3.14&&t[3]!==t[3]}catch{e=!1}return e}var hIt=fIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3170,7 +3170,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hIt=fIt,dIt=hIt;/**
+*/var dIt=hIt,pIt=dIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3186,7 +3186,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var pIt=typeof Float64Array=="function"?Float64Array:void 0,vIt=pIt;/**
+*/var vIt=typeof Float64Array=="function"?Float64Array:void 0,gIt=vIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3202,7 +3202,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function gIt(){throw new Error("not implemented")}var mIt=gIt;/**
+*/function mIt(){throw new Error("not implemented")}var _It=mIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3218,7 +3218,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var _It=dIt,yIt=vIt,bIt=mIt,ST;_It()?ST=yIt:ST=bIt;var Of=ST;/**
+*/var yIt=pIt,bIt=gIt,wIt=_It,ST;yIt()?ST=bIt:ST=wIt;var Of=ST;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3234,7 +3234,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var wIt=Xi,SIt=typeof Uint8Array=="function";function TIt(e){return SIt&&e instanceof Uint8Array||wIt(e)==="[object Uint8Array]"}var PIt=TIt;/**
+*/var SIt=Xi,TIt=typeof Uint8Array=="function";function PIt(e){return TIt&&e instanceof Uint8Array||SIt(e)==="[object Uint8Array]"}var EIt=PIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3250,7 +3250,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var EIt=PIt,kIt=EIt;/**
+*/var kIt=EIt,AIt=kIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3266,7 +3266,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var AIt=255,CIt=AIt;/**
+*/var CIt=255,MIt=CIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3282,7 +3282,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var MIt=typeof Uint8Array=="function"?Uint8Array:null,xIt=MIt;/**
+*/var xIt=typeof Uint8Array=="function"?Uint8Array:null,LIt=xIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3298,7 +3298,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var LIt=kIt,$b=CIt,KI=xIt;function IIt(){var e,t;if(typeof KI!="function")return!1;try{t=[1,3.14,-3.14,$b+1,$b+2],t=new KI(t),e=LIt(t)&&t[0]===1&&t[1]===3&&t[2]===$b-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var OIt=IIt;/**
+*/var IIt=AIt,$b=MIt,KI=LIt;function OIt(){var e,t;if(typeof KI!="function")return!1;try{t=[1,3.14,-3.14,$b+1,$b+2],t=new KI(t),e=IIt(t)&&t[0]===1&&t[1]===3&&t[2]===$b-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var RIt=OIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3314,7 +3314,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var RIt=OIt,DIt=RIt;/**
+*/var DIt=RIt,NIt=DIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3330,7 +3330,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var NIt=typeof Uint8Array=="function"?Uint8Array:void 0,FIt=NIt;/**
+*/var FIt=typeof Uint8Array=="function"?Uint8Array:void 0,BIt=FIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3346,7 +3346,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function BIt(){throw new Error("not implemented")}var $It=BIt;/**
+*/function $It(){throw new Error("not implemented")}var zIt=$It;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3362,7 +3362,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var zIt=DIt,VIt=FIt,UIt=$It,TT;zIt()?TT=VIt:TT=UIt;var GIt=TT;/**
+*/var VIt=NIt,UIt=BIt,GIt=zIt,TT;VIt()?TT=UIt:TT=GIt;var WIt=TT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3378,7 +3378,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var WIt=Xi,jIt=typeof Uint16Array=="function";function HIt(e){return jIt&&e instanceof Uint16Array||WIt(e)==="[object Uint16Array]"}var XIt=HIt;/**
+*/var jIt=Xi,HIt=typeof Uint16Array=="function";function XIt(e){return HIt&&e instanceof Uint16Array||jIt(e)==="[object Uint16Array]"}var YIt=XIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3394,7 +3394,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YIt=XIt,qIt=YIt;/**
+*/var qIt=YIt,ZIt=qIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3410,7 +3410,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ZIt=65535,KIt=ZIt;/**
+*/var KIt=65535,JIt=KIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3426,7 +3426,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var JIt=typeof Uint16Array=="function"?Uint16Array:null,QIt=JIt;/**
+*/var QIt=typeof Uint16Array=="function"?Uint16Array:null,tOt=QIt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3442,7 +3442,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var tOt=qIt,zb=KIt,JI=QIt;function eOt(){var e,t;if(typeof JI!="function")return!1;try{t=[1,3.14,-3.14,zb+1,zb+2],t=new JI(t),e=tOt(t)&&t[0]===1&&t[1]===3&&t[2]===zb-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var rOt=eOt;/**
+*/var eOt=ZIt,zb=JIt,JI=tOt;function rOt(){var e,t;if(typeof JI!="function")return!1;try{t=[1,3.14,-3.14,zb+1,zb+2],t=new JI(t),e=eOt(t)&&t[0]===1&&t[1]===3&&t[2]===zb-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var nOt=rOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3458,7 +3458,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var nOt=rOt,iOt=nOt;/**
+*/var iOt=nOt,oOt=iOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3474,7 +3474,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var oOt=typeof Uint16Array=="function"?Uint16Array:void 0,aOt=oOt;/**
+*/var aOt=typeof Uint16Array=="function"?Uint16Array:void 0,sOt=aOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3490,7 +3490,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function sOt(){throw new Error("not implemented")}var lOt=sOt;/**
+*/function lOt(){throw new Error("not implemented")}var uOt=lOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3506,7 +3506,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var uOt=iOt,cOt=aOt,fOt=lOt,PT;uOt()?PT=cOt:PT=fOt;var hOt=PT;/**
+*/var cOt=oOt,fOt=sOt,hOt=uOt,PT;cOt()?PT=fOt:PT=hOt;var dOt=PT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3522,7 +3522,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dOt=GIt,pOt=hOt,vOt={uint16:pOt,uint8:dOt},gOt=vOt;/**
+*/var pOt=WIt,vOt=dOt,gOt={uint16:vOt,uint8:pOt},mOt=gOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3538,7 +3538,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var QI=gOt,sU;function mOt(){var e,t;return e=new QI.uint16(1),e[0]=4660,t=new QI.uint8(e.buffer),t[0]===52}sU=mOt();var _Ot=sU;/**
+*/var QI=mOt,sU;function _Ot(){var e,t;return e=new QI.uint16(1),e[0]=4660,t=new QI.uint8(e.buffer),t[0]===52}sU=_Ot();var yOt=sU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3554,7 +3554,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var yOt=_Ot,Rf=yOt;/**
+*/var bOt=yOt,Rf=bOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3570,7 +3570,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var bOt=Rf,ET;bOt===!0?ET=1:ET=0;var wOt=ET;/**
+*/var wOt=Rf,ET;wOt===!0?ET=1:ET=0;var SOt=ET;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3586,7 +3586,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var SOt=If,TOt=Of,POt=wOt,lU=new TOt(1),EOt=new SOt(lU.buffer);function kOt(e){return lU[0]=e,EOt[POt]}var AOt=kOt;/**
+*/var TOt=If,POt=Of,EOt=SOt,lU=new POt(1),kOt=new TOt(lU.buffer);function AOt(e){return lU[0]=e,kOt[EOt]}var COt=AOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3602,7 +3602,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var COt=AOt,ci=COt;/**
+*/var MOt=COt,ci=MOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3618,7 +3618,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var MOt=Rf,kT;MOt===!0?kT=1:kT=0;var xOt=kT;/**
+*/var xOt=Rf,kT;xOt===!0?kT=1:kT=0;var LOt=kT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3634,7 +3634,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var LOt=If,IOt=Of,OOt=xOt,AT=new IOt(1),ROt=new LOt(AT.buffer);function DOt(e,t){return AT[0]=e,ROt[OOt]=t>>>0,AT[0]}var NOt=DOt;/**
+*/var IOt=If,OOt=Of,ROt=LOt,AT=new OOt(1),DOt=new IOt(AT.buffer);function NOt(e,t){return AT[0]=e,DOt[ROt]=t>>>0,AT[0]}var FOt=NOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3650,7 +3650,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var FOt=NOt,ep=FOt;/**
+*/var BOt=FOt,ep=BOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3666,7 +3666,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var BOt=1023,Pu=BOt;/**
+*/var $Ot=1023,Pu=$Ot;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3682,7 +3682,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $Ot=.34657359027997264,zOt=$Ot;/**
+*/var zOt=.34657359027997264,VOt=zOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3698,7 +3698,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function VOt(e){return e===0?-.03333333333333313:-.03333333333333313+e*(.0015873015872548146+e*(-793650757867488e-19+e*(4008217827329362e-21+e*-20109921818362437e-23)))}var UOt=VOt;/**
+*/function UOt(e){return e===0?-.03333333333333313:-.03333333333333313+e*(.0015873015872548146+e*(-793650757867488e-19+e*(4008217827329362e-21+e*-20109921818362437e-23)))}var GOt=UOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3728,7 +3728,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var GOt=Zt,Vb=ci,Vv=ep,tO=Fe,WOt=Lr,jOt=Pu,HOt=zOt,XOt=UOt,YOt=709.782712893384,Ub=.6931471803691238,Gb=19082149292705877e-26,eO=1.4426950408889634,qOt=38.816242111356935,ZOt=1.0397207708399179;function KOt(e){var t,r,n,i,o,a,s,l,u,c,f,h;if(e===tO||GOt(e))return e;if(e===WOt)return-1;if(e===0)return e;if(e<0?(r=!0,s=-e):(r=!1,s=e),s>=qOt){if(r)return-1;if(s>=YOt)return tO}if(o=Vb(s)|0,s>HOt)s<ZOt?r?(n=e+Ub,i=-Gb,h=-1):(n=e-Ub,i=Gb,h=1):(r?h=eO*e-.5:h=eO*e+.5,h|=0,c=h,n=e-c*Ub,i=c*Gb),e=n-i,u=n-e-i;else{if(o<1016070144)return e;h=0}return t=.5*e,l=e*t,a=1+l*XOt(l),c=3-a*t,f=l*((a-c)/(6-e*c)),h===0?e-(e*f-l):(f=e*(f-u)-u,f-=l,h===-1?.5*(e-f)-.5:h===1?e<-.25?-2*(f-(e+.5)):1+2*(e-f):h<=-2||h>56?(s=1-(f-e),n=Vb(s)+(h<<20)|0,s=Vv(s,n),s-1):(c=1,h<20?(n=1072693248-(2097152>>h)|0,c=Vv(c,n),s=c-(f-e)):(n=jOt-h<<20|0,c=Vv(c,n),s=e-(f+c),s+=1),n=Vb(s)+(h<<20)|0,Vv(s,n)))}var JOt=KOt;/**
+*/var WOt=Zt,Vb=ci,Vv=ep,tO=Fe,jOt=Lr,HOt=Pu,XOt=VOt,YOt=GOt,qOt=709.782712893384,Ub=.6931471803691238,Gb=19082149292705877e-26,eO=1.4426950408889634,ZOt=38.816242111356935,KOt=1.0397207708399179;function JOt(e){var t,r,n,i,o,a,s,l,u,c,f,h;if(e===tO||WOt(e))return e;if(e===jOt)return-1;if(e===0)return e;if(e<0?(r=!0,s=-e):(r=!1,s=e),s>=ZOt){if(r)return-1;if(s>=qOt)return tO}if(o=Vb(s)|0,s>XOt)s<KOt?r?(n=e+Ub,i=-Gb,h=-1):(n=e-Ub,i=Gb,h=1):(r?h=eO*e-.5:h=eO*e+.5,h|=0,c=h,n=e-c*Ub,i=c*Gb),e=n-i,u=n-e-i;else{if(o<1016070144)return e;h=0}return t=.5*e,l=e*t,a=1+l*YOt(l),c=3-a*t,f=l*((a-c)/(6-e*c)),h===0?e-(e*f-l):(f=e*(f-u)-u,f-=l,h===-1?.5*(e-f)-.5:h===1?e<-.25?-2*(f-(e+.5)):1+2*(e-f):h<=-2||h>56?(s=1-(f-e),n=Vb(s)+(h<<20)|0,s=Vv(s,n),s-1):(c=1,h<20?(n=1072693248-(2097152>>h)|0,c=Vv(c,n),s=c-(f-e)):(n=HOt-h<<20|0,c=Vv(c,n),s=e-(f+c),s+=1),n=Vb(s)+(h<<20)|0,Vv(s,n)))}var QOt=JOt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3744,7 +3744,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var QOt=JOt,Df=QOt;/**
+*/var tRt=QOt,Df=tRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3760,7 +3760,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function tRt(e){return e===0?.6666666666666735:.6666666666666735+e*(.3999999999940942+e*(.2857142874366239+e*(.22222198432149784+e*(.1818357216161805+e*(.15313837699209373+e*.14798198605116586)))))}var eRt=tRt;/**
+*/function eRt(e){return e===0?.6666666666666735:.6666666666666735+e*(.3999999999940942+e*(.2857142874366239+e*(.22222198432149784+e*(.1818357216161805+e*(.15313837699209373+e*.14798198605116586)))))}var rRt=eRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3790,7 +3790,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var rRt=Zt,rO=ci,nO=ep,nRt=Fe,iRt=Lr,iO=Pu,oRt=eRt,Wb=.6931471803691238,jb=19082149292705877e-26,aRt=.41421356237309503,sRt=-.2928932188134525,lRt=1862645149230957e-24,uRt=5551115123125783e-32,cRt=9007199254740992,fRt=.6666666666666666;function hRt(e){var t,r,n,i,o,a,s,l,u,c;if(e<-1||rRt(e))return NaN;if(e===-1)return iRt;if(e===nRt||e===0)return e;if(e<0?n=-e:n=e,c=1,n<aRt){if(n<lRt)return n<uRt?e:e-e*e*.5;e>sRt&&(c=0,i=e,r=1)}return c!==0&&(n<cRt?(u=1+e,r=rO(u),c=(r>>20)-iO,c>0?o=1-(u-e):o=e-(u-1),o/=u):(u=e,r=rO(u),c=(r>>20)-iO,o=0),r&=1048575,r<434334?u=nO(u,r|1072693248):(c+=1,u=nO(u,r|1071644672),r=1048576-r>>2),i=u-1),t=.5*i*i,r===0?i===0?(o+=c*jb,c*Wb+o):(l=t*(1-fRt*i),c*Wb-(l-(c*jb+o)-i)):(a=i/(2+i),s=a*a,l=s*oRt(s),c===0?i-(t-a*(t+l)):c*Wb-(t-(a*(t+l)+(c*jb+o))-i))}var dRt=hRt;/**
+*/var nRt=Zt,rO=ci,nO=ep,iRt=Fe,oRt=Lr,iO=Pu,aRt=rRt,Wb=.6931471803691238,jb=19082149292705877e-26,sRt=.41421356237309503,lRt=-.2928932188134525,uRt=1862645149230957e-24,cRt=5551115123125783e-32,fRt=9007199254740992,hRt=.6666666666666666;function dRt(e){var t,r,n,i,o,a,s,l,u,c;if(e<-1||nRt(e))return NaN;if(e===-1)return oRt;if(e===iRt||e===0)return e;if(e<0?n=-e:n=e,c=1,n<sRt){if(n<uRt)return n<cRt?e:e-e*e*.5;e>lRt&&(c=0,i=e,r=1)}return c!==0&&(n<fRt?(u=1+e,r=rO(u),c=(r>>20)-iO,c>0?o=1-(u-e):o=e-(u-1),o/=u):(u=e,r=rO(u),c=(r>>20)-iO,o=0),r&=1048575,r<434334?u=nO(u,r|1072693248):(c+=1,u=nO(u,r|1071644672),r=1048576-r>>2),i=u-1),t=.5*i*i,r===0?i===0?(o+=c*jb,c*Wb+o):(l=t*(1-hRt*i),c*Wb-(l-(c*jb+o)-i)):(a=i/(2+i),s=a*a,l=s*aRt(s),c===0?i-(t-a*(t+l)):c*Wb-(t-(a*(t+l)+(c*jb+o))-i))}var pRt=dRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3806,7 +3806,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var pRt=dRt,Dn=pRt;/**
+*/var vRt=pRt,Dn=vRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3822,7 +3822,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var vRt=Math.sqrt,gRt=vRt;/**
+*/var gRt=Math.sqrt,mRt=gRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3838,7 +3838,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mRt=gRt,er=mRt;/**
+*/var _Rt=mRt,er=_Rt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3854,7 +3854,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var _Rt=.7853981633974483,uU=_Rt;/**
+*/var yRt=.7853981633974483,uU=yRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2020 The Stdlib Authors.
@@ -3870,7 +3870,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function yRt(e){var t,r,n;return e===0?.16666666666666713:(e<0?t=-e:t=e,t<=1?(r=-8.198089802484825+e*(19.562619833175948+e*(-16.262479672107002+e*(5.444622390564711+e*(-.6019598008014124+e*.004253011369004428)))),n=-49.18853881490881+e*(139.51056146574857+e*(-147.1791292232726+e*(70.49610280856842+e*(-14.740913729888538+e*1))))):(e=1/e,r=.004253011369004428+e*(-.6019598008014124+e*(5.444622390564711+e*(-16.262479672107002+e*(19.562619833175948+e*-8.198089802484825)))),n=1+e*(-14.740913729888538+e*(70.49610280856842+e*(-147.1791292232726+e*(139.51056146574857+e*-49.18853881490881))))),r/n)}var bRt=yRt;/**
+*/function bRt(e){var t,r,n;return e===0?.16666666666666713:(e<0?t=-e:t=e,t<=1?(r=-8.198089802484825+e*(19.562619833175948+e*(-16.262479672107002+e*(5.444622390564711+e*(-.6019598008014124+e*.004253011369004428)))),n=-49.18853881490881+e*(139.51056146574857+e*(-147.1791292232726+e*(70.49610280856842+e*(-14.740913729888538+e*1))))):(e=1/e,r=.004253011369004428+e*(-.6019598008014124+e*(5.444622390564711+e*(-16.262479672107002+e*(19.562619833175948+e*-8.198089802484825)))),n=1+e*(-14.740913729888538+e*(70.49610280856842+e*(-147.1791292232726+e*(139.51056146574857+e*-49.18853881490881))))),r/n)}var wRt=bRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2020 The Stdlib Authors.
@@ -3886,7 +3886,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function wRt(e){var t,r,n;return e===0?.08333333333333809:(e<0?t=-e:t=e,t<=1?(r=28.536655482610616+e*(-25.56901049652825+e*(6.968710824104713+e*(-.5634242780008963+e*.002967721961301243))),n=342.43986579130785+e*(-383.8770957603691+e*(147.0656354026815+e*(-21.947795316429207+e*1)))):(e=1/e,r=.002967721961301243+e*(-.5634242780008963+e*(6.968710824104713+e*(-25.56901049652825+e*28.536655482610616))),n=1+e*(-21.947795316429207+e*(147.0656354026815+e*(-383.8770957603691+e*342.43986579130785)))),r/n)}var SRt=wRt;/**
+*/function SRt(e){var t,r,n;return e===0?.08333333333333809:(e<0?t=-e:t=e,t<=1?(r=28.536655482610616+e*(-25.56901049652825+e*(6.968710824104713+e*(-.5634242780008963+e*.002967721961301243))),n=342.43986579130785+e*(-383.8770957603691+e*(147.0656354026815+e*(-21.947795316429207+e*1)))):(e=1/e,r=.002967721961301243+e*(-.5634242780008963+e*(6.968710824104713+e*(-25.56901049652825+e*28.536655482610616))),n=1+e*(-21.947795316429207+e*(147.0656354026815+e*(-383.8770957603691+e*342.43986579130785)))),r/n)}var TRt=SRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3916,7 +3916,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Stephen L. Moshier
 * moshier@na-net.ornl.gov
 * ```
-*/var TRt=Zt,PRt=er,oO=uU,ERt=bRt,kRt=SRt,ARt=6123233995736766e-32;function CRt(e){var t,r,n,i,o;if(TRt(e))return NaN;if(e>0?n=e:(t=!0,n=-e),n>1)return NaN;if(n>.625)r=1-n,i=r*kRt(r),r=PRt(r+r),o=oO-r,r=r*i-ARt,o-=r,o+=oO;else{if(n<1e-8)return e;r=n*n,o=r*ERt(r),o=n*o+n}return t?-o:o}var MRt=CRt;/**
+*/var PRt=Zt,ERt=er,oO=uU,kRt=wRt,ARt=TRt,CRt=6123233995736766e-32;function MRt(e){var t,r,n,i,o;if(PRt(e))return NaN;if(e>0?n=e:(t=!0,n=-e),n>1)return NaN;if(n>.625)r=1-n,i=r*ARt(r),r=ERt(r+r),o=oO-r,r=r*i-CRt,o-=r,o+=oO;else{if(n<1e-8)return e;r=n*n,o=r*kRt(r),o=n*o+n}return t?-o:o}var xRt=MRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3932,7 +3932,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var xRt=MRt,Yk=xRt;/**
+*/var LRt=xRt,Yk=LRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -3948,7 +3948,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function LRt(e){return Math.abs(e)}var IRt=LRt;/**
+*/function IRt(e){return Math.abs(e)}var ORt=IRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3964,7 +3964,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ORt=IRt,de=ORt;/**
+*/var RRt=ORt,de=RRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3980,7 +3980,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var RRt=Math.ceil,DRt=RRt;/**
+*/var DRt=Math.ceil,NRt=DRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3996,7 +3996,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var NRt=DRt,cU=NRt;/**
+*/var FRt=NRt,cU=FRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4012,7 +4012,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var FRt=Rn,BRt=cU;function $Rt(e){return e<0?BRt(e):FRt(e)}var zRt=$Rt;/**
+*/var BRt=Rn,$Rt=cU;function zRt(e){return e<0?$Rt(e):BRt(e)}var VRt=zRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4028,7 +4028,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var VRt=zRt,qk=VRt;/**
+*/var URt=VRt,qk=URt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4044,7 +4044,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var URt=1023,GRt=URt;/**
+*/var GRt=1023,WRt=GRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4060,7 +4060,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var WRt=-1023,jRt=WRt;/**
+*/var jRt=-1023,HRt=jRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4076,7 +4076,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var HRt=-1074,XRt=HRt;/**
+*/var XRt=-1074,YRt=XRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4092,7 +4092,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YRt=Fe,qRt=Lr;function ZRt(e){return e===YRt||e===qRt}var KRt=ZRt;/**
+*/var qRt=Fe,ZRt=Lr;function KRt(e){return e===qRt||e===ZRt}var JRt=KRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4108,7 +4108,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var JRt=KRt,Nf=JRt;/**
+*/var QRt=JRt,Nf=QRt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4124,7 +4124,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var QRt=2147483648>>>0,t8t=QRt;/**
+*/var t8t=2147483648>>>0,e8t=t8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4140,7 +4140,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var e8t=2147483647>>>0,V_=e8t;/**
+*/var r8t=2147483647>>>0,V_=r8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4156,7 +4156,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var r8t=Rf,fU,CT,MT;r8t===!0?(CT=1,MT=0):(CT=0,MT=1);fU={HIGH:CT,LOW:MT};var n8t=fU;/**
+*/var n8t=Rf,fU,CT,MT;n8t===!0?(CT=1,MT=0):(CT=0,MT=1);fU={HIGH:CT,LOW:MT};var i8t=fU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4172,7 +4172,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var i8t=If,o8t=Of,hU=n8t,dU=new o8t(1),aO=new i8t(dU.buffer),a8t=hU.HIGH,s8t=hU.LOW;function l8t(e,t,r,n){return dU[0]=e,t[n]=aO[a8t],t[n+r]=aO[s8t],t}var pU=l8t;/**
+*/var o8t=If,a8t=Of,hU=i8t,dU=new a8t(1),aO=new o8t(dU.buffer),s8t=hU.HIGH,l8t=hU.LOW;function u8t(e,t,r,n){return dU[0]=e,t[n]=aO[s8t],t[n+r]=aO[l8t],t}var pU=u8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4188,7 +4188,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var u8t=pU;function c8t(e){return u8t(e,[0>>>0,0>>>0],1,0)}var f8t=c8t;/**
+*/var c8t=pU;function f8t(e){return c8t(e,[0>>>0,0>>>0],1,0)}var h8t=f8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4204,7 +4204,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var h8t=yr,vU=f8t,d8t=pU;h8t(vU,"assign",d8t);var Zk=vU;/**
+*/var d8t=yr,vU=h8t,p8t=pU;d8t(vU,"assign",p8t);var Zk=vU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4220,7 +4220,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var p8t=Rf,gU,xT,LT;p8t===!0?(xT=1,LT=0):(xT=0,LT=1);gU={HIGH:xT,LOW:LT};var v8t=gU;/**
+*/var v8t=Rf,gU,xT,LT;v8t===!0?(xT=1,LT=0):(xT=0,LT=1);gU={HIGH:xT,LOW:LT};var g8t=gU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4236,7 +4236,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var g8t=If,m8t=Of,mU=v8t,_U=new m8t(1),sO=new g8t(_U.buffer),_8t=mU.HIGH,y8t=mU.LOW;function b8t(e,t){return sO[_8t]=e,sO[y8t]=t,_U[0]}var w8t=b8t;/**
+*/var m8t=If,_8t=Of,mU=g8t,_U=new _8t(1),sO=new m8t(_U.buffer),y8t=mU.HIGH,b8t=mU.LOW;function w8t(e,t){return sO[y8t]=e,sO[b8t]=t,_U[0]}var S8t=w8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4252,7 +4252,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var S8t=w8t,Kk=S8t;/**
+*/var T8t=S8t,Kk=T8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4268,7 +4268,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var T8t=t8t,P8t=V_,E8t=Zk,k8t=ci,A8t=Kk,Hb=[0,0];function C8t(e,t){var r,n;return E8t.assign(e,Hb,1,0),r=Hb[0],r&=P8t,n=k8t(t),n&=T8t,r|=n,A8t(r,Hb[1])}var M8t=C8t;/**
+*/var P8t=e8t,E8t=V_,k8t=Zk,A8t=ci,C8t=Kk,Hb=[0,0];function M8t(e,t){var r,n;return k8t.assign(e,Hb,1,0),r=Hb[0],r&=E8t,n=A8t(t),n&=P8t,r|=n,C8t(r,Hb[1])}var x8t=M8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4284,7 +4284,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var x8t=M8t,Jk=x8t;/**
+*/var L8t=x8t,Jk=L8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4300,7 +4300,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var L8t=22250738585072014e-324,Eu=L8t;/**
+*/var I8t=22250738585072014e-324,Eu=I8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4316,7 +4316,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var I8t=Eu,O8t=Nf,R8t=Zt,D8t=de,N8t=4503599627370496;function F8t(e,t,r,n){return R8t(e)||O8t(e)?(t[n]=e,t[n+r]=0,t):e!==0&&D8t(e)<I8t?(t[n]=e*N8t,t[n+r]=-52,t):(t[n]=e,t[n+r]=0,t)}var yU=F8t;/**
+*/var O8t=Eu,R8t=Nf,D8t=Zt,N8t=de,F8t=4503599627370496;function B8t(e,t,r,n){return D8t(e)||R8t(e)?(t[n]=e,t[n+r]=0,t):e!==0&&N8t(e)<O8t?(t[n]=e*F8t,t[n+r]=-52,t):(t[n]=e,t[n+r]=0,t)}var yU=B8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4332,7 +4332,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var B8t=yU;function $8t(e){return B8t(e,[0,0],1,0)}var z8t=$8t;/**
+*/var $8t=yU;function z8t(e){return $8t(e,[0,0],1,0)}var V8t=z8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4348,7 +4348,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var V8t=yr,bU=z8t,U8t=yU;V8t(bU,"assign",U8t);var G8t=bU;/**
+*/var U8t=yr,bU=V8t,G8t=yU;U8t(bU,"assign",G8t);var W8t=bU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4364,7 +4364,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var W8t=2146435072,j8t=W8t;/**
+*/var j8t=2146435072,H8t=j8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4380,7 +4380,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var H8t=ci,X8t=j8t,Y8t=Pu;function q8t(e){var t=H8t(e);return t=(t&X8t)>>>20,t-Y8t|0}var Z8t=q8t;/**
+*/var X8t=ci,Y8t=H8t,q8t=Pu;function Z8t(e){var t=X8t(e);return t=(t&Y8t)>>>20,t-q8t|0}var K8t=Z8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4396,7 +4396,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var K8t=Z8t,J8t=K8t;/**
+*/var J8t=K8t,Q8t=J8t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4412,7 +4412,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Q8t=Fe,tDt=Lr,eDt=Pu,rDt=GRt,nDt=jRt,iDt=XRt,oDt=Zt,aDt=Nf,sDt=Jk,lDt=G8t.assign,uDt=J8t,cDt=Zk,fDt=Kk,hDt=2220446049250313e-31,dDt=2148532223>>>0,Xb=[0,0],Yb=[0,0];function pDt(e,t){var r,n;return t===0||e===0||oDt(e)||aDt(e)?e:(lDt(e,Xb,1,0),e=Xb[0],t+=Xb[1],t+=uDt(e),t<iDt?sDt(0,e):t>rDt?e<0?tDt:Q8t:(t<=nDt?(t+=52,n=hDt):n=1,cDt.assign(e,Yb,1,0),r=Yb[0],r&=dDt,r|=t+eDt<<20,n*fDt(r,Yb[1])))}var vDt=pDt;/**
+*/var tDt=Fe,eDt=Lr,rDt=Pu,nDt=WRt,iDt=HRt,oDt=YRt,aDt=Zt,sDt=Nf,lDt=Jk,uDt=W8t.assign,cDt=Q8t,fDt=Zk,hDt=Kk,dDt=2220446049250313e-31,pDt=2148532223>>>0,Xb=[0,0],Yb=[0,0];function vDt(e,t){var r,n;return t===0||e===0||aDt(e)||sDt(e)?e:(uDt(e,Xb,1,0),e=Xb[0],t+=Xb[1],t+=cDt(e),t<oDt?lDt(0,e):t>nDt?e<0?eDt:tDt:(t<=iDt?(t+=52,n=dDt):n=1,fDt.assign(e,Yb,1,0),r=Yb[0],r&=pDt,r|=t+rDt<<20,n*hDt(r,Yb[1])))}var gDt=vDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4428,7 +4428,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var gDt=vDt,Ff=gDt;/**
+*/var mDt=gDt,Ff=mDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -4444,7 +4444,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function mDt(e){return e===0?.16666666666666602:.16666666666666602+e*(-.0027777777777015593+e*(6613756321437934e-20+e*(-16533902205465252e-22+e*41381367970572385e-24)))}var _Dt=mDt;/**
+*/function _Dt(e){return e===0?.16666666666666602:.16666666666666602+e*(-.0027777777777015593+e*(6613756321437934e-20+e*(-16533902205465252e-22+e*41381367970572385e-24)))}var yDt=_Dt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4474,7 +4474,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var yDt=Ff,bDt=_Dt;function wDt(e,t,r){var n,i,o,a;return n=e-t,i=n*n,o=n-i*bDt(i),a=1-(t-n*o/(2-o)-e),yDt(a,r)}var SDt=wDt;/**
+*/var bDt=Ff,wDt=yDt;function SDt(e,t,r){var n,i,o,a;return n=e-t,i=n*n,o=n-i*wDt(i),a=1-(t-n*o/(2-o)-e),bDt(a,r)}var TDt=SDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4504,7 +4504,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var TDt=Zt,lO=qk,PDt=Lr,uO=Fe,EDt=SDt,kDt=.6931471803691238,ADt=19082149292705877e-26,cO=1.4426950408889634,CDt=709.782712893384,MDt=-745.1332191019411,wU=1/(1<<28),xDt=-wU;function LDt(e){var t,r,n;return TDt(e)||e===uO?e:e===PDt?0:e>CDt?uO:e<MDt?0:e>xDt&&e<wU?1+e:(e<0?n=lO(cO*e-.5):n=lO(cO*e+.5),t=e-n*kDt,r=n*ADt,EDt(t,r,n))}var IDt=LDt;/**
+*/var PDt=Zt,lO=qk,EDt=Lr,uO=Fe,kDt=TDt,ADt=.6931471803691238,CDt=19082149292705877e-26,cO=1.4426950408889634,MDt=709.782712893384,xDt=-745.1332191019411,wU=1/(1<<28),LDt=-wU;function IDt(e){var t,r,n;return PDt(e)||e===uO?e:e===EDt?0:e>MDt?uO:e<xDt?0:e>LDt&&e<wU?1+e:(e<0?n=lO(cO*e-.5):n=lO(cO*e+.5),t=e-n*ADt,r=n*CDt,kDt(t,r,n))}var ODt=IDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4520,7 +4520,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ODt=IDt,Ve=ODt;/**
+*/var RDt=ODt,Ve=RDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4536,7 +4536,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var RDt=Bs;function DDt(e){return RDt(e/2)}var NDt=DDt;/**
+*/var DDt=Bs;function NDt(e){return DDt(e/2)}var FDt=NDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4552,7 +4552,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var FDt=NDt,BDt=FDt;/**
+*/var BDt=FDt,$Dt=BDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4568,7 +4568,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var fO=BDt;function $Dt(e){return e>0?fO(e-1):fO(e+1)}var zDt=$Dt;/**
+*/var fO=$Dt;function zDt(e){return e>0?fO(e-1):fO(e+1)}var VDt=zDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4584,7 +4584,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var VDt=zDt,Qk=VDt;/**
+*/var UDt=VDt,Qk=UDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4600,7 +4600,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var UDt=Rf,IT;UDt===!0?IT=0:IT=1;var GDt=IT;/**
+*/var GDt=Rf,IT;GDt===!0?IT=0:IT=1;var WDt=IT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4616,7 +4616,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var WDt=If,jDt=Of,HDt=GDt,OT=new jDt(1),XDt=new WDt(OT.buffer);function YDt(e,t){return OT[0]=e,XDt[HDt]=t>>>0,OT[0]}var qDt=YDt;/**
+*/var jDt=If,HDt=Of,XDt=WDt,OT=new HDt(1),YDt=new jDt(OT.buffer);function qDt(e,t){return OT[0]=e,YDt[XDt]=t>>>0,OT[0]}var ZDt=qDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4632,7 +4632,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ZDt=qDt,rp=ZDt;/**
+*/var KDt=ZDt,rp=KDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4648,7 +4648,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function KDt(e){return e|0}var JDt=KDt;/**
+*/function JDt(e){return e|0}var QDt=JDt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4664,37 +4664,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var QDt=JDt,SU=QDt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The following copyright and license were part of the original implementation available as part of [FreeBSD]{@link https://svnweb.freebsd.org/base/release/9.3.0/lib/msun/src/s_pow.c}. The implementation follows the original, but has been modified for JavaScript.
-*
-* ```text
-* Copyright (C) 2004 by Sun Microsystems, Inc. All rights reserved.
-*
-* Developed at SunPro, a Sun Microsystems, Inc. business.
-* Permission to use, copy, modify, and distribute this
-* software is freely granted, provided that this notice
-* is preserved.
-* ```
-*/var hO=Qk,t7t=Jk,e7t=Lr,Uv=Fe;function r7t(e,t){return t===e7t?Uv:t===Uv?0:t>0?hO(t)?e:0:hO(t)?t7t(Uv,e):Uv}var n7t=r7t;/**
+*/var t7t=QDt,SU=t7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4724,7 +4694,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var i7t=V_,o7t=ci,a7t=1072693247,Gv=1e300,Wv=1e-300;function s7t(e,t){var r,n;return n=o7t(e),r=n&i7t,r<=a7t?t<0?Gv*Gv:Wv*Wv:t>0?Gv*Gv:Wv*Wv}var l7t=s7t;/**
+*/var hO=Qk,e7t=Jk,r7t=Lr,Uv=Fe;function n7t(e,t){return t===r7t?Uv:t===Uv?0:t>0?hO(t)?e:0:hO(t)?e7t(Uv,e):Uv}var i7t=n7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4740,7 +4710,37 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var u7t=de,dO=Fe;function c7t(e,t){return e===-1?(e-e)/(e-e):e===1?1:u7t(e)<1==(t===dO)?0:dO}var f7t=c7t;/**
+*
+*
+* ## Notice
+*
+* The following copyright and license were part of the original implementation available as part of [FreeBSD]{@link https://svnweb.freebsd.org/base/release/9.3.0/lib/msun/src/s_pow.c}. The implementation follows the original, but has been modified for JavaScript.
+*
+* ```text
+* Copyright (C) 2004 by Sun Microsystems, Inc. All rights reserved.
+*
+* Developed at SunPro, a Sun Microsystems, Inc. business.
+* Permission to use, copy, modify, and distribute this
+* software is freely granted, provided that this notice
+* is preserved.
+* ```
+*/var o7t=V_,a7t=ci,s7t=1072693247,Gv=1e300,Wv=1e-300;function l7t(e,t){var r,n;return n=a7t(e),r=n&o7t,r<=s7t?t<0?Gv*Gv:Wv*Wv:t>0?Gv*Gv:Wv*Wv}var u7t=l7t;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var c7t=de,dO=Fe;function f7t(e,t){return e===-1?(e-e)/(e-e):e===1?1:c7t(e)<1==(t===dO)?0:dO}var h7t=f7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4756,7 +4756,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function h7t(e){return e===0?.5999999999999946:.5999999999999946+e*(.4285714285785502+e*(.33333332981837743+e*(.272728123808534+e*(.23066074577556175+e*.20697501780033842))))}var d7t=h7t;/**
+*/function d7t(e){return e===0?.5999999999999946:.5999999999999946+e*(.4285714285785502+e*(.33333332981837743+e*(.272728123808534+e*(.23066074577556175+e*.20697501780033842))))}var p7t=d7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4786,7 +4786,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var p7t=ci,jv=rp,pO=ep,v7t=Pu,g7t=d7t,m7t=1048575,vO=1048576,_7t=1072693248,y7t=536870912,b7t=524288,w7t=20,S7t=9007199254740992,T7t=.9617966939259756,P7t=.9617967009544373,E7t=-7028461650952758e-24,k7t=[1,1.5],A7t=[0,.5849624872207642],C7t=[0,1350039202129749e-23];function M7t(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A;return S=0,r<vO&&(t*=S7t,S-=53,r=p7t(t)),S+=(r>>w7t)-v7t|0,P=r&m7t|0,r=P|_7t|0,P<=235662?A=0:P<767610?A=1:(A=0,S+=1,r-=vO),t=pO(t,r),c=k7t[A],w=t-c,T=1/(t+c),i=w*T,a=jv(i,0),n=(r>>1|y7t)+b7t,n+=A<<18,l=pO(0,n),u=t-(l-c),s=T*(w-a*l-a*u),o=i*i,y=o*o*g7t(o),y+=s*(a+i),o=a*a,l=3+o+y,l=jv(l,0),u=y-(l-3-o),w=a*l,T=s*l+u*i,h=w+T,h=jv(h,0),d=T-(h-w),p=P7t*h,v=E7t*h+d*T7t+C7t[A],f=A7t[A],_=S,g=p+v+f+_,g=jv(g,0),m=v-(g-_-f-p),e[0]=g,e[1]=m,e}var x7t=M7t;/**
+*/var v7t=ci,jv=rp,pO=ep,g7t=Pu,m7t=p7t,_7t=1048575,vO=1048576,y7t=1072693248,b7t=536870912,w7t=524288,S7t=20,T7t=9007199254740992,P7t=.9617966939259756,E7t=.9617967009544373,k7t=-7028461650952758e-24,A7t=[1,1.5],C7t=[0,.5849624872207642],M7t=[0,1350039202129749e-23];function x7t(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A;return S=0,r<vO&&(t*=T7t,S-=53,r=v7t(t)),S+=(r>>S7t)-g7t|0,P=r&_7t|0,r=P|y7t|0,P<=235662?A=0:P<767610?A=1:(A=0,S+=1,r-=vO),t=pO(t,r),c=A7t[A],w=t-c,T=1/(t+c),i=w*T,a=jv(i,0),n=(r>>1|b7t)+w7t,n+=A<<18,l=pO(0,n),u=t-(l-c),s=T*(w-a*l-a*u),o=i*i,y=o*o*m7t(o),y+=s*(a+i),o=a*a,l=3+o+y,l=jv(l,0),u=y-(l-3-o),w=a*l,T=s*l+u*i,h=w+T,h=jv(h,0),d=T-(h-w),p=E7t*h,v=k7t*h+d*P7t+M7t[A],f=C7t[A],_=S,g=p+v+f+_,g=jv(g,0),m=v-(g-_-f-p),e[0]=g,e[1]=m,e}var L7t=x7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4802,7 +4802,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function L7t(e){return e===0?.5:.5+e*(-.3333333333333333+e*.25)}var I7t=L7t;/**
+*/function I7t(e){return e===0?.5:.5+e*(-.3333333333333333+e*.25)}var O7t=I7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4832,7 +4832,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var O7t=rp,R7t=I7t,D7t=1.4426950408889634,N7t=1.4426950216293335,F7t=19259629911266175e-24;function B7t(e,t){var r,n,i,o,a,s;return i=t-1,o=i*i*R7t(i),a=N7t*i,s=i*F7t-o*D7t,n=a+s,n=O7t(n,0),r=s-(n-a),e[0]=n,e[1]=r,e}var $7t=B7t;/**
+*/var R7t=rp,D7t=O7t,N7t=1.4426950408889634,F7t=1.4426950216293335,B7t=19259629911266175e-24;function $7t(e,t){var r,n,i,o,a,s;return i=t-1,o=i*i*D7t(i),a=F7t*i,s=i*B7t-o*N7t,n=a+s,n=R7t(n,0),r=s-(n-a),e[0]=n,e[1]=r,e}var z7t=$7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4848,7 +4848,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var z7t=.6931471805599453,V7t=z7t;/**
+*/var V7t=.6931471805599453,U7t=V7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4864,7 +4864,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var U7t=1048575,G7t=U7t;/**
+*/var G7t=1048575,W7t=G7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4880,7 +4880,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function W7t(e){return e===0?.16666666666666602:.16666666666666602+e*(-.0027777777777015593+e*(6613756321437934e-20+e*(-16533902205465252e-22+e*41381367970572385e-24)))}var j7t=W7t;/**
+*/function j7t(e){return e===0?.16666666666666602:.16666666666666602+e*(-.0027777777777015593+e*(6613756321437934e-20+e*(-16533902205465252e-22+e*41381367970572385e-24)))}var H7t=j7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4910,7 +4910,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var H7t=ci,gO=ep,X7t=rp,Y7t=SU,q7t=Ff,Z7t=V7t,mO=Pu,_O=V_,yO=G7t,K7t=j7t,bO=1048576,J7t=1071644672,Mh=20,Q7t=.6931471824645996,t9t=-1904654299957768e-24;function e9t(e,t,r){var n,i,o,a,s,l,u,c,f,h,d;return h=e&_O|0,d=(h>>Mh)-mO|0,f=0,h>J7t&&(f=e+(bO>>d+1)>>>0,d=((f&_O)>>Mh)-mO|0,n=(f&~(yO>>d))>>>0,o=gO(0,n),f=(f&yO|bO)>>Mh-d>>>0,e<0&&(f=-f),t-=o),o=r+t,o=X7t(o,0),s=o*Q7t,l=(r-(o-t))*Z7t+o*t9t,c=s+l,u=l-(c-s),o=c*c,i=c-o*K7t(o),a=c*i/(i-2)-(u+c*u),c=1-(a-c),e=H7t(c),e=Y7t(e),e+=f<<Mh>>>0,e>>Mh<=0?c=q7t(c,f):c=gO(c,e),c}var r9t=e9t;/**
+*/var X7t=ci,gO=ep,Y7t=rp,q7t=SU,Z7t=Ff,K7t=U7t,mO=Pu,_O=V_,yO=W7t,J7t=H7t,bO=1048576,Q7t=1071644672,Mh=20,t9t=.6931471824645996,e9t=-1904654299957768e-24;function r9t(e,t,r){var n,i,o,a,s,l,u,c,f,h,d;return h=e&_O|0,d=(h>>Mh)-mO|0,f=0,h>Q7t&&(f=e+(bO>>d+1)>>>0,d=((f&_O)>>Mh)-mO|0,n=(f&~(yO>>d))>>>0,o=gO(0,n),f=(f&yO|bO)>>Mh-d>>>0,e<0&&(f=-f),t-=o),o=r+t,o=Y7t(o,0),s=o*t9t,l=(r-(o-t))*K7t+o*e9t,c=s+l,u=l-(c-s),o=c*c,i=c-o*J7t(o),a=c*i/(i-2)-(u+c*u),c=1-(a-c),e=X7t(c),e=q7t(e),e+=f<<Mh>>>0,e>>Mh<=0?c=Z7t(c,f):c=gO(c,e),c}var n9t=r9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4940,7 +4940,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var wO=Zt,SO=Qk,TO=Nf,n9t=Bs,PO=er,i9t=de,qb=Zk,o9t=rp,EO=SU,a9t=Lr,s9t=Fe,Zb=V_,l9t=n7t,u9t=l7t,c9t=f7t,f9t=x7t,h9t=$7t,d9t=r9t,p9t=1072693247,v9t=1105199104,g9t=1139802112,kO=1083179008,m9t=1072693248,_9t=1083231232,y9t=3230714880>>>0,AO=31,Za=1e300,Ka=1e-300,b9t=8008566259537294e-32,qo=[0,0],CO=[0,0];function TU(e,t){var r,n,i,o,a,s,l,u,c,f,h,d,p,v,g,m;if(wO(e)||wO(t))return NaN;if(qb.assign(t,qo,1,0),s=qo[0],l=qo[1],l===0){if(t===0)return 1;if(t===1)return e;if(t===-1)return 1/e;if(t===.5)return PO(e);if(t===-.5)return 1/PO(e);if(t===2)return e*e;if(t===3)return e*e*e;if(t===4)return e*=e,e*e;if(TO(t))return c9t(e,t)}if(qb.assign(e,qo,1,0),o=qo[0],a=qo[1],a===0){if(o===0)return l9t(e,t);if(e===1)return 1;if(e===-1&&SO(t))return-1;if(TO(e))return e===a9t?TU(-0,-t):t<0?0:s9t}if(e<0&&n9t(t)===!1)return(e-e)/(e-e);if(i=i9t(e),r=o&Zb|0,n=s&Zb|0,u=o>>>AO|0,c=s>>>AO|0,u&&SO(t)?u=-1:u=1,n>v9t){if(n>g9t)return u9t(e,t);if(r<p9t)return c===1?u*Za*Za:u*Ka*Ka;if(r>m9t)return c===0?u*Za*Za:u*Ka*Ka;p=h9t(CO,i)}else p=f9t(CO,i,r);if(f=o9t(t,0),d=(t-f)*p[0]+t*p[1],h=f*p[0],v=d+h,qb.assign(v,qo,1,0),g=EO(qo[0]),m=EO(qo[1]),g>=kO){if((g-kO|m)!==0||d+b9t>v-h)return u*Za*Za}else if((g&Zb)>=_9t&&((g-y9t|m)!==0||d<=v-h))return u*Ka*Ka;return v=d9t(g,h,d),u*v}var w9t=TU;/**
+*/var wO=Zt,SO=Qk,TO=Nf,i9t=Bs,PO=er,o9t=de,qb=Zk,a9t=rp,EO=SU,s9t=Lr,l9t=Fe,Zb=V_,u9t=i7t,c9t=u7t,f9t=h7t,h9t=L7t,d9t=z7t,p9t=n9t,v9t=1072693247,g9t=1105199104,m9t=1139802112,kO=1083179008,_9t=1072693248,y9t=1083231232,b9t=3230714880>>>0,AO=31,Za=1e300,Ka=1e-300,w9t=8008566259537294e-32,qo=[0,0],CO=[0,0];function TU(e,t){var r,n,i,o,a,s,l,u,c,f,h,d,p,v,g,m;if(wO(e)||wO(t))return NaN;if(qb.assign(t,qo,1,0),s=qo[0],l=qo[1],l===0){if(t===0)return 1;if(t===1)return e;if(t===-1)return 1/e;if(t===.5)return PO(e);if(t===-.5)return 1/PO(e);if(t===2)return e*e;if(t===3)return e*e*e;if(t===4)return e*=e,e*e;if(TO(t))return f9t(e,t)}if(qb.assign(e,qo,1,0),o=qo[0],a=qo[1],a===0){if(o===0)return u9t(e,t);if(e===1)return 1;if(e===-1&&SO(t))return-1;if(TO(e))return e===s9t?TU(-0,-t):t<0?0:l9t}if(e<0&&i9t(t)===!1)return(e-e)/(e-e);if(i=o9t(e),r=o&Zb|0,n=s&Zb|0,u=o>>>AO|0,c=s>>>AO|0,u&&SO(t)?u=-1:u=1,n>g9t){if(n>m9t)return c9t(e,t);if(r<v9t)return c===1?u*Za*Za:u*Ka*Ka;if(r>_9t)return c===0?u*Za*Za:u*Ka*Ka;p=d9t(CO,i)}else p=h9t(CO,i,r);if(f=a9t(t,0),d=(t-f)*p[0]+t*p[1],h=f*p[0],v=d+h,qb.assign(v,qo,1,0),g=EO(qo[0]),m=EO(qo[1]),g>=kO){if((g-kO|m)!==0||d+w9t>v-h)return u*Za*Za}else if((g&Zb)>=y9t&&((g-b9t|m)!==0||d<=v-h))return u*Ka*Ka;return v=p9t(g,h,d),u*v}var S9t=TU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4956,7 +4956,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var S9t=w9t,rr=S9t;/**
+*/var T9t=S9t,rr=T9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4972,7 +4972,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var T9t=2.718281828459045,Bf=T9t;/**
+*/var P9t=2.718281828459045,Bf=P9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4988,7 +4988,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var P9t=2220446049250313e-31,Ia=P9t;/**
+*/var E9t=2220446049250313e-31,Ia=E9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5004,7 +5004,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function E9t(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=709811.662581658+e*(679979.8474157227+e*(293136.7857211597+e*(74887.54032914672+e*(12555.290582413863+e*(1443.4299244417066+e*(115.24194596137347+e*(6.309239205732627+e*(.22668404630224365+e*(.004826466289237662+e*4624429436045379e-20))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=4624429436045379e-20+e*(.004826466289237662+e*(.22668404630224365+e*(6.309239205732627+e*(115.24194596137347+e*(1443.4299244417066+e*(12555.290582413863+e*(74887.54032914672+e*(293136.7857211597+e*(679979.8474157227+e*709811.662581658))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var k9t=E9t;/**
+*/function k9t(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=709811.662581658+e*(679979.8474157227+e*(293136.7857211597+e*(74887.54032914672+e*(12555.290582413863+e*(1443.4299244417066+e*(115.24194596137347+e*(6.309239205732627+e*(.22668404630224365+e*(.004826466289237662+e*4624429436045379e-20))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=4624429436045379e-20+e*(.004826466289237662+e*(.22668404630224365+e*(6.309239205732627+e*(115.24194596137347+e*(1443.4299244417066+e*(12555.290582413863+e*(74887.54032914672+e*(293136.7857211597+e*(679979.8474157227+e*709811.662581658))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var A9t=k9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5033,7 +5033,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var MO=Zt,A9t=Dn,C9t=er,M9t=de,x9t=Ve,Kb=rr,L9t=Bf,Jb=Ia,Qb=k9t,tw=10.900511;function I9t(e,t){var r,n,i,o,a,s,l;return MO(e)||MO(t)?NaN:e<0||t<0?NaN:t===1?1/e:e===1?1/t:(l=e+t,l<Jb?(a=l/e,a/=t,a):l===e&&t<Jb?1/t:l===t&&e<Jb?1/e:(e<t&&(s=t,t=e,e=s),n=e+tw-.5,i=t+tw-.5,o=l+tw-.5,a=Qb(e)*(Qb(t)/Qb(l)),r=e-.5-t,M9t(t*r)<o*100&&e>100?a*=x9t(r*A9t(-t/o)):a*=Kb(n/o,r),o>1e10?a*=Kb(n/o*(i/o),t):a*=Kb(n*i/(o*o),t),a*=C9t(L9t/i),a))}var O9t=I9t;/**
+*/var MO=Zt,C9t=Dn,M9t=er,x9t=de,L9t=Ve,Kb=rr,I9t=Bf,Jb=Ia,Qb=A9t,tw=10.900511;function O9t(e,t){var r,n,i,o,a,s,l;return MO(e)||MO(t)?NaN:e<0||t<0?NaN:t===1?1/e:e===1?1/t:(l=e+t,l<Jb?(a=l/e,a/=t,a):l===e&&t<Jb?1/t:l===t&&e<Jb?1/e:(e<t&&(s=t,t=e,e=s),n=e+tw-.5,i=t+tw-.5,o=l+tw-.5,a=Qb(e)*(Qb(t)/Qb(l)),r=e-.5-t,x9t(t*r)<o*100&&e>100?a*=L9t(r*C9t(-t/o)):a*=Kb(n/o,r),o>1e10?a*=Kb(n/o*(i/o),t):a*=Kb(n*i/(o*o),t),a*=M9t(I9t/i),a))}var R9t=O9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5049,7 +5049,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var R9t=O9t,PU=R9t;/**
+*/var D9t=R9t,PU=D9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5065,7 +5065,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var D9t=Fe;function N9t(e){return e===0&&1/e===D9t}var F9t=N9t;/**
+*/var N9t=Fe;function F9t(e){return e===0&&1/e===N9t}var B9t=F9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5081,7 +5081,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var B9t=F9t,$9t=B9t;/**
+*/var $9t=B9t,z9t=$9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5097,7 +5097,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var xO=$9t,ew=Zt,z9t=Lr,Hv=Fe;function V9t(e,t){var r,n,i,o;if(r=arguments.length,r===2)return ew(e)||ew(t)?NaN:e===Hv||t===Hv?Hv:e===t&&e===0?xO(e)?e:t:e>t?e:t;for(n=z9t,o=0;o<r;o++){if(i=arguments[o],ew(i)||i===Hv)return i;(i>n||i===n&&i===0&&xO(i))&&(n=i)}return n}var U9t=V9t;/**
+*/var xO=z9t,ew=Zt,V9t=Lr,Hv=Fe;function U9t(e,t){var r,n,i,o;if(r=arguments.length,r===2)return ew(e)||ew(t)?NaN:e===Hv||t===Hv?Hv:e===t&&e===0?xO(e)?e:t:e>t?e:t;for(n=V9t,o=0;o<r;o++){if(i=arguments[o],ew(i)||i===Hv)return i;(i>n||i===n&&i===0&&xO(i))&&(n=i)}return n}var G9t=U9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5113,7 +5113,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var G9t=U9t,ku=G9t;/**
+*/var W9t=G9t,ku=W9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5129,7 +5129,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var W9t=Lr;function j9t(e){return e===0&&1/e===W9t}var H9t=j9t;/**
+*/var j9t=Lr;function H9t(e){return e===0&&1/e===j9t}var X9t=H9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5145,7 +5145,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var X9t=H9t,EU=X9t;/**
+*/var Y9t=X9t,EU=Y9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5161,7 +5161,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var LO=EU,rw=Zt,Xv=Lr,Y9t=Fe;function q9t(e,t){var r,n,i,o;if(r=arguments.length,r===2)return rw(e)||rw(t)?NaN:e===Xv||t===Xv?Xv:e===t&&e===0?LO(e)?e:t:e<t?e:t;for(n=Y9t,o=0;o<r;o++){if(i=arguments[o],rw(i)||i===Xv)return i;(i<n||i===n&&i===0&&LO(i))&&(n=i)}return n}var Z9t=q9t;/**
+*/var LO=EU,rw=Zt,Xv=Lr,q9t=Fe;function Z9t(e,t){var r,n,i,o;if(r=arguments.length,r===2)return rw(e)||rw(t)?NaN:e===Xv||t===Xv?Xv:e===t&&e===0?LO(e)?e:t:e<t?e:t;for(n=q9t,o=0;o<r;o++){if(i=arguments[o],rw(i)||i===Xv)return i;(i<n||i===n&&i===0&&LO(i))&&(n=i)}return n}var K9t=Z9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5177,7 +5177,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var K9t=Z9t,zs=K9t;/**
+*/var J9t=K9t,zs=J9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5193,7 +5193,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var J9t=17976931348623157e292,$f=J9t;/**
+*/var Q9t=17976931348623157e292,$f=Q9t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5209,7 +5209,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Q9t=2147483647,tNt=Q9t;/**
+*/var tNt=2147483647,eNt=tNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5225,7 +5225,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eNt=1.5707963267948966,tA=eNt;/**
+*/var rNt=1.5707963267948966,tA=rNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5241,7 +5241,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rNt=3.141592653589793,Vs=rNt;/**
+*/var nNt=3.141592653589793,Vs=nNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5257,7 +5257,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function nNt(e){return e===0?.0416666666666666:.0416666666666666+e*(-.001388888888887411+e*2480158728947673e-20)}var iNt=nNt;/**
+*/function iNt(e){return e===0?.0416666666666666:.0416666666666666+e*(-.001388888888887411+e*2480158728947673e-20)}var oNt=iNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5273,7 +5273,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function oNt(e){return e===0?-27557314351390663e-23:-27557314351390663e-23+e*(2087572321298175e-24+e*-11359647557788195e-27)}var aNt=oNt;/**
+*/function aNt(e){return e===0?-27557314351390663e-23:-27557314351390663e-23+e*(2087572321298175e-24+e*-11359647557788195e-27)}var sNt=aNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5303,7 +5303,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var sNt=iNt,lNt=aNt;function uNt(e,t){var r,n,i,o;return o=e*e,i=o*o,n=o*sNt(o),n+=i*i*lNt(o),r=.5*o,i=1-r,i+(1-i-r+(o*n-e*t))}var cNt=uNt;/**
+*/var lNt=oNt,uNt=sNt;function cNt(e,t){var r,n,i,o;return o=e*e,i=o*o,n=o*lNt(o),n+=i*i*uNt(o),r=.5*o,i=1-r,i+(1-i-r+(o*n-e*t))}var fNt=cNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5319,7 +5319,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var fNt=cNt,kU=fNt;/**
+*/var hNt=fNt,kU=hNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5349,7 +5349,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var IO=-.16666666666666632,hNt=.00833333333332249,dNt=-.0001984126982985795,pNt=27557313707070068e-22,vNt=-25050760253406863e-24,gNt=158969099521155e-24;function mNt(e,t){var r,n,i,o;return o=e*e,i=o*o,r=hNt+o*(dNt+o*pNt)+o*i*(vNt+o*gNt),n=o*e,t===0?e+n*(IO+o*r):e-(o*(.5*t-n*r)-t-n*IO)}var _Nt=mNt;/**
+*/var IO=-.16666666666666632,dNt=.00833333333332249,pNt=-.0001984126982985795,vNt=27557313707070068e-22,gNt=-25050760253406863e-24,mNt=158969099521155e-24;function _Nt(e,t){var r,n,i,o;return o=e*e,i=o*o,r=dNt+o*(pNt+o*vNt)+o*i*(gNt+o*mNt),n=o*e,t===0?e+n*(IO+o*r):e-(o*(.5*t-n*r)-t-n*IO)}var yNt=_Nt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5365,7 +5365,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var yNt=_Nt,AU=yNt;/**
+*/var bNt=yNt,AU=bNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5381,7 +5381,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var bNt=Rf,RT;bNt===!0?RT=0:RT=1;var wNt=RT;/**
+*/var wNt=Rf,RT;wNt===!0?RT=0:RT=1;var SNt=RT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5397,7 +5397,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var SNt=If,TNt=Of,PNt=wNt,CU=new TNt(1),ENt=new SNt(CU.buffer);function kNt(e){return CU[0]=e,ENt[PNt]}var ANt=kNt;/**
+*/var TNt=If,PNt=Of,ENt=SNt,CU=new PNt(1),kNt=new TNt(CU.buffer);function ANt(e){return CU[0]=e,kNt[ENt]}var CNt=ANt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5413,7 +5413,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var CNt=ANt,MNt=CNt;/**
+*/var MNt=CNt,xNt=MNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -5429,7 +5429,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function xNt(e,t){var r,n;for(r=[],n=0;n<t;n++)r.push(e);return r}var LNt=xNt;/**
+*/function LNt(e,t){var r,n;for(r=[],n=0;n<t;n++)r.push(e);return r}var INt=LNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -5445,7 +5445,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var INt=LNt,ONt=INt;/**
+*/var ONt=INt,RNt=ONt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -5461,7 +5461,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var RNt=ONt;function DNt(e){return RNt(0,e)}var NNt=DNt;/**
+*/var DNt=RNt;function NNt(e){return DNt(0,e)}var FNt=NNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -5477,7 +5477,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var FNt=NNt,BNt=FNt;/**
+*/var BNt=FNt,$Nt=BNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5507,7 +5507,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var $Nt=Rn,Yv=Ff,U_=BNt,MU=[10680707,7228996,1387004,2578385,16069853,12639074,9804092,4427841,16666979,11263675,12935607,2387514,4345298,14681673,3074569,13734428,16653803,1880361,10960616,8533493,3062596,8710556,7349940,6258241,3772886,3769171,3798172,8675211,12450088,3874808,9961438,366607,15675153,9132554,7151469,3571407,2607881,12013382,4155038,6285869,7677882,13102053,15825725,473591,9065106,15363067,6271263,9264392,5636912,4652155,7056368,13614112,10155062,1944035,9527646,15080200,6658437,6231200,6832269,16767104,5075751,3212806,1398474,7579849,6349435,12618859],zNt=[1.570796251296997,7549789415861596e-23,5390302529957765e-30,3282003415807913e-37,1270655753080676e-44,12293330898111133e-52,27337005381646456e-60,21674168387780482e-67],nw=16777216,iw=5960464477539063e-23,qv=U_(20),OO=U_(20),Zv=U_(20),Tr=U_(20);function xU(e,t,r,n,i,o,a,s,l){var u,c,f,h,d,p,v,g,m;for(h=o,m=n[r],g=r,d=0;g>0;d++)c=iw*m|0,Tr[d]=m-nw*c|0,m=n[g-1]+c,g-=1;if(m=Yv(m,i),m-=8*$Nt(m*.125),v=m|0,m-=v,f=0,i>0?(d=Tr[r-1]>>24-i,v+=d,Tr[r-1]-=d<<24-i,f=Tr[r-1]>>23-i):i===0?f=Tr[r-1]>>23:m>=.5&&(f=2),f>0){for(v+=1,u=0,d=0;d<r;d++)g=Tr[d],u===0?g!==0&&(u=1,Tr[d]=16777216-g):Tr[d]=16777215-g;if(i>0)switch(i){case 1:Tr[r-1]&=8388607;break;case 2:Tr[r-1]&=4194303;break}f===2&&(m=1-m,u!==0&&(m-=Yv(1,i)))}if(m===0){for(g=0,d=r-1;d>=o;d--)g|=Tr[d];if(g===0){for(p=1;Tr[o-p]===0;p++);for(d=r+1;d<=r+p;d++){for(l[s+d]=MU[a+d],c=0,g=0;g<=s;g++)c+=e[g]*l[s+(d-g)];n[d]=c}return r+=p,xU(e,t,r,n,i,o,a,s,l)}}if(m===0)for(r-=1,i-=24;Tr[r]===0;)r-=1,i-=24;else m=Yv(m,-i),m>=nw?(c=iw*m|0,Tr[r]=m-nw*c|0,r+=1,i+=24,Tr[r]=c):Tr[r]=m|0;for(c=Yv(1,i),d=r;d>=0;d--)n[d]=c*Tr[d],c*=iw;for(d=r;d>=0;d--){for(c=0,p=0;p<=h&&p<=r-d;p++)c+=zNt[p]*n[d+p];Zv[r-d]=c}for(c=0,d=r;d>=0;d--)c+=Zv[d];for(f===0?t[0]=c:t[0]=-c,c=Zv[0]-c,d=1;d<=r;d++)c+=Zv[d];return f===0?t[1]=c:t[1]=-c,v&7}function VNt(e,t,r,n){var i,o,a,s,l,u,c,f,h;for(o=4,s=n-1,a=(r-3)/24|0,a<0&&(a=0),u=r-24*(a+1),f=a-s,h=s+o,c=0;c<=h;c++)f<0?qv[c]=0:qv[c]=MU[f],f+=1;for(c=0;c<=o;c++){for(i=0,f=0;f<=s;f++)i+=e[f]*qv[s+(c-f)];OO[c]=i}return l=o,xU(e,t,l,OO,u,o,a,s,qv)}var UNt=VNt;/**
+*/var zNt=Rn,Yv=Ff,U_=$Nt,MU=[10680707,7228996,1387004,2578385,16069853,12639074,9804092,4427841,16666979,11263675,12935607,2387514,4345298,14681673,3074569,13734428,16653803,1880361,10960616,8533493,3062596,8710556,7349940,6258241,3772886,3769171,3798172,8675211,12450088,3874808,9961438,366607,15675153,9132554,7151469,3571407,2607881,12013382,4155038,6285869,7677882,13102053,15825725,473591,9065106,15363067,6271263,9264392,5636912,4652155,7056368,13614112,10155062,1944035,9527646,15080200,6658437,6231200,6832269,16767104,5075751,3212806,1398474,7579849,6349435,12618859],VNt=[1.570796251296997,7549789415861596e-23,5390302529957765e-30,3282003415807913e-37,1270655753080676e-44,12293330898111133e-52,27337005381646456e-60,21674168387780482e-67],nw=16777216,iw=5960464477539063e-23,qv=U_(20),OO=U_(20),Zv=U_(20),Tr=U_(20);function xU(e,t,r,n,i,o,a,s,l){var u,c,f,h,d,p,v,g,m;for(h=o,m=n[r],g=r,d=0;g>0;d++)c=iw*m|0,Tr[d]=m-nw*c|0,m=n[g-1]+c,g-=1;if(m=Yv(m,i),m-=8*zNt(m*.125),v=m|0,m-=v,f=0,i>0?(d=Tr[r-1]>>24-i,v+=d,Tr[r-1]-=d<<24-i,f=Tr[r-1]>>23-i):i===0?f=Tr[r-1]>>23:m>=.5&&(f=2),f>0){for(v+=1,u=0,d=0;d<r;d++)g=Tr[d],u===0?g!==0&&(u=1,Tr[d]=16777216-g):Tr[d]=16777215-g;if(i>0)switch(i){case 1:Tr[r-1]&=8388607;break;case 2:Tr[r-1]&=4194303;break}f===2&&(m=1-m,u!==0&&(m-=Yv(1,i)))}if(m===0){for(g=0,d=r-1;d>=o;d--)g|=Tr[d];if(g===0){for(p=1;Tr[o-p]===0;p++);for(d=r+1;d<=r+p;d++){for(l[s+d]=MU[a+d],c=0,g=0;g<=s;g++)c+=e[g]*l[s+(d-g)];n[d]=c}return r+=p,xU(e,t,r,n,i,o,a,s,l)}}if(m===0)for(r-=1,i-=24;Tr[r]===0;)r-=1,i-=24;else m=Yv(m,-i),m>=nw?(c=iw*m|0,Tr[r]=m-nw*c|0,r+=1,i+=24,Tr[r]=c):Tr[r]=m|0;for(c=Yv(1,i),d=r;d>=0;d--)n[d]=c*Tr[d],c*=iw;for(d=r;d>=0;d--){for(c=0,p=0;p<=h&&p<=r-d;p++)c+=VNt[p]*n[d+p];Zv[r-d]=c}for(c=0,d=r;d>=0;d--)c+=Zv[d];for(f===0?t[0]=c:t[0]=-c,c=Zv[0]-c,d=1;d<=r;d++)c+=Zv[d];return f===0?t[1]=c:t[1]=-c,v&7}function UNt(e,t,r,n){var i,o,a,s,l,u,c,f,h;for(o=4,s=n-1,a=(r-3)/24|0,a<0&&(a=0),u=r-24*(a+1),f=a-s,h=s+o,c=0;c<=h;c++)f<0?qv[c]=0:qv[c]=MU[f],f+=1;for(c=0;c<=o;c++){for(i=0,f=0;f<=s;f++)i+=e[f]*qv[s+(c-f)];OO[c]=i}return l=o,xU(e,t,l,OO,u,o,a,s,qv)}var GNt=UNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5523,7 +5523,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GNt=Math.round,WNt=GNt;/**
+*/var WNt=Math.round,jNt=WNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5539,7 +5539,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var jNt=WNt,G_=jNt;/**
+*/var HNt=jNt,G_=HNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5569,7 +5569,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var HNt=G_,RO=ci,XNt=.6366197723675814,YNt=1.5707963267341256,qNt=6077100506506192e-26,ZNt=6077100506303966e-26,KNt=20222662487959506e-37,JNt=20222662487111665e-37,QNt=84784276603689e-45,DO=2047;function tFt(e,t,r){var n,i,o,a,s,l,u;return i=HNt(e*XNt),a=e-i*YNt,s=i*qNt,u=t>>20|0,r[0]=a-s,n=RO(r[0]),l=u-(n>>20&DO),l>16&&(o=a,s=i*ZNt,a=o-s,s=i*KNt-(o-a-s),r[0]=a-s,n=RO(r[0]),l=u-(n>>20&DO),l>49&&(o=a,s=i*JNt,a=o-s,s=i*QNt-(o-a-s),r[0]=a-s)),r[1]=a-r[0]-s,i}var eFt=tFt;/**
+*/var XNt=G_,RO=ci,YNt=.6366197723675814,qNt=1.5707963267341256,ZNt=6077100506506192e-26,KNt=6077100506303966e-26,JNt=20222662487959506e-37,QNt=20222662487111665e-37,tFt=84784276603689e-45,DO=2047;function eFt(e,t,r){var n,i,o,a,s,l,u;return i=XNt(e*YNt),a=e-i*qNt,s=i*ZNt,u=t>>20|0,r[0]=a-s,n=RO(r[0]),l=u-(n>>20&DO),l>16&&(o=a,s=i*KNt,a=o-s,s=i*JNt-(o-a-s),r[0]=a-s,n=RO(r[0]),l=u-(n>>20&DO),l>49&&(o=a,s=i*QNt,a=o-s,s=i*tFt-(o-a-s),r[0]=a-s)),r[1]=a-r[0]-s,i}var rFt=eFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5601,7 +5601,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 *
 * Optimized by Bruce D. Evans.
 * ```
-*/var rFt=ci,nFt=MNt,iFt=Kk,oFt=UNt,Kv=eFt,aFt=0,sFt=16777216,Ja=1.5707963267341256,Dl=6077100506506192e-26,Jv=2*Dl,Qv=3*Dl,tg=4*Dl,lFt=2147483647,uFt=2146435072,cFt=1048575,fFt=598523,hFt=1072243195,dFt=1073928572,pFt=1074752122,vFt=1074977148,gFt=1075183036,mFt=1075388923,_Ft=1075594811,yFt=1094263291,xh=[0,0,0],Lh=[0,0];function bFt(e,t){var r,n,i,o,a,s,l,u;if(i=rFt(e),o=i&lFt|0,o<=hFt)return t[0]=e,t[1]=0,0;if(o<=pFt)return(o&cFt)===fFt?Kv(e,o,t):o<=dFt?e>0?(u=e-Ja,t[0]=u-Dl,t[1]=u-t[0]-Dl,1):(u=e+Ja,t[0]=u+Dl,t[1]=u-t[0]+Dl,-1):e>0?(u=e-2*Ja,t[0]=u-Jv,t[1]=u-t[0]-Jv,2):(u=e+2*Ja,t[0]=u+Jv,t[1]=u-t[0]+Jv,-2);if(o<=_Ft)return o<=gFt?o===vFt?Kv(e,o,t):e>0?(u=e-3*Ja,t[0]=u-Qv,t[1]=u-t[0]-Qv,3):(u=e+3*Ja,t[0]=u+Qv,t[1]=u-t[0]+Qv,-3):o===mFt?Kv(e,o,t):e>0?(u=e-4*Ja,t[0]=u-tg,t[1]=u-t[0]-tg,4):(u=e+4*Ja,t[0]=u+tg,t[1]=u-t[0]+tg,-4);if(o<yFt)return Kv(e,o,t);if(o>=uFt)return t[0]=NaN,t[1]=NaN,0;for(r=nFt(e),n=(o>>20)-1046,u=iFt(o-(n<<20|0),r),s=0;s<2;s++)xh[s]=u|0,u=(u-xh[s])*sFt;for(xh[2]=u,a=3;xh[a-1]===aFt;)a-=1;return l=oFt(xh,Lh,n,a),e<0?(t[0]=-Lh[0],t[1]=-Lh[1],-l):(t[0]=Lh[0],t[1]=Lh[1],l)}var wFt=bFt;/**
+*/var nFt=ci,iFt=xNt,oFt=Kk,aFt=GNt,Kv=rFt,sFt=0,lFt=16777216,Ja=1.5707963267341256,Dl=6077100506506192e-26,Jv=2*Dl,Qv=3*Dl,tg=4*Dl,uFt=2147483647,cFt=2146435072,fFt=1048575,hFt=598523,dFt=1072243195,pFt=1073928572,vFt=1074752122,gFt=1074977148,mFt=1075183036,_Ft=1075388923,yFt=1075594811,bFt=1094263291,xh=[0,0,0],Lh=[0,0];function wFt(e,t){var r,n,i,o,a,s,l,u;if(i=nFt(e),o=i&uFt|0,o<=dFt)return t[0]=e,t[1]=0,0;if(o<=vFt)return(o&fFt)===hFt?Kv(e,o,t):o<=pFt?e>0?(u=e-Ja,t[0]=u-Dl,t[1]=u-t[0]-Dl,1):(u=e+Ja,t[0]=u+Dl,t[1]=u-t[0]+Dl,-1):e>0?(u=e-2*Ja,t[0]=u-Jv,t[1]=u-t[0]-Jv,2):(u=e+2*Ja,t[0]=u+Jv,t[1]=u-t[0]+Jv,-2);if(o<=yFt)return o<=mFt?o===gFt?Kv(e,o,t):e>0?(u=e-3*Ja,t[0]=u-Qv,t[1]=u-t[0]-Qv,3):(u=e+3*Ja,t[0]=u+Qv,t[1]=u-t[0]+Qv,-3):o===_Ft?Kv(e,o,t):e>0?(u=e-4*Ja,t[0]=u-tg,t[1]=u-t[0]-tg,4):(u=e+4*Ja,t[0]=u+tg,t[1]=u-t[0]+tg,-4);if(o<bFt)return Kv(e,o,t);if(o>=cFt)return t[0]=NaN,t[1]=NaN,0;for(r=iFt(e),n=(o>>20)-1046,u=oFt(o-(n<<20|0),r),s=0;s<2;s++)xh[s]=u|0,u=(u-xh[s])*lFt;for(xh[2]=u,a=3;xh[a-1]===sFt;)a-=1;return l=aFt(xh,Lh,n,a),e<0?(t[0]=-Lh[0],t[1]=-Lh[1],-l):(t[0]=Lh[0],t[1]=Lh[1],l)}var SFt=wFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5617,7 +5617,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var SFt=wFt,LU=SFt;/**
+*/var TFt=SFt,LU=TFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5647,7 +5647,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var TFt=ci,NO=kU,ow=AU,PFt=LU,EFt=2147483647,kFt=2146435072,AFt=1072243195,CFt=1045430272,Zo=[0,0];function MFt(e){var t,r;if(t=TFt(e),t&=EFt,t<=AFt)return t<CFt?e:ow(e,0);if(t>=kFt)return NaN;switch(r=PFt(e,Zo),r&3){case 0:return ow(Zo[0],Zo[1]);case 1:return NO(Zo[0],Zo[1]);case 2:return-ow(Zo[0],Zo[1]);default:return-NO(Zo[0],Zo[1])}}var xFt=MFt;/**
+*/var PFt=ci,NO=kU,ow=AU,EFt=LU,kFt=2147483647,AFt=2146435072,CFt=1072243195,MFt=1045430272,Zo=[0,0];function xFt(e){var t,r;if(t=PFt(e),t&=kFt,t<=CFt)return t<MFt?e:ow(e,0);if(t>=AFt)return NaN;switch(r=EFt(e,Zo),r&3){case 0:return ow(Zo[0],Zo[1]);case 1:return NO(Zo[0],Zo[1]);case 2:return-ow(Zo[0],Zo[1]);default:return-NO(Zo[0],Zo[1])}}var LFt=xFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5663,7 +5663,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var LFt=xFt,np=LFt;/**
+*/var IFt=LFt,np=IFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5679,7 +5679,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var IFt=2.5066282746310007,W_=IFt;/**
+*/var OFt=2.5066282746310007,W_=OFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5695,53 +5695,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function OFt(e){return e===0?.08333333333334822:.08333333333334822+e*(.0034722222160545866+e*(-.0026813261780578124+e*(-.00022954996161337813+e*.0007873113957930937)))}var RFt=OFt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C code, copyright, license, and constants are from [Cephes]{@link http://www.netlib.org/cephes}. The implementation follows the original, but has been modified for JavaScript.
-*
-* ```text
-* Copyright 1984, 1987, 1989, 1992, 2000 by Stephen L. Moshier
-*
-* Some software in this archive may be from the book _Methods and Programs for Mathematical Functions_ (Prentice-Hall or Simon & Schuster International, 1989) or from the Cephes Mathematical Library, a commercial product. In either event, it is copyrighted by the author. What you see here may be used freely but it comes with no support or guarantee.
-*
-* Stephen L. Moshier
-* moshier@na-net.ornl.gov
-* ```
-*/var DFt=W_,FO=rr,NFt=Ve,FFt=RFt,BFt=143.01608;function $Ft(e){var t,r,n;return t=1/e,t=1+t*FFt(t),r=NFt(e),e>BFt?(n=FO(e,.5*e-.25),r=n*(n/r)):r=FO(e,e-.5)/r,DFt*r*t}var zFt=$Ft;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var VFt=.5772156649015329,UFt=VFt;/**
+*/function RFt(e){return e===0?.08333333333334822:.08333333333334822+e*(.0034722222160545866+e*(-.0026813261780578124+e*(-.00022954996161337813+e*.0007873113957930937)))}var DFt=RFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5771,7 +5725,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Stephen L. Moshier
 * moshier@na-net.ornl.gov
 * ```
-*/var GFt=UFt;function WFt(e,t){return t/((1+GFt*e)*e)}var jFt=WFt;/**
+*/var NFt=W_,FO=rr,FFt=Ve,BFt=DFt,$Ft=143.01608;function zFt(e){var t,r,n;return t=1/e,t=1+t*BFt(t),r=FFt(e),e>$Ft?(n=FO(e,.5*e-.25),r=n*(n/r)):r=FO(e,e-.5)/r,NFt*r*t}var VFt=zFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5787,7 +5741,53 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function HFt(e){var t,r,n;return e===0?1:(e<0?t=-e:t=e,t<=1?(r=1+e*(.4942148268014971+e*(.20744822764843598+e*(.04763678004571372+e*(.010421379756176158+e*(.0011913514700658638+e*(.00016011952247675185+e*0)))))),n=1+e*(.0714304917030273+e*(-.23459179571824335+e*(.035823639860549865+e*(.011813978522206043+e*(-.004456419138517973+e*(.0005396055804933034+e*-23158187332412014e-21))))))):(e=1/e,r=0+e*(.00016011952247675185+e*(.0011913514700658638+e*(.010421379756176158+e*(.04763678004571372+e*(.20744822764843598+e*(.4942148268014971+e*1)))))),n=-23158187332412014e-21+e*(.0005396055804933034+e*(-.004456419138517973+e*(.011813978522206043+e*(.035823639860549865+e*(-.23459179571824335+e*(.0714304917030273+e*1))))))),r/n)}var XFt=HFt;/**
+*/var UFt=.5772156649015329,GFt=UFt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C code, copyright, license, and constants are from [Cephes]{@link http://www.netlib.org/cephes}. The implementation follows the original, but has been modified for JavaScript.
+*
+* ```text
+* Copyright 1984, 1987, 1989, 1992, 2000 by Stephen L. Moshier
+*
+* Some software in this archive may be from the book _Methods and Programs for Mathematical Functions_ (Prentice-Hall or Simon & Schuster International, 1989) or from the Cephes Mathematical Library, a commercial product. In either event, it is copyrighted by the author. What you see here may be used freely but it comes with no support or guarantee.
+*
+* Stephen L. Moshier
+* moshier@na-net.ornl.gov
+* ```
+*/var WFt=GFt;function jFt(e,t){return t/((1+WFt*e)*e)}var HFt=jFt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function XFt(e){var t,r,n;return e===0?1:(e<0?t=-e:t=e,t<=1?(r=1+e*(.4942148268014971+e*(.20744822764843598+e*(.04763678004571372+e*(.010421379756176158+e*(.0011913514700658638+e*(.00016011952247675185+e*0)))))),n=1+e*(.0714304917030273+e*(-.23459179571824335+e*(.035823639860549865+e*(.011813978522206043+e*(-.004456419138517973+e*(.0005396055804933034+e*-23158187332412014e-21))))))):(e=1/e,r=0+e*(.00016011952247675185+e*(.0011913514700658638+e*(.010421379756176158+e*(.04763678004571372+e*(.20744822764843598+e*(.4942148268014971+e*1)))))),n=-23158187332412014e-21+e*(.0005396055804933034+e*(-.004456419138517973+e*(.011813978522206043+e*(.035823639860549865+e*(-.23459179571824335+e*(.0714304917030273+e*1))))))),r/n)}var YFt=XFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5817,7 +5817,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Stephen L. Moshier
 * moshier@na-net.ornl.gov
 * ```
-*/var YFt=Zt,qFt=Bs,ZFt=EU,BO=de,KFt=Rn,JFt=np,$O=Fe,zO=Lr,VO=Vs,UO=zFt,GO=jFt,QFt=XFt;function tBt(e){var t,r,n,i;if(qFt(e)&&e<0||e===zO||YFt(e))return NaN;if(e===0)return ZFt(e)?zO:$O;if(e>171.61447887182297)return $O;if(e<-170.5674972726612)return 0;if(r=BO(e),r>33)return e>=0?UO(e):(n=KFt(r),(n&1)===0?t=-1:t=1,i=r-n,i>.5&&(n+=1,i=r-n),i=r*JFt(VO*i),t*VO/(BO(i)*UO(r)));for(i=1;e>=3;)e-=1,i*=e;for(;e<0;){if(e>-1e-9)return GO(e,i);i/=e,e+=1}for(;e<2;){if(e<1e-9)return GO(e,i);i/=e,e+=1}return e===2?i:(e-=2,i*QFt(e))}var eBt=tBt;/**
+*/var qFt=Zt,ZFt=Bs,KFt=EU,BO=de,JFt=Rn,QFt=np,$O=Fe,zO=Lr,VO=Vs,UO=VFt,GO=HFt,tBt=YFt;function eBt(e){var t,r,n,i;if(ZFt(e)&&e<0||e===zO||qFt(e))return NaN;if(e===0)return KFt(e)?zO:$O;if(e>171.61447887182297)return $O;if(e<-170.5674972726612)return 0;if(r=BO(e),r>33)return e>=0?UO(e):(n=JFt(r),(n&1)===0?t=-1:t=1,i=r-n,i>.5&&(n+=1,i=r-n),i=r*QFt(VO*i),t*VO/(BO(i)*UO(r)));for(i=1;e>=3;)e-=1,i*=e;for(;e<0;){if(e>-1e-9)return GO(e,i);i/=e,e+=1}for(;e<2;){if(e<1e-9)return GO(e,i);i/=e,e+=1}return e===2?i:(e-=2,i*tBt(e))}var rBt=eBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5833,7 +5833,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rBt=eBt,Bo=rBt;const nBt=[1,1,2,6,24,120,720,5040,40320,362880,3628800,39916800,479001600,6227020800,87178291200,1307674368e3,20922789888e3,355687428096e3,6402373705728e3,121645100408832e3,243290200817664e4,5109094217170944e4,11240007277776077e5,2585201673888498e7,6204484017332394e8,15511210043330986e9,40329146112660565e10,10888869450418352e12,30488834461171387e13,8841761993739702e15,26525285981219107e16,8222838654177922e18,2631308369336935e20,8683317618811886e21,29523279903960416e22,10333147966386145e24,37199332678990125e25,13763753091226346e27,5230226174666011e29,20397882081197444e30,8159152832478977e32,3345252661316381e34,140500611775288e37,6041526306337383e37,2658271574788449e39,11962222086548019e40,5502622159812089e42,25862324151116818e43,12413915592536073e45,6082818640342675e47,30414093201713376e48,15511187532873822e50,8065817517094388e52,42748832840600255e53,2308436973392414e56,12696403353658276e57,7109985878048635e59,40526919504877214e60,23505613312828785e62,13868311854568984e64,832098711274139e67,5075802138772248e68,3146997326038794e70,198260831540444e73,12688693218588417e73,8247650592082472e75,5443449390774431e77,3647111091818868e79,24800355424368305e80,1711224524281413e83,11978571669969892e84,8504785885678623e86,61234458376886085e87,44701154615126844e89,3307885441519386e92,248091408113954e95,18854947016660504e95,14518309202828587e97,11324281178206297e99,8946182130782976e101,7156945704626381e103,5797126020747368e105,4753643337012842e107,3945523969720659e109,3314240134565353e111,281710411438055e114,24227095383672734e114,2107757298379528e117,18548264225739844e118,1650795516090846e121,14857159644817615e122,1352001527678403e125,12438414054641308e126,11567725070816416e128,1087366156656743e131,1032997848823906e133,9916779348709496e134,9619275968248212e136,9426890448883248e138,9332621544394415e140,9332621544394415e142,942594775983836e145,9614466715035127e146,990290071648618e149,10299016745145628e150,1081396758240291e153,11462805637347084e154,1226520203196138e157,1324641819451829e159,14438595832024937e160,1588245541522743e163,17629525510902446e164,1974506857221074e167,22311927486598138e168,25435597334721877e170,2925093693493016e173,3393108684451898e175,3969937160808721e177,4684525849754291e179,5574585761207606e181,6689502913449127e183,8094298525273444e185,9875044200833601e187,1214630436702533e190,1506141741511141e192,1882677176888926e194,2372173242880047e196,30126600184576594e197,3856204823625804e200,4974504222477287e202,6466855489220474e204,847158069087882e207,11182486511960043e208,14872707060906857e210,19929427461615188e212,26904727073180504e214,3659042881952549e217,5012888748274992e219,6917786472619489e221,9615723196941089e223,13462012475717526e225,1898143759076171e228,2695364137888163e230,3854370717180073e232,55502938327393044e233,8047926057471992e236,11749972043909107e238,1727245890454639e241,25563239178728654e242,380892263763057e246,5713383956445855e247,862720977423324e250,13113358856834524e251,20063439050956823e253,30897696138473508e255,4789142901463394e258,7471062926282894e260,11729568794264145e262,1853271869493735e265,29467022724950384e266,47147236359920616e268,7590705053947219e271,12296942187394494e273,20044015765453026e275,3287218585534296e278,5423910666131589e280,9003691705778438e282,1503616514864999e285,25260757449731984e286,4269068009004705e289,7257415615307999e291];/**
+*/var nBt=rBt,Bo=nBt;const iBt=[1,1,2,6,24,120,720,5040,40320,362880,3628800,39916800,479001600,6227020800,87178291200,1307674368e3,20922789888e3,355687428096e3,6402373705728e3,121645100408832e3,243290200817664e4,5109094217170944e4,11240007277776077e5,2585201673888498e7,6204484017332394e8,15511210043330986e9,40329146112660565e10,10888869450418352e12,30488834461171387e13,8841761993739702e15,26525285981219107e16,8222838654177922e18,2631308369336935e20,8683317618811886e21,29523279903960416e22,10333147966386145e24,37199332678990125e25,13763753091226346e27,5230226174666011e29,20397882081197444e30,8159152832478977e32,3345252661316381e34,140500611775288e37,6041526306337383e37,2658271574788449e39,11962222086548019e40,5502622159812089e42,25862324151116818e43,12413915592536073e45,6082818640342675e47,30414093201713376e48,15511187532873822e50,8065817517094388e52,42748832840600255e53,2308436973392414e56,12696403353658276e57,7109985878048635e59,40526919504877214e60,23505613312828785e62,13868311854568984e64,832098711274139e67,5075802138772248e68,3146997326038794e70,198260831540444e73,12688693218588417e73,8247650592082472e75,5443449390774431e77,3647111091818868e79,24800355424368305e80,1711224524281413e83,11978571669969892e84,8504785885678623e86,61234458376886085e87,44701154615126844e89,3307885441519386e92,248091408113954e95,18854947016660504e95,14518309202828587e97,11324281178206297e99,8946182130782976e101,7156945704626381e103,5797126020747368e105,4753643337012842e107,3945523969720659e109,3314240134565353e111,281710411438055e114,24227095383672734e114,2107757298379528e117,18548264225739844e118,1650795516090846e121,14857159644817615e122,1352001527678403e125,12438414054641308e126,11567725070816416e128,1087366156656743e131,1032997848823906e133,9916779348709496e134,9619275968248212e136,9426890448883248e138,9332621544394415e140,9332621544394415e142,942594775983836e145,9614466715035127e146,990290071648618e149,10299016745145628e150,1081396758240291e153,11462805637347084e154,1226520203196138e157,1324641819451829e159,14438595832024937e160,1588245541522743e163,17629525510902446e164,1974506857221074e167,22311927486598138e168,25435597334721877e170,2925093693493016e173,3393108684451898e175,3969937160808721e177,4684525849754291e179,5574585761207606e181,6689502913449127e183,8094298525273444e185,9875044200833601e187,1214630436702533e190,1506141741511141e192,1882677176888926e194,2372173242880047e196,30126600184576594e197,3856204823625804e200,4974504222477287e202,6466855489220474e204,847158069087882e207,11182486511960043e208,14872707060906857e210,19929427461615188e212,26904727073180504e214,3659042881952549e217,5012888748274992e219,6917786472619489e221,9615723196941089e223,13462012475717526e225,1898143759076171e228,2695364137888163e230,3854370717180073e232,55502938327393044e233,8047926057471992e236,11749972043909107e238,1727245890454639e241,25563239178728654e242,380892263763057e246,5713383956445855e247,862720977423324e250,13113358856834524e251,20063439050956823e253,30897696138473508e255,4789142901463394e258,7471062926282894e260,11729568794264145e262,1853271869493735e265,29467022724950384e266,47147236359920616e268,7590705053947219e271,12296942187394494e273,20044015765453026e275,3287218585534296e278,5423910666131589e280,9003691705778438e282,1503616514864999e285,25260757449731984e286,4269068009004705e289,7257415615307999e291];/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5849,7 +5849,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var iBt=Zt,oBt=Bs,aBt=Bo,sBt=Fe,lBt=nBt,uBt=170;function cBt(e){return iBt(e)?NaN:oBt(e)?e<0?NaN:e<=uBt?lBt[e]:sBt:aBt(e+1)}var fBt=cBt;/**
+*/var oBt=Zt,aBt=Bs,sBt=Bo,lBt=Fe,uBt=iBt,cBt=170;function fBt(e){return oBt(e)?NaN:aBt(e)?e<0?NaN:e<=cBt?uBt[e]:lBt:sBt(e+1)}var hBt=fBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5865,7 +5865,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hBt=fBt,IU=hBt;/**
+*/var dBt=hBt,IU=dBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5881,7 +5881,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function dBt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=3847467039331777e-5+e*(3685766504351951e-5+e*(1588920245372942e-5+e*(4059208354298835e-6+e*(6805476611834733e-7+e*(7823975500312005e-8+e*(6246580776401795e-9+e*(341986.3488721347+e*(12287.194511824551+e*(261.61404416416684+e*2.5066282746310007))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=2.5066282746310007+e*(261.61404416416684+e*(12287.194511824551+e*(341986.3488721347+e*(6246580776401795e-9+e*(7823975500312005e-8+e*(6805476611834733e-7+e*(4059208354298835e-6+e*(1588920245372942e-5+e*(3685766504351951e-5+e*3847467039331777e-5))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var pBt=dBt;/**
+*/function pBt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=3847467039331777e-5+e*(3685766504351951e-5+e*(1588920245372942e-5+e*(4059208354298835e-6+e*(6805476611834733e-7+e*(7823975500312005e-8+e*(6246580776401795e-9+e*(341986.3488721347+e*(12287.194511824551+e*(261.61404416416684+e*2.5066282746310007))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=2.5066282746310007+e*(261.61404416416684+e*(12287.194511824551+e*(341986.3488721347+e*(6246580776401795e-9+e*(7823975500312005e-8+e*(6805476611834733e-7+e*(4059208354298835e-6+e*(1588920245372942e-5+e*(3685766504351951e-5+e*3847467039331777e-5))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var vBt=pBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5910,7 +5910,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var vBt=pBt,gBt=vBt;/**
+*/var gBt=vBt,mBt=gBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5926,7 +5926,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mBt=gBt,_Bt=mBt;/**
+*/var _Bt=mBt,yBt=_Bt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5942,39 +5942,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var yBt=10.900511,ip=yBt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* Copyright John Maddock 2006-7, 2013-14.
-* Copyright Paul A. Bristow 2007, 2013-14.
-* Copyright Nikhar Agrawal 2013-14.
-* Copyright Christopher Kormanyos 2013-14.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var WO=_Bt,bBt=Bo,jO=Dn,HO=de,XO=Ve,YO=rr,wBt=Ia,SBt=Bf,TBt=ip,qO=170,PBt=4269068009004705e289;function OU(e,t){var r,n,i;return e<wBt?t>qO?(n=OU(t,qO-t),n*=e,n*=PBt,1/n):1/(e*bBt(e+t)):(i=e+TBt-.5,e+t===e?HO(t)<10?r=XO((.5-e)*jO(t/i)):r=1:(HO(t)<10?r=XO((.5-e)*jO(t/i)):r=YO(i/(i+t),e-.5),r*=WO(e)/WO(e+t)),r*=YO(SBt/(i+t),t),r)}var EBt=OU;/**
+*/var bBt=10.900511,ip=bBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6006,7 +5974,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var kBt=de,ZO=Rn,KO=Bo,JO=IU,ABt=EBt,QO=170;function CBt(e,t){var r,n,i;if(e<=0||e+t<=0)return KO(e)/KO(e+t);if(n=ZO(t),n===t){if(i=ZO(e),i===e&&e<=QO&&e+t<=QO)return JO(i-1)/JO(n+i-1);if(kBt(t)<20){if(t===0)return 1;if(t<0){for(e-=1,r=e,t+=1;t!==0;)e-=1,r*=e,t+=1;return r}for(r=1/e,t-=1;t!==0;)e+=1,r/=e,t-=1;return r}}return ABt(e,t)}var MBt=CBt;/**
+*/var WO=yBt,wBt=Bo,jO=Dn,HO=de,XO=Ve,YO=rr,SBt=Ia,TBt=Bf,PBt=ip,qO=170,EBt=4269068009004705e289;function OU(e,t){var r,n,i;return e<SBt?t>qO?(n=OU(t,qO-t),n*=e,n*=EBt,1/n):1/(e*wBt(e+t)):(i=e+PBt-.5,e+t===e?HO(t)<10?r=XO((.5-e)*jO(t/i)):r=1:(HO(t)<10?r=XO((.5-e)*jO(t/i)):r=YO(i/(i+t),e-.5),r*=WO(e)/WO(e+t)),r*=YO(TBt/(i+t),t),r)}var kBt=OU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6022,7 +5990,23 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var xBt=MBt,eA=xBt;/**
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* Copyright John Maddock 2006-7, 2013-14.
+* Copyright Paul A. Bristow 2007, 2013-14.
+* Copyright Nikhar Agrawal 2013-14.
+* Copyright Christopher Kormanyos 2013-14.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var ABt=de,ZO=Rn,KO=Bo,JO=IU,CBt=kBt,QO=170;function MBt(e,t){var r,n,i;if(e<=0||e+t<=0)return KO(e)/KO(e+t);if(n=ZO(t),n===t){if(i=ZO(e),i===e&&e<=QO&&e+t<=QO)return JO(i-1)/JO(n+i-1);if(ABt(t)<20){if(t===0)return 1;if(t<0){for(e-=1,r=e,t+=1;t!==0;)e-=1,r*=e,t+=1;return r}for(r=1/e,t-=1;t!==0;)e+=1,r/=e,t-=1;return r}}return CBt(e,t)}var xBt=MBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6038,7 +6022,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function LBt(e){return e===0?.3999999999940942:.3999999999940942+e*(.22222198432149784+e*.15313837699209373)}var IBt=LBt;/**
+*/var LBt=xBt,eA=LBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6054,7 +6038,23 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function OBt(e){return e===0?.6666666666666735:.6666666666666735+e*(.2857142874366239+e*(.1818357216161805+e*.14798198605116586))}var RBt=OBt;/**
+*/function IBt(e){return e===0?.3999999999940942:.3999999999940942+e*(.22222198432149784+e*.15313837699209373)}var OBt=IBt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function RBt(e){return e===0?.6666666666666735:.6666666666666735+e*(.2857142874366239+e*(.1818357216161805+e*.14798198605116586))}var DBt=RBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6084,7 +6084,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var tR=ci,DBt=ep,NBt=Zt,FBt=Pu,BBt=Lr,$Bt=IBt,zBt=RBt,eg=.6931471803691238,rg=19082149292705877e-26,VBt=0x40000000000000,UBt=.3333333333333333,eR=1048575,GBt=2146435072,WBt=1048576,jBt=1072693248;function HBt(e){var t,r,n,i,o,a,s,l,u,c,f,h;return e===0?BBt:NBt(e)||e<0?NaN:(r=tR(e),o=0,r<WBt&&(o-=54,e*=VBt,r=tR(e)),r>=GBt?e+e:(o+=(r>>20)-FBt|0,r&=eR,l=r+614244&1048576|0,e=DBt(e,r|l^jBt),o+=l>>20|0,s=e-1,(eR&2+r)<3?s===0?o===0?0:o*eg+o*rg:(a=s*s*(.5-UBt*s),o===0?s-a:o*eg-(a-o*rg-s)):(c=s/(2+s),h=c*c,l=r-398458|0,f=h*h,u=440401-r|0,i=f*$Bt(f),n=h*zBt(f),l|=u,a=n+i,l>0?(t=.5*s*s,o===0?s-(t-c*(t+a)):o*eg-(t-(c*(t+a)+o*rg)-s)):o===0?s-c*(s-a):o*eg-(c*(s-a)-o*rg-s))))}var XBt=HBt;/**
+*/var tR=ci,NBt=ep,FBt=Zt,BBt=Pu,$Bt=Lr,zBt=OBt,VBt=DBt,eg=.6931471803691238,rg=19082149292705877e-26,UBt=0x40000000000000,GBt=.3333333333333333,eR=1048575,WBt=2146435072,jBt=1048576,HBt=1072693248;function XBt(e){var t,r,n,i,o,a,s,l,u,c,f,h;return e===0?$Bt:FBt(e)||e<0?NaN:(r=tR(e),o=0,r<jBt&&(o-=54,e*=UBt,r=tR(e)),r>=WBt?e+e:(o+=(r>>20)-BBt|0,r&=eR,l=r+614244&1048576|0,e=NBt(e,r|l^HBt),o+=l>>20|0,s=e-1,(eR&2+r)<3?s===0?o===0?0:o*eg+o*rg:(a=s*s*(.5-GBt*s),o===0?s-a:o*eg-(a-o*rg-s)):(c=s/(2+s),h=c*c,l=r-398458|0,f=h*h,u=440401-r|0,i=f*zBt(f),n=h*VBt(f),l|=u,a=n+i,l>0?(t=.5*s*s,o===0?s-(t-c*(t+a)):o*eg-(t-(c*(t+a)+o*rg)-s)):o===0?s-c*(s-a):o*eg-(c*(s-a)-o*rg-s))))}var YBt=XBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6100,7 +6100,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YBt=XBt,Se=YBt;/**
+*/var qBt=YBt,Se=qBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6130,7 +6130,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var qBt=ci,aw=kU,rR=AU,ZBt=LU,Ko=[0,0],KBt=2147483647,JBt=1072243195,QBt=1044381696,t$t=2146435072;function e$t(e){var t,r;if(t=qBt(e),t&=KBt,t<=JBt)return t<QBt?1:aw(e,0);if(t>=t$t)return NaN;switch(r=ZBt(e,Ko),r&3){case 0:return aw(Ko[0],Ko[1]);case 1:return-rR(Ko[0],Ko[1]);case 2:return-aw(Ko[0],Ko[1]);default:return rR(Ko[0],Ko[1])}}var r$t=e$t;/**
+*/var ZBt=ci,aw=kU,rR=AU,KBt=LU,Ko=[0,0],JBt=2147483647,QBt=1072243195,t$t=1044381696,e$t=2146435072;function r$t(e){var t,r;if(t=ZBt(e),t&=JBt,t<=QBt)return t<t$t?1:aw(e,0);if(t>=e$t)return NaN;switch(r=KBt(e,Ko),r&3){case 0:return aw(Ko[0],Ko[1]);case 1:return-rR(Ko[0],Ko[1]);case 2:return-aw(Ko[0],Ko[1]);default:return rR(Ko[0],Ko[1])}}var n$t=r$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6146,7 +6146,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var n$t=r$t,rA=n$t;/**
+*/var i$t=n$t,rA=i$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6162,7 +6162,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var i$t=Zt,o$t=Nf,nR=rA,sw=np,a$t=de,Ih=Jk,Oh=Vs;function s$t(e){var t,r;return i$t(e)?NaN:o$t(e)?NaN:(r=e%2,t=a$t(r),t===0||t===1?Ih(0,r):t<.25?sw(Oh*r):t<.75?(t=.5-t,Ih(nR(Oh*t),r)):t<1.25?(r=Ih(1,r)-r,sw(Oh*r)):t<1.75?(t-=1.5,-Ih(nR(Oh*t),r)):(r-=Ih(2,r),sw(Oh*r)))}var l$t=s$t;/**
+*/var o$t=Zt,a$t=Nf,nR=rA,sw=np,s$t=de,Ih=Jk,Oh=Vs;function l$t(e){var t,r;return o$t(e)?NaN:a$t(e)?NaN:(r=e%2,t=s$t(r),t===0||t===1?Ih(0,r):t<.25?sw(Oh*r):t<.75?(t=.5-t,Ih(nR(Oh*t),r)):t<1.25?(r=Ih(1,r)-r,sw(Oh*r)):t<1.75?(t-=1.5,-Ih(nR(Oh*t),r)):(r-=Ih(2,r),sw(Oh*r)))}var u$t=l$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6178,7 +6178,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var u$t=l$t,c$t=u$t;/**
+*/var c$t=u$t,f$t=c$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6194,7 +6194,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function f$t(e){return e===0?.06735230105312927:.06735230105312927+e*(.007385550860814029+e*(.0011927076318336207+e*(.00022086279071390839+e*25214456545125733e-21)))}var h$t=f$t;/**
+*/function h$t(e){return e===0?.06735230105312927:.06735230105312927+e*(.007385550860814029+e*(.0011927076318336207+e*(.00022086279071390839+e*25214456545125733e-21)))}var d$t=h$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6210,7 +6210,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function d$t(e){return e===0?.020580808432516733:.020580808432516733+e*(.0028905138367341563+e*(.0005100697921535113+e*(.00010801156724758394+e*44864094961891516e-21)))}var p$t=d$t;/**
+*/function p$t(e){return e===0?.020580808432516733:.020580808432516733+e*(.0028905138367341563+e*(.0005100697921535113+e*(.00010801156724758394+e*44864094961891516e-21)))}var v$t=p$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6226,7 +6226,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function v$t(e){return e===0?1.3920053346762105:1.3920053346762105+e*(.7219355475671381+e*(.17193386563280308+e*(.01864591917156529+e*(.0007779424963818936+e*7326684307446256e-21))))}var g$t=v$t;/**
+*/function g$t(e){return e===0?1.3920053346762105:1.3920053346762105+e*(.7219355475671381+e*(.17193386563280308+e*(.01864591917156529+e*(.0007779424963818936+e*7326684307446256e-21))))}var m$t=g$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6242,7 +6242,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function m$t(e){return e===0?.21498241596060885:.21498241596060885+e*(.325778796408931+e*(.14635047265246445+e*(.02664227030336386+e*(.0018402845140733772+e*3194753265841009e-20))))}var _$t=m$t;/**
+*/function _$t(e){return e===0?.21498241596060885:.21498241596060885+e*(.325778796408931+e*(.14635047265246445+e*(.02664227030336386+e*(.0018402845140733772+e*3194753265841009e-20))))}var y$t=_$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6258,7 +6258,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function y$t(e){return e===0?-.032788541075985965:-.032788541075985965+e*(.006100538702462913+e*(-.0014034646998923284+e*.00031563207090362595))}var b$t=y$t;/**
+*/function b$t(e){return e===0?-.032788541075985965:-.032788541075985965+e*(.006100538702462913+e*(-.0014034646998923284+e*.00031563207090362595))}var w$t=b$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6274,7 +6274,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function w$t(e){return e===0?.01797067508118204:.01797067508118204+e*(-.0036845201678113826+e*(.000881081882437654+e*-.00031275416837512086))}var S$t=w$t;/**
+*/function S$t(e){return e===0?.01797067508118204:.01797067508118204+e*(-.0036845201678113826+e*(.000881081882437654+e*-.00031275416837512086))}var T$t=S$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6290,7 +6290,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function T$t(e){return e===0?-.010314224129834144:-.010314224129834144+e*(.0022596478090061247+e*(-.0005385953053567405+e*.0003355291926355191))}var P$t=T$t;/**
+*/function P$t(e){return e===0?-.010314224129834144:-.010314224129834144+e*(.0022596478090061247+e*(-.0005385953053567405+e*.0003355291926355191))}var E$t=P$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6306,7 +6306,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function E$t(e){return e===0?.6328270640250934:.6328270640250934+e*(1.4549225013723477+e*(.9777175279633727+e*(.22896372806469245+e*.013381091853678766)))}var k$t=E$t;/**
+*/function k$t(e){return e===0?.6328270640250934:.6328270640250934+e*(1.4549225013723477+e*(.9777175279633727+e*(.22896372806469245+e*.013381091853678766)))}var A$t=k$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6322,7 +6322,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function A$t(e){return e===0?2.4559779371304113:2.4559779371304113+e*(2.128489763798934+e*(.7692851504566728+e*(.10422264559336913+e*.003217092422824239)))}var C$t=A$t;/**
+*/function C$t(e){return e===0?2.4559779371304113:2.4559779371304113+e*(2.128489763798934+e*(.7692851504566728+e*(.10422264559336913+e*.003217092422824239)))}var M$t=C$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6338,7 +6338,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function M$t(e){return e===0?.08333333333333297:.08333333333333297+e*(-.0027777777772877554+e*(.0007936505586430196+e*(-.00059518755745034+e*(.0008363399189962821+e*-.0016309293409657527))))}var x$t=M$t;/**
+*/function x$t(e){return e===0?.08333333333333297:.08333333333333297+e*(-.0027777777772877554+e*(.0007936505586430196+e*(-.00059518755745034+e*(.0008363399189962821+e*-.0016309293409657527))))}var L$t=x$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6368,7 +6368,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var L$t=Zt,I$t=Nf,O$t=de,ec=Se,R$t=qk,D$t=c$t,N$t=Vs,lw=Fe,F$t=h$t,B$t=p$t,$$t=g$t,z$t=_$t,V$t=b$t,U$t=S$t,G$t=P$t,W$t=k$t,j$t=C$t,H$t=x$t,X$t=.07721566490153287,Y$t=.3224670334241136,q$t=1,Z$t=-.07721566490153287,K$t=.48383612272381005,J$t=-.1475877229945939,Q$t=.06462494023913339,tzt=-.07721566490153287,ezt=1,rzt=.4189385332046727,ng=1.4616321449683622,nzt=4503599627370496,izt=0x400000000000000,ozt=8470329472543003e-37,iR=1.4616321449683622,azt=-.12148629053584961,szt=-3638676997039505e-33;function lzt(e){var t,r,n,i,o,a,s,l,u,c,f,h,d;if(L$t(e)||I$t(e))return e;if(e===0)return lw;if(e<0?(t=!0,e=-e):t=!1,e<ozt)return-ec(e);if(t){if(e>=nzt||(u=D$t(e),u===0))return lw;r=ec(N$t/O$t(u*e))}if(e===1||e===2)return 0;if(e<2)switch(e<=.9?(d=-ec(e),e>=ng-1+.27?(f=1-e,n=0):e>=ng-1-.27?(f=e-(iR-1),n=1):(f=e,n=2)):(d=0,e>=ng+.27?(f=2-e,n=0):e>=ng-.27?(f=e-iR,n=1):(f=e-1,n=2)),n){case 0:h=f*f,a=X$t+h*F$t(h),o=h*(Y$t+h*B$t(h)),s=f*a+o,d+=s-.5*f;break;case 1:h=f*f,c=h*f,a=K$t+c*V$t(c),o=J$t+c*U$t(c),i=Q$t+c*G$t(c),s=h*a-(szt-c*(o+f*i)),d+=azt+s;break;case 2:a=f*(tzt+f*W$t(f)),o=ezt+f*j$t(f),d+=-.5*f+a/o;break}else if(e<8)switch(n=R$t(e),f=e-n,s=f*(Z$t+f*z$t(f)),l=q$t+f*$$t(f),d=.5*f+s/l,h=1,n){case 7:h*=f+6;case 6:h*=f+5;case 5:h*=f+4;case 4:h*=f+3;case 3:h*=f+2,d+=ec(h)}else e<izt?(u=ec(e),h=1/e,f=h*h,c=rzt+h*H$t(f),d=(e-.5)*(u-1)+c):d=e*(ec(e)-1);return t&&(d=r-d),d}var uzt=lzt;/**
+*/var I$t=Zt,O$t=Nf,R$t=de,ec=Se,D$t=qk,N$t=f$t,F$t=Vs,lw=Fe,B$t=d$t,$$t=v$t,z$t=m$t,V$t=y$t,U$t=w$t,G$t=T$t,W$t=E$t,j$t=A$t,H$t=M$t,X$t=L$t,Y$t=.07721566490153287,q$t=.3224670334241136,Z$t=1,K$t=-.07721566490153287,J$t=.48383612272381005,Q$t=-.1475877229945939,tzt=.06462494023913339,ezt=-.07721566490153287,rzt=1,nzt=.4189385332046727,ng=1.4616321449683622,izt=4503599627370496,ozt=0x400000000000000,azt=8470329472543003e-37,iR=1.4616321449683622,szt=-.12148629053584961,lzt=-3638676997039505e-33;function uzt(e){var t,r,n,i,o,a,s,l,u,c,f,h,d;if(I$t(e)||O$t(e))return e;if(e===0)return lw;if(e<0?(t=!0,e=-e):t=!1,e<azt)return-ec(e);if(t){if(e>=izt||(u=N$t(e),u===0))return lw;r=ec(F$t/R$t(u*e))}if(e===1||e===2)return 0;if(e<2)switch(e<=.9?(d=-ec(e),e>=ng-1+.27?(f=1-e,n=0):e>=ng-1-.27?(f=e-(iR-1),n=1):(f=e,n=2)):(d=0,e>=ng+.27?(f=2-e,n=0):e>=ng-.27?(f=e-iR,n=1):(f=e-1,n=2)),n){case 0:h=f*f,a=Y$t+h*B$t(h),o=h*(q$t+h*$$t(h)),s=f*a+o,d+=s-.5*f;break;case 1:h=f*f,c=h*f,a=J$t+c*U$t(c),o=Q$t+c*G$t(c),i=tzt+c*W$t(c),s=h*a-(lzt-c*(o+f*i)),d+=szt+s;break;case 2:a=f*(ezt+f*j$t(f)),o=rzt+f*H$t(f),d+=-.5*f+a/o;break}else if(e<8)switch(n=D$t(e),f=e-n,s=f*(K$t+f*V$t(f)),l=Z$t+f*z$t(f),d=.5*f+s/l,h=1,n){case 7:h*=f+6;case 6:h*=f+5;case 5:h*=f+4;case 4:h*=f+3;case 3:h*=f+2,d+=ec(h)}else e<ozt?(u=ec(e),h=1/e,f=h*h,c=nzt+h*X$t(f),d=(e-.5)*(u-1)+c):d=e*(ec(e)-1);return t&&(d=r-d),d}var czt=uzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6384,7 +6384,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var czt=uzt,zf=czt;/**
+*/var fzt=czt,zf=fzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6400,7 +6400,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var fzt=14901161193847656e-24,hzt=fzt;/**
+*/var hzt=14901161193847656e-24,dzt=hzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6416,7 +6416,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dzt=709.782712893384,Au=dzt;/**
+*/var pzt=709.782712893384,Au=pzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6446,7 +6446,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var pzt=Ve;function vzt(e,t){var r,n,i,o;if(i=pzt(-t),n=i,n!==0)for(r=n,o=1;o<e;++o)r/=o,r*=t,n+=r;return n}var gzt=vzt;/**
+*/var vzt=Ve;function gzt(e,t){var r,n,i,o;if(i=vzt(-t),n=i,n!==0)for(r=n,o=1;o<e;++o)r/=o,r*=t,n+=r;return n}var mzt=gzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6462,7 +6462,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function mzt(e){return e===0?-.3250421072470015:-.3250421072470015+e*(-.02848174957559851+e*(-.005770270296489442+e*-23763016656650163e-21))}var _zt=mzt;/**
+*/function _zt(e){return e===0?-.3250421072470015:-.3250421072470015+e*(-.02848174957559851+e*(-.005770270296489442+e*-23763016656650163e-21))}var yzt=_zt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6478,7 +6478,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function yzt(e){return e===0?.39791722395915535:.39791722395915535+e*(.0650222499887673+e*(.005081306281875766+e*(.00013249473800432164+e*-3960228278775368e-21)))}var bzt=yzt;/**
+*/function bzt(e){return e===0?.39791722395915535:.39791722395915535+e*(.0650222499887673+e*(.005081306281875766+e*(.00013249473800432164+e*-3960228278775368e-21)))}var wzt=bzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6494,7 +6494,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function wzt(e){return e===0?.41485611868374833:.41485611868374833+e*(-.3722078760357013+e*(.31834661990116175+e*(-.11089469428239668+e*(.035478304325618236+e*-.002166375594868791))))}var Szt=wzt;/**
+*/function Szt(e){return e===0?.41485611868374833:.41485611868374833+e*(-.3722078760357013+e*(.31834661990116175+e*(-.11089469428239668+e*(.035478304325618236+e*-.002166375594868791))))}var Tzt=Szt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6510,7 +6510,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Tzt(e){return e===0?.10642088040084423:.10642088040084423+e*(.540397917702171+e*(.07182865441419627+e*(.12617121980876164+e*(.01363708391202905+e*.011984499846799107))))}var Pzt=Tzt;/**
+*/function Pzt(e){return e===0?.10642088040084423:.10642088040084423+e*(.540397917702171+e*(.07182865441419627+e*(.12617121980876164+e*(.01363708391202905+e*.011984499846799107))))}var Ezt=Pzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6526,7 +6526,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Ezt(e){return e===0?-.6938585727071818:-.6938585727071818+e*(-10.558626225323291+e*(-62.375332450326006+e*(-162.39666946257347+e*(-184.60509290671104+e*(-81.2874355063066+e*-9.814329344169145)))))}var kzt=Ezt;/**
+*/function kzt(e){return e===0?-.6938585727071818:-.6938585727071818+e*(-10.558626225323291+e*(-62.375332450326006+e*(-162.39666946257347+e*(-184.60509290671104+e*(-81.2874355063066+e*-9.814329344169145)))))}var Azt=kzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6542,7 +6542,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Azt(e){return e===0?19.651271667439257:19.651271667439257+e*(137.65775414351904+e*(434.56587747522923+e*(645.3872717332679+e*(429.00814002756783+e*(108.63500554177944+e*(6.570249770319282+e*-.0604244152148581))))))}var Czt=Azt;/**
+*/function Czt(e){return e===0?19.651271667439257:19.651271667439257+e*(137.65775414351904+e*(434.56587747522923+e*(645.3872717332679+e*(429.00814002756783+e*(108.63500554177944+e*(6.570249770319282+e*-.0604244152148581))))))}var Mzt=Czt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6558,7 +6558,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Mzt(e){return e===0?-.799283237680523:-.799283237680523+e*(-17.757954917754752+e*(-160.63638485582192+e*(-637.5664433683896+e*(-1025.0951316110772+e*-483.5191916086514))))}var xzt=Mzt;/**
+*/function xzt(e){return e===0?-.799283237680523:-.799283237680523+e*(-17.757954917754752+e*(-160.63638485582192+e*(-637.5664433683896+e*(-1025.0951316110772+e*-483.5191916086514))))}var Lzt=xzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6574,7 +6574,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Lzt(e){return e===0?30.33806074348246:30.33806074348246+e*(325.7925129965739+e*(1536.729586084437+e*(3199.8582195085955+e*(2553.0504064331644+e*(474.52854120695537+e*-22.44095244658582)))))}var Izt=Lzt;/**
+*/function Izt(e){return e===0?30.33806074348246:30.33806074348246+e*(325.7925129965739+e*(1536.729586084437+e*(3199.8582195085955+e*(2553.0504064331644+e*(474.52854120695537+e*-22.44095244658582)))))}var Ozt=Izt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6604,7 +6604,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var Ozt=Zt,oR=Ve,Rzt=rp,Dzt=Fe,Nzt=Lr,Fzt=_zt,Bzt=bzt,$zt=Szt,zzt=Pzt,Vzt=kzt,Uzt=Czt,Gzt=xzt,Wzt=Izt,ig=1e-300,jzt=13877787807814457e-33,aR=.8450629115104675,Hzt=.12837916709551256,Xzt=1,Yzt=-.0023621185607526594,qzt=1,Zzt=-.009864944034847148,Kzt=1,Jzt=-.0098649429247001,Qzt=1;function tVt(e){var t,r,n,i,o,a,s,l;if(Ozt(e))return NaN;if(e===Dzt)return 0;if(e===Nzt)return 2;if(e===0)return 1;if(e<0?(t=!0,r=-e):(t=!1,r=e),r<.84375)return r<jzt?1-e:(n=e*e,i=Hzt+n*Fzt(n),o=Xzt+n*Bzt(n),a=i/o,e<.25?1-(e+e*a):(i=e*a,i+=e-.5,.5-i));if(r<1.25)return o=r-1,s=Yzt+o*$zt(o),l=qzt+o*zzt(o),t?1+aR+s/l:1-aR-s/l;if(r<28){if(o=1/(r*r),r<2.857142857142857)i=Zzt+o*Vzt(o),o=Kzt+o*Uzt(o);else{if(e<-6)return 2-ig;i=Jzt+o*Gzt(o),o=Qzt+o*Wzt(o)}return n=Rzt(r,0),i=oR(-(n*n)-.5625)*oR((n-r)*(n+r)+i/o),t?2-i/r:i/r}return t?2-ig:ig*ig}var eVt=tVt;/**
+*/var Rzt=Zt,oR=Ve,Dzt=rp,Nzt=Fe,Fzt=Lr,Bzt=yzt,$zt=wzt,zzt=Tzt,Vzt=Ezt,Uzt=Azt,Gzt=Mzt,Wzt=Lzt,jzt=Ozt,ig=1e-300,Hzt=13877787807814457e-33,aR=.8450629115104675,Xzt=.12837916709551256,Yzt=1,qzt=-.0023621185607526594,Zzt=1,Kzt=-.009864944034847148,Jzt=1,Qzt=-.0098649429247001,tVt=1;function eVt(e){var t,r,n,i,o,a,s,l;if(Rzt(e))return NaN;if(e===Nzt)return 0;if(e===Fzt)return 2;if(e===0)return 1;if(e<0?(t=!0,r=-e):(t=!1,r=e),r<.84375)return r<Hzt?1-e:(n=e*e,i=Xzt+n*Bzt(n),o=Yzt+n*$zt(n),a=i/o,e<.25?1-(e+e*a):(i=e*a,i+=e-.5,.5-i));if(r<1.25)return o=r-1,s=qzt+o*zzt(o),l=Zzt+o*Vzt(o),t?1+aR+s/l:1-aR-s/l;if(r<28){if(o=1/(r*r),r<2.857142857142857)i=Kzt+o*Uzt(o),o=Jzt+o*Gzt(o);else{if(e<-6)return 2-ig;i=Qzt+o*Wzt(o),o=tVt+o*jzt(o)}return n=Dzt(r,0),i=oR(-(n*n)-.5625)*oR((n-r)*(n+r)+i/o),t?2-i/r:i/r}return t?2-ig:ig*ig}var rVt=eVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6620,53 +6620,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rVt=eVt,RU=rVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_37_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* (C) Copyright John Maddock 2006.
-* (C) Copyright Paul A. Bristow 2007.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var nVt=RU,sR=er,iVt=Ve,oVt=Vs;function aVt(e,t){var r,n,i,o,a;if(o=nVt(sR(t)),o!==0&&e>1){for(n=iVt(-t)/sR(oVt*t),n*=t,r=.5,n/=r,i=n,a=2;a<e;++a)n/=a-r,n*=t,i+=n;o+=i}return o}var sVt=aVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var lVt=-708.3964185322641,Vf=lVt;/**
+*/var nVt=rVt,RU=nVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6696,7 +6650,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var rc=Ve,og=rr,uVt=Se,lR=Au,uR=Vf;function cVt(e,t){var r,n;return n=e*uVt(t),t>=1?n<lR&&-t>uR?r=og(t,e)*rc(-t):e>=1?r=og(t/rc(t/e),e):r=rc(n-t):n>uR?r=og(t,e)*rc(-t):t/e<lR?r=og(t/rc(t/e),e):r=rc(n-t),r}var fVt=cVt;/**
+*/var iVt=RU,sR=er,oVt=Ve,aVt=Vs;function sVt(e,t){var r,n,i,o,a;if(o=iVt(sR(t)),o!==0&&e>1){for(n=oVt(-t)/sR(aVt*t),n*=t,r=.5,n/=r,i=n,a=2;a<e;++a)n/=a-r,n*=t,i+=n;o+=i}return o}var lVt=sVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6712,151 +6666,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hVt=6.283185307179586,DU=hVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function dVt(e){return e===0?-.3333333333333333:-.3333333333333333+e*(.08333333333333333+e*(-.014814814814814815+e*(.0011574074074074073+e*(.0003527336860670194+e*(-.0001787551440329218+e*(3919263178522438e-20+e*(-21854485106799924e-22+e*(-185406221071516e-20+e*(8296711340953087e-22+e*(-17665952736826078e-23+e*(6707853543401498e-24+e*(10261809784240309e-24+e*(-4382036018453353e-24+e*914769958223679e-24)))))))))))))}var pVt=dVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function vVt(e){return e===0?-.001851851851851852:-.001851851851851852+e*(-.003472222222222222+e*(.0026455026455026454+e*(-.0009902263374485596+e*(.00020576131687242798+e*(-4018775720164609e-22+e*(-18098550334489977e-21+e*(764916091608111e-20+e*(-16120900894563446e-22+e*(4647127802807434e-24+e*(1378633446915721e-22+e*(-5752545603517705e-23+e*11951628599778148e-24)))))))))))}var gVt=vVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function mVt(e){return e===0?.004133597883597883:.004133597883597883+e*(-.0026813271604938273+e*(.0007716049382716049+e*(20093878600823047e-22+e*(-.00010736653226365161+e*(52923448829120125e-21+e*(-12760635188618728e-21+e*(3423578734096138e-23+e*(13721957309062932e-22+e*(-6298992138380055e-22+e*14280614206064242e-23)))))))))}var _Vt=mVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function yVt(e){return e===0?.0006494341563786008:.0006494341563786008+e*(.00022947209362139917+e*(-.0004691894943952557+e*(.00026772063206283885+e*(-7561801671883977e-20+e*(-2396505113867297e-22+e*(11082654115347302e-21+e*(-56749528269915965e-22+e*14230900732435883e-22)))))))}var bVt=yVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function wVt(e){return e===0?-.0008618882909167117:-.0008618882909167117+e*(.0007840392217200666+e*(-.0002990724803031902+e*(-14638452578843418e-22+e*(6641498215465122e-20+e*(-3968365047179435e-20+e*11375726970678419e-21)))))}var SVt=wVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function TVt(e){return e===0?-.00033679855336635813:-.00033679855336635813+e*(-6972813758365858e-20+e*(.0002772753244959392+e*(-.00019932570516188847+e*(6797780477937208e-20+e*(1419062920643967e-22+e*(-13594048189768693e-21+e*(8018470256334202e-21+e*-2291481176508095e-21)))))))}var PVt=TVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function EVt(e){return e===0?.0005313079364639922:.0005313079364639922+e*(-.0005921664373536939+e*(.0002708782096718045+e*(7902353232660328e-22+e*(-8153969367561969e-20+e*(561168275310625e-19+e*-18329116582843375e-21)))))}var kVt=EVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function AVt(e){return e===0?.00034436760689237765:.00034436760689237765+e*(5171790908260592e-20+e*(-.00033493161081142234+e*(.0002812695154763237+e*-.00010976582244684731)))}var CVt=AVt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function MVt(e){return e===0?-.0006526239185953094:-.0006526239185953094+e*(.0008394987206720873+e*-.000438297098541721)}var xVt=MVt;/**
+*/var uVt=-708.3964185322641,Vf=uVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6886,7 +6696,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var LVt=$s,IVt=RU,uw=er,OVt=Ve,RVt=Se,DVt=DU,NVt=pVt,FVt=gVt,BVt=_Vt,$Vt=bVt,zVt=SVt,VVt=PVt,UVt=kVt,GVt=CVt,WVt=xVt,pi=[0,0,0,0,0,0,0,0,0,0];function jVt(e,t){var r,n,i,o,a;return n=(t-e)/e,i=-RVt(1+n)+n,o=e*i,a=uw(2*i),t<e&&(a=-a),pi[0]=NVt(a),pi[1]=FVt(a),pi[2]=BVt(a),pi[3]=$Vt(a),pi[4]=zVt(a),pi[5]=VVt(a),pi[6]=UVt(a),pi[7]=GVt(a),pi[8]=WVt(a),pi[9]=-.0005967612901927463,r=LVt(pi,1/e),r*=OVt(-o)/uw(DVt*e),t<e&&(r=-r),r+=IVt(uw(o))/2,r}var HVt=jVt;/**
+*/var rc=Ve,og=rr,cVt=Se,lR=Au,uR=Vf;function fVt(e,t){var r,n;return n=e*cVt(t),t>=1?n<lR&&-t>uR?r=og(t,e)*rc(-t):e>=1?r=og(t/rc(t/e),e):r=rc(n-t):n>uR?r=og(t,e)*rc(-t):t/e<lR?r=og(t/rc(t/e),e):r=rc(n-t),r}var hVt=fVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6902,7 +6712,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var XVt=eval,YVt=XVt;/**
+*/var dVt=6.283185307179586,DU=dVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6918,7 +6728,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var qVt=YVt;function ZVt(){var e;try{qVt('"use strict"; (function* () {})'),e=!0}catch{e=!1}return e}var KVt=ZVt;/**
+*/function pVt(e){return e===0?-.3333333333333333:-.3333333333333333+e*(.08333333333333333+e*(-.014814814814814815+e*(.0011574074074074073+e*(.0003527336860670194+e*(-.0001787551440329218+e*(3919263178522438e-20+e*(-21854485106799924e-22+e*(-185406221071516e-20+e*(8296711340953087e-22+e*(-17665952736826078e-23+e*(6707853543401498e-24+e*(10261809784240309e-24+e*(-4382036018453353e-24+e*914769958223679e-24)))))))))))))}var vVt=pVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6934,7 +6744,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var JVt=KVt,NU=JVt;/**
+*/function gVt(e){return e===0?-.001851851851851852:-.001851851851851852+e*(-.003472222222222222+e*(.0026455026455026454+e*(-.0009902263374485596+e*(.00020576131687242798+e*(-4018775720164609e-22+e*(-18098550334489977e-21+e*(764916091608111e-20+e*(-16120900894563446e-22+e*(4647127802807434e-24+e*(1378633446915721e-22+e*(-5752545603517705e-23+e*11951628599778148e-24)))))))))))}var mVt=gVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6950,7 +6760,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ag=de,QVt=Ia,tUt=1e6;function eUt(e,t){var r,n,i,o,a,s;if(s={},arguments.length>1&&(s=t),n=s.tolerance||QVt,o=s.maxTerms||tUt,a=s.initialValue||0,r=typeof e.next=="function",r===!0){for(i of e)if(a+=i,ag(n*a)>=ag(i)||--o===0)break}else do i=e(),a+=i;while(ag(n*a)<ag(i)&&--o);return a}var rUt=eUt;/**
+*/function _Vt(e){return e===0?.004133597883597883:.004133597883597883+e*(-.0026813271604938273+e*(.0007716049382716049+e*(20093878600823047e-22+e*(-.00010736653226365161+e*(52923448829120125e-21+e*(-12760635188618728e-21+e*(3423578734096138e-23+e*(13721957309062932e-22+e*(-6298992138380055e-22+e*14280614206064242e-23)))))))))}var yVt=_Vt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6966,7 +6776,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var cR=de,nUt=Ia,iUt=1e6;function oUt(e,t){var r,n,i,o,a;a={},arguments.length>1&&(a=t),r=a.tolerance||nUt,i=a.maxTerms||iUt,o=a.initialValue||0;do n=e(),o+=n;while(cR(r*o)<cR(n)&&--i);return o}var aUt=oUt;/**
+*/function bVt(e){return e===0?.0006494341563786008:.0006494341563786008+e*(.00022947209362139917+e*(-.0004691894943952557+e*(.00026772063206283885+e*(-7561801671883977e-20+e*(-2396505113867297e-22+e*(11082654115347302e-21+e*(-56749528269915965e-22+e*14230900732435883e-22)))))))}var wVt=bVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6982,7 +6792,71 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sUt=NU,lUt=rUt,uUt=aUt,DT;sUt()?DT=lUt:DT=uUt;var nA=DT;/**
+*/function SVt(e){return e===0?-.0008618882909167117:-.0008618882909167117+e*(.0007840392217200666+e*(-.0002990724803031902+e*(-14638452578843418e-22+e*(6641498215465122e-20+e*(-3968365047179435e-20+e*11375726970678419e-21)))))}var TVt=SVt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function PVt(e){return e===0?-.00033679855336635813:-.00033679855336635813+e*(-6972813758365858e-20+e*(.0002772753244959392+e*(-.00019932570516188847+e*(6797780477937208e-20+e*(1419062920643967e-22+e*(-13594048189768693e-21+e*(8018470256334202e-21+e*-2291481176508095e-21)))))))}var EVt=PVt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function kVt(e){return e===0?.0005313079364639922:.0005313079364639922+e*(-.0005921664373536939+e*(.0002708782096718045+e*(7902353232660328e-22+e*(-8153969367561969e-20+e*(561168275310625e-19+e*-18329116582843375e-21)))))}var AVt=kVt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function CVt(e){return e===0?.00034436760689237765:.00034436760689237765+e*(5171790908260592e-20+e*(-.00033493161081142234+e*(.0002812695154763237+e*-.00010976582244684731)))}var MVt=CVt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function xVt(e){return e===0?-.0006526239185953094:-.0006526239185953094+e*(.0008394987206720873+e*-.000438297098541721)}var LVt=xVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7012,7 +6886,103 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/function cUt(e,t){var r=1,n=e,i=t;return o;function o(){var a=r;return n+=1,r*=i/n,a}}var fUt=cUt;/**
+*/var IVt=$s,OVt=RU,uw=er,RVt=Ve,DVt=Se,NVt=DU,FVt=vVt,BVt=mVt,$Vt=yVt,zVt=wVt,VVt=TVt,UVt=EVt,GVt=AVt,WVt=MVt,jVt=LVt,pi=[0,0,0,0,0,0,0,0,0,0];function HVt(e,t){var r,n,i,o,a;return n=(t-e)/e,i=-DVt(1+n)+n,o=e*i,a=uw(2*i),t<e&&(a=-a),pi[0]=FVt(a),pi[1]=BVt(a),pi[2]=$Vt(a),pi[3]=zVt(a),pi[4]=VVt(a),pi[5]=UVt(a),pi[6]=GVt(a),pi[7]=WVt(a),pi[8]=jVt(a),pi[9]=-.0005967612901927463,r=IVt(pi,1/e),r*=RVt(-o)/uw(NVt*e),t<e&&(r=-r),r+=OVt(uw(o))/2,r}var XVt=HVt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var YVt=eval,qVt=YVt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var ZVt=qVt;function KVt(){var e;try{ZVt('"use strict"; (function* () {})'),e=!0}catch{e=!1}return e}var JVt=KVt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var QVt=JVt,NU=QVt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var ag=de,tUt=Ia,eUt=1e6;function rUt(e,t){var r,n,i,o,a,s;if(s={},arguments.length>1&&(s=t),n=s.tolerance||tUt,o=s.maxTerms||eUt,a=s.initialValue||0,r=typeof e.next=="function",r===!0){for(i of e)if(a+=i,ag(n*a)>=ag(i)||--o===0)break}else do i=e(),a+=i;while(ag(n*a)<ag(i)&&--o);return a}var nUt=rUt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var cR=de,iUt=Ia,oUt=1e6;function aUt(e,t){var r,n,i,o,a;a={},arguments.length>1&&(a=t),r=a.tolerance||iUt,i=a.maxTerms||oUt,o=a.initialValue||0;do n=e(),o+=n;while(cR(r*o)<cR(n)&&--i);return o}var sUt=aUt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var lUt=NU,uUt=nUt,cUt=sUt,DT;lUt()?DT=uUt:DT=cUt;var nA=DT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7042,7 +7012,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var hUt=nA,dUt=fUt;function pUt(e,t,r){var n,i;return r=r||0,i=dUt(e,t),n=hUt(i,{initialValue:r}),n}var vUt=pUt;/**
+*/function fUt(e,t){var r=1,n=e,i=t;return o;function o(){var a=r;return n+=1,r*=i/n,a}}var hUt=fUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7058,7 +7028,37 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function gUt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=709811.662581658+e*(679979.8474157227+e*(293136.7857211597+e*(74887.54032914672+e*(12555.290582413863+e*(1443.4299244417066+e*(115.24194596137347+e*(6.309239205732627+e*(.22668404630224365+e*(.004826466289237662+e*4624429436045379e-20))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=4624429436045379e-20+e*(.004826466289237662+e*(.22668404630224365+e*(6.309239205732627+e*(115.24194596137347+e*(1443.4299244417066+e*(12555.290582413863+e*(74887.54032914672+e*(293136.7857211597+e*(679979.8474157227+e*709811.662581658))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var mUt=gUt;/**
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_37_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* (C) Copyright John Maddock 2006.
+* (C) Copyright Paul A. Bristow 2007.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var dUt=nA,pUt=hUt;function vUt(e,t,r){var n,i;return r=r||0,i=pUt(e,t),n=dUt(i,{initialValue:r}),n}var gUt=vUt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function mUt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=709811.662581658+e*(679979.8474157227+e*(293136.7857211597+e*(74887.54032914672+e*(12555.290582413863+e*(1443.4299244417066+e*(115.24194596137347+e*(6.309239205732627+e*(.22668404630224365+e*(.004826466289237662+e*4624429436045379e-20))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=4624429436045379e-20+e*(.004826466289237662+e*(.22668404630224365+e*(6.309239205732627+e*(115.24194596137347+e*(1443.4299244417066+e*(12555.290582413863+e*(74887.54032914672+e*(293136.7857211597+e*(679979.8474157227+e*709811.662581658))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var _Ut=mUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7087,7 +7087,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var _Ut=mUt,yUt=_Ut;/**
+*/var yUt=_Ut,bUt=yUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7103,7 +7103,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var bUt=yUt,j_=bUt;/**
+*/var wUt=bUt,j_=wUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7135,7 +7135,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var wUt=j_,SUt=zf,TUt=Bo,PUt=Dn,EUt=er,kUt=de,Qa=Ve,Rh=rr,cw=ku,fw=zs,fR=Se,sg=Au,Dh=Vf,hw=ip,AUt=Bf;function CUt(e,t){var r,n,i,o,a,s,l;return i=e+hw-.5,l=(t-e-hw+.5)/i,e<1?t<=Dh?Qa(e*fR(t)-t-SUt(e)):Rh(t,e)*Qa(-t)/TUt(e):(kUt(l*l*e)<=100&&e>150?(r=e*(PUt(l)-l)+t*(.5-hw)/i,r=Qa(r)):(o=e*fR(t/i),a=e-t,fw(o,a)<=Dh||cw(o,a)>=sg?(n=a/e,fw(o,a)/2>Dh&&cw(o,a)/2<sg?(s=Rh(t/i,e/2)*Qa(a/2),r=s*s):fw(o,a)/4>Dh&&cw(o,a)/4<sg&&t>e?(s=Rh(t/i,e/4)*Qa(a/4),r=s*s,r*=r):n>Dh&&n<sg?r=Rh(t*Qa(n)/i,e):r=Qa(o+a)):r=Rh(t/i,e)*Qa(a)),r*=EUt(i/AUt)/wUt(e),r)}var MUt=CUt;/**
+*/var SUt=j_,TUt=zf,PUt=Bo,EUt=Dn,kUt=er,AUt=de,Qa=Ve,Rh=rr,cw=ku,fw=zs,fR=Se,sg=Au,Dh=Vf,hw=ip,CUt=Bf;function MUt(e,t){var r,n,i,o,a,s,l;return i=e+hw-.5,l=(t-e-hw+.5)/i,e<1?t<=Dh?Qa(e*fR(t)-t-TUt(e)):Rh(t,e)*Qa(-t)/PUt(e):(AUt(l*l*e)<=100&&e>150?(r=e*(EUt(l)-l)+t*(.5-hw)/i,r=Qa(r)):(o=e*fR(t/i),a=e-t,fw(o,a)<=Dh||cw(o,a)>=sg?(n=a/e,fw(o,a)/2>Dh&&cw(o,a)/2<sg?(s=Rh(t/i,e/2)*Qa(a/2),r=s*s):fw(o,a)/4>Dh&&cw(o,a)/4<sg&&t>e?(s=Rh(t/i,e/4)*Qa(a/4),r=s*s,r*=r):n>Dh&&n<sg?r=Rh(t*Qa(n)/i,e):r=Qa(o+a)):r=Rh(t/i,e)*Qa(a)),r*=kUt(i/CUt)/SUt(e),r)}var xUt=MUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7164,7 +7164,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var hR=Zt,dR=de,xUt=Df,LUt=Se,IUt=rr,OUt=qk;function RUt(e,t){var r;if(hR(e)||hR(t))return NaN;if(t===0)return 0;if(e===0)return-1;if(e<0&&t%2===0&&(e=-e),e>0){if((dR(t*(e-1))<.5||dR(t)<.2)&&(r=LUt(e)*t,r<.5))return xUt(r)}else if(OUt(t)!==t)return NaN;return IUt(e,t)-1}var DUt=RUt;/**
+*/var hR=Zt,dR=de,LUt=Df,IUt=Se,OUt=rr,RUt=qk;function DUt(e,t){var r;if(hR(e)||hR(t))return NaN;if(t===0)return 0;if(e===0)return-1;if(e<0&&t%2===0&&(e=-e),e>0){if((dR(t*(e-1))<.5||dR(t)<.2)&&(r=IUt(e)*t,r<.5))return LUt(r)}else if(RUt(t)!==t)return NaN;return OUt(e,t)-1}var NUt=DUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7180,7 +7180,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var NUt=DUt,FUt=NUt;/**
+*/var FUt=NUt,BUt=FUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7196,7 +7196,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function BUt(e){var t,r,n;return e===0?-.01803556856784494:(e<0?t=-e:t=e,t<=1?(r=-.01803556856784494+e*(.02512664961998968+e*(.049410315156753225+e*(.0172491608709614+e*(-.0002594535632054381+e*(-.0005410098692152044+e*(-3245886498259485e-20+e*0)))))),n=1+e*(1.962029871977952+e*(1.4801966942423133+e*(.5413914320717209+e*(.09885042511280101+e*(.008213096746488934+e*(.00022493629192211576+e*-22335276320861708e-23))))))):(e=1/e,r=0+e*(-3245886498259485e-20+e*(-.0005410098692152044+e*(-.0002594535632054381+e*(.0172491608709614+e*(.049410315156753225+e*(.02512664961998968+e*-.01803556856784494)))))),n=-22335276320861708e-23+e*(.00022493629192211576+e*(.008213096746488934+e*(.09885042511280101+e*(.5413914320717209+e*(1.4801966942423133+e*(1.962029871977952+e*1))))))),r/n)}var $Ut=BUt;/**
+*/function $Ut(e){var t,r,n;return e===0?-.01803556856784494:(e<0?t=-e:t=e,t<=1?(r=-.01803556856784494+e*(.02512664961998968+e*(.049410315156753225+e*(.0172491608709614+e*(-.0002594535632054381+e*(-.0005410098692152044+e*(-3245886498259485e-20+e*0)))))),n=1+e*(1.962029871977952+e*(1.4801966942423133+e*(.5413914320717209+e*(.09885042511280101+e*(.008213096746488934+e*(.00022493629192211576+e*-22335276320861708e-23))))))):(e=1/e,r=0+e*(-3245886498259485e-20+e*(-.0005410098692152044+e*(-.0002594535632054381+e*(.0172491608709614+e*(.049410315156753225+e*(.02512664961998968+e*-.01803556856784494)))))),n=-22335276320861708e-23+e*(.00022493629192211576+e*(.008213096746488934+e*(.09885042511280101+e*(.5413914320717209+e*(1.4801966942423133+e*(1.962029871977952+e*1))))))),r/n)}var zUt=$Ut;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7212,7 +7212,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function zUt(e){var t,r,n;return e===0?.04906224540690395:(e<0?t=-e:t=e,t<=1?(r=.04906224540690395+e*(-.09691175301595212+e*(-.4149833583594954+e*(-.4065671242119384+e*(-.1584135863906922+e*(-.024014982064857155+e*-.0010034668769627955))))),n=1+e*(3.0234982984646304+e*(3.4873958536072385+e*(1.9141558827442668+e*(.5071377386143635+e*(.05770397226904519+e*.001957681026011072)))))):(e=1/e,r=-.0010034668769627955+e*(-.024014982064857155+e*(-.1584135863906922+e*(-.4065671242119384+e*(-.4149833583594954+e*(-.09691175301595212+e*.04906224540690395))))),n=.001957681026011072+e*(.05770397226904519+e*(.5071377386143635+e*(1.9141558827442668+e*(3.4873958536072385+e*(3.0234982984646304+e*1)))))),r/n)}var VUt=zUt;/**
+*/function VUt(e){var t,r,n;return e===0?.04906224540690395:(e<0?t=-e:t=e,t<=1?(r=.04906224540690395+e*(-.09691175301595212+e*(-.4149833583594954+e*(-.4065671242119384+e*(-.1584135863906922+e*(-.024014982064857155+e*-.0010034668769627955))))),n=1+e*(3.0234982984646304+e*(3.4873958536072385+e*(1.9141558827442668+e*(.5071377386143635+e*(.05770397226904519+e*.001957681026011072)))))):(e=1/e,r=-.0010034668769627955+e*(-.024014982064857155+e*(-.1584135863906922+e*(-.4065671242119384+e*(-.4149833583594954+e*(-.09691175301595212+e*.04906224540690395))))),n=.001957681026011072+e*(.05770397226904519+e*(.5071377386143635+e*(1.9141558827442668+e*(3.4873958536072385+e*(3.0234982984646304+e*1)))))),r/n)}var UUt=VUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7228,7 +7228,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function UUt(e){var t,r,n;return e===0?-.029232972183027003:(e<0?t=-e:t=e,t<=1?(r=-.029232972183027003+e*(.14421626775719232+e*(-.14244039073863127+e*(.05428096940550536+e*(-.008505359768683364+e*(.0004311713426792973+e*0))))),n=1+e*(-1.5016935605448505+e*(.846973248876495+e*(-.22009515181499575+e*(.02558279715597587+e*(-.0010066679553914337+e*-8271935218912905e-22)))))):(e=1/e,r=0+e*(.0004311713426792973+e*(-.008505359768683364+e*(.05428096940550536+e*(-.14244039073863127+e*(.14421626775719232+e*-.029232972183027003))))),n=-8271935218912905e-22+e*(-.0010066679553914337+e*(.02558279715597587+e*(-.22009515181499575+e*(.846973248876495+e*(-1.5016935605448505+e*1)))))),r/n)}var GUt=UUt;/**
+*/function GUt(e){var t,r,n;return e===0?-.029232972183027003:(e<0?t=-e:t=e,t<=1?(r=-.029232972183027003+e*(.14421626775719232+e*(-.14244039073863127+e*(.05428096940550536+e*(-.008505359768683364+e*(.0004311713426792973+e*0))))),n=1+e*(-1.5016935605448505+e*(.846973248876495+e*(-.22009515181499575+e*(.02558279715597587+e*(-.0010066679553914337+e*-8271935218912905e-22)))))):(e=1/e,r=0+e*(.0004311713426792973+e*(-.008505359768683364+e*(.05428096940550536+e*(-.14244039073863127+e*(.14421626775719232+e*-.029232972183027003))))),n=-8271935218912905e-22+e*(-.0010066679553914337+e*(.02558279715597587+e*(-.22009515181499575+e*(.846973248876495+e*(-1.5016935605448505+e*1)))))),r/n)}var WUt=GUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7260,7 +7260,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var dw=Se,WUt=Ia,jUt=$Ut,HUt=VUt,XUt=GUt,YUt=.15896368026733398,qUt=.5281534194946289,ZUt=.45201730728149414;function KUt(e,t,r){var n,i,o,a;if(e<WUt)return-dw(e);if(t===0||r===0)return 0;if(i=0,e>2){if(e>=3){do e-=1,r-=1,i+=dw(e);while(e>=3);r=e-2}return o=r*(e+1),a=jUt(r),i+=o*YUt+o*a,i}return e<1&&(i+=-dw(e),r=t,t=e,e+=1),e<=1.5?(o=HUt(t),n=t*r,i+=n*qUt+n*o,i):(o=r*t,a=XUt(-r),i+=o*ZUt+o*a,i)}var JUt=KUt;/**
+*/var dw=Se,jUt=Ia,HUt=zUt,XUt=UUt,YUt=WUt,qUt=.15896368026733398,ZUt=.5281534194946289,KUt=.45201730728149414;function JUt(e,t,r){var n,i,o,a;if(e<jUt)return-dw(e);if(t===0||r===0)return 0;if(i=0,e>2){if(e>=3){do e-=1,r-=1,i+=dw(e);while(e>=3);r=e-2}return o=r*(e+1),a=HUt(r),i+=o*qUt+o*a,i}return e<1&&(i+=-dw(e),r=t,t=e,e+=1),e<=1.5?(o=XUt(t),n=t*r,i+=n*ZUt+n*o,i):(o=r*t,a=YUt(-r),i+=o*KUt+o*a,i)}var QUt=JUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7292,7 +7292,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var pR=Bo,vR=Df,QUt=Dn,tGt=Zt,gR=JUt;function eGt(e){return tGt(e)?NaN:e<0?e<-.5?pR(1+e)-1:vR(-QUt(e)+gR(e+2,e+1,e)):e<2?vR(gR(e+1,e,e-1)):pR(1+e)-1}var rGt=eGt;/**
+*/var pR=Bo,vR=Df,tGt=Dn,eGt=Zt,gR=QUt;function rGt(e){return eGt(e)?NaN:e<0?e<-.5?pR(1+e)-1:vR(-tGt(e)+gR(e+2,e+1,e)):e<2?vR(gR(e+1,e,e-1)):pR(1+e)-1}var nGt=rGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7308,37 +7308,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var nGt=rGt,iGt=nGt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_37_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* (C) Copyright John Maddock 2006.
-* (C) Copyright Paul A. Bristow 2007.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/function oGt(e,t){var r,n,i,o;return r=-t,t=-t,n=e+1,i=1,a;function a(){return o=r/n,r*=t,i+=1,r/=i,n+=1,o}}var aGt=oGt;/**
+*/var iGt=nGt,oGt=iGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7368,71 +7338,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var sGt=FUt,lGt=nA,uGt=iGt,cGt=aGt;function fGt(e,t,r){var n,i,o,a,s;return i=uGt(e),o=(i+1)/e,a=sGt(t,e),i-=a,i/=e,s=cGt(e,t),a+=1,n=r?o:0,i=-a*lGt(s,{initialValue:(n-i)/a}),r&&(i=-i),[i,o]}var hGt=fGt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var dGt=11754943508222875e-54,H_=dGt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var b1=de,bo=H_,pGt=Ia,vGt=1e6;function gGt(e,t,r){var n,i,o,a,s,l,u;if(n=typeof e.next=="function",u=n?e.next().value:e(),a=u[1],o=u[0],a===0&&(a=bo),s=a,l=0,n===!0)do u=e.next().value,u&&(l=u[1]+u[0]*l,l===0&&(l=bo),s=u[1]+u[0]/s,s===0&&(s=bo),l=1/l,i=s*l,a*=i);while(b1(i-1)>t&&--r);else do u=e(),u&&(l=u[1]+u[0]*l,l===0&&(l=bo),s=u[1]+u[0]/s,s===0&&(s=bo),l=1/l,i=s*l,a*=i);while(u&&b1(i-1)>t&&--r);return o/a}function mGt(e,t,r){var n,i,o,a,s,l;if(n=typeof e.next=="function",l=n?e.next().value:e(),o=l[1],o===0&&(o=bo),a=o,s=0,n===!0)do l=e.next().value,l&&(s=l[1]+l[0]*s,s===0&&(s=bo),a=l[1]+l[0]/a,a===0&&(a=bo),s=1/s,i=a*s,o*=i);while(l&&b1(i-1)>t&&--r);else do l=e(),l&&(s=l[1]+l[0]*s,s===0&&(s=bo),a=l[1]+l[0]/a,a===0&&(a=bo),s=1/s,i=a*s,o*=i);while(l&&b1(i-1)>t&&--r);return o}function _Gt(e,t){var r,n,i;return n={},arguments.length>1&&(n=t),r=n.maxIter||vGt,i=n.tolerance||pGt,n.keep?mGt(e,i,r):gGt(e,i,r)}var yGt=_Gt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var FU=de,bGt=Ia,Uc=H_,wGt=1e6;function SGt(e,t,r){var n,i,o,a,s,l;l=e(),s=l[1],i=l[0],s===0&&(s=Uc),o=s,a=0;do l=e(),l&&(a=l[1]+l[0]*a,a===0&&(a=Uc),o=l[1]+l[0]/o,o===0&&(o=Uc),a=1/a,n=o*a,s*=n);while(l&&FU(n-1)>t&&--r);return i/s}function TGt(e,t,r){var n,i,o,a,s;s=e(),a=s[1],a===0&&(a=Uc),i=a,o=0;do s=e(),s&&(o=s[1]+s[0]*o,o===0&&(o=Uc),i=s[1]+s[0]/i,i===0&&(i=Uc),o=1/o,n=i*o,a*=n);while(s&&FU(n-1)>t&&--r);return a}function PGt(e,t){var r,n,i;return n={},arguments.length>1&&(n=t),i=n.tolerance||bGt,r=n.maxIter||wGt,n.keep?TGt(e,i,r):SGt(e,i,r)}var EGt=PGt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var kGt=NU,AGt=yGt,CGt=EGt,NT;kGt()?NT=AGt:NT=CGt;var BU=NT;/**
+*/function aGt(e,t){var r,n,i,o;return r=-t,t=-t,n=e+1,i=1,a;function a(){return o=r/n,r*=t,i+=1,r/=i,n+=1,o}}var sGt=aGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7462,7 +7368,71 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/function MGt(e,t){var r=t-e+1,n=e,i=0;return o;function o(){return i+=1,r+=2,[i*(n-i),r]}}var xGt=MGt;/**
+*/var lGt=BUt,uGt=nA,cGt=oGt,fGt=sGt;function hGt(e,t,r){var n,i,o,a,s;return i=cGt(e),o=(i+1)/e,a=lGt(t,e),i-=a,i/=e,s=fGt(e,t),a+=1,n=r?o:0,i=-a*uGt(s,{initialValue:(n-i)/a}),r&&(i=-i),[i,o]}var dGt=hGt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var pGt=11754943508222875e-54,H_=pGt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var b1=de,bo=H_,vGt=Ia,gGt=1e6;function mGt(e,t,r){var n,i,o,a,s,l,u;if(n=typeof e.next=="function",u=n?e.next().value:e(),a=u[1],o=u[0],a===0&&(a=bo),s=a,l=0,n===!0)do u=e.next().value,u&&(l=u[1]+u[0]*l,l===0&&(l=bo),s=u[1]+u[0]/s,s===0&&(s=bo),l=1/l,i=s*l,a*=i);while(b1(i-1)>t&&--r);else do u=e(),u&&(l=u[1]+u[0]*l,l===0&&(l=bo),s=u[1]+u[0]/s,s===0&&(s=bo),l=1/l,i=s*l,a*=i);while(u&&b1(i-1)>t&&--r);return o/a}function _Gt(e,t,r){var n,i,o,a,s,l;if(n=typeof e.next=="function",l=n?e.next().value:e(),o=l[1],o===0&&(o=bo),a=o,s=0,n===!0)do l=e.next().value,l&&(s=l[1]+l[0]*s,s===0&&(s=bo),a=l[1]+l[0]/a,a===0&&(a=bo),s=1/s,i=a*s,o*=i);while(l&&b1(i-1)>t&&--r);else do l=e(),l&&(s=l[1]+l[0]*s,s===0&&(s=bo),a=l[1]+l[0]/a,a===0&&(a=bo),s=1/s,i=a*s,o*=i);while(l&&b1(i-1)>t&&--r);return o}function yGt(e,t){var r,n,i;return n={},arguments.length>1&&(n=t),r=n.maxIter||gGt,i=n.tolerance||vGt,n.keep?_Gt(e,i,r):mGt(e,i,r)}var bGt=yGt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var FU=de,wGt=Ia,Uc=H_,SGt=1e6;function TGt(e,t,r){var n,i,o,a,s,l;l=e(),s=l[1],i=l[0],s===0&&(s=Uc),o=s,a=0;do l=e(),l&&(a=l[1]+l[0]*a,a===0&&(a=Uc),o=l[1]+l[0]/o,o===0&&(o=Uc),a=1/a,n=o*a,s*=n);while(l&&FU(n-1)>t&&--r);return i/s}function PGt(e,t,r){var n,i,o,a,s;s=e(),a=s[1],a===0&&(a=Uc),i=a,o=0;do s=e(),s&&(o=s[1]+s[0]*o,o===0&&(o=Uc),i=s[1]+s[0]/i,i===0&&(i=Uc),o=1/o,n=i*o,a*=n);while(s&&FU(n-1)>t&&--r);return a}function EGt(e,t){var r,n,i;return n={},arguments.length>1&&(n=t),i=n.tolerance||wGt,r=n.maxIter||SGt,n.keep?PGt(e,i,r):TGt(e,i,r)}var kGt=EGt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var AGt=NU,CGt=bGt,MGt=kGt,NT;AGt()?NT=CGt:NT=MGt;var BU=NT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7492,7 +7462,37 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var LGt=BU,IGt=xGt;function OGt(e,t){var r=IGt(e,t);return 1/(t-e+1+LGt(r))}var RGt=OGt;/**
+*/function xGt(e,t){var r=t-e+1,n=e,i=0;return o;function o(){return i+=1,r+=2,[i*(n-i),r]}}var LGt=xGt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_37_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* (C) Copyright John Maddock 2006.
+* (C) Copyright Paul A. Bristow 2007.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var IGt=BU,OGt=LGt;function RGt(e,t){var r=OGt(e,t);return 1/(t-e+1+IGt(r))}var DGt=RGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7524,7 +7524,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var DGt=zf,NGt=Rn,Nh=Bo,mR=de,FGt=Ve,_R=rr,vi=Se,BGt=hzt,yR=$f,$Gt=W_,bR=Au,zGt=Fe,VGt=gzt,UGt=sVt,wR=fVt,GGt=HVt,pw=vUt,SR=MUt,WGt=hGt,TR=RGt,jGt=170;function $U(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,v,g,m,_;if(e<0||t<=0)return NaN;if(o=r===void 0?!0:r,f=n,h=0,t>=jGt&&!o)return f&&t*4<e?(h=t*vi(e)-e,h+=vi(TR(t,e))):!f&&t>4*e?(h=t*vi(e)-e,s=0,h+=vi(pw(t,e,s)/t)):(h=$U(t,e,!0,f),h===0?f?(h=1+1/(12*t)+1/(288*t*t),h=vi(h)-t+(t-.5)*vi(t),h+=vi($Gt)):(h=t*vi(e)-e,s=0,h+=vi(pw(t,e,s)/t)):h=vi(h)+DGt(t)),h>bR?zGt:FGt(h);switch(c=t<30&&t<=e+1&&e<bR,c?(m=NGt(t),d=m===t,l=d?!1:mR(m-t)===.5):d=l=!1,d&&e>.6?(f=!f,a=0):l&&e>.2?(f=!f,a=1):e<BGt&&t>1?a=6:e<.5?-.4/vi(e)<t?a=2:a=3:e<1.1?e*.75<t?a=2:a=3:(u=!1,o&&t>20&&(p=mR((e-t)/t),t>200?20/t>p*p&&(u=!0):p<.4&&(u=!0)),u?a=5:e-1/(3*e)<t?a=2:(a=4,f=!f)),a){case 0:h=VGt(t,e),o===!1&&(h*=Nh(t));break;case 1:h=UGt(t,e),o===!1&&(h*=Nh(t));break;case 2:h=o?SR(t,e):wR(t,e),h!==0&&(s=0,i=!1,f&&(s=o?1:Nh(t),o||h>=1||yR*h>s?(s/=h,o||t<1||yR/t>s?(s*=-t,i=!0):s=0):s=0)),h*=pw(t,e,s)/t,i&&(f=!1,h=-h);break;case 3:f=!f,g=WGt(t,e,f),h=g[0],_=g[1],f=!1,o&&(h/=_);break;case 4:h=o?SR(t,e):wR(t,e),h!==0&&(h*=TR(t,e));break;case 5:h=GGt(t,e),e>=t&&(f=!f);break;case 6:h=o?_R(e,t)/Nh(t+1):_R(e,t)/t,h*=1-t*e/(t+1);break}return o&&h>1&&(h=1),f&&(v=o?1:Nh(t),h=v-h),h}var HGt=$U;/**
+*/var NGt=zf,FGt=Rn,Nh=Bo,mR=de,BGt=Ve,_R=rr,vi=Se,$Gt=dzt,yR=$f,zGt=W_,bR=Au,VGt=Fe,UGt=mzt,GGt=lVt,wR=hVt,WGt=XVt,pw=gUt,SR=xUt,jGt=dGt,TR=DGt,HGt=170;function $U(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,v,g,m,_;if(e<0||t<=0)return NaN;if(o=r===void 0?!0:r,f=n,h=0,t>=HGt&&!o)return f&&t*4<e?(h=t*vi(e)-e,h+=vi(TR(t,e))):!f&&t>4*e?(h=t*vi(e)-e,s=0,h+=vi(pw(t,e,s)/t)):(h=$U(t,e,!0,f),h===0?f?(h=1+1/(12*t)+1/(288*t*t),h=vi(h)-t+(t-.5)*vi(t),h+=vi(zGt)):(h=t*vi(e)-e,s=0,h+=vi(pw(t,e,s)/t)):h=vi(h)+NGt(t)),h>bR?VGt:BGt(h);switch(c=t<30&&t<=e+1&&e<bR,c?(m=FGt(t),d=m===t,l=d?!1:mR(m-t)===.5):d=l=!1,d&&e>.6?(f=!f,a=0):l&&e>.2?(f=!f,a=1):e<$Gt&&t>1?a=6:e<.5?-.4/vi(e)<t?a=2:a=3:e<1.1?e*.75<t?a=2:a=3:(u=!1,o&&t>20&&(p=mR((e-t)/t),t>200?20/t>p*p&&(u=!0):p<.4&&(u=!0)),u?a=5:e-1/(3*e)<t?a=2:(a=4,f=!f)),a){case 0:h=UGt(t,e),o===!1&&(h*=Nh(t));break;case 1:h=GGt(t,e),o===!1&&(h*=Nh(t));break;case 2:h=o?SR(t,e):wR(t,e),h!==0&&(s=0,i=!1,f&&(s=o?1:Nh(t),o||h>=1||yR*h>s?(s/=h,o||t<1||yR/t>s?(s*=-t,i=!0):s=0):s=0)),h*=pw(t,e,s)/t,i&&(f=!1,h=-h);break;case 3:f=!f,g=jGt(t,e,f),h=g[0],_=g[1],f=!1,o&&(h/=_);break;case 4:h=o?SR(t,e):wR(t,e),h!==0&&(h*=TR(t,e));break;case 5:h=WGt(t,e),e>=t&&(f=!f);break;case 6:h=o?_R(e,t)/Nh(t+1):_R(e,t)/t,h*=1-t*e/(t+1);break}return o&&h>1&&(h=1),f&&(v=o?1:Nh(t),h=v-h),h}var XGt=$U;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7540,7 +7540,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var XGt=HGt,zU=XGt;/**
+*/var YGt=XGt,zU=YGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7570,7 +7570,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var nc=Ve,lg=rr,YGt=Se,PR=Au,ER=Vf;function qGt(e,t){var r,n;return n=e*YGt(t),t>=1?n<PR&&-t>ER?r=lg(t,e)*nc(-t):e>=1?r=lg(t/nc(t/e),e):r=nc(n-t):n>ER?r=lg(t,e)*nc(-t):t/e<PR?r=lg(t/nc(t/e),e):r=nc(n-t),r}var ZGt=qGt;/**
+*/var nc=Ve,lg=rr,qGt=Se,PR=Au,ER=Vf;function ZGt(e,t){var r,n;return n=e*qGt(t),t>=1?n<PR&&-t>ER?r=lg(t,e)*nc(-t):e>=1?r=lg(t/nc(t/e),e):r=nc(n-t):n>ER?r=lg(t,e)*nc(-t):t/e<PR?r=lg(t/nc(t/e),e):r=nc(n-t),r}var KGt=ZGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7602,7 +7602,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var KGt=j_,JGt=zf,QGt=Bo,tWt=Dn,eWt=er,rWt=de,ts=Ve,Fh=rr,vw=ku,gw=zs,kR=Se,ug=Au,Bh=Vf,mw=ip,nWt=Bf;function iWt(e,t){var r,n,i,o,a,s,l;return i=e+mw-.5,l=(t-e-mw+.5)/i,e<1?t<=Bh?ts(e*kR(t)-t-JGt(e)):Fh(t,e)*ts(-t)/QGt(e):(rWt(l*l*e)<=100&&e>150?(r=e*(tWt(l)-l)+t*(.5-mw)/i,r=ts(r)):(o=e*kR(t/i),a=e-t,gw(o,a)<=Bh||vw(o,a)>=ug?(n=a/e,gw(o,a)/2>Bh&&vw(o,a)/2<ug?(s=Fh(t/i,e/2)*ts(a/2),r=s*s):gw(o,a)/4>Bh&&vw(o,a)/4<ug&&t>e?(s=Fh(t/i,e/4)*ts(a/4),r=s*s,r*=r):n>Bh&&n<ug?r=Fh(t*ts(n)/i,e):r=ts(o+a)):r=Fh(t/i,e)*ts(a)),r*=eWt(i/nWt)/KGt(e),r)}var oWt=iWt;/**
+*/var JGt=j_,QGt=zf,tWt=Bo,eWt=Dn,rWt=er,nWt=de,ts=Ve,Fh=rr,vw=ku,gw=zs,kR=Se,ug=Au,Bh=Vf,mw=ip,iWt=Bf;function oWt(e,t){var r,n,i,o,a,s,l;return i=e+mw-.5,l=(t-e-mw+.5)/i,e<1?t<=Bh?ts(e*kR(t)-t-QGt(e)):Fh(t,e)*ts(-t)/tWt(e):(nWt(l*l*e)<=100&&e>150?(r=e*(eWt(l)-l)+t*(.5-mw)/i,r=ts(r)):(o=e*kR(t/i),a=e-t,gw(o,a)<=Bh||vw(o,a)>=ug?(n=a/e,gw(o,a)/2>Bh&&vw(o,a)/2<ug?(s=Fh(t/i,e/2)*ts(a/2),r=s*s):gw(o,a)/4>Bh&&vw(o,a)/4<ug&&t>e?(s=Fh(t/i,e/4)*ts(a/4),r=s*s,r*=r):n>Bh&&n<ug?r=Fh(t*ts(n)/i,e):r=ts(o+a)):r=Fh(t/i,e)*ts(a)),r*=rWt(i/iWt)/JGt(e),r)}var aWt=oWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7631,7 +7631,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var aWt=eA,AR=IU,sWt=zU,lWt=Dn,cg=de,CR=rr,uWt=Se,cWt=Eu,MR=Ia,fWt=ZGt,hWt=oWt,es=new Array(30);function dWt(e,t,r,n,i,o,a){var s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A;if(h=t-1,P=e+h/2,n<.35?g=lWt(-n):g=uWt(r),A=-P*g,_=hWt(t,A),_<=cWt)return i;for(a?(s=_/aWt(e,t),s/=CR(P,t)):s=fWt(t,A)/CR(P,t),s*=o,es[0]=1,y=sWt(A,t,!0,!0),y/=_,c=i+s*y,u=1,d=g/2,d*=d,p=1,m=4*P*P,f=t,T=1;T<es.length;++T){for(u+=2,es[T]=0,v=t-T,l=3,w=1;w<T;++w)v=w*t-T,es[T]+=v*es[T-w]/AR(l),l+=2;if(es[T]/=T,es[T]+=h/AR(u),y=(f*(f+1)*y+(A+f+1)*p)/m,p*=d,f+=2,S=s*es[T]*y,c+=S,S>1){if(cg(S)<cg(MR*c))break}else if(cg(S/MR)<cg(c))break}return c}var pWt=dWt;/**
+*/var sWt=eA,AR=IU,lWt=zU,uWt=Dn,cg=de,CR=rr,cWt=Se,fWt=Eu,MR=Ia,hWt=KGt,dWt=aWt,es=new Array(30);function pWt(e,t,r,n,i,o,a){var s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A;if(h=t-1,P=e+h/2,n<.35?g=uWt(-n):g=cWt(r),A=-P*g,_=dWt(t,A),_<=fWt)return i;for(a?(s=_/sWt(e,t),s/=CR(P,t)):s=hWt(t,A)/CR(P,t),s*=o,es[0]=1,y=lWt(A,t,!0,!0),y/=_,c=i+s*y,u=1,d=g/2,d*=d,p=1,m=4*P*P,f=t,T=1;T<es.length;++T){for(u+=2,es[T]=0,v=t-T,l=3,w=1;w<T;++w)v=w*t-T,es[T]+=v*es[T-w]/AR(l),l+=2;if(es[T]/=T,es[T]+=h/AR(u),y=(f*(f+1)*y+(A+f+1)*p)/m,p*=d,f+=2,S=s*es[T]*y,c+=S,S>1){if(cg(S)<cg(MR*c))break}else if(cg(S/MR)<cg(c))break}return c}var vWt=pWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7660,7 +7660,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/function vWt(e,t,r){var n,i;if(r===0)return 1;for(n=1,i=0;i<r;i++)n*=(e+i)/(t+i);return n}var gWt=vWt;/**
+*/function gWt(e,t,r){var n,i;if(r===0)return 1;for(n=1,i=0;i<r;i++)n*=(e+i)/(t+i);return n}var mWt=gWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7676,7 +7676,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var _w=de,xR=ku,mWt=Fe;function _Wt(e,t){var r,n,i;if(r=arguments.length,r===0)return mWt;if(r===2)return xR(_w(e),_w(t));for(n=[],i=0;i<r;i++)n.push(_w(arguments[i]));return xR.apply(null,n)}var yWt=_Wt;/**
+*/var _w=de,xR=ku,_Wt=Fe;function yWt(e,t){var r,n,i;if(r=arguments.length,r===0)return _Wt;if(r===2)return xR(_w(e),_w(t));for(n=[],i=0;i<r;i++)n.push(_w(arguments[i]));return xR.apply(null,n)}var bWt=yWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7692,7 +7692,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var bWt=yWt,wWt=bWt;/**
+*/var wWt=bWt,SWt=wWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7708,7 +7708,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var yw=de,LR=zs,SWt=Fe;function TWt(e,t){var r,n,i;if(r=arguments.length,r===0)return SWt;if(r===2)return LR(yw(e),yw(t));for(n=[],i=0;i<r;i++)n.push(yw(arguments[i]));return LR.apply(null,n)}var PWt=TWt;/**
+*/var yw=de,LR=zs,TWt=Fe;function PWt(e,t){var r,n,i;if(r=arguments.length,r===0)return TWt;if(r===2)return LR(yw(e),yw(t));for(n=[],i=0;i<r;i++)n.push(yw(arguments[i]));return LR.apply(null,n)}var EWt=PWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7724,7 +7724,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var EWt=PWt,kWt=EWt;/**
+*/var kWt=EWt,AWt=kWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7753,7 +7753,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var bw=j_,AWt=wWt,CWt=kWt,IR=Df,rs=Dn,OR=er,fg=de,ao=Ve,so=rr,MWt=zs,Vn=Se,lo=Au,ic=Vf,ww=ip,xWt=Bf;function LWt(e,t,r,n,i){var o,a,s,l,u,c,f,h,d,p,v,g,m,_;if(!i)return so(r,e)*so(n,t);if(m=e+t,l=e+ww-.5,u=t+ww-.5,c=m+ww-.5,o=bw(m),o/=bw(e)*bw(t),o*=OR(u/xWt),o*=OR(l/c),f=(r*t-n*l)/l,h=(n*e-r*u)/u,CWt(f,h)<.2)if(f*h>0||MWt(e,t)<1)fg(f)<.1?o*=ao(e*rs(f)):o*=so(r*c/l,e),fg(h)<.1?o*=ao(t*rs(h)):o*=so(n*c/u,t);else if(AWt(f,h)<.5)a=e<t,s=t/e,a&&s*h<.1||!a&&f/s>.1?(d=IR(s*rs(h)),d=f+d+d*f,d=e*rs(d),o*=ao(d)):(d=IR(rs(f)/s),d=h+d+d*h,d=t*rs(d),o*=ao(d));else if(fg(f)<fg(h))if(_=e*rs(f)+t*Vn(n*c/u),_<=ic||_>=lo){if(_+=Vn(o),_>=lo)return NaN;o=ao(_)}else o*=ao(_);else if(_=t*rs(h)+e*Vn(r*c/l),_<=ic||_>=lo){if(_+=Vn(o),_>=lo)return NaN;o=ao(_)}else o*=ao(_);else if(v=r*c/l,g=n*c/u,f=e*Vn(v),h=t*Vn(g),f>=lo||f<=ic||h>=lo||h<=ic)if(e<t)if(p=so(g,t/e),d=e*(Vn(v)+Vn(p)),d<lo&&d>ic)o*=so(p*v,e);else{if(h+=f+Vn(o),h>=lo)return NaN;o=ao(h)}else if(p=so(v,e/t),d=(Vn(p)+Vn(g))*t,d<lo&&d>ic)o*=so(p*g,t);else{if(h+=f+Vn(o),h>=lo)return NaN;o=ao(h)}else o*=so(v,e)*so(g,t);return o}var iA=LWt;/**
+*/var bw=j_,CWt=SWt,MWt=AWt,IR=Df,rs=Dn,OR=er,fg=de,ao=Ve,so=rr,xWt=zs,Vn=Se,lo=Au,ic=Vf,ww=ip,LWt=Bf;function IWt(e,t,r,n,i){var o,a,s,l,u,c,f,h,d,p,v,g,m,_;if(!i)return so(r,e)*so(n,t);if(m=e+t,l=e+ww-.5,u=t+ww-.5,c=m+ww-.5,o=bw(m),o/=bw(e)*bw(t),o*=OR(u/LWt),o*=OR(l/c),f=(r*t-n*l)/l,h=(n*e-r*u)/u,MWt(f,h)<.2)if(f*h>0||xWt(e,t)<1)fg(f)<.1?o*=ao(e*rs(f)):o*=so(r*c/l,e),fg(h)<.1?o*=ao(t*rs(h)):o*=so(n*c/u,t);else if(CWt(f,h)<.5)a=e<t,s=t/e,a&&s*h<.1||!a&&f/s>.1?(d=IR(s*rs(h)),d=f+d+d*f,d=e*rs(d),o*=ao(d)):(d=IR(rs(f)/s),d=h+d+d*h,d=t*rs(d),o*=ao(d));else if(fg(f)<fg(h))if(_=e*rs(f)+t*Vn(n*c/u),_<=ic||_>=lo){if(_+=Vn(o),_>=lo)return NaN;o=ao(_)}else o*=ao(_);else if(_=t*rs(h)+e*Vn(r*c/l),_<=ic||_>=lo){if(_+=Vn(o),_>=lo)return NaN;o=ao(_)}else o*=ao(_);else if(v=r*c/l,g=n*c/u,f=e*Vn(v),h=t*Vn(g),f>=lo||f<=ic||h>=lo||h<=ic)if(e<t)if(p=so(g,t/e),d=e*(Vn(v)+Vn(p)),d<lo&&d>ic)o*=so(p*v,e);else{if(h+=f+Vn(o),h>=lo)return NaN;o=ao(h)}else if(p=so(v,e/t),d=(Vn(p)+Vn(g))*t,d<lo&&d>ic)o*=so(p*g,t);else{if(h+=f+Vn(o),h>=lo)return NaN;o=ao(h)}else o*=so(v,e)*so(g,t);return o}var iA=IWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7782,7 +7782,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var IWt=BU,OWt=iA,RWt={keep:!0,maxIter:1e3};function DWt(e,t,r,n){var i=0;return o;function o(){var a,s,l;return s=(e+i-1)*(e+t+i-1)*i*(t-i)*r*r,a=e+2*i-1,s/=a*a,l=i,l+=i*(t-i)*r/(e+2*i-1),l+=(e+i)*(e*n-t*r+1+i*(2-r))/(e+2*i+1),i+=1,[s,l]}}function NWt(e,t,r,n,i,o){var a,s,l;return a=OWt(e,t,r,n,i),o&&(o[1]=a),a===0?a:(l=DWt(e,t,r,n),s=IWt(l,RWt),a/s)}var FWt=NWt;/**
+*/var OWt=BU,RWt=iA,DWt={keep:!0,maxIter:1e3};function NWt(e,t,r,n){var i=0;return o;function o(){var a,s,l;return s=(e+i-1)*(e+t+i-1)*i*(t-i)*r*r,a=e+2*i-1,s/=a*a,l=i,l+=i*(t-i)*r/(e+2*i-1),l+=(e+i)*(e*n-t*r+1+i*(2-r))/(e+2*i+1),i+=1,[s,l]}}function FWt(e,t,r,n,i,o){var a,s,l;return a=RWt(e,t,r,n,i),o&&(o[1]=a),a===0?a:(l=NWt(e,t,r,n),s=OWt(l,DWt),a/s)}var BWt=FWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7798,7 +7798,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Sw=Bs,RR=Zt,BWt=Qk,$Wt=G_;function VU(e,t){var r,n;if(RR(e)||RR(t))return NaN;if(!Sw(e)||!Sw(t))return NaN;if(t<0)return 0;if(e<0)return r=VU(-e+t-1,t),BWt(t)&&(r=-r),r;if(t>e)return 0;if(t===0||t===e)return 1;if(t===1||t===e-1)return e;for(e-t<t&&(t=e-t),r=e,n=2;n<=t;n++)r*=(e-n+1)/n;return Sw(r)?r:$Wt(r)}var zWt=VU;/**
+*/var Sw=Bs,RR=Zt,$Wt=Qk,zWt=G_;function VU(e,t){var r,n;if(RR(e)||RR(t))return NaN;if(!Sw(e)||!Sw(t))return NaN;if(t<0)return 0;if(e<0)return r=VU(-e+t-1,t),$Wt(t)&&(r=-r),r;if(t>e)return 0;if(t===0||t===e)return 1;if(t===1||t===e-1)return e;for(e-t<t&&(t=e-t),r=e,n=2;n<=t;n++)r*=(e-n+1)/n;return Sw(r)?r:zWt(r)}var VWt=VU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7814,36 +7814,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var VWt=zWt,UWt=VWt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_61_0/boost/math/special_functions/beta.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* (C) Copyright John Maddock 2006.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var DR=UWt,yl=Rn,$h=rr,GWt=Eu;function WWt(e,t,r,n){var i,o,a,s,l;if(o=$h(r,e),o>GWt)for(s=o,l=yl(e-1);l>t;l--)s*=(l+1)*n/((e-l)*r),o+=s;else if(a=yl(e*r),a<=t+1&&(a=yl(t+2)),o=$h(r,a)*$h(n,e-a),o*=DR(yl(e),yl(a)),o===0)for(l=a-1;l>t;l--)o+=$h(r,l)*$h(n,e-l),o*=DR(yl(e),yl(l));else{for(s=o,i=o,l=a-1;l>t;l--)s*=(l+1)*n/((e-l)*r),o+=s;for(s=i,l=a+1;l<=e;l++)s*=(e-l+1)*r/(l*n),o+=s}return o}var jWt=WWt;/**
+*/var UWt=VWt,GWt=UWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7872,7 +7843,36 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var HWt=iA;function XWt(e,t,r,n,i,o,a){var s,l,u,c;if(s=HWt(e,t,r,n,o),a&&(a[1]=s),s/=e,s===0)return s;for(u=1,l=1,c=0;c<i-1;++c)l*=(e+t+c)*r/(e+c+1),u+=l;return s*=u,s}var YWt=XWt;/**
+*/var DR=GWt,yl=Rn,$h=rr,WWt=Eu;function jWt(e,t,r,n){var i,o,a,s,l;if(o=$h(r,e),o>WWt)for(s=o,l=yl(e-1);l>t;l--)s*=(l+1)*n/((e-l)*r),o+=s;else if(a=yl(e*r),a<=t+1&&(a=yl(t+2)),o=$h(r,a)*$h(n,e-a),o*=DR(yl(e),yl(a)),o===0)for(l=a-1;l>t;l--)o+=$h(r,l)*$h(n,e-l),o*=DR(yl(e),yl(l));else{for(s=o,i=o,l=a-1;l>t;l--)s*=(l+1)*n/((e-l)*r),o+=s;for(s=i,l=a+1;l<=e;l++)s*=(e-l+1)*r/(l*n),o+=s}return o}var HWt=jWt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_61_0/boost/math/special_functions/beta.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* (C) Copyright John Maddock 2006.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var XWt=iA;function YWt(e,t,r,n,i,o,a){var s,l,u,c;if(s=XWt(e,t,r,n,o),a&&(a[1]=s),s/=e,s===0)return s;for(u=1,l=1,c=0;c<i-1;++c)l*=(e+t+c)*r/(e+c+1),u+=l;return s*=u,s}var qWt=YWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7901,7 +7901,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var Tw=j_,qWt=nA,ZWt=Dn,KWt=er,Pw=Ve,hg=rr,zh=Se,JWt=Eu,NR=Au,FR=Vf,Ew=ip,QWt=Bf,BR={maxTerms:100};function tjt(e,t,r,n){var i=1-t,o=1;return a;function a(){var s=n/e;return e+=1,n*=i*r/o,o+=1,i+=1,s}}function ejt(e,t,r,n,i,o,a){var s,l,u,c,f,h,d,p;return i?(d=e+t,l=e+Ew-.5,u=t+Ew-.5,c=d+Ew-.5,s=Tw(d)/(Tw(e)*Tw(t)),f=zh(c/u)*(t-.5),h=zh(r*c/l)*e,f>FR&&f<NR&&h>FR&&h<NR?(e*t<u*10?s*=Pw((t-.5)*ZWt(e/u)):s*=hg(c/u,t-.5),s*=hg(r*c/l,e),s*=KWt(l/QWt),o&&(o[1]=s*hg(a,t))):(s=zh(s)+f+h+(zh(l)-1)/2,o&&(o[1]=Pw(s+t*zh(a))),s=Pw(s))):s=hg(r,e),s<JWt?n:(p=tjt(e,t,r,s),BR.initialValue=n,qWt(p,BR))}var rjt=ejt,njt=Zt,ijt=Df,dg=Rn,$R=Dn,zR=Yk,Un=PU,kw=er,ojt=Ve,Vh=rr,ajt=ku,VR=zs,pg=$f,UR=Eu,sjt=tNt,ljt=tA,UU=Vs,ns=pWt,Aw=gWt,ujt=iA,GR=FWt,cjt=jWt,Uh=YWt,uo=rjt,fjt=1/UU;function hjt(e,t,r,n,i,o,a,s){var l,u,c,f,h,d,p,v,g,m,_,y;if(y=1-e,p=s,v=s+a,o[v]=-1,njt(e)||e<0||e>1)return o[p]=NaN,o[v]=NaN,o;if(n){if(t<0||r<0)return o[p]=NaN,o[v]=NaN,o;if(t===0){if(r===0)return o[p]=NaN,o[v]=NaN,o;if(r>0)return o[p]=i?0:1,o}else if(r===0&&t>0)return o[p]=i?1:0,o}else if(t<=0||r<=0)return o[p]=NaN,o[v]=NaN,o;return e===0?(t===1?o[v]=1:o[v]=t<1?pg/2:UR*2,i?(o[p]=n?1:Un(t,r),o):(o[p]=0,o)):e===1?(r===1?o[v]=1:o[v]=r<1?pg/2:UR*2,i?o[p]=0:o[p]=n?1:Un(t,r),o):t===.5&&r===.5?(o[v]=fjt*kw(y*e),_=zR(kw(i?y:e)),_/=ljt,n||(_*=UU),o[p]=_,o):(t===1&&(d=r,r=t,t=d,d=y,y=e,e=d,i=!i),r===1?t===1?(o[p]=i?y:e,o[v]=1,o):(o[v]=t*Vh(e,t-1),y<.5?_=i?-ijt(t*$R(-y)):ojt(t*$R(-y)):_=i?-(Vh(e,t)-1):Vh(e,t),n||(_/=t),o[p]=_,o):(VR(t,r)<=1?(e>.5&&(d=r,r=t,t=d,d=y,y=e,e=d,i=!i),ajt(t,r)<=1?t>=VR(.2,r)||Vh(e,t)<=.9?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):(d=r,r=t,t=d,d=y,y=e,e=d,i=!i,y>=.3?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):(n?u=1:u=Aw(t+r,t,20),c=Uh(t,r,e,y,20,n,o),i?(c-=n?1:Un(t,r),i=!1,c=-ns(t+20,r,e,y,c,u,n)):c=ns(t+20,r,e,y,c,u,n))):r<=1||e<.1&&Vh(r*e,t)<=.7?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):(d=r,r=t,t=d,d=y,y=e,e=d,i=!i,y>=.3?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):t>=15?i?(c=-(n?1:Un(t,r)),i=!1,c=-ns(t,r,e,y,c,1,n)):c=ns(t,r,e,y,0,1,n):(n?u=1:u=Aw(t+r,t,20),c=Uh(t,r,e,y,20,n,o),i?(c-=n?1:Un(t,r),i=!1,c=-ns(t+20,r,e,y,c,u,n)):c=ns(t+20,r,e,y,c,u,n)))):(t<r?l=t-(t+r)*e:l=(t+r)*y-r,l<0&&(d=r,r=t,t=d,d=y,y=e,e=d,i=!i),r<40?dg(t)===t&&dg(r)===r&&t<sjt-100?(g=t-1,m=r+g,c=cjt(m,g,e,y),n||(c*=Un(t,r))):r*e<=.7?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):t>15?(m=dg(r),m===r&&(m-=1),f=r-m,n?u=1:u=Aw(t+f,f,m),c=Uh(f,t,y,e,m,n),c=ns(t,f,e,y,c,1,n),c/=u):n?(m=dg(r),f=r-m,f<=0&&(m-=1,f+=1),c=Uh(f,t,y,e,m,n),c+=Uh(t,f,e,y,20,n),i&&(c-=1),c=ns(t+20,f,e,y,c,1,n),i&&(c=-c,i=!1)):c=GR(t,r,e,y,n,o):c=GR(t,r,e,y,n,o)),o[v]<0&&(o[v]=ujt(t,r,e,y,!0)),h=y*e,o[v]!==0&&(pg*h<o[v]?o[v]=pg/2:o[v]/=h),o[p]=i?(n?1:Un(t,r))-c:c,o))}var GU=hjt;/**
+*/var Tw=j_,ZWt=nA,KWt=Dn,JWt=er,Pw=Ve,hg=rr,zh=Se,QWt=Eu,NR=Au,FR=Vf,Ew=ip,tjt=Bf,BR={maxTerms:100};function ejt(e,t,r,n){var i=1-t,o=1;return a;function a(){var s=n/e;return e+=1,n*=i*r/o,o+=1,i+=1,s}}function rjt(e,t,r,n,i,o,a){var s,l,u,c,f,h,d,p;return i?(d=e+t,l=e+Ew-.5,u=t+Ew-.5,c=d+Ew-.5,s=Tw(d)/(Tw(e)*Tw(t)),f=zh(c/u)*(t-.5),h=zh(r*c/l)*e,f>FR&&f<NR&&h>FR&&h<NR?(e*t<u*10?s*=Pw((t-.5)*KWt(e/u)):s*=hg(c/u,t-.5),s*=hg(r*c/l,e),s*=JWt(l/tjt),o&&(o[1]=s*hg(a,t))):(s=zh(s)+f+h+(zh(l)-1)/2,o&&(o[1]=Pw(s+t*zh(a))),s=Pw(s))):s=hg(r,e),s<QWt?n:(p=ejt(e,t,r,s),BR.initialValue=n,ZWt(p,BR))}var njt=rjt,ijt=Zt,ojt=Df,dg=Rn,$R=Dn,zR=Yk,Un=PU,kw=er,ajt=Ve,Vh=rr,sjt=ku,VR=zs,pg=$f,UR=Eu,ljt=eNt,ujt=tA,UU=Vs,ns=vWt,Aw=mWt,cjt=iA,GR=BWt,fjt=HWt,Uh=qWt,uo=njt,hjt=1/UU;function djt(e,t,r,n,i,o,a,s){var l,u,c,f,h,d,p,v,g,m,_,y;if(y=1-e,p=s,v=s+a,o[v]=-1,ijt(e)||e<0||e>1)return o[p]=NaN,o[v]=NaN,o;if(n){if(t<0||r<0)return o[p]=NaN,o[v]=NaN,o;if(t===0){if(r===0)return o[p]=NaN,o[v]=NaN,o;if(r>0)return o[p]=i?0:1,o}else if(r===0&&t>0)return o[p]=i?1:0,o}else if(t<=0||r<=0)return o[p]=NaN,o[v]=NaN,o;return e===0?(t===1?o[v]=1:o[v]=t<1?pg/2:UR*2,i?(o[p]=n?1:Un(t,r),o):(o[p]=0,o)):e===1?(r===1?o[v]=1:o[v]=r<1?pg/2:UR*2,i?o[p]=0:o[p]=n?1:Un(t,r),o):t===.5&&r===.5?(o[v]=hjt*kw(y*e),_=zR(kw(i?y:e)),_/=ujt,n||(_*=UU),o[p]=_,o):(t===1&&(d=r,r=t,t=d,d=y,y=e,e=d,i=!i),r===1?t===1?(o[p]=i?y:e,o[v]=1,o):(o[v]=t*Vh(e,t-1),y<.5?_=i?-ojt(t*$R(-y)):ajt(t*$R(-y)):_=i?-(Vh(e,t)-1):Vh(e,t),n||(_/=t),o[p]=_,o):(VR(t,r)<=1?(e>.5&&(d=r,r=t,t=d,d=y,y=e,e=d,i=!i),sjt(t,r)<=1?t>=VR(.2,r)||Vh(e,t)<=.9?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):(d=r,r=t,t=d,d=y,y=e,e=d,i=!i,y>=.3?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):(n?u=1:u=Aw(t+r,t,20),c=Uh(t,r,e,y,20,n,o),i?(c-=n?1:Un(t,r),i=!1,c=-ns(t+20,r,e,y,c,u,n)):c=ns(t+20,r,e,y,c,u,n))):r<=1||e<.1&&Vh(r*e,t)<=.7?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):(d=r,r=t,t=d,d=y,y=e,e=d,i=!i,y>=.3?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):t>=15?i?(c=-(n?1:Un(t,r)),i=!1,c=-ns(t,r,e,y,c,1,n)):c=ns(t,r,e,y,0,1,n):(n?u=1:u=Aw(t+r,t,20),c=Uh(t,r,e,y,20,n,o),i?(c-=n?1:Un(t,r),i=!1,c=-ns(t+20,r,e,y,c,u,n)):c=ns(t+20,r,e,y,c,u,n)))):(t<r?l=t-(t+r)*e:l=(t+r)*y-r,l<0&&(d=r,r=t,t=d,d=y,y=e,e=d,i=!i),r<40?dg(t)===t&&dg(r)===r&&t<ljt-100?(g=t-1,m=r+g,c=fjt(m,g,e,y),n||(c*=Un(t,r))):r*e<=.7?i?(c=-(n?1:Un(t,r)),i=!1,c=-uo(t,r,e,c,n,o,y)):c=uo(t,r,e,0,n,o,y):t>15?(m=dg(r),m===r&&(m-=1),f=r-m,n?u=1:u=Aw(t+f,f,m),c=Uh(f,t,y,e,m,n),c=ns(t,f,e,y,c,1,n),c/=u):n?(m=dg(r),f=r-m,f<=0&&(m-=1,f+=1),c=Uh(f,t,y,e,m,n),c+=Uh(t,f,e,y,20,n),i&&(c-=1),c=ns(t+20,f,e,y,c,1,n),i&&(c=-c,i=!1)):c=GR(t,r,e,y,n,o):c=GR(t,r,e,y,n,o)),o[v]<0&&(o[v]=cjt(t,r,e,y,!0)),h=y*e,o[v]!==0&&(pg*h<o[v]?o[v]=pg/2:o[v]/=h),o[p]=i?(n?1:Un(t,r))-c:c,o))}var GU=djt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7917,7 +7917,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var djt=GU;function pjt(e,t,r,n,i){return djt(e,t,r,n,i,[0,0],1,0)}var vjt=pjt;/**
+*/var pjt=GU;function vjt(e,t,r,n,i){return pjt(e,t,r,n,i,[0,0],1,0)}var gjt=vjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7933,7 +7933,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var gjt=yr,WU=vjt,mjt=GU;gjt(WU,"assign",mjt);var jU=WU;/**
+*/var mjt=yr,WU=gjt,_jt=GU;mjt(WU,"assign",_jt);var jU=WU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7949,7 +7949,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var _jt=jU.assign;function yjt(e,t,r,n,i){var o=[0,0];return n=n!==!1,i=i===!0,_jt(e,t,r,n,i,o,1,0),o[0]}var bjt=yjt;/**
+*/var yjt=jU.assign;function bjt(e,t,r,n,i){var o=[0,0];return n=n!==!1,i=i===!0,yjt(e,t,r,n,i,o,1,0),o[0]}var wjt=bjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7965,7 +7965,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var wjt=bjt,oA=wjt;/**
+*/var Sjt=wjt,oA=Sjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7981,7 +7981,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Sjt(e){var t,r,n;return e===0?-.0005087819496582806:(e<0?t=-e:t=e,t<=1?(r=-.0005087819496582806+e*(-.008368748197417368+e*(.03348066254097446+e*(-.012692614766297404+e*(-.03656379714117627+e*(.02198786811111689+e*(.008226878746769157+e*(-.005387729650712429+e*(0+e*0)))))))),n=1+e*(-.9700050433032906+e*(-1.5657455823417585+e*(1.5622155839842302+e*(.662328840472003+e*(-.7122890234154284+e*(-.05273963823400997+e*(.07952836873415717+e*(-.0023339375937419+e*.0008862163904564247))))))))):(e=1/e,r=0+e*(0+e*(-.005387729650712429+e*(.008226878746769157+e*(.02198786811111689+e*(-.03656379714117627+e*(-.012692614766297404+e*(.03348066254097446+e*(-.008368748197417368+e*-.0005087819496582806)))))))),n=.0008862163904564247+e*(-.0023339375937419+e*(.07952836873415717+e*(-.05273963823400997+e*(-.7122890234154284+e*(.662328840472003+e*(1.5622155839842302+e*(-1.5657455823417585+e*(-.9700050433032906+e*1))))))))),r/n)}var Tjt=Sjt;/**
+*/function Tjt(e){var t,r,n;return e===0?-.0005087819496582806:(e<0?t=-e:t=e,t<=1?(r=-.0005087819496582806+e*(-.008368748197417368+e*(.03348066254097446+e*(-.012692614766297404+e*(-.03656379714117627+e*(.02198786811111689+e*(.008226878746769157+e*(-.005387729650712429+e*(0+e*0)))))))),n=1+e*(-.9700050433032906+e*(-1.5657455823417585+e*(1.5622155839842302+e*(.662328840472003+e*(-.7122890234154284+e*(-.05273963823400997+e*(.07952836873415717+e*(-.0023339375937419+e*.0008862163904564247))))))))):(e=1/e,r=0+e*(0+e*(-.005387729650712429+e*(.008226878746769157+e*(.02198786811111689+e*(-.03656379714117627+e*(-.012692614766297404+e*(.03348066254097446+e*(-.008368748197417368+e*-.0005087819496582806)))))))),n=.0008862163904564247+e*(-.0023339375937419+e*(.07952836873415717+e*(-.05273963823400997+e*(-.7122890234154284+e*(.662328840472003+e*(1.5622155839842302+e*(-1.5657455823417585+e*(-.9700050433032906+e*1))))))))),r/n)}var Pjt=Tjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7997,7 +7997,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Pjt(e){var t,r,n;return e===0?-.20243350835593876:(e<0?t=-e:t=e,t<=1?(r=-.20243350835593876+e*(.10526468069939171+e*(8.3705032834312+e*(17.644729840837403+e*(-18.851064805871424+e*(-44.6382324441787+e*(17.445385985570866+e*(21.12946554483405+e*-3.6719225470772936))))))),n=1+e*(6.242641248542475+e*(3.971343795334387+e*(-28.66081804998+e*(-20.14326346804852+e*(48.560921310873994+e*(10.826866735546016+e*(-22.643693341313973+e*1.7211476576120028)))))))):(e=1/e,r=-3.6719225470772936+e*(21.12946554483405+e*(17.445385985570866+e*(-44.6382324441787+e*(-18.851064805871424+e*(17.644729840837403+e*(8.3705032834312+e*(.10526468069939171+e*-.20243350835593876))))))),n=1.7211476576120028+e*(-22.643693341313973+e*(10.826866735546016+e*(48.560921310873994+e*(-20.14326346804852+e*(-28.66081804998+e*(3.971343795334387+e*(6.242641248542475+e*1)))))))),r/n)}var Ejt=Pjt;/**
+*/function Ejt(e){var t,r,n;return e===0?-.20243350835593876:(e<0?t=-e:t=e,t<=1?(r=-.20243350835593876+e*(.10526468069939171+e*(8.3705032834312+e*(17.644729840837403+e*(-18.851064805871424+e*(-44.6382324441787+e*(17.445385985570866+e*(21.12946554483405+e*-3.6719225470772936))))))),n=1+e*(6.242641248542475+e*(3.971343795334387+e*(-28.66081804998+e*(-20.14326346804852+e*(48.560921310873994+e*(10.826866735546016+e*(-22.643693341313973+e*1.7211476576120028)))))))):(e=1/e,r=-3.6719225470772936+e*(21.12946554483405+e*(17.445385985570866+e*(-44.6382324441787+e*(-18.851064805871424+e*(17.644729840837403+e*(8.3705032834312+e*(.10526468069939171+e*-.20243350835593876))))))),n=1.7211476576120028+e*(-22.643693341313973+e*(10.826866735546016+e*(48.560921310873994+e*(-20.14326346804852+e*(-28.66081804998+e*(3.971343795334387+e*(6.242641248542475+e*1)))))))),r/n)}var kjt=Ejt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8013,7 +8013,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function kjt(e){var t,r,n;return e===0?-.1311027816799519:(e<0?t=-e:t=e,t<=1?(r=-.1311027816799519+e*(-.16379404719331705+e*(.11703015634199525+e*(.38707973897260434+e*(.3377855389120359+e*(.14286953440815717+e*(.029015791000532906+e*(.0021455899538880526+e*(-6794655751811263e-22+e*(28522533178221704e-24+e*-681149956853777e-24))))))))),n=1+e*(3.4662540724256723+e*(5.381683457070069+e*(4.778465929458438+e*(2.5930192162362027+e*(.848854343457902+e*(.15226433829533179+e*(.011059242293464892+e*(0+e*(0+e*0)))))))))):(e=1/e,r=-681149956853777e-24+e*(28522533178221704e-24+e*(-6794655751811263e-22+e*(.0021455899538880526+e*(.029015791000532906+e*(.14286953440815717+e*(.3377855389120359+e*(.38707973897260434+e*(.11703015634199525+e*(-.16379404719331705+e*-.1311027816799519))))))))),n=0+e*(0+e*(0+e*(.011059242293464892+e*(.15226433829533179+e*(.848854343457902+e*(2.5930192162362027+e*(4.778465929458438+e*(5.381683457070069+e*(3.4662540724256723+e*1)))))))))),r/n)}var Ajt=kjt;/**
+*/function Ajt(e){var t,r,n;return e===0?-.1311027816799519:(e<0?t=-e:t=e,t<=1?(r=-.1311027816799519+e*(-.16379404719331705+e*(.11703015634199525+e*(.38707973897260434+e*(.3377855389120359+e*(.14286953440815717+e*(.029015791000532906+e*(.0021455899538880526+e*(-6794655751811263e-22+e*(28522533178221704e-24+e*-681149956853777e-24))))))))),n=1+e*(3.4662540724256723+e*(5.381683457070069+e*(4.778465929458438+e*(2.5930192162362027+e*(.848854343457902+e*(.15226433829533179+e*(.011059242293464892+e*(0+e*(0+e*0)))))))))):(e=1/e,r=-681149956853777e-24+e*(28522533178221704e-24+e*(-6794655751811263e-22+e*(.0021455899538880526+e*(.029015791000532906+e*(.14286953440815717+e*(.3377855389120359+e*(.38707973897260434+e*(.11703015634199525+e*(-.16379404719331705+e*-.1311027816799519))))))))),n=0+e*(0+e*(0+e*(.011059242293464892+e*(.15226433829533179+e*(.848854343457902+e*(2.5930192162362027+e*(4.778465929458438+e*(5.381683457070069+e*(3.4662540724256723+e*1)))))))))),r/n)}var Cjt=Ajt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8029,7 +8029,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Cjt(e){var t,r,n;return e===0?-.0350353787183178:(e<0?t=-e:t=e,t<=1?(r=-.0350353787183178+e*(-.0022242652921344794+e*(.018557330651423107+e*(.009508047013259196+e*(.0018712349281955923+e*(.00015754461742496055+e*(460469890584318e-20+e*(-2304047769118826e-25+e*26633922742578204e-28))))))),n=1+e*(1.3653349817554064+e*(.7620591645536234+e*(.22009110576413124+e*(.03415891436709477+e*(.00263861676657016+e*(7646752923027944e-20+e*(0+e*0)))))))):(e=1/e,r=26633922742578204e-28+e*(-2304047769118826e-25+e*(460469890584318e-20+e*(.00015754461742496055+e*(.0018712349281955923+e*(.009508047013259196+e*(.018557330651423107+e*(-.0022242652921344794+e*-.0350353787183178))))))),n=0+e*(0+e*(7646752923027944e-20+e*(.00263861676657016+e*(.03415891436709477+e*(.22009110576413124+e*(.7620591645536234+e*(1.3653349817554064+e*1)))))))),r/n)}var Mjt=Cjt;/**
+*/function Mjt(e){var t,r,n;return e===0?-.0350353787183178:(e<0?t=-e:t=e,t<=1?(r=-.0350353787183178+e*(-.0022242652921344794+e*(.018557330651423107+e*(.009508047013259196+e*(.0018712349281955923+e*(.00015754461742496055+e*(460469890584318e-20+e*(-2304047769118826e-25+e*26633922742578204e-28))))))),n=1+e*(1.3653349817554064+e*(.7620591645536234+e*(.22009110576413124+e*(.03415891436709477+e*(.00263861676657016+e*(7646752923027944e-20+e*(0+e*0)))))))):(e=1/e,r=26633922742578204e-28+e*(-2304047769118826e-25+e*(460469890584318e-20+e*(.00015754461742496055+e*(.0018712349281955923+e*(.009508047013259196+e*(.018557330651423107+e*(-.0022242652921344794+e*-.0350353787183178))))))),n=0+e*(0+e*(7646752923027944e-20+e*(.00263861676657016+e*(.03415891436709477+e*(.22009110576413124+e*(.7620591645536234+e*(1.3653349817554064+e*1)))))))),r/n)}var xjt=Mjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8045,7 +8045,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function xjt(e){var t,r,n;return e===0?-.016743100507663373:(e<0?t=-e:t=e,t<=1?(r=-.016743100507663373+e*(-.0011295143874558028+e*(.001056288621524929+e*(.00020938631748758808+e*(14962478375834237e-21+e*(44969678992770644e-23+e*(4625961635228786e-24+e*(-2811287356288318e-29+e*9905570997331033e-32))))))),n=1+e*(.5914293448864175+e*(.1381518657490833+e*(.016074608709367652+e*(.0009640118070051656+e*(27533547476472603e-21+e*(282243172016108e-21+e*(0+e*0)))))))):(e=1/e,r=9905570997331033e-32+e*(-2811287356288318e-29+e*(4625961635228786e-24+e*(44969678992770644e-23+e*(14962478375834237e-21+e*(.00020938631748758808+e*(.001056288621524929+e*(-.0011295143874558028+e*-.016743100507663373))))))),n=0+e*(0+e*(282243172016108e-21+e*(27533547476472603e-21+e*(.0009640118070051656+e*(.016074608709367652+e*(.1381518657490833+e*(.5914293448864175+e*1)))))))),r/n)}var Ljt=xjt;/**
+*/function Ljt(e){var t,r,n;return e===0?-.016743100507663373:(e<0?t=-e:t=e,t<=1?(r=-.016743100507663373+e*(-.0011295143874558028+e*(.001056288621524929+e*(.00020938631748758808+e*(14962478375834237e-21+e*(44969678992770644e-23+e*(4625961635228786e-24+e*(-2811287356288318e-29+e*9905570997331033e-32))))))),n=1+e*(.5914293448864175+e*(.1381518657490833+e*(.016074608709367652+e*(.0009640118070051656+e*(27533547476472603e-21+e*(282243172016108e-21+e*(0+e*0)))))))):(e=1/e,r=9905570997331033e-32+e*(-2811287356288318e-29+e*(4625961635228786e-24+e*(44969678992770644e-23+e*(14962478375834237e-21+e*(.00020938631748758808+e*(.001056288621524929+e*(-.0011295143874558028+e*-.016743100507663373))))))),n=0+e*(0+e*(282243172016108e-21+e*(27533547476472603e-21+e*(.0009640118070051656+e*(.016074608709367652+e*(.1381518657490833+e*(.5914293448864175+e*1)))))))),r/n)}var Ijt=Ljt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8074,7 +8074,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var Ijt=Zt,WR=er,jR=Se,Ojt=Fe,Rjt=Lr,Djt=Tjt,Njt=Ejt,Fjt=Ajt,Bjt=Mjt,$jt=Ljt,zjt=.08913147449493408,Vjt=2.249481201171875,Ujt=.807220458984375,Gjt=.9399557113647461,Wjt=.9836282730102539;function jjt(e){var t,r,n,i,o;return Ijt(e)?NaN:e===0?Ojt:e===2?Rjt:e===1?0:e>2||e<0?NaN:(e>1?(t=-1,n=2-e):(t=1,n=e),e=1-n,e<=.5?(i=e*(e+10),o=Djt(e),t*(i*zjt+i*o)):n>=.25?(i=WR(-2*jR(n)),n-=.25,o=Njt(n),t*(i/(Vjt+o))):(n=WR(-jR(n)),n<3?(r=n-1.125,o=Fjt(r),t*(Ujt*n+o*n)):n<6?(r=n-3,o=Bjt(r),t*(Gjt*n+o*n)):(r=n-6,o=$jt(r),t*(Wjt*n+o*n))))}var Hjt=jjt;/**
+*/var Ojt=Zt,WR=er,jR=Se,Rjt=Fe,Djt=Lr,Njt=Pjt,Fjt=kjt,Bjt=Cjt,$jt=xjt,zjt=Ijt,Vjt=.08913147449493408,Ujt=2.249481201171875,Gjt=.807220458984375,Wjt=.9399557113647461,jjt=.9836282730102539;function Hjt(e){var t,r,n,i,o;return Ojt(e)?NaN:e===0?Rjt:e===2?Djt:e===1?0:e>2||e<0?NaN:(e>1?(t=-1,n=2-e):(t=1,n=e),e=1-n,e<=.5?(i=e*(e+10),o=Njt(e),t*(i*Vjt+i*o)):n>=.25?(i=WR(-2*jR(n)),n-=.25,o=Fjt(n),t*(i/(Ujt+o))):(n=WR(-jR(n)),n<3?(r=n-1.125,o=Bjt(r),t*(Gjt*n+o*n)):n<6?(r=n-3,o=$jt(r),t*(Wjt*n+o*n)):(r=n-6,o=zjt(r),t*(jjt*n+o*n))))}var Xjt=Hjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8090,7 +8090,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Xjt=Hjt,op=Xjt;/**
+*/var Yjt=Xjt,op=Yjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8120,7 +8120,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Stephen L. Moshier
 * moshier@na-net.ornl.gov
 * ```
-*/var Yjt=Zt,HR=Yk,qjt=er,XR=uU,Zjt=6123233995736766e-32;function Kjt(e){var t;return Yjt(e)?NaN:e<-1||e>1?NaN:e>.5?2*HR(qjt(.5-.5*e)):(t=XR-HR(e),t+=Zjt,t+=XR,t)}var Jjt=Kjt;/**
+*/var qjt=Zt,HR=Yk,Zjt=er,XR=uU,Kjt=6123233995736766e-32;function Jjt(e){var t;return qjt(e)?NaN:e<-1||e>1?NaN:e>.5?2*HR(Zjt(.5-.5*e)):(t=XR-HR(e),t+=Kjt,t+=XR,t)}var Qjt=Jjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8136,7 +8136,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Qjt=Jjt,tHt=Qjt;/**
+*/var tHt=Qjt,eHt=tHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8152,7 +8152,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eHt=1.4142135623730951,aA=eHt;/**
+*/var rHt=1.4142135623730951,aA=rHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8168,7 +8168,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function rHt(e){return e===0?.16666666666666666:.16666666666666666+e*.16666666666666666}var nHt=rHt;/**
+*/function nHt(e){return e===0?.16666666666666666:.16666666666666666+e*.16666666666666666}var iHt=nHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8184,7 +8184,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function iHt(e){return e===0?.058333333333333334:.058333333333333334+e*(.06666666666666667+e*.008333333333333333)}var oHt=iHt;/**
+*/function oHt(e){return e===0?.058333333333333334:.058333333333333334+e*(.06666666666666667+e*.008333333333333333)}var aHt=oHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8200,7 +8200,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function aHt(e){return e===0?.0251984126984127:.0251984126984127+e*(.026785714285714284+e*(.0017857142857142857+e*.0001984126984126984))}var sHt=aHt;/**
+*/function sHt(e){return e===0?.0251984126984127:.0251984126984127+e*(.026785714285714284+e*(.0017857142857142857+e*.0001984126984126984))}var lHt=sHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8216,7 +8216,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function lHt(e){return e===0?.012039792768959435:.012039792768959435+e*(.010559964726631394+e*(-.0011078042328042327+e*(.0003747795414462081+e*27557319223985893e-22)))}var uHt=lHt;/**
+*/function uHt(e){return e===0?.012039792768959435:.012039792768959435+e*(.010559964726631394+e*(-.0011078042328042327+e*(.0003747795414462081+e*27557319223985893e-22)))}var cHt=uHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8232,7 +8232,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function cHt(e){return e===0?.003837005972422639:.003837005972422639+e*(.00610392115600449+e*(-.0016095979637646305+e*(.0005945867404200738+e*(-6270542728876062e-20+e*2505210838544172e-23))))}var fHt=cHt;/**
+*/function fHt(e){return e===0?.003837005972422639:.003837005972422639+e*(.00610392115600449+e*(-.0016095979637646305+e*(.0005945867404200738+e*(-6270542728876062e-20+e*2505210838544172e-23))))}var hHt=fHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8248,7 +8248,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function hHt(e){return e===0?.0032177478835464946:.0032177478835464946+e*(.0010898206731540065+e*(-.0012579159844784845+e*(.0006908420797309686+e*(-.00016376804137220805+e*(154012654012654e-19+e*16059043836821613e-26)))))}var dHt=hHt;/**
+*/function dHt(e){return e===0?.0032177478835464946:.0032177478835464946+e*(.0010898206731540065+e*(-.0012579159844784845+e*(.0006908420797309686+e*(-.00016376804137220805+e*(154012654012654e-19+e*16059043836821613e-26)))))}var pHt=dHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8264,7 +8264,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function pHt(e){return e===0?.001743826229834001:.001743826229834001+e*(3353097688001788e-20+e*(-.0007624513544032393+e*(.0006451304695145635+e*(-.000249472580470431+e*(49255746366361444e-21+e*(-39851014346715405e-22+e*7647163731819816e-28))))))}var vHt=pHt;/**
+*/function vHt(e){return e===0?.001743826229834001:.001743826229834001+e*(3353097688001788e-20+e*(-.0007624513544032393+e*(.0006451304695145635+e*(-.000249472580470431+e*(49255746366361444e-21+e*(-39851014346715405e-22+e*7647163731819816e-28))))))}var gHt=vHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8280,7 +8280,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function gHt(e){return e===0?.0009647274732138864:.0009647274732138864+e*(-.0003110108632631878+e*(-.00036307660358786886+e*(.0005140660578834113+e*(-.00029133414466938067+e*(9086710793521991e-20+e*(-15303004486655377e-21+e*(10914179173496788e-22+e*28114572543455206e-31)))))))}var mHt=gHt;/**
+*/function mHt(e){return e===0?.0009647274732138864:.0009647274732138864+e*(-.0003110108632631878+e*(-.00036307660358786886+e*(.0005140660578834113+e*(-.00029133414466938067+e*(9086710793521991e-20+e*(-15303004486655377e-21+e*(10914179173496788e-22+e*28114572543455206e-31)))))))}var _Ht=mHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8296,7 +8296,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function _Ht(e){return e===0?.0005422926281312969:.0005422926281312969+e*(-.0003694266780000966+e*(-.00010230378073700413+e*(.00035764655430568635+e*(-.00028690924218514614+e*(.00012645437628698076+e*(-33202652391372056e-21+e*(4890304529197534e-21+e*(-3123956959982987e-22+e*822063524662433e-32))))))))}var yHt=_Ht;/**
+*/function yHt(e){return e===0?.0005422926281312969:.0005422926281312969+e*(-.0003694266780000966+e*(-.00010230378073700413+e*(.00035764655430568635+e*(-.00028690924218514614+e*(.00012645437628698076+e*(-33202652391372056e-21+e*(4890304529197534e-21+e*(-3123956959982987e-22+e*822063524662433e-32))))))))}var bHt=yHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8326,7 +8326,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var bHt=eA,wHt=$s,SHt=er,THt=Vs,PHt=nHt,EHt=oHt,kHt=sHt,AHt=uHt,CHt=fHt,MHt=dHt,xHt=vHt,LHt=mHt,IHt=yHt,OHt=0,co=[1,0,0,0,0,0,0,0,0,0];function RHt(e,t){var r,n;return n=bHt(e/2,.5)*SHt(e*THt)*(t-.5),r=1/e,co[1]=PHt(r),co[2]=EHt(r),co[3]=kHt(r),co[4]=AHt(r),co[5]=CHt(r),co[6]=MHt(r),co[7]=xHt(r),co[8]=LHt(r),co[9]=IHt(r),OHt+n*wHt(co,n*n)}var DHt=RHt;/**
+*/var wHt=eA,SHt=$s,THt=er,PHt=Vs,EHt=iHt,kHt=aHt,AHt=lHt,CHt=cHt,MHt=hHt,xHt=pHt,LHt=gHt,IHt=_Ht,OHt=bHt,RHt=0,co=[1,0,0,0,0,0,0,0,0,0];function DHt(e,t){var r,n;return n=wHt(e/2,.5)*THt(e*PHt)*(t-.5),r=1/e,co[1]=EHt(r),co[2]=kHt(r),co[3]=AHt(r),co[4]=CHt(r),co[5]=MHt(r),co[6]=xHt(r),co[7]=LHt(r),co[8]=IHt(r),co[9]=OHt(r),RHt+n*SHt(co,n*n)}var NHt=DHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8356,7 +8356,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var NHt=eA,FHt=$s,YR=er,BHt=rr,$Ht=Vs,is=[0,0,0,0,0,0,0];function zHt(e,t){var r,n,i,o,a,s,l,u;return u=NHt(e/2,.5)*YR(e*$Ht)*t,o=e+2,a=e+4,s=e+6,is[0]=1,is[1]=-(e+1)/(2*o),o*=e+2,is[2]=-e*(e+1)*(e+3)/(8*o*a),o*=e+2,is[3]=-e*(e+1)*(e+5)*((3*e+7)*e-2)/(48*o*a*s),o*=e+2,a*=e+4,is[4]=-e*(e+1)*(e+7)*(((((15*e+154)*e+465)*e+286)*e-336)*e+64)/(384*o*a*s*(e+8)),o*=e+2,is[5]=-e*(e+1)*(e+3)*(e+9)*((((((35*e+452)*e+1573)*e+600)*e-2020)*e+928)*e-128)/(1280*o*a*s*(e+8)*(e+10)),o*=e+2,a*=e+4,s*=e+6,is[6]=-e*(e+1)*(e+11)*(((((((((((945*e+31506)*e+425858)*e+2980236)*e+11266745)*e+20675018)*e+7747124)*e-22574632)*e-8565600)*e+18108416)*e-7099392)*e+884736)/(46080*o*a*s*(e+8)*(e+10)*(e+12)),l=YR(e),i=BHt(l*u,1/e),n=i*i,r=FHt(is,n),r*=l,r/=i,-r}var VHt=zHt;/**
+*/var FHt=eA,BHt=$s,YR=er,$Ht=rr,zHt=Vs,is=[0,0,0,0,0,0,0];function VHt(e,t){var r,n,i,o,a,s,l,u;return u=FHt(e/2,.5)*YR(e*zHt)*t,o=e+2,a=e+4,s=e+6,is[0]=1,is[1]=-(e+1)/(2*o),o*=e+2,is[2]=-e*(e+1)*(e+3)/(8*o*a),o*=e+2,is[3]=-e*(e+1)*(e+5)*((3*e+7)*e-2)/(48*o*a*s),o*=e+2,a*=e+4,is[4]=-e*(e+1)*(e+7)*(((((15*e+154)*e+465)*e+286)*e-336)*e+64)/(384*o*a*s*(e+8)),o*=e+2,is[5]=-e*(e+1)*(e+3)*(e+9)*((((((35*e+452)*e+1573)*e+600)*e-2020)*e+928)*e-128)/(1280*o*a*s*(e+8)*(e+10)),o*=e+2,a*=e+4,s*=e+6,is[6]=-e*(e+1)*(e+11)*(((((((((((945*e+31506)*e+425858)*e+2980236)*e+11266745)*e+20675018)*e+7747124)*e-22574632)*e-8565600)*e+18108416)*e-7099392)*e+884736)/(46080*o*a*s*(e+8)*(e+10)*(e+12)),l=YR(e),i=$Ht(l*u,1/e),n=i*i,r=BHt(is,n),r*=l,r/=i,-r}var UHt=VHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8386,7 +8386,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var qR=op,UHt=Df,ZR=er,GHt=rr,WHt=tA,KR=aA;function jHt(e,t){var r,n,i,o,a,s,l;return e>1e20?-qR(2*t)*KR:(r=1/(e-.5),n=48/(r*r),i=((20700*r/n-98)*r-16)*r+96.36,o=((94.5/(n+i)-3)/n+1)*ZR(r*WHt)*e,l=GHt(o*2*t,2/e),l>.05+r?(s=-qR(2*t)*KR,l=s*s,e<5&&(i+=.3*(e-4.5)*(s+.6)),i+=(((.05*o*s-5)*s-7)*s-2)*s+n,l=(((((.4*l+6.3)*l+36)*l+94.5)/i-l-3)/n+1)*s,l=UHt(r*l*l)):l=((1/(((e+6)/(e*l)-.089*o-.822)*(e+2)*3)+.5/(e+4))*l-1)*(e+1)/(e+2)+1/l,a=ZR(e*l),-a)}var HHt=jHt;/**
+*/var qR=op,GHt=Df,ZR=er,WHt=rr,jHt=tA,KR=aA;function HHt(e,t){var r,n,i,o,a,s,l;return e>1e20?-qR(2*t)*KR:(r=1/(e-.5),n=48/(r*r),i=((20700*r/n-98)*r-16)*r+96.36,o=((94.5/(n+i)-3)/n+1)*ZR(r*jHt)*e,l=WHt(o*2*t,2/e),l>.05+r?(s=-qR(2*t)*KR,l=s*s,e<5&&(i+=.3*(e-4.5)*(s+.6)),i+=(((.05*o*s-5)*s-7)*s-2)*s+n,l=(((((.4*l+6.3)*l+36)*l+94.5)/i-l-3)/n+1)*s,l=GHt(r*l*l)):l=((1/(((e+6)/(e*l)-.089*o-.822)*(e+2)*3)+.5/(e+4))*l-1)*(e+1)/(e+2)+1/l,a=ZR(e*l),-a)}var XHt=HHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8416,7 +8416,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var JR=op,QR=Rn,Cw=Ff,t8=G_,XHt=tHt,vg=er,YHt=de,e8=rA,qHt=rr,ZHt=np,r8=aA,n8=Vs,i8=DHt,gg=VHt,Mw=HHt,o8=268435456,KHt=1/3,JHt=2*53/3,QHt=.8549879733383485;function tXt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,v,g,m,_;if(s=0,t>r?(u=r,r=t,t=u,a=!0):a=!1,QR(e)===e&&e<20)switch(i=Cw(1,JHt),QR(e)){case 1:t===.5?s=0:s=-e8(n8*t)/ZHt(n8*t);break;case 2:s=(2*t-1)/vg(2*t*r);break;case 4:l=4*t*r,o=vg(l),v=4*e8(XHt(o)/3)/o,g=vg(v-4),s=t-.5<0?-g:g;break;case 6:if(t<1e-150)return(a?-1:1)*Mw(e,t);m=4*(t-t*t),_=qHt(m,KHt),p=6*(1+QHt*(1/_-1));do f=p*p,h=f*f,d=p*h,c=p,p=2*(8*m*d-270*f+2187)/(5*(4*m*h-216*p-243));while(YHt((p-c)/p)>i);p=vg(p-e),s=t-.5<0?-p:p;break;default:e>o8?s=JR(2*t)*r8:e<3?(n=.2742-e*.0242143,t>n?s=i8(e,t):s=gg(e,t)):(n=Cw(1,t8(e/-.654)),t>n?s=Mw(e,t):s=gg(e,t))}else e>o8?s=-JR(2*t)*r8:e<3?(n=.2742-e*.0242143,t>n?s=i8(e,t):s=gg(e,t)):(n=Cw(1,t8(e/-.654)),t>n?s=Mw(e,t):s=gg(e,t));return a?-s:s}var eXt=tXt;/**
+*/var JR=op,QR=Rn,Cw=Ff,t8=G_,YHt=eHt,vg=er,qHt=de,e8=rA,ZHt=rr,KHt=np,r8=aA,n8=Vs,i8=NHt,gg=UHt,Mw=XHt,o8=268435456,JHt=1/3,QHt=2*53/3,tXt=.8549879733383485;function eXt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,v,g,m,_;if(s=0,t>r?(u=r,r=t,t=u,a=!0):a=!1,QR(e)===e&&e<20)switch(i=Cw(1,QHt),QR(e)){case 1:t===.5?s=0:s=-e8(n8*t)/KHt(n8*t);break;case 2:s=(2*t-1)/vg(2*t*r);break;case 4:l=4*t*r,o=vg(l),v=4*e8(YHt(o)/3)/o,g=vg(v-4),s=t-.5<0?-g:g;break;case 6:if(t<1e-150)return(a?-1:1)*Mw(e,t);m=4*(t-t*t),_=ZHt(m,JHt),p=6*(1+tXt*(1/_-1));do f=p*p,h=f*f,d=p*h,c=p,p=2*(8*m*d-270*f+2187)/(5*(4*m*h-216*p-243));while(qHt((p-c)/p)>i);p=vg(p-e),s=t-.5<0?-p:p;break;default:e>o8?s=JR(2*t)*r8:e<3?(n=.2742-e*.0242143,t>n?s=i8(e,t):s=gg(e,t)):(n=Cw(1,t8(e/-.654)),t>n?s=Mw(e,t):s=gg(e,t))}else e>o8?s=-JR(2*t)*r8:e<3?(n=.2742-e*.0242143,t>n?s=i8(e,t):s=gg(e,t)):(n=Cw(1,t8(e/-.654)),t>n?s=Mw(e,t):s=gg(e,t));return a?-s:s}var rXt=eXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8446,7 +8446,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var rXt=eXt;function nXt(e,t,r){var n,i,o,a;return i=t/2,o=1-i,n=e*2,a=rXt(n,i,o),r&&(r.value=a*a/(n+a*a)),n/(n+a*a)}var iXt=nXt;/**
+*/var nXt=rXt;function iXt(e,t,r){var n,i,o,a;return i=t/2,o=1-i,n=e*2,a=nXt(n,i,o),r&&(r.value=a*a/(n+a*a)),n/(n+a*a)}var oXt=iXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8476,7 +8476,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var mg=$s,oXt=op,a8=er,aXt=Ve,Jo=aA,ze=[0,0,0,0,0,0,0],Gh=[0,0,0,0];function sXt(e,t,r){var n,i,o,a,s,l,u;return n=oXt(2*r),n/=-a8(e/2),Gh[0]=n,l=t-e,a=l*l,s=a*l,ze[0]=-l*Jo/2,ze[1]=(1-2*l)/8,ze[2]=-(l*Jo/48),ze[3]=-1/192,ze[4]=-l*Jo/3840,ze[5]=0,ze[6]=0,Gh[1]=mg(ze,n),ze[0]=l*Jo*(3*l-2)/12,ze[1]=(20*a-12*l+1)/128,ze[2]=l*Jo*(20*l-1)/960,ze[3]=(16*a+30*l-15)/4608,ze[4]=l*Jo*(21*l+32)/53760,ze[5]=(-(32*a)+63)/368640,ze[6]=-l*Jo*(120*l+17)/25804480,Gh[2]=mg(ze,n),ze[0]=l*Jo*(-75*a+80*l-16)/480,ze[1]=(-1080*s+868*a-90*l-45)/9216,ze[2]=l*Jo*(-1190*a+84*l+373)/53760,ze[3]=(-2240*s-2508*a+2100*l-165)/368640,ze[4]=0,ze[5]=0,ze[6]=0,Gh[3]=mg(ze,n),o=mg(Gh,1/e),i=o*o,u=-aXt(-i/2),i===0?.5:(1+o*a8((1+u)/i))/2}var lXt=sXt;/**
+*/var mg=$s,aXt=op,a8=er,sXt=Ve,Jo=aA,ze=[0,0,0,0,0,0,0],Gh=[0,0,0,0];function lXt(e,t,r){var n,i,o,a,s,l,u;return n=aXt(2*r),n/=-a8(e/2),Gh[0]=n,l=t-e,a=l*l,s=a*l,ze[0]=-l*Jo/2,ze[1]=(1-2*l)/8,ze[2]=-(l*Jo/48),ze[3]=-1/192,ze[4]=-l*Jo/3840,ze[5]=0,ze[6]=0,Gh[1]=mg(ze,n),ze[0]=l*Jo*(3*l-2)/12,ze[1]=(20*a-12*l+1)/128,ze[2]=l*Jo*(20*l-1)/960,ze[3]=(16*a+30*l-15)/4608,ze[4]=l*Jo*(21*l+32)/53760,ze[5]=(-(32*a)+63)/368640,ze[6]=-l*Jo*(120*l+17)/25804480,Gh[2]=mg(ze,n),ze[0]=l*Jo*(-75*a+80*l-16)/480,ze[1]=(-1080*s+868*a-90*l-45)/9216,ze[2]=l*Jo*(-1190*a+84*l+373)/53760,ze[3]=(-2240*s-2508*a+2100*l-165)/368640,ze[4]=0,ze[5]=0,ze[6]=0,Gh[3]=mg(ze,n),o=mg(Gh,1/e),i=o*o,u=-sXt(-i/2),i===0?.5:(1+o*a8((1+u)/i))/2}var uXt=lXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8506,7 +8506,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var s8=Se,uXt=$f,_g=uXt/4;function cXt(e,t){return r;function r(n){var i,o,a;return a=1-n,a===0?[-_g,-_g]:n===0?[-_g,-_g]:(o=s8(n)+t*s8(a)+e,i=1/n-t/a,[o,i])}}var HU=cXt;/**
+*/var s8=Se,cXt=$f,_g=cXt/4;function fXt(e,t){return r;function r(n){var i,o,a;return a=1-n,a===0?[-_g,-_g]:n===0?[-_g,-_g]:(o=s8(n)+t*s8(a)+e,i=1/n-t/a,[o,i])}}var HU=fXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8522,7 +8522,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var fXt=Zt;function hXt(e){return e===0||fXt(e)?e:e<0?-1:1}var dXt=hXt;/**
+*/var hXt=Zt;function dXt(e){return e===0||hXt(e)?e:e<0?-1:1}var pXt=dXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8538,736 +8538,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var pXt=dXt,XU=pXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_62_0/boost/math/tools/roots.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* Copyright John Maddock 2006.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var l8=XU,yg=de,vXt=Ff,xw=$f;function gXt(e,t,r,n,i,o){var a,s,l,u,c,f,h,d,p,v;p=0,a=0,c=t,u=vXt(1,1-i),h=xw,s=xw,l=xw,f=o;do{if(a=p,l=s,s=h,d=e(c),p=d[0],v=d[1],f-=1,p===0)break;if(v===0?(a===0&&(c===r?t=n:t=r,a=e(t),h=t-c),l8(a)*l8(p)<0?h<0?h=(c-r)/2:h=(c-n)/2:h<0?h=(c-n)/2:h=(c-r)/2):h=p/v,yg(h*2)>yg(l)&&(h=h>0?(c-r)/2:(c-n)/2),t=c,c-=h,c<=r){if(h=.5*(t-r),c=t-h,c===r||c===n)break}else if(c>=n&&(h=.5*(t-n),c=t-h,c===r||c===n))break;h>0?n=t:r=t}while(f&&yg(c*u)<yg(h));return c}var YU=gXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function mXt(e){return e===0?-1:-1+e*(-5+e*5)}var _Xt=mXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function yXt(e){return e===0?1:1+e*(21+e*(-69+e*46))}var bXt=yXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function wXt(e){return e===0?7:7+e*(-2+e*(33+e*(-62+e*31)))}var SXt=wXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function TXt(e){return e===0?25:25+e*(-52+e*(-17+e*(88+e*(-115+e*46))))}var PXt=TXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function EXt(e){return e===0?7:7+e*(12+e*(-78+e*52))}var kXt=EXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function AXt(e){return e===0?-7:-7+e*(2+e*(183+e*(-370+e*185)))}var CXt=AXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function MXt(e){return e===0?-533:-533+e*(776+e*(-1835+e*(10240+e*(-13525+e*5410))))}var xXt=MXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function LXt(e){return e===0?-1579:-1579+e*(3747+e*(-3372+e*(-15821+e*(45588+e*(-45213+e*15071)))))}var IXt=LXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function OXt(e){return e===0?449:449+e*(-1259+e*(-769+e*(6686+e*(-9260+e*3704))))}var RXt=OXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function DXt(e){return e===0?63149:63149+e*(-151557+e*(140052+e*(-727469+e*(2239932+e*(-2251437+e*750479)))))}var NXt=DXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function FXt(e){return e===0?29233:29233+e*(-78755+e*(105222+e*(146879+e*(-1602610+e*(3195183+e*(-2554139+e*729754))))))}var BXt=FXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function $Xt(e){return e===0?1:1+e*(-13+e*13)}var zXt=$Xt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function VXt(e){return e===0?1:1+e*(21+e*(-69+e*46))}var UXt=VXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/detail/ibeta_inverse.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* Copyright John Maddock 2006.
-* Copyright Paul A. Bristow 2007.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var oc=$s,GXt=op,WXt=de,jXt=Ve,u8=Se,HXt=er,XXt=np,YXt=rA,qXt=HU,ZXt=YU,KXt=_Xt,JXt=bXt,QXt=SXt,tYt=PXt,eYt=kXt,rYt=CXt,nYt=xXt,iYt=IXt,oYt=RXt,aYt=NXt,sYt=BXt,lYt=zXt,uYt=UXt,re=[0,0,0,0,0,0],Wh=[0,0,0,0];function cYt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S;return s=GXt(2*e)/-HXt(t/2),w=XXt(r),y=YXt(r),Wh[0]=s,m=w*w,_=y*y,v=w*y,p=v*v,d=p*v,h=p*p,f=p*d,c=d*d,u=h*d,re[0]=(2*m-1)/(3*v),re[1]=-KXt(m)/(36*p),re[2]=JXt(m)/(1620*d),re[3]=QXt(m)/(6480*h),re[4]=tYt(m)/(90720*f),re[5]=0,Wh[1]=oc(re,s),re[0]=-eYt(m)/(405*d),re[1]=rYt(m)/(2592*h),re[2]=-nYt(m)/(204120*f),re[3]=-iYt(m)/(2099520*c),re[4]=0,re[5]=0,Wh[2]=oc(re,s),re[0]=oYt(m)/(102060*f),re[1]=-aYt(m)/(20995200*c),re[2]=sYt(m)/(36741600*u),re[3]=0,re[4]=0,re[5]=0,Wh[3]=oc(re,s),l=oc(Wh,1/t),o=y/w,o*=o,g=-(l*l)/(2*m)+u8(m)+_*u8(_)/m,WXt(l)<.7?(re[0]=m,re[1]=v,re[2]=(1-2*m)/3,re[3]=lYt(m)/(36*v),re[4]=uYt(m)/(270*p),re[5]=0,S=oc(re,l)):(T=jXt(g),re[0]=T,re[1]=o,re[2]=0,re[3]=3*o*(3*o+1)/6,re[4]=4*o*(4*o+1)*(4*o+2)/24,re[5]=5*o*(5*o+1)*(5*o+2)*(5*o+3)/120,S=oc(re,T),(S-m)*l<0&&(S=1-S)),l<0?(i=0,n=m):(i=m,n=1),(S<i||S>n)&&(S=(i+n)/2),a=qXt(-g,o),S=ZXt(a,S,i,n,32,100),S}var fYt=cYt,w1={exports:{}},FT={exports:{}},S0=1e3,T0=S0*60,P0=T0*60,E0=P0*24,hYt=E0*365.25,dYt=function(e,t){t=t||{};var r=typeof e;if(r==="string"&&e.length>0)return pYt(e);if(r==="number"&&isNaN(e)===!1)return t.long?gYt(e):vYt(e);throw new Error("val is not a non-empty string or a valid number. val="+JSON.stringify(e))};function pYt(e){if(e=String(e),!(e.length>100)){var t=/^((?:\d+)?\.?\d+) *(milliseconds?|msecs?|ms|seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|years?|yrs?|y)?$/i.exec(e);if(!!t){var r=parseFloat(t[1]),n=(t[2]||"ms").toLowerCase();switch(n){case"years":case"year":case"yrs":case"yr":case"y":return r*hYt;case"days":case"day":case"d":return r*E0;case"hours":case"hour":case"hrs":case"hr":case"h":return r*P0;case"minutes":case"minute":case"mins":case"min":case"m":return r*T0;case"seconds":case"second":case"secs":case"sec":case"s":return r*S0;case"milliseconds":case"millisecond":case"msecs":case"msec":case"ms":return r;default:return}}}}function vYt(e){return e>=E0?Math.round(e/E0)+"d":e>=P0?Math.round(e/P0)+"h":e>=T0?Math.round(e/T0)+"m":e>=S0?Math.round(e/S0)+"s":e+"ms"}function gYt(e){return bg(e,E0,"day")||bg(e,P0,"hour")||bg(e,T0,"minute")||bg(e,S0,"second")||e+" ms"}function bg(e,t,r){if(!(e<t))return e<t*1.5?Math.floor(e/t)+" "+r:Math.ceil(e/t)+" "+r+"s"}(function(e,t){t=e.exports=i.debug=i.default=i,t.coerce=l,t.disable=a,t.enable=o,t.enabled=s,t.humanize=dYt,t.names=[],t.skips=[],t.formatters={};var r;function n(u){var c=0,f;for(f in u)c=(c<<5)-c+u.charCodeAt(f),c|=0;return t.colors[Math.abs(c)%t.colors.length]}function i(u){function c(){if(!!c.enabled){var f=c,h=+new Date,d=h-(r||h);f.diff=d,f.prev=r,f.curr=h,r=h;for(var p=new Array(arguments.length),v=0;v<p.length;v++)p[v]=arguments[v];p[0]=t.coerce(p[0]),typeof p[0]!="string"&&p.unshift("%O");var g=0;p[0]=p[0].replace(/%([a-zA-Z%])/g,function(_,y){if(_==="%%")return _;g++;var w=t.formatters[y];if(typeof w=="function"){var T=p[g];_=w.call(f,T),p.splice(g,1),g--}return _}),t.formatArgs.call(f,p);var m=c.log||t.log||console.log.bind(console);m.apply(f,p)}}return c.namespace=u,c.enabled=t.enabled(u),c.useColors=t.useColors(),c.color=n(u),typeof t.init=="function"&&t.init(c),c}function o(u){t.save(u),t.names=[],t.skips=[];for(var c=(typeof u=="string"?u:"").split(/[\s,]+/),f=c.length,h=0;h<f;h++)!c[h]||(u=c[h].replace(/\*/g,".*?"),u[0]==="-"?t.skips.push(new RegExp("^"+u.substr(1)+"$")):t.names.push(new RegExp("^"+u+"$")))}function a(){t.enable("")}function s(u){var c,f;for(c=0,f=t.skips.length;c<f;c++)if(t.skips[c].test(u))return!1;for(c=0,f=t.names.length;c<f;c++)if(t.names[c].test(u))return!0;return!1}function l(u){return u instanceof Error?u.stack||u.message:u}})(FT,FT.exports);(function(e,t){t=e.exports=FT.exports,t.log=i,t.formatArgs=n,t.save=o,t.load=a,t.useColors=r,t.storage=typeof chrome<"u"&&typeof chrome.storage<"u"?chrome.storage.local:s(),t.colors=["lightseagreen","forestgreen","goldenrod","dodgerblue","darkorchid","crimson"];function r(){return typeof window<"u"&&window.process&&window.process.type==="renderer"?!0:typeof document<"u"&&document.documentElement&&document.documentElement.style&&document.documentElement.style.WebkitAppearance||typeof window<"u"&&window.console&&(window.console.firebug||window.console.exception&&window.console.table)||typeof navigator<"u"&&navigator.userAgent&&navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/)&&parseInt(RegExp.$1,10)>=31||typeof navigator<"u"&&navigator.userAgent&&navigator.userAgent.toLowerCase().match(/applewebkit\/(\d+)/)}t.formatters.j=function(l){try{return JSON.stringify(l)}catch(u){return"[UnexpectedJSONParseError]: "+u.message}};function n(l){var u=this.useColors;if(l[0]=(u?"%c":"")+this.namespace+(u?" %c":" ")+l[0]+(u?"%c ":" ")+"+"+t.humanize(this.diff),!!u){var c="color: "+this.color;l.splice(1,0,c,"color: inherit");var f=0,h=0;l[0].replace(/%[a-zA-Z%]/g,function(d){d!=="%%"&&(f++,d==="%c"&&(h=f))}),l.splice(h,0,c)}}function i(){return typeof console=="object"&&console.log&&Function.prototype.apply.call(console.log,console,arguments)}function o(l){try{l==null?t.storage.removeItem("debug"):t.storage.debug=l}catch{}}function a(){var l;try{l=t.storage.debug}catch{}return!l&&typeof process<"u"&&"env"in process&&(l=process.env.DEBUG),l}t.enable(a());function s(){try{return window.localStorage}catch{}}})(w1,w1.exports);/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var mYt=34028234663852886e22,X_=mYt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var _Yt=w1.exports,c8=zU,yYt=de,bYt=Ve,f8=Se,wYt=X_,h8=_Yt("gammaincinv:higher_newton");function SYt(e,t,r,n,i,o,a,s){var l,u,c,f,h,d,p,v,g,m,_,y,w,T;T=e,_=1,y=1,d=t*t,u=e;do{if(T=e,p=T*T,r===0){if(l=(1-t)*f8(T)+T+o,l>f8(wYt))return h8("Warning: overflow problems in one or more steps of the computation. The initial approximation to the root is returned."),u;w=bYt(l)}else w=-a*T;s?(v=c8(T,t,!0,!1),c=-w*(v-n)):(g=c8(T,t,!0,!0),c=w*(g-i)),w=c,n>1e-120||y>1?(f=.5*(T-t+1)/T,h=(2*p-4*T*t+4*T+2*d-3*t+1)/p,h/=6,e=T+w*(1+w*(f+w*h))):e=T+w,_=yYt(T/e-1),y+=1,T=e,T<0&&(T=u,y=100)}while(_>2e-14&&y<35);return(_>2e-14||y>99)&&h8("Warning: the number of iterations in the Newton method reached the upper limit N=35. The last value obtained for the root is given as output."),m=T||0,m}var TYt=SYt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function PYt(e){return e===0?0:0+e*(1+e*(1+e*(1.5+e*(2.6666666666666665+e*(5.208333333333333+e*10.8)))))}var EYt=PYt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function kYt(e){return e===0?1:1+e*(1+e*(.3333333333333333+e*(.027777777777777776+e*(-.003703703703703704+e*(.0002314814814814815+e*5878894767783657e-20)))))}var AYt=kYt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var CYt=de,MYt=Ve,d8=Se,xYt=$s,LYt=EYt,IYt=AYt,OYt=1e-8,RYt=.08333333333333333,DYt=.008333333333333333,ac=[1,0,0,0,0,0];function NYt(e){var t,r,n,i,o,a,s,l,u;if(u=e*e*.5,e===0?o=0:e<-1?(l=MYt(-1-u),o=LYt(l)):e<1?(l=e,o=IYt(l)):(l=11+u,a=d8(l),o=l+a,l=1/l,t=a*a,r=t*a,n=r*a,i=n*a,ac[1]=(2-a)*.5,ac[2]=(-9*a+6+2*t)/6,ac[3]=-(3*r+36*a-22*t-12)*RYt,ac[4]=(60+350*t-300*a-125*r+12*n)/60,ac[5]=-(-120-274*n+900*a-1700*t+1125*r+20*i)*DYt,o+=a*l*xYt(ac,l)),l=1,e>-3.5&&e<-.03||e>.03&&e<40){l=1,s=o;do o=s*(u+d8(s))/(s-1),l=CYt(s/o-1),s=o;while(l>OYt)}return o}var qU=NYt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var FYt=.9189385332046728,ZU=FYt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var BYt=[1.9963790515900766,-.0017971032528832887,13129285796384672e-21,-2340875228178749e-22,72291210671127e-22,-3280997607821e-22,19875070901e-21,-1509214183e-21,1375340084e-22,-145728923e-22,17532367e-22,-2351465e-22,346551e-22,-55471e-22,9548e-22,-1748e-22,332e-22,-58e-22];function $Yt(e,t){var r,n,i,o,a;n=0,i=0,r=t+t,a=e;do o=i,i=n,n=r*i-o+BYt[a],a-=1;while(a>=0);return(n-o)/2}var zYt=$Yt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function VYt(e){return e===0?.025721014990011306:.025721014990011306+e*(.08247596616699963+e*(-.0025328157302663564+e*(.0006099292666946337+e*(-.00033543297638406+e*.000250505279903))))}var UYt=VYt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function GYt(e){return e===0?.08333333333333333:.08333333333333333+e*(-.002777777777777778+e*(.0007936507936507937+e*-.0005952380952380953))}var WYt=GYt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var Lw=zf,wg=Se,Iw=ZU,jYt=H_,HYt=X_,XYt=zYt,YYt=UYt,qYt=WYt,ZYt=.30865217988013566;function KYt(e){var t;return e<jYt?HYt:e<1?Lw(e+1)-(e+.5)*wg(e)+e-Iw:e<2?Lw(e)-(e-.5)*wg(e)+e-Iw:e<3?Lw(e-1)-(e-.5)*wg(e)+e-Iw+wg(e-1):e<12?(t=18/(e*e)-1,XYt(17,t)/(12*e)):(t=1/(e*e),e<1e3?YYt(t)/(ZYt+t)/e:qYt(t)/e)}var JYt=KYt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var p8=Ve,QYt=Bo,tqt=Se,eqt=X_,rqt=W_,nqt=JYt;function iqt(e){return e>=3?p8(nqt(e)):e>0?QYt(e)/(p8(-e+(e-.5)*tqt(e))*rqt):eqt}var oqt=iqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function aqt(e){var t,r,n;return e===0?-.3333333333438:(e<0?t=-e:t=e,t<=1?(r=-.3333333333438+e*(-.2070740359969+e*(-.05041806657154+e*(-.004923635739372+e*-4293658292782e-17))),n=1+e*(.7045554412463+e*(.2118190062224+e*(.03048648397436+e*.001605037988091)))):(e=1/e,r=-4293658292782e-17+e*(-.004923635739372+e*(-.05041806657154+e*(-.2070740359969+e*-.3333333333438))),n=.001605037988091+e*(.03048648397436+e*(.2118190062224+e*(.7045554412463+e*1)))),r/n)}var sqt=aqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var lqt=de,uqt=Se,cqt=qU,fqt=sqt;function hqt(e){var t;return lqt(e)<1?fqt(e):(t=cqt(e),uqt(e/(t-1))/e)}var dqt=hqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function pqt(e){var t,r,n;return e===0?-.0172847633523:(e<0?t=-e:t=e,t<=1?(r=-.0172847633523+e*(-.0159372646475+e*(-.00464910887221+e*(-.00060683488776+e*-614830384279e-17))),n=1+e*(.764050615669+e*(.297143406325+e*(.0579490176079+e*.00574558524851)))):(e=1/e,r=-614830384279e-17+e*(-.00060683488776+e*(-.00464910887221+e*(-.0159372646475+e*-.0172847633523))),n=.00574558524851+e*(.0579490176079+e*(.297143406325+e*(.764050615669+e*1)))),r/n)}var vqt=pqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function gqt(e){var t,r,n;return e===0?-.0172839517431:(e<0?t=-e:t=e,t<=1?(r=-.0172839517431+e*(-.0146362417966+e*(-.00357406772616+e*(-.000391032032692+e*249634036069e-17))),n=1+e*(.690560400696+e*(.249962384741+e*(.0443843438769+e*.00424073217211)))):(e=1/e,r=249634036069e-17+e*(-.000391032032692+e*(-.00357406772616+e*(-.0146362417966+e*-.0172839517431))),n=.00424073217211+e*(.0443843438769+e*(.249962384741+e*(.690560400696+e*1)))),r/n)}var mqt=gqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function _qt(e){var t,r,n;return e===0?.99994466948:(e<0?t=-e:t=e,t<=1?(r=.99994466948+e*(104.649839762+e*(857.204033806+e*(731.901559577+e*45.5174411671))),n=1+e*(104.526456943+e*(823.313447808+e*(3119.93802124+e*3970.03311219)))):(e=1/e,r=45.5174411671+e*(731.901559577+e*(857.204033806+e*(104.649839762+e*.99994466948))),n=3970.03311219+e*(3119.93802124+e*(823.313447808+e*(104.526456943+e*1)))),r/n)}var yqt=_qt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var bqt=Se,wqt=vqt,Sqt=mqt,Tqt=yqt;function Pqt(e){var t,r;return e<-5?(r=e*e,t=bqt(-e),(12-r-6*(t*t))/(12*r*e)):e<-2?wqt(e):e<2?Sqt(e):e<1e3?(r=1/e,Tqt(e)/(-12*e)):-1/(12*e)}var Eqt=Pqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function kqt(e){var t,r,n;return e===0?.0495346498136:(e<0?t=-e:t=e,t<=1?(r=.0495346498136+e*(.0299521337141+e*(.00688296911516+e*(.000512634846317+e*-201411722031e-16))),n=1+e*(.759803615283+e*(.261547111595+e*(.0464854522477+e*.00403751193496)))):(e=1/e,r=-201411722031e-16+e*(.000512634846317+e*(.00688296911516+e*(.0299521337141+e*.0495346498136))),n=.00403751193496+e*(.0464854522477+e*(.261547111595+e*(.759803615283+e*1)))),r/n)}var Aqt=kqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Cqt(e){var t,r,n;return e===0?.00452313583942:(e<0?t=-e:t=e,t<=1?(r=.00452313583942+e*(.00120744920113+e*(-789724156582e-16+e*(-504476066942e-16+e*-535770949796e-17))),n=1+e*(.912203410349+e*(.405368773071+e*(.0901638932349+e*.00948935714996)))):(e=1/e,r=-535770949796e-17+e*(-504476066942e-16+e*(-789724156582e-16+e*(.00120744920113+e*.00452313583942))),n=.00948935714996+e*(.0901638932349+e*(.405368773071+e*(.912203410349+e*1)))),r/n)}var Mqt=Cqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function xqt(e){var t,r,n;return e===0?.00439937562904:(e<0?t=-e:t=e,t<=1?(r=.00439937562904+e*(.000487225670639+e*(-.000128470657374+e*(529110969589e-17+e*15716677175e-17))),n=1+e*(.794435257415+e*(.333094721709+e*(.0703527806143+e*.00806110846078)))):(e=1/e,r=15716677175e-17+e*(529110969589e-17+e*(-.000128470657374+e*(.000487225670639+e*.00439937562904))),n=.00806110846078+e*(.0703527806143+e*(.333094721709+e*(.794435257415+e*1)))),r/n)}var Lqt=xqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Iqt(e){var t,r,n;return e===0?-.0011481191232:(e<0?t=-e:t=e,t<=1?(r=-.0011481191232+e*(-.112850923276+e*(1.51623048511+e*(-.218472031183+e*.0730002451555))),n=1+e*(14.2482206905+e*(69.7360396285+e*(218.938950816+e*277.067027185)))):(e=1/e,r=.0730002451555+e*(-.218472031183+e*(1.51623048511+e*(-.112850923276+e*-.0011481191232))),n=277.067027185+e*(218.938950816+e*(69.7360396285+e*(14.2482206905+e*1)))),r/n)}var Oqt=Iqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Rqt(e){var t,r,n;return e===0?-.000145727889667:(e<0?t=-e:t=e,t<=1?(r=-.000145727889667+e*(-.290806748131+e*(-13.308504545+e*(199.722374056+e*-11.4311378756))),n=1+e*(139.612587808+e*(2189.01116348+e*(7115.24019009+e*45574.6081453)))):(e=1/e,r=-11.4311378756+e*(199.722374056+e*(-13.308504545+e*(-.290806748131+e*-.000145727889667))),n=45574.6081453+e*(7115.24019009+e*(2189.01116348+e*(139.612587808+e*1)))),r/n)}var Dqt=Rqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var v8=Se,Nqt=Aqt,Fqt=Mqt,Bqt=Lqt,$qt=Oqt,zqt=Dqt;function Vqt(e){var t,r;return e<-8?(t=e*e,r=v8(-e)/e,(-30+e*r*(6*t*r*r-12+t))/(12*e*t*t)):e<-4?Nqt(e)/(e*e):e<-2?Fqt(e):e<2?Bqt(e):e<10?(t=1/e,$qt(t)/(e*e)):e<100?(t=1/e,zqt(t)/(e*e)):-v8(e)/(12*e*e*e)}var Uqt=Vqt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var Gqt=w1.exports,g8=$s,gi=zf,Wqt=op,m8=Bo,Sg=er,_8=de,sc=Ve,jqt=zs,Hqt=rr,Gn=Se,Xqt=W_,Yqt=X_,qqt=DU,Zqt=TYt,y8=qU,b8=oqt,Kqt=dqt,Jqt=Eqt,Qqt=Uqt,tZt=Gqt("gammaincinv:compute"),os=.5,Ow=.3333333333333333,eZt=.25,w8=.2,S8=.16666666666666666,rZt=.08333333333333333,nZt=.041666666666666664,Wn=[0,0,0,0,0];function iZt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A,k,C,M,D,B,V,N,W,Z,q,et,Pt,Rt,wt,St,Ht,Y,it,K,pt,Tt,At;if(t<os?(a=!0,s=t,pt=-1):(a=!1,s=r,pt=1),Y=0,_8(e-1)<1e-4&&(it=0,a?t<.001?(q=t*t,V=q*t,Z=V*t,S=Z*t,T=S*t,P=t+q*os+V*Ow+Z*eZt+S*w8+T*S8):P=-Gn(1-t):P=-Gn(r),e===1?(Y=2,Pt=P):(o=gi(e),Y=1)),r<1e-30&&e<os&&(it=0,P=-Gn(r*m8(e))+(e-1)*Gn(-Gn(r*m8(e))),Y=1,o=gi(e)),e>1&&e<500&&t<1e-80){for(it=0,l=1/e,n=1/(e+1),P=(gi(e+1)+Gn(t))*l,P=sc(P),g=P,Ht=0;Ht<10;Ht++)P=g*sc(P*l)*Hqt(1-P*n,l);Y=1,o=gi(e)}if(u=1/e*(Gn(t)+gi(e+1)),u<Gn(w8*(1+e))&&Y===0&&(K=sc(u),it=0,A=e*e,et=A*e,N=et*e,m=e+1,d=m*m,h=m*d,f=d*d,_=e+2,c=_*_,y=e+3,Wn[0]=1,Wn[1]=1/m,Wn[2]=os*(3*e+5)/(d*_),Wn[3]=Ow*(31+8*A+33*e)/(h*_*y),Wn[4]=nZt*(2888+1179*et+125*N+3971*A+5661*e)/(f*c*y*(e+4)),P=K*g8(Wn,K),o=gi(e),Y=1),e<10&&Y===0&&(p=Sg(e)/(b8(e)*Xqt),v=jqt(.02,p),r<v&&(it=0,wt=1-e,D=wt*wt,B=D*wt,w=Sg(-2/e*Gn(r/p)),P=e*y8(w),St=Gn(P),P>5?(k=St*St,C=k*St,M=C*St,K=1/P,Wn[0]=St-1,Wn[1]=(3*wt-2*wt*St+k-2*St+2)*os,Wn[2]=(24*wt*St-11*D-24*wt-6*k+12*St-12-9*wt*k+6*D*St+2*C)*S8,Wn[3]=(-12*B*St+8.04*wt*k-114*D*St+(72+36*k)+(3*M-72*St+162)*(wt-168*wt*St)-(12*C+25*B)-(22*wt*C+36*D*k+120*D))*rZt,Wn[4]=0,P=P-St+wt*K*g8(Wn,K)):(K=1/P,k=St*St,Rt=St-1,Tt=St-wt*K*Rt,Tt<P&&(P-=Tt)),o=gi(e),Y=1)),_8(s-os)<1e-5&&Y===0&&(it=0,l=1/e,P=e-Ow+(.019753086419753086+.007211444248481286*l)*l,o=gi(e),Y=1),e<1&&Y===0&&(it=0,a?P=sc(1/e*(Gn(s)+gi(e+1))):P=sc(1/e*(Gn(1-s)+gi(e+1))),o=gi(e),Y=1),Y===0)if(it=1,l=1/e,K=Wqt(2*s),w=pt*K/Sg(e*os),K<Yqt)w+=(Kqt(w)+(Jqt(w)+Qqt(w)*l)*l)*l,P=e*y8(w),At=w,W=-Sg(e/qqt)*sc(-os*e*At*At)/b8(e),i=1/W;else return tZt("Warning: Overflow problems in one or more steps of the computation."),NaN;return Y<2&&(Pt=Zqt(P,e,it,t,r,o,i,a)),Pt}var oZt=iZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var T8=Zt,aZt=H_,P8=Fe,E8=oZt;function sZt(e,t,r){return T8(e)||T8(t)?NaN:t<aZt?NaN:e>1||e<0?NaN:r===!0?e===0?P8:e===1?0:E8(t,1-e,e):e===0?0:e===1?P8:E8(t,e,1-e)}var lZt=sZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var uZt=lZt,cZt=uZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var fZt=5e-324,hZt=fZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/detail/ibeta_inverse.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* Copyright John Maddock 2006.
-* Copyright Paul A. Bristow 2007.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var k8=cZt,A8=Se,dZt=er,pZt=hZt,vZt=HU,gZt=YU;function mZt(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A,k,C,M,D,B,V,N,W,Z;return r<n?l=k8(r,t,!0):l=k8(n,t,!1),l/=e,m=t/e,N=dZt(1+m),T=N*N,S=T*N,P=T*T,A=S*T,k=S*S,C=P*S,M=P*P,D=A*P,c=A*A,V=l-m,_=V*V,y=_*V,w=_*_,B=N+1,f=B*B,h=B*f,d=f*f,p=(N+2)*(N-1)/(3*N),p+=(S+9*T+21*N+5)*V/(36*T*B),p-=(P-13*S+69*T+167*N+46)*_/(1620*f*S),p-=(7*A+21*P+70*S+26*T-93*N-31)*y/(6480*h*P),p-=(75*k+202*A+188*P-888*S-1345*T+118*N+138)*w/(272160*d*A),v=(28*P+131*S+402*T+581*N+208)*(N-1)/(1620*B*S),v-=(35*k-154*A-623*P-1636*S-3983*T-3514*N-925)*V/(12960*f*P),v-=(2132*C+7915*k+16821*A+35066*P+87490*S+141183*T+95993*N+21640)*_/(816480*A*h),v-=(11053*M+53308*C+117010*k+163924*A+116188*P-258428*S-677042*T-481940*N-105497)*y/(14696640*d*k),g=-((3592*C+8375*k-1323*A-29198*P-89578*S-154413*T-116063*N-29632)*(N-1))/(816480*A*f),g-=(442043*D+2054169*M+3803094*C+3470754*k+2141568*A-2393568*P-19904934*S-34714674*T-23128299*N-5253353)*V/(146966400*k*h),g-=(116932*c+819281*D+2378172*M+4341330*C+6806004*k+10622748*A+18739500*P+30651894*S+30869976*T+15431867*N+2919016)*_/(146966400*d*C),u=l+p/e+v/(e*e)+g/(e*e*e),u<=0&&(u=pZt),W=u-m*A8(u)+(1+m)*A8(1+m)-m,i=1/(1+m),a=u<m?i:0,s=u<m?1:i,Z=(a+s)/2,o=vZt(W,m),gZt(o,Z,a,s,32,100)}var _Zt=mZt;/**
+*/var vXt=pXt,XU=vXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9296,7 +8567,215 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var nr=de,yZt=Ff,Rw=XU,bZt=ku,Dw=$f;function wZt(e,t,r,n,i,o){var a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T;y=0,s=!1,f=t,c=yZt(1,1-i),p=bZt(1e7*t,1e7),h=0,l=p,u=p,d=o;do{if(h=y,u=l,l=p,_=e(f),y=_[0],w=_[1],T=_[2],d-=1,y===0)break;if(w===0?(h===0&&(f===r?t=n:t=r,h=e(t),p=t-f),Rw(h)*Rw(y)<0?p<0?p=(f-r)/2:p=(f-n)/2:p<0?p=(f-n)/2:p=(f-r)/2):T===0?p=y/w:(v=2*y,m=2*w-y*(T/w),nr(m)<1&&nr(v)>=nr(m)*Dw?p=y/w:p=v/m,p*w/y<0&&(p=y/w,nr(p)>2*nr(t)&&(p=(p<0?-1:1)*2*nr(t)))),a=nr(p/u),a>.8&&a<2&&(p=p>0?(f-r)/2:(f-n)/2,nr(p)>f&&(p=Rw(p)*f),u=p*3),t=f,f-=p,f<r){if(nr(r)<1&&nr(f)>1&&Dw/nr(f)<nr(r)?g=1e3:g=f/r,nr(g)<1&&(g=1/g),!s&&g>0&&g<3)p=.99*(t-r),f=t-p,s=!0;else if(p=(t-r)/2,f=t-p,f===r||f===n)break}else if(f>n){if(nr(n)<1&&nr(f)>1&&Dw/nr(f)<nr(n)?g=1e3:g=f/n,nr(g)<1&&(g=1/g),!s&&g>0&&g<3)p=.99*(t-n),f=t-p,s=!0;else if(p=(t-n)/2,f=t-p,f===r||f===n)break}p>0?n=t:r=t}while(d&&nr(f*c)<nr(p));return f}var SZt=wZt;/**
+*/var l8=XU,yg=de,gXt=Ff,xw=$f;function mXt(e,t,r,n,i,o){var a,s,l,u,c,f,h,d,p,v;p=0,a=0,c=t,u=gXt(1,1-i),h=xw,s=xw,l=xw,f=o;do{if(a=p,l=s,s=h,d=e(c),p=d[0],v=d[1],f-=1,p===0)break;if(v===0?(a===0&&(c===r?t=n:t=r,a=e(t),h=t-c),l8(a)*l8(p)<0?h<0?h=(c-r)/2:h=(c-n)/2:h<0?h=(c-n)/2:h=(c-r)/2):h=p/v,yg(h*2)>yg(l)&&(h=h>0?(c-r)/2:(c-n)/2),t=c,c-=h,c<=r){if(h=.5*(t-r),c=t-h,c===r||c===n)break}else if(c>=n&&(h=.5*(t-n),c=t-h,c===r||c===n))break;h>0?n=t:r=t}while(f&&yg(c*u)<yg(h));return c}var YU=mXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function _Xt(e){return e===0?-1:-1+e*(-5+e*5)}var yXt=_Xt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function bXt(e){return e===0?1:1+e*(21+e*(-69+e*46))}var wXt=bXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function SXt(e){return e===0?7:7+e*(-2+e*(33+e*(-62+e*31)))}var TXt=SXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function PXt(e){return e===0?25:25+e*(-52+e*(-17+e*(88+e*(-115+e*46))))}var EXt=PXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function kXt(e){return e===0?7:7+e*(12+e*(-78+e*52))}var AXt=kXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function CXt(e){return e===0?-7:-7+e*(2+e*(183+e*(-370+e*185)))}var MXt=CXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function xXt(e){return e===0?-533:-533+e*(776+e*(-1835+e*(10240+e*(-13525+e*5410))))}var LXt=xXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function IXt(e){return e===0?-1579:-1579+e*(3747+e*(-3372+e*(-15821+e*(45588+e*(-45213+e*15071)))))}var OXt=IXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function RXt(e){return e===0?449:449+e*(-1259+e*(-769+e*(6686+e*(-9260+e*3704))))}var DXt=RXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function NXt(e){return e===0?63149:63149+e*(-151557+e*(140052+e*(-727469+e*(2239932+e*(-2251437+e*750479)))))}var FXt=NXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function BXt(e){return e===0?29233:29233+e*(-78755+e*(105222+e*(146879+e*(-1602610+e*(3195183+e*(-2554139+e*729754))))))}var $Xt=BXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function zXt(e){return e===0?1:1+e*(-13+e*13)}var VXt=zXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function UXt(e){return e===0?1:1+e*(21+e*(-69+e*46))}var GXt=UXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9326,7 +8805,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var TZt=jU.assign,PZt=de,EZt=$f,Nw=Eu;function kZt(e,t,r,n){return i;function i(o){var a,s,l,u,c;return c=1-o,a=[0,0],TZt(o,e,t,!0,n,a,1,0),u=a[0]-r,s=a[1],n&&(s=-s),c===0&&(c=Nw*64),o===0&&(o=Nw*64),l=s*(-(c*e)+(t-2)*o+1),PZt(l)<c*o*EZt&&(l/=c*o),n&&(l=-l),s===0&&(s=(n?-1:1)*Nw*64),[u,s,l]}}var AZt=kZt,CZt=$s,C8=oA,Fw=Df,M8=Dn,MZt=Yk,lc=PU,x8=er,xZt=de,L8=Ve,fo=rr,I8=np,LZt=ku,IZt=zs,O8=Se,Bw=Eu,R8=tA,D8=Ia,OZt=iXt,RZt=lXt,DZt=fYt,NZt=_Zt,FZt=SZt,BZt=AZt,$Zt=32,zZt=1e3,bl=[0,0,0,0,0];function VZt(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A,k,C,M,D,B,V,N,W;if(o=!1,n===0)return[1,0];if(r===0)return[0,1];if(e===1){if(t===1)return[r,1-r];v=t,t=e,e=v,v=n,n=r,r=v,o=!0}if(N=0,s=0,u=1,e===.5){if(t===.5)return N=I8(r*R8),N*=N,W=I8(n*R8),W*=W,[N,W];t>.5&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o)}if(t===.5&&e>=.5&&r!==1)A={},N=OZt(e,r,A),W=A.value;else{if(t===1)return r<n?e>1?(N=fo(r,1/e),W=-Fw(O8(r)/e)):(N=fo(r,1/e),W=1-N):(N=L8(M8(-n)/e),W=-Fw(M8(-n)/e)),o&&(v=W,W=N,N=v),[N,W];if(e+t>5)r>.5&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o),h=IZt(e,t),f=LZt(e,t),x8(h)>f-h&&h>5?(N=RZt(e,t,r),W=1-N):(D=e+t,l=MZt(x8(e/D)),a=h/D,a>=.2&&a<=.8&&D>=10?(p=fo(r,1/e),p<.0025&&e+t<200?N=p*fo(e*lc(e,t),1/e):N=DZt(r,D,l),W=1-N):(e<t&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o),d=0,t<2&&(d=lc(e,t)),d===0?W=1:(W=fo(t*n*d,1/t),N=1-W)),W>1e-5&&(N=NZt(e,t,r,n),W=1-N));else if(e<1&&t<1){if(P=(1-e)/(2-e-t),y=C8(P,e,t)-r,xZt(y)/r<D8*3)return o?[1-P,P]:[P,1-P];y<0&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o,P=1-P),S=fo(e*r*lc(e,t),1/e),N=S/(1+S),W=1/(1+S),N>P&&(N=P),u=P}else e>1&&t>1?(P=(e-1)/(e+t-2),g=(t-1)/(e+t-2),T=C8(P,e,t)-r,T<0&&(v=t,t=e,e=v,v=n,n=r,r=v,v=g,g=P,P=v,o=!o),w=O8(r*e*lc(e,t))/e,N=L8(w),W=N<.9?1-N:-Fw(w),t<e&&N<.2&&(m=e-1,_=t-1,k=e*e,C=e*k,M=t*t,bl[0]=0,bl[1]=1,bl[2]=_/m,m*=m,bl[3]=_*(3*e*t+5*t+k-e-4)/(2*(e+2)*m),m*=e+1,bl[4]=_*(33*e*M+31*M+8*k*M-30*e*t-47*t+11*k*t+6*C*t+18+4*e-C+k*k-10*k),bl[4]/=3*(e+3)*(e+2)*m,N=CZt(bl,N)),N>P&&(N=P),u=P):(t<e&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o),fo(r,1/e)<.5?(N=fo(r*e*lc(e,t),1/e),N===0&&(N=Bw),W=1-N):(W=fo(1-fo(r,t*lc(e,t)),1/t),W===0&&(W=Bw),N=1-W))}return N>.5&&(v=t,t=e,e=v,v=n,n=r,r=v,v=W,W=N,N=v,o=!o,B=1-u,V=1-s,s=B,u=V),s===0&&(o?(s=D8,N<s&&(N=s)):s=Bw,N<s&&(N=s)),i=$Zt,N<1e-50&&(e<1||t<1)&&(i*=3,i/=2),c=BZt(e,t,r<n?r:n,r>=n),N=FZt(c,N,s,u,i,zZt),N===s&&(N=0),o?[1-N,N]:[N,1-N]}var UZt=VZt;/**
+*/var oc=$s,WXt=op,jXt=de,HXt=Ve,u8=Se,XXt=er,YXt=np,qXt=rA,ZXt=HU,KXt=YU,JXt=yXt,QXt=wXt,tYt=TXt,eYt=EXt,rYt=AXt,nYt=MXt,iYt=LXt,oYt=OXt,aYt=DXt,sYt=FXt,lYt=$Xt,uYt=VXt,cYt=GXt,re=[0,0,0,0,0,0],Wh=[0,0,0,0];function fYt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S;return s=WXt(2*e)/-XXt(t/2),w=YXt(r),y=qXt(r),Wh[0]=s,m=w*w,_=y*y,v=w*y,p=v*v,d=p*v,h=p*p,f=p*d,c=d*d,u=h*d,re[0]=(2*m-1)/(3*v),re[1]=-JXt(m)/(36*p),re[2]=QXt(m)/(1620*d),re[3]=tYt(m)/(6480*h),re[4]=eYt(m)/(90720*f),re[5]=0,Wh[1]=oc(re,s),re[0]=-rYt(m)/(405*d),re[1]=nYt(m)/(2592*h),re[2]=-iYt(m)/(204120*f),re[3]=-oYt(m)/(2099520*c),re[4]=0,re[5]=0,Wh[2]=oc(re,s),re[0]=aYt(m)/(102060*f),re[1]=-sYt(m)/(20995200*c),re[2]=lYt(m)/(36741600*u),re[3]=0,re[4]=0,re[5]=0,Wh[3]=oc(re,s),l=oc(Wh,1/t),o=y/w,o*=o,g=-(l*l)/(2*m)+u8(m)+_*u8(_)/m,jXt(l)<.7?(re[0]=m,re[1]=v,re[2]=(1-2*m)/3,re[3]=uYt(m)/(36*v),re[4]=cYt(m)/(270*p),re[5]=0,S=oc(re,l)):(T=HXt(g),re[0]=T,re[1]=o,re[2]=0,re[3]=3*o*(3*o+1)/6,re[4]=4*o*(4*o+1)*(4*o+2)/24,re[5]=5*o*(5*o+1)*(5*o+2)*(5*o+3)/120,S=oc(re,T),(S-m)*l<0&&(S=1-S)),l<0?(i=0,n=m):(i=m,n=1),(S<i||S>n)&&(S=(i+n)/2),a=ZXt(-g,o),S=KXt(a,S,i,n,32,100),S}var hYt=fYt,w1={exports:{}},FT={exports:{}},S0=1e3,T0=S0*60,P0=T0*60,E0=P0*24,dYt=E0*365.25,pYt=function(e,t){t=t||{};var r=typeof e;if(r==="string"&&e.length>0)return vYt(e);if(r==="number"&&isNaN(e)===!1)return t.long?mYt(e):gYt(e);throw new Error("val is not a non-empty string or a valid number. val="+JSON.stringify(e))};function vYt(e){if(e=String(e),!(e.length>100)){var t=/^((?:\d+)?\.?\d+) *(milliseconds?|msecs?|ms|seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|years?|yrs?|y)?$/i.exec(e);if(!!t){var r=parseFloat(t[1]),n=(t[2]||"ms").toLowerCase();switch(n){case"years":case"year":case"yrs":case"yr":case"y":return r*dYt;case"days":case"day":case"d":return r*E0;case"hours":case"hour":case"hrs":case"hr":case"h":return r*P0;case"minutes":case"minute":case"mins":case"min":case"m":return r*T0;case"seconds":case"second":case"secs":case"sec":case"s":return r*S0;case"milliseconds":case"millisecond":case"msecs":case"msec":case"ms":return r;default:return}}}}function gYt(e){return e>=E0?Math.round(e/E0)+"d":e>=P0?Math.round(e/P0)+"h":e>=T0?Math.round(e/T0)+"m":e>=S0?Math.round(e/S0)+"s":e+"ms"}function mYt(e){return bg(e,E0,"day")||bg(e,P0,"hour")||bg(e,T0,"minute")||bg(e,S0,"second")||e+" ms"}function bg(e,t,r){if(!(e<t))return e<t*1.5?Math.floor(e/t)+" "+r:Math.ceil(e/t)+" "+r+"s"}(function(e,t){t=e.exports=i.debug=i.default=i,t.coerce=l,t.disable=a,t.enable=o,t.enabled=s,t.humanize=pYt,t.names=[],t.skips=[],t.formatters={};var r;function n(u){var c=0,f;for(f in u)c=(c<<5)-c+u.charCodeAt(f),c|=0;return t.colors[Math.abs(c)%t.colors.length]}function i(u){function c(){if(!!c.enabled){var f=c,h=+new Date,d=h-(r||h);f.diff=d,f.prev=r,f.curr=h,r=h;for(var p=new Array(arguments.length),v=0;v<p.length;v++)p[v]=arguments[v];p[0]=t.coerce(p[0]),typeof p[0]!="string"&&p.unshift("%O");var g=0;p[0]=p[0].replace(/%([a-zA-Z%])/g,function(_,y){if(_==="%%")return _;g++;var w=t.formatters[y];if(typeof w=="function"){var T=p[g];_=w.call(f,T),p.splice(g,1),g--}return _}),t.formatArgs.call(f,p);var m=c.log||t.log||console.log.bind(console);m.apply(f,p)}}return c.namespace=u,c.enabled=t.enabled(u),c.useColors=t.useColors(),c.color=n(u),typeof t.init=="function"&&t.init(c),c}function o(u){t.save(u),t.names=[],t.skips=[];for(var c=(typeof u=="string"?u:"").split(/[\s,]+/),f=c.length,h=0;h<f;h++)!c[h]||(u=c[h].replace(/\*/g,".*?"),u[0]==="-"?t.skips.push(new RegExp("^"+u.substr(1)+"$")):t.names.push(new RegExp("^"+u+"$")))}function a(){t.enable("")}function s(u){var c,f;for(c=0,f=t.skips.length;c<f;c++)if(t.skips[c].test(u))return!1;for(c=0,f=t.names.length;c<f;c++)if(t.names[c].test(u))return!0;return!1}function l(u){return u instanceof Error?u.stack||u.message:u}})(FT,FT.exports);(function(e,t){t=e.exports=FT.exports,t.log=i,t.formatArgs=n,t.save=o,t.load=a,t.useColors=r,t.storage=typeof chrome<"u"&&typeof chrome.storage<"u"?chrome.storage.local:s(),t.colors=["lightseagreen","forestgreen","goldenrod","dodgerblue","darkorchid","crimson"];function r(){return typeof window<"u"&&window.process&&window.process.type==="renderer"?!0:typeof document<"u"&&document.documentElement&&document.documentElement.style&&document.documentElement.style.WebkitAppearance||typeof window<"u"&&window.console&&(window.console.firebug||window.console.exception&&window.console.table)||typeof navigator<"u"&&navigator.userAgent&&navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/)&&parseInt(RegExp.$1,10)>=31||typeof navigator<"u"&&navigator.userAgent&&navigator.userAgent.toLowerCase().match(/applewebkit\/(\d+)/)}t.formatters.j=function(l){try{return JSON.stringify(l)}catch(u){return"[UnexpectedJSONParseError]: "+u.message}};function n(l){var u=this.useColors;if(l[0]=(u?"%c":"")+this.namespace+(u?" %c":" ")+l[0]+(u?"%c ":" ")+"+"+t.humanize(this.diff),!!u){var c="color: "+this.color;l.splice(1,0,c,"color: inherit");var f=0,h=0;l[0].replace(/%[a-zA-Z%]/g,function(d){d!=="%%"&&(f++,d==="%c"&&(h=f))}),l.splice(h,0,c)}}function i(){return typeof console=="object"&&console.log&&Function.prototype.apply.call(console.log,console,arguments)}function o(l){try{l==null?t.storage.removeItem("debug"):t.storage.debug=l}catch{}}function a(){var l;try{l=t.storage.debug}catch{}return!l&&typeof process<"u"&&"env"in process&&(l=process.env.DEBUG),l}t.enable(a());function s(){try{return window.localStorage}catch{}}})(w1,w1.exports);/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9342,7 +8821,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GZt=UZt,WZt=GZt;/**
+*/var _Yt=34028234663852886e22,X_=_Yt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9358,7 +8837,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $w=Zt,N8=WZt;function jZt(e,t,r,n){return $w(e)||$w(t)||$w(r)?NaN:t<=0||r<=0?NaN:e<0||e>1?NaN:n?N8(t,r,1-e,e)[0]:N8(t,r,e,1-e)[0]}var HZt=jZt;/**
+*/var yYt=w1.exports,c8=zU,bYt=de,wYt=Ve,f8=Se,SYt=X_,h8=yYt("gammaincinv:higher_newton");function TYt(e,t,r,n,i,o,a,s){var l,u,c,f,h,d,p,v,g,m,_,y,w,T;T=e,_=1,y=1,d=t*t,u=e;do{if(T=e,p=T*T,r===0){if(l=(1-t)*f8(T)+T+o,l>f8(SYt))return h8("Warning: overflow problems in one or more steps of the computation. The initial approximation to the root is returned."),u;w=wYt(l)}else w=-a*T;s?(v=c8(T,t,!0,!1),c=-w*(v-n)):(g=c8(T,t,!0,!0),c=w*(g-i)),w=c,n>1e-120||y>1?(f=.5*(T-t+1)/T,h=(2*p-4*T*t+4*T+2*d-3*t+1)/p,h/=6,e=T+w*(1+w*(f+w*h))):e=T+w,_=bYt(T/e-1),y+=1,T=e,T<0&&(T=u,y=100)}while(_>2e-14&&y<35);return(_>2e-14||y>99)&&h8("Warning: the number of iterations in the Newton method reached the upper limit N=35. The last value obtained for the root is given as output."),m=T||0,m}var PYt=TYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9374,7 +8853,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var XZt=HZt,KU=XZt;/**
+*/function EYt(e){return e===0?0:0+e*(1+e*(1+e*(1.5+e*(2.6666666666666665+e*(5.208333333333333+e*10.8)))))}var kYt=EYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9390,7 +8869,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YZt=KU,zw=Zt;function qZt(e,t,r){return zw(e)||zw(t)||zw(r)||t<=0||r<=0||e<0||e>1?NaN:YZt(e,t,r)}var ZZt=qZt;/**
+*/function AYt(e){return e===0?1:1+e*(1+e*(.3333333333333333+e*(.027777777777777776+e*(-.003703703703703704+e*(.0002314814814814815+e*5878894767783657e-20)))))}var CYt=AYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9406,7 +8885,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function KZt(e){return t;function t(){return e}}var JZt=KZt;/**
+*/var MYt=de,xYt=Ve,d8=Se,LYt=$s,IYt=kYt,OYt=CYt,RYt=1e-8,DYt=.08333333333333333,NYt=.008333333333333333,ac=[1,0,0,0,0,0];function FYt(e){var t,r,n,i,o,a,s,l,u;if(u=e*e*.5,e===0?o=0:e<-1?(l=xYt(-1-u),o=IYt(l)):e<1?(l=e,o=OYt(l)):(l=11+u,a=d8(l),o=l+a,l=1/l,t=a*a,r=t*a,n=r*a,i=n*a,ac[1]=(2-a)*.5,ac[2]=(-9*a+6+2*t)/6,ac[3]=-(3*r+36*a-22*t-12)*DYt,ac[4]=(60+350*t-300*a-125*r+12*n)/60,ac[5]=-(-120-274*n+900*a-1700*t+1125*r+20*i)*NYt,o+=a*l*LYt(ac,l)),l=1,e>-3.5&&e<-.03||e>.03&&e<40){l=1,s=o;do o=s*(u+d8(s))/(s-1),l=MYt(s/o-1),s=o;while(l>RYt)}return o}var qU=FYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9422,7 +8901,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var QZt=JZt,Y_=QZt;/**
+*/var BYt=.9189385332046728,ZU=BYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9438,7 +8917,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var tKt=Y_,eKt=KU,Vw=Zt;function rKt(e,t){if(Vw(e)||Vw(t)||e<=0||t<=0)return tKt(NaN);return r;function r(n){return Vw(n)||n<0||n>1?NaN:eKt(n,e,t)}}var nKt=rKt;/**
+*/var $Yt=[1.9963790515900766,-.0017971032528832887,13129285796384672e-21,-2340875228178749e-22,72291210671127e-22,-3280997607821e-22,19875070901e-21,-1509214183e-21,1375340084e-22,-145728923e-22,17532367e-22,-2351465e-22,346551e-22,-55471e-22,9548e-22,-1748e-22,332e-22,-58e-22];function zYt(e,t){var r,n,i,o,a;n=0,i=0,r=t+t,a=e;do o=i,i=n,n=r*i-o+$Yt[a],a-=1;while(a>=0);return(n-o)/2}var VYt=zYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9454,7 +8933,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var iKt=yr,JU=ZZt,oKt=nKt;iKt(JU,"factory",oKt);var aKt=JU;/**
+*/function UYt(e){return e===0?.025721014990011306:.025721014990011306+e*(.08247596616699963+e*(-.0025328157302663564+e*(.0006099292666946337+e*(-.00033543297638406+e*.000250505279903))))}var GYt=UYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9470,7 +8949,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sKt=Rn;function lKt(e){return sKt(e)===e&&e>=0}var uKt=lKt;/**
+*/function WYt(e){return e===0?.08333333333333333:.08333333333333333+e*(-.002777777777777778+e*(.0007936507936507937+e*-.0005952380952380953))}var jYt=WYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9486,7 +8965,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var cKt=uKt,q_=cKt;/**
+*/var Lw=zf,wg=Se,Iw=ZU,HYt=H_,XYt=X_,YYt=VYt,qYt=GYt,ZYt=jYt,KYt=.30865217988013566;function JYt(e){var t;return e<HYt?XYt:e<1?Lw(e+1)-(e+.5)*wg(e)+e-Iw:e<2?Lw(e)-(e-.5)*wg(e)+e-Iw:e<3?Lw(e-1)-(e-.5)*wg(e)+e-Iw+wg(e-1):e<12?(t=18/(e*e)-1,YYt(17,t)/(12*e)):(t=1/(e*e),e<1e3?qYt(t)/(KYt+t)/e:ZYt(t)/e)}var QYt=JYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9502,7 +8981,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var fKt=q_,hKt=oA,Uw=Zt,dKt=Rn,pKt=Fe;function vKt(e,t,r){return Uw(e)||Uw(t)||Uw(r)||r<0||r>1||!fKt(t)||t===pKt?NaN:e<0?0:e>=t?1:(e=dKt(e+1e-7),hKt(r,e+1,t-e,!0,!0))}var gKt=vKt;/**
+*/var p8=Ve,tqt=Bo,eqt=Se,rqt=X_,nqt=W_,iqt=QYt;function oqt(e){return e>=3?p8(iqt(e)):e>0?tqt(e)/(p8(-e+(e-.5)*eqt(e))*nqt):rqt}var aqt=oqt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9518,7 +8997,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mKt=q_,_Kt=Y_,yKt=oA,Gw=Zt,bKt=Rn,wKt=Fe;function SKt(e,t){if(Gw(e)||Gw(t)||t<0||t>1||!mKt(e)||e===wKt)return _Kt(NaN);return r;function r(n){return Gw(n)?NaN:n<0?0:n>=e?1:(n=bKt(n+1e-7),yKt(t,n+1,e-n,!0,!0))}}var TKt=SKt;/**
+*/function sqt(e){var t,r,n;return e===0?-.3333333333438:(e<0?t=-e:t=e,t<=1?(r=-.3333333333438+e*(-.2070740359969+e*(-.05041806657154+e*(-.004923635739372+e*-4293658292782e-17))),n=1+e*(.7045554412463+e*(.2118190062224+e*(.03048648397436+e*.001605037988091)))):(e=1/e,r=-4293658292782e-17+e*(-.004923635739372+e*(-.05041806657154+e*(-.2070740359969+e*-.3333333333438))),n=.001605037988091+e*(.03048648397436+e*(.2118190062224+e*(.7045554412463+e*1)))),r/n)}var lqt=sqt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9534,7 +9013,528 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var PKt=yr,QU=gKt,EKt=TKt;PKt(QU,"factory",EKt);var kKt=QU;/**
+*/var uqt=de,cqt=Se,fqt=qU,hqt=lqt;function dqt(e){var t;return uqt(e)<1?hqt(e):(t=fqt(e),cqt(e/(t-1))/e)}var pqt=dqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function vqt(e){var t,r,n;return e===0?-.0172847633523:(e<0?t=-e:t=e,t<=1?(r=-.0172847633523+e*(-.0159372646475+e*(-.00464910887221+e*(-.00060683488776+e*-614830384279e-17))),n=1+e*(.764050615669+e*(.297143406325+e*(.0579490176079+e*.00574558524851)))):(e=1/e,r=-614830384279e-17+e*(-.00060683488776+e*(-.00464910887221+e*(-.0159372646475+e*-.0172847633523))),n=.00574558524851+e*(.0579490176079+e*(.297143406325+e*(.764050615669+e*1)))),r/n)}var gqt=vqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function mqt(e){var t,r,n;return e===0?-.0172839517431:(e<0?t=-e:t=e,t<=1?(r=-.0172839517431+e*(-.0146362417966+e*(-.00357406772616+e*(-.000391032032692+e*249634036069e-17))),n=1+e*(.690560400696+e*(.249962384741+e*(.0443843438769+e*.00424073217211)))):(e=1/e,r=249634036069e-17+e*(-.000391032032692+e*(-.00357406772616+e*(-.0146362417966+e*-.0172839517431))),n=.00424073217211+e*(.0443843438769+e*(.249962384741+e*(.690560400696+e*1)))),r/n)}var _qt=mqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function yqt(e){var t,r,n;return e===0?.99994466948:(e<0?t=-e:t=e,t<=1?(r=.99994466948+e*(104.649839762+e*(857.204033806+e*(731.901559577+e*45.5174411671))),n=1+e*(104.526456943+e*(823.313447808+e*(3119.93802124+e*3970.03311219)))):(e=1/e,r=45.5174411671+e*(731.901559577+e*(857.204033806+e*(104.649839762+e*.99994466948))),n=3970.03311219+e*(3119.93802124+e*(823.313447808+e*(104.526456943+e*1)))),r/n)}var bqt=yqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var wqt=Se,Sqt=gqt,Tqt=_qt,Pqt=bqt;function Eqt(e){var t,r;return e<-5?(r=e*e,t=wqt(-e),(12-r-6*(t*t))/(12*r*e)):e<-2?Sqt(e):e<2?Tqt(e):e<1e3?(r=1/e,Pqt(e)/(-12*e)):-1/(12*e)}var kqt=Eqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Aqt(e){var t,r,n;return e===0?.0495346498136:(e<0?t=-e:t=e,t<=1?(r=.0495346498136+e*(.0299521337141+e*(.00688296911516+e*(.000512634846317+e*-201411722031e-16))),n=1+e*(.759803615283+e*(.261547111595+e*(.0464854522477+e*.00403751193496)))):(e=1/e,r=-201411722031e-16+e*(.000512634846317+e*(.00688296911516+e*(.0299521337141+e*.0495346498136))),n=.00403751193496+e*(.0464854522477+e*(.261547111595+e*(.759803615283+e*1)))),r/n)}var Cqt=Aqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Mqt(e){var t,r,n;return e===0?.00452313583942:(e<0?t=-e:t=e,t<=1?(r=.00452313583942+e*(.00120744920113+e*(-789724156582e-16+e*(-504476066942e-16+e*-535770949796e-17))),n=1+e*(.912203410349+e*(.405368773071+e*(.0901638932349+e*.00948935714996)))):(e=1/e,r=-535770949796e-17+e*(-504476066942e-16+e*(-789724156582e-16+e*(.00120744920113+e*.00452313583942))),n=.00948935714996+e*(.0901638932349+e*(.405368773071+e*(.912203410349+e*1)))),r/n)}var xqt=Mqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Lqt(e){var t,r,n;return e===0?.00439937562904:(e<0?t=-e:t=e,t<=1?(r=.00439937562904+e*(.000487225670639+e*(-.000128470657374+e*(529110969589e-17+e*15716677175e-17))),n=1+e*(.794435257415+e*(.333094721709+e*(.0703527806143+e*.00806110846078)))):(e=1/e,r=15716677175e-17+e*(529110969589e-17+e*(-.000128470657374+e*(.000487225670639+e*.00439937562904))),n=.00806110846078+e*(.0703527806143+e*(.333094721709+e*(.794435257415+e*1)))),r/n)}var Iqt=Lqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Oqt(e){var t,r,n;return e===0?-.0011481191232:(e<0?t=-e:t=e,t<=1?(r=-.0011481191232+e*(-.112850923276+e*(1.51623048511+e*(-.218472031183+e*.0730002451555))),n=1+e*(14.2482206905+e*(69.7360396285+e*(218.938950816+e*277.067027185)))):(e=1/e,r=.0730002451555+e*(-.218472031183+e*(1.51623048511+e*(-.112850923276+e*-.0011481191232))),n=277.067027185+e*(218.938950816+e*(69.7360396285+e*(14.2482206905+e*1)))),r/n)}var Rqt=Oqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Dqt(e){var t,r,n;return e===0?-.000145727889667:(e<0?t=-e:t=e,t<=1?(r=-.000145727889667+e*(-.290806748131+e*(-13.308504545+e*(199.722374056+e*-11.4311378756))),n=1+e*(139.612587808+e*(2189.01116348+e*(7115.24019009+e*45574.6081453)))):(e=1/e,r=-11.4311378756+e*(199.722374056+e*(-13.308504545+e*(-.290806748131+e*-.000145727889667))),n=45574.6081453+e*(7115.24019009+e*(2189.01116348+e*(139.612587808+e*1)))),r/n)}var Nqt=Dqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var v8=Se,Fqt=Cqt,Bqt=xqt,$qt=Iqt,zqt=Rqt,Vqt=Nqt;function Uqt(e){var t,r;return e<-8?(t=e*e,r=v8(-e)/e,(-30+e*r*(6*t*r*r-12+t))/(12*e*t*t)):e<-4?Fqt(e)/(e*e):e<-2?Bqt(e):e<2?$qt(e):e<10?(t=1/e,zqt(t)/(e*e)):e<100?(t=1/e,Vqt(t)/(e*e)):-v8(e)/(12*e*e*e)}var Gqt=Uqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Wqt=w1.exports,g8=$s,gi=zf,jqt=op,m8=Bo,Sg=er,_8=de,sc=Ve,Hqt=zs,Xqt=rr,Gn=Se,Yqt=W_,qqt=X_,Zqt=DU,Kqt=PYt,y8=qU,b8=aqt,Jqt=pqt,Qqt=kqt,tZt=Gqt,eZt=Wqt("gammaincinv:compute"),os=.5,Ow=.3333333333333333,rZt=.25,w8=.2,S8=.16666666666666666,nZt=.08333333333333333,iZt=.041666666666666664,Wn=[0,0,0,0,0];function oZt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A,k,C,M,D,B,V,N,W,Z,q,et,Pt,Rt,wt,St,Ht,Y,it,K,pt,Tt,At;if(t<os?(a=!0,s=t,pt=-1):(a=!1,s=r,pt=1),Y=0,_8(e-1)<1e-4&&(it=0,a?t<.001?(q=t*t,V=q*t,Z=V*t,S=Z*t,T=S*t,P=t+q*os+V*Ow+Z*rZt+S*w8+T*S8):P=-Gn(1-t):P=-Gn(r),e===1?(Y=2,Pt=P):(o=gi(e),Y=1)),r<1e-30&&e<os&&(it=0,P=-Gn(r*m8(e))+(e-1)*Gn(-Gn(r*m8(e))),Y=1,o=gi(e)),e>1&&e<500&&t<1e-80){for(it=0,l=1/e,n=1/(e+1),P=(gi(e+1)+Gn(t))*l,P=sc(P),g=P,Ht=0;Ht<10;Ht++)P=g*sc(P*l)*Xqt(1-P*n,l);Y=1,o=gi(e)}if(u=1/e*(Gn(t)+gi(e+1)),u<Gn(w8*(1+e))&&Y===0&&(K=sc(u),it=0,A=e*e,et=A*e,N=et*e,m=e+1,d=m*m,h=m*d,f=d*d,_=e+2,c=_*_,y=e+3,Wn[0]=1,Wn[1]=1/m,Wn[2]=os*(3*e+5)/(d*_),Wn[3]=Ow*(31+8*A+33*e)/(h*_*y),Wn[4]=iZt*(2888+1179*et+125*N+3971*A+5661*e)/(f*c*y*(e+4)),P=K*g8(Wn,K),o=gi(e),Y=1),e<10&&Y===0&&(p=Sg(e)/(b8(e)*Yqt),v=Hqt(.02,p),r<v&&(it=0,wt=1-e,D=wt*wt,B=D*wt,w=Sg(-2/e*Gn(r/p)),P=e*y8(w),St=Gn(P),P>5?(k=St*St,C=k*St,M=C*St,K=1/P,Wn[0]=St-1,Wn[1]=(3*wt-2*wt*St+k-2*St+2)*os,Wn[2]=(24*wt*St-11*D-24*wt-6*k+12*St-12-9*wt*k+6*D*St+2*C)*S8,Wn[3]=(-12*B*St+8.04*wt*k-114*D*St+(72+36*k)+(3*M-72*St+162)*(wt-168*wt*St)-(12*C+25*B)-(22*wt*C+36*D*k+120*D))*nZt,Wn[4]=0,P=P-St+wt*K*g8(Wn,K)):(K=1/P,k=St*St,Rt=St-1,Tt=St-wt*K*Rt,Tt<P&&(P-=Tt)),o=gi(e),Y=1)),_8(s-os)<1e-5&&Y===0&&(it=0,l=1/e,P=e-Ow+(.019753086419753086+.007211444248481286*l)*l,o=gi(e),Y=1),e<1&&Y===0&&(it=0,a?P=sc(1/e*(Gn(s)+gi(e+1))):P=sc(1/e*(Gn(1-s)+gi(e+1))),o=gi(e),Y=1),Y===0)if(it=1,l=1/e,K=jqt(2*s),w=pt*K/Sg(e*os),K<qqt)w+=(Jqt(w)+(Qqt(w)+tZt(w)*l)*l)*l,P=e*y8(w),At=w,W=-Sg(e/Zqt)*sc(-os*e*At*At)/b8(e),i=1/W;else return eZt("Warning: Overflow problems in one or more steps of the computation."),NaN;return Y<2&&(Pt=Kqt(P,e,it,t,r,o,i,a)),Pt}var aZt=oZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var T8=Zt,sZt=H_,P8=Fe,E8=aZt;function lZt(e,t,r){return T8(e)||T8(t)?NaN:t<sZt?NaN:e>1||e<0?NaN:r===!0?e===0?P8:e===1?0:E8(t,1-e,e):e===0?0:e===1?P8:E8(t,e,1-e)}var uZt=lZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var cZt=uZt,fZt=cZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var hZt=5e-324,dZt=hZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/detail/ibeta_inverse.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* Copyright John Maddock 2006.
+* Copyright Paul A. Bristow 2007.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var k8=fZt,A8=Se,pZt=er,vZt=dZt,gZt=HU,mZt=YU;function _Zt(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A,k,C,M,D,B,V,N,W,Z;return r<n?l=k8(r,t,!0):l=k8(n,t,!1),l/=e,m=t/e,N=pZt(1+m),T=N*N,S=T*N,P=T*T,A=S*T,k=S*S,C=P*S,M=P*P,D=A*P,c=A*A,V=l-m,_=V*V,y=_*V,w=_*_,B=N+1,f=B*B,h=B*f,d=f*f,p=(N+2)*(N-1)/(3*N),p+=(S+9*T+21*N+5)*V/(36*T*B),p-=(P-13*S+69*T+167*N+46)*_/(1620*f*S),p-=(7*A+21*P+70*S+26*T-93*N-31)*y/(6480*h*P),p-=(75*k+202*A+188*P-888*S-1345*T+118*N+138)*w/(272160*d*A),v=(28*P+131*S+402*T+581*N+208)*(N-1)/(1620*B*S),v-=(35*k-154*A-623*P-1636*S-3983*T-3514*N-925)*V/(12960*f*P),v-=(2132*C+7915*k+16821*A+35066*P+87490*S+141183*T+95993*N+21640)*_/(816480*A*h),v-=(11053*M+53308*C+117010*k+163924*A+116188*P-258428*S-677042*T-481940*N-105497)*y/(14696640*d*k),g=-((3592*C+8375*k-1323*A-29198*P-89578*S-154413*T-116063*N-29632)*(N-1))/(816480*A*f),g-=(442043*D+2054169*M+3803094*C+3470754*k+2141568*A-2393568*P-19904934*S-34714674*T-23128299*N-5253353)*V/(146966400*k*h),g-=(116932*c+819281*D+2378172*M+4341330*C+6806004*k+10622748*A+18739500*P+30651894*S+30869976*T+15431867*N+2919016)*_/(146966400*d*C),u=l+p/e+v/(e*e)+g/(e*e*e),u<=0&&(u=vZt),W=u-m*A8(u)+(1+m)*A8(1+m)-m,i=1/(1+m),a=u<m?i:0,s=u<m?1:i,Z=(a+s)/2,o=gZt(W,m),mZt(o,Z,a,s,32,100)}var yZt=_Zt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_62_0/boost/math/tools/roots.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* Copyright John Maddock 2006.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var nr=de,bZt=Ff,Rw=XU,wZt=ku,Dw=$f;function SZt(e,t,r,n,i,o){var a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T;y=0,s=!1,f=t,c=bZt(1,1-i),p=wZt(1e7*t,1e7),h=0,l=p,u=p,d=o;do{if(h=y,u=l,l=p,_=e(f),y=_[0],w=_[1],T=_[2],d-=1,y===0)break;if(w===0?(h===0&&(f===r?t=n:t=r,h=e(t),p=t-f),Rw(h)*Rw(y)<0?p<0?p=(f-r)/2:p=(f-n)/2:p<0?p=(f-n)/2:p=(f-r)/2):T===0?p=y/w:(v=2*y,m=2*w-y*(T/w),nr(m)<1&&nr(v)>=nr(m)*Dw?p=y/w:p=v/m,p*w/y<0&&(p=y/w,nr(p)>2*nr(t)&&(p=(p<0?-1:1)*2*nr(t)))),a=nr(p/u),a>.8&&a<2&&(p=p>0?(f-r)/2:(f-n)/2,nr(p)>f&&(p=Rw(p)*f),u=p*3),t=f,f-=p,f<r){if(nr(r)<1&&nr(f)>1&&Dw/nr(f)<nr(r)?g=1e3:g=f/r,nr(g)<1&&(g=1/g),!s&&g>0&&g<3)p=.99*(t-r),f=t-p,s=!0;else if(p=(t-r)/2,f=t-p,f===r||f===n)break}else if(f>n){if(nr(n)<1&&nr(f)>1&&Dw/nr(f)<nr(n)?g=1e3:g=f/n,nr(g)<1&&(g=1/g),!s&&g>0&&g<3)p=.99*(t-n),f=t-p,s=!0;else if(p=(t-n)/2,f=t-p,f===r||f===n)break}p>0?n=t:r=t}while(d&&nr(f*c)<nr(p));return f}var TZt=SZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/detail/ibeta_inverse.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* Copyright John Maddock 2006.
+* Copyright Paul A. Bristow 2007.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var PZt=jU.assign,EZt=de,kZt=$f,Nw=Eu;function AZt(e,t,r,n){return i;function i(o){var a,s,l,u,c;return c=1-o,a=[0,0],PZt(o,e,t,!0,n,a,1,0),u=a[0]-r,s=a[1],n&&(s=-s),c===0&&(c=Nw*64),o===0&&(o=Nw*64),l=s*(-(c*e)+(t-2)*o+1),EZt(l)<c*o*kZt&&(l/=c*o),n&&(l=-l),s===0&&(s=(n?-1:1)*Nw*64),[u,s,l]}}var CZt=AZt,MZt=$s,C8=oA,Fw=Df,M8=Dn,xZt=Yk,lc=PU,x8=er,LZt=de,L8=Ve,fo=rr,I8=np,IZt=ku,OZt=zs,O8=Se,Bw=Eu,R8=tA,D8=Ia,RZt=oXt,DZt=uXt,NZt=hYt,FZt=yZt,BZt=TZt,$Zt=CZt,zZt=32,VZt=1e3,bl=[0,0,0,0,0];function UZt(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,v,g,m,_,y,w,T,S,P,A,k,C,M,D,B,V,N,W;if(o=!1,n===0)return[1,0];if(r===0)return[0,1];if(e===1){if(t===1)return[r,1-r];v=t,t=e,e=v,v=n,n=r,r=v,o=!0}if(N=0,s=0,u=1,e===.5){if(t===.5)return N=I8(r*R8),N*=N,W=I8(n*R8),W*=W,[N,W];t>.5&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o)}if(t===.5&&e>=.5&&r!==1)A={},N=RZt(e,r,A),W=A.value;else{if(t===1)return r<n?e>1?(N=fo(r,1/e),W=-Fw(O8(r)/e)):(N=fo(r,1/e),W=1-N):(N=L8(M8(-n)/e),W=-Fw(M8(-n)/e)),o&&(v=W,W=N,N=v),[N,W];if(e+t>5)r>.5&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o),h=OZt(e,t),f=IZt(e,t),x8(h)>f-h&&h>5?(N=DZt(e,t,r),W=1-N):(D=e+t,l=xZt(x8(e/D)),a=h/D,a>=.2&&a<=.8&&D>=10?(p=fo(r,1/e),p<.0025&&e+t<200?N=p*fo(e*lc(e,t),1/e):N=NZt(r,D,l),W=1-N):(e<t&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o),d=0,t<2&&(d=lc(e,t)),d===0?W=1:(W=fo(t*n*d,1/t),N=1-W)),W>1e-5&&(N=FZt(e,t,r,n),W=1-N));else if(e<1&&t<1){if(P=(1-e)/(2-e-t),y=C8(P,e,t)-r,LZt(y)/r<D8*3)return o?[1-P,P]:[P,1-P];y<0&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o,P=1-P),S=fo(e*r*lc(e,t),1/e),N=S/(1+S),W=1/(1+S),N>P&&(N=P),u=P}else e>1&&t>1?(P=(e-1)/(e+t-2),g=(t-1)/(e+t-2),T=C8(P,e,t)-r,T<0&&(v=t,t=e,e=v,v=n,n=r,r=v,v=g,g=P,P=v,o=!o),w=O8(r*e*lc(e,t))/e,N=L8(w),W=N<.9?1-N:-Fw(w),t<e&&N<.2&&(m=e-1,_=t-1,k=e*e,C=e*k,M=t*t,bl[0]=0,bl[1]=1,bl[2]=_/m,m*=m,bl[3]=_*(3*e*t+5*t+k-e-4)/(2*(e+2)*m),m*=e+1,bl[4]=_*(33*e*M+31*M+8*k*M-30*e*t-47*t+11*k*t+6*C*t+18+4*e-C+k*k-10*k),bl[4]/=3*(e+3)*(e+2)*m,N=MZt(bl,N)),N>P&&(N=P),u=P):(t<e&&(v=t,t=e,e=v,v=n,n=r,r=v,o=!o),fo(r,1/e)<.5?(N=fo(r*e*lc(e,t),1/e),N===0&&(N=Bw),W=1-N):(W=fo(1-fo(r,t*lc(e,t)),1/t),W===0&&(W=Bw),N=1-W))}return N>.5&&(v=t,t=e,e=v,v=n,n=r,r=v,v=W,W=N,N=v,o=!o,B=1-u,V=1-s,s=B,u=V),s===0&&(o?(s=D8,N<s&&(N=s)):s=Bw,N<s&&(N=s)),i=zZt,N<1e-50&&(e<1||t<1)&&(i*=3,i/=2),c=$Zt(e,t,r<n?r:n,r>=n),N=BZt(c,N,s,u,i,VZt),N===s&&(N=0),o?[1-N,N]:[N,1-N]}var GZt=UZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var WZt=GZt,jZt=WZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var $w=Zt,N8=jZt;function HZt(e,t,r,n){return $w(e)||$w(t)||$w(r)?NaN:t<=0||r<=0?NaN:e<0||e>1?NaN:n?N8(t,r,1-e,e)[0]:N8(t,r,e,1-e)[0]}var XZt=HZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var YZt=XZt,KU=YZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var qZt=KU,zw=Zt;function ZZt(e,t,r){return zw(e)||zw(t)||zw(r)||t<=0||r<=0||e<0||e>1?NaN:qZt(e,t,r)}var KZt=ZZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function JZt(e){return t;function t(){return e}}var QZt=JZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var tKt=QZt,Y_=tKt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var eKt=Y_,rKt=KU,Vw=Zt;function nKt(e,t){if(Vw(e)||Vw(t)||e<=0||t<=0)return eKt(NaN);return r;function r(n){return Vw(n)||n<0||n>1?NaN:rKt(n,e,t)}}var iKt=nKt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var oKt=yr,JU=KZt,aKt=iKt;oKt(JU,"factory",aKt);var sKt=JU;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var lKt=Rn;function uKt(e){return lKt(e)===e&&e>=0}var cKt=uKt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var fKt=cKt,q_=fKt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var hKt=q_,dKt=oA,Uw=Zt,pKt=Rn,vKt=Fe;function gKt(e,t,r){return Uw(e)||Uw(t)||Uw(r)||r<0||r>1||!hKt(t)||t===vKt?NaN:e<0?0:e>=t?1:(e=pKt(e+1e-7),dKt(r,e+1,t-e,!0,!0))}var mKt=gKt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var _Kt=q_,yKt=Y_,bKt=oA,Gw=Zt,wKt=Rn,SKt=Fe;function TKt(e,t){if(Gw(e)||Gw(t)||t<0||t>1||!_Kt(e)||e===SKt)return yKt(NaN);return r;function r(n){return Gw(n)?NaN:n<0?0:n>=e?1:(n=wKt(n+1e-7),bKt(t,n+1,e-n,!0,!0))}}var PKt=TKt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var EKt=yr,QU=mKt,kKt=PKt;EKt(QU,"factory",kKt);var AKt=QU;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9557,7 +9557,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * The code is adapted from the Fortran routine from the FNLIB library of the [SLATEC Common Mathematical Library]{@link http://www.netlib.no/netlib/slatec/fnlib/}.
 *
 * The original code was developed by W. Fullerton of Los Alamos Scientific Laboratory, a governmental institution, and is therefore public domain.
-*/var tG=[1276642195630063e-46,-3401102254316749e-45,1025680058010471e-43,-35475981581010704e-43,14292273559424982e-41,-6831888753985767e-39,39628370610464347e-38,-2868042435334643e-35,2683181998482699e-33,-3399615005417722e-31,6221098041892606e-29,-1809129475572494e-26,981082564692473e-23,-1384948176067564e-20,.16663894804518634],AKt=tG.length;function CKt(e){var t,r,n,i,o;if(e<-1.1||e>1.1)return NaN;for(n=0,i=0,t=2*e,o=0;o<AKt;o++)r=n,n=i,i=t*n-r+tG[o];return(i-r)*.5}var MKt=CKt;/**
+*/var tG=[1276642195630063e-46,-3401102254316749e-45,1025680058010471e-43,-35475981581010704e-43,14292273559424982e-41,-6831888753985767e-39,39628370610464347e-38,-2868042435334643e-35,2683181998482699e-33,-3399615005417722e-31,6221098041892606e-29,-1809129475572494e-26,981082564692473e-23,-1384948176067564e-20,.16663894804518634],CKt=tG.length;function MKt(e){var t,r,n,i,o;if(e<-1.1||e>1.1)return NaN;for(n=0,i=0,t=2*e,o=0;o<CKt;o++)r=n,n=i,i=t*n-r+tG[o];return(i-r)*.5}var xKt=MKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9580,7 +9580,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * The code is adapted from the Fortran routine from the FNLIB library of the [SLATEC Common Mathematical Library]{@link http://www.netlib.no/netlib/fn/d9lgmc.f}.
 *
 * The original code was developed by W. Fullerton of Los Alamos Scientific Laboratory, a governmental institution, and is therefore public domain.
-*/var xKt=rr,LKt=MKt,IKt=9490626562425156e-8,OKt=3745194030963158e291;function RKt(e){return e<10?NaN:e>=OKt?0:e<IKt?LKt(2*xKt(10/e,2)-1)/e:1/(e*12)}var DKt=RKt;/**
+*/var LKt=rr,IKt=xKt,OKt=9490626562425156e-8,RKt=3745194030963158e291;function DKt(e){return e<10?NaN:e>=RKt?0:e<OKt?IKt(2*LKt(10/e,2)-1)/e:1/(e*12)}var NKt=DKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9603,7 +9603,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * The code is adapted from the Fortran routine from the FNLIB library of the [SLATEC Common Mathematical Library]{@link http://www.netlib.no/netlib/slatec/fnlib/albeta.f}.
 *
 * The original code was developed by W. Fullerton of Los Alamos Scientific Laboratory, a governmental institution, and is therefore public domain.
-*/var NKt=zf,F8=Dn,Ww=Bo,FKt=ku,BKt=zs,Tg=Se,$Kt=ZU,zKt=Lr,B8=Fe,jh=DKt;function VKt(e,t){var r,n,i;return n=BKt(e,t),i=FKt(e,t),n<0?NaN:n===0?B8:i===B8?zKt:n>=10?(r=jh(n)+jh(i)-jh(n+i),-.5*Tg(i)+$Kt+r+(n-.5)*Tg(n/(n+i))+i*F8(-n/(n+i))):i>=10?(r=jh(i)-jh(n+i),NKt(n)+r+n-n*Tg(n+i)+(i-.5)*F8(-n/(n+i))):Tg(Ww(n)*(Ww(i)/Ww(n+i)))}var UKt=VKt;/**
+*/var FKt=zf,F8=Dn,Ww=Bo,BKt=ku,$Kt=zs,Tg=Se,zKt=ZU,VKt=Lr,B8=Fe,jh=NKt;function UKt(e,t){var r,n,i;return n=$Kt(e,t),i=BKt(e,t),n<0?NaN:n===0?B8:i===B8?VKt:n>=10?(r=jh(n)+jh(i)-jh(n+i),-.5*Tg(i)+zKt+r+(n-.5)*Tg(n/(n+i))+i*F8(-n/(n+i))):i>=10?(r=jh(i)-jh(n+i),FKt(n)+r+n-n*Tg(n+i)+(i-.5)*F8(-n/(n+i))):Tg(Ww(n)*(Ww(i)/Ww(n+i)))}var GKt=UKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9619,7 +9619,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GKt=UKt,WKt=GKt;/**
+*/var WKt=GKt,jKt=WKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9635,7 +9635,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $8=Bs,z8=Zt,jKt=WKt,HKt=de,V8=Se,U8=Lr;function BT(e,t){return z8(e)||z8(t)?NaN:!$8(e)||!$8(t)?NaN:e<0?BT(-e+t-1,t):t<0?U8:t===0?0:t===1?V8(HKt(e)):e<t?U8:e-t<2?BT(e,e-t):-V8(e+1)-jKt(e-t+1,t+1)}var XKt=BT;/**
+*/var $8=Bs,z8=Zt,HKt=jKt,XKt=de,V8=Se,U8=Lr;function BT(e,t){return z8(e)||z8(t)?NaN:!$8(e)||!$8(t)?NaN:e<0?BT(-e+t-1,t):t<0?U8:t===0?0:t===1?V8(XKt(e)):e<t?U8:e-t<2?BT(e,e-t):-V8(e+1)-HKt(e-t+1,t+1)}var YKt=BT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9651,7 +9651,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YKt=XKt,eG=YKt;/**
+*/var qKt=YKt,eG=qKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9667,7 +9667,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var G8=q_,qKt=eG,jw=Zt,ZKt=Dn,KKt=Ve,JKt=Se,QKt=Fe;function tJt(e,t,r){var n;return jw(e)||jw(t)||jw(r)||r<0||r>1||!G8(t)||t===QKt?NaN:G8(e)?e>t?0:r===0?e===0?1:0:r===1?e===t?1:0:(n=qKt(t,e),n+=e*JKt(r)+(t-e)*ZKt(-r),KKt(n)):0}var eJt=tJt;/**
+*/var G8=q_,ZKt=eG,jw=Zt,KKt=Dn,JKt=Ve,QKt=Se,tJt=Fe;function eJt(e,t,r){var n;return jw(e)||jw(t)||jw(r)||r<0||r>1||!G8(t)||t===tJt?NaN:G8(e)?e>t?0:r===0?e===0?1:0:r===1?e===t?1:0:(n=ZKt(t,e),n+=e*QKt(r)+(t-e)*KKt(-r),JKt(n)):0}var rJt=eJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9683,7 +9683,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var W8=Zt;function rJt(e,t){return W8(e)||W8(t)?NaN:e===t?1:0}var nJt=rJt;/**
+*/var W8=Zt;function nJt(e,t){return W8(e)||W8(t)?NaN:e===t?1:0}var iJt=nJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9699,7 +9699,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var iJt=Y_,j8=Zt;function oJt(e){if(j8(e))return iJt(NaN);return t;function t(r){return j8(r)?NaN:r===e?1:0}}var aJt=oJt;/**
+*/var oJt=Y_,j8=Zt;function aJt(e){if(j8(e))return oJt(NaN);return t;function t(r){return j8(r)?NaN:r===e?1:0}}var sJt=aJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9715,7 +9715,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sJt=yr,rG=nJt,lJt=aJt;sJt(rG,"factory",lJt);var uJt=rG;/**
+*/var lJt=yr,rG=iJt,uJt=sJt;lJt(rG,"factory",uJt);var cJt=rG;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9731,7 +9731,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var H8=q_,cJt=Y_,fJt=eG,X8=uJt.factory,Hw=Zt,hJt=Dn,dJt=Ve,pJt=Se,vJt=Fe;function gJt(e,t){if(Hw(e)||Hw(t)||!H8(e)||e===vJt||t<0||t>1)return cJt(NaN);if(t===0||e===0)return X8(0);if(t===1)return X8(e);return r;function r(n){var i;return Hw(n)?NaN:H8(n)?n>e?0:(i=fJt(e,n),i+=n*pJt(t)+(e-n)*hJt(-t),dJt(i)):0}}var mJt=gJt;/**
+*/var H8=q_,fJt=Y_,hJt=eG,X8=cJt.factory,Hw=Zt,dJt=Dn,pJt=Ve,vJt=Se,gJt=Fe;function mJt(e,t){if(Hw(e)||Hw(t)||!H8(e)||e===gJt||t<0||t>1)return fJt(NaN);if(t===0||e===0)return X8(0);if(t===1)return X8(e);return r;function r(n){var i;return Hw(n)?NaN:H8(n)?n>e?0:(i=hJt(e,n),i+=n*vJt(t)+(e-n)*dJt(-t),pJt(i)):0}}var _Jt=mJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9747,7 +9747,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var _Jt=yr,nG=eJt,yJt=mJt;_Jt(nG,"factory",yJt);var bJt=nG;/**
+*/var yJt=yr,nG=rJt,bJt=_Jt;yJt(nG,"factory",bJt);var wJt=nG;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9763,7 +9763,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var wJt=Xi,$T;function SJt(e){return wJt(e)==="[object Array]"}Array.isArray?$T=Array.isArray:$T=SJt;var TJt=$T;/**
+*/var SJt=Xi,$T;function TJt(e){return SJt(e)==="[object Array]"}Array.isArray?$T=Array.isArray:$T=TJt;var PJt=$T;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9779,7 +9779,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var PJt=TJt,iG=PJt;/**
+*/var EJt=PJt,iG=EJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9795,7 +9795,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var EJt=iG;function kJt(e){return typeof e=="object"&&e!==null&&!EJt(e)}var AJt=kJt;/**
+*/var kJt=iG;function AJt(e){return typeof e=="object"&&e!==null&&!kJt(e)}var CJt=AJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9811,7 +9811,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var CJt=AJt,MJt=CJt;/**
+*/var MJt=CJt,xJt=MJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9827,7 +9827,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var xJt=/./,LJt=xJt;/**
+*/var LJt=/./,IJt=LJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9843,7 +9843,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function IJt(e){return typeof e=="boolean"}var oG=IJt;/**
+*/function OJt(e){return typeof e=="boolean"}var oG=OJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9859,7 +9859,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var OJt=Boolean.prototype.toString,RJt=OJt;/**
+*/var RJt=Boolean.prototype.toString,DJt=RJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9875,7 +9875,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var DJt=RJt;function NJt(e){try{return DJt.call(e),!0}catch{return!1}}var FJt=NJt;/**
+*/var NJt=DJt;function FJt(e){try{return NJt.call(e),!0}catch{return!1}}var BJt=FJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9891,7 +9891,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var BJt=B_,$Jt=Xi,zJt=FJt,VJt=BJt();function UJt(e){return typeof e=="object"?e instanceof Boolean?!0:VJt?zJt(e):$Jt(e)==="[object Boolean]":!1}var aG=UJt;/**
+*/var $Jt=B_,zJt=Xi,VJt=BJt,UJt=$Jt();function GJt(e){return typeof e=="object"?e instanceof Boolean?!0:UJt?VJt(e):zJt(e)==="[object Boolean]":!1}var aG=GJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9907,7 +9907,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GJt=oG,WJt=aG;function jJt(e){return GJt(e)||WJt(e)}var HJt=jJt;/**
+*/var WJt=oG,jJt=aG;function HJt(e){return WJt(e)||jJt(e)}var XJt=HJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9923,7 +9923,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sG=yr,sA=HJt,XJt=oG,YJt=aG;sG(sA,"isPrimitive",XJt);sG(sA,"isObject",YJt);var lG=sA;/**
+*/var sG=yr,sA=XJt,YJt=oG,qJt=aG;sG(sA,"isPrimitive",YJt);sG(sA,"isObject",qJt);var lG=sA;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9939,7 +9939,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function qJt(){return new Function("return this;")()}var ZJt=qJt;/**
+*/function ZJt(){return new Function("return this;")()}var KJt=ZJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9955,7 +9955,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var KJt=typeof self=="object"?self:null,JJt=KJt;/**
+*/var JJt=typeof self=="object"?self:null,QJt=JJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9971,7 +9971,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var QJt=typeof window=="object"?window:null,tQt=QJt;/**
+*/var tQt=typeof window=="object"?window:null,eQt=tQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9987,7 +9987,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eQt=typeof _S=="object"?_S:null,rQt=eQt;/**
+*/var rQt=typeof _S=="object"?_S:null,nQt=rQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10003,7 +10003,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var nQt=lG.isPrimitive,iQt=ZJt,Y8=JJt,q8=tQt,Z8=rQt;function oQt(e){if(arguments.length){if(!nQt(e))throw new TypeError("invalid argument. Must provide a boolean primitive. Value: `"+e+"`.");if(e)return iQt()}if(Y8)return Y8;if(q8)return q8;if(Z8)return Z8;throw new Error("unexpected error. Unable to resolve global object.")}var aQt=oQt;/**
+*/var iQt=lG.isPrimitive,oQt=KJt,Y8=QJt,q8=eQt,Z8=nQt;function aQt(e){if(arguments.length){if(!iQt(e))throw new TypeError("invalid argument. Must provide a boolean primitive. Value: `"+e+"`.");if(e)return oQt()}if(Y8)return Y8;if(q8)return q8;if(Z8)return Z8;throw new Error("unexpected error. Unable to resolve global object.")}var sQt=aQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10019,7 +10019,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sQt=aQt,lQt=sQt;/**
+*/var lQt=sQt,uQt=lQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10035,7 +10035,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var uQt=lQt,K8=uQt(),cQt=K8.document&&K8.document.childNodes,fQt=cQt;/**
+*/var cQt=uQt,K8=cQt(),fQt=K8.document&&K8.document.childNodes,hQt=fQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10051,7 +10051,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hQt=Int8Array,dQt=hQt;/**
+*/var dQt=Int8Array,pQt=dQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10067,39 +10067,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var pQt=LJt,vQt=fQt,gQt=dQt;function mQt(){return typeof pQt=="function"||typeof gQt=="object"||typeof vQt=="function"}var _Qt=mQt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2021 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function yQt(){return/^\s*function\s*([^(]*)/i}var uG=yQt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var bQt=uG,wQt=bQt(),SQt=wQt;/**
+*/var vQt=IJt,gQt=hQt,mQt=pQt;function _Qt(){return typeof vQt=="function"||typeof mQt=="object"||typeof gQt=="function"}var yQt=_Qt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -10115,7 +10083,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var TQt=yr,cG=uG,PQt=SQt;TQt(cG,"REGEXP",PQt);var EQt=cG;/**
+*/function bQt(){return/^\s*function\s*([^(]*)/i}var uG=bQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10131,7 +10099,23 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kQt=iG;function AQt(e){if(typeof e!="function")throw new TypeError("invalid argument. Must provide a function. Value: `"+e+"`.");return t;function t(r){var n,i;if(!kQt(r)||(n=r.length,n===0))return!1;for(i=0;i<n;i++)if(e(r[i])===!1)return!1;return!0}}var CQt=AQt;/**
+*/var wQt=uG,SQt=wQt(),TQt=SQt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2021 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var PQt=yr,cG=uG,EQt=TQt;PQt(cG,"REGEXP",EQt);var kQt=cG;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10147,7 +10131,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var MQt=CQt,xQt=MQt;/**
+*/var AQt=iG;function CQt(e){if(typeof e!="function")throw new TypeError("invalid argument. Must provide a function. Value: `"+e+"`.");return t;function t(r){var n,i;if(!AQt(r)||(n=r.length,n===0))return!1;for(i=0;i<n;i++)if(e(r[i])===!1)return!1;return!0}}var MQt=CQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10163,7 +10147,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function LQt(e){return e!==null&&typeof e=="object"}var IQt=LQt;/**
+*/var xQt=MQt,LQt=xQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10179,7 +10163,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var OQt=yr,RQt=xQt,lA=IQt,DQt=RQt(lA);OQt(lA,"isObjectLikeArray",DQt);var NQt=lA;/**
+*/function IQt(e){return e!==null&&typeof e=="object"}var OQt=IQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10195,7 +10179,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var FQt=NQt;function BQt(e){return FQt(e)&&(e._isBuffer||e.constructor&&typeof e.constructor.isBuffer=="function"&&e.constructor.isBuffer(e))}var $Qt=BQt;/**
+*/var RQt=yr,DQt=LQt,lA=OQt,NQt=DQt(lA);RQt(lA,"isObjectLikeArray",NQt);var FQt=lA;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10211,7 +10195,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var zQt=$Qt,VQt=zQt;/**
+*/var BQt=FQt;function $Qt(e){return BQt(e)&&(e._isBuffer||e.constructor&&typeof e.constructor.isBuffer=="function"&&e.constructor.isBuffer(e))}var zQt=$Qt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10227,7 +10211,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var UQt=Xi,GQt=EQt.REGEXP,WQt=VQt;function jQt(e){var t,r,n;if(r=UQt(e).slice(8,-1),(r==="Object"||r==="Error")&&e.constructor){if(n=e.constructor,typeof n.name=="string")return n.name;if(t=GQt.exec(n.toString()),t)return t[1]}return WQt(e)?"Buffer":r}var HQt=jQt;/**
+*/var VQt=zQt,UQt=VQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10243,7 +10227,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var XQt=HQt,fG=XQt;/**
+*/var GQt=Xi,WQt=kQt.REGEXP,jQt=UQt;function HQt(e){var t,r,n;if(r=GQt(e).slice(8,-1),(r==="Object"||r==="Error")&&e.constructor){if(n=e.constructor,typeof n.name=="string")return n.name;if(t=WQt.exec(n.toString()),t)return t[1]}return jQt(e)?"Buffer":r}var XQt=HQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10259,7 +10243,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YQt=fG;function qQt(e){var t;return e===null?"null":(t=typeof e,t==="object"?YQt(e).toLowerCase():t)}var ZQt=qQt;/**
+*/var YQt=XQt,fG=YQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10275,7 +10259,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var KQt=fG;function JQt(e){return KQt(e).toLowerCase()}var QQt=JQt;/**
+*/var qQt=fG;function ZQt(e){var t;return e===null?"null":(t=typeof e,t==="object"?qQt(e).toLowerCase():t)}var KQt=ZQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10291,7 +10275,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var tte=_Qt,ete=ZQt,rte=QQt,nte=tte()?rte:ete,ite=nte;/**
+*/var JQt=fG;function QQt(e){return JQt(e).toLowerCase()}var tte=QQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10307,7 +10291,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ote=ite;function ate(e){return ote(e)==="function"}var ste=ate;/**
+*/var ete=yQt,rte=KQt,nte=tte,ite=ete()?nte:rte,ote=ite;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10323,7 +10307,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var lte=ste,hG=lte;/**
+*/var ate=ote;function ste(e){return ate(e)==="function"}var lte=ste;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10339,7 +10323,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ute=Object.getPrototypeOf,cte=ute;/**
+*/var ute=lte,hG=ute;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10355,7 +10339,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function fte(e){return e.__proto__}var hte=fte;/**
+*/var cte=Object.getPrototypeOf,fte=cte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10371,7 +10355,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dte=Xi,pte=hte;function vte(e){var t=pte(e);return t||t===null?t:dte(e.constructor)==="[object Function]"?e.constructor.prototype:e instanceof Object?Object.prototype:null}var gte=vte;/**
+*/function hte(e){return e.__proto__}var dte=hte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10387,7 +10371,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mte=hG,_te=cte,yte=gte,zT;mte(Object.getPrototypeOf)?zT=_te:zT=yte;var bte=zT;/**
+*/var pte=Xi,vte=dte;function gte(e){var t=vte(e);return t||t===null?t:pte(e.constructor)==="[object Function]"?e.constructor.prototype:e instanceof Object?Object.prototype:null}var mte=gte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10403,7 +10387,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var wte=bte;function Ste(e){return e==null?null:(e=Object(e),wte(e))}var Tte=Ste;/**
+*/var _te=hG,yte=fte,bte=mte,zT;_te(Object.getPrototypeOf)?zT=yte:zT=bte;var wte=zT;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10419,7 +10403,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Pte=Tte,Ete=Pte;/**
+*/var Ste=wte;function Tte(e){return e==null?null:(e=Object(e),Ste(e))}var Pte=Tte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10435,7 +10419,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kte=MJt,J8=hG,Ate=Ete,hm=$_,Cte=Xi,Mte=Object.prototype;function xte(e){var t;for(t in e)if(!hm(e,t))return!1;return!0}function Lte(e){var t;return kte(e)?(t=Ate(e),t?!hm(e,"constructor")&&hm(t,"constructor")&&J8(t.constructor)&&Cte(t.constructor)==="[object Function]"&&hm(t,"isPrototypeOf")&&J8(t.isPrototypeOf)&&(t===Mte||xte(e)):!0):!1}var Ite=Lte;/**
+*/var Ete=Pte,kte=Ete;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10451,7 +10435,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Ote=Ite,dG=Ote;/**
+*/var Ate=xJt,J8=hG,Cte=kte,hm=$_,Mte=Xi,xte=Object.prototype;function Lte(e){var t;for(t in e)if(!hm(e,t))return!1;return!0}function Ite(e){var t;return Ate(e)?(t=Cte(e),t?!hm(e,"constructor")&&hm(t,"constructor")&&J8(t.constructor)&&Mte(t.constructor)==="[object Function]"&&hm(t,"isPrototypeOf")&&J8(t.isPrototypeOf)&&(t===xte||Lte(e)):!0):!1}var Ote=Ite;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10467,7 +10451,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Rte(e){return typeof e=="string"}var pG=Rte;/**
+*/var Rte=Ote,dG=Rte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10483,7 +10467,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Dte=String.prototype.valueOf,Nte=Dte;/**
+*/function Dte(e){return typeof e=="string"}var pG=Dte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10499,7 +10483,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Fte=Nte;function Bte(e){try{return Fte.call(e),!0}catch{return!1}}var $te=Bte;/**
+*/var Nte=String.prototype.valueOf,Fte=Nte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10515,7 +10499,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var zte=B_,Vte=Xi,Ute=$te,Gte=zte();function Wte(e){return typeof e=="object"?e instanceof String?!0:Gte?Ute(e):Vte(e)==="[object String]":!1}var vG=Wte;/**
+*/var Bte=Fte;function $te(e){try{return Bte.call(e),!0}catch{return!1}}var zte=$te;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10531,7 +10515,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var jte=pG,Hte=vG;function Xte(e){return jte(e)||Hte(e)}var Yte=Xte;/**
+*/var Vte=B_,Ute=Xi,Gte=zte,Wte=Vte();function jte(e){return typeof e=="object"?e instanceof String?!0:Wte?Gte(e):Ute(e)==="[object String]":!1}var vG=jte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10547,7 +10531,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var gG=yr,uA=Yte,qte=pG,Zte=vG;gG(uA,"isPrimitive",qte);gG(uA,"isObject",Zte);var Kte=uA;/**
+*/var Hte=pG,Xte=vG;function Yte(e){return Hte(e)||Xte(e)}var qte=Yte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10563,7 +10547,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Jte=Lf.isPrimitive,Qte=Zt;function tee(e){return Jte(e)&&Qte(e)}var mG=tee;/**
+*/var gG=yr,uA=qte,Zte=pG,Kte=vG;gG(uA,"isPrimitive",Zte);gG(uA,"isObject",Kte);var Jte=uA;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10579,7 +10563,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eee=Lf.isObject,ree=Zt;function nee(e){return eee(e)&&ree(e.valueOf())}var _G=nee;/**
+*/var Qte=Lf.isPrimitive,tee=Zt;function eee(e){return Qte(e)&&tee(e)}var mG=eee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10595,7 +10579,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var iee=mG,oee=_G;function aee(e){return iee(e)||oee(e)}var see=aee;/**
+*/var ree=Lf.isObject,nee=Zt;function iee(e){return ree(e)&&nee(e.valueOf())}var _G=iee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10611,7 +10595,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var yG=yr,cA=see,lee=mG,uee=_G;yG(cA,"isPrimitive",lee);yG(cA,"isObject",uee);var cee=cA;/**
+*/var oee=mG,aee=_G;function see(e){return oee(e)||aee(e)}var lee=see;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10627,7 +10611,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Q8=Lf.isPrimitive,fee=dG,hee=Kte.isPrimitive,tD=cee,Xw=$_;function dee(e,t){return fee(t)?Xw(t,"alpha")&&(e.alpha=t.alpha,!Q8(e.alpha)||tD(e.alpha))?new TypeError("invalid option. `alpha` option must be a number primitive. Option: `"+e.alpha+"`."):Xw(t,"alternative")&&(e.alternative=t.alternative,!hee(e.alternative))?new TypeError("invalid option. `alternative` option must be a string primitive. Option: `"+e.alternative+"`."):Xw(t,"p")&&(e.p=t.p,!Q8(e.p)||tD(e.p))?new TypeError("invalid option. `p` option must be a number primitive. Option: `"+e.p+"`."):null:new TypeError("invalid argument. Options argument must be an object. Value: `"+t+"`.")}var pee=dee;/**
+*/var yG=yr,cA=lee,uee=mG,cee=_G;yG(cA,"isPrimitive",uee);yG(cA,"isObject",cee);var fee=cA;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10643,7 +10627,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var vee=z_.isPrimitive;function gee(e){return vee(e)&&e>0}var bG=gee;/**
+*/var Q8=Lf.isPrimitive,hee=dG,dee=Jte.isPrimitive,tD=fee,Xw=$_;function pee(e,t){return hee(t)?Xw(t,"alpha")&&(e.alpha=t.alpha,!Q8(e.alpha)||tD(e.alpha))?new TypeError("invalid option. `alpha` option must be a number primitive. Option: `"+e.alpha+"`."):Xw(t,"alternative")&&(e.alternative=t.alternative,!dee(e.alternative))?new TypeError("invalid option. `alternative` option must be a string primitive. Option: `"+e.alternative+"`."):Xw(t,"p")&&(e.p=t.p,!Q8(e.p)||tD(e.p))?new TypeError("invalid option. `p` option must be a number primitive. Option: `"+e.p+"`."):null:new TypeError("invalid argument. Options argument must be an object. Value: `"+t+"`.")}var vee=pee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10659,7 +10643,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mee=z_.isObject;function _ee(e){return mee(e)&&e.valueOf()>0}var wG=_ee;/**
+*/var gee=z_.isPrimitive;function mee(e){return gee(e)&&e>0}var bG=mee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10675,7 +10659,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var yee=bG,bee=wG;function wee(e){return yee(e)||bee(e)}var See=wee;/**
+*/var _ee=z_.isObject;function yee(e){return _ee(e)&&e.valueOf()>0}var wG=yee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10691,7 +10675,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var SG=yr,fA=See,Tee=bG,Pee=wG;SG(fA,"isPrimitive",Tee);SG(fA,"isObject",Pee);var Eee=fA;/**
+*/var bee=bG,wee=wG;function See(e){return bee(e)||wee(e)}var Tee=See;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10707,7 +10691,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kee=9007199254740991,Aee=kee;/**
+*/var SG=yr,fA=Tee,Pee=bG,Eee=wG;SG(fA,"isPrimitive",Pee);SG(fA,"isObject",Eee);var kee=fA;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10723,7 +10707,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Cee=308,Mee=Cee;/**
+*/var Aee=9007199254740991,Cee=Aee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10739,7 +10723,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var xee=-308,Lee=xee;/**
+*/var Mee=308,xee=Mee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10755,7 +10739,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Iee=-324,Oee=Iee;/**
+*/var Lee=-308,Iee=Lee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10771,7 +10755,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eD=Zt,Pg=Nf,rD=rr,Ree=de,nD=G_,Dee=Aee,iD=Mee,Nee=Lee,Fee=Oee,Bee=Dee+1,oD=1e308;function $ee(e,t){var r,n;return eD(e)||eD(t)||Pg(t)?NaN:Pg(e)||e===0||t<Fee||Ree(e)>Bee&&t<=0?e:t>iD?0*e:t<Nee?(r=rD(10,-(t+iD)),n=e*oD*r,Pg(n)?e:nD(n)/oD/r):(r=rD(10,-t),n=e*r,Pg(n)?e:nD(n)/r)}var zee=$ee;/**
+*/var Oee=-324,Ree=Oee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10787,7 +10771,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Vee=zee,Uee=Vee;/**
+*/var eD=Zt,Pg=Nf,rD=rr,Dee=de,nD=G_,Nee=Cee,iD=xee,Fee=Iee,Bee=Ree,$ee=Nee+1,oD=1e308;function zee(e,t){var r,n;return eD(e)||eD(t)||Pg(t)?NaN:Pg(e)||e===0||t<Bee||Dee(e)>$ee&&t<=0?e:t>iD?0*e:t<Fee?(r=rD(10,-(t+iD)),n=e*oD*r,Pg(n)?e:nD(n)/oD/r):(r=rD(10,-t),n=e*r,Pg(n)?e:nD(n)/r)}var Vee=zee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10803,7 +10787,23 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Gee=Eee,Wee=dG,jee=lG.isPrimitive,aD=$_,Eg=Uee;function Hee(e){var t,r,n;if(r=4,t=!0,arguments.length>0){if(!Wee(e))throw new TypeError("invalid argument. First argument must be an options object. Value: `"+e+"`.");if(aD(e,"digits")){if(!Gee(e.digits))throw new TypeError("invalid option. `digits` option must be a positive integer. Option: `"+e.digits+"`.");r=e.digits}if(aD(e,"decision")){if(!jee(e.decision))throw new TypeError("invalid option. `decision` option must be a boolean primitive. Option: `"+e.decision+"`.");t=e.decision}}switch(n="",n+=this.method,n+=`
+*/var Uee=Vee,Gee=Uee;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Wee=kee,jee=dG,Hee=lG.isPrimitive,aD=$_,Eg=Gee;function Xee(e){var t,r,n;if(r=4,t=!0,arguments.length>0){if(!jee(e))throw new TypeError("invalid argument. First argument must be an options object. Value: `"+e+"`.");if(aD(e,"digits")){if(!Wee(e.digits))throw new TypeError("invalid option. `digits` option must be a positive integer. Option: `"+e.digits+"`.");r=e.digits}if(aD(e,"decision")){if(!Hee(e.decision))throw new TypeError("invalid option. `decision` option must be a boolean primitive. Option: `"+e.decision+"`.");t=e.decision}}switch(n="",n+=this.method,n+=`
 
 `,n+="Alternative hypothesis: ",n+="True correlation coefficient is ",this.alternative){case"less":n+="less than ";break;case"greater":n+="greater than ";break;case"two-sided":default:n+="not equal to ";break}return n+=this.nullValue,n+=`
 
@@ -10812,7 +10812,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 `,n+="    "+(1-this.alpha)*100+"% confidence interval: ["+Eg(this.ci[0],-r)+","+Eg(this.ci[1],-r)+"]",n+=`
 
 `,t&&(n+="Test Decision: ",this.rejected?n+="Reject null in favor of alternative at "+this.alpha*100+"% significance level":n+="Fail to reject null in favor of alternative at "+this.alpha*100+"% significance level",n+=`
-`),n}var Xee=Hee;/**
+`),n}var Yee=Xee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10828,7 +10828,7 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Qo=C5t,Yee=Xxt,sD=TLt,TG=aKt,qee=Rn,Zee=cU,uc=kKt,Yw=bJt,lD=pee,Kee=Xee,uD=1+1e-7;function cD(e,t,r){return e===0?0:TG(r,e,t-e+1)}function fD(e,t,r){return e===t?1:TG(1-r,e+1,t-e)}function Jee(){var e,t,r,n,i,o,a,s,l,u,c,f,h,d,p;if(t={},Yee(arguments[0])){if(h=arguments[0],h.length!==2)throw new Error("invalid argument. If provided an array, it must have two elements. Value: `"+h+"`.");c=h[1]+h[0],h=h[0],arguments[1]&&(a=lD(t,arguments[1]))}else{if(h=arguments[0],c=arguments[1],!sD(h))throw new TypeError("invalid argument. Must provide a nonnegative integer or a two-element array. Value: `"+h+"`.");if(!sD(c))throw new TypeError("invalid argument. Must provide a nonnegative integer. Value: `"+c+"`.");if(h>c)throw new TypeError("invalid arguments. `x` cannot be larger than `n`. `x:"+h+", n:"+c+"`.");arguments[2]&&(a=lD(t,arguments[2]))}if(a)throw a;if(t.alpha===void 0?e=.05:e=t.alpha,e<0||e>1)throw new RangeError("invalid argument. Option `alpha` must be a number in the range 0 to 1. Value: `"+e+"`.");if(t.p===void 0?f=.5:f=t.p,f<0||f>1)throw new RangeError("invalid argument. Option `p` must be a probability. Value: `"+f+"`.");switch(o=t.alternative||"two-sided",i=h/c,o){case"less":n=uc(h,c,f),r=[0,fD(h,c,e)];break;case"greater":n=1-uc(h-1,c,f),r=[cD(h,c,e),1];break;case"two-sided":if(l=Yw(h,c,f),u=c*f,h===u)n=1;else if(h<u){for(d=0,p=Zee(u);p<=c;p++)Yw(p,c,f)<=l*uD&&(d+=1);n=uc(h,c,f)+(1-uc(c-d,c,f))}else{for(d=0,p=0;p<=qee(u);p++)Yw(p,c,f)<=l*uD&&(d+=1);n=uc(d-1,c,f)+(1-uc(h-1,c,f))}r=[cD(h,c,e/2),fD(h,c,e/2)];break;default:throw new Error("Invalid option. `alternative` must be either `two-sided`, `less` or `greater`. Value: `"+o+"`")}return s={},Qo(s,"rejected",n<=e),Qo(s,"alpha",e),Qo(s,"pValue",n),Qo(s,"statistic",i),Qo(s,"ci",r),Qo(s,"nullValue",f),Qo(s,"alternative",o),Qo(s,"method","Exact binomial test"),Qo(s,"print",Kee),s}var Qee=Jee;/**
+*/var Qo=M5t,qee=Yxt,sD=PLt,TG=sKt,Zee=Rn,Kee=cU,uc=AKt,Yw=wJt,lD=vee,Jee=Yee,uD=1+1e-7;function cD(e,t,r){return e===0?0:TG(r,e,t-e+1)}function fD(e,t,r){return e===t?1:TG(1-r,e+1,t-e)}function Qee(){var e,t,r,n,i,o,a,s,l,u,c,f,h,d,p;if(t={},qee(arguments[0])){if(h=arguments[0],h.length!==2)throw new Error("invalid argument. If provided an array, it must have two elements. Value: `"+h+"`.");c=h[1]+h[0],h=h[0],arguments[1]&&(a=lD(t,arguments[1]))}else{if(h=arguments[0],c=arguments[1],!sD(h))throw new TypeError("invalid argument. Must provide a nonnegative integer or a two-element array. Value: `"+h+"`.");if(!sD(c))throw new TypeError("invalid argument. Must provide a nonnegative integer. Value: `"+c+"`.");if(h>c)throw new TypeError("invalid arguments. `x` cannot be larger than `n`. `x:"+h+", n:"+c+"`.");arguments[2]&&(a=lD(t,arguments[2]))}if(a)throw a;if(t.alpha===void 0?e=.05:e=t.alpha,e<0||e>1)throw new RangeError("invalid argument. Option `alpha` must be a number in the range 0 to 1. Value: `"+e+"`.");if(t.p===void 0?f=.5:f=t.p,f<0||f>1)throw new RangeError("invalid argument. Option `p` must be a probability. Value: `"+f+"`.");switch(o=t.alternative||"two-sided",i=h/c,o){case"less":n=uc(h,c,f),r=[0,fD(h,c,e)];break;case"greater":n=1-uc(h-1,c,f),r=[cD(h,c,e),1];break;case"two-sided":if(l=Yw(h,c,f),u=c*f,h===u)n=1;else if(h<u){for(d=0,p=Kee(u);p<=c;p++)Yw(p,c,f)<=l*uD&&(d+=1);n=uc(h,c,f)+(1-uc(c-d,c,f))}else{for(d=0,p=0;p<=Zee(u);p++)Yw(p,c,f)<=l*uD&&(d+=1);n=uc(d-1,c,f)+(1-uc(h-1,c,f))}r=[cD(h,c,e/2),fD(h,c,e/2)];break;default:throw new Error("Invalid option. `alternative` must be either `two-sided`, `less` or `greater`. Value: `"+o+"`")}return s={},Qo(s,"rejected",n<=e),Qo(s,"alpha",e),Qo(s,"pValue",n),Qo(s,"statistic",i),Qo(s,"ci",r),Qo(s,"nullValue",f),Qo(s,"alternative",o),Qo(s,"method","Exact binomial test"),Qo(s,"print",Jee),s}var tre=Qee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10844,4 +10844,4 @@ suggested: ${n.gameStore.nodeName(s.tnk)}`+(n.userStore.pzJobs[s.key].worker.tnk
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var tre=Qee,hA=tre;const ere=Array.prototype.concat,PG=Object.prototype.toString;function EG(e,t){var r=e>t?e:t;return Math.pow(10,17-~~(Math.log(r>0?r:-r)*Math.LOG10E))}const Oo=Array.isArray||function(t){return PG.call(t)==="[object Array]"};function k0(e){return PG.call(e)==="[object Function]"}function Mr(e){return typeof e=="number"?e-e===0:!1}function rre(e){return ere.apply([],e)}const kG={calcRdx:EG,isArray:Oo,isFunction:k0,isNumber:Mr,toVector:rre};let si=Math.random;function AG(e){if(typeof e!="function")throw new TypeError("fn is not a function");si=e}function Z_(e){return e.length||1}function CG(e){return e[0].length||1}function nre(e){return{rows:Z_(e),cols:CG(e)}}function dA(e,t){return Oo(t)?t.map(r=>dA(e,r)):e[t]}function MG(e,t){return dA(e,t)}function S1(e,t){if(Oo(t)){const n=Ie(e.length).map(()=>new Array(t.length));return t.forEach(function(i,o){Ie(e.length).forEach(function(a){n[a][o]=e[a][i]})}),n}const r=new Array(e.length);for(let n=0;n<e.length;n++)r[n]=[e[n][t]];return r}function xG(e,t){return S1(e,t).map(r=>r[0])}function ire(e){const t=Z_(e),r=new Array(t);for(let n=0;n<t;n++)r[n]=[e[n][n]];return r}function ore(e){for(var t=Z_(e)-1,r=new Array(t),n=0;t>=0;t--,n++)r[n]=[e[n][t]];return r}function Es(e){var t=[],r,n,i,o,a;for(Oo(e[0])||(e=[e]),n=e.length,i=e[0].length,a=0;a<i;a++){for(r=new Array(n),o=0;o<n;o++)r[o]=e[o][a];t.push(r)}return t.length===1?t[0]:t}function sn(e,t,r){var n,i,o,a,s;for(Oo(e[0])||(e=[e]),i=e.length,o=e[0].length,a=r?e:new Array(i),n=0;n<i;n++)for(a[n]||(a[n]=new Array(o)),s=0;s<o;s++)a[n][s]=t(e[n][s],n,s);return a.length===1?a[0]:a}function K_(e,t,r){var n,i,o,a,s;for(Oo(e[0])||(e=[e]),i=e.length,o=e[0].length,a=r?e:new Array(i),n=0;n<i;n++)for(a[n]||(a[n]=new Array(o)),o>0&&(a[n][0]=e[n][0]),s=1;s<o;s++)a[n][s]=t(a[n][s-1],e[n][s]);return a.length===1?a[0]:a}function pA(e,t){return sn(e,t,!0)}function Uf(e,t,r){var n=new Array(e),i,o;for(k0(t)&&(r=t,t=e),i=0;i<e;i++)for(n[i]=new Array(t),o=0;o<t;o++)n[i][o]=r(i,o);return n}function LG(){return 0}function are(){return 1}function sre(e,t){return e===t?1:0}function $o(e,t){return Mr(t)||(t=e),Uf(e,t,LG)}function lre(e,t){return Mr(t)||(t=e),Uf(e,t,are)}function ure(e,t){return Mr(t)||(t=e),Uf(e,t,si)}function lu(e,t){return Mr(t)||(t=e),Uf(e,t,sre)}function cre(e){var t=e.length,r,n;if(e.length!==e[0].length)return!1;for(r=0;r<t;r++)for(n=0;n<t;n++)if(e[n][r]!==e[r][n])return!1;return!0}function fre(e){return pA(e,LG)}function IG(e,t,r,n){k0(n)||(n=!1);var i=[],o=EG(e,t),a=(t*o-e*o)/((r-1)*o),s=e,l;for(l=0;s<=t&&l<r;l++,s=(e*o+a*o*l)/o)i.push(n?n(s,l):s);return i}function Ie(e,t,r){var n=[],i;if(r=r||1,t===void 0&&(t=e,e=0),e===t||r===0)return[];if(e<t&&r<0)return[];if(e>t&&r>0)return[];if(r>0)for(i=e;i<t;i+=r)n.push(i);else for(i=e;i>t;i+=r)n.push(i);return n}function ra(e,t){function r(l,u,c,f){var h,d=[],p=l.length;if(u===void 0&&c===void 0&&f===void 0)return J_(l);if(u=u||0,c=c||l.length,u=u>=0?u:p+u,c=c>=0?c:p+c,f=f||1,u===c||f===0)return[];if(u<c&&f<0)return[];if(u>c&&f>0)return[];if(f>0)for(h=u;h<c;h+=f)d.push(l[h]);else for(h=u;h>c;h+=f)d.push(l[h]);return d}var n,i;if(t=t||{},Mr(t.row)){if(Mr(t.col))return e[t.row][t.col];var o=MG(e,t.row);return n=t.col||{},r(o,n.start,n.end,n.step)}if(Mr(t.col)){var a=xG(e,t.col);return i=t.row||{},r(a,i.start,i.end,i.step)}i=t.row||{},n=t.col||{};var s=r(e,i.start,i.end,i.step);return s.map(function(l){return r(l,n.start,n.end,n.step)})}function od(e,t,r){var n,i;if(Mr(t.row)){if(Mr(t.col))return e[t.row][t.col]=r;t.col=t.col||{},t.col.start=t.col.start||0,t.col.end=t.col.end||e[0].length,t.col.step=t.col.step||1,n=Ie(t.col.start,Math.min(e.length,t.col.end),t.col.step);var o=t.row;return n.forEach(function(s,l){e[o][s]=r[l]}),e}if(Mr(t.col)){t.row=t.row||{},t.row.start=t.row.start||0,t.row.end=t.row.end||e.length,t.row.step=t.row.step||1,i=Ie(t.row.start,Math.min(e[0].length,t.row.end),t.row.step);var a=t.col;return i.forEach(function(s,l){e[s][a]=r[l]}),e}return r[0].length===void 0&&(r=[r]),t.row.start=t.row.start||0,t.row.end=t.row.end||e.length,t.row.step=t.row.step||1,t.col.start=t.col.start||0,t.col.end=t.col.end||e[0].length,t.col.step=t.col.step||1,i=Ie(t.row.start,Math.min(e.length,t.row.end),t.row.step),n=Ie(t.col.start,Math.min(e[0].length,t.col.end),t.col.step),i.forEach(function(s,l){n.forEach(function(u,c){e[s][u]=r[l][c]})}),e}function hre(e){var t=$o(e.length,e.length);return e.forEach(function(r,n){t[n][n]=r}),t}function J_(e){return e.map(function(t){return Mr(t)?t:t.map(function(r){return r})})}const dre=Object.freeze(Object.defineProperty({__proto__:null,utils:kG,get random_fn(){return si},setRandom:AG,rows:Z_,cols:CG,dimensions:nre,row:dA,rowa:MG,col:S1,cola:xG,diag:ire,antidiag:ore,transpose:Es,map:sn,cumreduce:K_,alter:pA,create:Uf,zeros:$o,ones:lre,rand:ure,identity:lu,symmetric:cre,clear:fre,seq:IG,arange:Ie,slice:ra,sliceAssign:od,diagonal:hre,copy:J_},Symbol.toStringTag,{value:"Module"}));function Gf(e,t){return e-t}function hD(e,t,r){return Math.max(t,Math.min(e,r))}function ln(e){for(var t=0,r=e.length;--r>=0;)t+=e[r];return t}function pre(e){for(var t=0,r=e.length;--r>=0;)t+=e[r]*e[r];return t}function Q_(e){for(var t=lr(e),r=0,n=e.length,i;--n>=0;)i=e[n]-t,r+=i*i;return r}function vre(e){for(var t=0,r=e.length;--r>=0;)t+=e[r];return t}function OG(e){for(var t=1,r=e.length;--r>=0;)t*=e[r];return t}function vA(e){for(var t=e[0],r=0;++r<e.length;)e[r]<t&&(t=e[r]);return t}function gA(e){for(var t=e[0],r=0;++r<e.length;)e[r]>t&&(t=e[r]);return t}function gre(e){for(var t={},r=[],n=0;n<e.length;n++)t[e[n]]||(t[e[n]]=!0,r.push(e[n]));return r}function lr(e){return ln(e)/e.length}function mre(e){return Q_(e)/e.length}function _re(e){return Math.pow(OG(e),1/e.length)}function VT(e){var t=e.length,r=e.slice().sort(Gf);return t&1?r[t/2|0]:(r[t/2-1]+r[t/2])/2}function yre(e){return K_(e,function(t,r){return t+r})}function bre(e){return K_(e,function(t,r){return t*r})}function wre(e){var t=[],r=e.length,n;for(n=1;n<r;n++)t.push(e[n]-e[n-1]);return t}function UT(e){var t,r=[],n={};for(t=0;t<e.length;t++){var i=e[t];n[i]?n[i]++:(n[i]=1,r.push(i))}var o=r.sort(Gf),a={},s=1;for(t=0;t<o.length;t++){var i=o[t],l=n[i],u=s,c=s+l-1,f=(u+c)/2;a[i]=f,s+=l}return e.map(function(h){return a[h]})}function Sre(e){var t=e.length,r=e.slice().sort(Gf),n=1,i=0,o=0,a=[],s;for(s=0;s<t;s++)r[s]===r[s+1]?n++:(n>i?(a=[r[s]],i=n,o=0):n===i&&(a.push(r[s]),o++),n=1);return o===0?a[0]:a}function Tre(e){return gA(e)-vA(e)}function RG(e,t){return Q_(e)/(e.length-(t?1:0))}function DG(e){var t=e.reduce(function(n,i){return n+Q_(i)},0),r=e.reduce(function(n,i){return n+i.length},0);return t/(r-e.length)}function Pre(e){for(var t=lr(e),r=e.length,n=new Array(r),i=0;i<r;i++)n[i]=e[i]-t;return n}function Pa(e,t){return Math.sqrt(RG(e,t))}function NG(e){return Math.sqrt(DG(e))}function Ere(e){for(var t=lr(e),r=[],n=e.length-1;n>=0;n--)r.push(Math.abs(e[n]-t));return lr(r)}function kre(e){for(var t=VT(e),r=[],n=e.length-1;n>=0;n--)r.push(Math.abs(e[n]-t));return VT(r)}function Are(e){return Pa(e)/lr(e)}function Cre(e){var t=e.length,r=e.slice().sort(Gf);return[r[Math.round(t/4)-1],r[Math.round(t/2)-1],r[Math.round(t*3/4)-1]]}function Mre(e,t,r,n){var i=e.slice().sort(Gf),o=[t.length],a=e.length,s,l,u,c,f,h;for(typeof r>"u"&&(r=3/8),typeof n>"u"&&(n=3/8),s=0;s<t.length;s++)l=t[s],u=r+l*(1-r-n),c=a*l+u,f=Math.floor(hD(c,1,a-1)),h=hD(c-f,0,1),o[s]=(1-h)*i[f-1]+h*i[f];return o}function xre(e,t,r){var n=e.slice().sort(Gf),i=t*(n.length+(r?1:-1))+(r?0:1),o=parseInt(i),a=i-o;return o+1<n.length?n[o-1]+a*(n[o]-n[o-1]):n[o-1]}function Lre(e,t,r){var n=0,i=e.length,o=!1,a,s;for(r==="strict"&&(o=!0),s=0;s<i;s++)a=e[s],(o&&a<t||!o&&a<=t)&&n++;return n/i}function Ire(e,t){t=t||4;var r=vA(e),n=(gA(e)-r)/t,i=e.length,o=[],a;for(a=0;a<t;a++)o[a]=0;for(a=0;a<i;a++)o[Math.min(Math.floor((e[a]-r)/n),t-1)]+=1;return o}function FG(e,t){var r=lr(e),n=lr(t),i=e.length,o=new Array(i),a;for(a=0;a<i;a++)o[a]=(e[a]-r)*(t[a]-n);return ln(o)/(i-1)}function BG(e,t){return FG(e,t)/Pa(e,1)/Pa(t,1)}function Ore(e,t){return e=UT(e),t=UT(t),BG(e,t)}function mA(e,t){for(var r=lr(e),n=Pa(e),i=e.length,o=0,a=0;a<i;a++)o+=Math.pow((e[a]-r)/n,t);return o/e.length}function Rre(e){return mA(e,3)}function Dre(e){return mA(e,4)-3}const Nre=Object.freeze(Object.defineProperty({__proto__:null,sum:ln,sumsqrd:pre,sumsqerr:Q_,sumrow:vre,product:OG,min:vA,max:gA,unique:gre,mean:lr,meansqerr:mre,geomean:_re,median:VT,cumsum:yre,cumprod:bre,diff:wre,rank:UT,mode:Sre,range:Tre,variance:RG,pooledvariance:DG,deviation:Pre,stdev:Pa,pooledstdev:NG,meandev:Ere,meddev:kre,coeffvar:Are,quartiles:Cre,quantiles:Mre,percentile:xre,percentileOfScore:Lre,histogram:Ire,covariance:FG,corrcoeff:BG,spearmancoeff:Ore,stanMoment:mA,skewness:Rre,kurtosis:Dre},Symbol.toStringTag,{value:"Module"}));function Fre(e,t,r){return e<t||e>r?0:1/(r-t)}function Bre(e,t,r){return e<t?0:e<r?(e-t)/(r-t):1}function $re(e,t,r){return t+e*(r-t)}function zre(e,t){return .5*(e+t)}function Vre(e,t){return lr(e)}function Ure(){throw new Error("mode is not yet implemented")}function $G(e,t){return e/2+t/2+(t/2-e/2)*(2*si()-1)}function Gre(e,t){return Math.pow(t-e,2)/12}const Wre=Object.freeze(Object.defineProperty({__proto__:null,pdf:Fre,cdf:Bre,inv:$re,mean:zre,median:Vre,mode:Ure,sample:$G,variance:Gre},Symbol.toStringTag,{value:"Module"}));function jre(e,t,r){return r<=t?NaN:e<=t||e>=r?0:2/Math.PI*Math.pow(Math.pow(r-t,2)-Math.pow(2*e-t-r,2),-.5)}function Hre(e,t,r){return e<t?0:e<r?2/Math.PI*Math.asin(Math.sqrt((e-t)/(r-t))):1}function Xre(e,t,r){return t+(.5-.5*Math.cos(Math.PI*e))*(r-t)}function Yre(e,t){return t<=e?NaN:(e+t)/2}function qre(e,t){return t<=e?NaN:(e+t)/2}function Zre(){throw new Error("mode is not yet implemented")}function Kre(e,t){return(e+t)/2+(t-e)/2*Math.sin(2*Math.PI*$G(0,1))}function Jre(e,t){return t<=e?NaN:Math.pow(t-e,2)/8}const Qre=Object.freeze(Object.defineProperty({__proto__:null,pdf:jre,cdf:Hre,inv:Xre,mean:Yre,median:qre,mode:Zre,sample:Kre,variance:Jre},Symbol.toStringTag,{value:"Module"}));function Ge(e){var t=0,r=[76.18009172947146,-86.50532032941678,24.01409824083091,-1.231739572450155,.001208650973866179,-5395239384953e-18],n=1.000000000190015,i,o,a;for(a=(o=i=e)+5.5,a-=(i+.5)*Math.log(a);t<6;t++)n+=r[t]/++o;return Math.log(2.5066282746310007*n/i)-a}function zG(e){var t,r,n,i,o,a,s,l=[.08333333333333333,-.002777777777777778,.0007936507936507937,-.0005952380952380952,.0008417508417508418,-.001917526917526918,.00641025641025641,-.02955065359477124,.1796443723688307,-1.3924322169059];if(t=e,s=0,e==1||e==2)return 0;for(e<=7&&(s=Math.floor(7-e),t=e+s),r=1/(t*t),n=2*Math.PI,o=l[9],a=8;a>=0;a--)o*=r,o+=l[a];if(i=o/t+.5*Math.log(n)+(t-.5)*Math.log(t)-t,e<=7)for(a=1;a<=s;a++)i-=Math.log(t-1),t-=1;return i}function Ni(e){var t=[-1.716185138865495,24.76565080557592,-379.80425647094563,629.3311553128184,866.9662027904133,-31451.272968848367,-36144.413418691176,66456.14382024054],r=[-30.8402300119739,315.35062697960416,-1015.1563674902192,-3107.771671572311,22538.11842098015,4755.846277527881,-134659.9598649693,-115132.2596755535],n=!1,i=0,o=0,a=0,s=e,l,u,c,f;if(e>171.6243769536076)return 1/0;if(s<=0)if(f=s%1+36e-17,f)n=(s&1?-1:1)*Math.PI/Math.sin(Math.PI*f),s=1-s;else return 1/0;for(c=s,s<1?u=s++:u=(s-=i=(s|0)-1)-1,l=0;l<8;++l)a=(a+t[l])*u,o=o*u+r[l];if(f=a/o+1,c<s)f/=c;else if(c>s)for(l=0;l<i;++l)f*=s,s++;return n&&(f=n/f),f}function tne(e,t){return Wf(e,t)*Ni(e)}function Wf(e,t){var r=Ge(e),n=e,i=1/e,o=i,a=t+1-e,s=1/1e-30,l=1/a,u=l,c=1,f=-~(Math.log(e>=1?e:1/e)*8.5+e*.4+17),h;if(t<0||e<=0)return NaN;if(t<e+1){for(;c<=f;c++)i+=o*=t/++n;return i*Math.exp(-t+e*Math.log(t)-r)}for(;c<=f;c++)h=-c*(c-e),a+=2,l=h*l+a,s=a+h/s,l=1/l,u*=l*s;return 1-u*Math.exp(-t+e*Math.log(t)-r)}function dm(e){return e<0?NaN:Ge(e+1)}function Xl(e){return e<0?NaN:Ni(e+1)}function _A(e,t){return e>170||t>170?Math.exp(VG(e,t)):Xl(e)/Xl(t)/Xl(e-t)}function VG(e,t){return dm(e)-dm(t)-dm(e-t)}function ene(e,t){return Xl(e)/Xl(e-t)}function ty(e,t){if(!(e<=0||t<=0))return e+t>170?Math.exp(yA(e,t)):Ni(e)*Ni(t)/Ni(e+t)}function yA(e,t){return Ge(e)+Ge(t)-Ge(e+t)}function GT(e,t,r){var n=1e-30,i=1,o=t+r,a=t+1,s=t-1,l=1,u=1-o*e/a,c,f,h,d;for(Math.abs(u)<n&&(u=n),u=1/u,d=u;i<=100&&(c=2*i,f=i*(r-i)*e/((s+c)*(t+c)),u=1+f*u,Math.abs(u)<n&&(u=n),l=1+f/l,Math.abs(l)<n&&(l=n),u=1/u,d*=u*l,f=-(t+i)*(o+i)*e/((t+c)*(a+c)),u=1+f*u,Math.abs(u)<n&&(u=n),l=1+f/l,Math.abs(l)<n&&(l=n),u=1/u,h=u*l,d*=h,!(Math.abs(h-1)<3e-7));i++);return d}function ey(e,t){var r=0,n=t-1,i=1e-8,o=Ge(t),a,s,l,u,c,f,h;if(e>=1)return Math.max(100,t+100*Math.sqrt(t));if(e<=0)return 0;for(t>1?(f=Math.log(n),h=Math.exp(n*(f-1)-o),c=e<.5?e:1-e,l=Math.sqrt(-2*Math.log(c)),a=(2.30753+l*.27061)/(1+l*(.99229+l*.04481))-l,e<.5&&(a=-a),a=Math.max(.001,t*Math.pow(1-1/(9*t)-a/(3*Math.sqrt(t)),3))):(l=1-t*(.253+t*.12),e<l?a=Math.pow(e/l,1/t):a=1-Math.log(1-(e-l)/(1-l)));r<12;r++){if(a<=0)return 0;if(s=Wf(t,a)-e,t>1?l=h*Math.exp(-(a-n)+n*(Math.log(a)-f)):l=Math.exp(-a+n*Math.log(a)-o),u=s/l,a-=l=u/(1-.5*Math.min(1,u*((t-1)/a-1))),a<=0&&(a=.5*(a+l)),Math.abs(l)<i*a)break}return a}function ry(e){var t=[-1.3026537197817094,.6419697923564902,.019476473204185836,-.00956151478680863,-.000946595344482036,.000366839497852761,42523324806907e-18,-20278578112534e-18,-1624290004647e-18,130365583558e-17,15626441722e-18,-85238095915e-18,6529054439e-18,5059343495e-18,-991364156e-18,-227365122e-18,96467911e-18,2394038e-18,-6886027e-18,894487e-18,313092e-18,-112708e-18,381e-18,7106e-18,-1523e-18,-94e-18,121e-18,-28e-18],r=t.length-1,n=!1,i=0,o=0,a,s,l,u;for(e<0&&(e=-e,n=!0),a=2/(2+e),s=4*a-2;r>0;r--)l=i,i=s*i-o+t[r],o=l;return u=a*Math.exp(-e*e+.5*(t[0]+s*i)-o),n?u-1:1-u}function UG(e){return 1-ry(e)}function bA(e){var t=0,r,n,i,o;if(e>=2)return-100;if(e<=0)return 100;for(o=e<1?e:2-e,i=Math.sqrt(-2*Math.log(o/2)),r=-.70711*((2.30753+i*.27061)/(1+i*(.99229+i*.04481))-i);t<2;t++)n=UG(r)-o,r+=n/(1.1283791670955126*Math.exp(-r*r)-r*n);return e<1?r:-r}function ap(e,t,r){var n=1e-8,i=t-1,o=r-1,a=0,s,l,u,c,f,h,d,p,v,g,m;if(e<=0)return 0;if(e>=1)return 1;for(t>=1&&r>=1?(u=e<.5?e:1-e,c=Math.sqrt(-2*Math.log(u)),d=(2.30753+c*.27061)/(1+c*(.99229+c*.04481))-c,e<.5&&(d=-d),p=(d*d-3)/6,v=2/(1/(2*t-1)+1/(2*r-1)),g=d*Math.sqrt(p+v)/v-(1/(2*r-1)-1/(2*t-1))*(p+5/6-2/(3*v)),d=t/(t+r*Math.exp(2*g))):(s=Math.log(t/(t+r)),l=Math.log(r/(t+r)),c=Math.exp(t*s)/t,f=Math.exp(r*l)/r,g=c+f,e<c/g?d=Math.pow(t*g*e,1/t):d=1-Math.pow(r*g*(1-e),1/r)),m=-Ge(t)-Ge(r)+Ge(t+r);a<10;a++){if(d===0||d===1)return d;if(h=sp(d,t,r)-e,c=Math.exp(i*Math.log(d)+o*Math.log(1-d)+m),f=h/c,d-=c=f/(1-.5*Math.min(1,f*(i/d-o/(1-d)))),d<=0&&(d=.5*(d+c)),d>=1&&(d=.5*(d+c+1)),Math.abs(c)<n*d&&a>0)break}return d}function sp(e,t,r){var n=e===0||e===1?0:Math.exp(Ge(t+r)-Ge(t)-Ge(r)+t*Math.log(e)+r*Math.log(1-e));return e<0||e>1?!1:e<(t+1)/(t+r+2)?n*GT(e,t,r)/t:1-n*GT(1-e,r,t)/r}function Cu(e,t){var r,n,i,o,a;if(t||(t=e),e)return Uf(e,t,function(){return Cu()});do r=si(),n=1.7156*(si()-.5),i=r-.449871,o=Math.abs(n)+.386595,a=i*i+o*(.196*o-.25472*i);while(a>.27597&&(a>.27846||n*n>-4*Math.log(r)*r*r));return n/r}function Ro(e,t,r){var n=e,i,o,a,s,l,u;if(r||(r=t),e||(e=1),t)return u=$o(t,r),u.alter(function(){return Ro(e)}),u;e<1&&(e+=1),i=e-1/3,o=1/Math.sqrt(9*i);do{do l=Cu(),s=1+o*l;while(s<=0);s=s*s*s,a=si()}while(a>1-.331*Math.pow(l,4)&&Math.log(a)>.5*l*l+i*(1-s+Math.log(s)));if(e==n)return i*s;do a=si();while(a===0);return Math.pow(a,1/n)*i*s}const rne=Object.freeze(Object.defineProperty({__proto__:null,gammaln:Ge,loggam:zG,gammafn:Ni,gammap:tne,lowRegGamma:Wf,factorialln:dm,factorial:Xl,combination:_A,combinationln:VG,permutation:ene,betafn:ty,betaln:yA,betacf:GT,gammapinv:ey,erf:ry,erfc:UG,erfcinv:bA,ibetainv:ap,ibeta:sp,randn:Cu,randg:Ro},Symbol.toStringTag,{value:"Module"}));function nne(e,t,r){return e>1||e<0?0:t==1&&r==1?1:t<512&&r<512?Math.pow(e,t-1)*Math.pow(1-e,r-1)/ty(t,r):Math.exp((t-1)*Math.log(e)+(r-1)*Math.log(1-e)-yA(t,r))}function T1(e,t,r){return e>1||e<0?(e>1)*1:sp(e,t,r)}function ine(e,t,r){return ap(e,t,r)}function one(e,t){return e/(e+t)}function ane(e,t){return ap(.5,e,t)}function sne(e,t){return(e-1)/(e+t-2)}function lne(e,t){var r=Ro(e);return r/(r+Ro(t))}function une(e,t){return e*t/(Math.pow(e+t,2)*(e+t+1))}const cne=Object.freeze(Object.defineProperty({__proto__:null,pdf:nne,cdf:T1,inv:ine,mean:one,median:ane,mode:sne,sample:lne,variance:une},Symbol.toStringTag,{value:"Module"}));function dD(e,t,r,n){for(var i=0,o=1,a=1,s=1,l=0,u=0,c;Math.abs((a-u)/a)>n;)u=a,c=-(t+l)*(t+r+l)*e/(t+2*l)/(t+2*l+1),i=a+c*i,o=s+c*o,l=l+1,c=l*(r-l)*e/(t+2*l-1)/(t+2*l),a=i+c*a,s=o+c*s,i=i/s,o=o/s,a=a/s,s=1;return a/t}function GG(e,t,r){return r===0||r===1?t*r===e?1:0:_A(t,e)*Math.pow(r,e)*Math.pow(1-r,t-e)}function fne(e,t,r){var n,i=1e-10;if(e<0)return 0;if(e>=t)return 1;if(r<0||r>1||t<=0)return NaN;e=Math.floor(e);var o=r,a=e+1,s=t-e,l=a+s,u=Math.exp(Ge(l)-Ge(s)-Ge(a)+a*Math.log(o)+s*Math.log(1-o));return o<(a+1)/(l+2)?n=u*dD(o,a,s,i):n=1-u*dD(1-o,s,a,i),Math.round((1-n)*(1/i))/(1/i)}const hne=Object.freeze(Object.defineProperty({__proto__:null,pdf:GG,cdf:fne},Symbol.toStringTag,{value:"Module"}));function dne(e,t,r){return r<0?0:r/(Math.pow(e-t,2)+Math.pow(r,2))/Math.PI}function pne(e,t,r){return Math.atan((e-t)/r)/Math.PI+.5}function vne(e,t,r){return t+r*Math.tan(Math.PI*(e-.5))}function gne(e){return e}function mne(e){return e}function _ne(e,t){return Cu()*Math.sqrt(1/(2*randg(.5)))*t+e}const yne=Object.freeze(Object.defineProperty({__proto__:null,pdf:dne,cdf:pne,inv:vne,median:gne,mode:mne,sample:_ne},Symbol.toStringTag,{value:"Module"}));function bne(e,t,r){var n,i,o;return e<0?0:t<=2?e===0&&t<2?1/0:e===0&&t===2?1:1/ty(t/2,r/2)*Math.pow(t/r,t/2)*Math.pow(e,t/2-1)*Math.pow(1+t/r*e,-(t+r)/2):(n=t*e/(r+e*t),i=r/(r+e*t),o=t*i/2,o*GG((t-2)/2,(t+r-2)/2,n))}function P1(e,t,r){return e<0?0:sp(t*e/(t*e+r),t/2,r/2)}function wne(e,t,r){return r/(t*(1/ap(e,t/2,r/2)-1))}function Sne(e,t){return t>2?t/(t-2):void 0}function Tne(e,t){return e>2?t*(e-2)/(e*(t+2)):void 0}function Pne(e,t){var r=Ro(e/2)*2,n=Ro(t/2)*2;return r/e/(n/t)}function Ene(e,t){if(!(t<=4))return 2*t*t*(e+t-2)/(e*(t-2)*(t-2)*(t-4))}const kne=Object.freeze(Object.defineProperty({__proto__:null,pdf:bne,cdf:P1,inv:wne,mean:Sne,mode:Tne,sample:Pne,variance:Ene},Symbol.toStringTag,{value:"Module"}));function Ane(e,t){return e<0?0:e===0&&t===2?.5:Math.exp((t/2-1)*Math.log(e)-e/2-t/2*Math.log(2)-Ge(t/2))}function Cne(e,t){return e<0?0:Wf(t/2,e/2)}function Mne(e,t){return 2*ey(e,.5*t)}function xne(e){return e}function Lne(e){return e*Math.pow(1-2/(9*e),3)}function Ine(e){return e-2>0?e-2:0}function One(e){return Ro(e/2)*2}function Rne(e){return 2*e}const Dne=Object.freeze(Object.defineProperty({__proto__:null,pdf:Ane,cdf:Cne,inv:Mne,mean:xne,median:Lne,mode:Ine,sample:One,variance:Rne},Symbol.toStringTag,{value:"Module"}));function Nne(e,t){return e<0?0:t*Math.exp(-t*e)}function Fne(e,t){return e<0?0:1-Math.exp(-t*e)}function Bne(e,t){return-Math.log(1-e)/t}function $ne(e){return 1/e}function zne(e){return 1/e*Math.log(2)}function Vne(){return 0}function Une(e){return-1/e*Math.log(si())}function Gne(e){return Math.pow(e,-2)}const Wne=Object.freeze(Object.defineProperty({__proto__:null,pdf:Nne,cdf:Fne,inv:Bne,mean:$ne,median:zne,mode:Vne,sample:Une,variance:Gne},Symbol.toStringTag,{value:"Module"}));function jne(e,t,r){return e<0?0:e===0&&t===1?1/r:Math.exp((t-1)*Math.log(e)-e/r-Ge(t)-t*Math.log(r))}function Hne(e,t,r){return e<0?0:Wf(t,e/r)}function Xne(e,t,r){return ey(e,t)*r}function Yne(e,t){return e*t}function qne(e,t){if(e>1)return(e-1)*t}function Zne(e,t){return Ro(e)*t}function Kne(e,t){return e*t*t}const Jne=Object.freeze(Object.defineProperty({__proto__:null,pdf:jne,cdf:Hne,inv:Xne,mean:Yne,mode:qne,sample:Zne,variance:Kne},Symbol.toStringTag,{value:"Module"}));function ad(e,t,r,n){if(e!==e|0)return!1;if(e<0||e<r-(t-n))return 0;if(e>n||e>r)return 0;if(r*2>t)return n*2>t?ad(t-r-n+e,t,t-r,t-n):ad(n-e,t,t-r,n);if(n*2>t)return ad(r-e,t,r,t-n);if(r<n)return ad(e,t,n,r);for(var i=1,o=0,a=0;a<e;a++){for(;i>1&&o<n;)i*=1-r/(t-o),o++;i*=(n-a)*(r-a)/((a+1)*(t-r-n+a+1))}for(;o<n;o++)i*=1-r/(t-o);return Math.min(1,Math.max(0,i))}function sd(e,t,r,n){if(e<0||e<r-(t-n))return 0;if(e>=n||e>=r)return 1;if(r*2>t)return n*2>t?sd(t-r-n+e,t,t-r,t-n):1-sd(n-e-1,t,t-r,n);if(n*2>t)return 1-sd(r-e-1,t,r,t-n);if(r<n)return sd(e,t,n,r);for(var i=1,o=1,a=0,s=0;s<e;s++){for(;i>1&&a<n;){var l=1-r/(t-a);o*=l,i*=l,a++}o*=(n-s)*(r-s)/((s+1)*(t-r-n+s+1)),i+=o}for(;a<n;a++)i*=1-r/(t-a);return Math.min(1,Math.max(0,i))}const Qne=Object.freeze(Object.defineProperty({__proto__:null,pdf:ad,cdf:sd},Symbol.toStringTag,{value:"Module"}));function tie(e,t,r){return e<=0?0:Math.exp(-(t+1)*Math.log(e)-r/e-Ge(t)+t*Math.log(r))}function eie(e,t,r){return e<=0?0:1-Wf(t,r/e)}function rie(e,t,r){return r/ey(1-e,t)}function nie(e,t){return e>1?t/(e-1):void 0}function iie(e,t){return t/(e+1)}function oie(e,t){return t/Ro(e)}function aie(e,t){if(!(e<=2))return t*t/((e-1)*(e-1)*(e-2))}const sie=Object.freeze(Object.defineProperty({__proto__:null,pdf:tie,cdf:eie,inv:rie,mean:nie,mode:iie,sample:oie,variance:aie},Symbol.toStringTag,{value:"Module"}));function lie(e,t,r){return e===0&&t===1?r:e===1&&r===1?t:Math.exp(Math.log(t)+Math.log(r)+(t-1)*Math.log(e)+(r-1)*Math.log(1-Math.pow(e,t)))}function uie(e,t,r){return e<0?0:e>1?1:1-Math.pow(1-Math.pow(e,t),r)}function cie(e,t,r){return Math.pow(1-Math.pow(1-e,1/r),1/t)}function fie(e,t){return t*Ni(1+1/e)*Ni(t)/Ni(1+1/e+t)}function hie(e,t){return Math.pow(1-Math.pow(2,-1/t),1/e)}function die(e,t){if(e>=1&&t>=1&&e!==1&&t!==1)return Math.pow((e-1)/(e*t-1),1/e)}function pie(){throw new Error("variance not yet implemented")}const vie=Object.freeze(Object.defineProperty({__proto__:null,pdf:lie,cdf:uie,inv:cie,mean:fie,median:hie,mode:die,variance:pie},Symbol.toStringTag,{value:"Module"}));function gie(e){return e/Math.abs(e)}function mie(e,t,r){return r<=0?0:Math.exp(-Math.abs(e-t)/r)/(2*r)}function _ie(e,t,r){return r<=0?0:e<t?.5*Math.exp((e-t)/r):1-.5*Math.exp(-(e-t)/r)}function yie(e){return e}function bie(e){return e}function wie(e){return e}function Sie(e,t){return 2*t*t}function Tie(e,t){var r=si()-.5;return e-t*gie(r)*Math.log(1-2*Math.abs(r))}const Pie=Object.freeze(Object.defineProperty({__proto__:null,pdf:mie,cdf:_ie,mean:yie,median:bie,mode:wie,variance:Sie,sample:Tie},Symbol.toStringTag,{value:"Module"}));function Eie(e,t,r){return e<=0?0:Math.exp(-Math.log(e)-.5*Math.log(2*Math.PI)-Math.log(r)-Math.pow(Math.log(e)-t,2)/(2*r*r))}function kie(e,t,r){return e<0?0:.5+.5*ry((Math.log(e)-t)/Math.sqrt(2*r*r))}function Aie(e,t,r){return Math.exp(-1.4142135623730951*r*bA(2*e)+t)}function Cie(e,t){return Math.exp(e+t*t/2)}function Mie(e){return Math.exp(e)}function xie(e,t){return Math.exp(e-t*t)}function Lie(e,t){return Math.exp(Cu()*t+e)}function Iie(e,t){return(Math.exp(t*t)-1)*Math.exp(2*e+t*t)}const Oie=Object.freeze(Object.defineProperty({__proto__:null,pdf:Eie,cdf:kie,inv:Aie,mean:Cie,median:Mie,mode:xie,sample:Lie,variance:Iie},Symbol.toStringTag,{value:"Module"}));function WG(e,t,r){return e!==e>>>0?!1:e<0?0:_A(e+t-1,t-1)*Math.pow(1-r,e)*Math.pow(r,t)}function Rie(e,t,r){var n=0,i=0;if(e<0)return 0;for(;i<=e;i++)n+=WG(i,t,r);return n}const Die=Object.freeze(Object.defineProperty({__proto__:null,pdf:WG,cdf:Rie},Symbol.toStringTag,{value:"Module"}));function jG(e,t){return t=t>1e100?1e100:t,1/(Math.sqrt(t)*ty(.5,t/2))*Math.pow(1+e*e/t,-((t+1)/2))}function na(e,t){var r=t/2;return sp((e+Math.sqrt(e*e+t))/(2*Math.sqrt(e*e+t)),r,r)}function E1(e,t){var r=ap(2*Math.min(e,1-e),.5*t,.5);return r=Math.sqrt(t*(1-r)/r),e>.5?r:-r}function Nie(e){return e>1?0:void 0}function Fie(){return 0}function Bie(){return 0}function $ie(e){return Cu()*Math.sqrt(e/(2*Ro(e/2)))}function zie(e){return e>2?e/(e-2):e>1?1/0:void 0}const Vie=Object.freeze(Object.defineProperty({__proto__:null,pdf:jG,cdf:na,inv:E1,mean:Nie,median:Fie,mode:Bie,sample:$ie,variance:zie},Symbol.toStringTag,{value:"Module"}));function Uie(e,t,r){return Math.exp(-.5*Math.log(2*Math.PI)-Math.log(r)-Math.pow(e-t,2)/(2*r*r))}function Ti(e,t,r){return .5*(1+ry((e-t)/Math.sqrt(2*r*r)))}function WT(e,t,r){return-1.4142135623730951*r*bA(2*e)+t}function Gie(e){return e}function Wie(e){return e}function jie(e){return e}function Hie(e,t){return Cu()*t+e}function Xie(e,t){return t*t}const Yie=Object.freeze(Object.defineProperty({__proto__:null,pdf:Uie,cdf:Ti,inv:WT,mean:Gie,median:Wie,mode:jie,sample:Hie,variance:Xie},Symbol.toStringTag,{value:"Module"}));function qie(e,t,r){var n=1e-14;return Math.abs(r)<n?jG(e,t):Math.abs(e)<n?Math.exp(Ge((t+1)/2)-r*r/2-.5*Math.log(Math.PI*t)-Ge(t/2)):t/e*(jT(e*Math.sqrt(1+2/t),t+2,r)-jT(e,t,r))}function jT(e,t,r){var n=1e-14,i=200;if(Math.abs(r)<n)return na(e,t);var o=!1;e<0&&(o=!0,r=-r);for(var a=Ti(-r,0,1),s=n+1,l=s,u=e*e/(e*e+t),c=0,f=Math.exp(-r*r/2),h=Math.exp(-r*r/2-.5*Math.log(2)-Ge(3/2))*r;c<i||l>n||s>n;)l=s,c>0&&(f*=r*r/(2*c),h*=r*r/(2*(c+1/2))),s=f*T1(u,c+.5,t/2)+h*T1(u,c+1,t/2),a+=.5*s,c++;return o?1-a:a}const Zie=Object.freeze(Object.defineProperty({__proto__:null,pdf:qie,cdf:jT},Symbol.toStringTag,{value:"Module"}));function Kie(e,t,r){return e<t?0:r*Math.pow(t,r)/Math.pow(e,r+1)}function Jie(e,t,r){return e<t?0:1-Math.pow(t/e,r)}function Qie(e,t,r){return t/Math.pow(1-e,1/r)}function toe(e,t){if(!(t<=1))return t*Math.pow(e,t)/(t-1)}function eoe(e,t){return e*(t*Math.SQRT2)}function roe(e){return e}function noe(e,t){if(!(t<=2))return e*e*t/(Math.pow(t-1,2)*(t-2))}const ioe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Kie,cdf:Jie,inv:Qie,mean:toe,median:eoe,mode:roe,variance:noe},Symbol.toStringTag,{value:"Module"}));function ht(...e){return new ht._init(...e)}ht._init=function(...e){if(Oo(e[0]))if(Oo(e[0][0])){k0(e[1])&&(e[0]=sn(e[0],e[1]));for(let t=0;t<e[0].length;t++)this[t]=e[0][t];this.length=e[0].length}else this[0]=k0(e[1])?sn(e[0],e[1]):e[0],this.length=1;else if(Mr(e[0]))this[0]=IG.apply(null,e),this.length=1;else{if(e[0]instanceof ht)return ht(e[0].toArray());this[0]=[],this.length=1}return this};ht._init.prototype=ht.prototype;ht._init.constructor=ht;ht.setRandom=AG;const bn=ht.prototype;bn.length=0;bn.push=Array.prototype.push;bn.sort=Array.prototype.sort;bn.splice=Array.prototype.splice;bn.slice=Array.prototype.slice;bn.toArray=function(){return this.length>1?this.slice():this.slice()[0]};bn.map=function(e,t){return ht(sn(this,e,t))};bn.cumreduce=function(e,t){return ht(K_(this,e,t))};bn.alter=function(e){return pA(this,e),this};"transpose clear symmetric rows cols dimensions diag antidiag".split(" ").forEach(e=>{bn[e]=function(t){if(t)return t.call(this,bn[e].call(this)),this;const r=ht[e](this);return Array.isArray(r)?ht(r):r}});"row col".split(" ").forEach(e=>{bn[e]=function(t,r){return r?(r.call(this,bn[e].call(this,t)),this):ht(ht[e](this,t))}});"create zeros ones rand identity".split(" ").forEach(e=>{bn[e]=function(...t){return ht(ht[e](...t))}});function HG(e,t){return t<0||e%1!==0||e<0?0:Math.pow(t,e)*Math.exp(-t)/Xl(e)}function ooe(e,t){var r=[],n=0;if(e<0)return 0;for(;n<=e;n++)r.push(HG(n,t));return ln(r)}function aoe(e){return e}function soe(e){return e}function loe(e){var t=1,r=0,n=Math.exp(-e);do r++,t*=ht._random_fn();while(t>n);return r-1}function uoe(e){var t=e,r,n,i,o,a,s,l,u,c,f;for(o=Math.sqrt(t),a=Math.log(t),l=.931+2.53*o,s=-.059+.02483*l,u=1.1239+1.1328/(l-3.4),c=.9277-3.6224/(l-2);;){if(n=Math.random()-.5,i=Math.random(),f=.5-Math.abs(n),r=Math.floor((2*s/f+l)*n+t+.43),f>=.07&&i<=c)return r;if(!(r<0||f<.013&&i>f)&&Math.log(i)+Math.log(u)-Math.log(s/(f*f)+l)<=-t+r*a-zG(r+1))return r}}function coe(e){return e<10?loe(e):uoe(e)}const foe=Object.freeze(Object.defineProperty({__proto__:null,pdf:HG,cdf:ooe,mean:aoe,variance:soe,sample:coe},Symbol.toStringTag,{value:"Module"}));function hoe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<t||e>r?0:e<n?2*(e-t)/((r-t)*(n-t)):e===n?2/(r-t):2*(r-e)/((r-t)*(r-n))}function doe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<=t?0:e>=r?1:e<=n?Math.pow(e-t,2)/((r-t)*(n-t)):1-Math.pow(r-e,2)/((r-t)*(r-n))}function poe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<=(n-t)/(r-t)?t+(r-t)*Math.sqrt(e*((n-t)/(r-t))):t+(r-t)*(1-Math.sqrt((1-e)*(1-(n-t)/(r-t))))}function voe(e,t,r){return(e+t+r)/3}function goe(e,t,r){if(r<=(e+t)/2)return t-Math.sqrt((t-e)*(t-r))/Math.sqrt(2);if(r>(e+t)/2)return e+Math.sqrt((t-e)*(r-e))/Math.sqrt(2)}function moe(e,t,r){return r}function _oe(e,t,r){var n=si();return n<(r-e)/(t-e)?e+Math.sqrt(n*(t-e)*(r-e)):t-Math.sqrt((1-n)*(t-e)*(t-r))}function yoe(e,t,r){return(e*e+t*t+r*r-e*t-e*r-t*r)/18}const boe=Object.freeze(Object.defineProperty({__proto__:null,pdf:hoe,cdf:doe,inv:poe,mean:voe,median:goe,mode:moe,sample:_oe,variance:yoe},Symbol.toStringTag,{value:"Module"}));function pD(e,t,r){var n=12,i=6,o=-30,a=-50,s=60,l=8,u=3,c=2,f=3,h=[.9815606342467192,.9041172563704749,.7699026741943047,.5873179542866175,.3678314989981802,.1252334085114689],d=[.04717533638651183,.10693932599531843,.16007832854334622,.20316742672306592,.2334925365383548,.24914704581340277],p=e*.5;if(p>=l)return 1;var v=2*Ti(p,0,1)-1;v>=Math.exp(a/r)?v=Math.pow(v,r):v=0;var g;e>u?g=c:g=f;for(var m=p,_=(l-p)/g,y=m+_,w=0,T=r-1,S=1;S<=g;S++){for(var P=0,A=.5*(y+m),k=.5*(y-m),C=1;C<=n;C++){var M,D;i<C?(M=n-C+1,D=h[M-1]):(M=C,D=-h[M-1]);var B=k*D,V=A+B,N=V*V;if(N>s)break;var W=2*Ti(V,0,1),Z=2*Ti(V,e,1),q=W*.5-Z*.5;q>=Math.exp(o/T)&&(q=d[M-1]*Math.exp(-(.5*N))*Math.pow(q,T),P+=q)}P*=2*k*r/Math.sqrt(2*Math.PI),w+=P,m=y,y+=_}return v+=w,v<=Math.exp(o/t)?0:(v=Math.pow(v,t),v>=1?1:v)}function woe(e,t,r){var n=.322232421088,i=.099348462606,o=-1,a=.588581570495,s=-.342242088547,l=.531103462366,u=-.204231210125,c=.10353775285,f=-453642210148e-16,h=.0038560700634,d=.8832,p=.2368,v=1.214,g=1.208,m=1.4142,_=120,y=.5-.5*e,w=Math.sqrt(Math.log(1/(y*y))),T=w+((((w*f+u)*w+s)*w+o)*w+n)/((((w*h+c)*w+l)*w+a)*w+i);r<_&&(T+=(T*T*T+T)/r/4);var S=d-p*T;return r<_&&(S+=-v/r+g*T/r),T*(S*Math.log(t-1)+m)}function Nd(e,t,r){var n=1,i=t,o=16,a=8,s=-30,l=1e-14,u=100,c=800,f=5e3,h=25e3,d=1,p=.5,v=.25,g=.125,m=[.9894009349916499,.9445750230732326,.8656312023878318,.755404408355003,.6178762444026438,.45801677765722737,.2816035507792589,.09501250983763744],_=[.027152459411754096,.062253523938647894,.09515851168249279,.12462897125553388,.14959598881657674,.16915651939500254,.18260341504492358,.1894506104550685];if(e<=0)return 0;if(r<2||n<1||i<2)return NaN;if(!Number.isFinite(e))return 1;if(r>h)return pD(e,n,i);var y=r*.5,w=y*Math.log(r)-r*Math.log(2)-Ge(y),T=y-1,S=r*.25,P;r<=u?P=d:r<=c?P=p:r<=f?P=v:P=g,w+=Math.log(P);for(var A=0,k=1;k<=50;k++){for(var C=0,M=(2*k-1)*P,D=1;D<=o;D++){var B,V;a<D?(B=D-a-1,V=w+T*Math.log(M+m[B]*P)-(m[B]*P+M)*S):(B=D-1,V=w+T*Math.log(M-m[B]*P)+(m[B]*P-M)*S);var N;if(V>=s){a<D?N=e*Math.sqrt((m[B]*P+M)*.5):N=e*Math.sqrt((-(m[B]*P)+M)*.5);var W=pD(N,n,i),Z=W*_[B]*Math.exp(V);C+=Z}}if(k*P>=1&&C<=l)break;A+=C}if(C>l)throw new Error("tukey.cdf failed to converge");return A>1&&(A=1),A}function Soe(e,t,r){var n=1,i=t,o=1e-4,a=50;if(r<2||n<1||i<2)return NaN;if(e<0||e>1)return NaN;if(e===0)return 0;if(e===1)return 1/0;var s=woe(e,i,r),l=Nd(s,t,r)-e,u;l>0?u=Math.max(0,s-1):u=s+1;for(var c=Nd(u,t,r)-e,f,h=1;h<a;h++){f=u-c*(u-s)/(c-l),l=c,s=u,f<0&&(f=0,c=-e),c=Nd(f,t,r)-e,u=f;var d=Math.abs(u-s);if(d<o)return f}throw new Error("tukey.inv failed to converge")}const Toe=Object.freeze(Object.defineProperty({__proto__:null,cdf:Nd,inv:Soe},Symbol.toStringTag,{value:"Module"}));function Poe(e,t,r){return e<0||t<0||r<0?0:r/t*Math.pow(e/t,r-1)*Math.exp(-Math.pow(e/t,r))}function Eoe(e,t,r){return e<0?0:1-Math.exp(-Math.pow(e/t,r))}function koe(e,t,r){return t*Math.pow(-Math.log(1-e),1/r)}function XG(e,t){return e*Ni(1+1/t)}function Aoe(e,t){return e*Math.pow(Math.log(2),1/t)}function Coe(e,t){return t<=1?0:e*Math.pow((t-1)/t,1/t)}function Moe(e,t){return e*Math.pow(-Math.log(si()),1/t)}function xoe(e,t){return e*e*Ni(1+2/t)-Math.pow(XG(e,t),2)}const Loe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Poe,cdf:Eoe,inv:koe,mean:XG,median:Aoe,mode:Coe,sample:Moe,variance:xoe},Symbol.toStringTag,{value:"Module"})),Ioe=Object.freeze(Object.defineProperty({__proto__:null,arcsine:Qre,beta:cne,binomial:hne,cauchy:yne,centralF:kne,chisquare:Dne,exponential:Wne,gamma:Jne,hypgeom:Qne,invgamma:sie,kumaraswamy:vie,laplace:Pie,lognormal:Oie,negbin:Die,noncentralt:Zie,normal:Yie,pareto:ioe,poisson:foe,studentt:Vie,triangular:boe,tukey:Toe,uniform:Wre,weibull:Loe},Symbol.toStringTag,{value:"Module"}));function HT(){const e=[...arguments];return Mr(e[1])?(e[0]-e[1])/e[2]:(e[0]-lr(e[1]))/Pa(e[1],e[2])}function wA(){const e=[...arguments];let t;return Oo(e[1])?(t=HT(e[0],e[1],e[3]),e[2]===1?Ti(-Math.abs(t),0,1):Ti(-Math.abs(t),0,1)*2):e.length>2?(t=HT(e[0],e[1],e[2]),e[3]===1?Ti(-Math.abs(t),0,1):Ti(-Math.abs(t),0,1)*2):(t=e[0],e[1]===1?Ti(-Math.abs(t),0,1):Ti(-Math.abs(t),0,1)*2)}function XT(){const e=[...arguments];return e.length===4?(e[0]-e[1])/(e[2]/Math.sqrt(e[3])):(e[0]-lr(e[1]))/(Pa(e[1],!0)/Math.sqrt(e[1].length))}function Ooe(){const e=[...arguments];let t;return e.length===5?(t=Math.abs(XT(e[0],e[1],e[2],e[3])),e[4]===1?na(-t,e[3]-1):na(-t,e[3]-1)*2):Mr(e[1])?(t=Math.abs(e[0]),e[2]===1?na(-t,e[1]-1):na(-t,e[1]-1)*2):(t=Math.abs(XT(e[0],e[1])),e[2]===1?na(-t,e[1].length-1):na(-t,e[1].length-1)*2)}function Roe(){var e=[...arguments],t,r,n,i,o,a,s,l;if(e.length===1){for(o=new Array(e[0].length),s=0;s<e[0].length;s++)o[s]=e[0][s];e=o}for(r=[],s=0;s<e.length;s++)r=r.concat(e[s]);for(n=lr(r),t=0,s=0;s<e.length;s++)t=t+e[s].length*Math.pow(lr(e[s])-n,2);for(t/=e.length-1,a=0,s=0;s<e.length;s++)for(i=lr(e[s]),l=0;l<e[s].length;l++)a+=Math.pow(e[s][l]-i,2);return a/=r.length-e.length,t/a}function Doe(){var e=[...arguments],t,r,n,i;if(Mr(e[0]))return 1-P1(e[0],e[1],e[2]);var o=o(e);for(t=e.length-1,n=0,i=0;i<e.length;i++)n=n+e[i].length;return r=n-t-1,1-P1(o,t,r)}function Noe(e,t,r){return 1-P1(e,t,r)}function YT(){var e=[...arguments],t,r,n,i,o;return Mr(e[0])?(t=e[0],r=e[1],n=e[2],i=e[3],o=e[4]):(t=lr(e[0]),r=lr(e[1]),n=e[0].length,i=e[1].length,o=e[2]),Math.abs(t-r)/(o*Math.sqrt((1/n+1/i)/2))}function YG(){var e=[...arguments],t;e.length===3?(t=e[0],e=e.slice(1)):e.length===7?(t=YT(e[0],e[1],e[2],e[3],e[4]),e=e.slice(5)):(t=YT(e[0],e[1],e[2]),e=e.slice(3));var r=e[0],n=e[1];return 1-Nd(t,n,r-n)}function Foe(e){for(var t=NG(e),r=e.map(l=>lr(l)),n=e.reduce((l,u)=>l+u.length,0),i=[],o=0;o<e.length;++o)for(var a=o+1;a<e.length;++a){var s=YG(r[o],r[a],e[o].length,e[a].length,t,n,e.length);i.push([[o,a],s])}return i}function Boe(){const e=[...arguments],t=new Array(2);let r;return e.length===4?r=Math.abs(WT(e[1]/2,0,1)*e[2]/Math.sqrt(e[3])):r=Math.abs(WT(e[1]/2,0,1)*Pa(e[2])/Math.sqrt(e[2].length)),t[0]=e[0]-r,t[1]=e[0]+r,t}function $oe(){const e=[...arguments],t=new Array(2);let r;return e.length===4?r=Math.abs(E1(e[1]/2,e[3]-1)*e[2]/Math.sqrt(e[3])):r=Math.abs(E1(e[1]/2,e[2].length-1)*Pa(e[2],!0)/Math.sqrt(e[2].length)),t[0]=e[0]-r,t[1]=e[0]+r,t}function zoe(e,t){return e<t}function qG(e,t,r,n){if(e>1||r>1||e<=0||r<=0)throw new Error("Proportions should be greater than 0 and less than 1");var i=(e*t+r*n)/(t+n),o=Math.sqrt(i*(1-i)*(1/t+1/n));return(e-r)/o}function Voe(e,t,r,n){const i=qG(e,t,r,n);return wA(i,1)}function Uoe(e,t,r,n){const i=qG(e,t,r,n);return wA(i,2)}const Goe=Object.freeze(Object.defineProperty({__proto__:null,zscore:HT,ztest:wA,tscore:XT,ttest:Ooe,anovafscore:Roe,anovaftest:Doe,ftest:Noe,qscore:YT,qtest:YG,tukeyhsd:Foe,normalci:Boe,tci:$oe,significant:zoe,oneSidedDifferenceOfProportions:Voe,twoSidedDifferenceOfProportions:Uoe},Symbol.toStringTag,{value:"Module"}));function Vi(e){return Oo(e)||e.constructor.name==="jStat"}function gn(e,t){return Vi(t)?(Vi(t[0])||(t=[t]),sn(e,function(r,n,i){return r+t[n][i]})):sn(e,function(r){return r+t})}function uu(e,t){return Vi(t)?(Vi(t[0])||(t=[t]),sn(e,function(r,n,i){return r-t[n][i]||0})):sn(e,function(r){return r-t})}function qT(e,t){return Vi(t)?(Vi(t[0])||(t=[t]),Qt(e,Do(t))):sn(e,function(r){return r/t})}function Qt(e,t){let r,n;if(e.length===void 0&&t.length===void 0)return e*t;const i=e.length,o=e[0].length,a=$o(i,r=Vi(t)?t[0].length:o);let s=0;if(Vi(t)){for(;s<r;s++)for(let l=0;l<i;l++){n=0;for(let u=0;u<o;u++)n+=e[l][u]*t[u][s];a[l][s]=n}return i===1&&s===1?a[0][0]:a}return sn(e,function(l){return l*t})}function Woe(e,t){return Qt(e.map(r=>[r]),[t])}function k1(e,t){Vi(e[0])||(e=[e]),Vi(t[0])||(t=[t]);var r=e[0].length===1&&e.length!==1?Es(e):e,n=t[0].length===1&&t.length!==1?Es(t):t,i=[],o=r.length,a=r[0].length,s,l;for(let u=0;u<o;u++){for(i[u]=[],s=0,l=0;l<a;l++)s+=r[u][l]*n[u][l];i[u]=s}return i.length===1?i[0]:i}function ZT(e,t){return sn(e,r=>Math.pow(r,t))}function joe(e){return sn(e,t=>Math.exp(t))}function Hoe(e){return sn(e,t=>Math.log(t))}function Xoe(e){return sn(e,t=>Math.abs(t))}function af(e,t){var r=0,n=0;for(isNaN(t)&&(t=2),Vi(e[0])&&(e=e[0]);n<e.length;n++)r+=Math.pow(Math.abs(e[n]),t);return Math.pow(r,1/t)}function Yoe(e,t){return Math.acos(k1(e,t)/(af(e)*af(t)))}function SA(e,t){var r=[],n;for(n=0;n<e.length;n++)r.push(e[n].slice());for(n=0;n<r.length;n++)Array.prototype.push.apply(r[n],t[n]);return r}function Do(e){for(var t=e.length,r=e[0].length,n=lu(t,r),i=ZG(e,n),o=[],a=0,s;a<t;a++)for(o[a]=[],s=r;s<i[0].length;s++)o[a][s-r]=i[a][s];return o}function qoe(e){var t=e.length,r=t*2,n=new Array(r),i=t-1,o=r-1,a=i-t+1,s=o,l=0,u=0,c;if(t===2)return e[0][0]*e[1][1]-e[0][1]*e[1][0];for(;l<r;l++)n[l]=1;for(l=0;l<t;l++){for(c=0;c<t;c++)n[a<0?a+t:a]*=e[l][c],n[s<t?s+t:s]*=e[l][c],a++,s--;a=--i-t+1,s=--o}for(l=0;l<t;l++)u+=n[l];for(;l<r;l++)u-=n[l];return u}function Zoe(e,t){var r=0,n=0,i=e.length,o=e[0].length,a=1,s=0,l=[],u,c,f,h;for(e=SA(e,t),u=e[0].length,r=0;r<i;r++){for(c=e[r][r],n=r,h=r+1;h<o;h++)c<Math.abs(e[h][r])&&(c=e[h][r],n=h);if(n!=r)for(h=0;h<u;h++)f=e[r][h],e[r][h]=e[n][h],e[n][h]=f;for(n=r+1;n<i;n++)for(a=e[n][r]/e[r][r],h=r;h<u;h++)e[n][h]=e[n][h]-a*e[r][h]}for(r=i-1;r>=0;r--){for(s=0,n=r+1;n<=i-1;n++)s=s+l[n]*e[r][n];l[r]=(e[r][u-1]-s)/e[r][r]}return l}function ZG(e,t){var r=SA(e,t),n=r.length,i=r[0].length,o=0,a,s,l;for(s=0;s<n;s++){var u=s;for(l=s+1;l<n;l++)Math.abs(r[l][s])>Math.abs(r[u][s])&&(u=l);var c=r[s];for(r[s]=r[u],r[u]=c,l=s+1;l<n;l++)for(o=r[l][s]/r[s][s],a=s;a<i;a++)r[l][a]-=r[s][a]*o}for(s=n-1;s>=0;s--){for(o=r[s][s],l=0;l<s;l++)for(a=i-1;a>s-1;a--)r[l][a]-=r[s][a]*r[l][s]/o;for(r[s][s]/=o,a=n;a<i;a++)r[s][a]/=o}return r}function Koe(e,t){var r=e[0].length,n=$o(1,r)[0],i,o=!1;return t[0].length!=null&&(t=t.map(function(a){return a[0]}),o=!0),Ie(r-1,-1,-1).forEach(function(a){i=Ie(a+1,r).map(function(s){return n[s]*e[a][s]}),n[a]=(t[a]-ln(i))/e[a][a]}),o?n.map(function(a){return[a]}):n}function Joe(e,t){var r=e[0].length,n=$o(1,r)[0],i,o=!1;return t[0].length!=null&&(t=t.map(function(a){return a[0]}),o=!0),Ie(r).forEach(function(a){i=Ie(a).map(function(s){return e[a][s]*n[s]}),n[a]=(t[a]-ln(i))/e[a][a]}),o?n.map(function(a){return[a]}):n}function Qoe(e){var t=e.length,r=lu(t),n=$o(e.length,e[0].length),i;return Ie(t).forEach(function(o){n[0][o]=e[0][o]}),Ie(1,t).forEach(function(o){Ie(o).forEach(function(a){i=Ie(a).map(function(s){return r[o][s]*n[s][a]}),r[o][a]=(e[o][a]-ln(i))/n[a][a]}),Ie(o,t).forEach(function(a){i=Ie(o).map(function(s){return r[o][s]*n[s][a]}),n[o][a]=e[i.length][a]-ln(i)})}),[r,n]}function tae(e){var t=e.length,r=$o(e.length,e[0].length),n;return Ie(t).forEach(function(i){n=Ie(i).map(function(o){return Math.pow(r[i][o],2)}),r[i][i]=Math.sqrt(e[i][i]-ln(n)),Ie(i+1,t).forEach(function(o){n=Ie(i).map(function(a){return r[i][a]*r[o][a]}),r[o][i]=(e[i][o]-ln(n))/r[i][i]})}),r}function eae(e,t,r,n){for(var i=0,o=0,a=e.length,s=[],l=[],u=[],c,f,h,d;i<a;i++)for(s[i]=[],l[i]=[],u[i]=[],o=0;o<a;o++)i>o?(s[i][o]=e[i][o],l[i][o]=u[i][o]=0):i<o?(l[i][o]=e[i][o],s[i][o]=u[i][o]=0):(u[i][o]=e[i][o],s[i][o]=l[i][o]=0);for(h=Qt(Qt(Do(u),gn(s,l)),-1),f=Qt(Do(u),t),c=r,d=gn(Qt(h,r),f),i=2;Math.abs(af(uu(d,c)))>n;)c=d,d=gn(Qt(h,c),f),i++;return d}function rae(e,t,r,n){for(var i=0,o=e.length,a=[],s=[],l=[],u,c,f,h,d;i<o;i++)for(a[i]=[],s[i]=[],l[i]=[],u=0;u<o;u++)i>u?(a[i][u]=e[i][u],s[i][u]=l[i][u]=0):i<u?(s[i][u]=e[i][u],a[i][u]=l[i][u]=0):(l[i][u]=e[i][u],a[i][u]=s[i][u]=0);for(h=Qt(Qt(Do(gn(l,a)),s),-1),f=Qt(Do(gn(l,a)),t),c=r,d=gn(Qt(h,r),f),i=2;Math.abs(af(uu(d,c)))>n;)c=d,d=gn(Qt(h,c),f),i=i+1;return d}function nae(e,t,r,n,i){for(var o=0,a=e.length,s=[],l=[],u=[],c,f,h,d,p;o<a;o++)for(s[o]=[],l[o]=[],u[o]=[],c=0;c<a;c++)o>c?(s[o][c]=e[o][c],l[o][c]=u[o][c]=0):o<c?(l[o][c]=e[o][c],s[o][c]=u[o][c]=0):(u[o][c]=e[o][c],s[o][c]=l[o][c]=0);for(d=Qt(Do(gn(u,Qt(s,i))),uu(Qt(u,1-i),Qt(l,i))),h=Qt(Qt(Do(gn(u,Qt(s,i))),t),i),f=r,p=gn(Qt(d,r),h),o=2;Math.abs(af(uu(p,f)))>n;)f=p,p=gn(Qt(d,f),h),o++;return p}function iae(e){for(var t=e.length,r=e[0].length,n=0,i=[],o=[],a,s,l,u,c;n<t-1;n++){for(a=0,u=n+1;u<r;u++)a+=e[u][n]*e[u][n];for(c=e[n+1][n]>0?-1:1,a=c*Math.sqrt(a),s=Math.sqrt((a*a-e[n+1][n]*a)/2),i=$o(t,1),i[n+1][0]=(e[n+1][n]-a)/(2*s),l=n+2;l<t;l++)i[l][0]=e[l][n]/(2*s);o=uu(lu(t,r),Qt(Qt(i,Es(i)),2)),e=Qt(o,Qt(e,o))}return e}function KG(e){var t=e.length,r=e[0].length,n=$o(r,r);e=J_(e);var i,o,a;for(o=0;o<r;o++){for(n[o][o]=Math.sqrt(ln(Ie(t).map(function(s){return e[s][o]*e[s][o]}))),i=0;i<t;i++)e[i][o]=e[i][o]/n[o][o];for(a=o+1;a<r;a++)for(n[o][a]=ln(Ie(t).map(function(s){return e[s][o]*e[s][a]})),i=0;i<t;i++)e[i][a]=e[i][a]-e[i][o]*n[o][a]}return[e,n]}function oae(e){e=J_(e);var t=e.length,r=lu(t);return Ie(t-1,-1,-1).forEach(function(n){od(r,{row:n},qT(ra(r,{row:n}),e[n][n])),od(e,{row:n},qT(ra(e,{row:n}),e[n][n])),Ie(n).forEach(function(i){var o=Qt(e[i][n],-1),a=ra(e,{row:i}),s=Qt(ra(e,{row:n}),o);od(e,{row:i},gn(a,s));var l=ra(r,{row:i}),u=Qt(ra(r,{row:n}),o);od(r,{row:i},gn(l,u))})}),r}function JG(e,t){var r=!1;t[0].length===void 0&&(t=t.map(function(f){return[f]}),r=!0);var[n,i]=KG(e),o=e[0].length,a=ra(n,{col:{end:o}}),s=ra(i,{row:{end:o}}),l=oae(s),u=Es(a);u[0].length===void 0&&(u=[u]);var c=Qt(Qt(l,u),t);return c.length===void 0&&(c=[[c]]),r?c.map(function(f){return f[0]}):c}function QG(e){for(var t=1,r=e.length,n=lu(r,r),i=[],o,a,s,l,u,c,f,h;t===1;){for(c=e[0][1],l=0,u=1,a=0;a<r;a++)for(s=0;s<r;s++)a!=s&&c<Math.abs(e[a][s])&&(c=Math.abs(e[a][s]),l=a,u=s);for(e[l][l]===e[u][u]?f=e[l][u]>0?Math.PI/4:-Math.PI/4:f=Math.atan(2*e[l][u]/(e[l][l]-e[u][u]))/2,h=lu(r,r),h[l][l]=Math.cos(f),h[l][u]=-Math.sin(f),h[u][l]=Math.sin(f),h[u][u]=Math.cos(f),n=Qt(n,h),o=Qt(Qt(Do(h),e),h),e=o,t=0,a=1;a<r;a++)for(s=1;s<r;s++)a!=s&&Math.abs(e[a][s])>.001&&(t=1)}for(a=0;a<r;a++)i.push(e[a][a]);return[n,i]}function aae(e,t,r,n,i,o){var a,s,l,u,c;if(o===2)for(;n<=r;)a=t*e(n,i),s=t*e(n+t,i+a),l=i+(a+s)/2,i=l,n=n+t;if(o===4)for(;n<=r;)a=t*e(n,i),s=t*e(n+t/2,i+a/2),u=t*e(n+t/2,i+s/2),c=t*e(n+t,i+u),l=i+(a+2*s+2*u+c)/6,i=l,n=n+t;return i}function sae(e,t,r,n){for(var i=0,o=(r-t)/2,a=[],s=[],l=[],u,c,f,h,d;i<n/2;){for(d=e(t),f=t,h=0;f<=r;f=f+o,h++)a[h]=f;for(u=a.length,f=1;f<u-1;f++)d+=(f%2!==0?4:2)*e(a[f]);d=o/3*(d+e(r)),l[i]=d,o/=2,i++}for(c=l.length,u=1;c!==1;){for(f=0;f<c-1;f++)s[f]=(Math.pow(4,u)*l[f+1]-l[f])/(Math.pow(4,u)-1);c=s.length,l=s,s=[],u++}return l}function lae(e,t,r,n){function i(p,v){for(var g=0,m=p.length,_;g<m;g++)p[g]===v&&(_=g);return _}for(var o=Math.abs(r-e[i(e,r)+1]),a=0,s=[],l=[],u,c,f,h,d;n>=o;)u=i(e,r+n),c=i(e,r),s[a]=(t[u]-2*t[c]+t[2*c-u])/(n*n),n/=2,a++;for(h=s.length,f=1;h!=1;){for(d=0;d<h-1;d++)l[d]=(Math.pow(4,f)*s[d+1]-s[d])/(Math.pow(4,f)-1);h=l.length,s=l,l=[],f++}return s}function uae(e,t,r,n){for(var i=(r-t)/n,o=e(t),a=[],s=t,l=0,u=1,c;s<=r;s=s+i,l++)a[l]=s;for(c=a.length;u<c-1;u++)o+=(u%2!==0?4:2)*e(a[u]);return i/3*(o+e(r))}function cae(e,t,r,n){for(var i=e.length,o=0,a=0,s=[],l=[],u=[],c=[],f;a<i;a++){for(s[a]=1,f=0;f<i;f++)a!=f&&(s[a]*=(n-e[f])/(e[a]-e[f]));for(l[a]=0,f=0;f<i;f++)a!=f&&(l[a]+=1/(e[a]-e[f]));u[a]=(1-2*(n-e[a])*l[a])*(s[a]*s[a]),c[a]=(n-e[a])*(s[a]*s[a]),o+=u[a]*t[a]+c[a]*r[a]}return o}function fae(e,t,r){for(var n=0,i=0,o,a,s=e.length;i<s;i++){for(a=t[i],o=0;o<s;o++)i!=o&&(a*=(r-e[o])/(e[i]-e[o]));n+=a}return n}function hae(e,t,r){for(var n=e.length,i=0,o,a=[],s=[],l=[],u=[],c=[],f=[],h=[];i<n-1;i++)c[i]=e[i+1]-e[i];for(l[0]=0,i=1;i<n-1;i++)l[i]=3/c[i]*(t[i+1]-t[i])-3/c[i-1]*(t[i]-t[i-1]);for(i=1;i<n-1;i++)a[i]=[],s[i]=[],a[i][i-1]=c[i-1],a[i][i]=2*(c[i-1]+c[i]),a[i][i+1]=c[i],s[i][0]=l[i];for(u=Qt(Do(a),s),o=0;o<n-1;o++)f[o]=(t[o+1]-t[o])/c[o]-c[o]*(u[o+1][0]+2*u[o][0])/3,h[o]=(u[o+1][0]-u[o][0])/(3*c[o]);for(o=0;o<n&&!(e[o]>r);o++);return o-=1,t[o]+(r-e[o])*f[o]+ZT(r-e[o],2)*u[o]+(r-e[o])*ZT(r-e[o],2)*h[o]}function dae(){throw new Error("gauss_quadrature not yet implemented")}function pae(e){var t=e.length,r=e[0].length,n=0,i,o,a=[],s=[],l=[],u=[],c=[],f=[],h=[],d=[],p=[],v=[];for(n=0;n<t;n++)a[n]=ln(e[n])/r;for(n=0;n<r;n++)for(h[n]=[],i=0;i<t;i++)h[n][i]=e[i][n]-a[i];for(h=Es(h),n=0;n<t;n++)for(d[n]=[],i=0;i<t;i++)d[n][i]=k1([h[n]],[h[i]])/(r-1);for(l=QG(d),p=l[0],s=l[1],v=Es(p),n=0;n<s.length;n++)for(i=n;i<s.length;i++)s[n]<s[i]&&(o=s[n],s[n]=s[i],s[i]=o,u=v[n],v[n]=v[i],v[i]=u);for(f=Es(h),n=0;n<t;n++)for(c[n]=[],i=0;i<f.length;i++)c[n][i]=k1([v[n]],[f[i]]);return[e,s,v,c]}const vae=Object.freeze(Object.defineProperty({__proto__:null,add:gn,subtract:uu,divide:qT,multiply:Qt,outer:Woe,dot:k1,pow:ZT,exp:joe,log:Hoe,abs:Xoe,norm:af,angle:Yoe,aug:SA,inv:Do,det:qoe,gauss_elimination:Zoe,gauss_jordan:ZG,triaUpSolve:Koe,triaLowSolve:Joe,lu:Qoe,cholesky:tae,gauss_jacobi:eae,gauss_seidel:rae,SOR:nae,householder:iae,QR:KG,lstsq:JG,jacobi:QG,rungekutta:aae,romberg:sae,richardson:lae,simpson:uae,hermite:cae,lagrange:fae,cubic_spline:hae,gauss_quadrature:dae,PCA:pae},Symbol.toStringTag,{value:"Module"}));function gae(e){var t=e[0].length,r=Ie(t).map(function(n){var i=Ie(t).filter(function(o){return o!==n});return tW(S1(e,n).map(function(o){return o[0]}),S1(e,i))});return r}function tW(e,t){var r=e.length,n=t[0].length-1,i=r-n-1,o=JG(t,e),a=Qt(t,o.map(function(d){return[d]})).map(function(d){return d[0]}),s=uu(e,a),l=lr(e),u=ln(a.map(function(d){return Math.pow(d-l,2)})),c=ln(e.map(function(d,p){return Math.pow(d-a[p],2)})),f=u+c,h=u/f;return{exog:t,endog:e,nobs:r,df_model:n,df_resid:i,coef:o,predict:a,resid:s,ybar:l,SST:f,SSE:u,SSR:c,R2:h}}function mae(e){var t=gae(e.exog),r=Math.sqrt(e.SSR/e.df_resid),n=t.map(function(l){var u=l.SST,c=l.R2;return r/Math.sqrt(u*(1-c))}),i=e.coef.map(function(l,u){return(l-0)/n[u]}),o=i.map(function(l){var u=na(l,e.df_resid);return(u>.5?1-u:u)*2}),a=E1(.975,e.df_resid),s=e.coef.map(function(l,u){var c=a*n[u];return[l-c,l+c]});return{se:n,t:i,p:o,sigmaHat:r,interval95:s}}function _ae(e){var t=e.R2/e.df_model/((1-e.R2)/e.df_resid),r=function(i,o,a){return T1(i/(a/o+i),o/2,a/2)},n=1-r(t,e.df_model,e.df_resid);return{F_statistic:t,pvalue:n}}function yae(e,t){var r=tW(e,t),n=mae(r),i=_ae(r),o=1-(1-r.R2)*((r.nobs-1)/r.df_resid);return r.t=n,r.f=i,r.adjust_R2=o,r}const bae={ols:yae},wae=Object.freeze(Object.defineProperty({__proto__:null,models:bae},Symbol.toStringTag,{value:"Module"}));Object.assign(ht,dre,Nre,Goe,vae,wae,rne);for(const[e,t]of Object.entries(Ioe)){let r=function(...n){return this instanceof r?(this.givenArgs=n,this):new r(...n)};Object.assign(r,t),ht[e]=r,ht.prototype[e]=function(...n){const i=r(...n);return i.data=this,i},r.prototype.sample=function(n){const i=this.givenArgs;return n?ht.alter(n,()=>t.sample(...i)):t.sample(...i)},["pdf","cdf","inv"].forEach(n=>{r.prototype[n]=function(i){return!i&&i!==0&&(i=this.data),typeof i!="number"?ht.map(i,o=>t[n](o,...this.givenArgs)):t[n](i,...this.givenArgs)}}),["mean","median","mode","variance"].forEach(n=>{r.prototype[n]=function(){return t[n](...this.givenArgs)}})}"gammaln gammafn factorial factorialln".split(" ").forEach(function(e){ht.prototype[e]=function(){return ht(ht.map(this,function(t){return ht[e](t)}))}});ht.prototype.randn=function(){return ht(ht.randn.apply(null,arguments))};const TA=kG.isFunction;(function(e){for(var t=0;t<e.length;t++)(function(r){ht.prototype[r]=function(n,i){var o=[],a=0,s=this;if(TA(n)&&(i=n,n=!1),i)return setTimeout(function(){i.call(s,ht.prototype[r].call(s,n))}),this;if(this.length>1){for(s=n===!0?this:this.transpose();a<s.length;a++)o[a]=ht[r](s[a]);return o}return ht[r](this[0],n)}})(e[t])})("cumsum cumprod".split(" "));(function(e){for(var t=0;t<e.length;t++)(function(r){ht.prototype[r]=function(n,i){var o=[],a=0,s=this;if(TA(n)&&(i=n,n=!1),i)return setTimeout(function(){i.call(s,ht.prototype[r].call(s,n))}),this;if(this.length>1){for(r!=="sumrow"&&(s=n===!0?this:this.transpose());a<s.length;a++)o[a]=ht[r](s[a]);return n===!0?ht[r](ht.utils.toVector(o)):o}return ht[r](this[0],n)}})(e[t])})("sum sumsqrd sumsqerr sumrow product min max unique mean meansqerr geomean median diff rank mode range variance deviation stdev meandev meddev coeffvar quartiles histogram skewness kurtosis".split(" "));(function(e){for(var t=0;t<e.length;t++)(function(r){ht.prototype[r]=function(){var n=[],i=0,o=this,a=Array.prototype.slice.call(arguments),s;if(TA(a[a.length-1])){s=a[a.length-1];var l=a.slice(0,a.length-1);return setTimeout(function(){s.call(o,ht.prototype[r].apply(o,l))}),this}else{s=void 0;var u=function(f){return ht[r].apply(o,[f].concat(a))}}if(this.length>1){for(o=o.transpose();i<o.length;i++)n[i]=u(o[i]);return n}return u(this[0])}})(e[t])})("quantiles percentileOfScore".split(" "));ht.prototype.zscore=function(t,r){return(t-this.mean())/this.stdev(r)};ht.prototype.ztest=function(t,r,n){const i=Math.abs(this.zscore(t,n));return r===1?ht.normal.cdf(-i,0,1):ht.normal.cdf(-i,0,1)*2};ht.prototype.tscore=function(t){return(t-this.mean())/(this.stdev(!0)/Math.sqrt(this.cols()))};ht.prototype.ttest=function(t,r){return r===1?1-ht.studentt.cdf(Math.abs(this.tscore(t)),this.cols()-1):ht.studentt.cdf(-Math.abs(this.tscore(t)),this.cols()-1)*2};ht.prototype.anovafscore=function(){return ht.anovafscore(this.toArray())};ht.prototype.anovaftes=function(){var t=0,r;for(r=0;r<this.length;r++)t=t+this[r].length;return ht.ftest(this.anovafscore(),this.length-1,t-this.length)};ht.prototype.oneSidedDifferenceOfProportions=function(){console.error("Please use jStat.oneSidedDifferenceOfProportions() instead")};ht.prototype.twoSidedDifferenceOfProportions=function(){console.error("Please use jStat.twoSidedDifferenceOfProportions() instead")};"add divide multiply subtract dot pow exp log abs norm angle".split(" ").forEach(e=>{ht.prototype[e]=function(t,r){const n=this;return r?(r.call(n,ht.prototype[e].call(n,t)),this):typeof ht[e](this,t)=="number"?ht[e](this,t):ht(ht[e](this,t))}});ht.jStat=ht;function PA(e,t,r,n){if(n)return Sae(e,t,r);const i=t;let o=[];for(let a=0;a<=r;a++){const s=ht.binomial.pdf(a,r,e/r);if(s<0)return null;const l=s*i;l<.01||o.push([a,l])}return o}function Sae(e,t,r){const n=t;let i=[],o=0;for(let a=0;a<=r;a++){const s=ht.binomial.pdf(a,r,e/r);if(s<0)return null;const l=s*n;if(l<.01)continue;const u=Math.floor(a*1.684);if(o)for(let c=o;c<u;c++)i.push([c,0]);i.push([u,l]),o=u+1}return i}function Tae(e,t,r,n,i,o){let a=[],s=0;for(let p=0;p<=i;p++){const v=ht.binomial.pdf(p,i,e/i);if(v<0){a=null;break}const g=v*t;if(g<.01)continue;const m=Math.floor(p*1.684);if(s)for(let _=s;_<m;_++)a.push([_,0]);a.push([m,g]),s=m+1}const l=n/t,u={};for(let p=0;p<=i;p++){const v=ht.binomial.pdf(p,i,r/i);if(v<0)throw Error(`invalid arguments for Stat.binomial.pdf: ${p}, ${i}, ${r/i}`);if(v*n<.01)continue;const m=o?Math.floor(p*1.684):p;a.forEach(_=>{const[y,w]=_,T=y+m,S=w*v*l;T in u?u[T]+=S:u[T]=S})}let c=99,f=0;for(const[p,v]of Object.entries(u)){if(v<.01)continue;const g=parseInt(p);g<c&&(c=g),g>f&&(f=g)}const h=[];for(let p=c;p<=f;p++)if(p in u){const v=u[p];h.push([p,v])}else h.push([p,0]);return{bellU:a,bellL:h}}function Pae(e,t){let r={};if(e)for(let[o,a]of e)r[o]=a;for(let[o,a]of t)o in r?r[o]+=a:r[o]=a;let n=Object.entries(r).sort((o,a)=>o[0]-a[0]),i=[];for(let[o,a]of n)i.push([o,a]);return i}function EA(e,t,r,n,i){if(n)throw Error("not implemented");return Eae(e,t,r,i)}function Eae(e,t,r,n){let i,o,a;if(!Object.keys(e).length)return{mse:i,chisq:o,pval:a};i=0;for(const[p,[v,g]]of Object.entries(e)){const m=parseInt(v);if(n&&m==0)continue;const _=m in t?t[m]:0,y=g-_;i+=y*y}const s=3,l=r+2,u=Object.keys(e).sort((p,v)=>e[v][1]-e[p][1]);let c={},f=0;if(u.forEach(p=>{const v=e[p][0];if(n&&v=="0")return;const g=e[p][1],m=v in t?t[v]:0;(g>=s||m>=s||f<l)&&(c[v]={y_model:g,y_observed:m},f++)}),Object.keys(c).length==0)return console.log("can't compute chiSquared: only",c,"bins left after discard"),{mse:i,chisq:o,pval:a};let d=0;o=0;for(const[p,{y_model:v,y_observed:g}]of Object.entries(c)){const m=v-g;o+=m*m/v,d++}return d-1-r<1?(console.log("can't compute pval: bins",d,"variables",r),{mse:i,chisq:o,pval:a}):(isFinite(o)?a=1-ht.chisquare.cdf(o,d-1-r):a=0,{mse:i,chisq:o,pval:a})}function eW(e){e.forEach(t=>{t[0]=Math.floor(t[0]*1.684)})}Xr([yf,y_,$0,z0,Sf,wf,Tf,V0,S_,w_,b_,U0]);const kae={data:()=>({selected_np:1,selected_n:10,isBinary:!1}),props:{stats:Object,histogram:Object,isGiant:Boolean},components:{VChart:Pf},methods:{formatFixed:Ft,isGoodVal:Ei,formatKMG:wP,makeBinomialArray:PA,loss:EA,applyGiantBonus:eW,makeModelA(e,t){let r={np:e,n:t};if(r.bell=this.makeBinomialArray(e,this.stats.len,t,this.isGiant),!r.bell)return null;if(r.loss=this.loss(r.bell,this.histogram.map,2),this.isBinary=0 in r.bell&&1 in r.bell&&Object.keys(r.bell).length==2&&0 in this.histogram.map&&1 in this.histogram.map&&Object.keys(this.histogram.map).length==2,this.isBinary){const n=this.stats.lucky.len,i=r.bell[1][1],o=this.histogram.map[1],a=i/n;o<=n&&0<a&&a<1?(r.loss.binomtest=hA(o,Math.round(n),{p:a}),r.loss.pval=r.loss.binomtest.pValue,console.log("binomtest:",r.bell,this.histogram.map,o,n,a,r.loss.binomtest)):(console.log("can't binomtest",r.bell,this.histogram.map,o,n,a),r.loss.binomtest=NaN)}return r},tuneModelA(e,t){let r=[t];t===void 0&&(r=[1,10,20,40,110,120,140,150],r=r.filter(i=>i>=e&&i<=this.stats.max*5));let n={n:NaN,loss:{mse:NaN,chisq:NaN,pval:NaN}};return r.forEach(i=>{const o=this.makeModelA(e,i);if(!o)return;Ei(o.loss.mse)&&(!Ei(n.loss.mse)||o.loss.mse<n.loss.mse)&&(n=o)}),n},applySelectedNP(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_np=e)},applySelectedN(e){e<0||(e<this.selected_np&&(this.selected_np=e),this.selected_n=e)}},computed:{modelA(){return this.makeModelA(this.selected_np,this.selected_n)},modelAForChart(){const e=this.stats.len,t=this.stats.generalSigmas,r=[];return this.modelA.bell.forEach(([n,i])=>{const o=i/e,a=t*Math.sqrt(o*(1-o)/e),s=Math.max(0,o-a)*e,l=Math.min(1,o+a)*e;r.push([n,i,s,l])}),r},sweepRange(){const e={lo:Math.max(0,this.stats.meanLo),init:this.stats.mean,hi:this.stats.meanHi};return this.isGiant&&(e.init>40?(e.lo/=1.684,e.init/=1.684,e.hi/=1.684):e.init>20?(e.lo/=1.684,e.init/=1.684,e.hi/=1.6):e.init>10?(e.lo/=1.684,e.init/=1.684,e.hi/=1.5):e.init>5?(e.lo/=1.684,e.init/=1.684,e.hi/=1.3):e.init>1&&(e.lo/=1.684,e.init/=1.684,e.hi/=1)),e.range=e.hi-e.lo,e},modelASweep(){const e=this.tuneModelA(this.sweepRange.init,void 0);let t=10;const r=[.002,.005,.01,.02,.05,.1,.2,.5,1,2,5];for(const a of r)if(Math.floor(this.sweepRange.range/a)<20){t=a;break}const n=Math.ceil(this.sweepRange.lo/t)*t;let i=e;const o=[];for(let a=n;a<=this.sweepRange.hi;a+=t){let s=this.tuneModelA(a,void 0);a>this.sweepRange.init&&a<this.sweepRange.init+t&&o.push([this.sweepRange.init,s.n,e.loss.mse,e.loss.chisq,e.loss.pval]),o.push([a,s.n,s.loss.mse,s.loss.chisq,s.loss.pval]),s.loss.mse<i.loss.mse&&(i=s)}return isFinite(i.loss.mse)&&(this.selected_np=i.np,this.selected_n=i.n),{result:i,log:o}},makeChartHist(){return{legend:null,tooltip:{trigger:"axis"},dataset:[{source:this.histogram.arr},{source:this.modelAForChart}],xAxis:{axisLine:{onZero:!1},min:this.stats.min==0?-1:null,max:this.stats.max<3?this.stats.max+1:null},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:8,right:10,bottom:20},series:[{type:"bar",name:"observed",datasetIndex:0,encode:{x:0,y:1},tooltip:{valueFormatter:t=>Ft(t,0)}},{type:"line",name:"model",datasetIndex:1,encode:{x:0,y:1},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1},{type:"line",name:`-${this.stats.generalSigmas}\u03C3`,datasetIndex:1,encode:{x:0,y:2},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"line",name:`+${this.stats.generalSigmas}\u03C3`,datasetIndex:1,encode:{x:0,y:3},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1,lineStyle:{opacity:.4}}]}},makeChartASweep(){const e={legend:{},tooltip:{trigger:"axis",formatter:function(t){const r=t[0].data;return`np=${Ft(r[0],2)}<br/>n=${Ft(r[1],2)}<br/>MSE=${r[2].toLocaleString(void 0,{notation:"compact"})}<br/>\u03C7\xB2=${r[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${Ft(r[4],2)}<br/>`}},title:{subtext:"",left:"center",textStyle:{fontSize:10}},dataset:[{source:this.modelASweep.log}],xAxis:{min:this.sweepRange.lo,max:this.sweepRange.hi,name:"np",nameLocation:"center",nameGap:20,axisLine:{onZero:!1},axisLabel:{showMinLabel:!1}},yAxis:[{position:"left",axisLabel:{formatter:t=>t.toLocaleString(void 0,{notation:"compact"})},splitLine:{show:!1}},{position:"right",axisLabel:{formatter:t=>t.toLocaleString(void 0,{notation:"compact"})}}],grid:{left:35,top:30,right:40,bottom:20},series:[{name:"MSE",type:"line",encode:{x:0,y:2},tooltip:{valueFormatter:t=>Ft(t,2)}},{name:"p-val",type:"line",encode:{x:0,y:4},tooltip:{valueFormatter:t=>Ft(t,4)},yAxisIndex:1}]};return console.log("makeChartASweep",e.dataset),e}}},Ir=e=>(gr("data-v-f49098bd"),e=e(),mr(),e),Aae=Ir(()=>b("span",{class:"title"},"Model A",-1)),Cae=Ir(()=>b("span",null,[z(": all points were taken from a single distribution with "),b("i",null,"np = M")],-1)),Mae=z(" with giant bonus"),xae={key:0},Lae={style:{float:"left"}},Iae=z(" Sweeping through "),Oae=Ir(()=>b("i",null,"np",-1)),Rae={key:0,id:"chartSweep"},Dae={key:1},Nae={style:{padding:"1em"}},Fae=Ir(()=>b("th",null,null,-1)),Bae=Ir(()=>b("th",null,"np",-1)),$ae=Ir(()=>b("th",null,"n",-1)),zae=Ir(()=>b("th",null,"MSE",-1)),Vae=Ir(()=>b("th",null,"p-val",-1)),Uae=Ir(()=>b("td",null,"Best fit:",-1)),Gae=Ir(()=>b("td",null,"Manual:",-1)),Wae=z(" np: "),jae=["value","min","max","step"],Hae=z(" n: "),Xae=["value","min"],Yae=Ir(()=>b("br",null,null,-1)),qae={id:"chartHisto",style:{float:"left"}},Zae=Ir(()=>b("div",{style:{clear:"both"}},null,-1)),Kae=Ir(()=>b("br",null,null,-1)),Jae=Ir(()=>b("p",{class:"fsxs"},[z("MSE: "),b("i",null,"\u03A3 (observed - model)\xB2"),z(", discard nothing \u2190 this is used for fitting")],-1)),Qae={key:0,class:"fsxs"},tse=z("p-val: "),ese=Ir(()=>b("a",{href:"https://en.wikipedia.org/wiki/Binomial_test"},"exact",-1)),rse=[tse,ese],nse=Ir(()=>b("p",{class:"fsxs"},[z("\u03C7\xB2: discard bins where model < 3, then "),b("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),ise=Ir(()=>b("p",{class:"fsxs"},[z("p-val: "),b("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function ose(e,t,r,n,i,o){const a=he("v-chart");return I(),R(j,null,[Aae,Cae,b("p",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=s=>r.isGiant=s)},null,512),[[sr,r.isGiant]]),Mae]),r.isGiant?(I(),R("p",xae,"This causes gaps in Unlucky distrubution because giantValue=floor(1.684*ordinaryValue);")):tt("",!0),b("div",null,[b("div",Lae,[Iae,Oae,z(" values in "+L(o.formatFixed(this.sweepRange.lo,2))+"\u2026"+L(o.formatFixed(this.sweepRange.hi,2))+" range: ",1),o.modelASweep.result.np?(I(),R("div",Rae,[Ct(a,{option:o.makeChartASweep},null,8,["option"])])):(I(),R("div",Dae," [failed] ")),b("div",Nae,[b("table",null,[b("tr",null,[Fae,Bae,$ae,zae,tt("",!0),Vae]),o.modelASweep.result?(I(),R("tr",{key:0,class:rn({strike:r.stats.aBad})},[Uae,b("td",null,L(o.formatFixed(o.modelASweep.result.np,4)),1),b("td",null,L(o.formatFixed(o.modelASweep.result.n)),1),b("td",null,L(o.formatFixed(o.modelASweep.result.loss.mse,2)),1),tt("",!0),b("td",null,L(o.formatFixed(o.modelASweep.result.loss.pval,4)),1)],2)):tt("",!0),b("tr",null,[Gae,b("td",null,L(o.formatFixed(e.selected_np,4)),1),b("td",null,L(e.selected_n),1),b("td",null,L(o.formatFixed(o.modelA.loss.mse,2)),1),tt("",!0),b("td",null,L(o.formatFixed(o.modelA.loss.pval,4)),1)])]),Wae,b("input",{type:"range",onInput:t[1]||(t[1]=s=>o.applySelectedNP(Number(s.target.value))),value:e.selected_np,min:r.stats.min,max:r.stats.max,step:.01,class:"vmid"},null,40,jae),Hae,b("input",{type:"range",onInput:t[2]||(t[2]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:r.stats.max,max:200,step:1,class:"vmid"},null,40,Xae),Yae])]),b("div",qae,[o.modelA.bell?(I(),va(a,{key:0,option:o.makeChartHist},null,8,["option"])):(I(),R(j,{key:1},[z(" [failed to build the requested distribution np="+L(o.modelA.np)+" n="+L(o.modelA.n)+" ] ",1)],64))]),Zae,Kae,Jae,e.isBinary?(I(),R("p",Qae,rse)):(I(),R(j,{key:1},[nse,ise],64))])],64)}const ase=Ne(kae,[["render",ose],["__scopeId","data-v-f49098bd"]]);Xr([yf,y_,$0,z0,Olt,Sf,wf,Tf,V0,S_,w_,b_,U0]);const sse={data:()=>({selected_np:1,selected_n:10,sweep_lo:0,sweep_hi:1}),props:{stats:Object,histogram:Object},components:{VChart:Pf},methods:{isGoodVal:Ei,formatFixed:Ft,formatKMG:wP,makeBinomialArray:PA,loss:EA,makeModelB(e,t){const r=this.makeBinomialArray(e,this.stats.lucky.len,t);if(!r)return null;const n={np:e,n:t,bell:r},i=this.histogram.map,o=this.histogramLuckOnly.err[0][1],a=this.histogramLuckOnly.err[0][2];if(r[0]<o){const l={...i};l[0]=o,n.loss=this.loss(n.bell,l,2,!1)}else if(r[0]>a){const l={...i};l[0]=a,n.loss=this.loss(n.bell,l,2,!1)}else{const l={...i};delete l[0],n.loss=this.loss(n.bell,l,2,!1,!0)}if(0 in r&&1 in r&&Object.keys(r).length==2&&0 in i&&1 in i&&Object.keys(i).length==2){const l=this.stats.lucky.len,u=r[1][1],c=i[1],f=u/l;c<=l&&0<f&&f<1?(n.loss.binomtest=hA(c,Math.round(l),{p:f}),n.loss.pval=n.loss.binomtest.pValue,console.log("binomtest:",r,i,c,l,f,n.loss.binomtest)):(console.log("can't binomtest",r,i,c,l,f),n.loss.binomtest=NaN)}return n},tuneModelB(e,t){let r=[t];t===void 0&&(r=[10,20,40,110,120,140,150],r.push(this.stats.max),r=r.filter(i=>i<=this.stats.max*5));let n={np:0,n:1,loss:{mse:void 0,chisq:void 0,pval:void 0}};if(!this.histogramLuckOnly){console.log("tuneModelB skip");return}return r.forEach(i=>{const o=this.makeModelB(e,i);if(!o)return;Ei(o.loss.mse)&&(!Ei(n.loss.mse)||o.loss.mse<n.loss.mse)&&(n=o)}),n&&n.np>0&&n.np<=n.n?n:(console.log(`tuneModelB np=${e} -> failed`),null)},applySelectedNp(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_np=e)},applySelectedN(e){e<0||(e<this.selected_np&&(this.selected_np=e),this.selected_n=e)}},computed:{histogramLuckOnly(){const e={...this.histogram.map};e[0]=this.histogram.map[0]-this.stats.unlucky.len;const t=[],r=[];for(const[n,i]of Object.entries(e)){if(n==0){const o=this.histogram.map[0]-(this.stats.len-this.stats.lucky.lenHi),a=this.histogram.map[0]-(this.stats.len-this.stats.lucky.lenLo);r.push([n,a,o])}t.push([n,i])}return{map:e,arr:t,err:r}},zeroBinRange(){return{min:this.histogramLuckOnly.err[0][1],max:this.histogramLuckOnly.err[0][2]}},npRangeForBinary(){if(Object.keys(this.histogram.map).length==2&&1 in this.histogram.map){const e=this.histogram.map[1];return{min:e/(this.zeroBinRange.max+e),max:e/(this.zeroBinRange.min+e)}}},modelB(){const e=this.makeModelB(this.selected_np,this.selected_n);return console.log("modelB",e),e},modelBForChart(){const e=this.stats.len,t=this.stats.generalSigmas,r=[];return this.modelB.bell.forEach(([n,i])=>{const o=i/e,a=t*Math.sqrt(o*(1-o)/e),s=Math.max(0,o-a)*e,l=Math.min(1,o+a)*e;r.push([n,i,s,l])}),r},modelBSweep(){const e=Math.max(this.stats.meanLo/this.stats.lucky.share,0);if(e>8888888)return console.log("modelBSweep skip - no input",this.stats.meanLo,this.stats.lucky.share,this.stats.lucky.std),!1;this.sweep_lo=e,this.sweep_hi=this.stats.meanHi/this.stats.lucky.share;const t=this.sweep_hi-e;let r=10;const n=[.002,.005,.01,.02,.05,.1,.2,.5,1,2,5];for(const s of n)if(Math.floor(t/s)<40){r=s;break}if(Math.floor(t/r)>1e3)return!1;const i=Math.ceil(e/r)*r;let o={np:void 0,n:void 0,loss:{mse:1/0,chisq:1/0,pval:0}};const a=[];for(let s=i;s<=this.sweep_hi;s+=r){const l=this.tuneModelB(s,void 0);if(!l)continue;a.push([s,l.n,l.loss.mse,l.loss.chisq,l.loss.pval]),Ei(l.loss.mse)&&(!Ei(o.loss.mse)||l.loss.mse<o.loss.mse)&&(console.log("new best model",s,l),o=l)}return this.selected_np=o.np,this.selected_n=o.n,{result:o,log:a}},makeChartBSweep(){const e={legend:{},tooltip:{trigger:"axis",formatter:function(t){const r=t[0].data;return`np=${Ft(r[0],2)}<br/>n=${Ft(r[1])}<br/>MSE=${r[2].toLocaleString(void 0,{notation:"compact"})}<br/>\u03C7\xB2=${r[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${Ft(r[4],2)}<br/>`}},title:{subtext:"",left:"center",textStyle:{fontSize:10}},dataset:[{source:this.modelBSweep.log}],xAxis:{min:this.sweep_lo,max:this.sweep_hi,name:"np",nameLocation:"center",nameGap:20,axisLine:{onZero:!1},axisLabel:{showMinLabel:!1}},yAxis:[{position:"left",axisLabel:{formatter:t=>this.formatKMG(t)},splitLine:{show:!1}},{position:"right"}],grid:{left:35,top:30,right:40,bottom:20},series:[{name:"MSE",type:"line",encode:{x:0,y:2},tooltip:{valueFormatter:t=>Ft(t,2)}},{name:"p-val",type:"line",encode:{x:0,y:4},tooltip:{valueFormatter:t=>Ft(t,4)},yAxisIndex:1}]};return console.log("makeChartBSweep",e.dataset),e},makeChartBHist(){return{legend:null,tooltip:{trigger:"axis"},dataset:[{source:this.histogramLuckOnly.arr},{source:this.histogramLuckOnly.err},{source:this.modelBForChart}],xAxis:{axisLine:{onZero:!1},min:-1,max:this.stats.max+1},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:8,right:10,bottom:20},series:[{type:"bar",name:"observed",datasetIndex:0,encode:{x:0,y:1},tooltip:{valueFormatter:t=>Ft(t,0)}},{type:"line",name:"model",datasetIndex:2,encode:{x:0,y:1},tooltip:{valueFormatter:t=>Ft(t,3)},showSymbol:!1},{type:"line",name:`-${this.stats.generalSigmas}\u03C3`,datasetIndex:2,encode:{x:0,y:2},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"line",name:`+${this.stats.generalSigmas}\u03C3`,datasetIndex:2,encode:{x:0,y:3},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"custom",name:"observed-error",datasetIndex:1,encode:{x:0,y:[1,2]},itemStyle:{borderWidth:1.5},renderItem:function(t,r){var n=r.value(0),i=r.coord([n,r.value(1)]),o=r.coord([n,r.value(2)]),a=r.size([1,0])[0]*.1,s=r.style({stroke:r.visual("color"),fill:void 0});return{type:"group",children:[{type:"line",transition:["shape"],shape:{x1:i[0]-a,y1:i[1],x2:i[0]+a,y2:i[1]},style:s},{type:"line",transition:["shape"],shape:{x1:i[0],y1:i[1],x2:o[0],y2:o[1]},style:s},{type:"line",transition:["shape"],shape:{x1:o[0]-a,y1:o[1],x2:o[0]+a,y2:o[1]},style:s}]}},tooltip:{show:!1},z:100}]}}}},br=e=>(gr("data-v-7790bb48"),e=e(),mr(),e),lse=br(()=>b("span",{class:"title"},"Model B",-1)),use=br(()=>b("span",null,[z(": majority (1-\u03BB) of points are zero, but \u03BB points are from a binomial distribution with such "),b("i",null,"np"),z(", that \u03BB"),b("i",null,"np"),z(" = M")],-1)),cse=z("Sweeping through "),fse=br(()=>b("i",null,"np",-1)),hse={style:{float:"left"}},dse={key:0,id:"chartSweep"},pse={style:{padding:"1em"}},vse={style:{float:"left"}},gse=br(()=>b("th",null,null,-1)),mse=br(()=>b("th",null,"np",-1)),_se=br(()=>b("th",null,"n",-1)),yse=br(()=>b("th",null,"MSE",-1)),bse=br(()=>b("th",null,"p-val",-1)),wse={key:0},Sse=br(()=>b("td",null,"Best fit:",-1)),Tse=br(()=>b("td",null,"Manual:",-1)),Pse=z(" np\u1D38: "),Ese=["value","min","max","step"],kse=z(" n\u1D38: "),Ase=["value"],Cse=br(()=>b("div",{style:{clear:"both"}},null,-1)),Mse={key:0,style:{float:"left"}},xse={id:"chartHisto"},Lse=br(()=>b("br",null,null,-1)),Ise={key:0},Ose=z(" Corresponding range for "),Rse=br(()=>b("i",null,"np",-1)),Dse={key:1},Nse=br(()=>b("div",{style:{clear:"both"}},null,-1)),Fse=br(()=>b("p",{class:"fsxs"},[z("MSE: "),b("i",null,"\u03A3 (observed - model)\xB2"),z(", discard nothing \u2190 this is used for fitting")],-1)),Bse={key:0,class:"fsxs"},$se=z("p-val: "),zse=br(()=>b("a",{href:"https://en.wikipedia.org/wiki/Binomial_test"},"exact",-1)),Vse=[$se,zse],Use=br(()=>b("p",{class:"fsxs"},[z("\u03C7\xB2: discard bins where model < 3, then "),b("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),Gse=br(()=>b("p",{class:"fsxs"},[z("p-val: "),b("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function Wse(e,t,r,n,i,o){const a=he("v-chart");return I(),R(j,null,[lse,use,o.modelB?(I(),R(j,{key:0},[b("p",null,[cse,fse,z(" values in "+L(o.formatFixed(this.sweep_lo,2))+"\u2026"+L(o.formatFixed(this.sweep_hi,2))+" range:",1)]),b("div",null,[b("div",hse,[o.modelBSweep?(I(),R("div",dse,[Ct(a,{option:o.makeChartBSweep},null,8,["option"])])):tt("",!0),b("div",pse,[b("div",vse,[b("table",null,[b("tr",null,[gse,mse,_se,yse,tt("",!0),bse]),o.modelBSweep.result?(I(),R("tr",wse,[Sse,b("td",null,L(o.formatFixed(o.modelBSweep.result.np,3)),1),b("td",null,L(o.modelBSweep.result.n),1),b("td",null,L(o.formatFixed(o.modelBSweep.result.loss.mse,2)),1),tt("",!0),b("td",null,L(o.formatFixed(o.modelBSweep.result.loss.pval,4)),1)])):tt("",!0),b("tr",null,[Tse,b("td",null,L(o.formatFixed(e.selected_np,3)),1),b("td",null,L(e.selected_n),1),b("td",null,L(o.formatFixed(o.modelB.loss.mse,2)),1),tt("",!0),b("td",null,L(o.formatFixed(o.modelB.loss.pval,4)),1)])]),b("p",null,[Pse,b("input",{type:"range",onInput:t[0]||(t[0]=s=>o.applySelectedNp(Number(s.target.value))),value:e.selected_np,min:r.stats.min,max:e.sweep_hi*1.5,step:.01,class:"vmid"},null,40,Ese),kse,b("input",{type:"range",onInput:t[1]||(t[1]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:1,max:200,step:1,class:"vmid"},null,40,Ase)])]),Cse])]),o.modelB.bell?(I(),R("div",Mse,[b("div",xse,[Ct(a,{option:o.makeChartBHist},null,8,["option"])]),b("div",null,[z(" Bin 0 has 1-\u03BB \u2248 "+L(o.formatFixed(r.stats.unlucky.len))+" samples removed, "+L(o.formatFixed(o.histogramLuckOnly.arr[0][1]))+" remaining",1),Lse,z(" Depending on actual \u03BB could potentially be "+L(o.formatFixed(o.histogramLuckOnly.err[0][1]))+"\u2026"+L(o.formatFixed(o.histogramLuckOnly.err[0][2]))+" remaining ",1),o.npRangeForBinary?(I(),R("p",Ise,[Ose,Rse,z(": "+L(o.formatFixed(o.npRangeForBinary.min,3))+"\u2026"+L(o.formatFixed(o.npRangeForBinary.max,3)),1)])):tt("",!0)])])):(I(),R("div",Dse," bad parameters ")),Nse]),b("div",null,[Fse,o.npRangeForBinary?(I(),R("p",Bse,Vse)):(I(),R(j,{key:1},[Use,Gse],64))])],64)):tt("",!0)],64)}const jse=Ne(sse,[["render",Wse],["__scopeId","data-v-7790bb48"]]);Xr([yf,y_,$0,z0,Sf,wf,Tf,V0,S_,w_,b_,U0]);class Hse{constructor(){this.data={},this.xmin=999,this.xmax=-999,this.ymin=999,this.ymax=-999}put(t,r,n){this.data.hasOwnProperty(t)||(this.data[t]={}),this.data[t][r]=n,this.xmin=Math.min(this.xmin,r/1e4),this.xmax=Math.max(this.xmax,r/1e4),this.ymin=Math.min(this.ymin,t/1e4),this.ymax=Math.max(this.ymax,t/1e4)}get(t,r){return!this.data.hasOwnProperty(t)||!this.data[t].hasOwnProperty(r)?null:this.data[t][r]}aslist(){let t=[];for(let[r,n]of Object.entries(this.data).sort((i,o)=>i[0]-o[0]))for(let[i,o]of Object.entries(n).sort((a,s)=>a[0]-s[0]))t.push([r/1e4,i/1e4,o.n,o.loss.mse,o.loss.chisq,o.loss.pval]);return t}}const Xse={data:()=>({selected_npL:1,selected_npU:1,selected_n:10,isGiant_lucky:!1,forceMSE:!1,bestPval:0}),props:{stats:Object,histogram:Object,isGiant:Boolean},components:{VChart:Pf},methods:{isGoodVal:Ei,formatFixed:Ft,formatKMG:wP,makeBinomialArray:PA,makeBinomialArraysForGiant:Tae,sumDistributions:Pae,loss:EA,applyGiantBonus:eW,ul2u(e,t,r){return r/(1-t)-t*e/(1-t)},l2u(e,t,r){return r-t*e},findPsStep(e,t,r,n,i){let a={il:0,iu:0,model:i};for(let s=-30;s<=30;s++)for(let l=-30;l<=30;l++){const u=t+l*n,c=r+s*n;if(u<0||c<0)continue;const f=this.isGiant?this.sweepRange.u_hi:this.l2u(c/1e4,this.stats.lucky.shareLo,this.sweepRange.u_hi);if(u/1e4>f)continue;const h=this.l2u(c/1e4,this.stats.lucky.shareHi,this.sweepRange.u_lo);if(u/1e4<h)continue;let d=e.get(u,c);d===null&&(d=this.makemodelC(c/1e4,void 0,u/1e4,void 0),this.bestPval=Math.max(this.bestPval,d.loss.pval),e.put(u,c,d)),d.loss.mse<a.model.loss.mse&&(a={il:s,iu:l,model:d})}return a},findPsRound(e,t,r,n,i,o){for(;t<=150;){let a=this.findPsStep(e,r,n,o,i);if(a.il==0&&a.iu==0)return console.log("no improvement on round",t),{round:t,curU:r,curL:n,model:a.model};if(r+=a.iu*o,n+=a.il*o,n/1e4>this.stats.max)return{round:t,curU:r,curL:n,model:a.model};t++}return{round:t,curU:r,curL:n,model:i}},makemodelC(e,t,r){let n=[t];t===void 0&&(n=[10,20,40,120],n=n.filter(o=>o>=e&&o>=r&&o>=this.stats.max));let i={n:void 0,loss:{mse:void 0,chisq:void 0,pval:void 0}};return this.stats.unlucky.len==0||(n.forEach(o=>{const a={npL:e,n:o,npU:r};if(this.isGiant){const l=this.makeBinomialArraysForGiant(r,this.stats.unlucky.len,e,this.stats.lucky.len,o,this.isGiant_lucky);a.bellU=l.bellU,a.bellL=l.bellL,a.bell=this.sumDistributions(a.bellL,a.bellU)}else a.bellU=this.makeBinomialArray(r,this.stats.unlucky.len,o),a.bellL=this.makeBinomialArray(r+e,this.stats.lucky.len,o),a.bell=this.sumDistributions(a.bellL,a.bellU);a.loss=this.loss(a.bell,this.histogram.map,3),Ei(a.loss.mse)&&(!Ei(i.loss.mse)||a.loss.mse<i.loss.mse)&&(i=a)}),i||console.log("makemodelC failed",e,r,t)),i},applySelectedNpL(e){e<0||(e>this.selected_nL&&(this.selected_nL=Math.ceil(e)),e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_npL=e)},applySelectedNpU(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_npU=e)},applySelectedNL(e){e<0||(e<this.selected_npL&&(this.selected_npL=e),this.selected_nL=e)},applySelectedNU(e){e<0||(e<this.selected_npU&&(this.selected_npU=e),this.selected_nU=e)},applySelectedN(e){e<0||(e<this.selected_npL&&(this.selected_npL=e),e<this.selected_npU&&(this.selected_npU=e),this.selected_n=e)},meanOfDistribution(e){let t=0,r=0;for(let[n,i]of e)t+=i,r+=n*i;return r/t}},computed:{modelC(){const e=this.makemodelC(this.selected_npL,this.selected_n,this.selected_npU);return console.log("modelC",e),e},sweepRange(){const e={u_lo:Math.max(0,this.stats.meanLo),u_init:this.stats.mean,u_hi:this.stats.meanHi,l_init:0};if(this.isGiant){const t=this.makeBinomialArray(e.u_init,this.stats.unlucky.len,100,!1),r=this.meanOfDistribution(t),n=this.makeBinomialArray(e.u_init,this.stats.unlucky.len,100,!0),o=this.meanOfDistribution(n)/r;console.log("init giant bonus",o),e.u_lo/=o,e.u_init/=o,e.u_hi/=o}return e},modelCSweep(){if(isNaN(this.stats.mean))return!1;this.bestPval=0;let e=1;const t=this.sweepRange.u_hi-this.sweepRange.u_lo;let r=1e4;t<3&&(r=5e3),t<1.5&&(r=2500),t<.6&&(r=1e3),t<.3&&(r=500),t<.12&&(r=200),t<.06&&(r=100),t<.03&&(r=50);let n=Math.round(this.sweepRange.u_init*1e4/r)*r,i=Math.round(this.sweepRange.l_init*1e4/r)*r;n<0&&(n=0),i<0&&(i=0);let o=this.makemodelC(i/1e4,void 0,n/1e4,void 0);this.stats.psGridPath=[[0,n/1e4,i/1e4,o.loss.chisq]];let a=new Hse;a.put(n,i,o),{round:e,curU:n,curL:i,model:o}=this.findPsRound(a,e,n,i,o,r);const s=a.aslist();return this.selected_npL=o.npL,this.selected_npU=o.npU,this.selected_n=o.n,console.log("modelCSweep",o,this.stats.lucky.mean),{result:o,psGridDotsMap:a,psGridDots:s}},makeChartCHist(){return{legend:{},tooltip:{trigger:"axis",valueFormatter:t=>Ft(t,0)},dataset:[{source:this.histogram.arr},{source:this.modelC.bell},{source:this.modelC.bellL},{source:this.modelC.bellU}],xAxis:{min:this.stats.min==0?-1:null,max:this.stats.max<5?this.stats.max+1:null},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:30,right:10,bottom:20},series:[{name:"observed",type:"bar",encode:{x:0,y:1},tooltip:{trigger:"axis",valueFormatter:t=>Ft(t,0)}},{name:"model \u03A3",type:"line",datasetIndex:1,encode:{x:0,y:1},showSymbol:!1},{name:"model U",type:"line",datasetIndex:3,encode:{x:0,y:1},showSymbol:!1},{name:"model L",type:"line",datasetIndex:2,encode:{x:0,y:1},showSymbol:!1}]}},makeChartCGrid(){const e=2.272727272727273;let{xmin:t,xmax:r,ymin:n,ymax:i}=this.modelCSweep.psGridDotsMap;const o=(t+r)/2,a=(n+i)/2;let s=.2;this.stats.mean<2&&(s=.05);const l=1.2*(this.modelCSweep.psGridDotsMap.xmax-this.modelCSweep.psGridDotsMap.xmin)+s,u=1.2*(this.modelCSweep.psGridDotsMap.ymax-this.modelCSweep.psGridDotsMap.ymin)+s;if(l/u>e){const m=l,_=l/e;t=o-m/2,r=o+m/2,n=a-_/2,i=a+_/2}else{const m=u*e,_=u;t=o-m/2,r=o+m/2,n=a-_/2,i=a+_/2}const f={xmin:t,xmax:r,ymin:n,ymax:i},h=this.forceMSE||isNaN(this.modelCSweep.result.loss.pval);let d=h?["#282","#2c2","#cc2","#ccc"]:["#ccc","#cc2","#2c2","#282"];const p={inRange:{color:d},calculable:!0,precision:h?0:2,controller:{inRange:{color:d}},orient:"vertical",top:"center",right:10,align:"left",padding:0};let v=h?{min:this.modelCSweep.result.loss.mse,max:this.modelCSweep.result.loss.mse*2,dimension:3,text:["MSE",""]}:{min:0,max:this.bestPval,dimension:5,text:["p-val",""]};return{legend:{},tooltip:{trigger:"item",axisPointer:{type:"cross"},formatter:function(m){const _=m.data;return`np\u1D41=${Ft(_[0],2)}<br/>np\u1D38=${Ft(_[1],2)}<br/>n=${Ft(_[2],2)}<br/>MSE=${_[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${Ft(_[5],2)}<br/>`}},title:{},dataset:[{source:this.modelCSweep.psGridDots}],xAxis:{name:"np\u1D38",nameGap:5,min:f.xmin,max:f.xmax,axisLabel:{showMinLabel:!1,showMaxLabel:!1},axisLine:{onZero:!1}},yAxis:{name:"np\u1D41",nameGap:5,min:f.ymin,max:f.ymax,axisLabel:{showMinLabel:!1,showMaxLabel:!1},axisLine:{onZero:!1}},grid:{left:35,top:30,right:40,bottom:20},series:[{type:"scatter",encode:{x:1,y:0,tooltip:[1,0,3]},tooltip:{valueFormatter:m=>`${m[1]} \u2192 ${Ft(m[2],4)}`},symbolSize:6,markArea:{silent:!0,data:[[{name:`M\xB1${this.stats.generalSigmas}\u03C3`,coord:[this.sweepRange.u_lo-this.sweepRange.u_init,this.sweepRange.u_lo]},{coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.sweepRange.u_hi]}]],label:{show:!0,position:"left"},itemStyle:{color:"rgba(0, 0, 200, 0)",borderWidth:1,borderType:"dashed"}},markLine:{silent:!0,symbol:"none",data:[this.isGiant?[{name:"low \u03BB, high M",label:{position:"insideMiddleTop"},coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]}]:[{name:"low \u03BB, high M",label:{position:"insideMiddleTop"},coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.modelCSweep.psGridDotsMap.xmax,this.stats.lucky.shareLo,this.sweepRange.u_hi)]}],[{name:"high \u03BB, low M",label:{position:"insideMiddleBottom"},coord:[this.sweepRange.u_lo-this.sweepRange.u_init,this.l2u(this.sweepRange.u_lo-this.sweepRange.u_init,this.stats.lucky.shareHi,this.sweepRange.u_lo)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.modelCSweep.psGridDotsMap.xmax,this.stats.lucky.shareHi,this.sweepRange.u_lo)]}]]}}],visualMap:{...p,...v}}}}},wn=e=>(gr("data-v-b8ef0950"),e=e(),mr(),e),Yse=wn(()=>b("span",{class:"title"},"Model C",-1)),qse=z(": some points were taken from a distribution L, and the rest from distribution U,"),Zse=wn(()=>b("br",null,null,-1)),Kse=wn(()=>b("br",null,null,-1)),Jse=z(" with giant bonus on Unlucky"),Qse=z(" with giant bonus on Lucky"),tle={style:{float:"left"}},ele={key:0,style:{width:"570px",height:"270px"}},rle={style:{padding:"1em"}},nle={style:{float:"left"}},ile=wn(()=>b("tr",null,[b("th"),b("th",null,"np\u1D41"),b("th",null,"np\u1D38"),b("th",null,"n"),b("th",null,"MSE"),b("th",null,"p-val")],-1)),ole=wn(()=>b("td",null,"Best fit:",-1)),ale=wn(()=>b("td",null,"Manual:",-1)),sle=["value","min","max","step"],lle=z(" np\u1D41 "),ule=wn(()=>b("br",null,null,-1)),cle=["value","max","step"],fle=z(" np\u1D38 "),hle=wn(()=>b("br",null,null,-1)),dle=["value"],ple=z(" n "),vle=wn(()=>b("div",{style:{clear:"both"}},null,-1)),gle={key:0,id:"chartHisto",style:{float:"left"}},mle=wn(()=>b("div",{style:{clear:"both"}},null,-1)),_le=wn(()=>b("br",null,null,-1)),yle=wn(()=>b("p",{class:"fsxs"},[z("MSE: "),b("i",null,"\u03A3 (observed - model)\xB2"),z(", discard nothing \u2190 this is used for fitting")],-1)),ble=wn(()=>b("p",{class:"fsxs"},[z("\u03C7\xB2: discard bins where model < 3, then "),b("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),wle=wn(()=>b("p",{class:"fsxs"},[z("p-val: "),b("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function Sle(e,t,r,n,i,o){const a=he("v-chart");return I(),R(j,null,[Yse,b("span",null,[qse,Zse,z(" so (1 - \u03BB) np\u1D41 + \u03BB (np\u1D41 + np\u1D38) = M, where \u03BB \u2208 "+L(o.formatFixed(r.stats.lucky.shareLo*100,2))+"\u2026"+L(o.formatFixed(r.stats.lucky.shareHi*100,2))+"% and M \u2208 "+L(o.formatFixed(r.stats.mean-1.96*r.stats.meanErr,2))+"\u2026"+L(o.formatFixed(r.stats.mean+1.96*r.stats.meanErr,2)),1)]),Kse,b("p",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=s=>r.isGiant=s)},null,512),[[sr,r.isGiant]]),Jse]),b("p",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":t[1]||(t[1]=s=>e.isGiant_lucky=s)},null,512),[[sr,e.isGiant_lucky]]),Qse]),b("div",tle,[o.modelCSweep?(I(),R("div",ele,[Ct(a,{option:o.makeChartCGrid},null,8,["option"])])):tt("",!0),b("div",rle,[b("div",nle,[b("table",null,[ile,o.modelCSweep.result?(I(),R("tr",{key:0,class:rn({strike:r.stats.dBad})},[ole,b("td",null,L(o.formatFixed(o.modelCSweep.result.npU,2)),1),b("td",null,L(o.formatFixed(o.modelCSweep.result.npL,2)),1),b("td",null,L(o.modelCSweep.result.n),1),b("td",null,L(o.formatFixed(o.modelCSweep.result.loss.mse,2)),1),b("td",null,L(o.formatFixed(o.modelCSweep.result.loss.pval,4)),1)],2)):tt("",!0),b("tr",null,[ale,b("td",null,L(o.formatFixed(e.selected_npU,2)),1),b("td",null,L(o.formatFixed(e.selected_npL,2)),1),b("td",null,L(e.selected_n),1),b("td",null,L(o.formatFixed(o.modelC.loss.mse,2)),1),b("td",null,L(o.formatFixed(o.modelC.loss.pval,4)),1)])]),b("p",null,[b("input",{type:"range",onInput:t[2]||(t[2]=s=>o.applySelectedNpU(Number(s.target.value))),value:e.selected_npU,min:r.stats.min,max:r.stats.max,step:.01,class:"vmid"},null,40,sle),lle,ule,b("input",{type:"range",onInput:t[3]||(t[3]=s=>o.applySelectedNpL(Number(s.target.value))),value:e.selected_npL,min:0,max:r.stats.max,step:.01,class:"vmid"},null,40,cle),fle,hle,b("input",{type:"range",onInput:t[4]||(t[4]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:1,max:200,step:1,class:"vmid"},null,40,dle),ple])]),vle])]),o.modelC.bell?(I(),R("div",gle,[Ct(a,{option:o.makeChartCHist},null,8,["option"])])):tt("",!0),mle,_le,yle,ble,wle],64)}const Tle=Ne(Xse,[["render",Sle],["__scopeId","data-v-b8ef0950"]]);Xr([yf,y_,$0,z0,Sf,wf,Tf,V0,S_,w_,b_,U0]);const Ple={setup(){const e=Et(),t=PY(),r=localStorage.getItem("droprates");return t.$patch(JSON.parse(r)),t.$subscribe((n,i)=>{localStorage.setItem("droprates",JSON.stringify(i))}),{gameStore:e,dropratesStore:t}},components:{VChart:Pf,DRMA:ase,DRMB:jse,DRMC:Tle},provide(){return{[mft]:Ye(()=>this.darkMode?"dark":"default")}},data(){const e=matchMedia("(prefers-color-scheme: dark)");return{alldata:{},generalSigmas:2,hide_buckets:{},darkModeQuery:e,darkMode:e.matches}},created(){this.fetchObservations()},mounted(){this.darkModeQuery.addEventListener("change",()=>{this.darkMode=this.darkModeQuery.matches})},watch:{},computed:{currentDataset(){const e={};if(this.dropratesStore.selected_pzk in this.alldata){const t=this.alldata[this.dropratesStore.selected_pzk];if(this.dropratesStore.selected_ik in t){const r=t[this.dropratesStore.selected_ik];if(this.dropratesStore.selected_specie in r){const n=r[this.dropratesStore.selected_specie];for(let[i,o]of Object.entries(n).sort((a,s)=>a[0]-s[0]))e[i]=o}}}return e},weightedDataset(){let e={};for(let[t,r]of Object.entries(this.currentDataset)){if(this.hide_buckets[t])continue;const n=r.length;let i=[];for(let o=0;o<n;o++){const a=ht.binomial.cdf(o,n,1-t/100);i.push(a)}e[t]={len:n,luckyLen:n*t/100,sorted:[...r].sort((o,a)=>o-a),weights:i}}return e},stats(){const e=this.currentDataset;let t=0,r=0;for(const[v,g]of Object.entries(e))t+=e[v].length,r+=e[v].length;const n=this.weightedDataset;for(let[v,g]of Object.entries(n))for(let m of g.weights)m>this.stats.generalConfidence/100,m>1-this.stats.generalConfidence/100;let i=[],o=[],a=0,s=100,l=0;for(const[v,g]of Object.entries(n)){s=Math.min(s,v),l=Math.max(l,v);let{len:m,luckyLen:_,sorted:y,weights:w}=g;a+=_,i.push(...y),o.push(...w)}const u={1.5:86.6385597,2:95.4499736,2.5:98.7580669,3:99.7300203,3.5:99.9534741841929,4:99.9936657516334},c={generalSigmas:this.generalSigmas,generalConfidence:u[this.generalSigmas],lenRaw:t,dataRaw:e,dataByLuck:n,minLuck:s,maxLuck:l,dataFlatSorted:i,weightsFlat:o,len:i.length,min:ht.min(i),max:ht.max(i),range:ht.range(i),sum:ht.sum(i),mean:ht.mean(i),meanErr:0,meanLo:0,meanHi:0,std:ht.stdev(i,!0),bell:[],histo:[]};if(c.meanErr=Math.sqrt(c.mean/c.max*(1-c.mean/c.max)*c.max/c.len),c.meanLo=c.mean-this.generalSigmas*c.meanErr,c.meanHi=c.mean+this.generalSigmas*c.meanErr,c.lucky={len:a,share:a/c.len,mean:0,std:0,lenHi:0,lenLo:0,shareHi:0,shareLo:0},isNaN(c.lucky.share))c.lucky.shareLo=NaN,c.lucky.shareHi=NaN,c.lucky.lenLo=NaN,c.lucky.lenHi=NaN;else{console.log("binomTest of lucky share%=",c.lucky.share,"with significance=",1-c.generalConfidence/100);const v=this.binomialTest(Math.round(c.lucky.len),c.len,{p:c.lucky.share,alpha:1-c.generalConfidence/100});c.lucky.shareLo=v.ci[0],c.lucky.shareHi=v.ci[1],c.lucky.lenLo=v.ci[0]*c.len,c.lucky.lenHi=v.ci[1]*c.len}c.unlucky={len:c.len-a,share:1-c.lucky.share,mean:0,std:0};let f=0,h=0;for(const[v,g]of Object.entries(n)){let{len:m,luckyLen:_,luckeyLen95:y,sorted:w,weights:T}=g;for(let S=0;S<m;S++){const P=w[S],A=T[S];f+=P*(1-A),h+=P*A}}c.unlucky.mean=f/c.unlucky.len,c.lucky.mean=h/c.lucky.len;let d=0,p=0;for(const[v,g]of Object.entries(n)){let{len:m,sorted:_,weights:y}=g;for(let w=0;w<m;w++){const T=y[w],S=_[w]-c.unlucky.mean;d+=S*S*(1-T);const P=_[w]-c.lucky.mean;p+=P*P*T}}return c.unlucky.std=Math.sqrt(d/c.unlucky.len),c.lucky.std=Math.sqrt(p/c.lucky.len),console.log("stats",c),c},histogram(){const e={arr:[],map:{}};if(this.stats.range>0){let t=[1];t=ht.histogram(this.stats.dataFlatSorted,this.stats.range+1);const n=Array.from(Array(this.stats.range+1).keys()).map(i=>[this.stats.min+i,t[i]]);e.arr=n;for(let i=0;i<t.length;i++)e.map[this.stats.min+i]=t[i]}else e.arr=[[this.stats.min,this.stats.len]],e.map[this.stats.min]=this.stats.len;return console.log("histogram",e),e}},methods:{formatFixed:Ft,makeIconSrc:li,binomialTest:hA,async fetchObservations(){const e=Date.now();this.alldata=await(await fetch("data/manual/yields_observed.json")).json();const t=this.dropratesStore.selected_pzk;this.dropratesStore.selected_pzk=t&&this.alldata[t]?t:Object.keys(this.alldata)[0];const r=this.dropratesStore.selected_ik;this.dropratesStore.selected_ik=r&&this.alldata[t][r]?r:Object.keys(this.alldata[t])[0];const n=this.dropratesStore.selected_specie;this.dropratesStore.selected_specie=n&&this.alldata[t][r][n]?n:Object.keys(this.alldata[t][r])[0],console.log("fetchObservations took",Date.now()-e,"ms",this.dropratesStore.selected_pzk,this.dropratesStore.selected_ik,this.dropratesStore.selected_specie)},activate(e,t,r){this.dropratesStore.selected_pzk=e,this.dropratesStore.selected_ik=t,this.dropratesStore.selected_specie=r}}},Yi=e=>(gr("data-v-60e89c6f"),e=e(),mr(),e),Ele={id:"menu"},kle={style:{display:"none"}},Ale=Yi(()=>b("p",{class:"fsxs"},"Left: droprate parameters currently used in workerman",-1)),Cle=Yi(()=>b("p",{class:"fsxs"},"Right: observations used to find out current serverside parameters",-1)),Mle={key:1},xle=Yi(()=>b("tr",null,[b("th",{class:"fsxs"},"n"),b("th",{class:"fsxs"},"np\u1D41"),b("th",{class:"fsxs"},"np\u1D38"),b("th",{class:"fsxs"},"item"),b("th",{class:"fsxs"},"normal"),b("th",{class:"fsxs"},"giant")],-1)),Lle={class:"fsxs"},Ile={class:"fsxs"},Ole={class:"fsxs"},Rle=["src"],Dle={class:"center"},Nle=["title","onClick"],Fle=["title"],Ble={id:"content"},$le=Yi(()=>b("tr",null,[b("td",null,"mute"),b("td",null,"luck")],-1)),zle={class:"center"},Vle=["onUpdate:modelValue"],Ule=z(" Possible luck procs observed with "),Gle=$1('<option value="1.5" data-v-60e89c6f>\xB11.5\u03C3</option><option value="2" data-v-60e89c6f>\xB12\u03C3</option><option value="2.5" data-v-60e89c6f>\xB12.5\u03C3</option><option value="3" data-v-60e89c6f>\xB13\u03C3</option><option value="3.5" data-v-60e89c6f>\xB13.5\u03C3</option><option value="4" data-v-60e89c6f>\xB14\u03C3</option>',6),Wle=[Gle],jle=Yi(()=>b("tr",null,[b("th"),b("th",null,"min"),b("th",null,"max")],-1)),Hle=Yi(()=>b("td",null,"count",-1)),Xle=Yi(()=>b("td",null,"% of total",-1)),Yle={id:"settings"},qle=z(" Use model:"),Zle=Yi(()=>b("br",null,null,-1)),Kle=Yi(()=>b("label",{for:"option1"},[z("A. Same item drop regardless of luck (plants, lumber, ores)"),b("br")],-1)),Jle=Yi(()=>b("label",{for:"option2"},[z("B. Item only drops when luck procs (sacks, lumbering rares)"),b("br")],-1)),Qle=Yi(()=>b("label",{for:"option3"},[z("C. Different drops when luck procs and when not (eggs, honey)"),b("br")],-1)),tue={key:0,id:"modelA",style:{float:"left"}},eue={key:1},rue={key:2};function nue(e,t,r,n,i,o){const a=he("RouterLink"),s=he("DRMA"),l=he("DRMB"),u=he("DRMC");return I(),R("main",null,[b("div",Ele,[b("div",kle,L(n.dropratesStore.selected_pzk)+" "+L(n.dropratesStore.selected_ik)+" "+L(n.dropratesStore.selected_specie),1),Ale,Cle,(I(!0),R(j,null,Lt(i.alldata,(c,f)=>(I(),R(j,null,[f in n.gameStore.plantzoneStatic?(I(),va(a,{key:0,tag:"a",to:{path:"./",hash:"#node"+f}},{default:Ee(()=>[z(L(f)+" "+L(n.gameStore.plantzoneName(f)),1)]),_:2},1032,["to"])):(I(),R("span",Mle,L(f),1)),b("table",null,[xle,(I(!0),R(j,null,Lt(c,(h,d)=>(I(),R("tr",null,[b("td",Lle,[n.gameStore.ready&&Number(f)in n.gameStore.plantzones?(I(),R(j,{key:0},[z(L(n.gameStore.plantzones[Number(f)].rolls),1)],64)):tt("",!0)]),b("td",Ile,[n.gameStore.ready&&Number(f)in n.gameStore.plantzones&&d in n.gameStore.plantzones[Number(f)].unlucky?(I(),R(j,{key:0},[z(L(n.gameStore.plantzones[Number(f)].unlucky[d]),1)],64)):tt("",!0)]),b("td",Ole,[n.gameStore.ready&&Number(f)in n.gameStore.plantzones&&d in n.gameStore.plantzones[Number(f)].lucky?(I(),R(j,{key:0},[z(L(n.gameStore.plantzones[Number(f)].lucky[d]),1)],64)):tt("",!0)]),b("td",null,[Ct(a,{tag:"a",to:{path:"./settings",hash:"#item"+d}},{default:Ee(()=>[b("span",null,[b("img",{src:o.makeIconSrc(d),class:"iconitem"},null,8,Rle)])]),_:2},1032,["to"]),z(" "+L(n.gameStore.itemName(d)),1)]),(I(),R(j,null,Lt(["normal","giant"],p=>b("td",Dle,[p in h?(I(),R(j,{key:0},[f!=n.dropratesStore.selected_pzk||d!=n.dropratesStore.selected_ik||p!=n.dropratesStore.selected_specie?(I(),R("button",{key:0,title:"item "+d,onClick:v=>o.activate(f,d,p)},L(Object.values(h[p]).flat().length),9,Nle)):(I(),R("button",{key:1,title:"item "+d,class:"pressed"},L(Object.values(h[p]).flat().length),9,Fle))],64)):tt("",!0)])),64))]))),256))])],64))),256))]),b("div",Ble,[b("details",null,[b("summary",null,[z("Dataset: size N = "+L(o.stats.len)+", sum "+L(o.stats.sum)+", mean M = "+L(o.formatFixed(o.stats.mean,3))+"\xB1"+L(o.formatFixed(1.96*o.stats.meanErr,3))+", ",1),this.stats.minLuck==this.stats.maxLuck?(I(),R(j,{key:0},[z(L(this.stats.maxLuck),1)],64)):(I(),R(j,{key:1},[z(L(o.formatFixed(this.stats.minLuck,2))+"\u2026"+L(o.formatFixed(this.stats.maxLuck,2)),1)],64)),z("\u{1F340} \u2192 \u03BB \u2208 "+L(o.formatFixed(o.stats.lucky.shareLo*100,2))+"\u2026"+L(o.formatFixed(o.stats.lucky.shareHi*100,2))+"% cycles were lucky ",1)]),b("div",null,[b("table",null,[$le,(I(!0),R(j,null,Lt(o.stats.dataRaw,(c,f)=>(I(),R("tr",{class:rn({strike:i.hide_buckets[f]})},[b("td",zle,[vt(b("input",{"onUpdate:modelValue":h=>i.hide_buckets[f]=h,type:"checkbox"},null,8,Vle),[[sr,i.hide_buckets[f]]])]),b("td",null,L(f),1),(I(!0),R(j,null,Lt(c,h=>(I(),R("td",null,L(h),1))),256))],2))),256))])]),b("p",null,[Ule,vt(b("select",{"onUpdate:modelValue":t[0]||(t[0]=c=>i.generalSigmas=c)},Wle,512),[[dr,i.generalSigmas]]),z(" ("+L(o.formatFixed(o.stats.generalConfidence,2))+"%) confidence: ",1),b("table",null,[jle,b("tr",null,[Hle,b("td",null,L(o.formatFixed(o.stats.lucky.lenLo,2)),1),b("td",null,L(o.formatFixed(o.stats.lucky.lenHi,2)),1)]),b("tr",null,[Xle,b("td",null,L(o.formatFixed(o.stats.lucky.shareLo*100,2)),1),b("td",null,L(o.formatFixed(o.stats.lucky.shareHi*100,2)),1)])])])]),b("div",Yle,[qle,Zle,vt(b("input",{type:"radio",id:"option1",value:"a","onUpdate:modelValue":t[1]||(t[1]=c=>n.dropratesStore.selected_model=c)},null,512),[[hd,n.dropratesStore.selected_model]]),Kle,vt(b("input",{type:"radio",id:"option2",value:"b","onUpdate:modelValue":t[2]||(t[2]=c=>n.dropratesStore.selected_model=c)},null,512),[[hd,n.dropratesStore.selected_model]]),Jle,vt(b("input",{type:"radio",id:"option3",value:"c","onUpdate:modelValue":t[3]||(t[3]=c=>n.dropratesStore.selected_model=c)},null,512),[[hd,n.dropratesStore.selected_model]]),Qle]),n.dropratesStore.selected_model=="a"?(I(),R("div",tue,[Ct(s,{stats:o.stats,histogram:o.histogram,isGiant:n.dropratesStore.selected_specie=="giant"},null,8,["stats","histogram","isGiant"])])):tt("",!0),n.dropratesStore.selected_model=="b"?(I(),R("div",eue,[Ct(l,{stats:o.stats,histogram:o.histogram},null,8,["stats","histogram"])])):tt("",!0),n.dropratesStore.selected_model=="c"?(I(),R("div",rue,[Ct(u,{stats:o.stats,histogram:o.histogram,isGiant:n.dropratesStore.selected_specie=="giant"},null,8,["stats","histogram","isGiant"])])):tt("",!0)])])}const iue=Ne(Ple,[["render",nue],["__scopeId","data-v-60e89c6f"]]),oue=vY({history:IX("/workerman/"),routes:[{path:"/",name:"home",component:QAt},{path:"/plantzones",component:eMt},{path:"/modifiers",component:zMt},{path:"/settings",component:w6t},{path:"/about",component:()=>NY(()=>import("./AboutView.4c98b3bd.js"),[])},{path:"/othertowns",component:A6t},{path:"/workshops",component:G6t},{path:"/housecraft",component:u5t},{path:"/droprates",component:iue},{path:"/lodging",component:dMt}]});const kA=$H(OY),aue=fX();kA.use(aue);kA.use(oue);kA.mount("#app");export{j as F,Ne as _,b as a,z as b,R as c,he as d,va as e,Ct as f,$1 as g,mr as h,I as o,gr as p,Fj as r,L as t,Et as u,Ee as w};
+*/var ere=tre,hA=ere;const rre=Array.prototype.concat,PG=Object.prototype.toString;function EG(e,t){var r=e>t?e:t;return Math.pow(10,17-~~(Math.log(r>0?r:-r)*Math.LOG10E))}const Oo=Array.isArray||function(t){return PG.call(t)==="[object Array]"};function k0(e){return PG.call(e)==="[object Function]"}function Mr(e){return typeof e=="number"?e-e===0:!1}function nre(e){return rre.apply([],e)}const kG={calcRdx:EG,isArray:Oo,isFunction:k0,isNumber:Mr,toVector:nre};let si=Math.random;function AG(e){if(typeof e!="function")throw new TypeError("fn is not a function");si=e}function Z_(e){return e.length||1}function CG(e){return e[0].length||1}function ire(e){return{rows:Z_(e),cols:CG(e)}}function dA(e,t){return Oo(t)?t.map(r=>dA(e,r)):e[t]}function MG(e,t){return dA(e,t)}function S1(e,t){if(Oo(t)){const n=Ie(e.length).map(()=>new Array(t.length));return t.forEach(function(i,o){Ie(e.length).forEach(function(a){n[a][o]=e[a][i]})}),n}const r=new Array(e.length);for(let n=0;n<e.length;n++)r[n]=[e[n][t]];return r}function xG(e,t){return S1(e,t).map(r=>r[0])}function ore(e){const t=Z_(e),r=new Array(t);for(let n=0;n<t;n++)r[n]=[e[n][n]];return r}function are(e){for(var t=Z_(e)-1,r=new Array(t),n=0;t>=0;t--,n++)r[n]=[e[n][t]];return r}function Es(e){var t=[],r,n,i,o,a;for(Oo(e[0])||(e=[e]),n=e.length,i=e[0].length,a=0;a<i;a++){for(r=new Array(n),o=0;o<n;o++)r[o]=e[o][a];t.push(r)}return t.length===1?t[0]:t}function sn(e,t,r){var n,i,o,a,s;for(Oo(e[0])||(e=[e]),i=e.length,o=e[0].length,a=r?e:new Array(i),n=0;n<i;n++)for(a[n]||(a[n]=new Array(o)),s=0;s<o;s++)a[n][s]=t(e[n][s],n,s);return a.length===1?a[0]:a}function K_(e,t,r){var n,i,o,a,s;for(Oo(e[0])||(e=[e]),i=e.length,o=e[0].length,a=r?e:new Array(i),n=0;n<i;n++)for(a[n]||(a[n]=new Array(o)),o>0&&(a[n][0]=e[n][0]),s=1;s<o;s++)a[n][s]=t(a[n][s-1],e[n][s]);return a.length===1?a[0]:a}function pA(e,t){return sn(e,t,!0)}function Uf(e,t,r){var n=new Array(e),i,o;for(k0(t)&&(r=t,t=e),i=0;i<e;i++)for(n[i]=new Array(t),o=0;o<t;o++)n[i][o]=r(i,o);return n}function LG(){return 0}function sre(){return 1}function lre(e,t){return e===t?1:0}function $o(e,t){return Mr(t)||(t=e),Uf(e,t,LG)}function ure(e,t){return Mr(t)||(t=e),Uf(e,t,sre)}function cre(e,t){return Mr(t)||(t=e),Uf(e,t,si)}function lu(e,t){return Mr(t)||(t=e),Uf(e,t,lre)}function fre(e){var t=e.length,r,n;if(e.length!==e[0].length)return!1;for(r=0;r<t;r++)for(n=0;n<t;n++)if(e[n][r]!==e[r][n])return!1;return!0}function hre(e){return pA(e,LG)}function IG(e,t,r,n){k0(n)||(n=!1);var i=[],o=EG(e,t),a=(t*o-e*o)/((r-1)*o),s=e,l;for(l=0;s<=t&&l<r;l++,s=(e*o+a*o*l)/o)i.push(n?n(s,l):s);return i}function Ie(e,t,r){var n=[],i;if(r=r||1,t===void 0&&(t=e,e=0),e===t||r===0)return[];if(e<t&&r<0)return[];if(e>t&&r>0)return[];if(r>0)for(i=e;i<t;i+=r)n.push(i);else for(i=e;i>t;i+=r)n.push(i);return n}function ra(e,t){function r(l,u,c,f){var h,d=[],p=l.length;if(u===void 0&&c===void 0&&f===void 0)return J_(l);if(u=u||0,c=c||l.length,u=u>=0?u:p+u,c=c>=0?c:p+c,f=f||1,u===c||f===0)return[];if(u<c&&f<0)return[];if(u>c&&f>0)return[];if(f>0)for(h=u;h<c;h+=f)d.push(l[h]);else for(h=u;h>c;h+=f)d.push(l[h]);return d}var n,i;if(t=t||{},Mr(t.row)){if(Mr(t.col))return e[t.row][t.col];var o=MG(e,t.row);return n=t.col||{},r(o,n.start,n.end,n.step)}if(Mr(t.col)){var a=xG(e,t.col);return i=t.row||{},r(a,i.start,i.end,i.step)}i=t.row||{},n=t.col||{};var s=r(e,i.start,i.end,i.step);return s.map(function(l){return r(l,n.start,n.end,n.step)})}function od(e,t,r){var n,i;if(Mr(t.row)){if(Mr(t.col))return e[t.row][t.col]=r;t.col=t.col||{},t.col.start=t.col.start||0,t.col.end=t.col.end||e[0].length,t.col.step=t.col.step||1,n=Ie(t.col.start,Math.min(e.length,t.col.end),t.col.step);var o=t.row;return n.forEach(function(s,l){e[o][s]=r[l]}),e}if(Mr(t.col)){t.row=t.row||{},t.row.start=t.row.start||0,t.row.end=t.row.end||e.length,t.row.step=t.row.step||1,i=Ie(t.row.start,Math.min(e[0].length,t.row.end),t.row.step);var a=t.col;return i.forEach(function(s,l){e[s][a]=r[l]}),e}return r[0].length===void 0&&(r=[r]),t.row.start=t.row.start||0,t.row.end=t.row.end||e.length,t.row.step=t.row.step||1,t.col.start=t.col.start||0,t.col.end=t.col.end||e[0].length,t.col.step=t.col.step||1,i=Ie(t.row.start,Math.min(e.length,t.row.end),t.row.step),n=Ie(t.col.start,Math.min(e[0].length,t.col.end),t.col.step),i.forEach(function(s,l){n.forEach(function(u,c){e[s][u]=r[l][c]})}),e}function dre(e){var t=$o(e.length,e.length);return e.forEach(function(r,n){t[n][n]=r}),t}function J_(e){return e.map(function(t){return Mr(t)?t:t.map(function(r){return r})})}const pre=Object.freeze(Object.defineProperty({__proto__:null,utils:kG,get random_fn(){return si},setRandom:AG,rows:Z_,cols:CG,dimensions:ire,row:dA,rowa:MG,col:S1,cola:xG,diag:ore,antidiag:are,transpose:Es,map:sn,cumreduce:K_,alter:pA,create:Uf,zeros:$o,ones:ure,rand:cre,identity:lu,symmetric:fre,clear:hre,seq:IG,arange:Ie,slice:ra,sliceAssign:od,diagonal:dre,copy:J_},Symbol.toStringTag,{value:"Module"}));function Gf(e,t){return e-t}function hD(e,t,r){return Math.max(t,Math.min(e,r))}function ln(e){for(var t=0,r=e.length;--r>=0;)t+=e[r];return t}function vre(e){for(var t=0,r=e.length;--r>=0;)t+=e[r]*e[r];return t}function Q_(e){for(var t=lr(e),r=0,n=e.length,i;--n>=0;)i=e[n]-t,r+=i*i;return r}function gre(e){for(var t=0,r=e.length;--r>=0;)t+=e[r];return t}function OG(e){for(var t=1,r=e.length;--r>=0;)t*=e[r];return t}function vA(e){for(var t=e[0],r=0;++r<e.length;)e[r]<t&&(t=e[r]);return t}function gA(e){for(var t=e[0],r=0;++r<e.length;)e[r]>t&&(t=e[r]);return t}function mre(e){for(var t={},r=[],n=0;n<e.length;n++)t[e[n]]||(t[e[n]]=!0,r.push(e[n]));return r}function lr(e){return ln(e)/e.length}function _re(e){return Q_(e)/e.length}function yre(e){return Math.pow(OG(e),1/e.length)}function VT(e){var t=e.length,r=e.slice().sort(Gf);return t&1?r[t/2|0]:(r[t/2-1]+r[t/2])/2}function bre(e){return K_(e,function(t,r){return t+r})}function wre(e){return K_(e,function(t,r){return t*r})}function Sre(e){var t=[],r=e.length,n;for(n=1;n<r;n++)t.push(e[n]-e[n-1]);return t}function UT(e){var t,r=[],n={};for(t=0;t<e.length;t++){var i=e[t];n[i]?n[i]++:(n[i]=1,r.push(i))}var o=r.sort(Gf),a={},s=1;for(t=0;t<o.length;t++){var i=o[t],l=n[i],u=s,c=s+l-1,f=(u+c)/2;a[i]=f,s+=l}return e.map(function(h){return a[h]})}function Tre(e){var t=e.length,r=e.slice().sort(Gf),n=1,i=0,o=0,a=[],s;for(s=0;s<t;s++)r[s]===r[s+1]?n++:(n>i?(a=[r[s]],i=n,o=0):n===i&&(a.push(r[s]),o++),n=1);return o===0?a[0]:a}function Pre(e){return gA(e)-vA(e)}function RG(e,t){return Q_(e)/(e.length-(t?1:0))}function DG(e){var t=e.reduce(function(n,i){return n+Q_(i)},0),r=e.reduce(function(n,i){return n+i.length},0);return t/(r-e.length)}function Ere(e){for(var t=lr(e),r=e.length,n=new Array(r),i=0;i<r;i++)n[i]=e[i]-t;return n}function Pa(e,t){return Math.sqrt(RG(e,t))}function NG(e){return Math.sqrt(DG(e))}function kre(e){for(var t=lr(e),r=[],n=e.length-1;n>=0;n--)r.push(Math.abs(e[n]-t));return lr(r)}function Are(e){for(var t=VT(e),r=[],n=e.length-1;n>=0;n--)r.push(Math.abs(e[n]-t));return VT(r)}function Cre(e){return Pa(e)/lr(e)}function Mre(e){var t=e.length,r=e.slice().sort(Gf);return[r[Math.round(t/4)-1],r[Math.round(t/2)-1],r[Math.round(t*3/4)-1]]}function xre(e,t,r,n){var i=e.slice().sort(Gf),o=[t.length],a=e.length,s,l,u,c,f,h;for(typeof r>"u"&&(r=3/8),typeof n>"u"&&(n=3/8),s=0;s<t.length;s++)l=t[s],u=r+l*(1-r-n),c=a*l+u,f=Math.floor(hD(c,1,a-1)),h=hD(c-f,0,1),o[s]=(1-h)*i[f-1]+h*i[f];return o}function Lre(e,t,r){var n=e.slice().sort(Gf),i=t*(n.length+(r?1:-1))+(r?0:1),o=parseInt(i),a=i-o;return o+1<n.length?n[o-1]+a*(n[o]-n[o-1]):n[o-1]}function Ire(e,t,r){var n=0,i=e.length,o=!1,a,s;for(r==="strict"&&(o=!0),s=0;s<i;s++)a=e[s],(o&&a<t||!o&&a<=t)&&n++;return n/i}function Ore(e,t){t=t||4;var r=vA(e),n=(gA(e)-r)/t,i=e.length,o=[],a;for(a=0;a<t;a++)o[a]=0;for(a=0;a<i;a++)o[Math.min(Math.floor((e[a]-r)/n),t-1)]+=1;return o}function FG(e,t){var r=lr(e),n=lr(t),i=e.length,o=new Array(i),a;for(a=0;a<i;a++)o[a]=(e[a]-r)*(t[a]-n);return ln(o)/(i-1)}function BG(e,t){return FG(e,t)/Pa(e,1)/Pa(t,1)}function Rre(e,t){return e=UT(e),t=UT(t),BG(e,t)}function mA(e,t){for(var r=lr(e),n=Pa(e),i=e.length,o=0,a=0;a<i;a++)o+=Math.pow((e[a]-r)/n,t);return o/e.length}function Dre(e){return mA(e,3)}function Nre(e){return mA(e,4)-3}const Fre=Object.freeze(Object.defineProperty({__proto__:null,sum:ln,sumsqrd:vre,sumsqerr:Q_,sumrow:gre,product:OG,min:vA,max:gA,unique:mre,mean:lr,meansqerr:_re,geomean:yre,median:VT,cumsum:bre,cumprod:wre,diff:Sre,rank:UT,mode:Tre,range:Pre,variance:RG,pooledvariance:DG,deviation:Ere,stdev:Pa,pooledstdev:NG,meandev:kre,meddev:Are,coeffvar:Cre,quartiles:Mre,quantiles:xre,percentile:Lre,percentileOfScore:Ire,histogram:Ore,covariance:FG,corrcoeff:BG,spearmancoeff:Rre,stanMoment:mA,skewness:Dre,kurtosis:Nre},Symbol.toStringTag,{value:"Module"}));function Bre(e,t,r){return e<t||e>r?0:1/(r-t)}function $re(e,t,r){return e<t?0:e<r?(e-t)/(r-t):1}function zre(e,t,r){return t+e*(r-t)}function Vre(e,t){return .5*(e+t)}function Ure(e,t){return lr(e)}function Gre(){throw new Error("mode is not yet implemented")}function $G(e,t){return e/2+t/2+(t/2-e/2)*(2*si()-1)}function Wre(e,t){return Math.pow(t-e,2)/12}const jre=Object.freeze(Object.defineProperty({__proto__:null,pdf:Bre,cdf:$re,inv:zre,mean:Vre,median:Ure,mode:Gre,sample:$G,variance:Wre},Symbol.toStringTag,{value:"Module"}));function Hre(e,t,r){return r<=t?NaN:e<=t||e>=r?0:2/Math.PI*Math.pow(Math.pow(r-t,2)-Math.pow(2*e-t-r,2),-.5)}function Xre(e,t,r){return e<t?0:e<r?2/Math.PI*Math.asin(Math.sqrt((e-t)/(r-t))):1}function Yre(e,t,r){return t+(.5-.5*Math.cos(Math.PI*e))*(r-t)}function qre(e,t){return t<=e?NaN:(e+t)/2}function Zre(e,t){return t<=e?NaN:(e+t)/2}function Kre(){throw new Error("mode is not yet implemented")}function Jre(e,t){return(e+t)/2+(t-e)/2*Math.sin(2*Math.PI*$G(0,1))}function Qre(e,t){return t<=e?NaN:Math.pow(t-e,2)/8}const tne=Object.freeze(Object.defineProperty({__proto__:null,pdf:Hre,cdf:Xre,inv:Yre,mean:qre,median:Zre,mode:Kre,sample:Jre,variance:Qre},Symbol.toStringTag,{value:"Module"}));function Ge(e){var t=0,r=[76.18009172947146,-86.50532032941678,24.01409824083091,-1.231739572450155,.001208650973866179,-5395239384953e-18],n=1.000000000190015,i,o,a;for(a=(o=i=e)+5.5,a-=(i+.5)*Math.log(a);t<6;t++)n+=r[t]/++o;return Math.log(2.5066282746310007*n/i)-a}function zG(e){var t,r,n,i,o,a,s,l=[.08333333333333333,-.002777777777777778,.0007936507936507937,-.0005952380952380952,.0008417508417508418,-.001917526917526918,.00641025641025641,-.02955065359477124,.1796443723688307,-1.3924322169059];if(t=e,s=0,e==1||e==2)return 0;for(e<=7&&(s=Math.floor(7-e),t=e+s),r=1/(t*t),n=2*Math.PI,o=l[9],a=8;a>=0;a--)o*=r,o+=l[a];if(i=o/t+.5*Math.log(n)+(t-.5)*Math.log(t)-t,e<=7)for(a=1;a<=s;a++)i-=Math.log(t-1),t-=1;return i}function Ni(e){var t=[-1.716185138865495,24.76565080557592,-379.80425647094563,629.3311553128184,866.9662027904133,-31451.272968848367,-36144.413418691176,66456.14382024054],r=[-30.8402300119739,315.35062697960416,-1015.1563674902192,-3107.771671572311,22538.11842098015,4755.846277527881,-134659.9598649693,-115132.2596755535],n=!1,i=0,o=0,a=0,s=e,l,u,c,f;if(e>171.6243769536076)return 1/0;if(s<=0)if(f=s%1+36e-17,f)n=(s&1?-1:1)*Math.PI/Math.sin(Math.PI*f),s=1-s;else return 1/0;for(c=s,s<1?u=s++:u=(s-=i=(s|0)-1)-1,l=0;l<8;++l)a=(a+t[l])*u,o=o*u+r[l];if(f=a/o+1,c<s)f/=c;else if(c>s)for(l=0;l<i;++l)f*=s,s++;return n&&(f=n/f),f}function ene(e,t){return Wf(e,t)*Ni(e)}function Wf(e,t){var r=Ge(e),n=e,i=1/e,o=i,a=t+1-e,s=1/1e-30,l=1/a,u=l,c=1,f=-~(Math.log(e>=1?e:1/e)*8.5+e*.4+17),h;if(t<0||e<=0)return NaN;if(t<e+1){for(;c<=f;c++)i+=o*=t/++n;return i*Math.exp(-t+e*Math.log(t)-r)}for(;c<=f;c++)h=-c*(c-e),a+=2,l=h*l+a,s=a+h/s,l=1/l,u*=l*s;return 1-u*Math.exp(-t+e*Math.log(t)-r)}function dm(e){return e<0?NaN:Ge(e+1)}function Xl(e){return e<0?NaN:Ni(e+1)}function _A(e,t){return e>170||t>170?Math.exp(VG(e,t)):Xl(e)/Xl(t)/Xl(e-t)}function VG(e,t){return dm(e)-dm(t)-dm(e-t)}function rne(e,t){return Xl(e)/Xl(e-t)}function ty(e,t){if(!(e<=0||t<=0))return e+t>170?Math.exp(yA(e,t)):Ni(e)*Ni(t)/Ni(e+t)}function yA(e,t){return Ge(e)+Ge(t)-Ge(e+t)}function GT(e,t,r){var n=1e-30,i=1,o=t+r,a=t+1,s=t-1,l=1,u=1-o*e/a,c,f,h,d;for(Math.abs(u)<n&&(u=n),u=1/u,d=u;i<=100&&(c=2*i,f=i*(r-i)*e/((s+c)*(t+c)),u=1+f*u,Math.abs(u)<n&&(u=n),l=1+f/l,Math.abs(l)<n&&(l=n),u=1/u,d*=u*l,f=-(t+i)*(o+i)*e/((t+c)*(a+c)),u=1+f*u,Math.abs(u)<n&&(u=n),l=1+f/l,Math.abs(l)<n&&(l=n),u=1/u,h=u*l,d*=h,!(Math.abs(h-1)<3e-7));i++);return d}function ey(e,t){var r=0,n=t-1,i=1e-8,o=Ge(t),a,s,l,u,c,f,h;if(e>=1)return Math.max(100,t+100*Math.sqrt(t));if(e<=0)return 0;for(t>1?(f=Math.log(n),h=Math.exp(n*(f-1)-o),c=e<.5?e:1-e,l=Math.sqrt(-2*Math.log(c)),a=(2.30753+l*.27061)/(1+l*(.99229+l*.04481))-l,e<.5&&(a=-a),a=Math.max(.001,t*Math.pow(1-1/(9*t)-a/(3*Math.sqrt(t)),3))):(l=1-t*(.253+t*.12),e<l?a=Math.pow(e/l,1/t):a=1-Math.log(1-(e-l)/(1-l)));r<12;r++){if(a<=0)return 0;if(s=Wf(t,a)-e,t>1?l=h*Math.exp(-(a-n)+n*(Math.log(a)-f)):l=Math.exp(-a+n*Math.log(a)-o),u=s/l,a-=l=u/(1-.5*Math.min(1,u*((t-1)/a-1))),a<=0&&(a=.5*(a+l)),Math.abs(l)<i*a)break}return a}function ry(e){var t=[-1.3026537197817094,.6419697923564902,.019476473204185836,-.00956151478680863,-.000946595344482036,.000366839497852761,42523324806907e-18,-20278578112534e-18,-1624290004647e-18,130365583558e-17,15626441722e-18,-85238095915e-18,6529054439e-18,5059343495e-18,-991364156e-18,-227365122e-18,96467911e-18,2394038e-18,-6886027e-18,894487e-18,313092e-18,-112708e-18,381e-18,7106e-18,-1523e-18,-94e-18,121e-18,-28e-18],r=t.length-1,n=!1,i=0,o=0,a,s,l,u;for(e<0&&(e=-e,n=!0),a=2/(2+e),s=4*a-2;r>0;r--)l=i,i=s*i-o+t[r],o=l;return u=a*Math.exp(-e*e+.5*(t[0]+s*i)-o),n?u-1:1-u}function UG(e){return 1-ry(e)}function bA(e){var t=0,r,n,i,o;if(e>=2)return-100;if(e<=0)return 100;for(o=e<1?e:2-e,i=Math.sqrt(-2*Math.log(o/2)),r=-.70711*((2.30753+i*.27061)/(1+i*(.99229+i*.04481))-i);t<2;t++)n=UG(r)-o,r+=n/(1.1283791670955126*Math.exp(-r*r)-r*n);return e<1?r:-r}function ap(e,t,r){var n=1e-8,i=t-1,o=r-1,a=0,s,l,u,c,f,h,d,p,v,g,m;if(e<=0)return 0;if(e>=1)return 1;for(t>=1&&r>=1?(u=e<.5?e:1-e,c=Math.sqrt(-2*Math.log(u)),d=(2.30753+c*.27061)/(1+c*(.99229+c*.04481))-c,e<.5&&(d=-d),p=(d*d-3)/6,v=2/(1/(2*t-1)+1/(2*r-1)),g=d*Math.sqrt(p+v)/v-(1/(2*r-1)-1/(2*t-1))*(p+5/6-2/(3*v)),d=t/(t+r*Math.exp(2*g))):(s=Math.log(t/(t+r)),l=Math.log(r/(t+r)),c=Math.exp(t*s)/t,f=Math.exp(r*l)/r,g=c+f,e<c/g?d=Math.pow(t*g*e,1/t):d=1-Math.pow(r*g*(1-e),1/r)),m=-Ge(t)-Ge(r)+Ge(t+r);a<10;a++){if(d===0||d===1)return d;if(h=sp(d,t,r)-e,c=Math.exp(i*Math.log(d)+o*Math.log(1-d)+m),f=h/c,d-=c=f/(1-.5*Math.min(1,f*(i/d-o/(1-d)))),d<=0&&(d=.5*(d+c)),d>=1&&(d=.5*(d+c+1)),Math.abs(c)<n*d&&a>0)break}return d}function sp(e,t,r){var n=e===0||e===1?0:Math.exp(Ge(t+r)-Ge(t)-Ge(r)+t*Math.log(e)+r*Math.log(1-e));return e<0||e>1?!1:e<(t+1)/(t+r+2)?n*GT(e,t,r)/t:1-n*GT(1-e,r,t)/r}function Cu(e,t){var r,n,i,o,a;if(t||(t=e),e)return Uf(e,t,function(){return Cu()});do r=si(),n=1.7156*(si()-.5),i=r-.449871,o=Math.abs(n)+.386595,a=i*i+o*(.196*o-.25472*i);while(a>.27597&&(a>.27846||n*n>-4*Math.log(r)*r*r));return n/r}function Ro(e,t,r){var n=e,i,o,a,s,l,u;if(r||(r=t),e||(e=1),t)return u=$o(t,r),u.alter(function(){return Ro(e)}),u;e<1&&(e+=1),i=e-1/3,o=1/Math.sqrt(9*i);do{do l=Cu(),s=1+o*l;while(s<=0);s=s*s*s,a=si()}while(a>1-.331*Math.pow(l,4)&&Math.log(a)>.5*l*l+i*(1-s+Math.log(s)));if(e==n)return i*s;do a=si();while(a===0);return Math.pow(a,1/n)*i*s}const nne=Object.freeze(Object.defineProperty({__proto__:null,gammaln:Ge,loggam:zG,gammafn:Ni,gammap:ene,lowRegGamma:Wf,factorialln:dm,factorial:Xl,combination:_A,combinationln:VG,permutation:rne,betafn:ty,betaln:yA,betacf:GT,gammapinv:ey,erf:ry,erfc:UG,erfcinv:bA,ibetainv:ap,ibeta:sp,randn:Cu,randg:Ro},Symbol.toStringTag,{value:"Module"}));function ine(e,t,r){return e>1||e<0?0:t==1&&r==1?1:t<512&&r<512?Math.pow(e,t-1)*Math.pow(1-e,r-1)/ty(t,r):Math.exp((t-1)*Math.log(e)+(r-1)*Math.log(1-e)-yA(t,r))}function T1(e,t,r){return e>1||e<0?(e>1)*1:sp(e,t,r)}function one(e,t,r){return ap(e,t,r)}function ane(e,t){return e/(e+t)}function sne(e,t){return ap(.5,e,t)}function lne(e,t){return(e-1)/(e+t-2)}function une(e,t){var r=Ro(e);return r/(r+Ro(t))}function cne(e,t){return e*t/(Math.pow(e+t,2)*(e+t+1))}const fne=Object.freeze(Object.defineProperty({__proto__:null,pdf:ine,cdf:T1,inv:one,mean:ane,median:sne,mode:lne,sample:une,variance:cne},Symbol.toStringTag,{value:"Module"}));function dD(e,t,r,n){for(var i=0,o=1,a=1,s=1,l=0,u=0,c;Math.abs((a-u)/a)>n;)u=a,c=-(t+l)*(t+r+l)*e/(t+2*l)/(t+2*l+1),i=a+c*i,o=s+c*o,l=l+1,c=l*(r-l)*e/(t+2*l-1)/(t+2*l),a=i+c*a,s=o+c*s,i=i/s,o=o/s,a=a/s,s=1;return a/t}function GG(e,t,r){return r===0||r===1?t*r===e?1:0:_A(t,e)*Math.pow(r,e)*Math.pow(1-r,t-e)}function hne(e,t,r){var n,i=1e-10;if(e<0)return 0;if(e>=t)return 1;if(r<0||r>1||t<=0)return NaN;e=Math.floor(e);var o=r,a=e+1,s=t-e,l=a+s,u=Math.exp(Ge(l)-Ge(s)-Ge(a)+a*Math.log(o)+s*Math.log(1-o));return o<(a+1)/(l+2)?n=u*dD(o,a,s,i):n=1-u*dD(1-o,s,a,i),Math.round((1-n)*(1/i))/(1/i)}const dne=Object.freeze(Object.defineProperty({__proto__:null,pdf:GG,cdf:hne},Symbol.toStringTag,{value:"Module"}));function pne(e,t,r){return r<0?0:r/(Math.pow(e-t,2)+Math.pow(r,2))/Math.PI}function vne(e,t,r){return Math.atan((e-t)/r)/Math.PI+.5}function gne(e,t,r){return t+r*Math.tan(Math.PI*(e-.5))}function mne(e){return e}function _ne(e){return e}function yne(e,t){return Cu()*Math.sqrt(1/(2*randg(.5)))*t+e}const bne=Object.freeze(Object.defineProperty({__proto__:null,pdf:pne,cdf:vne,inv:gne,median:mne,mode:_ne,sample:yne},Symbol.toStringTag,{value:"Module"}));function wne(e,t,r){var n,i,o;return e<0?0:t<=2?e===0&&t<2?1/0:e===0&&t===2?1:1/ty(t/2,r/2)*Math.pow(t/r,t/2)*Math.pow(e,t/2-1)*Math.pow(1+t/r*e,-(t+r)/2):(n=t*e/(r+e*t),i=r/(r+e*t),o=t*i/2,o*GG((t-2)/2,(t+r-2)/2,n))}function P1(e,t,r){return e<0?0:sp(t*e/(t*e+r),t/2,r/2)}function Sne(e,t,r){return r/(t*(1/ap(e,t/2,r/2)-1))}function Tne(e,t){return t>2?t/(t-2):void 0}function Pne(e,t){return e>2?t*(e-2)/(e*(t+2)):void 0}function Ene(e,t){var r=Ro(e/2)*2,n=Ro(t/2)*2;return r/e/(n/t)}function kne(e,t){if(!(t<=4))return 2*t*t*(e+t-2)/(e*(t-2)*(t-2)*(t-4))}const Ane=Object.freeze(Object.defineProperty({__proto__:null,pdf:wne,cdf:P1,inv:Sne,mean:Tne,mode:Pne,sample:Ene,variance:kne},Symbol.toStringTag,{value:"Module"}));function Cne(e,t){return e<0?0:e===0&&t===2?.5:Math.exp((t/2-1)*Math.log(e)-e/2-t/2*Math.log(2)-Ge(t/2))}function Mne(e,t){return e<0?0:Wf(t/2,e/2)}function xne(e,t){return 2*ey(e,.5*t)}function Lne(e){return e}function Ine(e){return e*Math.pow(1-2/(9*e),3)}function One(e){return e-2>0?e-2:0}function Rne(e){return Ro(e/2)*2}function Dne(e){return 2*e}const Nne=Object.freeze(Object.defineProperty({__proto__:null,pdf:Cne,cdf:Mne,inv:xne,mean:Lne,median:Ine,mode:One,sample:Rne,variance:Dne},Symbol.toStringTag,{value:"Module"}));function Fne(e,t){return e<0?0:t*Math.exp(-t*e)}function Bne(e,t){return e<0?0:1-Math.exp(-t*e)}function $ne(e,t){return-Math.log(1-e)/t}function zne(e){return 1/e}function Vne(e){return 1/e*Math.log(2)}function Une(){return 0}function Gne(e){return-1/e*Math.log(si())}function Wne(e){return Math.pow(e,-2)}const jne=Object.freeze(Object.defineProperty({__proto__:null,pdf:Fne,cdf:Bne,inv:$ne,mean:zne,median:Vne,mode:Une,sample:Gne,variance:Wne},Symbol.toStringTag,{value:"Module"}));function Hne(e,t,r){return e<0?0:e===0&&t===1?1/r:Math.exp((t-1)*Math.log(e)-e/r-Ge(t)-t*Math.log(r))}function Xne(e,t,r){return e<0?0:Wf(t,e/r)}function Yne(e,t,r){return ey(e,t)*r}function qne(e,t){return e*t}function Zne(e,t){if(e>1)return(e-1)*t}function Kne(e,t){return Ro(e)*t}function Jne(e,t){return e*t*t}const Qne=Object.freeze(Object.defineProperty({__proto__:null,pdf:Hne,cdf:Xne,inv:Yne,mean:qne,mode:Zne,sample:Kne,variance:Jne},Symbol.toStringTag,{value:"Module"}));function ad(e,t,r,n){if(e!==e|0)return!1;if(e<0||e<r-(t-n))return 0;if(e>n||e>r)return 0;if(r*2>t)return n*2>t?ad(t-r-n+e,t,t-r,t-n):ad(n-e,t,t-r,n);if(n*2>t)return ad(r-e,t,r,t-n);if(r<n)return ad(e,t,n,r);for(var i=1,o=0,a=0;a<e;a++){for(;i>1&&o<n;)i*=1-r/(t-o),o++;i*=(n-a)*(r-a)/((a+1)*(t-r-n+a+1))}for(;o<n;o++)i*=1-r/(t-o);return Math.min(1,Math.max(0,i))}function sd(e,t,r,n){if(e<0||e<r-(t-n))return 0;if(e>=n||e>=r)return 1;if(r*2>t)return n*2>t?sd(t-r-n+e,t,t-r,t-n):1-sd(n-e-1,t,t-r,n);if(n*2>t)return 1-sd(r-e-1,t,r,t-n);if(r<n)return sd(e,t,n,r);for(var i=1,o=1,a=0,s=0;s<e;s++){for(;i>1&&a<n;){var l=1-r/(t-a);o*=l,i*=l,a++}o*=(n-s)*(r-s)/((s+1)*(t-r-n+s+1)),i+=o}for(;a<n;a++)i*=1-r/(t-a);return Math.min(1,Math.max(0,i))}const tie=Object.freeze(Object.defineProperty({__proto__:null,pdf:ad,cdf:sd},Symbol.toStringTag,{value:"Module"}));function eie(e,t,r){return e<=0?0:Math.exp(-(t+1)*Math.log(e)-r/e-Ge(t)+t*Math.log(r))}function rie(e,t,r){return e<=0?0:1-Wf(t,r/e)}function nie(e,t,r){return r/ey(1-e,t)}function iie(e,t){return e>1?t/(e-1):void 0}function oie(e,t){return t/(e+1)}function aie(e,t){return t/Ro(e)}function sie(e,t){if(!(e<=2))return t*t/((e-1)*(e-1)*(e-2))}const lie=Object.freeze(Object.defineProperty({__proto__:null,pdf:eie,cdf:rie,inv:nie,mean:iie,mode:oie,sample:aie,variance:sie},Symbol.toStringTag,{value:"Module"}));function uie(e,t,r){return e===0&&t===1?r:e===1&&r===1?t:Math.exp(Math.log(t)+Math.log(r)+(t-1)*Math.log(e)+(r-1)*Math.log(1-Math.pow(e,t)))}function cie(e,t,r){return e<0?0:e>1?1:1-Math.pow(1-Math.pow(e,t),r)}function fie(e,t,r){return Math.pow(1-Math.pow(1-e,1/r),1/t)}function hie(e,t){return t*Ni(1+1/e)*Ni(t)/Ni(1+1/e+t)}function die(e,t){return Math.pow(1-Math.pow(2,-1/t),1/e)}function pie(e,t){if(e>=1&&t>=1&&e!==1&&t!==1)return Math.pow((e-1)/(e*t-1),1/e)}function vie(){throw new Error("variance not yet implemented")}const gie=Object.freeze(Object.defineProperty({__proto__:null,pdf:uie,cdf:cie,inv:fie,mean:hie,median:die,mode:pie,variance:vie},Symbol.toStringTag,{value:"Module"}));function mie(e){return e/Math.abs(e)}function _ie(e,t,r){return r<=0?0:Math.exp(-Math.abs(e-t)/r)/(2*r)}function yie(e,t,r){return r<=0?0:e<t?.5*Math.exp((e-t)/r):1-.5*Math.exp(-(e-t)/r)}function bie(e){return e}function wie(e){return e}function Sie(e){return e}function Tie(e,t){return 2*t*t}function Pie(e,t){var r=si()-.5;return e-t*mie(r)*Math.log(1-2*Math.abs(r))}const Eie=Object.freeze(Object.defineProperty({__proto__:null,pdf:_ie,cdf:yie,mean:bie,median:wie,mode:Sie,variance:Tie,sample:Pie},Symbol.toStringTag,{value:"Module"}));function kie(e,t,r){return e<=0?0:Math.exp(-Math.log(e)-.5*Math.log(2*Math.PI)-Math.log(r)-Math.pow(Math.log(e)-t,2)/(2*r*r))}function Aie(e,t,r){return e<0?0:.5+.5*ry((Math.log(e)-t)/Math.sqrt(2*r*r))}function Cie(e,t,r){return Math.exp(-1.4142135623730951*r*bA(2*e)+t)}function Mie(e,t){return Math.exp(e+t*t/2)}function xie(e){return Math.exp(e)}function Lie(e,t){return Math.exp(e-t*t)}function Iie(e,t){return Math.exp(Cu()*t+e)}function Oie(e,t){return(Math.exp(t*t)-1)*Math.exp(2*e+t*t)}const Rie=Object.freeze(Object.defineProperty({__proto__:null,pdf:kie,cdf:Aie,inv:Cie,mean:Mie,median:xie,mode:Lie,sample:Iie,variance:Oie},Symbol.toStringTag,{value:"Module"}));function WG(e,t,r){return e!==e>>>0?!1:e<0?0:_A(e+t-1,t-1)*Math.pow(1-r,e)*Math.pow(r,t)}function Die(e,t,r){var n=0,i=0;if(e<0)return 0;for(;i<=e;i++)n+=WG(i,t,r);return n}const Nie=Object.freeze(Object.defineProperty({__proto__:null,pdf:WG,cdf:Die},Symbol.toStringTag,{value:"Module"}));function jG(e,t){return t=t>1e100?1e100:t,1/(Math.sqrt(t)*ty(.5,t/2))*Math.pow(1+e*e/t,-((t+1)/2))}function na(e,t){var r=t/2;return sp((e+Math.sqrt(e*e+t))/(2*Math.sqrt(e*e+t)),r,r)}function E1(e,t){var r=ap(2*Math.min(e,1-e),.5*t,.5);return r=Math.sqrt(t*(1-r)/r),e>.5?r:-r}function Fie(e){return e>1?0:void 0}function Bie(){return 0}function $ie(){return 0}function zie(e){return Cu()*Math.sqrt(e/(2*Ro(e/2)))}function Vie(e){return e>2?e/(e-2):e>1?1/0:void 0}const Uie=Object.freeze(Object.defineProperty({__proto__:null,pdf:jG,cdf:na,inv:E1,mean:Fie,median:Bie,mode:$ie,sample:zie,variance:Vie},Symbol.toStringTag,{value:"Module"}));function Gie(e,t,r){return Math.exp(-.5*Math.log(2*Math.PI)-Math.log(r)-Math.pow(e-t,2)/(2*r*r))}function Ti(e,t,r){return .5*(1+ry((e-t)/Math.sqrt(2*r*r)))}function WT(e,t,r){return-1.4142135623730951*r*bA(2*e)+t}function Wie(e){return e}function jie(e){return e}function Hie(e){return e}function Xie(e,t){return Cu()*t+e}function Yie(e,t){return t*t}const qie=Object.freeze(Object.defineProperty({__proto__:null,pdf:Gie,cdf:Ti,inv:WT,mean:Wie,median:jie,mode:Hie,sample:Xie,variance:Yie},Symbol.toStringTag,{value:"Module"}));function Zie(e,t,r){var n=1e-14;return Math.abs(r)<n?jG(e,t):Math.abs(e)<n?Math.exp(Ge((t+1)/2)-r*r/2-.5*Math.log(Math.PI*t)-Ge(t/2)):t/e*(jT(e*Math.sqrt(1+2/t),t+2,r)-jT(e,t,r))}function jT(e,t,r){var n=1e-14,i=200;if(Math.abs(r)<n)return na(e,t);var o=!1;e<0&&(o=!0,r=-r);for(var a=Ti(-r,0,1),s=n+1,l=s,u=e*e/(e*e+t),c=0,f=Math.exp(-r*r/2),h=Math.exp(-r*r/2-.5*Math.log(2)-Ge(3/2))*r;c<i||l>n||s>n;)l=s,c>0&&(f*=r*r/(2*c),h*=r*r/(2*(c+1/2))),s=f*T1(u,c+.5,t/2)+h*T1(u,c+1,t/2),a+=.5*s,c++;return o?1-a:a}const Kie=Object.freeze(Object.defineProperty({__proto__:null,pdf:Zie,cdf:jT},Symbol.toStringTag,{value:"Module"}));function Jie(e,t,r){return e<t?0:r*Math.pow(t,r)/Math.pow(e,r+1)}function Qie(e,t,r){return e<t?0:1-Math.pow(t/e,r)}function toe(e,t,r){return t/Math.pow(1-e,1/r)}function eoe(e,t){if(!(t<=1))return t*Math.pow(e,t)/(t-1)}function roe(e,t){return e*(t*Math.SQRT2)}function noe(e){return e}function ioe(e,t){if(!(t<=2))return e*e*t/(Math.pow(t-1,2)*(t-2))}const ooe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Jie,cdf:Qie,inv:toe,mean:eoe,median:roe,mode:noe,variance:ioe},Symbol.toStringTag,{value:"Module"}));function ht(...e){return new ht._init(...e)}ht._init=function(...e){if(Oo(e[0]))if(Oo(e[0][0])){k0(e[1])&&(e[0]=sn(e[0],e[1]));for(let t=0;t<e[0].length;t++)this[t]=e[0][t];this.length=e[0].length}else this[0]=k0(e[1])?sn(e[0],e[1]):e[0],this.length=1;else if(Mr(e[0]))this[0]=IG.apply(null,e),this.length=1;else{if(e[0]instanceof ht)return ht(e[0].toArray());this[0]=[],this.length=1}return this};ht._init.prototype=ht.prototype;ht._init.constructor=ht;ht.setRandom=AG;const bn=ht.prototype;bn.length=0;bn.push=Array.prototype.push;bn.sort=Array.prototype.sort;bn.splice=Array.prototype.splice;bn.slice=Array.prototype.slice;bn.toArray=function(){return this.length>1?this.slice():this.slice()[0]};bn.map=function(e,t){return ht(sn(this,e,t))};bn.cumreduce=function(e,t){return ht(K_(this,e,t))};bn.alter=function(e){return pA(this,e),this};"transpose clear symmetric rows cols dimensions diag antidiag".split(" ").forEach(e=>{bn[e]=function(t){if(t)return t.call(this,bn[e].call(this)),this;const r=ht[e](this);return Array.isArray(r)?ht(r):r}});"row col".split(" ").forEach(e=>{bn[e]=function(t,r){return r?(r.call(this,bn[e].call(this,t)),this):ht(ht[e](this,t))}});"create zeros ones rand identity".split(" ").forEach(e=>{bn[e]=function(...t){return ht(ht[e](...t))}});function HG(e,t){return t<0||e%1!==0||e<0?0:Math.pow(t,e)*Math.exp(-t)/Xl(e)}function aoe(e,t){var r=[],n=0;if(e<0)return 0;for(;n<=e;n++)r.push(HG(n,t));return ln(r)}function soe(e){return e}function loe(e){return e}function uoe(e){var t=1,r=0,n=Math.exp(-e);do r++,t*=ht._random_fn();while(t>n);return r-1}function coe(e){var t=e,r,n,i,o,a,s,l,u,c,f;for(o=Math.sqrt(t),a=Math.log(t),l=.931+2.53*o,s=-.059+.02483*l,u=1.1239+1.1328/(l-3.4),c=.9277-3.6224/(l-2);;){if(n=Math.random()-.5,i=Math.random(),f=.5-Math.abs(n),r=Math.floor((2*s/f+l)*n+t+.43),f>=.07&&i<=c)return r;if(!(r<0||f<.013&&i>f)&&Math.log(i)+Math.log(u)-Math.log(s/(f*f)+l)<=-t+r*a-zG(r+1))return r}}function foe(e){return e<10?uoe(e):coe(e)}const hoe=Object.freeze(Object.defineProperty({__proto__:null,pdf:HG,cdf:aoe,mean:soe,variance:loe,sample:foe},Symbol.toStringTag,{value:"Module"}));function doe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<t||e>r?0:e<n?2*(e-t)/((r-t)*(n-t)):e===n?2/(r-t):2*(r-e)/((r-t)*(r-n))}function poe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<=t?0:e>=r?1:e<=n?Math.pow(e-t,2)/((r-t)*(n-t)):1-Math.pow(r-e,2)/((r-t)*(r-n))}function voe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<=(n-t)/(r-t)?t+(r-t)*Math.sqrt(e*((n-t)/(r-t))):t+(r-t)*(1-Math.sqrt((1-e)*(1-(n-t)/(r-t))))}function goe(e,t,r){return(e+t+r)/3}function moe(e,t,r){if(r<=(e+t)/2)return t-Math.sqrt((t-e)*(t-r))/Math.sqrt(2);if(r>(e+t)/2)return e+Math.sqrt((t-e)*(r-e))/Math.sqrt(2)}function _oe(e,t,r){return r}function yoe(e,t,r){var n=si();return n<(r-e)/(t-e)?e+Math.sqrt(n*(t-e)*(r-e)):t-Math.sqrt((1-n)*(t-e)*(t-r))}function boe(e,t,r){return(e*e+t*t+r*r-e*t-e*r-t*r)/18}const woe=Object.freeze(Object.defineProperty({__proto__:null,pdf:doe,cdf:poe,inv:voe,mean:goe,median:moe,mode:_oe,sample:yoe,variance:boe},Symbol.toStringTag,{value:"Module"}));function pD(e,t,r){var n=12,i=6,o=-30,a=-50,s=60,l=8,u=3,c=2,f=3,h=[.9815606342467192,.9041172563704749,.7699026741943047,.5873179542866175,.3678314989981802,.1252334085114689],d=[.04717533638651183,.10693932599531843,.16007832854334622,.20316742672306592,.2334925365383548,.24914704581340277],p=e*.5;if(p>=l)return 1;var v=2*Ti(p,0,1)-1;v>=Math.exp(a/r)?v=Math.pow(v,r):v=0;var g;e>u?g=c:g=f;for(var m=p,_=(l-p)/g,y=m+_,w=0,T=r-1,S=1;S<=g;S++){for(var P=0,A=.5*(y+m),k=.5*(y-m),C=1;C<=n;C++){var M,D;i<C?(M=n-C+1,D=h[M-1]):(M=C,D=-h[M-1]);var B=k*D,V=A+B,N=V*V;if(N>s)break;var W=2*Ti(V,0,1),Z=2*Ti(V,e,1),q=W*.5-Z*.5;q>=Math.exp(o/T)&&(q=d[M-1]*Math.exp(-(.5*N))*Math.pow(q,T),P+=q)}P*=2*k*r/Math.sqrt(2*Math.PI),w+=P,m=y,y+=_}return v+=w,v<=Math.exp(o/t)?0:(v=Math.pow(v,t),v>=1?1:v)}function Soe(e,t,r){var n=.322232421088,i=.099348462606,o=-1,a=.588581570495,s=-.342242088547,l=.531103462366,u=-.204231210125,c=.10353775285,f=-453642210148e-16,h=.0038560700634,d=.8832,p=.2368,v=1.214,g=1.208,m=1.4142,_=120,y=.5-.5*e,w=Math.sqrt(Math.log(1/(y*y))),T=w+((((w*f+u)*w+s)*w+o)*w+n)/((((w*h+c)*w+l)*w+a)*w+i);r<_&&(T+=(T*T*T+T)/r/4);var S=d-p*T;return r<_&&(S+=-v/r+g*T/r),T*(S*Math.log(t-1)+m)}function Nd(e,t,r){var n=1,i=t,o=16,a=8,s=-30,l=1e-14,u=100,c=800,f=5e3,h=25e3,d=1,p=.5,v=.25,g=.125,m=[.9894009349916499,.9445750230732326,.8656312023878318,.755404408355003,.6178762444026438,.45801677765722737,.2816035507792589,.09501250983763744],_=[.027152459411754096,.062253523938647894,.09515851168249279,.12462897125553388,.14959598881657674,.16915651939500254,.18260341504492358,.1894506104550685];if(e<=0)return 0;if(r<2||n<1||i<2)return NaN;if(!Number.isFinite(e))return 1;if(r>h)return pD(e,n,i);var y=r*.5,w=y*Math.log(r)-r*Math.log(2)-Ge(y),T=y-1,S=r*.25,P;r<=u?P=d:r<=c?P=p:r<=f?P=v:P=g,w+=Math.log(P);for(var A=0,k=1;k<=50;k++){for(var C=0,M=(2*k-1)*P,D=1;D<=o;D++){var B,V;a<D?(B=D-a-1,V=w+T*Math.log(M+m[B]*P)-(m[B]*P+M)*S):(B=D-1,V=w+T*Math.log(M-m[B]*P)+(m[B]*P-M)*S);var N;if(V>=s){a<D?N=e*Math.sqrt((m[B]*P+M)*.5):N=e*Math.sqrt((-(m[B]*P)+M)*.5);var W=pD(N,n,i),Z=W*_[B]*Math.exp(V);C+=Z}}if(k*P>=1&&C<=l)break;A+=C}if(C>l)throw new Error("tukey.cdf failed to converge");return A>1&&(A=1),A}function Toe(e,t,r){var n=1,i=t,o=1e-4,a=50;if(r<2||n<1||i<2)return NaN;if(e<0||e>1)return NaN;if(e===0)return 0;if(e===1)return 1/0;var s=Soe(e,i,r),l=Nd(s,t,r)-e,u;l>0?u=Math.max(0,s-1):u=s+1;for(var c=Nd(u,t,r)-e,f,h=1;h<a;h++){f=u-c*(u-s)/(c-l),l=c,s=u,f<0&&(f=0,c=-e),c=Nd(f,t,r)-e,u=f;var d=Math.abs(u-s);if(d<o)return f}throw new Error("tukey.inv failed to converge")}const Poe=Object.freeze(Object.defineProperty({__proto__:null,cdf:Nd,inv:Toe},Symbol.toStringTag,{value:"Module"}));function Eoe(e,t,r){return e<0||t<0||r<0?0:r/t*Math.pow(e/t,r-1)*Math.exp(-Math.pow(e/t,r))}function koe(e,t,r){return e<0?0:1-Math.exp(-Math.pow(e/t,r))}function Aoe(e,t,r){return t*Math.pow(-Math.log(1-e),1/r)}function XG(e,t){return e*Ni(1+1/t)}function Coe(e,t){return e*Math.pow(Math.log(2),1/t)}function Moe(e,t){return t<=1?0:e*Math.pow((t-1)/t,1/t)}function xoe(e,t){return e*Math.pow(-Math.log(si()),1/t)}function Loe(e,t){return e*e*Ni(1+2/t)-Math.pow(XG(e,t),2)}const Ioe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Eoe,cdf:koe,inv:Aoe,mean:XG,median:Coe,mode:Moe,sample:xoe,variance:Loe},Symbol.toStringTag,{value:"Module"})),Ooe=Object.freeze(Object.defineProperty({__proto__:null,arcsine:tne,beta:fne,binomial:dne,cauchy:bne,centralF:Ane,chisquare:Nne,exponential:jne,gamma:Qne,hypgeom:tie,invgamma:lie,kumaraswamy:gie,laplace:Eie,lognormal:Rie,negbin:Nie,noncentralt:Kie,normal:qie,pareto:ooe,poisson:hoe,studentt:Uie,triangular:woe,tukey:Poe,uniform:jre,weibull:Ioe},Symbol.toStringTag,{value:"Module"}));function HT(){const e=[...arguments];return Mr(e[1])?(e[0]-e[1])/e[2]:(e[0]-lr(e[1]))/Pa(e[1],e[2])}function wA(){const e=[...arguments];let t;return Oo(e[1])?(t=HT(e[0],e[1],e[3]),e[2]===1?Ti(-Math.abs(t),0,1):Ti(-Math.abs(t),0,1)*2):e.length>2?(t=HT(e[0],e[1],e[2]),e[3]===1?Ti(-Math.abs(t),0,1):Ti(-Math.abs(t),0,1)*2):(t=e[0],e[1]===1?Ti(-Math.abs(t),0,1):Ti(-Math.abs(t),0,1)*2)}function XT(){const e=[...arguments];return e.length===4?(e[0]-e[1])/(e[2]/Math.sqrt(e[3])):(e[0]-lr(e[1]))/(Pa(e[1],!0)/Math.sqrt(e[1].length))}function Roe(){const e=[...arguments];let t;return e.length===5?(t=Math.abs(XT(e[0],e[1],e[2],e[3])),e[4]===1?na(-t,e[3]-1):na(-t,e[3]-1)*2):Mr(e[1])?(t=Math.abs(e[0]),e[2]===1?na(-t,e[1]-1):na(-t,e[1]-1)*2):(t=Math.abs(XT(e[0],e[1])),e[2]===1?na(-t,e[1].length-1):na(-t,e[1].length-1)*2)}function Doe(){var e=[...arguments],t,r,n,i,o,a,s,l;if(e.length===1){for(o=new Array(e[0].length),s=0;s<e[0].length;s++)o[s]=e[0][s];e=o}for(r=[],s=0;s<e.length;s++)r=r.concat(e[s]);for(n=lr(r),t=0,s=0;s<e.length;s++)t=t+e[s].length*Math.pow(lr(e[s])-n,2);for(t/=e.length-1,a=0,s=0;s<e.length;s++)for(i=lr(e[s]),l=0;l<e[s].length;l++)a+=Math.pow(e[s][l]-i,2);return a/=r.length-e.length,t/a}function Noe(){var e=[...arguments],t,r,n,i;if(Mr(e[0]))return 1-P1(e[0],e[1],e[2]);var o=o(e);for(t=e.length-1,n=0,i=0;i<e.length;i++)n=n+e[i].length;return r=n-t-1,1-P1(o,t,r)}function Foe(e,t,r){return 1-P1(e,t,r)}function YT(){var e=[...arguments],t,r,n,i,o;return Mr(e[0])?(t=e[0],r=e[1],n=e[2],i=e[3],o=e[4]):(t=lr(e[0]),r=lr(e[1]),n=e[0].length,i=e[1].length,o=e[2]),Math.abs(t-r)/(o*Math.sqrt((1/n+1/i)/2))}function YG(){var e=[...arguments],t;e.length===3?(t=e[0],e=e.slice(1)):e.length===7?(t=YT(e[0],e[1],e[2],e[3],e[4]),e=e.slice(5)):(t=YT(e[0],e[1],e[2]),e=e.slice(3));var r=e[0],n=e[1];return 1-Nd(t,n,r-n)}function Boe(e){for(var t=NG(e),r=e.map(l=>lr(l)),n=e.reduce((l,u)=>l+u.length,0),i=[],o=0;o<e.length;++o)for(var a=o+1;a<e.length;++a){var s=YG(r[o],r[a],e[o].length,e[a].length,t,n,e.length);i.push([[o,a],s])}return i}function $oe(){const e=[...arguments],t=new Array(2);let r;return e.length===4?r=Math.abs(WT(e[1]/2,0,1)*e[2]/Math.sqrt(e[3])):r=Math.abs(WT(e[1]/2,0,1)*Pa(e[2])/Math.sqrt(e[2].length)),t[0]=e[0]-r,t[1]=e[0]+r,t}function zoe(){const e=[...arguments],t=new Array(2);let r;return e.length===4?r=Math.abs(E1(e[1]/2,e[3]-1)*e[2]/Math.sqrt(e[3])):r=Math.abs(E1(e[1]/2,e[2].length-1)*Pa(e[2],!0)/Math.sqrt(e[2].length)),t[0]=e[0]-r,t[1]=e[0]+r,t}function Voe(e,t){return e<t}function qG(e,t,r,n){if(e>1||r>1||e<=0||r<=0)throw new Error("Proportions should be greater than 0 and less than 1");var i=(e*t+r*n)/(t+n),o=Math.sqrt(i*(1-i)*(1/t+1/n));return(e-r)/o}function Uoe(e,t,r,n){const i=qG(e,t,r,n);return wA(i,1)}function Goe(e,t,r,n){const i=qG(e,t,r,n);return wA(i,2)}const Woe=Object.freeze(Object.defineProperty({__proto__:null,zscore:HT,ztest:wA,tscore:XT,ttest:Roe,anovafscore:Doe,anovaftest:Noe,ftest:Foe,qscore:YT,qtest:YG,tukeyhsd:Boe,normalci:$oe,tci:zoe,significant:Voe,oneSidedDifferenceOfProportions:Uoe,twoSidedDifferenceOfProportions:Goe},Symbol.toStringTag,{value:"Module"}));function Vi(e){return Oo(e)||e.constructor.name==="jStat"}function gn(e,t){return Vi(t)?(Vi(t[0])||(t=[t]),sn(e,function(r,n,i){return r+t[n][i]})):sn(e,function(r){return r+t})}function uu(e,t){return Vi(t)?(Vi(t[0])||(t=[t]),sn(e,function(r,n,i){return r-t[n][i]||0})):sn(e,function(r){return r-t})}function qT(e,t){return Vi(t)?(Vi(t[0])||(t=[t]),Qt(e,Do(t))):sn(e,function(r){return r/t})}function Qt(e,t){let r,n;if(e.length===void 0&&t.length===void 0)return e*t;const i=e.length,o=e[0].length,a=$o(i,r=Vi(t)?t[0].length:o);let s=0;if(Vi(t)){for(;s<r;s++)for(let l=0;l<i;l++){n=0;for(let u=0;u<o;u++)n+=e[l][u]*t[u][s];a[l][s]=n}return i===1&&s===1?a[0][0]:a}return sn(e,function(l){return l*t})}function joe(e,t){return Qt(e.map(r=>[r]),[t])}function k1(e,t){Vi(e[0])||(e=[e]),Vi(t[0])||(t=[t]);var r=e[0].length===1&&e.length!==1?Es(e):e,n=t[0].length===1&&t.length!==1?Es(t):t,i=[],o=r.length,a=r[0].length,s,l;for(let u=0;u<o;u++){for(i[u]=[],s=0,l=0;l<a;l++)s+=r[u][l]*n[u][l];i[u]=s}return i.length===1?i[0]:i}function ZT(e,t){return sn(e,r=>Math.pow(r,t))}function Hoe(e){return sn(e,t=>Math.exp(t))}function Xoe(e){return sn(e,t=>Math.log(t))}function Yoe(e){return sn(e,t=>Math.abs(t))}function af(e,t){var r=0,n=0;for(isNaN(t)&&(t=2),Vi(e[0])&&(e=e[0]);n<e.length;n++)r+=Math.pow(Math.abs(e[n]),t);return Math.pow(r,1/t)}function qoe(e,t){return Math.acos(k1(e,t)/(af(e)*af(t)))}function SA(e,t){var r=[],n;for(n=0;n<e.length;n++)r.push(e[n].slice());for(n=0;n<r.length;n++)Array.prototype.push.apply(r[n],t[n]);return r}function Do(e){for(var t=e.length,r=e[0].length,n=lu(t,r),i=ZG(e,n),o=[],a=0,s;a<t;a++)for(o[a]=[],s=r;s<i[0].length;s++)o[a][s-r]=i[a][s];return o}function Zoe(e){var t=e.length,r=t*2,n=new Array(r),i=t-1,o=r-1,a=i-t+1,s=o,l=0,u=0,c;if(t===2)return e[0][0]*e[1][1]-e[0][1]*e[1][0];for(;l<r;l++)n[l]=1;for(l=0;l<t;l++){for(c=0;c<t;c++)n[a<0?a+t:a]*=e[l][c],n[s<t?s+t:s]*=e[l][c],a++,s--;a=--i-t+1,s=--o}for(l=0;l<t;l++)u+=n[l];for(;l<r;l++)u-=n[l];return u}function Koe(e,t){var r=0,n=0,i=e.length,o=e[0].length,a=1,s=0,l=[],u,c,f,h;for(e=SA(e,t),u=e[0].length,r=0;r<i;r++){for(c=e[r][r],n=r,h=r+1;h<o;h++)c<Math.abs(e[h][r])&&(c=e[h][r],n=h);if(n!=r)for(h=0;h<u;h++)f=e[r][h],e[r][h]=e[n][h],e[n][h]=f;for(n=r+1;n<i;n++)for(a=e[n][r]/e[r][r],h=r;h<u;h++)e[n][h]=e[n][h]-a*e[r][h]}for(r=i-1;r>=0;r--){for(s=0,n=r+1;n<=i-1;n++)s=s+l[n]*e[r][n];l[r]=(e[r][u-1]-s)/e[r][r]}return l}function ZG(e,t){var r=SA(e,t),n=r.length,i=r[0].length,o=0,a,s,l;for(s=0;s<n;s++){var u=s;for(l=s+1;l<n;l++)Math.abs(r[l][s])>Math.abs(r[u][s])&&(u=l);var c=r[s];for(r[s]=r[u],r[u]=c,l=s+1;l<n;l++)for(o=r[l][s]/r[s][s],a=s;a<i;a++)r[l][a]-=r[s][a]*o}for(s=n-1;s>=0;s--){for(o=r[s][s],l=0;l<s;l++)for(a=i-1;a>s-1;a--)r[l][a]-=r[s][a]*r[l][s]/o;for(r[s][s]/=o,a=n;a<i;a++)r[s][a]/=o}return r}function Joe(e,t){var r=e[0].length,n=$o(1,r)[0],i,o=!1;return t[0].length!=null&&(t=t.map(function(a){return a[0]}),o=!0),Ie(r-1,-1,-1).forEach(function(a){i=Ie(a+1,r).map(function(s){return n[s]*e[a][s]}),n[a]=(t[a]-ln(i))/e[a][a]}),o?n.map(function(a){return[a]}):n}function Qoe(e,t){var r=e[0].length,n=$o(1,r)[0],i,o=!1;return t[0].length!=null&&(t=t.map(function(a){return a[0]}),o=!0),Ie(r).forEach(function(a){i=Ie(a).map(function(s){return e[a][s]*n[s]}),n[a]=(t[a]-ln(i))/e[a][a]}),o?n.map(function(a){return[a]}):n}function tae(e){var t=e.length,r=lu(t),n=$o(e.length,e[0].length),i;return Ie(t).forEach(function(o){n[0][o]=e[0][o]}),Ie(1,t).forEach(function(o){Ie(o).forEach(function(a){i=Ie(a).map(function(s){return r[o][s]*n[s][a]}),r[o][a]=(e[o][a]-ln(i))/n[a][a]}),Ie(o,t).forEach(function(a){i=Ie(o).map(function(s){return r[o][s]*n[s][a]}),n[o][a]=e[i.length][a]-ln(i)})}),[r,n]}function eae(e){var t=e.length,r=$o(e.length,e[0].length),n;return Ie(t).forEach(function(i){n=Ie(i).map(function(o){return Math.pow(r[i][o],2)}),r[i][i]=Math.sqrt(e[i][i]-ln(n)),Ie(i+1,t).forEach(function(o){n=Ie(i).map(function(a){return r[i][a]*r[o][a]}),r[o][i]=(e[i][o]-ln(n))/r[i][i]})}),r}function rae(e,t,r,n){for(var i=0,o=0,a=e.length,s=[],l=[],u=[],c,f,h,d;i<a;i++)for(s[i]=[],l[i]=[],u[i]=[],o=0;o<a;o++)i>o?(s[i][o]=e[i][o],l[i][o]=u[i][o]=0):i<o?(l[i][o]=e[i][o],s[i][o]=u[i][o]=0):(u[i][o]=e[i][o],s[i][o]=l[i][o]=0);for(h=Qt(Qt(Do(u),gn(s,l)),-1),f=Qt(Do(u),t),c=r,d=gn(Qt(h,r),f),i=2;Math.abs(af(uu(d,c)))>n;)c=d,d=gn(Qt(h,c),f),i++;return d}function nae(e,t,r,n){for(var i=0,o=e.length,a=[],s=[],l=[],u,c,f,h,d;i<o;i++)for(a[i]=[],s[i]=[],l[i]=[],u=0;u<o;u++)i>u?(a[i][u]=e[i][u],s[i][u]=l[i][u]=0):i<u?(s[i][u]=e[i][u],a[i][u]=l[i][u]=0):(l[i][u]=e[i][u],a[i][u]=s[i][u]=0);for(h=Qt(Qt(Do(gn(l,a)),s),-1),f=Qt(Do(gn(l,a)),t),c=r,d=gn(Qt(h,r),f),i=2;Math.abs(af(uu(d,c)))>n;)c=d,d=gn(Qt(h,c),f),i=i+1;return d}function iae(e,t,r,n,i){for(var o=0,a=e.length,s=[],l=[],u=[],c,f,h,d,p;o<a;o++)for(s[o]=[],l[o]=[],u[o]=[],c=0;c<a;c++)o>c?(s[o][c]=e[o][c],l[o][c]=u[o][c]=0):o<c?(l[o][c]=e[o][c],s[o][c]=u[o][c]=0):(u[o][c]=e[o][c],s[o][c]=l[o][c]=0);for(d=Qt(Do(gn(u,Qt(s,i))),uu(Qt(u,1-i),Qt(l,i))),h=Qt(Qt(Do(gn(u,Qt(s,i))),t),i),f=r,p=gn(Qt(d,r),h),o=2;Math.abs(af(uu(p,f)))>n;)f=p,p=gn(Qt(d,f),h),o++;return p}function oae(e){for(var t=e.length,r=e[0].length,n=0,i=[],o=[],a,s,l,u,c;n<t-1;n++){for(a=0,u=n+1;u<r;u++)a+=e[u][n]*e[u][n];for(c=e[n+1][n]>0?-1:1,a=c*Math.sqrt(a),s=Math.sqrt((a*a-e[n+1][n]*a)/2),i=$o(t,1),i[n+1][0]=(e[n+1][n]-a)/(2*s),l=n+2;l<t;l++)i[l][0]=e[l][n]/(2*s);o=uu(lu(t,r),Qt(Qt(i,Es(i)),2)),e=Qt(o,Qt(e,o))}return e}function KG(e){var t=e.length,r=e[0].length,n=$o(r,r);e=J_(e);var i,o,a;for(o=0;o<r;o++){for(n[o][o]=Math.sqrt(ln(Ie(t).map(function(s){return e[s][o]*e[s][o]}))),i=0;i<t;i++)e[i][o]=e[i][o]/n[o][o];for(a=o+1;a<r;a++)for(n[o][a]=ln(Ie(t).map(function(s){return e[s][o]*e[s][a]})),i=0;i<t;i++)e[i][a]=e[i][a]-e[i][o]*n[o][a]}return[e,n]}function aae(e){e=J_(e);var t=e.length,r=lu(t);return Ie(t-1,-1,-1).forEach(function(n){od(r,{row:n},qT(ra(r,{row:n}),e[n][n])),od(e,{row:n},qT(ra(e,{row:n}),e[n][n])),Ie(n).forEach(function(i){var o=Qt(e[i][n],-1),a=ra(e,{row:i}),s=Qt(ra(e,{row:n}),o);od(e,{row:i},gn(a,s));var l=ra(r,{row:i}),u=Qt(ra(r,{row:n}),o);od(r,{row:i},gn(l,u))})}),r}function JG(e,t){var r=!1;t[0].length===void 0&&(t=t.map(function(f){return[f]}),r=!0);var[n,i]=KG(e),o=e[0].length,a=ra(n,{col:{end:o}}),s=ra(i,{row:{end:o}}),l=aae(s),u=Es(a);u[0].length===void 0&&(u=[u]);var c=Qt(Qt(l,u),t);return c.length===void 0&&(c=[[c]]),r?c.map(function(f){return f[0]}):c}function QG(e){for(var t=1,r=e.length,n=lu(r,r),i=[],o,a,s,l,u,c,f,h;t===1;){for(c=e[0][1],l=0,u=1,a=0;a<r;a++)for(s=0;s<r;s++)a!=s&&c<Math.abs(e[a][s])&&(c=Math.abs(e[a][s]),l=a,u=s);for(e[l][l]===e[u][u]?f=e[l][u]>0?Math.PI/4:-Math.PI/4:f=Math.atan(2*e[l][u]/(e[l][l]-e[u][u]))/2,h=lu(r,r),h[l][l]=Math.cos(f),h[l][u]=-Math.sin(f),h[u][l]=Math.sin(f),h[u][u]=Math.cos(f),n=Qt(n,h),o=Qt(Qt(Do(h),e),h),e=o,t=0,a=1;a<r;a++)for(s=1;s<r;s++)a!=s&&Math.abs(e[a][s])>.001&&(t=1)}for(a=0;a<r;a++)i.push(e[a][a]);return[n,i]}function sae(e,t,r,n,i,o){var a,s,l,u,c;if(o===2)for(;n<=r;)a=t*e(n,i),s=t*e(n+t,i+a),l=i+(a+s)/2,i=l,n=n+t;if(o===4)for(;n<=r;)a=t*e(n,i),s=t*e(n+t/2,i+a/2),u=t*e(n+t/2,i+s/2),c=t*e(n+t,i+u),l=i+(a+2*s+2*u+c)/6,i=l,n=n+t;return i}function lae(e,t,r,n){for(var i=0,o=(r-t)/2,a=[],s=[],l=[],u,c,f,h,d;i<n/2;){for(d=e(t),f=t,h=0;f<=r;f=f+o,h++)a[h]=f;for(u=a.length,f=1;f<u-1;f++)d+=(f%2!==0?4:2)*e(a[f]);d=o/3*(d+e(r)),l[i]=d,o/=2,i++}for(c=l.length,u=1;c!==1;){for(f=0;f<c-1;f++)s[f]=(Math.pow(4,u)*l[f+1]-l[f])/(Math.pow(4,u)-1);c=s.length,l=s,s=[],u++}return l}function uae(e,t,r,n){function i(p,v){for(var g=0,m=p.length,_;g<m;g++)p[g]===v&&(_=g);return _}for(var o=Math.abs(r-e[i(e,r)+1]),a=0,s=[],l=[],u,c,f,h,d;n>=o;)u=i(e,r+n),c=i(e,r),s[a]=(t[u]-2*t[c]+t[2*c-u])/(n*n),n/=2,a++;for(h=s.length,f=1;h!=1;){for(d=0;d<h-1;d++)l[d]=(Math.pow(4,f)*s[d+1]-s[d])/(Math.pow(4,f)-1);h=l.length,s=l,l=[],f++}return s}function cae(e,t,r,n){for(var i=(r-t)/n,o=e(t),a=[],s=t,l=0,u=1,c;s<=r;s=s+i,l++)a[l]=s;for(c=a.length;u<c-1;u++)o+=(u%2!==0?4:2)*e(a[u]);return i/3*(o+e(r))}function fae(e,t,r,n){for(var i=e.length,o=0,a=0,s=[],l=[],u=[],c=[],f;a<i;a++){for(s[a]=1,f=0;f<i;f++)a!=f&&(s[a]*=(n-e[f])/(e[a]-e[f]));for(l[a]=0,f=0;f<i;f++)a!=f&&(l[a]+=1/(e[a]-e[f]));u[a]=(1-2*(n-e[a])*l[a])*(s[a]*s[a]),c[a]=(n-e[a])*(s[a]*s[a]),o+=u[a]*t[a]+c[a]*r[a]}return o}function hae(e,t,r){for(var n=0,i=0,o,a,s=e.length;i<s;i++){for(a=t[i],o=0;o<s;o++)i!=o&&(a*=(r-e[o])/(e[i]-e[o]));n+=a}return n}function dae(e,t,r){for(var n=e.length,i=0,o,a=[],s=[],l=[],u=[],c=[],f=[],h=[];i<n-1;i++)c[i]=e[i+1]-e[i];for(l[0]=0,i=1;i<n-1;i++)l[i]=3/c[i]*(t[i+1]-t[i])-3/c[i-1]*(t[i]-t[i-1]);for(i=1;i<n-1;i++)a[i]=[],s[i]=[],a[i][i-1]=c[i-1],a[i][i]=2*(c[i-1]+c[i]),a[i][i+1]=c[i],s[i][0]=l[i];for(u=Qt(Do(a),s),o=0;o<n-1;o++)f[o]=(t[o+1]-t[o])/c[o]-c[o]*(u[o+1][0]+2*u[o][0])/3,h[o]=(u[o+1][0]-u[o][0])/(3*c[o]);for(o=0;o<n&&!(e[o]>r);o++);return o-=1,t[o]+(r-e[o])*f[o]+ZT(r-e[o],2)*u[o]+(r-e[o])*ZT(r-e[o],2)*h[o]}function pae(){throw new Error("gauss_quadrature not yet implemented")}function vae(e){var t=e.length,r=e[0].length,n=0,i,o,a=[],s=[],l=[],u=[],c=[],f=[],h=[],d=[],p=[],v=[];for(n=0;n<t;n++)a[n]=ln(e[n])/r;for(n=0;n<r;n++)for(h[n]=[],i=0;i<t;i++)h[n][i]=e[i][n]-a[i];for(h=Es(h),n=0;n<t;n++)for(d[n]=[],i=0;i<t;i++)d[n][i]=k1([h[n]],[h[i]])/(r-1);for(l=QG(d),p=l[0],s=l[1],v=Es(p),n=0;n<s.length;n++)for(i=n;i<s.length;i++)s[n]<s[i]&&(o=s[n],s[n]=s[i],s[i]=o,u=v[n],v[n]=v[i],v[i]=u);for(f=Es(h),n=0;n<t;n++)for(c[n]=[],i=0;i<f.length;i++)c[n][i]=k1([v[n]],[f[i]]);return[e,s,v,c]}const gae=Object.freeze(Object.defineProperty({__proto__:null,add:gn,subtract:uu,divide:qT,multiply:Qt,outer:joe,dot:k1,pow:ZT,exp:Hoe,log:Xoe,abs:Yoe,norm:af,angle:qoe,aug:SA,inv:Do,det:Zoe,gauss_elimination:Koe,gauss_jordan:ZG,triaUpSolve:Joe,triaLowSolve:Qoe,lu:tae,cholesky:eae,gauss_jacobi:rae,gauss_seidel:nae,SOR:iae,householder:oae,QR:KG,lstsq:JG,jacobi:QG,rungekutta:sae,romberg:lae,richardson:uae,simpson:cae,hermite:fae,lagrange:hae,cubic_spline:dae,gauss_quadrature:pae,PCA:vae},Symbol.toStringTag,{value:"Module"}));function mae(e){var t=e[0].length,r=Ie(t).map(function(n){var i=Ie(t).filter(function(o){return o!==n});return tW(S1(e,n).map(function(o){return o[0]}),S1(e,i))});return r}function tW(e,t){var r=e.length,n=t[0].length-1,i=r-n-1,o=JG(t,e),a=Qt(t,o.map(function(d){return[d]})).map(function(d){return d[0]}),s=uu(e,a),l=lr(e),u=ln(a.map(function(d){return Math.pow(d-l,2)})),c=ln(e.map(function(d,p){return Math.pow(d-a[p],2)})),f=u+c,h=u/f;return{exog:t,endog:e,nobs:r,df_model:n,df_resid:i,coef:o,predict:a,resid:s,ybar:l,SST:f,SSE:u,SSR:c,R2:h}}function _ae(e){var t=mae(e.exog),r=Math.sqrt(e.SSR/e.df_resid),n=t.map(function(l){var u=l.SST,c=l.R2;return r/Math.sqrt(u*(1-c))}),i=e.coef.map(function(l,u){return(l-0)/n[u]}),o=i.map(function(l){var u=na(l,e.df_resid);return(u>.5?1-u:u)*2}),a=E1(.975,e.df_resid),s=e.coef.map(function(l,u){var c=a*n[u];return[l-c,l+c]});return{se:n,t:i,p:o,sigmaHat:r,interval95:s}}function yae(e){var t=e.R2/e.df_model/((1-e.R2)/e.df_resid),r=function(i,o,a){return T1(i/(a/o+i),o/2,a/2)},n=1-r(t,e.df_model,e.df_resid);return{F_statistic:t,pvalue:n}}function bae(e,t){var r=tW(e,t),n=_ae(r),i=yae(r),o=1-(1-r.R2)*((r.nobs-1)/r.df_resid);return r.t=n,r.f=i,r.adjust_R2=o,r}const wae={ols:bae},Sae=Object.freeze(Object.defineProperty({__proto__:null,models:wae},Symbol.toStringTag,{value:"Module"}));Object.assign(ht,pre,Fre,Woe,gae,Sae,nne);for(const[e,t]of Object.entries(Ooe)){let r=function(...n){return this instanceof r?(this.givenArgs=n,this):new r(...n)};Object.assign(r,t),ht[e]=r,ht.prototype[e]=function(...n){const i=r(...n);return i.data=this,i},r.prototype.sample=function(n){const i=this.givenArgs;return n?ht.alter(n,()=>t.sample(...i)):t.sample(...i)},["pdf","cdf","inv"].forEach(n=>{r.prototype[n]=function(i){return!i&&i!==0&&(i=this.data),typeof i!="number"?ht.map(i,o=>t[n](o,...this.givenArgs)):t[n](i,...this.givenArgs)}}),["mean","median","mode","variance"].forEach(n=>{r.prototype[n]=function(){return t[n](...this.givenArgs)}})}"gammaln gammafn factorial factorialln".split(" ").forEach(function(e){ht.prototype[e]=function(){return ht(ht.map(this,function(t){return ht[e](t)}))}});ht.prototype.randn=function(){return ht(ht.randn.apply(null,arguments))};const TA=kG.isFunction;(function(e){for(var t=0;t<e.length;t++)(function(r){ht.prototype[r]=function(n,i){var o=[],a=0,s=this;if(TA(n)&&(i=n,n=!1),i)return setTimeout(function(){i.call(s,ht.prototype[r].call(s,n))}),this;if(this.length>1){for(s=n===!0?this:this.transpose();a<s.length;a++)o[a]=ht[r](s[a]);return o}return ht[r](this[0],n)}})(e[t])})("cumsum cumprod".split(" "));(function(e){for(var t=0;t<e.length;t++)(function(r){ht.prototype[r]=function(n,i){var o=[],a=0,s=this;if(TA(n)&&(i=n,n=!1),i)return setTimeout(function(){i.call(s,ht.prototype[r].call(s,n))}),this;if(this.length>1){for(r!=="sumrow"&&(s=n===!0?this:this.transpose());a<s.length;a++)o[a]=ht[r](s[a]);return n===!0?ht[r](ht.utils.toVector(o)):o}return ht[r](this[0],n)}})(e[t])})("sum sumsqrd sumsqerr sumrow product min max unique mean meansqerr geomean median diff rank mode range variance deviation stdev meandev meddev coeffvar quartiles histogram skewness kurtosis".split(" "));(function(e){for(var t=0;t<e.length;t++)(function(r){ht.prototype[r]=function(){var n=[],i=0,o=this,a=Array.prototype.slice.call(arguments),s;if(TA(a[a.length-1])){s=a[a.length-1];var l=a.slice(0,a.length-1);return setTimeout(function(){s.call(o,ht.prototype[r].apply(o,l))}),this}else{s=void 0;var u=function(f){return ht[r].apply(o,[f].concat(a))}}if(this.length>1){for(o=o.transpose();i<o.length;i++)n[i]=u(o[i]);return n}return u(this[0])}})(e[t])})("quantiles percentileOfScore".split(" "));ht.prototype.zscore=function(t,r){return(t-this.mean())/this.stdev(r)};ht.prototype.ztest=function(t,r,n){const i=Math.abs(this.zscore(t,n));return r===1?ht.normal.cdf(-i,0,1):ht.normal.cdf(-i,0,1)*2};ht.prototype.tscore=function(t){return(t-this.mean())/(this.stdev(!0)/Math.sqrt(this.cols()))};ht.prototype.ttest=function(t,r){return r===1?1-ht.studentt.cdf(Math.abs(this.tscore(t)),this.cols()-1):ht.studentt.cdf(-Math.abs(this.tscore(t)),this.cols()-1)*2};ht.prototype.anovafscore=function(){return ht.anovafscore(this.toArray())};ht.prototype.anovaftes=function(){var t=0,r;for(r=0;r<this.length;r++)t=t+this[r].length;return ht.ftest(this.anovafscore(),this.length-1,t-this.length)};ht.prototype.oneSidedDifferenceOfProportions=function(){console.error("Please use jStat.oneSidedDifferenceOfProportions() instead")};ht.prototype.twoSidedDifferenceOfProportions=function(){console.error("Please use jStat.twoSidedDifferenceOfProportions() instead")};"add divide multiply subtract dot pow exp log abs norm angle".split(" ").forEach(e=>{ht.prototype[e]=function(t,r){const n=this;return r?(r.call(n,ht.prototype[e].call(n,t)),this):typeof ht[e](this,t)=="number"?ht[e](this,t):ht(ht[e](this,t))}});ht.jStat=ht;function PA(e,t,r,n){if(n)return Tae(e,t,r);const i=t;let o=[];for(let a=0;a<=r;a++){const s=ht.binomial.pdf(a,r,e/r);if(s<0)return null;const l=s*i;l<.01||o.push([a,l])}return o}function Tae(e,t,r){const n=t;let i=[],o=0;for(let a=0;a<=r;a++){const s=ht.binomial.pdf(a,r,e/r);if(s<0)return null;const l=s*n;if(l<.01)continue;const u=Math.floor(a*1.684);if(o)for(let c=o;c<u;c++)i.push([c,0]);i.push([u,l]),o=u+1}return i}function Pae(e,t,r,n,i,o){let a=[],s=0;for(let p=0;p<=i;p++){const v=ht.binomial.pdf(p,i,e/i);if(v<0){a=null;break}const g=v*t;if(g<.01)continue;const m=Math.floor(p*1.684);if(s)for(let _=s;_<m;_++)a.push([_,0]);a.push([m,g]),s=m+1}const l=n/t,u={};for(let p=0;p<=i;p++){const v=ht.binomial.pdf(p,i,r/i);if(v<0)throw Error(`invalid arguments for Stat.binomial.pdf: ${p}, ${i}, ${r/i}`);if(v*n<.01)continue;const m=o?Math.floor(p*1.684):p;a.forEach(_=>{const[y,w]=_,T=y+m,S=w*v*l;T in u?u[T]+=S:u[T]=S})}let c=99,f=0;for(const[p,v]of Object.entries(u)){if(v<.01)continue;const g=parseInt(p);g<c&&(c=g),g>f&&(f=g)}const h=[];for(let p=c;p<=f;p++)if(p in u){const v=u[p];h.push([p,v])}else h.push([p,0]);return{bellU:a,bellL:h}}function Eae(e,t){let r={};if(e)for(let[o,a]of e)r[o]=a;for(let[o,a]of t)o in r?r[o]+=a:r[o]=a;let n=Object.entries(r).sort((o,a)=>o[0]-a[0]),i=[];for(let[o,a]of n)i.push([o,a]);return i}function EA(e,t,r,n,i){if(n)throw Error("not implemented");return kae(e,t,r,i)}function kae(e,t,r,n){let i,o,a;if(!Object.keys(e).length)return{mse:i,chisq:o,pval:a};i=0;for(const[p,[v,g]]of Object.entries(e)){const m=parseInt(v);if(n&&m==0)continue;const _=m in t?t[m]:0,y=g-_;i+=y*y}const s=3,l=r+2,u=Object.keys(e).sort((p,v)=>e[v][1]-e[p][1]);let c={},f=0;if(u.forEach(p=>{const v=e[p][0];if(n&&v=="0")return;const g=e[p][1],m=v in t?t[v]:0;(g>=s||m>=s||f<l)&&(c[v]={y_model:g,y_observed:m},f++)}),Object.keys(c).length==0)return console.log("can't compute chiSquared: only",c,"bins left after discard"),{mse:i,chisq:o,pval:a};let d=0;o=0;for(const[p,{y_model:v,y_observed:g}]of Object.entries(c)){const m=v-g;o+=m*m/v,d++}return d-1-r<1?(console.log("can't compute pval: bins",d,"variables",r),{mse:i,chisq:o,pval:a}):(isFinite(o)?a=1-ht.chisquare.cdf(o,d-1-r):a=0,{mse:i,chisq:o,pval:a})}function eW(e){e.forEach(t=>{t[0]=Math.floor(t[0]*1.684)})}Xr([yf,y_,$0,z0,Sf,wf,Tf,V0,S_,w_,b_,U0]);const Aae={data:()=>({selected_np:1,selected_n:10,isBinary:!1}),props:{stats:Object,histogram:Object,isGiant:Boolean},components:{VChart:Pf},methods:{formatFixed:Ft,isGoodVal:Ei,formatKMG:wP,makeBinomialArray:PA,loss:EA,applyGiantBonus:eW,makeModelA(e,t){let r={np:e,n:t};if(r.bell=this.makeBinomialArray(e,this.stats.len,t,this.isGiant),!r.bell)return null;if(r.loss=this.loss(r.bell,this.histogram.map,2),this.isBinary=0 in r.bell&&1 in r.bell&&Object.keys(r.bell).length==2&&0 in this.histogram.map&&1 in this.histogram.map&&Object.keys(this.histogram.map).length==2,this.isBinary){const n=this.stats.lucky.len,i=r.bell[1][1],o=this.histogram.map[1],a=i/n;o<=n&&0<a&&a<1?(r.loss.binomtest=hA(o,Math.round(n),{p:a}),r.loss.pval=r.loss.binomtest.pValue,console.log("binomtest:",r.bell,this.histogram.map,o,n,a,r.loss.binomtest)):(console.log("can't binomtest",r.bell,this.histogram.map,o,n,a),r.loss.binomtest=NaN)}return r},tuneModelA(e,t){let r=[t];t===void 0&&(r=[1,10,20,40,110,120,140,150],r=r.filter(i=>i>=e&&i<=this.stats.max*5));let n={n:NaN,loss:{mse:NaN,chisq:NaN,pval:NaN}};return r.forEach(i=>{const o=this.makeModelA(e,i);if(!o)return;Ei(o.loss.mse)&&(!Ei(n.loss.mse)||o.loss.mse<n.loss.mse)&&(n=o)}),n},applySelectedNP(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_np=e)},applySelectedN(e){e<0||(e<this.selected_np&&(this.selected_np=e),this.selected_n=e)}},computed:{modelA(){return this.makeModelA(this.selected_np,this.selected_n)},modelAForChart(){const e=this.stats.len,t=this.stats.generalSigmas,r=[];return this.modelA.bell.forEach(([n,i])=>{const o=i/e,a=t*Math.sqrt(o*(1-o)/e),s=Math.max(0,o-a)*e,l=Math.min(1,o+a)*e;r.push([n,i,s,l])}),r},sweepRange(){const e={lo:Math.max(0,this.stats.meanLo),init:this.stats.mean,hi:this.stats.meanHi};return this.isGiant&&(e.init>40?(e.lo/=1.684,e.init/=1.684,e.hi/=1.684):e.init>20?(e.lo/=1.684,e.init/=1.684,e.hi/=1.6):e.init>10?(e.lo/=1.684,e.init/=1.684,e.hi/=1.5):e.init>5?(e.lo/=1.684,e.init/=1.684,e.hi/=1.3):e.init>1&&(e.lo/=1.684,e.init/=1.684,e.hi/=1)),e.range=e.hi-e.lo,e},modelASweep(){const e=this.tuneModelA(this.sweepRange.init,void 0);let t=10;const r=[.002,.005,.01,.02,.05,.1,.2,.5,1,2,5];for(const a of r)if(Math.floor(this.sweepRange.range/a)<20){t=a;break}const n=Math.ceil(this.sweepRange.lo/t)*t;let i=e;const o=[];for(let a=n;a<=this.sweepRange.hi;a+=t){let s=this.tuneModelA(a,void 0);a>this.sweepRange.init&&a<this.sweepRange.init+t&&o.push([this.sweepRange.init,s.n,e.loss.mse,e.loss.chisq,e.loss.pval]),o.push([a,s.n,s.loss.mse,s.loss.chisq,s.loss.pval]),s.loss.mse<i.loss.mse&&(i=s)}return isFinite(i.loss.mse)&&(this.selected_np=i.np,this.selected_n=i.n),{result:i,log:o}},makeChartHist(){return{legend:null,tooltip:{trigger:"axis"},dataset:[{source:this.histogram.arr},{source:this.modelAForChart}],xAxis:{axisLine:{onZero:!1},min:this.stats.min==0?-1:null,max:this.stats.max<3?this.stats.max+1:null},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:8,right:10,bottom:20},series:[{type:"bar",name:"observed",datasetIndex:0,encode:{x:0,y:1},tooltip:{valueFormatter:t=>Ft(t,0)}},{type:"line",name:"model",datasetIndex:1,encode:{x:0,y:1},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1},{type:"line",name:`-${this.stats.generalSigmas}\u03C3`,datasetIndex:1,encode:{x:0,y:2},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"line",name:`+${this.stats.generalSigmas}\u03C3`,datasetIndex:1,encode:{x:0,y:3},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1,lineStyle:{opacity:.4}}]}},makeChartASweep(){const e={legend:{},tooltip:{trigger:"axis",formatter:function(t){const r=t[0].data;return`np=${Ft(r[0],2)}<br/>n=${Ft(r[1],2)}<br/>MSE=${r[2].toLocaleString(void 0,{notation:"compact"})}<br/>\u03C7\xB2=${r[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${Ft(r[4],2)}<br/>`}},title:{subtext:"",left:"center",textStyle:{fontSize:10}},dataset:[{source:this.modelASweep.log}],xAxis:{min:this.sweepRange.lo,max:this.sweepRange.hi,name:"np",nameLocation:"center",nameGap:20,axisLine:{onZero:!1},axisLabel:{showMinLabel:!1}},yAxis:[{position:"left",axisLabel:{formatter:t=>t.toLocaleString(void 0,{notation:"compact"})},splitLine:{show:!1}},{position:"right",axisLabel:{formatter:t=>t.toLocaleString(void 0,{notation:"compact"})}}],grid:{left:35,top:30,right:40,bottom:20},series:[{name:"MSE",type:"line",encode:{x:0,y:2},tooltip:{valueFormatter:t=>Ft(t,2)}},{name:"p-val",type:"line",encode:{x:0,y:4},tooltip:{valueFormatter:t=>Ft(t,4)},yAxisIndex:1}]};return console.log("makeChartASweep",e.dataset),e}}},Ir=e=>(gr("data-v-f49098bd"),e=e(),mr(),e),Cae=Ir(()=>b("span",{class:"title"},"Model A",-1)),Mae=Ir(()=>b("span",null,[z(": all points were taken from a single distribution with "),b("i",null,"np = M")],-1)),xae=z(" with giant bonus"),Lae={key:0},Iae={style:{float:"left"}},Oae=z(" Sweeping through "),Rae=Ir(()=>b("i",null,"np",-1)),Dae={key:0,id:"chartSweep"},Nae={key:1},Fae={style:{padding:"1em"}},Bae=Ir(()=>b("th",null,null,-1)),$ae=Ir(()=>b("th",null,"np",-1)),zae=Ir(()=>b("th",null,"n",-1)),Vae=Ir(()=>b("th",null,"MSE",-1)),Uae=Ir(()=>b("th",null,"p-val",-1)),Gae=Ir(()=>b("td",null,"Best fit:",-1)),Wae=Ir(()=>b("td",null,"Manual:",-1)),jae=z(" np: "),Hae=["value","min","max","step"],Xae=z(" n: "),Yae=["value","min"],qae=Ir(()=>b("br",null,null,-1)),Zae={id:"chartHisto",style:{float:"left"}},Kae=Ir(()=>b("div",{style:{clear:"both"}},null,-1)),Jae=Ir(()=>b("br",null,null,-1)),Qae=Ir(()=>b("p",{class:"fsxs"},[z("MSE: "),b("i",null,"\u03A3 (observed - model)\xB2"),z(", discard nothing \u2190 this is used for fitting")],-1)),tse={key:0,class:"fsxs"},ese=z("p-val: "),rse=Ir(()=>b("a",{href:"https://en.wikipedia.org/wiki/Binomial_test"},"exact",-1)),nse=[ese,rse],ise=Ir(()=>b("p",{class:"fsxs"},[z("\u03C7\xB2: discard bins where model < 3, then "),b("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),ose=Ir(()=>b("p",{class:"fsxs"},[z("p-val: "),b("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function ase(e,t,r,n,i,o){const a=he("v-chart");return I(),R(j,null,[Cae,Mae,b("p",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=s=>r.isGiant=s)},null,512),[[sr,r.isGiant]]),xae]),r.isGiant?(I(),R("p",Lae,"This causes gaps in Unlucky distrubution because giantValue=floor(1.684*ordinaryValue);")):tt("",!0),b("div",null,[b("div",Iae,[Oae,Rae,z(" values in "+L(o.formatFixed(this.sweepRange.lo,2))+"\u2026"+L(o.formatFixed(this.sweepRange.hi,2))+" range: ",1),o.modelASweep.result.np?(I(),R("div",Dae,[Ct(a,{option:o.makeChartASweep},null,8,["option"])])):(I(),R("div",Nae," [failed] ")),b("div",Fae,[b("table",null,[b("tr",null,[Bae,$ae,zae,Vae,tt("",!0),Uae]),o.modelASweep.result?(I(),R("tr",{key:0,class:rn({strike:r.stats.aBad})},[Gae,b("td",null,L(o.formatFixed(o.modelASweep.result.np,4)),1),b("td",null,L(o.formatFixed(o.modelASweep.result.n)),1),b("td",null,L(o.formatFixed(o.modelASweep.result.loss.mse,2)),1),tt("",!0),b("td",null,L(o.formatFixed(o.modelASweep.result.loss.pval,4)),1)],2)):tt("",!0),b("tr",null,[Wae,b("td",null,L(o.formatFixed(e.selected_np,4)),1),b("td",null,L(e.selected_n),1),b("td",null,L(o.formatFixed(o.modelA.loss.mse,2)),1),tt("",!0),b("td",null,L(o.formatFixed(o.modelA.loss.pval,4)),1)])]),jae,b("input",{type:"range",onInput:t[1]||(t[1]=s=>o.applySelectedNP(Number(s.target.value))),value:e.selected_np,min:r.stats.min,max:r.stats.max,step:.01,class:"vmid"},null,40,Hae),Xae,b("input",{type:"range",onInput:t[2]||(t[2]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:r.stats.max,max:200,step:1,class:"vmid"},null,40,Yae),qae])]),b("div",Zae,[o.modelA.bell?(I(),va(a,{key:0,option:o.makeChartHist},null,8,["option"])):(I(),R(j,{key:1},[z(" [failed to build the requested distribution np="+L(o.modelA.np)+" n="+L(o.modelA.n)+" ] ",1)],64))]),Kae,Jae,Qae,e.isBinary?(I(),R("p",tse,nse)):(I(),R(j,{key:1},[ise,ose],64))])],64)}const sse=Ne(Aae,[["render",ase],["__scopeId","data-v-f49098bd"]]);Xr([yf,y_,$0,z0,Olt,Sf,wf,Tf,V0,S_,w_,b_,U0]);const lse={data:()=>({selected_np:1,selected_n:10,sweep_lo:0,sweep_hi:1}),props:{stats:Object,histogram:Object},components:{VChart:Pf},methods:{isGoodVal:Ei,formatFixed:Ft,formatKMG:wP,makeBinomialArray:PA,loss:EA,makeModelB(e,t){const r=this.makeBinomialArray(e,this.stats.lucky.len,t);if(!r)return null;const n={np:e,n:t,bell:r},i=this.histogram.map,o=this.histogramLuckOnly.err[0][1],a=this.histogramLuckOnly.err[0][2];if(r[0]<o){const l={...i};l[0]=o,n.loss=this.loss(n.bell,l,2,!1)}else if(r[0]>a){const l={...i};l[0]=a,n.loss=this.loss(n.bell,l,2,!1)}else{const l={...i};delete l[0],n.loss=this.loss(n.bell,l,2,!1,!0)}if(0 in r&&1 in r&&Object.keys(r).length==2&&0 in i&&1 in i&&Object.keys(i).length==2){const l=this.stats.lucky.len,u=r[1][1],c=i[1],f=u/l;c<=l&&0<f&&f<1?(n.loss.binomtest=hA(c,Math.round(l),{p:f}),n.loss.pval=n.loss.binomtest.pValue,console.log("binomtest:",r,i,c,l,f,n.loss.binomtest)):(console.log("can't binomtest",r,i,c,l,f),n.loss.binomtest=NaN)}return n},tuneModelB(e,t){let r=[t];t===void 0&&(r=[10,20,40,110,120,140,150],r.push(this.stats.max),r=r.filter(i=>i<=this.stats.max*5));let n={np:0,n:1,loss:{mse:void 0,chisq:void 0,pval:void 0}};if(!this.histogramLuckOnly){console.log("tuneModelB skip");return}return r.forEach(i=>{const o=this.makeModelB(e,i);if(!o)return;Ei(o.loss.mse)&&(!Ei(n.loss.mse)||o.loss.mse<n.loss.mse)&&(n=o)}),n&&n.np>0&&n.np<=n.n?n:(console.log(`tuneModelB np=${e} -> failed`),null)},applySelectedNp(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_np=e)},applySelectedN(e){e<0||(e<this.selected_np&&(this.selected_np=e),this.selected_n=e)}},computed:{histogramLuckOnly(){const e={...this.histogram.map};e[0]=this.histogram.map[0]-this.stats.unlucky.len;const t=[],r=[];for(const[n,i]of Object.entries(e)){if(n==0){const o=this.histogram.map[0]-(this.stats.len-this.stats.lucky.lenHi),a=this.histogram.map[0]-(this.stats.len-this.stats.lucky.lenLo);r.push([n,a,o])}t.push([n,i])}return{map:e,arr:t,err:r}},zeroBinRange(){return{min:this.histogramLuckOnly.err[0][1],max:this.histogramLuckOnly.err[0][2]}},npRangeForBinary(){if(Object.keys(this.histogram.map).length==2&&1 in this.histogram.map){const e=this.histogram.map[1];return{min:e/(this.zeroBinRange.max+e),max:e/(this.zeroBinRange.min+e)}}},modelB(){const e=this.makeModelB(this.selected_np,this.selected_n);return console.log("modelB",e),e},modelBForChart(){const e=this.stats.len,t=this.stats.generalSigmas,r=[];return this.modelB.bell.forEach(([n,i])=>{const o=i/e,a=t*Math.sqrt(o*(1-o)/e),s=Math.max(0,o-a)*e,l=Math.min(1,o+a)*e;r.push([n,i,s,l])}),r},modelBSweep(){const e=Math.max(this.stats.meanLo/this.stats.lucky.share,0);if(e>8888888)return console.log("modelBSweep skip - no input",this.stats.meanLo,this.stats.lucky.share,this.stats.lucky.std),!1;this.sweep_lo=e,this.sweep_hi=this.stats.meanHi/this.stats.lucky.share;const t=this.sweep_hi-e;let r=10;const n=[.002,.005,.01,.02,.05,.1,.2,.5,1,2,5];for(const s of n)if(Math.floor(t/s)<40){r=s;break}if(Math.floor(t/r)>1e3)return!1;const i=Math.ceil(e/r)*r;let o={np:void 0,n:void 0,loss:{mse:1/0,chisq:1/0,pval:0}};const a=[];for(let s=i;s<=this.sweep_hi;s+=r){const l=this.tuneModelB(s,void 0);if(!l)continue;a.push([s,l.n,l.loss.mse,l.loss.chisq,l.loss.pval]),Ei(l.loss.mse)&&(!Ei(o.loss.mse)||l.loss.mse<o.loss.mse)&&(console.log("new best model",s,l),o=l)}return this.selected_np=o.np,this.selected_n=o.n,{result:o,log:a}},makeChartBSweep(){const e={legend:{},tooltip:{trigger:"axis",formatter:function(t){const r=t[0].data;return`np=${Ft(r[0],2)}<br/>n=${Ft(r[1])}<br/>MSE=${r[2].toLocaleString(void 0,{notation:"compact"})}<br/>\u03C7\xB2=${r[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${Ft(r[4],2)}<br/>`}},title:{subtext:"",left:"center",textStyle:{fontSize:10}},dataset:[{source:this.modelBSweep.log}],xAxis:{min:this.sweep_lo,max:this.sweep_hi,name:"np",nameLocation:"center",nameGap:20,axisLine:{onZero:!1},axisLabel:{showMinLabel:!1}},yAxis:[{position:"left",axisLabel:{formatter:t=>this.formatKMG(t)},splitLine:{show:!1}},{position:"right"}],grid:{left:35,top:30,right:40,bottom:20},series:[{name:"MSE",type:"line",encode:{x:0,y:2},tooltip:{valueFormatter:t=>Ft(t,2)}},{name:"p-val",type:"line",encode:{x:0,y:4},tooltip:{valueFormatter:t=>Ft(t,4)},yAxisIndex:1}]};return console.log("makeChartBSweep",e.dataset),e},makeChartBHist(){return{legend:null,tooltip:{trigger:"axis"},dataset:[{source:this.histogramLuckOnly.arr},{source:this.histogramLuckOnly.err},{source:this.modelBForChart}],xAxis:{axisLine:{onZero:!1},min:-1,max:this.stats.max+1},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:8,right:10,bottom:20},series:[{type:"bar",name:"observed",datasetIndex:0,encode:{x:0,y:1},tooltip:{valueFormatter:t=>Ft(t,0)}},{type:"line",name:"model",datasetIndex:2,encode:{x:0,y:1},tooltip:{valueFormatter:t=>Ft(t,3)},showSymbol:!1},{type:"line",name:`-${this.stats.generalSigmas}\u03C3`,datasetIndex:2,encode:{x:0,y:2},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"line",name:`+${this.stats.generalSigmas}\u03C3`,datasetIndex:2,encode:{x:0,y:3},tooltip:{valueFormatter:t=>Ft(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"custom",name:"observed-error",datasetIndex:1,encode:{x:0,y:[1,2]},itemStyle:{borderWidth:1.5},renderItem:function(t,r){var n=r.value(0),i=r.coord([n,r.value(1)]),o=r.coord([n,r.value(2)]),a=r.size([1,0])[0]*.1,s=r.style({stroke:r.visual("color"),fill:void 0});return{type:"group",children:[{type:"line",transition:["shape"],shape:{x1:i[0]-a,y1:i[1],x2:i[0]+a,y2:i[1]},style:s},{type:"line",transition:["shape"],shape:{x1:i[0],y1:i[1],x2:o[0],y2:o[1]},style:s},{type:"line",transition:["shape"],shape:{x1:o[0]-a,y1:o[1],x2:o[0]+a,y2:o[1]},style:s}]}},tooltip:{show:!1},z:100}]}}}},br=e=>(gr("data-v-7790bb48"),e=e(),mr(),e),use=br(()=>b("span",{class:"title"},"Model B",-1)),cse=br(()=>b("span",null,[z(": majority (1-\u03BB) of points are zero, but \u03BB points are from a binomial distribution with such "),b("i",null,"np"),z(", that \u03BB"),b("i",null,"np"),z(" = M")],-1)),fse=z("Sweeping through "),hse=br(()=>b("i",null,"np",-1)),dse={style:{float:"left"}},pse={key:0,id:"chartSweep"},vse={style:{padding:"1em"}},gse={style:{float:"left"}},mse=br(()=>b("th",null,null,-1)),_se=br(()=>b("th",null,"np",-1)),yse=br(()=>b("th",null,"n",-1)),bse=br(()=>b("th",null,"MSE",-1)),wse=br(()=>b("th",null,"p-val",-1)),Sse={key:0},Tse=br(()=>b("td",null,"Best fit:",-1)),Pse=br(()=>b("td",null,"Manual:",-1)),Ese=z(" np\u1D38: "),kse=["value","min","max","step"],Ase=z(" n\u1D38: "),Cse=["value"],Mse=br(()=>b("div",{style:{clear:"both"}},null,-1)),xse={key:0,style:{float:"left"}},Lse={id:"chartHisto"},Ise=br(()=>b("br",null,null,-1)),Ose={key:0},Rse=z(" Corresponding range for "),Dse=br(()=>b("i",null,"np",-1)),Nse={key:1},Fse=br(()=>b("div",{style:{clear:"both"}},null,-1)),Bse=br(()=>b("p",{class:"fsxs"},[z("MSE: "),b("i",null,"\u03A3 (observed - model)\xB2"),z(", discard nothing \u2190 this is used for fitting")],-1)),$se={key:0,class:"fsxs"},zse=z("p-val: "),Vse=br(()=>b("a",{href:"https://en.wikipedia.org/wiki/Binomial_test"},"exact",-1)),Use=[zse,Vse],Gse=br(()=>b("p",{class:"fsxs"},[z("\u03C7\xB2: discard bins where model < 3, then "),b("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),Wse=br(()=>b("p",{class:"fsxs"},[z("p-val: "),b("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function jse(e,t,r,n,i,o){const a=he("v-chart");return I(),R(j,null,[use,cse,o.modelB?(I(),R(j,{key:0},[b("p",null,[fse,hse,z(" values in "+L(o.formatFixed(this.sweep_lo,2))+"\u2026"+L(o.formatFixed(this.sweep_hi,2))+" range:",1)]),b("div",null,[b("div",dse,[o.modelBSweep?(I(),R("div",pse,[Ct(a,{option:o.makeChartBSweep},null,8,["option"])])):tt("",!0),b("div",vse,[b("div",gse,[b("table",null,[b("tr",null,[mse,_se,yse,bse,tt("",!0),wse]),o.modelBSweep.result?(I(),R("tr",Sse,[Tse,b("td",null,L(o.formatFixed(o.modelBSweep.result.np,3)),1),b("td",null,L(o.modelBSweep.result.n),1),b("td",null,L(o.formatFixed(o.modelBSweep.result.loss.mse,2)),1),tt("",!0),b("td",null,L(o.formatFixed(o.modelBSweep.result.loss.pval,4)),1)])):tt("",!0),b("tr",null,[Pse,b("td",null,L(o.formatFixed(e.selected_np,3)),1),b("td",null,L(e.selected_n),1),b("td",null,L(o.formatFixed(o.modelB.loss.mse,2)),1),tt("",!0),b("td",null,L(o.formatFixed(o.modelB.loss.pval,4)),1)])]),b("p",null,[Ese,b("input",{type:"range",onInput:t[0]||(t[0]=s=>o.applySelectedNp(Number(s.target.value))),value:e.selected_np,min:r.stats.min,max:e.sweep_hi*1.5,step:.01,class:"vmid"},null,40,kse),Ase,b("input",{type:"range",onInput:t[1]||(t[1]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:1,max:200,step:1,class:"vmid"},null,40,Cse)])]),Mse])]),o.modelB.bell?(I(),R("div",xse,[b("div",Lse,[Ct(a,{option:o.makeChartBHist},null,8,["option"])]),b("div",null,[z(" Bin 0 has 1-\u03BB \u2248 "+L(o.formatFixed(r.stats.unlucky.len))+" samples removed, "+L(o.formatFixed(o.histogramLuckOnly.arr[0][1]))+" remaining",1),Ise,z(" Depending on actual \u03BB could potentially be "+L(o.formatFixed(o.histogramLuckOnly.err[0][1]))+"\u2026"+L(o.formatFixed(o.histogramLuckOnly.err[0][2]))+" remaining ",1),o.npRangeForBinary?(I(),R("p",Ose,[Rse,Dse,z(": "+L(o.formatFixed(o.npRangeForBinary.min,3))+"\u2026"+L(o.formatFixed(o.npRangeForBinary.max,3)),1)])):tt("",!0)])])):(I(),R("div",Nse," bad parameters ")),Fse]),b("div",null,[Bse,o.npRangeForBinary?(I(),R("p",$se,Use)):(I(),R(j,{key:1},[Gse,Wse],64))])],64)):tt("",!0)],64)}const Hse=Ne(lse,[["render",jse],["__scopeId","data-v-7790bb48"]]);Xr([yf,y_,$0,z0,Sf,wf,Tf,V0,S_,w_,b_,U0]);class Xse{constructor(){this.data={},this.xmin=999,this.xmax=-999,this.ymin=999,this.ymax=-999}put(t,r,n){this.data.hasOwnProperty(t)||(this.data[t]={}),this.data[t][r]=n,this.xmin=Math.min(this.xmin,r/1e4),this.xmax=Math.max(this.xmax,r/1e4),this.ymin=Math.min(this.ymin,t/1e4),this.ymax=Math.max(this.ymax,t/1e4)}get(t,r){return!this.data.hasOwnProperty(t)||!this.data[t].hasOwnProperty(r)?null:this.data[t][r]}aslist(){let t=[];for(let[r,n]of Object.entries(this.data).sort((i,o)=>i[0]-o[0]))for(let[i,o]of Object.entries(n).sort((a,s)=>a[0]-s[0]))t.push([r/1e4,i/1e4,o.n,o.loss.mse,o.loss.chisq,o.loss.pval]);return t}}const Yse={data:()=>({selected_npL:1,selected_npU:1,selected_n:10,isGiant_lucky:!1,forceMSE:!1,bestPval:0}),props:{stats:Object,histogram:Object,isGiant:Boolean},components:{VChart:Pf},methods:{isGoodVal:Ei,formatFixed:Ft,formatKMG:wP,makeBinomialArray:PA,makeBinomialArraysForGiant:Pae,sumDistributions:Eae,loss:EA,applyGiantBonus:eW,ul2u(e,t,r){return r/(1-t)-t*e/(1-t)},l2u(e,t,r){return r-t*e},findPsStep(e,t,r,n,i){let a={il:0,iu:0,model:i};for(let s=-30;s<=30;s++)for(let l=-30;l<=30;l++){const u=t+l*n,c=r+s*n;if(u<0||c<0)continue;const f=this.isGiant?this.sweepRange.u_hi:this.l2u(c/1e4,this.stats.lucky.shareLo,this.sweepRange.u_hi);if(u/1e4>f)continue;const h=this.l2u(c/1e4,this.stats.lucky.shareHi,this.sweepRange.u_lo);if(u/1e4<h)continue;let d=e.get(u,c);d===null&&(d=this.makemodelC(c/1e4,void 0,u/1e4,void 0),this.bestPval=Math.max(this.bestPval,d.loss.pval),e.put(u,c,d)),d.loss.mse<a.model.loss.mse&&(a={il:s,iu:l,model:d})}return a},findPsRound(e,t,r,n,i,o){for(;t<=150;){let a=this.findPsStep(e,r,n,o,i);if(a.il==0&&a.iu==0)return console.log("no improvement on round",t),{round:t,curU:r,curL:n,model:a.model};if(r+=a.iu*o,n+=a.il*o,n/1e4>this.stats.max)return{round:t,curU:r,curL:n,model:a.model};t++}return{round:t,curU:r,curL:n,model:i}},makemodelC(e,t,r){let n=[t];t===void 0&&(n=[10,20,40,120],n=n.filter(o=>o>=e&&o>=r&&o>=this.stats.max));let i={n:void 0,loss:{mse:void 0,chisq:void 0,pval:void 0}};return this.stats.unlucky.len==0||(n.forEach(o=>{const a={npL:e,n:o,npU:r};if(this.isGiant){const l=this.makeBinomialArraysForGiant(r,this.stats.unlucky.len,e,this.stats.lucky.len,o,this.isGiant_lucky);a.bellU=l.bellU,a.bellL=l.bellL,a.bell=this.sumDistributions(a.bellL,a.bellU)}else a.bellU=this.makeBinomialArray(r,this.stats.unlucky.len,o),a.bellL=this.makeBinomialArray(r+e,this.stats.lucky.len,o),a.bell=this.sumDistributions(a.bellL,a.bellU);a.loss=this.loss(a.bell,this.histogram.map,3),Ei(a.loss.mse)&&(!Ei(i.loss.mse)||a.loss.mse<i.loss.mse)&&(i=a)}),i||console.log("makemodelC failed",e,r,t)),i},applySelectedNpL(e){e<0||(e>this.selected_nL&&(this.selected_nL=Math.ceil(e)),e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_npL=e)},applySelectedNpU(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_npU=e)},applySelectedNL(e){e<0||(e<this.selected_npL&&(this.selected_npL=e),this.selected_nL=e)},applySelectedNU(e){e<0||(e<this.selected_npU&&(this.selected_npU=e),this.selected_nU=e)},applySelectedN(e){e<0||(e<this.selected_npL&&(this.selected_npL=e),e<this.selected_npU&&(this.selected_npU=e),this.selected_n=e)},meanOfDistribution(e){let t=0,r=0;for(let[n,i]of e)t+=i,r+=n*i;return r/t}},computed:{modelC(){const e=this.makemodelC(this.selected_npL,this.selected_n,this.selected_npU);return console.log("modelC",e),e},sweepRange(){const e={u_lo:Math.max(0,this.stats.meanLo),u_init:this.stats.mean,u_hi:this.stats.meanHi,l_init:0};if(this.isGiant){const t=this.makeBinomialArray(e.u_init,this.stats.unlucky.len,100,!1),r=this.meanOfDistribution(t),n=this.makeBinomialArray(e.u_init,this.stats.unlucky.len,100,!0),o=this.meanOfDistribution(n)/r;console.log("init giant bonus",o),e.u_lo/=o,e.u_init/=o,e.u_hi/=o}return e},modelCSweep(){if(isNaN(this.stats.mean))return!1;this.bestPval=0;let e=1;const t=this.sweepRange.u_hi-this.sweepRange.u_lo;let r=1e4;t<3&&(r=5e3),t<1.5&&(r=2500),t<.6&&(r=1e3),t<.3&&(r=500),t<.12&&(r=200),t<.06&&(r=100),t<.03&&(r=50);let n=Math.round(this.sweepRange.u_init*1e4/r)*r,i=Math.round(this.sweepRange.l_init*1e4/r)*r;n<0&&(n=0),i<0&&(i=0);let o=this.makemodelC(i/1e4,void 0,n/1e4,void 0);this.stats.psGridPath=[[0,n/1e4,i/1e4,o.loss.chisq]];let a=new Xse;a.put(n,i,o),{round:e,curU:n,curL:i,model:o}=this.findPsRound(a,e,n,i,o,r);const s=a.aslist();return this.selected_npL=o.npL,this.selected_npU=o.npU,this.selected_n=o.n,console.log("modelCSweep",o,this.stats.lucky.mean),{result:o,psGridDotsMap:a,psGridDots:s}},makeChartCHist(){return{legend:{},tooltip:{trigger:"axis",valueFormatter:t=>Ft(t,0)},dataset:[{source:this.histogram.arr},{source:this.modelC.bell},{source:this.modelC.bellL},{source:this.modelC.bellU}],xAxis:{min:this.stats.min==0?-1:null,max:this.stats.max<5?this.stats.max+1:null},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:30,right:10,bottom:20},series:[{name:"observed",type:"bar",encode:{x:0,y:1},tooltip:{trigger:"axis",valueFormatter:t=>Ft(t,0)}},{name:"model \u03A3",type:"line",datasetIndex:1,encode:{x:0,y:1},showSymbol:!1},{name:"model U",type:"line",datasetIndex:3,encode:{x:0,y:1},showSymbol:!1},{name:"model L",type:"line",datasetIndex:2,encode:{x:0,y:1},showSymbol:!1}]}},makeChartCGrid(){const e=2.272727272727273;let{xmin:t,xmax:r,ymin:n,ymax:i}=this.modelCSweep.psGridDotsMap;const o=(t+r)/2,a=(n+i)/2;let s=.2;this.stats.mean<2&&(s=.05);const l=1.2*(this.modelCSweep.psGridDotsMap.xmax-this.modelCSweep.psGridDotsMap.xmin)+s,u=1.2*(this.modelCSweep.psGridDotsMap.ymax-this.modelCSweep.psGridDotsMap.ymin)+s;if(l/u>e){const m=l,_=l/e;t=o-m/2,r=o+m/2,n=a-_/2,i=a+_/2}else{const m=u*e,_=u;t=o-m/2,r=o+m/2,n=a-_/2,i=a+_/2}const f={xmin:t,xmax:r,ymin:n,ymax:i},h=this.forceMSE||isNaN(this.modelCSweep.result.loss.pval);let d=h?["#282","#2c2","#cc2","#ccc"]:["#ccc","#cc2","#2c2","#282"];const p={inRange:{color:d},calculable:!0,precision:h?0:2,controller:{inRange:{color:d}},orient:"vertical",top:"center",right:10,align:"left",padding:0};let v=h?{min:this.modelCSweep.result.loss.mse,max:this.modelCSweep.result.loss.mse*2,dimension:3,text:["MSE",""]}:{min:0,max:this.bestPval,dimension:5,text:["p-val",""]};return{legend:{},tooltip:{trigger:"item",axisPointer:{type:"cross"},formatter:function(m){const _=m.data;return`np\u1D41=${Ft(_[0],2)}<br/>np\u1D38=${Ft(_[1],2)}<br/>n=${Ft(_[2],2)}<br/>MSE=${_[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${Ft(_[5],2)}<br/>`}},title:{},dataset:[{source:this.modelCSweep.psGridDots}],xAxis:{name:"np\u1D38",nameGap:5,min:f.xmin,max:f.xmax,axisLabel:{showMinLabel:!1,showMaxLabel:!1},axisLine:{onZero:!1}},yAxis:{name:"np\u1D41",nameGap:5,min:f.ymin,max:f.ymax,axisLabel:{showMinLabel:!1,showMaxLabel:!1},axisLine:{onZero:!1}},grid:{left:35,top:30,right:40,bottom:20},series:[{type:"scatter",encode:{x:1,y:0,tooltip:[1,0,3]},tooltip:{valueFormatter:m=>`${m[1]} \u2192 ${Ft(m[2],4)}`},symbolSize:6,markArea:{silent:!0,data:[[{name:`M\xB1${this.stats.generalSigmas}\u03C3`,coord:[this.sweepRange.u_lo-this.sweepRange.u_init,this.sweepRange.u_lo]},{coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.sweepRange.u_hi]}]],label:{show:!0,position:"left"},itemStyle:{color:"rgba(0, 0, 200, 0)",borderWidth:1,borderType:"dashed"}},markLine:{silent:!0,symbol:"none",data:[this.isGiant?[{name:"low \u03BB, high M",label:{position:"insideMiddleTop"},coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]}]:[{name:"low \u03BB, high M",label:{position:"insideMiddleTop"},coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.modelCSweep.psGridDotsMap.xmax,this.stats.lucky.shareLo,this.sweepRange.u_hi)]}],[{name:"high \u03BB, low M",label:{position:"insideMiddleBottom"},coord:[this.sweepRange.u_lo-this.sweepRange.u_init,this.l2u(this.sweepRange.u_lo-this.sweepRange.u_init,this.stats.lucky.shareHi,this.sweepRange.u_lo)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.modelCSweep.psGridDotsMap.xmax,this.stats.lucky.shareHi,this.sweepRange.u_lo)]}]]}}],visualMap:{...p,...v}}}}},wn=e=>(gr("data-v-b8ef0950"),e=e(),mr(),e),qse=wn(()=>b("span",{class:"title"},"Model C",-1)),Zse=z(": some points were taken from a distribution L, and the rest from distribution U,"),Kse=wn(()=>b("br",null,null,-1)),Jse=wn(()=>b("br",null,null,-1)),Qse=z(" with giant bonus on Unlucky"),tle=z(" with giant bonus on Lucky"),ele={style:{float:"left"}},rle={key:0,style:{width:"570px",height:"270px"}},nle={style:{padding:"1em"}},ile={style:{float:"left"}},ole=wn(()=>b("tr",null,[b("th"),b("th",null,"np\u1D41"),b("th",null,"np\u1D38"),b("th",null,"n"),b("th",null,"MSE"),b("th",null,"p-val")],-1)),ale=wn(()=>b("td",null,"Best fit:",-1)),sle=wn(()=>b("td",null,"Manual:",-1)),lle=["value","min","max","step"],ule=z(" np\u1D41 "),cle=wn(()=>b("br",null,null,-1)),fle=["value","max","step"],hle=z(" np\u1D38 "),dle=wn(()=>b("br",null,null,-1)),ple=["value"],vle=z(" n "),gle=wn(()=>b("div",{style:{clear:"both"}},null,-1)),mle={key:0,id:"chartHisto",style:{float:"left"}},_le=wn(()=>b("div",{style:{clear:"both"}},null,-1)),yle=wn(()=>b("br",null,null,-1)),ble=wn(()=>b("p",{class:"fsxs"},[z("MSE: "),b("i",null,"\u03A3 (observed - model)\xB2"),z(", discard nothing \u2190 this is used for fitting")],-1)),wle=wn(()=>b("p",{class:"fsxs"},[z("\u03C7\xB2: discard bins where model < 3, then "),b("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),Sle=wn(()=>b("p",{class:"fsxs"},[z("p-val: "),b("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function Tle(e,t,r,n,i,o){const a=he("v-chart");return I(),R(j,null,[qse,b("span",null,[Zse,Kse,z(" so (1 - \u03BB) np\u1D41 + \u03BB (np\u1D41 + np\u1D38) = M, where \u03BB \u2208 "+L(o.formatFixed(r.stats.lucky.shareLo*100,2))+"\u2026"+L(o.formatFixed(r.stats.lucky.shareHi*100,2))+"% and M \u2208 "+L(o.formatFixed(r.stats.mean-1.96*r.stats.meanErr,2))+"\u2026"+L(o.formatFixed(r.stats.mean+1.96*r.stats.meanErr,2)),1)]),Jse,b("p",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=s=>r.isGiant=s)},null,512),[[sr,r.isGiant]]),Qse]),b("p",null,[vt(b("input",{type:"checkbox","onUpdate:modelValue":t[1]||(t[1]=s=>e.isGiant_lucky=s)},null,512),[[sr,e.isGiant_lucky]]),tle]),b("div",ele,[o.modelCSweep?(I(),R("div",rle,[Ct(a,{option:o.makeChartCGrid},null,8,["option"])])):tt("",!0),b("div",nle,[b("div",ile,[b("table",null,[ole,o.modelCSweep.result?(I(),R("tr",{key:0,class:rn({strike:r.stats.dBad})},[ale,b("td",null,L(o.formatFixed(o.modelCSweep.result.npU,2)),1),b("td",null,L(o.formatFixed(o.modelCSweep.result.npL,2)),1),b("td",null,L(o.modelCSweep.result.n),1),b("td",null,L(o.formatFixed(o.modelCSweep.result.loss.mse,2)),1),b("td",null,L(o.formatFixed(o.modelCSweep.result.loss.pval,4)),1)],2)):tt("",!0),b("tr",null,[sle,b("td",null,L(o.formatFixed(e.selected_npU,2)),1),b("td",null,L(o.formatFixed(e.selected_npL,2)),1),b("td",null,L(e.selected_n),1),b("td",null,L(o.formatFixed(o.modelC.loss.mse,2)),1),b("td",null,L(o.formatFixed(o.modelC.loss.pval,4)),1)])]),b("p",null,[b("input",{type:"range",onInput:t[2]||(t[2]=s=>o.applySelectedNpU(Number(s.target.value))),value:e.selected_npU,min:r.stats.min,max:r.stats.max,step:.01,class:"vmid"},null,40,lle),ule,cle,b("input",{type:"range",onInput:t[3]||(t[3]=s=>o.applySelectedNpL(Number(s.target.value))),value:e.selected_npL,min:0,max:r.stats.max,step:.01,class:"vmid"},null,40,fle),hle,dle,b("input",{type:"range",onInput:t[4]||(t[4]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:1,max:200,step:1,class:"vmid"},null,40,ple),vle])]),gle])]),o.modelC.bell?(I(),R("div",mle,[Ct(a,{option:o.makeChartCHist},null,8,["option"])])):tt("",!0),_le,yle,ble,wle,Sle],64)}const Ple=Ne(Yse,[["render",Tle],["__scopeId","data-v-b8ef0950"]]);Xr([yf,y_,$0,z0,Sf,wf,Tf,V0,S_,w_,b_,U0]);const Ele={setup(){const e=Et(),t=PY(),r=localStorage.getItem("droprates");return t.$patch(JSON.parse(r)),t.$subscribe((n,i)=>{localStorage.setItem("droprates",JSON.stringify(i))}),{gameStore:e,dropratesStore:t}},components:{VChart:Pf,DRMA:sse,DRMB:Hse,DRMC:Ple},provide(){return{[mft]:Ye(()=>this.darkMode?"dark":"default")}},data(){const e=matchMedia("(prefers-color-scheme: dark)");return{alldata:{},generalSigmas:2,hide_buckets:{},darkModeQuery:e,darkMode:e.matches}},created(){this.fetchObservations()},mounted(){this.darkModeQuery.addEventListener("change",()=>{this.darkMode=this.darkModeQuery.matches})},watch:{},computed:{currentDataset(){const e={};if(this.dropratesStore.selected_pzk in this.alldata){const t=this.alldata[this.dropratesStore.selected_pzk];if(this.dropratesStore.selected_ik in t){const r=t[this.dropratesStore.selected_ik];if(this.dropratesStore.selected_specie in r){const n=r[this.dropratesStore.selected_specie];for(let[i,o]of Object.entries(n).sort((a,s)=>a[0]-s[0]))e[i]=o}}}return e},weightedDataset(){let e={};for(let[t,r]of Object.entries(this.currentDataset)){if(this.hide_buckets[t])continue;const n=r.length;let i=[];for(let o=0;o<n;o++){const a=ht.binomial.cdf(o,n,1-t/100);i.push(a)}e[t]={len:n,luckyLen:n*t/100,sorted:[...r].sort((o,a)=>o-a),weights:i}}return e},stats(){const e=this.currentDataset;let t=0,r=0;for(const[v,g]of Object.entries(e))t+=e[v].length,r+=e[v].length;const n=this.weightedDataset;for(let[v,g]of Object.entries(n))for(let m of g.weights)m>this.stats.generalConfidence/100,m>1-this.stats.generalConfidence/100;let i=[],o=[],a=0,s=100,l=0;for(const[v,g]of Object.entries(n)){s=Math.min(s,v),l=Math.max(l,v);let{len:m,luckyLen:_,sorted:y,weights:w}=g;a+=_,i.push(...y),o.push(...w)}const u={1.5:86.6385597,2:95.4499736,2.5:98.7580669,3:99.7300203,3.5:99.9534741841929,4:99.9936657516334},c={generalSigmas:this.generalSigmas,generalConfidence:u[this.generalSigmas],lenRaw:t,dataRaw:e,dataByLuck:n,minLuck:s,maxLuck:l,dataFlatSorted:i,weightsFlat:o,len:i.length,min:ht.min(i),max:ht.max(i),range:ht.range(i),sum:ht.sum(i),mean:ht.mean(i),meanErr:0,meanLo:0,meanHi:0,std:ht.stdev(i,!0),bell:[],histo:[]};if(c.meanErr=Math.sqrt(c.mean/c.max*(1-c.mean/c.max)*c.max/c.len),c.meanLo=c.mean-this.generalSigmas*c.meanErr,c.meanHi=c.mean+this.generalSigmas*c.meanErr,c.lucky={len:a,share:a/c.len,mean:0,std:0,lenHi:0,lenLo:0,shareHi:0,shareLo:0},isNaN(c.lucky.share))c.lucky.shareLo=NaN,c.lucky.shareHi=NaN,c.lucky.lenLo=NaN,c.lucky.lenHi=NaN;else{console.log("binomTest of lucky share%=",c.lucky.share,"with significance=",1-c.generalConfidence/100);const v=this.binomialTest(Math.round(c.lucky.len),c.len,{p:c.lucky.share,alpha:1-c.generalConfidence/100});c.lucky.shareLo=v.ci[0],c.lucky.shareHi=v.ci[1],c.lucky.lenLo=v.ci[0]*c.len,c.lucky.lenHi=v.ci[1]*c.len}c.unlucky={len:c.len-a,share:1-c.lucky.share,mean:0,std:0};let f=0,h=0;for(const[v,g]of Object.entries(n)){let{len:m,luckyLen:_,luckeyLen95:y,sorted:w,weights:T}=g;for(let S=0;S<m;S++){const P=w[S],A=T[S];f+=P*(1-A),h+=P*A}}c.unlucky.mean=f/c.unlucky.len,c.lucky.mean=h/c.lucky.len;let d=0,p=0;for(const[v,g]of Object.entries(n)){let{len:m,sorted:_,weights:y}=g;for(let w=0;w<m;w++){const T=y[w],S=_[w]-c.unlucky.mean;d+=S*S*(1-T);const P=_[w]-c.lucky.mean;p+=P*P*T}}return c.unlucky.std=Math.sqrt(d/c.unlucky.len),c.lucky.std=Math.sqrt(p/c.lucky.len),console.log("stats",c),c},histogram(){const e={arr:[],map:{}};if(this.stats.range>0){let t=[1];t=ht.histogram(this.stats.dataFlatSorted,this.stats.range+1);const n=Array.from(Array(this.stats.range+1).keys()).map(i=>[this.stats.min+i,t[i]]);e.arr=n;for(let i=0;i<t.length;i++)e.map[this.stats.min+i]=t[i]}else e.arr=[[this.stats.min,this.stats.len]],e.map[this.stats.min]=this.stats.len;return console.log("histogram",e),e}},methods:{formatFixed:Ft,makeIconSrc:li,binomialTest:hA,async fetchObservations(){const e=Date.now();this.alldata=await(await fetch("data/manual/yields_observed.json")).json();const t=this.dropratesStore.selected_pzk;this.dropratesStore.selected_pzk=t&&this.alldata[t]?t:Object.keys(this.alldata)[0];const r=this.dropratesStore.selected_ik;this.dropratesStore.selected_ik=r&&this.alldata[t][r]?r:Object.keys(this.alldata[t])[0];const n=this.dropratesStore.selected_specie;this.dropratesStore.selected_specie=n&&this.alldata[t][r][n]?n:Object.keys(this.alldata[t][r])[0],console.log("fetchObservations took",Date.now()-e,"ms",this.dropratesStore.selected_pzk,this.dropratesStore.selected_ik,this.dropratesStore.selected_specie)},activate(e,t,r){this.dropratesStore.selected_pzk=e,this.dropratesStore.selected_ik=t,this.dropratesStore.selected_specie=r}}},Yi=e=>(gr("data-v-60e89c6f"),e=e(),mr(),e),kle={id:"menu"},Ale={style:{display:"none"}},Cle=Yi(()=>b("p",{class:"fsxs"},"Left: droprate parameters currently used in workerman",-1)),Mle=Yi(()=>b("p",{class:"fsxs"},"Right: observations used to find out current serverside parameters",-1)),xle={key:1},Lle=Yi(()=>b("tr",null,[b("th",{class:"fsxs"},"n"),b("th",{class:"fsxs"},"np\u1D41"),b("th",{class:"fsxs"},"np\u1D38"),b("th",{class:"fsxs"},"item"),b("th",{class:"fsxs"},"normal"),b("th",{class:"fsxs"},"giant")],-1)),Ile={class:"fsxs"},Ole={class:"fsxs"},Rle={class:"fsxs"},Dle=["src"],Nle={class:"center"},Fle=["title","onClick"],Ble=["title"],$le={id:"content"},zle=Yi(()=>b("tr",null,[b("td",null,"mute"),b("td",null,"luck")],-1)),Vle={class:"center"},Ule=["onUpdate:modelValue"],Gle=z(" Possible luck procs observed with "),Wle=$1('<option value="1.5" data-v-60e89c6f>\xB11.5\u03C3</option><option value="2" data-v-60e89c6f>\xB12\u03C3</option><option value="2.5" data-v-60e89c6f>\xB12.5\u03C3</option><option value="3" data-v-60e89c6f>\xB13\u03C3</option><option value="3.5" data-v-60e89c6f>\xB13.5\u03C3</option><option value="4" data-v-60e89c6f>\xB14\u03C3</option>',6),jle=[Wle],Hle=Yi(()=>b("tr",null,[b("th"),b("th",null,"min"),b("th",null,"max")],-1)),Xle=Yi(()=>b("td",null,"count",-1)),Yle=Yi(()=>b("td",null,"% of total",-1)),qle={id:"settings"},Zle=z(" Use model:"),Kle=Yi(()=>b("br",null,null,-1)),Jle=Yi(()=>b("label",{for:"option1"},[z("A. Same item drop regardless of luck (plants, lumber, ores)"),b("br")],-1)),Qle=Yi(()=>b("label",{for:"option2"},[z("B. Item only drops when luck procs (sacks, lumbering rares)"),b("br")],-1)),tue=Yi(()=>b("label",{for:"option3"},[z("C. Different drops when luck procs and when not (eggs, honey)"),b("br")],-1)),eue={key:0,id:"modelA",style:{float:"left"}},rue={key:1},nue={key:2};function iue(e,t,r,n,i,o){const a=he("RouterLink"),s=he("DRMA"),l=he("DRMB"),u=he("DRMC");return I(),R("main",null,[b("div",kle,[b("div",Ale,L(n.dropratesStore.selected_pzk)+" "+L(n.dropratesStore.selected_ik)+" "+L(n.dropratesStore.selected_specie),1),Cle,Mle,(I(!0),R(j,null,Lt(i.alldata,(c,f)=>(I(),R(j,null,[f in n.gameStore.plantzoneStatic?(I(),va(a,{key:0,tag:"a",to:{path:"./",hash:"#node"+f}},{default:Ee(()=>[z(L(f)+" "+L(n.gameStore.plantzoneName(f)),1)]),_:2},1032,["to"])):(I(),R("span",xle,L(f),1)),b("table",null,[Lle,(I(!0),R(j,null,Lt(c,(h,d)=>(I(),R("tr",null,[b("td",Ile,[n.gameStore.ready&&Number(f)in n.gameStore.plantzones?(I(),R(j,{key:0},[z(L(n.gameStore.plantzones[Number(f)].rolls),1)],64)):tt("",!0)]),b("td",Ole,[n.gameStore.ready&&Number(f)in n.gameStore.plantzones&&d in n.gameStore.plantzones[Number(f)].unlucky?(I(),R(j,{key:0},[z(L(n.gameStore.plantzones[Number(f)].unlucky[d]),1)],64)):tt("",!0)]),b("td",Rle,[n.gameStore.ready&&Number(f)in n.gameStore.plantzones&&d in n.gameStore.plantzones[Number(f)].lucky?(I(),R(j,{key:0},[z(L(n.gameStore.plantzones[Number(f)].lucky[d]),1)],64)):tt("",!0)]),b("td",null,[Ct(a,{tag:"a",to:{path:"./settings",hash:"#item"+d}},{default:Ee(()=>[b("span",null,[b("img",{src:o.makeIconSrc(d),class:"iconitem"},null,8,Dle)])]),_:2},1032,["to"]),z(" "+L(n.gameStore.itemName(d)),1)]),(I(),R(j,null,Lt(["normal","giant"],p=>b("td",Nle,[p in h?(I(),R(j,{key:0},[f!=n.dropratesStore.selected_pzk||d!=n.dropratesStore.selected_ik||p!=n.dropratesStore.selected_specie?(I(),R("button",{key:0,title:"item "+d,onClick:v=>o.activate(f,d,p)},L(Object.values(h[p]).flat().length),9,Fle)):(I(),R("button",{key:1,title:"item "+d,class:"pressed"},L(Object.values(h[p]).flat().length),9,Ble))],64)):tt("",!0)])),64))]))),256))])],64))),256))]),b("div",$le,[b("details",null,[b("summary",null,[z("Dataset: size N = "+L(o.stats.len)+", sum "+L(o.stats.sum)+", mean M = "+L(o.formatFixed(o.stats.mean,3))+"\xB1"+L(o.formatFixed(1.96*o.stats.meanErr,3))+", ",1),this.stats.minLuck==this.stats.maxLuck?(I(),R(j,{key:0},[z(L(this.stats.maxLuck),1)],64)):(I(),R(j,{key:1},[z(L(o.formatFixed(this.stats.minLuck,2))+"\u2026"+L(o.formatFixed(this.stats.maxLuck,2)),1)],64)),z("\u{1F340} \u2192 \u03BB \u2208 "+L(o.formatFixed(o.stats.lucky.shareLo*100,2))+"\u2026"+L(o.formatFixed(o.stats.lucky.shareHi*100,2))+"% cycles were lucky ",1)]),b("div",null,[b("table",null,[zle,(I(!0),R(j,null,Lt(o.stats.dataRaw,(c,f)=>(I(),R("tr",{class:rn({strike:i.hide_buckets[f]})},[b("td",Vle,[vt(b("input",{"onUpdate:modelValue":h=>i.hide_buckets[f]=h,type:"checkbox"},null,8,Ule),[[sr,i.hide_buckets[f]]])]),b("td",null,L(f),1),(I(!0),R(j,null,Lt(c,h=>(I(),R("td",null,L(h),1))),256))],2))),256))])]),b("p",null,[Gle,vt(b("select",{"onUpdate:modelValue":t[0]||(t[0]=c=>i.generalSigmas=c)},jle,512),[[dr,i.generalSigmas]]),z(" ("+L(o.formatFixed(o.stats.generalConfidence,2))+"%) confidence: ",1),b("table",null,[Hle,b("tr",null,[Xle,b("td",null,L(o.formatFixed(o.stats.lucky.lenLo,2)),1),b("td",null,L(o.formatFixed(o.stats.lucky.lenHi,2)),1)]),b("tr",null,[Yle,b("td",null,L(o.formatFixed(o.stats.lucky.shareLo*100,2)),1),b("td",null,L(o.formatFixed(o.stats.lucky.shareHi*100,2)),1)])])])]),b("div",qle,[Zle,Kle,vt(b("input",{type:"radio",id:"option1",value:"a","onUpdate:modelValue":t[1]||(t[1]=c=>n.dropratesStore.selected_model=c)},null,512),[[hd,n.dropratesStore.selected_model]]),Jle,vt(b("input",{type:"radio",id:"option2",value:"b","onUpdate:modelValue":t[2]||(t[2]=c=>n.dropratesStore.selected_model=c)},null,512),[[hd,n.dropratesStore.selected_model]]),Qle,vt(b("input",{type:"radio",id:"option3",value:"c","onUpdate:modelValue":t[3]||(t[3]=c=>n.dropratesStore.selected_model=c)},null,512),[[hd,n.dropratesStore.selected_model]]),tue]),n.dropratesStore.selected_model=="a"?(I(),R("div",eue,[Ct(s,{stats:o.stats,histogram:o.histogram,isGiant:n.dropratesStore.selected_specie=="giant"},null,8,["stats","histogram","isGiant"])])):tt("",!0),n.dropratesStore.selected_model=="b"?(I(),R("div",rue,[Ct(l,{stats:o.stats,histogram:o.histogram},null,8,["stats","histogram"])])):tt("",!0),n.dropratesStore.selected_model=="c"?(I(),R("div",nue,[Ct(u,{stats:o.stats,histogram:o.histogram,isGiant:n.dropratesStore.selected_specie=="giant"},null,8,["stats","histogram","isGiant"])])):tt("",!0)])])}const oue=Ne(Ele,[["render",iue],["__scopeId","data-v-60e89c6f"]]),aue=vY({history:IX("/workerman/"),routes:[{path:"/",name:"home",component:QAt},{path:"/plantzones",component:eMt},{path:"/modifiers",component:zMt},{path:"/settings",component:S6t},{path:"/about",component:()=>NY(()=>import("./AboutView.60b6e3e4.js"),[])},{path:"/othertowns",component:C6t},{path:"/workshops",component:W6t},{path:"/housecraft",component:c5t},{path:"/droprates",component:oue},{path:"/lodging",component:dMt}]});const kA=$H(OY),sue=fX();kA.use(sue);kA.use(aue);kA.mount("#app");export{j as F,Ne as _,b as a,z as b,R as c,he as d,va as e,Ct as f,$1 as g,mr as h,I as o,gr as p,Fj as r,L as t,Et as u,Ee as w};
