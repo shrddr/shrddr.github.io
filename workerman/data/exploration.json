@@ -2463,22 +2463,6 @@
     "is_hidden": false,
     "is_plantzone": true
   },
-  "1503": {
-    "key": 1503,
-    "pos": {
-      "x": 361838.0,
-      "y": -6661.19,
-      "z": 36762.0
-    },
-    "kind": 7,
-    "CP": 3,
-    "name": "\ucc44\uad11",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_hidden": false,
-    "is_plantzone": false
-  },
   "172": {
     "key": 172,
     "pos": {
@@ -6671,22 +6655,6 @@
     "is_hidden": false,
     "is_plantzone": false
   },
-  "1898": {
-    "key": 1898,
-    "pos": {
-      "x": -2035.58,
-      "y": -8023.26,
-      "z": 87118.1
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "\ubca8\ub9ac\uc544 \ub9c8\uc744 \ud574\ubcc0",
-    "is_main": 1,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_hidden": false,
-    "is_plantzone": false
-  },
   "717": {
     "key": 717,
     "pos": {
@@ -7262,22 +7230,6 @@
     "is_planttown": false,
     "is_hidden": false,
     "is_plantzone": true
-  },
-  "850": {
-    "key": 850,
-    "pos": {
-      "x": -130501.0,
-      "y": 8565.38,
-      "z": 26172.7
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "\uce74\ub780\ub2e4 \ub2a5\uc120",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_hidden": false,
-    "is_plantzone": false
   },
   "1059": {
     "key": 1059,
