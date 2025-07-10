@@ -575,22 +575,6 @@
     "is_hidden": false,
     "is_plantzone": true
   },
-  "1839": {
-    "key": 1839,
-    "pos": {
-      "x": 40373.9,
-      "y": -4398.22,
-      "z": 83345.7
-    },
-    "kind": 15,
-    "CP": 1,
-    "name": "UnKnown",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_hidden": false,
-    "is_plantzone": false
-  },
   "1521": {
     "key": 1521,
     "pos": {
@@ -4431,22 +4415,6 @@
     "is_hidden": false,
     "is_plantzone": false
   },
-  "479": {
-    "key": 479,
-    "pos": {
-      "x": 31255.3,
-      "y": 151.445,
-      "z": -114905.0
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "\ucc44\uc9d1",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_hidden": false,
-    "is_plantzone": false
-  },
   "1196": {
     "key": 1196,
     "pos": {
@@ -5231,6 +5199,22 @@
     "is_hidden": false,
     "is_plantzone": false
   },
+  "2005": {
+    "key": 2005,
+    "pos": {
+      "x": 660033.0,
+      "y": 1903.85,
+      "z": 686017.0
+    },
+    "kind": 3,
+    "CP": 0,
+    "name": "UnKnown",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
   "626": {
     "key": 626,
     "pos": {
@@ -5417,6 +5401,22 @@
     "kind": 3,
     "CP": 2,
     "name": "\ubc14\ub974\ud55c \uad00\ubb38",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "2003": {
+    "key": 2003,
+    "pos": {
+      "x": 669867.0,
+      "y": -2107.45,
+      "z": 489054.0
+    },
+    "kind": 3,
+    "CP": 0,
+    "name": "UnKnown",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8089,6 +8089,22 @@
     "kind": 0,
     "CP": 2,
     "name": "\ucfe0\uc774\ud2b8 \uc81c\ub3c4",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "2004": {
+    "key": 2004,
+    "pos": {
+      "x": 724214.0,
+      "y": 13251.0,
+      "z": 620527.0
+    },
+    "kind": 3,
+    "CP": 0,
+    "name": "UnKnown",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -14910,5 +14926,53 @@
     "is_planttown": false,
     "is_hidden": false,
     "is_plantzone": true
+  },
+  "2001": {
+    "key": 2001,
+    "pos": {
+      "x": 539393.0,
+      "y": 128.498,
+      "z": 477532.0
+    },
+    "kind": 2,
+    "CP": 0,
+    "name": "UnKnown",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": true,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "2002": {
+    "key": 2002,
+    "pos": {
+      "x": 559045.0,
+      "y": 9009.83,
+      "z": 582633.0
+    },
+    "kind": 3,
+    "CP": 0,
+    "name": "UnKnown",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "2006": {
+    "key": 2006,
+    "pos": {
+      "x": 528803.0,
+      "y": -2287.66,
+      "z": 722950.0
+    },
+    "kind": 3,
+    "CP": 0,
+    "name": "UnKnown",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
   }
 }
