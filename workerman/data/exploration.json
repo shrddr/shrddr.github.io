@@ -8015,22 +8015,6 @@
     "is_hidden": false,
     "is_plantzone": false
   },
-  "955": {
-    "key": 955,
-    "pos": {
-      "x": -150588.0,
-      "y": -1374.32,
-      "z": -190895.0
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "\ud3d0\ucc44\uad74\uc7a5",
-    "is_main": 0,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_hidden": false,
-    "is_plantzone": false
-  },
   "1073": {
     "key": 1073,
     "pos": {
