@@ -184,7 +184,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubb35\ube5b \uc11c\uc7a5",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -434,15 +434,15 @@
   "2008": {
     "key": 2008,
     "pos": {
-      "x": 514468.0,
-      "y": -7999.38,
-      "z": 426840.0
+      "x": 521556.0,
+      "y": -3951.97,
+      "z": 429050.0
     },
-    "kind": 0,
+    "kind": 1,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc794\ud574\uc758 \ud574\uc548",
     "is_main": 1,
-    "has_lodging": false,
+    "has_lodging": true,
     "is_planttown": false,
     "is_hidden": false,
     "is_plantzone": false
@@ -728,7 +728,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uace0\ub300\uc778\uc758 \uc720\uc801",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -834,13 +834,13 @@
   "2020": {
     "key": 2020,
     "pos": {
-      "x": 541123.0,
-      "y": 2405.19,
-      "z": 643466.0
+      "x": 535473.0,
+      "y": -42.6152,
+      "z": 640075.0
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uae30\uc6b8\uc5b4\uc9c4 \uc6d0\ud658",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -1000,7 +1000,7 @@
     },
     "kind": 1,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc131\uc804 \ud574\uc548 \uc815\ucc30\uc9c0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -1032,12 +1032,12 @@
     },
     "kind": 7,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ucc44\uad11",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "105": {
     "key": 105,
@@ -1192,7 +1192,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc2e0\uc559\uc758 \uc720\ud0dd",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -1944,7 +1944,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ud478\ub978 \uc804\uc57c",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -2152,12 +2152,12 @@
     },
     "kind": 7,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ucc44\uad11",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "103": {
     "key": 103,
@@ -2248,12 +2248,12 @@
     },
     "kind": 7,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ucc44\uad11",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "104": {
     "key": 104,
@@ -3320,7 +3320,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc5d0\uc2a4\uce74\ub974 \uc0b0\ub9e5",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -4888,12 +4888,12 @@
     },
     "kind": 8,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubc8c\ubaa9",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "608": {
     "key": 608,
@@ -5400,7 +5400,7 @@
     },
     "kind": 3,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ud14c\ub124\ube0c\ub77c\uc6c0 \uc131",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -5496,7 +5496,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubb3c\ub108\uc6b8 \ud611\uace1",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -5558,11 +5558,11 @@
       "y": 5236.74,
       "z": 551989.0
     },
-    "kind": 0,
+    "kind": 1,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc544\uc54c\uc758 \uacc4\uc2dc",
     "is_main": 1,
-    "has_lodging": false,
+    "has_lodging": true,
     "is_planttown": false,
     "is_hidden": false,
     "is_plantzone": false
@@ -5640,7 +5640,7 @@
     },
     "kind": 3,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc624\ub974\ube44\ud0c0 \uc131",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -5688,7 +5688,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ub9ac\ud1a0\ubc18 \uc0b0\ub9e5",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -5784,7 +5784,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc608\uc5b8\uc758 \ucd08\ud1a0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -5832,7 +5832,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc18d\uc0ad\uc774\ub294 \uc5b8\ub355",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -7848,7 +7848,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uac10\ucdb0\uc9c4 \uae30\ub85d",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8168,7 +8168,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uace0\uacb0\ub41c \uc5f0\ubbfc",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8216,7 +8216,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ub974\ub9c8\ub098\ub808 \uc0b0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8402,13 +8402,13 @@
   "2004": {
     "key": 2004,
     "pos": {
-      "x": 713363.0,
-      "y": 13251.0,
-      "z": 604212.0
+      "x": 715103.0,
+      "y": 8379.66,
+      "z": 608353.0
     },
     "kind": 3,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc81c\ud53c\ub85c\uc2a4 \uc131",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8488,7 +8488,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc6b0\ub974\ub098\uc2a4 \uc0b0\ub9e5",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8872,7 +8872,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ub300\uc801\uc810",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8936,12 +8936,12 @@
     },
     "kind": 7,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ucc44\uad11",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "1097": {
     "key": 1097,
@@ -9000,12 +9000,12 @@
     },
     "kind": 8,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubc8c\ubaa9",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "1101": {
     "key": 1101,
@@ -12735,22 +12735,6 @@
     "is_hidden": false,
     "is_plantzone": false
   },
-  "1651": {
-    "key": 1651,
-    "pos": {
-      "x": -16560.0,
-      "y": 38058.1,
-      "z": -427503.0
-    },
-    "kind": 0,
-    "CP": 1,
-    "name": "\ub4dc\ubca4\ud06c\ub8ec",
-    "is_main": 1,
-    "has_lodging": false,
-    "is_planttown": false,
-    "is_hidden": false,
-    "is_plantzone": false
-  },
   "1652": {
     "key": 1652,
     "pos": {
@@ -14872,12 +14856,12 @@
     },
     "kind": 11,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc0dd\uc120 \uac74\uc870\uc7a5",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "1866": {
     "key": 1866,
@@ -15320,7 +15304,7 @@
     },
     "kind": 2,
     "CP": 0,
-    "name": "UnKnown",
+    "name": "\ud558\ud0a8\uc790 \uc131\uc804",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": true,
@@ -15336,7 +15320,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ub124\ud504\ud0c0\ud06c \uc804\ucd08\uc9c0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15346,13 +15330,13 @@
   "2002": {
     "key": 2002,
     "pos": {
-      "x": 567815.0,
-      "y": 9009.83,
-      "z": 569175.0
+      "x": 566128.0,
+      "y": 8416.28,
+      "z": 570954.0
     },
     "kind": 3,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc544\uc5d0\ud14c\ub9ac\uc628 \uc131",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15368,7 +15352,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ub099\ub9dd\uc758 \uc548\ubcbd",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15378,13 +15362,13 @@
   "2019": {
     "key": 2019,
     "pos": {
-      "x": 623322.0,
-      "y": 18416.4,
-      "z": 586073.0
+      "x": 640037.0,
+      "y": 13019.9,
+      "z": 576505.0
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc720\ud398\ud0c0\ub974 \uc0b0\ub9e5",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15394,13 +15378,13 @@
   "2015": {
     "key": 2015,
     "pos": {
-      "x": 575683.0,
-      "y": 6733.42,
-      "z": 545270.0
+      "x": 604402.0,
+      "y": 9626.7,
+      "z": 552946.0
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc0ac\ud14c\ub974\ub098 \uc0b0\ub9e5",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15416,7 +15400,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ub300\ubc31\uc810",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15432,7 +15416,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubd88\uc0ac\uc758 \uc815\uc6d0",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15448,7 +15432,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ud56d\uac70\uc758 \uae30\ub85c",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15464,7 +15448,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uc7ac\uc559\uc774 \uace0\uc778 \ubabb",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15480,7 +15464,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubd80\ub974\uc9d6\ub294 \uc81c\ub2e8",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15496,7 +15480,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ud50c\ub77c\ud14c\ub974 \uc0b0\ub9e5",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15512,7 +15496,7 @@
     },
     "kind": 3,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ub2d8\ud30c\ub9c8\ub808 \uc131",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15528,7 +15512,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\uace0\uc694\ud55c \uc0b0\ud638\uc232",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15544,7 +15528,7 @@
     },
     "kind": 0,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ub300\ud751\uc810",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -15560,12 +15544,12 @@
     },
     "kind": 8,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubc8c\ubaa9",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "2038": {
     "key": 2038,
@@ -15576,12 +15560,12 @@
     },
     "kind": 7,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ucc44\uad11",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "2039": {
     "key": 2039,
@@ -15592,12 +15576,12 @@
     },
     "kind": 15,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubc1c\uad74",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "2041": {
     "key": 2041,
@@ -15608,12 +15592,12 @@
     },
     "kind": 8,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubc8c\ubaa9",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "2042": {
     "key": 2042,
@@ -15624,12 +15608,12 @@
     },
     "kind": 8,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubc8c\ubaa9",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "2045": {
     "key": 2045,
@@ -15640,12 +15624,12 @@
     },
     "kind": 7,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ucc44\uad11",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "2047": {
     "key": 2047,
@@ -15656,12 +15640,12 @@
     },
     "kind": 15,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubc1c\uad74",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   },
   "2050": {
     "key": 2050,
@@ -15672,11 +15656,11 @@
     },
     "kind": 8,
     "CP": 1,
-    "name": "UnKnown",
+    "name": "\ubc8c\ubaa9",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
     "is_hidden": false,
-    "is_plantzone": false
+    "is_plantzone": true
   }
 }
