@@ -1,0 +1,1802 @@
+{
+  "8201": {
+    "key": 8201,
+    "itemkey": 1,
+    "baseSize": 7.0,
+    "varySize": 9.0
+  },
+  "8202": {
+    "key": 8202,
+    "itemkey": 2,
+    "baseSize": 40.0,
+    "varySize": 169.0
+  },
+  "8203": {
+    "key": 8203,
+    "itemkey": 3,
+    "baseSize": 30.0,
+    "varySize": 63.0
+  },
+  "8204": {
+    "key": 8204,
+    "itemkey": 4,
+    "baseSize": 35.0,
+    "varySize": 30.0
+  },
+  "8205": {
+    "key": 8205,
+    "itemkey": 5,
+    "baseSize": 50.0,
+    "varySize": 48.0
+  },
+  "8206": {
+    "key": 8206,
+    "itemkey": 6,
+    "baseSize": 25.0,
+    "varySize": 63.0
+  },
+  "8207": {
+    "key": 8207,
+    "itemkey": 7,
+    "baseSize": 40.0,
+    "varySize": 30.0
+  },
+  "8208": {
+    "key": 8208,
+    "itemkey": 8,
+    "baseSize": 17.0,
+    "varySize": 15.0
+  },
+  "8209": {
+    "key": 8209,
+    "itemkey": 9,
+    "baseSize": 30.0,
+    "varySize": 25.0
+  },
+  "8210": {
+    "key": 8210,
+    "itemkey": 10,
+    "baseSize": 30.0,
+    "varySize": 25.0
+  },
+  "8211": {
+    "key": 8211,
+    "itemkey": 11,
+    "baseSize": 5.0,
+    "varySize": 117.0
+  },
+  "8212": {
+    "key": 8212,
+    "itemkey": 12,
+    "baseSize": 50.0,
+    "varySize": 25.0
+  },
+  "8213": {
+    "key": 8213,
+    "itemkey": 13,
+    "baseSize": 5.0,
+    "varySize": 9.0
+  },
+  "8214": {
+    "key": 8214,
+    "itemkey": 14,
+    "baseSize": 7.0,
+    "varySize": 15.0
+  },
+  "8215": {
+    "key": 8215,
+    "itemkey": 15,
+    "baseSize": 2.0,
+    "varySize": 15.0
+  },
+  "8216": {
+    "key": 8216,
+    "itemkey": 16,
+    "baseSize": 40.0,
+    "varySize": 48.0
+  },
+  "8217": {
+    "key": 8217,
+    "itemkey": 17,
+    "baseSize": 15.0,
+    "varySize": 25.0
+  },
+  "8218": {
+    "key": 8218,
+    "itemkey": 18,
+    "baseSize": 25.0,
+    "varySize": 30.0
+  },
+  "8219": {
+    "key": 8219,
+    "itemkey": 19,
+    "baseSize": 25.0,
+    "varySize": 25.0
+  },
+  "8220": {
+    "key": 8220,
+    "itemkey": 20,
+    "baseSize": 50.0,
+    "varySize": 99.0
+  },
+  "8221": {
+    "key": 8221,
+    "itemkey": 21,
+    "baseSize": 50.0,
+    "varySize": 48.0
+  },
+  "8222": {
+    "key": 8222,
+    "itemkey": 22,
+    "baseSize": 10.0,
+    "varySize": 15.0
+  },
+  "8223": {
+    "key": 8223,
+    "itemkey": 23,
+    "baseSize": 65.0,
+    "varySize": 25.0
+  },
+  "8224": {
+    "key": 8224,
+    "itemkey": 24,
+    "baseSize": 280.0,
+    "varySize": 99.0
+  },
+  "8225": {
+    "key": 8225,
+    "itemkey": 25,
+    "baseSize": 25.0,
+    "varySize": 48.0
+  },
+  "8226": {
+    "key": 8226,
+    "itemkey": 26,
+    "baseSize": 50.0,
+    "varySize": 48.0
+  },
+  "8227": {
+    "key": 8227,
+    "itemkey": 27,
+    "baseSize": 22.0,
+    "varySize": 25.0
+  },
+  "8228": {
+    "key": 8228,
+    "itemkey": 28,
+    "baseSize": 25.0,
+    "varySize": 25.0
+  },
+  "8229": {
+    "key": 8229,
+    "itemkey": 29,
+    "baseSize": 20.0,
+    "varySize": 25.0
+  },
+  "8230": {
+    "key": 8230,
+    "itemkey": 30,
+    "baseSize": 110.0,
+    "varySize": 99.0
+  },
+  "8231": {
+    "key": 8231,
+    "itemkey": 31,
+    "baseSize": 80.0,
+    "varySize": 63.0
+  },
+  "8232": {
+    "key": 8232,
+    "itemkey": 32,
+    "baseSize": 2.0,
+    "varySize": 9.0
+  },
+  "8233": {
+    "key": 8233,
+    "itemkey": 33,
+    "baseSize": 7.0,
+    "varySize": 9.0
+  },
+  "8234": {
+    "key": 8234,
+    "itemkey": 34,
+    "baseSize": 17.0,
+    "varySize": 15.0
+  },
+  "8235": {
+    "key": 8235,
+    "itemkey": 35,
+    "baseSize": 25.0,
+    "varySize": 30.0
+  },
+  "8236": {
+    "key": 8236,
+    "itemkey": 36,
+    "baseSize": 110.0,
+    "varySize": 99.0
+  },
+  "8237": {
+    "key": 8237,
+    "itemkey": 37,
+    "baseSize": 7.0,
+    "varySize": 9.0
+  },
+  "8238": {
+    "key": 8238,
+    "itemkey": 38,
+    "baseSize": 80.0,
+    "varySize": 25.0
+  },
+  "8239": {
+    "key": 8239,
+    "itemkey": 39,
+    "baseSize": 25.0,
+    "varySize": 30.0
+  },
+  "8240": {
+    "key": 8240,
+    "itemkey": 40,
+    "baseSize": 15.0,
+    "varySize": 9.0
+  },
+  "8241": {
+    "key": 8241,
+    "itemkey": 41,
+    "baseSize": 25.0,
+    "varySize": 48.0
+  },
+  "8242": {
+    "key": 8242,
+    "itemkey": 42,
+    "baseSize": 40.0,
+    "varySize": 48.0
+  },
+  "8243": {
+    "key": 8243,
+    "itemkey": 43,
+    "baseSize": 12.0,
+    "varySize": 9.0
+  },
+  "8244": {
+    "key": 8244,
+    "itemkey": 44,
+    "baseSize": 5.0,
+    "varySize": 48.0
+  },
+  "8245": {
+    "key": 8245,
+    "itemkey": 45,
+    "baseSize": 25.0,
+    "varySize": 30.0
+  },
+  "8246": {
+    "key": 8246,
+    "itemkey": 46,
+    "baseSize": 40.0,
+    "varySize": 25.0
+  },
+  "8247": {
+    "key": 8247,
+    "itemkey": 47,
+    "baseSize": 5.0,
+    "varySize": 9.0
+  },
+  "8248": {
+    "key": 8248,
+    "itemkey": 48,
+    "baseSize": 7.0,
+    "varySize": 15.0
+  },
+  "8249": {
+    "key": 8249,
+    "itemkey": 49,
+    "baseSize": 30.0,
+    "varySize": 30.0
+  },
+  "8250": {
+    "key": 8250,
+    "itemkey": 50,
+    "baseSize": 25.0,
+    "varySize": 9.0
+  },
+  "8251": {
+    "key": 8251,
+    "itemkey": 51,
+    "baseSize": 12.0,
+    "varySize": 9.0
+  },
+  "8252": {
+    "key": 8252,
+    "itemkey": 52,
+    "baseSize": 7.0,
+    "varySize": 9.0
+  },
+  "8253": {
+    "key": 8253,
+    "itemkey": 53,
+    "baseSize": 40.0,
+    "varySize": 25.0
+  },
+  "8254": {
+    "key": 8254,
+    "itemkey": 54,
+    "baseSize": 5.0,
+    "varySize": 9.0
+  },
+  "8255": {
+    "key": 8255,
+    "itemkey": 55,
+    "baseSize": 10.0,
+    "varySize": 9.0
+  },
+  "8256": {
+    "key": 8256,
+    "itemkey": 56,
+    "baseSize": 80.0,
+    "varySize": 25.0
+  },
+  "8257": {
+    "key": 8257,
+    "itemkey": 57,
+    "baseSize": 30.0,
+    "varySize": 48.0
+  },
+  "8258": {
+    "key": 8258,
+    "itemkey": 58,
+    "baseSize": 50.0,
+    "varySize": 30.0
+  },
+  "8259": {
+    "key": 8259,
+    "itemkey": 59,
+    "baseSize": 25.0,
+    "varySize": 30.0
+  },
+  "8260": {
+    "key": 8260,
+    "itemkey": 60,
+    "baseSize": 12.0,
+    "varySize": 9.0
+  },
+  "8261": {
+    "key": 8261,
+    "itemkey": 61,
+    "baseSize": 25.0,
+    "varySize": 25.0
+  },
+  "8262": {
+    "key": 8262,
+    "itemkey": 62,
+    "baseSize": 35.0,
+    "varySize": 30.0
+  },
+  "8263": {
+    "key": 8263,
+    "itemkey": 63,
+    "baseSize": 22.0,
+    "varySize": 25.0
+  },
+  "8264": {
+    "key": 8264,
+    "itemkey": 64,
+    "baseSize": 12.0,
+    "varySize": 15.0
+  },
+  "8265": {
+    "key": 8265,
+    "itemkey": 65,
+    "baseSize": 7.0,
+    "varySize": 9.0
+  },
+  "8266": {
+    "key": 8266,
+    "itemkey": 66,
+    "baseSize": 25.0,
+    "varySize": 30.0
+  },
+  "8267": {
+    "key": 8267,
+    "itemkey": 67,
+    "baseSize": 180.0,
+    "varySize": 30.0
+  },
+  "8268": {
+    "key": 8268,
+    "itemkey": 68,
+    "baseSize": 10.0,
+    "varySize": 15.0
+  },
+  "8269": {
+    "key": 8269,
+    "itemkey": 69,
+    "baseSize": 12.0,
+    "varySize": 9.0
+  },
+  "8270": {
+    "key": 8270,
+    "itemkey": 70,
+    "baseSize": 17.0,
+    "varySize": 15.0
+  },
+  "8271": {
+    "key": 8271,
+    "itemkey": 71,
+    "baseSize": 40.0,
+    "varySize": 15.0
+  },
+  "8272": {
+    "key": 8272,
+    "itemkey": 72,
+    "baseSize": 30.0,
+    "varySize": 25.0
+  },
+  "8273": {
+    "key": 8273,
+    "itemkey": 73,
+    "baseSize": 40.0,
+    "varySize": 15.0
+  },
+  "8274": {
+    "key": 8274,
+    "itemkey": 74,
+    "baseSize": 12.0,
+    "varySize": 15.0
+  },
+  "8275": {
+    "key": 8275,
+    "itemkey": 75,
+    "baseSize": 12.0,
+    "varySize": 9.0
+  },
+  "8276": {
+    "key": 8276,
+    "itemkey": 76,
+    "baseSize": 7.0,
+    "varySize": 9.0
+  },
+  "8277": {
+    "key": 8277,
+    "itemkey": 77,
+    "baseSize": 25.0,
+    "varySize": 15.0
+  },
+  "8278": {
+    "key": 8278,
+    "itemkey": 78,
+    "baseSize": 2.0,
+    "varySize": 9.0
+  },
+  "8279": {
+    "key": 8279,
+    "itemkey": 79,
+    "baseSize": 22.0,
+    "varySize": 25.0
+  },
+  "8281": {
+    "key": 8281,
+    "itemkey": 80,
+    "baseSize": 65.0,
+    "varySize": 25.0
+  },
+  "8282": {
+    "key": 8282,
+    "itemkey": 81,
+    "baseSize": 22.0,
+    "varySize": 25.0
+  },
+  "8283": {
+    "key": 8283,
+    "itemkey": 82,
+    "baseSize": 25.0,
+    "varySize": 30.0
+  },
+  "8284": {
+    "key": 8284,
+    "itemkey": 83,
+    "baseSize": 53.0,
+    "varySize": 25.0
+  },
+  "8285": {
+    "key": 8285,
+    "itemkey": 84,
+    "baseSize": 22.0,
+    "varySize": 30.0
+  },
+  "8286": {
+    "key": 8286,
+    "itemkey": 85,
+    "baseSize": 40.0,
+    "varySize": 99.0
+  },
+  "8287": {
+    "key": 8287,
+    "itemkey": 86,
+    "baseSize": 25.0,
+    "varySize": 15.0
+  },
+  "8288": {
+    "key": 8288,
+    "itemkey": 87,
+    "baseSize": 7.0,
+    "varySize": 9.0
+  },
+  "8289": {
+    "key": 8289,
+    "itemkey": 88,
+    "baseSize": 15.0,
+    "varySize": 25.0
+  },
+  "8290": {
+    "key": 8290,
+    "itemkey": 89,
+    "baseSize": 40.0,
+    "varySize": 15.0
+  },
+  "8291": {
+    "key": 8291,
+    "itemkey": 90,
+    "baseSize": 7.0,
+    "varySize": 9.0
+  },
+  "8292": {
+    "key": 8292,
+    "itemkey": 91,
+    "baseSize": 65.0,
+    "varySize": 25.0
+  },
+  "8293": {
+    "key": 8293,
+    "itemkey": 92,
+    "baseSize": 7.0,
+    "varySize": 9.0
+  },
+  "8294": {
+    "key": 8294,
+    "itemkey": 93,
+    "baseSize": 12.0,
+    "varySize": 9.0
+  },
+  "8295": {
+    "key": 8295,
+    "itemkey": 94,
+    "baseSize": 3.0,
+    "varySize": 9.0
+  },
+  "8296": {
+    "key": 8296,
+    "itemkey": 95,
+    "baseSize": 3.0,
+    "varySize": 9.0
+  },
+  "8297": {
+    "key": 8297,
+    "itemkey": 96,
+    "baseSize": 10.0,
+    "varySize": 15.0
+  },
+  "8298": {
+    "key": 8298,
+    "itemkey": 97,
+    "baseSize": 30.0,
+    "varySize": 15.0
+  },
+  "8299": {
+    "key": 8299,
+    "itemkey": 98,
+    "baseSize": 25.0,
+    "varySize": 30.0
+  },
+  "8300": {
+    "key": 8300,
+    "itemkey": 99,
+    "baseSize": 65.0,
+    "varySize": 30.0
+  },
+  "8301": {
+    "key": 8301,
+    "itemkey": 100,
+    "baseSize": 17.0,
+    "varySize": 15.0
+  },
+  "8302": {
+    "key": 8302,
+    "itemkey": 101,
+    "baseSize": 2.0,
+    "varySize": 9.0
+  },
+  "8303": {
+    "key": 8303,
+    "itemkey": 102,
+    "baseSize": 25.0,
+    "varySize": 15.0
+  },
+  "8304": {
+    "key": 8304,
+    "itemkey": 103,
+    "baseSize": 22.0,
+    "varySize": 25.0
+  },
+  "8305": {
+    "key": 8305,
+    "itemkey": 104,
+    "baseSize": 50.0,
+    "varySize": 25.0
+  },
+  "8306": {
+    "key": 8306,
+    "itemkey": 105,
+    "baseSize": 280.0,
+    "varySize": 169.0
+  },
+  "8307": {
+    "key": 8307,
+    "itemkey": 106,
+    "baseSize": 180.0,
+    "varySize": 169.0
+  },
+  "8308": {
+    "key": 8308,
+    "itemkey": 107,
+    "baseSize": 230.0,
+    "varySize": 99.0
+  },
+  "8309": {
+    "key": 8309,
+    "itemkey": 108,
+    "baseSize": 280.0,
+    "varySize": 169.0
+  },
+  "8310": {
+    "key": 8310,
+    "itemkey": 109,
+    "baseSize": 800.0,
+    "varySize": 169.0
+  },
+  "8311": {
+    "key": 8311,
+    "itemkey": 110,
+    "baseSize": 80.0,
+    "varySize": 30.0
+  },
+  "8312": {
+    "key": 8312,
+    "itemkey": 111,
+    "baseSize": 650.0,
+    "varySize": 63.0
+  },
+  "8313": {
+    "key": 8313,
+    "itemkey": 112,
+    "baseSize": 1200.0,
+    "varySize": 169.0
+  },
+  "8314": {
+    "key": 8314,
+    "itemkey": 113,
+    "baseSize": 650.0,
+    "varySize": 169.0
+  },
+  "8315": {
+    "key": 8315,
+    "itemkey": 114,
+    "baseSize": 1000.0,
+    "varySize": 117.0
+  },
+  "8316": {
+    "key": 8316,
+    "itemkey": 115,
+    "baseSize": 120.0,
+    "varySize": 169.0
+  },
+  "8317": {
+    "key": 8317,
+    "itemkey": 116,
+    "baseSize": 280.0,
+    "varySize": 110.0
+  },
+  "8318": {
+    "key": 8318,
+    "itemkey": 117,
+    "baseSize": 230.0,
+    "varySize": 110.0
+  },
+  "8319": {
+    "key": 8319,
+    "itemkey": 118,
+    "baseSize": 80.0,
+    "varySize": 117.0
+  },
+  "8320": {
+    "key": 8320,
+    "itemkey": 119,
+    "baseSize": 160.0,
+    "varySize": 30.0
+  },
+  "8321": {
+    "key": 8321,
+    "itemkey": 120,
+    "baseSize": 100.0,
+    "varySize": 99.0
+  },
+  "8322": {
+    "key": 8322,
+    "itemkey": 121,
+    "baseSize": 65.0,
+    "varySize": 30.0
+  },
+  "8323": {
+    "key": 8323,
+    "itemkey": 122,
+    "baseSize": 53.0,
+    "varySize": 48.0
+  },
+  "8324": {
+    "key": 8324,
+    "itemkey": 123,
+    "baseSize": 180.0,
+    "varySize": 117.0
+  },
+  "8325": {
+    "key": 8325,
+    "itemkey": 124,
+    "baseSize": 280.0,
+    "varySize": 110.0
+  },
+  "8326": {
+    "key": 8326,
+    "itemkey": 125,
+    "baseSize": 180.0,
+    "varySize": 99.0
+  },
+  "8327": {
+    "key": 8327,
+    "itemkey": 126,
+    "baseSize": 180.0,
+    "varySize": 99.0
+  },
+  "8328": {
+    "key": 8328,
+    "itemkey": 127,
+    "baseSize": 230.0,
+    "varySize": 48.0
+  },
+  "8329": {
+    "key": 8329,
+    "itemkey": 128,
+    "baseSize": 60.0,
+    "varySize": 99.0
+  },
+  "8330": {
+    "key": 8330,
+    "itemkey": 129,
+    "baseSize": 45.0,
+    "varySize": 30.0
+  },
+  "8331": {
+    "key": 8331,
+    "itemkey": 130,
+    "baseSize": 30.0,
+    "varySize": 25.0
+  },
+  "8332": {
+    "key": 8332,
+    "itemkey": 131,
+    "baseSize": 12.0,
+    "varySize": 9.0
+  },
+  "8333": {
+    "key": 8333,
+    "itemkey": 132,
+    "baseSize": 45.0,
+    "varySize": 25.0
+  },
+  "8334": {
+    "key": 8334,
+    "itemkey": 133,
+    "baseSize": 50.0,
+    "varySize": 30.0
+  },
+  "8335": {
+    "key": 8335,
+    "itemkey": 134,
+    "baseSize": 15.0,
+    "varySize": 15.0
+  },
+  "8336": {
+    "key": 8336,
+    "itemkey": 135,
+    "baseSize": 40.0,
+    "varySize": 30.0
+  },
+  "8337": {
+    "key": 8337,
+    "itemkey": 136,
+    "baseSize": 45.0,
+    "varySize": 9.0
+  },
+  "8338": {
+    "key": 8338,
+    "itemkey": 137,
+    "baseSize": 20.0,
+    "varySize": 9.0
+  },
+  "8339": {
+    "key": 8339,
+    "itemkey": 138,
+    "baseSize": 40.0,
+    "varySize": 9.0
+  },
+  "8340": {
+    "key": 8340,
+    "itemkey": 139,
+    "baseSize": 17.0,
+    "varySize": 9.0
+  },
+  "8341": {
+    "key": 8341,
+    "itemkey": 140,
+    "baseSize": 25.0,
+    "varySize": 9.0
+  },
+  "8342": {
+    "key": 8342,
+    "itemkey": 141,
+    "baseSize": 120.0,
+    "varySize": 9.0
+  },
+  "8343": {
+    "key": 8343,
+    "itemkey": 142,
+    "baseSize": 100.0,
+    "varySize": 9.0
+  },
+  "8344": {
+    "key": 8344,
+    "itemkey": 143,
+    "baseSize": 200.0,
+    "varySize": 30.0
+  },
+  "8345": {
+    "key": 8345,
+    "itemkey": 144,
+    "baseSize": 100.0,
+    "varySize": 9.0
+  },
+  "8346": {
+    "key": 8346,
+    "itemkey": 145,
+    "baseSize": 200.0,
+    "varySize": 30.0
+  },
+  "8347": {
+    "key": 8347,
+    "itemkey": 146,
+    "baseSize": 50.0,
+    "varySize": 9.0
+  },
+  "8348": {
+    "key": 8348,
+    "itemkey": 147,
+    "baseSize": 80.0,
+    "varySize": 15.0
+  },
+  "8349": {
+    "key": 8349,
+    "itemkey": 148,
+    "baseSize": 150.0,
+    "varySize": 25.0
+  },
+  "8350": {
+    "key": 8350,
+    "itemkey": 149,
+    "baseSize": 80.0,
+    "varySize": 9.0
+  },
+  "8453": {
+    "key": 8453,
+    "itemkey": 150,
+    "baseSize": 200.0,
+    "varySize": 25.0
+  },
+  "8454": {
+    "key": 8454,
+    "itemkey": 151,
+    "baseSize": 1500.0,
+    "varySize": 117.0
+  },
+  "8451": {
+    "key": 8451,
+    "itemkey": 152,
+    "baseSize": 1900.0,
+    "varySize": 169.0
+  },
+  "8452": {
+    "key": 8452,
+    "itemkey": 153,
+    "baseSize": 150.0,
+    "varySize": 25.0
+  },
+  "8351": {
+    "key": 8351,
+    "itemkey": 154,
+    "baseSize": 150.0,
+    "varySize": 15.0
+  },
+  "8352": {
+    "key": 8352,
+    "itemkey": 155,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8353": {
+    "key": 8353,
+    "itemkey": 156,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8354": {
+    "key": 8354,
+    "itemkey": 157,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8355": {
+    "key": 8355,
+    "itemkey": 158,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8356": {
+    "key": 8356,
+    "itemkey": 159,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8455": {
+    "key": 8455,
+    "itemkey": 160,
+    "baseSize": 150.0,
+    "varySize": 25.0
+  },
+  "8457": {
+    "key": 8457,
+    "itemkey": 161,
+    "baseSize": 150.0,
+    "varySize": 25.0
+  },
+  "8357": {
+    "key": 8357,
+    "itemkey": 162,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8358": {
+    "key": 8358,
+    "itemkey": 163,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8359": {
+    "key": 8359,
+    "itemkey": 164,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8360": {
+    "key": 8360,
+    "itemkey": 165,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8361": {
+    "key": 8361,
+    "itemkey": 166,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8362": {
+    "key": 8362,
+    "itemkey": 167,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8363": {
+    "key": 8363,
+    "itemkey": 168,
+    "baseSize": 150.0,
+    "varySize": 48.0
+  },
+  "8364": {
+    "key": 8364,
+    "itemkey": 169,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8365": {
+    "key": 8365,
+    "itemkey": 170,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8366": {
+    "key": 8366,
+    "itemkey": 171,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8367": {
+    "key": 8367,
+    "itemkey": 172,
+    "baseSize": 150.0,
+    "varySize": 25.0
+  },
+  "8368": {
+    "key": 8368,
+    "itemkey": 173,
+    "baseSize": 150.0,
+    "varySize": 117.0
+  },
+  "8369": {
+    "key": 8369,
+    "itemkey": 174,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8370": {
+    "key": 8370,
+    "itemkey": 175,
+    "baseSize": 150.0,
+    "varySize": 48.0
+  },
+  "8458": {
+    "key": 8458,
+    "itemkey": 176,
+    "baseSize": 150.0,
+    "varySize": 48.0
+  },
+  "8467": {
+    "key": 8467,
+    "itemkey": 177,
+    "baseSize": 150.0,
+    "varySize": 99.0
+  },
+  "8468": {
+    "key": 8468,
+    "itemkey": 178,
+    "baseSize": 150.0,
+    "varySize": 117.0
+  },
+  "8469": {
+    "key": 8469,
+    "itemkey": 179,
+    "baseSize": 150.0,
+    "varySize": 15.0
+  },
+  "8470": {
+    "key": 8470,
+    "itemkey": 180,
+    "baseSize": 150.0,
+    "varySize": 15.0
+  },
+  "8471": {
+    "key": 8471,
+    "itemkey": 181,
+    "baseSize": 150.0,
+    "varySize": 110.0
+  },
+  "8472": {
+    "key": 8472,
+    "itemkey": 182,
+    "baseSize": 150.0,
+    "varySize": 15.0
+  },
+  "8473": {
+    "key": 8473,
+    "itemkey": 183,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8474": {
+    "key": 8474,
+    "itemkey": 184,
+    "baseSize": 150.0,
+    "varySize": 99.0
+  },
+  "8475": {
+    "key": 8475,
+    "itemkey": 185,
+    "baseSize": 150.0,
+    "varySize": 15.0
+  },
+  "8476": {
+    "key": 8476,
+    "itemkey": 186,
+    "baseSize": 150.0,
+    "varySize": 9.0
+  },
+  "8477": {
+    "key": 8477,
+    "itemkey": 187,
+    "baseSize": 150.0,
+    "varySize": 63.0
+  },
+  "8478": {
+    "key": 8478,
+    "itemkey": 188,
+    "baseSize": 150.0,
+    "varySize": 15.0
+  },
+  "8479": {
+    "key": 8479,
+    "itemkey": 189,
+    "baseSize": 150.0,
+    "varySize": 30.0
+  },
+  "8371": {
+    "key": 8371,
+    "itemkey": 190,
+    "baseSize": 10.0,
+    "varySize": 15.0
+  },
+  "8372": {
+    "key": 8372,
+    "itemkey": 191,
+    "baseSize": 10.0,
+    "varySize": 9.0
+  },
+  "8373": {
+    "key": 8373,
+    "itemkey": 192,
+    "baseSize": 10.0,
+    "varySize": 15.0
+  },
+  "8374": {
+    "key": 8374,
+    "itemkey": 193,
+    "baseSize": 20.0,
+    "varySize": 25.0
+  },
+  "8375": {
+    "key": 8375,
+    "itemkey": 194,
+    "baseSize": 10.0,
+    "varySize": 9.0
+  },
+  "8376": {
+    "key": 8376,
+    "itemkey": 195,
+    "baseSize": 10.0,
+    "varySize": 9.0
+  },
+  "8377": {
+    "key": 8377,
+    "itemkey": 196,
+    "baseSize": 20.0,
+    "varySize": 25.0
+  },
+  "8378": {
+    "key": 8378,
+    "itemkey": 197,
+    "baseSize": 150.0,
+    "varySize": 63.0
+  },
+  "8379": {
+    "key": 8379,
+    "itemkey": 198,
+    "baseSize": 150.0,
+    "varySize": 110.0
+  },
+  "8380": {
+    "key": 8380,
+    "itemkey": 199,
+    "baseSize": 1000.0,
+    "varySize": 110.0
+  },
+  "8381": {
+    "key": 8381,
+    "itemkey": 200,
+    "baseSize": 1500.0,
+    "varySize": 169.0
+  },
+  "8382": {
+    "key": 8382,
+    "itemkey": 201,
+    "baseSize": 1000.0,
+    "varySize": 117.0
+  },
+  "8383": {
+    "key": 8383,
+    "itemkey": 202,
+    "baseSize": 1000.0,
+    "varySize": 117.0
+  },
+  "8384": {
+    "key": 8384,
+    "itemkey": 203,
+    "baseSize": 20.0,
+    "varySize": 25.0
+  },
+  "8385": {
+    "key": 8385,
+    "itemkey": 204,
+    "baseSize": 20.0,
+    "varySize": 25.0
+  },
+  "8386": {
+    "key": 8386,
+    "itemkey": 205,
+    "baseSize": 20.0,
+    "varySize": 15.0
+  },
+  "8387": {
+    "key": 8387,
+    "itemkey": 206,
+    "baseSize": 45.0,
+    "varySize": 99.0
+  },
+  "8388": {
+    "key": 8388,
+    "itemkey": 207,
+    "baseSize": 15.0,
+    "varySize": 30.0
+  },
+  "8389": {
+    "key": 8389,
+    "itemkey": 208,
+    "baseSize": 15.0,
+    "varySize": 25.0
+  },
+  "8390": {
+    "key": 8390,
+    "itemkey": 209,
+    "baseSize": 30.0,
+    "varySize": 99.0
+  },
+  "8391": {
+    "key": 8391,
+    "itemkey": 210,
+    "baseSize": 10.0,
+    "varySize": 25.0
+  },
+  "8392": {
+    "key": 8392,
+    "itemkey": 211,
+    "baseSize": 80.0,
+    "varySize": 30.0
+  },
+  "8393": {
+    "key": 8393,
+    "itemkey": 212,
+    "baseSize": 20.0,
+    "varySize": 30.0
+  },
+  "8394": {
+    "key": 8394,
+    "itemkey": 213,
+    "baseSize": 30.0,
+    "varySize": 25.0
+  },
+  "8395": {
+    "key": 8395,
+    "itemkey": 214,
+    "baseSize": 5.0,
+    "varySize": 9.0
+  },
+  "820502": {
+    "key": 820502,
+    "itemkey": 215,
+    "baseSize": 20.0,
+    "varySize": 63.0
+  },
+  "820503": {
+    "key": 820503,
+    "itemkey": 216,
+    "baseSize": 45.0,
+    "varySize": 9.0
+  },
+  "820505": {
+    "key": 820505,
+    "itemkey": 217,
+    "baseSize": 15.0,
+    "varySize": 9.0
+  },
+  "820506": {
+    "key": 820506,
+    "itemkey": 218,
+    "baseSize": 30.0,
+    "varySize": 15.0
+  },
+  "820507": {
+    "key": 820507,
+    "itemkey": 219,
+    "baseSize": 10.0,
+    "varySize": 9.0
+  },
+  "820508": {
+    "key": 820508,
+    "itemkey": 220,
+    "baseSize": 80.0,
+    "varySize": 9.0
+  },
+  "820509": {
+    "key": 820509,
+    "itemkey": 221,
+    "baseSize": 20.0,
+    "varySize": 25.0
+  },
+  "820510": {
+    "key": 820510,
+    "itemkey": 222,
+    "baseSize": 30.0,
+    "varySize": 15.0
+  },
+  "820512": {
+    "key": 820512,
+    "itemkey": 223,
+    "baseSize": 20.0,
+    "varySize": 9.0
+  },
+  "820513": {
+    "key": 820513,
+    "itemkey": 224,
+    "baseSize": 35.0,
+    "varySize": 48.0
+  },
+  "820514": {
+    "key": 820514,
+    "itemkey": 225,
+    "baseSize": 30.0,
+    "varySize": 25.0
+  },
+  "820515": {
+    "key": 820515,
+    "itemkey": 226,
+    "baseSize": 25.0,
+    "varySize": 25.0
+  },
+  "820516": {
+    "key": 820516,
+    "itemkey": 227,
+    "baseSize": 50.0,
+    "varySize": 48.0
+  },
+  "820517": {
+    "key": 820517,
+    "itemkey": 228,
+    "baseSize": 40.0,
+    "varySize": 30.0
+  },
+  "820519": {
+    "key": 820519,
+    "itemkey": 229,
+    "baseSize": 50.0,
+    "varySize": 30.0
+  },
+  "820520": {
+    "key": 820520,
+    "itemkey": 230,
+    "baseSize": 25.0,
+    "varySize": 15.0
+  },
+  "820521": {
+    "key": 820521,
+    "itemkey": 231,
+    "baseSize": 30.0,
+    "varySize": 25.0
+  },
+  "820523": {
+    "key": 820523,
+    "itemkey": 232,
+    "baseSize": 18.0,
+    "varySize": 9.0
+  },
+  "820524": {
+    "key": 820524,
+    "itemkey": 233,
+    "baseSize": 60.0,
+    "varySize": 63.0
+  },
+  "820985": {
+    "key": 820985,
+    "itemkey": 234,
+    "baseSize": 100.0,
+    "varySize": 117.0
+  },
+  "820986": {
+    "key": 820986,
+    "itemkey": 235,
+    "baseSize": 180.0,
+    "varySize": 117.0
+  },
+  "820987": {
+    "key": 820987,
+    "itemkey": 236,
+    "baseSize": 20.0,
+    "varySize": 117.0
+  },
+  "820988": {
+    "key": 820988,
+    "itemkey": 237,
+    "baseSize": 3.0,
+    "varySize": 117.0
+  },
+  "820990": {
+    "key": 820990,
+    "itemkey": 239,
+    "baseSize": 1400.0,
+    "varySize": 117.0
+  },
+  "820991": {
+    "key": 820991,
+    "itemkey": 240,
+    "baseSize": 30.0,
+    "varySize": 117.0
+  },
+  "820992": {
+    "key": 820992,
+    "itemkey": 241,
+    "baseSize": 200.0,
+    "varySize": 117.0
+  },
+  "820993": {
+    "key": 820993,
+    "itemkey": 242,
+    "baseSize": 400.0,
+    "varySize": 117.0
+  },
+  "820994": {
+    "key": 820994,
+    "itemkey": 243,
+    "baseSize": 3.0,
+    "varySize": 117.0
+  },
+  "820995": {
+    "key": 820995,
+    "itemkey": 244,
+    "baseSize": 5.0,
+    "varySize": 117.0
+  },
+  "820996": {
+    "key": 820996,
+    "itemkey": 245,
+    "baseSize": 15.0,
+    "varySize": 117.0
+  },
+  "820997": {
+    "key": 820997,
+    "itemkey": 246,
+    "baseSize": 43.0,
+    "varySize": 117.0
+  },
+  "820998": {
+    "key": 820998,
+    "itemkey": 247,
+    "baseSize": 50.0,
+    "varySize": 117.0
+  },
+  "820999": {
+    "key": 820999,
+    "itemkey": 248,
+    "baseSize": 15.0,
+    "varySize": 117.0
+  },
+  "821000": {
+    "key": 821000,
+    "itemkey": 249,
+    "baseSize": 4.0,
+    "varySize": 117.0
+  },
+  "821001": {
+    "key": 821001,
+    "itemkey": 250,
+    "baseSize": 18.0,
+    "varySize": 117.0
+  },
+  "821002": {
+    "key": 821002,
+    "itemkey": 251,
+    "baseSize": 30.0,
+    "varySize": 117.0
+  },
+  "821003": {
+    "key": 821003,
+    "itemkey": 252,
+    "baseSize": 100.0,
+    "varySize": 117.0
+  },
+  "821004": {
+    "key": 821004,
+    "itemkey": 253,
+    "baseSize": 80.0,
+    "varySize": 117.0
+  },
+  "821005": {
+    "key": 821005,
+    "itemkey": 254,
+    "baseSize": 70.0,
+    "varySize": 117.0
+  },
+  "821006": {
+    "key": 821006,
+    "itemkey": 255,
+    "baseSize": 45.0,
+    "varySize": 117.0
+  },
+  "821007": {
+    "key": 821007,
+    "itemkey": 256,
+    "baseSize": 15.0,
+    "varySize": 117.0
+  },
+  "821008": {
+    "key": 821008,
+    "itemkey": 257,
+    "baseSize": 5.0,
+    "varySize": 117.0
+  },
+  "821009": {
+    "key": 821009,
+    "itemkey": 258,
+    "baseSize": 110.0,
+    "varySize": 117.0
+  },
+  "821010": {
+    "key": 821010,
+    "itemkey": 259,
+    "baseSize": 10.0,
+    "varySize": 117.0
+  },
+  "821011": {
+    "key": 821011,
+    "itemkey": 260,
+    "baseSize": 100.0,
+    "varySize": 117.0
+  },
+  "821012": {
+    "key": 821012,
+    "itemkey": 261,
+    "baseSize": 150.0,
+    "varySize": 117.0
+  },
+  "821013": {
+    "key": 821013,
+    "itemkey": 262,
+    "baseSize": 75.0,
+    "varySize": 117.0
+  },
+  "821015": {
+    "key": 821015,
+    "itemkey": 264,
+    "baseSize": 200.0,
+    "varySize": 117.0
+  },
+  "821016": {
+    "key": 821016,
+    "itemkey": 265,
+    "baseSize": 15.0,
+    "varySize": 117.0
+  },
+  "821017": {
+    "key": 821017,
+    "itemkey": 266,
+    "baseSize": 25.0,
+    "varySize": 117.0
+  },
+  "821018": {
+    "key": 821018,
+    "itemkey": 267,
+    "baseSize": 18.0,
+    "varySize": 117.0
+  },
+  "821019": {
+    "key": 821019,
+    "itemkey": 268,
+    "baseSize": 10.0,
+    "varySize": 117.0
+  },
+  "821020": {
+    "key": 821020,
+    "itemkey": 269,
+    "baseSize": 10.0,
+    "varySize": 117.0
+  },
+  "821021": {
+    "key": 821021,
+    "itemkey": 270,
+    "baseSize": 150.0,
+    "varySize": 117.0
+  },
+  "821023": {
+    "key": 821023,
+    "itemkey": 272,
+    "baseSize": 10.0,
+    "varySize": 117.0
+  },
+  "821024": {
+    "key": 821024,
+    "itemkey": 273,
+    "baseSize": 2.0,
+    "varySize": 117.0
+  },
+  "821025": {
+    "key": 821025,
+    "itemkey": 274,
+    "baseSize": 2.0,
+    "varySize": 117.0
+  },
+  "821026": {
+    "key": 821026,
+    "itemkey": 275,
+    "baseSize": 10.0,
+    "varySize": 117.0
+  },
+  "821027": {
+    "key": 821027,
+    "itemkey": 276,
+    "baseSize": 55.0,
+    "varySize": 117.0
+  },
+  "821028": {
+    "key": 821028,
+    "itemkey": 277,
+    "baseSize": 15.0,
+    "varySize": 117.0
+  },
+  "821029": {
+    "key": 821029,
+    "itemkey": 278,
+    "baseSize": 20.0,
+    "varySize": 117.0
+  },
+  "821030": {
+    "key": 821030,
+    "itemkey": 279,
+    "baseSize": 10.0,
+    "varySize": 117.0
+  },
+  "821031": {
+    "key": 821031,
+    "itemkey": 280,
+    "baseSize": 40.0,
+    "varySize": 117.0
+  },
+  "821032": {
+    "key": 821032,
+    "itemkey": 281,
+    "baseSize": 100.0,
+    "varySize": 117.0
+  },
+  "821274": {
+    "key": 821274,
+    "itemkey": 282,
+    "baseSize": 10.0,
+    "varySize": 10.0
+  },
+  "821275": {
+    "key": 821275,
+    "itemkey": 283,
+    "baseSize": 8.0,
+    "varySize": 10.0
+  },
+  "821276": {
+    "key": 821276,
+    "itemkey": 284,
+    "baseSize": 23.0,
+    "varySize": 22.0
+  },
+  "821277": {
+    "key": 821277,
+    "itemkey": 285,
+    "baseSize": 15.0,
+    "varySize": 15.0
+  },
+  "821278": {
+    "key": 821278,
+    "itemkey": 286,
+    "baseSize": 50.0,
+    "varySize": 31.0
+  },
+  "821279": {
+    "key": 821279,
+    "itemkey": 287,
+    "baseSize": 50.0,
+    "varySize": 40.0
+  },
+  "821280": {
+    "key": 821280,
+    "itemkey": 288,
+    "baseSize": 100.0,
+    "varySize": 36.0
+  },
+  "821281": {
+    "key": 821281,
+    "itemkey": 289,
+    "baseSize": 40.0,
+    "varySize": 25.0
+  },
+  "821282": {
+    "key": 821282,
+    "itemkey": 290,
+    "baseSize": 110.0,
+    "varySize": 41.0
+  },
+  "821283": {
+    "key": 821283,
+    "itemkey": 291,
+    "baseSize": 120.0,
+    "varySize": 50.0
+  },
+  "821284": {
+    "key": 821284,
+    "itemkey": 292,
+    "baseSize": 25.0,
+    "varySize": 15.0
+  },
+  "821285": {
+    "key": 821285,
+    "itemkey": 293,
+    "baseSize": 20.0,
+    "varySize": 18.0
+  },
+  "821286": {
+    "key": 821286,
+    "itemkey": 294,
+    "baseSize": 70.0,
+    "varySize": 35.0
+  },
+  "821287": {
+    "key": 821287,
+    "itemkey": 295,
+    "baseSize": 90.0,
+    "varySize": 36.0
+  },
+  "821288": {
+    "key": 821288,
+    "itemkey": 296,
+    "baseSize": 30.0,
+    "varySize": 47.0
+  },
+  "821289": {
+    "key": 821289,
+    "itemkey": 297,
+    "baseSize": 94.0,
+    "varySize": 52.0
+  },
+  "821290": {
+    "key": 821290,
+    "itemkey": 298,
+    "baseSize": 8.0,
+    "varySize": 14.0
+  },
+  "821291": {
+    "key": 821291,
+    "itemkey": 299,
+    "baseSize": 30.0,
+    "varySize": 41.0
+  },
+  "821292": {
+    "key": 821292,
+    "itemkey": 300,
+    "baseSize": 160.0,
+    "varySize": 57.0
+  },
+  "821293": {
+    "key": 821293,
+    "itemkey": 301,
+    "baseSize": 10.0,
+    "varySize": 16.0
+  },
+  "821294": {
+    "key": 821294,
+    "itemkey": 302,
+    "baseSize": 65.0,
+    "varySize": 49.0
+  },
+  "821295": {
+    "key": 821295,
+    "itemkey": 303,
+    "baseSize": 14.0,
+    "varySize": 18.0
+  }
+}
