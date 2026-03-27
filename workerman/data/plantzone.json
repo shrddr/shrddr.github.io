@@ -1,4 +1,50 @@
 {
+  "2054": {
+    "key": 2054,
+    "node": {
+      "key": 2054,
+      "pos": {
+        "x": 622270.0,
+        "y": 5605.01,
+        "z": 449557.0
+      },
+      "kind": 6,
+      "CP": 1,
+      "name": "\ucc44\uc9d1",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1930,
+      "time": 150,
+      "subgroup": {
+        "key": 43165,
+        "drops": [
+          6657,
+          6656
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40061,
+        "drops": [
+          1024
+        ]
+      }
+    },
+    "regiongroup": 290,
+    "parent": 2053,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
   "2051": {
     "key": 2051,
     "node": {

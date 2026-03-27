@@ -434,9 +434,9 @@
   "2008": {
     "key": 2008,
     "pos": {
-      "x": 521556.0,
-      "y": -3951.97,
-      "z": 429050.0
+      "x": 515657.0,
+      "y": -7955.22,
+      "z": 427079.0
     },
     "kind": 1,
     "CP": 1,
@@ -626,9 +626,9 @@
   "70": {
     "key": 70,
     "pos": {
-      "x": -99069.8,
-      "y": -6150.88,
-      "z": 135457.0
+      "x": -92954.5,
+      "y": -6990.33,
+      "z": 132983.0
     },
     "kind": 0,
     "CP": 1,
@@ -1465,6 +1465,22 @@
     "kind": 11,
     "CP": 1,
     "name": "\uc0dd\uc120 \uac74\uc870\uc7a5",
+    "is_main": 0,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": true
+  },
+  "2054": {
+    "key": 2054,
+    "pos": {
+      "x": 622270.0,
+      "y": 5605.01,
+      "z": 449557.0
+    },
+    "kind": 6,
+    "CP": 1,
+    "name": "\ucc44\uc9d1",
     "is_main": 0,
     "has_lodging": false,
     "is_planttown": false,
@@ -5634,9 +5650,9 @@
   "2003": {
     "key": 2003,
     "pos": {
-      "x": 655176.0,
-      "y": -2107.45,
-      "z": 501391.0
+      "x": 657732.0,
+      "y": 2307.18,
+      "z": 500135.0
     },
     "kind": 3,
     "CP": 1,
@@ -6809,6 +6825,22 @@
     "kind": 9,
     "CP": 1,
     "name": "\uce7c\ud398\uc628 \uc131\ud130 \uc11c\ucabd \uc232",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
+  },
+  "2053": {
+    "key": 2053,
+    "pos": {
+      "x": 617526.0,
+      "y": 6153.22,
+      "z": 455827.0
+    },
+    "kind": 0,
+    "CP": 1,
+    "name": "\uc5bc\uc5b4\ubd99\uc740 \uada4\ub3c4",
     "is_main": 1,
     "has_lodging": false,
     "is_planttown": false,
@@ -8402,9 +8434,9 @@
   "2004": {
     "key": 2004,
     "pos": {
-      "x": 715103.0,
-      "y": 8379.66,
-      "z": 608353.0
+      "x": 715808.0,
+      "y": 5185.35,
+      "z": 607007.0
     },
     "kind": 3,
     "CP": 1,
@@ -15662,5 +15694,21 @@
     "is_planttown": false,
     "is_hidden": false,
     "is_plantzone": true
+  },
+  "2052": {
+    "key": 2052,
+    "pos": {
+      "x": -125229.0,
+      "y": -2883.02,
+      "z": 146801.0
+    },
+    "kind": 1,
+    "CP": 0,
+    "name": "\uc62c\ube44\uc544 \uc544\uce74\ub370\ubbf8",
+    "is_main": 1,
+    "has_lodging": false,
+    "is_planttown": false,
+    "is_hidden": false,
+    "is_plantzone": false
   }
 }
