@@ -2131,15 +2131,15 @@ The only thing to not include here is lodging for the worker who is going to occ
 However, if your workshop house chain does provide lodging, reduce (2) accordingly. 
 The house chain can potentially provide storage and lodging not only for this workshop, but for other workshops of this town. 
 In this case, use average CP value (sum up all workshop-related CP costs and divide by active workshop count).`,class:"tooltip"},"\u2139")]),_("th",null,"action")],-1)),eDt=["onUpdate:modelValue"],rDt=["onUpdate:modelValue"],nDt=Yv('<option value="unk" data-v-22a29fb5>unknown</option><option value="jewelry" data-v-22a29fb5>jewelry</option><option value="mass" data-v-22a29fb5>mass</option><option value="weap" data-v-22a29fb5>weapon</option><option value="tool" data-v-22a29fb5>tool</option><option value="furn" data-v-22a29fb5>furniture</option><option value="costume" data-v-22a29fb5>costume</option><option value="refine" data-v-22a29fb5>refine</option><option value="siege" data-v-22a29fb5>siege</option><option value="mount" data-v-22a29fb5>mount</option><option value="exclus" data-v-22a29fb5>exclusive</option><option value="pack_produce" data-v-22a29fb5>pack_produce</option><option value="pack_herb" data-v-22a29fb5>pack_herb</option><option value="pack_mushr" data-v-22a29fb5>pack_mushr</option><option value="pack_fish" data-v-22a29fb5>pack_fish</option><option value="pack_timber" data-v-22a29fb5>pack_timber</option><option value="pack_ore" data-v-22a29fb5>pack_ore</option>',17),iDt=[nDt],oDt=["onUpdate:modelValue"],aDt=["onUpdate:modelValue"],sDt=["onUpdate:modelValue"],lDt=["onClick"],uDt={style:{float:"right"}},cDt=F(" new entry:"),fDt=ou(()=>_("br",null,null,-1)),hDt={class:"borderless"},dDt=ou(()=>_("td",null,"town",-1)),pDt=["value"],gDt=ou(()=>_("td",null,"usage",-1)),vDt=["value"],mDt=ou(()=>_("td",null,"level",-1)),yDt=["value"],_Dt=ou(()=>_("td",null,"house",-1)),bDt=["value"],wDt={key:0,class:"fsxs"},SDt=["disabled"],TDt=ou(()=>_("abbr",{class:"tooltip",title:`Note that assigning house as workshop does not prevent it from being used for autolodging/autostorage on Home page.
-You need to manually work around this.`},"\u2139",-1));function kDt(e,t,r,n,i,o){return I(),O(W,null,[JRt,_("table",QRt,[tDt,(I(!0),O(W,null,Pt(n.userStore.userWorkshops,(a,s)=>(I(),O("tr",null,[_("td",null,M(n.gameStore.uloc.char[s]),1),_("td",null,[at(_("input",{class:"w5em","onUpdate:modelValue":l=>a.label=l},null,8,eDt),[[Gt,a.label,void 0,{number:!0}]])]),_("td",null,[at(_("select",{"onUpdate:modelValue":l=>a.industry=l},iDt,8,rDt),[[cr,a.industry]])]),_("td",null,[at(_("input",{type:"number",class:"w5em","onUpdate:modelValue":l=>a.manualWorkload=l},null,8,oDt),[[Gt,a.manualWorkload,void 0,{number:!0}]])]),_("td",null,[at(_("input",{type:"number",class:"w7em","onUpdate:modelValue":l=>a.manualCycleIncome=l},null,8,aDt),[[Gt,a.manualCycleIncome,void 0,{number:!0}]])]),_("td",null,[at(_("input",{type:"number",class:"w5em","onUpdate:modelValue":l=>a.manualCp=l},null,8,sDt),[[Gt,a.manualCp,void 0,{number:!0}]])]),_("td",null,[_("button",{onClick:l=>o.deleteWorkshop(s)},"delete",8,lDt)])]))),256))]),_("div",uDt,[_("button",{onClick:t[0]||(t[0]=a=>o.deleteAll()),title:"except occupied"},"delete all")]),cDt,fDt,_("table",hDt,[_("tr",null,[dDt,_("td",null,[at(_("select",{"onUpdate:modelValue":t[1]||(t[1]=a=>e.filterTown=a)},[(I(!0),O(W,null,Pt(o.filteredTowns,a=>(I(),O("option",{value:a},M(a>=0?n.gameStore.uloc.town[a]:"any"),9,pDt))),256))],512),[[cr,e.filterTown]])])]),_("tr",null,[gDt,_("td",null,[at(_("select",{"onUpdate:modelValue":t[2]||(t[2]=a=>e.filterUsage=a)},[(I(!0),O(W,null,Pt(o.filteredUsages,a=>(I(),O("option",{value:a},M(a>=0?n.gameStore.uloc.housetype[a]+" "+a:"any"),9,vDt))),256))],512),[[cr,e.filterUsage]])])]),_("tr",null,[mDt,_("td",null,[at(_("select",{"onUpdate:modelValue":t[3]||(t[3]=a=>e.filterLevel=a)},[(I(!0),O(W,null,Pt(o.filteredLevels,a=>(I(),O("option",{value:a},M(a>=0?a+"+":"any"),9,yDt))),256))],512),[[cr,e.filterLevel]])])]),_("tr",null,[_Dt,_("td",null,[at(_("select",{"onUpdate:modelValue":t[4]||(t[4]=a=>e.selectedHouse=a)},[(I(!0),O(W,null,Pt(o.filteredHouses,a=>(I(),O("option",{value:a},M(a)+" "+M(n.gameStore.uloc.char[a])+" "+M(a in n.userStore.userWorkshops?"\u2714\uFE0F":""),9,bDt))),256))],512),[[cr,e.selectedHouse]]),e.selectedHouse in n.userStore.userWorkshops?(I(),O("span",wDt," already in list! ")):nt("",!0)])])]),_("button",{disabled:e.selectedHouse==-1||e.selectedHouse in n.userStore.userWorkshops,onClick:t[5]||(t[5]=a=>o.addWorkshop(e.selectedHouse))}," add to my workshops ",8,SDt),F(" "+M()+" ",1),TDt],64)}const PDt=ae(qRt,[["render",kDt],["__scopeId","data-v-22a29fb5"]]);const EDt={name:"AbbrevSpinner",props:{modelValue:{type:null,required:!0}},emits:["update:modelValue"],computed:{display(){return this.isEditing?this.raw:this.formatPrice(this.modelValue)}},data(){return{isEditing:!1,raw:""}},methods:{formatPrice:QQ,unformatPrice:ttt,getStep(e){return e<=499?1:e<=999?5:e<=4999?10:e<=9999?50:e<=49999?100:e<=99999?500:e<=499999?1e3:e<=999999?5e3:e<=4999999?1e4:e<=9999999?5e4:e<=49999999?1e5:e<=99999999?5e5:e<=499999999?1e6:e<=999999999?5e6:e<=4999999999?1e7:e<=9999999999?5e7:e<=49999999999?1e8:e<=99999999999?5e8:e<=499999999999?1e9:e<=999999999999?5e9:e<=4999999999999?1e10:e<=9999999999999?5e10:1e11},onInput(e){this.isEditing=!0,this.raw=e.target.value;const t=this.unformatPrice(this.raw);this.$emit("update:modelValue",t)},format(){this.isEditing=!1},stepUp(){const e=this.getStep(this.modelValue),t=(Math.floor(this.modelValue/e)+1)*e;this.$emit("update:modelValue",t)},stepDown(){const e=this.getStep(this.modelValue),t=(Math.ceil(this.modelValue/e)-1)*e;this.$emit("update:modelValue",t)},step(e){e==1&&this.stepUp(),e==-1&&this.stepDown()},startSpin(e){this.step(e),this.holdTimeout=setTimeout(()=>{this.holdInterval=setInterval(()=>{this.step(e)},70)},450),window.addEventListener("mouseup",this.stopSpin,{once:!0})},stopSpin(){clearTimeout(this.holdTimeout),clearInterval(this.holdInterval),this.holdTimeout=null,this.holdInterval=null}},beforeUnmount(){this.stopSpin()}},CDt={class:"spin-input"},ADt=["value"],xDt={class:"spin-buttons"};function MDt(e,t,r,n,i,o){return I(),O("div",CDt,[_("input",{type:"text",value:o.display,onInput:t[0]||(t[0]=(...a)=>o.onInput&&o.onInput(...a)),onKeydown:[t[1]||(t[1]=kk(ma((...a)=>o.stepUp&&o.stepUp(...a),["prevent"]),["up"])),t[2]||(t[2]=kk(ma((...a)=>o.stepDown&&o.stepDown(...a),["prevent"]),["down"]))],onBlur:t[3]||(t[3]=(...a)=>o.format&&o.format(...a))},null,40,ADt),_("div",xDt,[_("button",{"aria-label":"Increase",onMousedown:t[4]||(t[4]=ma(a=>o.startSpin(1),["prevent"])),onMouseup:t[5]||(t[5]=(...a)=>o.stopSpin&&o.stopSpin(...a)),onMouseleave:t[6]||(t[6]=(...a)=>o.stopSpin&&o.stopSpin(...a))},null,32),_("button",{"aria-label":"Decrease",onMousedown:t[7]||(t[7]=ma(a=>o.startSpin(-1),["prevent"])),onMouseup:t[8]||(t[8]=(...a)=>o.stopSpin&&o.stopSpin(...a)),onMouseleave:t[9]||(t[9]=(...a)=>o.stopSpin&&o.stopSpin(...a))},null,32)])])}const LH=ae(EDt,[["render",MDt]]);const IDt={setup(){const e=ee(),t=mr(),r=At(),n=ii();return{gameStore:r,userStore:e,routingStore:t,marketStore:n}},props:{show:{type:Boolean,default:!1}},components:{ItemIcon:no,PriceInput:LH},created(){},data:()=>({cpCost:.4,pcHours:16,repeatGroupMeanings:{0:"wspd",1:"wspd_jewelry",2:"wspd_mass",3:"wspd_weap",4:"wspd_tool",5:"wspd_furn",7:"wspd_costume",8:"wspd_refine",9:"wspd_siege",10:"wspd_mount",11:"wspd_farm",13:"wspd_exclus"}}),computed:{repeatGroupIds(){const e={};for(const[t,r]of Object.entries(this.repeatGroupMeanings))e[r]=Number(t);return e},perTownPerRecipePerThrifty(){const e={};for(const t of this.routingStore.wsJobs){const r=t.worker.tnk,n=t.worker.job.recipe,i=t.thriftyPercent;if(!(n in this.gameStore.craftInputs)){console.log("rcp",n,"not supported");continue}if(r in e||(e[r]={}),n in e[r]||(e[r][n]={}),!(i in e[r][n])){const f=this.gameStore.craftInfo[n].rp;e[r][n][i]={repeatGroup:f,workers:0,cyclesPerDay:0,completionsPerDay:0,workload:this.gameStore.craftInfo[n].wl}}e[r][n][i].workers+=1;const o=this.gameStore.craftInfo[n].rp,a=t.worker.job.hk,s=this.userStore.userWorkshops[a],l=this.gameStore.measureWorkshopWorker(a,s,t.worker).cyclesDaily;e[r][n][i].cyclesPerDay+=l;const u=this.gameStore.repeatsWorkshopWorker(t.worker,o),c=l*this.gameStore.craftInfo[n].aoc*u;e[r][n][i].completionsPerDay+=c}return e},usedInputItems(){const e=new Set([9492]);if(!this.gameStore.ready)return e;for(const t of Object.values(this.perTownPerRecipePerThrifty))for(const r of Object.keys(t)){const n=this.gameStore.craftInputs[r];for(const i of Object.keys(n))e.add(i)}return e},tradingLevelString(){const e=this.userStore.tradingLevel;return 90<e?`G${e-90}`:60<e?`M${e-60}`:`${e}`},townStat(){const e={},t=new Set;for(const[r,n]of Object.entries(this.perTownPerRecipePerThrifty)){t.add(r),e[r]={workers:0,completionsPerDay:0,completionsPerDayDoubleEnded:0,reverseConnection:!1};const i=this.userStore.tradeDestinations[r];t.has(i)&&this.userStore.tradeDestinations[i]==r&&(e[r].reverseConnection=!0);for(const o of Object.values(n))for(const a of Object.values(o))e[r].workers+=a.workers,e[r].completionsPerDay+=a.completionsPerDay;e[r].reverseConnection?(e[i].completionsPerDayDoubleEnded+=e[r].completionsPerDay,e[r].completionsPerDayDoubleEnded=e[i].completionsPerDayDoubleEnded):e[r].completionsPerDayDoubleEnded+=e[r].completionsPerDay}return e},rows(){const e={towns:{},transport:{},total:{silver:0,CP:0,transportUtilization:0}};if(!this.gameStore.ready)return e;for(const[t,r]of Object.entries(this.perTownPerRecipePerThrifty)){e.towns[t]=[];const n=this.userStore.tradeDestinations[t],i=this.townStat[t].reverseConnection?n:t,o=this.transportHours(t,n),a=Math.ceil(this.pcHours/o),s=Math.ceil(this.pcHours/o),l=5*s*6e4;t in this.userStore.tradeRouteCp||(this.userStore.tradeRouteCp[t]=0);const u=this.userStore.tradeRouteCp[i];t in this.userStore.tradeInfraCp||(this.userStore.tradeInfraCp[t]=0);const c=`${this.gameStore.uloc.node[t]} \u2192 ${this.gameStore.uloc.node[n]}`;if(!(c in e.transport)){const f=5*a;e.transport[c]={duration:h6(o),wagonRuns:a,haveWagons:f,needWagons:0,utilization:0}}for(const[f,h]of Object.entries(r))for(const[d,p]of Object.entries(h)){const g=this.recipeCost(f,Number(d)),m=p.completionsPerDay/p.cyclesPerDay,v=this.marketStore.prices[9492],y=v/3/m;g.val+=y,g.desc+=`${v} / 3 / ${dt(m,2)} = ${dt(y)}
+You need to manually work around this.`},"\u2139",-1));function kDt(e,t,r,n,i,o){return I(),O(W,null,[JRt,_("table",QRt,[tDt,(I(!0),O(W,null,Pt(n.userStore.userWorkshops,(a,s)=>(I(),O("tr",null,[_("td",null,M(n.gameStore.uloc.char[s]),1),_("td",null,[at(_("input",{class:"w5em","onUpdate:modelValue":l=>a.label=l},null,8,eDt),[[Gt,a.label,void 0,{number:!0}]])]),_("td",null,[at(_("select",{"onUpdate:modelValue":l=>a.industry=l},iDt,8,rDt),[[cr,a.industry]])]),_("td",null,[at(_("input",{type:"number",class:"w5em","onUpdate:modelValue":l=>a.manualWorkload=l},null,8,oDt),[[Gt,a.manualWorkload,void 0,{number:!0}]])]),_("td",null,[at(_("input",{type:"number",class:"w7em","onUpdate:modelValue":l=>a.manualCycleIncome=l},null,8,aDt),[[Gt,a.manualCycleIncome,void 0,{number:!0}]])]),_("td",null,[at(_("input",{type:"number",class:"w5em","onUpdate:modelValue":l=>a.manualCp=l},null,8,sDt),[[Gt,a.manualCp,void 0,{number:!0}]])]),_("td",null,[_("button",{onClick:l=>o.deleteWorkshop(s)},"delete",8,lDt)])]))),256))]),_("div",uDt,[_("button",{onClick:t[0]||(t[0]=a=>o.deleteAll()),title:"except occupied"},"delete all")]),cDt,fDt,_("table",hDt,[_("tr",null,[dDt,_("td",null,[at(_("select",{"onUpdate:modelValue":t[1]||(t[1]=a=>e.filterTown=a)},[(I(!0),O(W,null,Pt(o.filteredTowns,a=>(I(),O("option",{value:a},M(a>=0?n.gameStore.uloc.town[a]:"any"),9,pDt))),256))],512),[[cr,e.filterTown]])])]),_("tr",null,[gDt,_("td",null,[at(_("select",{"onUpdate:modelValue":t[2]||(t[2]=a=>e.filterUsage=a)},[(I(!0),O(W,null,Pt(o.filteredUsages,a=>(I(),O("option",{value:a},M(a>=0?n.gameStore.uloc.housetype[a]+" "+a:"any"),9,vDt))),256))],512),[[cr,e.filterUsage]])])]),_("tr",null,[mDt,_("td",null,[at(_("select",{"onUpdate:modelValue":t[3]||(t[3]=a=>e.filterLevel=a)},[(I(!0),O(W,null,Pt(o.filteredLevels,a=>(I(),O("option",{value:a},M(a>=0?a+"+":"any"),9,yDt))),256))],512),[[cr,e.filterLevel]])])]),_("tr",null,[_Dt,_("td",null,[at(_("select",{"onUpdate:modelValue":t[4]||(t[4]=a=>e.selectedHouse=a)},[(I(!0),O(W,null,Pt(o.filteredHouses,a=>(I(),O("option",{value:a},M(a)+" "+M(n.gameStore.uloc.char[a])+" "+M(a in n.userStore.userWorkshops?"\u2714\uFE0F":""),9,bDt))),256))],512),[[cr,e.selectedHouse]]),e.selectedHouse in n.userStore.userWorkshops?(I(),O("span",wDt," already in list! ")):nt("",!0)])])]),_("button",{disabled:e.selectedHouse==-1||e.selectedHouse in n.userStore.userWorkshops,onClick:t[5]||(t[5]=a=>o.addWorkshop(e.selectedHouse))}," add to my workshops ",8,SDt),F(" "+M()+" ",1),TDt],64)}const PDt=ae(qRt,[["render",kDt],["__scopeId","data-v-22a29fb5"]]);const EDt={name:"AbbrevSpinner",props:{modelValue:{type:null,required:!0},defaultValue:{type:null,required:!1}},emits:["update:modelValue"],computed:{display(){return this.isEditing?this.raw:this.formatPrice(this.modelValue)}},data(){return{isEditing:!1,raw:""}},methods:{formatPrice:QQ,unformatPrice:ttt,getStep(e){return e<=499?1:e<=999?5:e<=4999?10:e<=9999?50:e<=49999?100:e<=99999?500:e<=499999?1e3:e<=999999?5e3:e<=4999999?1e4:e<=9999999?5e4:e<=49999999?1e5:e<=99999999?5e5:e<=499999999?1e6:e<=999999999?5e6:e<=4999999999?1e7:e<=9999999999?5e7:e<=49999999999?1e8:e<=99999999999?5e8:e<=499999999999?1e9:e<=999999999999?5e9:e<=4999999999999?1e10:e<=9999999999999?5e10:1e11},onInput(e){this.isEditing=!0,this.raw=e.target.value;const t=this.unformatPrice(this.raw);this.$emit("update:modelValue",t)},format(){this.isEditing=!1},stepUp(){const e=this.modelValue?this.modelValue:this.defaultValue;console.log("this.modelValue",this.modelValue,"this.defaultValue",this.defaultValue,"v",e);const t=this.getStep(e),r=(Math.floor(e/t)+1)*t;this.$emit("update:modelValue",r)},stepDown(){const e=this.modelValue?this.modelValue:this.defaultValue,t=this.getStep(e),r=(Math.ceil(e/t)-1)*t;this.$emit("update:modelValue",r)},step(e){e==1&&this.stepUp(),e==-1&&this.stepDown()},startSpin(e){this.step(e),this.holdTimeout=setTimeout(()=>{this.holdInterval=setInterval(()=>{this.step(e)},70)},450),window.addEventListener("mouseup",this.stopSpin,{once:!0})},stopSpin(){clearTimeout(this.holdTimeout),clearInterval(this.holdInterval),this.holdTimeout=null,this.holdInterval=null}},beforeUnmount(){this.stopSpin()}},CDt={class:"spin-input"},ADt=["value"],xDt={class:"spin-buttons"};function MDt(e,t,r,n,i,o){return I(),O("div",CDt,[_("input",{type:"text",value:o.display,onInput:t[0]||(t[0]=(...a)=>o.onInput&&o.onInput(...a)),onKeydown:[t[1]||(t[1]=kk(ma((...a)=>o.stepUp&&o.stepUp(...a),["prevent"]),["up"])),t[2]||(t[2]=kk(ma((...a)=>o.stepDown&&o.stepDown(...a),["prevent"]),["down"]))],onBlur:t[3]||(t[3]=(...a)=>o.format&&o.format(...a))},null,40,ADt),_("div",xDt,[_("button",{"aria-label":"Increase",onMousedown:t[4]||(t[4]=ma(a=>o.startSpin(1),["prevent"])),onMouseup:t[5]||(t[5]=(...a)=>o.stopSpin&&o.stopSpin(...a)),onMouseleave:t[6]||(t[6]=(...a)=>o.stopSpin&&o.stopSpin(...a))},null,32),_("button",{"aria-label":"Decrease",onMousedown:t[7]||(t[7]=ma(a=>o.startSpin(-1),["prevent"])),onMouseup:t[8]||(t[8]=(...a)=>o.stopSpin&&o.stopSpin(...a)),onMouseleave:t[9]||(t[9]=(...a)=>o.stopSpin&&o.stopSpin(...a))},null,32)])])}const LH=ae(EDt,[["render",MDt]]);const IDt={setup(){const e=ee(),t=mr(),r=At(),n=ii();return{gameStore:r,userStore:e,routingStore:t,marketStore:n}},props:{show:{type:Boolean,default:!1}},components:{ItemIcon:no,PriceInput:LH},created(){},data:()=>({cpCost:.4,pcHours:16,repeatGroupMeanings:{0:"wspd",1:"wspd_jewelry",2:"wspd_mass",3:"wspd_weap",4:"wspd_tool",5:"wspd_furn",7:"wspd_costume",8:"wspd_refine",9:"wspd_siege",10:"wspd_mount",11:"wspd_farm",13:"wspd_exclus"}}),computed:{repeatGroupIds(){const e={};for(const[t,r]of Object.entries(this.repeatGroupMeanings))e[r]=Number(t);return e},perTownPerRecipePerThrifty(){const e={};for(const t of this.routingStore.wsJobs){const r=t.worker.tnk,n=t.worker.job.recipe,i=t.thriftyPercent;if(!(n in this.gameStore.craftInputs)){console.log("rcp",n,"not supported");continue}if(r in e||(e[r]={}),n in e[r]||(e[r][n]={}),!(i in e[r][n])){const f=this.gameStore.craftInfo[n].rp;e[r][n][i]={repeatGroup:f,workers:0,cyclesPerDay:0,completionsPerDay:0,workload:this.gameStore.craftInfo[n].wl}}e[r][n][i].workers+=1;const o=this.gameStore.craftInfo[n].rp,a=t.worker.job.hk,s=this.userStore.userWorkshops[a],l=this.gameStore.measureWorkshopWorker(a,s,t.worker).cyclesDaily;e[r][n][i].cyclesPerDay+=l;const u=this.gameStore.repeatsWorkshopWorker(t.worker,o),c=l*this.gameStore.craftInfo[n].aoc*u;e[r][n][i].completionsPerDay+=c}return e},usedInputItems(){const e=new Set([9492]);if(!this.gameStore.ready)return e;for(const t of Object.values(this.perTownPerRecipePerThrifty))for(const r of Object.keys(t)){const n=this.gameStore.craftInputs[r];for(const i of Object.keys(n))e.add(i)}return e},tradingLevelString(){const e=this.userStore.tradingLevel;return 90<e?`G${e-90}`:60<e?`M${e-60}`:`${e}`},townStat(){const e={},t=new Set;for(const[r,n]of Object.entries(this.perTownPerRecipePerThrifty)){t.add(r),e[r]={workers:0,completionsPerDay:0,completionsPerDayDoubleEnded:0,reverseConnection:!1};const i=this.userStore.tradeDestinations[r];t.has(i)&&this.userStore.tradeDestinations[i]==r&&(e[r].reverseConnection=!0);for(const o of Object.values(n))for(const a of Object.values(o))e[r].workers+=a.workers,e[r].completionsPerDay+=a.completionsPerDay;e[r].reverseConnection?(e[i].completionsPerDayDoubleEnded+=e[r].completionsPerDay,e[r].completionsPerDayDoubleEnded=e[i].completionsPerDayDoubleEnded):e[r].completionsPerDayDoubleEnded+=e[r].completionsPerDay}return e},rows(){const e={towns:{},transport:{},total:{silver:0,CP:0,transportUtilization:0}};if(!this.gameStore.ready)return e;for(const[t,r]of Object.entries(this.perTownPerRecipePerThrifty)){e.towns[t]=[];const n=this.userStore.tradeDestinations[t],i=this.townStat[t].reverseConnection?n:t,o=this.transportHours(t,n),a=Math.ceil(this.pcHours/o),s=Math.ceil(this.pcHours/o),l=5*s*6e4;t in this.userStore.tradeRouteCp||(this.userStore.tradeRouteCp[t]=0);const u=this.userStore.tradeRouteCp[i];t in this.userStore.tradeInfraCp||(this.userStore.tradeInfraCp[t]=0);const c=`${this.gameStore.uloc.node[t]} \u2192 ${this.gameStore.uloc.node[n]}`;if(!(c in e.transport)){const f=5*a;e.transport[c]={duration:h6(o),wagonRuns:a,haveWagons:f,needWagons:0,utilization:0}}for(const[f,h]of Object.entries(r))for(const[d,p]of Object.entries(h)){const g=this.recipeCost(f,Number(d)),m=p.completionsPerDay/p.cyclesPerDay,v=this.marketStore.prices[9492],y=v/3/m;g.val+=y,g.desc+=`${v} / 3 / ${dt(m,2)} = ${dt(y)}
 `;const b=this.gameStore.craftInfo[f].aoc;b!=1&&(g.val/=b,g.desc+=`----------------------
 `,g.desc+=`divided by ${b}
-`);const w=this.tradeInfo(f,t,n);w.delta=w.sellPrice-g.val-w.transportFee,w.deltaDesc=`${dt(w.sellPrice)} - ${dt(g.val)} - ${dt(w.transportFee)}`,w.roi=w.delta/(g.val+w.transportFee),w.dailyProfit=w.delta*p.completionsPerDay/1e6,w.routeCp=this.userStore.tradeRouteAlwaysOn[i]?u*p.completionsPerDay/this.townStat[t].completionsPerDayDoubleEnded:u*p.completionsPerDay*w.crateWeight/l;const T=this.userStore.tradeRouteAlwaysOn[t]?`${u}CP * ${dt(p.completionsPerDay)} / ${dt(this.townStat[t].completionsPerDayDoubleEnded)} crates`:`${u}CP * ${dt(p.completionsPerDay*w.crateWeight/l*100,3)}% utilization`;w.cp=this.userStore.tradeInfraCp[t]/this.townStat[t].workers*p.workers+w.routeCp,w.cpDesc=`${this.userStore.tradeInfraCp[t]}CP / ${this.townStat[t].workers} x ${p.workers} workers + ${T}`,w.eff=w.dailyProfit/w.cp;const S=e.towns[t][e.towns[t].length-1],k=S&&f==S.rcp;e.towns[t].push({rcp:f,collapsed:k,rowspan:1,thriftyPercent:d,makeCost:g,perf:p,tradeInfo:w}),e.transport[c].needWagons+=p.completionsPerDay*w.crateWeight/6e4,e.total.silver+=p.completionsPerDay*w.delta,e.total.CP+=w.cp}}for(const t of Object.values(e.transport))t.utilization=t.needWagons/t.haveWagons,e.total.transportUtilization+=t.utilization;return e.total.eff=e.total.silver/1e6/e.total.CP,e},table(){const e=this.rows;let t;for(const[r,n]of Object.entries(e.towns))for(const i of n)i.collapsed?t.rowspan++:t=i;return this.rows}},methods:{formatFixed:dt,hoursToHMS:h6,recipeCost(e,t){if(!(e in this.gameStore.craftInputs)){const n=`recipe ${e} can't be priced`;return console.log(n),{val:NaN,desc:n}}const r=this.gameStore.craftInputs[e];if(t>0){const n={},i=Object.entries(r).length;for(const o of Object.keys(r))if(r[o]>=10){const a=Math.floor(r[o]/10),s=a*(1-t/i/100);n[o]=r[o]-a+s}else n[o]=r[o];return this.marketStore.priceBunch(n)}return this.marketStore.priceBunch(r)},distanceToTrader(e,t){if(!this.gameStore.ready)return NaN;if(!e)return NaN;if(!t)return NaN;const r=this.gameStore.nodes[e].pos,n=this.gameStore.traders[t],i=r.x-n[0],o=0,a=r.z-n[1];return Math.sqrt(i*i+o*o+a*a)},distancePriceBonus(e,t){const n=this.distanceToTrader(e,t)*68/1e8;return n>1.5?1.5:n},distance(e,t){if(!this.gameStore.ready)return NaN;if(!e)return NaN;if(!t)return NaN;const r=this.gameStore.nodes[e].pos,n=this.gameStore.nodes[t].pos,i=r.x-n.x,o=0,a=r.z-n.z;return Math.sqrt(i*i+o*o+a*a)},transportCostPerLt(e,t,r){const i=this.distance(e,t)*.18/6e4;return r?i*4:i},transportHours(e,t){return this.distance(e,t)*2.6/1e6},tradeInfo(e,t,r){if(!this.gameStore.ready)return NaN;if(!(e in this.gameStore.craftOutputs))return NaN;const n=this.gameStore.craftOutputs[e][0];if(!(n in this.gameStore.itemInfo))return NaN;const i=this.gameStore.itemInfo[n].vendorPrice,o=this.distancePriceBonus(t,r),a=i*(1+o)*(1+this.userStore.bargainBonus),s=`${i} x ${1+o} x ${1+this.userStore.bargainBonus}`,l=this.gameStore.itemInfo[n].weight,u=this.transportCostPerLt(t,r),c=l*u;return{destination:r,distanceBonus:o,crateWeight:l,costPerLt:u,sellPrice:a,sellPriceDesc:s,transportFee:c}},routeSortedDestinations(e,t){const r=[];for(const n of Object.keys(this.gameStore.traders))r.push(this.tradeInfo(e,t,n));return r.sort((n,i)=>i.sellPrice-i.transportFee-(n.sellPrice-n.transportFee)),r},townSortedDestinations(e){const t=[];for(const n of Object.keys(this.gameStore.traders))t.push(this.tradeInfo(9212,e,n));return t.sort((n,i)=>i.sellPrice-i.transportFee-(n.sellPrice-n.transportFee)),t},copyToWorkshops(){for(const e of this.routingStore.wsJobs){const t=e.worker.tnk,r=e.worker.job.recipe,n=e.thriftyPercent,i=e.worker.job.hk,o=this.userStore.userWorkshops[i];if(t in this.table.towns)for(const a of this.table.towns[t])r==a.rcp&&n==a.thriftyPercent&&(o.industry=a.perf.repeatGroup,o.manualWorkload=a.perf.workload,o.manualCp=a.tradeInfo.cp/a.perf.workers,o.manualCycleIncome=Math.round(a.tradeInfo.delta))}}}},ao=e=>(Ze("data-v-d235abae"),e=e(),qe(),e),LDt=ao(()=>_("div",{class:"container"},null,-1)),ODt={class:"container"},RDt={class:"left"},DDt=ao(()=>_("h3",{style:{display:"inline"}},"Active recipes",-1)),NDt=ao(()=>_("thead",null,[_("tr",null,[_("th",null,"out"),_("th",null,"sell $"),_("th",null,[_("abbr",{class:"tooltip",title:"workers"}," w ")]),_("th",null,[_("abbr",{class:"tooltip",title:"crates/day"}," c/d ")]),_("th",null,[_("abbr",{class:"tooltip",title:"thrifty %"}," \u{1F9EA} ")]),_("th",null,"make $"),_("th",null,"wagon $"),_("th",null,"profit $"),_("th",null,[F(" ROI "),_("abbr",{class:"tooltip",title:"profit / (make + wagon)"},"\u2139")]),_("th",null,"M$/day"),_("th",null,[F(" CP "),_("abbr",{class:"tooltip",title:"infra + connection"},"\u2139")]),_("th",null,"M$/day/CP")])],-1)),FDt={colspan:"2",class:"tac"},$Dt={colspan:"4",class:"tac"},BDt=ao(()=>_("abbr",{class:"tooltip",title:`total town infrastructure 
+`);const w=this.tradeInfo(f,t,n);w.delta=w.sellPrice-g.val-w.transportFee,w.deltaDesc=`${dt(w.sellPrice)} - ${dt(g.val)} - ${dt(w.transportFee)}`,w.roi=w.delta/(g.val+w.transportFee),w.dailyProfit=w.delta*p.completionsPerDay/1e6,w.routeCp=this.userStore.tradeRouteAlwaysOn[i]?u*p.completionsPerDay/this.townStat[t].completionsPerDayDoubleEnded:u*p.completionsPerDay*w.crateWeight/l;const T=this.userStore.tradeRouteAlwaysOn[t]?`${u}CP * ${dt(p.completionsPerDay)} / ${dt(this.townStat[t].completionsPerDayDoubleEnded)} crates`:`${u}CP * ${dt(p.completionsPerDay*w.crateWeight/l*100,3)}% utilization`;w.cp=this.userStore.tradeInfraCp[t]/this.townStat[t].workers*p.workers+w.routeCp,w.cpDesc=`${this.userStore.tradeInfraCp[t]}CP / ${this.townStat[t].workers} x ${p.workers} workers + ${T}`,w.eff=w.dailyProfit/w.cp;const S=e.towns[t][e.towns[t].length-1],k=S&&f==S.rcp;e.towns[t].push({rcp:f,collapsed:k,rowspan:1,thriftyPercent:d,makeCost:g,perf:p,tradeInfo:w}),e.transport[c].needWagons+=p.completionsPerDay*w.crateWeight/6e4,e.total.silver+=p.completionsPerDay*w.delta,e.total.CP+=w.cp}}for(const t of Object.values(e.transport))t.utilization=t.needWagons/t.haveWagons,e.total.transportUtilization+=t.utilization;return e.total.eff=e.total.silver/1e6/e.total.CP,e},table(){const e=this.rows;let t;for(const[r,n]of Object.entries(e.towns))for(const i of n)i.collapsed?t.rowspan++:t=i;return this.rows}},methods:{formatFixed:dt,hoursToHMS:h6,recipeCost(e,t){if(!(e in this.gameStore.craftInputs)){const n=`recipe ${e} can't be priced`;return console.log(n),{val:NaN,desc:n}}const r=this.gameStore.craftInputs[e];if(t>0){const n={},i=Object.entries(r).length;for(const o of Object.keys(r))if(r[o]>=10){const a=Math.floor(r[o]/10),s=a*(1-t/i/100);n[o]=r[o]-a+s}else n[o]=r[o];return this.marketStore.priceBunch(n)}return this.marketStore.priceBunch(r)},distanceToTrader(e,t){if(!this.gameStore.ready)return NaN;if(!e)return NaN;if(!t)return NaN;const r=this.gameStore.nodes[e].pos,n=this.gameStore.traders[t],i=r.x-n[0],o=0,a=r.z-n[1];return Math.sqrt(i*i+o*o+a*a)},distancePriceBonus(e,t){const n=this.distanceToTrader(e,t)*68/1e8;return n>1.5?1.5:n},distance(e,t){if(!this.gameStore.ready)return NaN;if(!e)return NaN;if(!t)return NaN;const r=this.gameStore.nodes[e].pos,n=this.gameStore.nodes[t].pos,i=r.x-n.x,o=0,a=r.z-n.z;return Math.sqrt(i*i+o*o+a*a)},transportCostPerLt(e,t,r){const i=this.distance(e,t)*.18/6e4;return r?i*4:i},transportHours(e,t){return this.distance(e,t)*2.6/1e6},tradeInfo(e,t,r){if(!this.gameStore.ready)return NaN;if(!(e in this.gameStore.craftOutputs))return NaN;const n=this.gameStore.craftOutputs[e][0];if(!(n in this.gameStore.itemInfo))return NaN;const i=this.gameStore.itemInfo[n].vendorPrice,o=this.distancePriceBonus(t,r),a=i*(1+o)*(1+this.userStore.bargainBonus),s=`${i} x ${1+o} x ${1+this.userStore.bargainBonus}`,l=this.gameStore.itemInfo[n].weight,u=this.transportCostPerLt(t,r),c=l*u;return{destination:r,distanceBonus:o,crateWeight:l,costPerLt:u,sellPrice:a,sellPriceDesc:s,transportFee:c}},routeSortedDestinations(e,t){const r=[];for(const n of Object.keys(this.gameStore.traders))r.push(this.tradeInfo(e,t,n));return r.sort((n,i)=>i.sellPrice-i.transportFee-(n.sellPrice-n.transportFee)),r},townSortedDestinations(e){const t=[];for(const n of Object.keys(this.gameStore.traders))t.push(this.tradeInfo(9212,e,n));return t.sort((n,i)=>i.sellPrice-i.transportFee-(n.sellPrice-n.transportFee)),t},copyToWorkshops(){for(const e of this.routingStore.wsJobs){const t=e.worker.tnk,r=e.worker.job.recipe,n=e.thriftyPercent,i=e.worker.job.hk,o=this.userStore.userWorkshops[i];if(t in this.table.towns)for(const a of this.table.towns[t])r==a.rcp&&n==a.thriftyPercent&&(o.industry=a.perf.repeatGroup,o.manualWorkload=a.perf.workload,o.manualCp=a.tradeInfo.cp/a.perf.workers,o.manualCycleIncome=Math.round(a.tradeInfo.delta))}}}},ao=e=>(Ze("data-v-03b6d47f"),e=e(),qe(),e),LDt=ao(()=>_("div",{class:"container"},null,-1)),ODt={class:"container"},RDt={class:"left"},DDt=ao(()=>_("h3",{style:{display:"inline"}},"Active recipes",-1)),NDt=ao(()=>_("thead",null,[_("tr",null,[_("th",null,"out"),_("th",null,"sell $"),_("th",null,[_("abbr",{class:"tooltip",title:"workers"}," w ")]),_("th",null,[_("abbr",{class:"tooltip",title:"crates/day"}," c/d ")]),_("th",null,[_("abbr",{class:"tooltip",title:"thrifty %"}," \u{1F9EA} ")]),_("th",null,"make $"),_("th",null,"wagon $"),_("th",null,"profit $"),_("th",null,[F(" ROI "),_("abbr",{class:"tooltip",title:"profit / (make + wagon)"},"\u2139")]),_("th",null,"M$/day"),_("th",null,[F(" CP "),_("abbr",{class:"tooltip",title:"infra + connection"},"\u2139")]),_("th",null,"M$/day/CP")])],-1)),FDt={colspan:"2",class:"tac"},$Dt={colspan:"4",class:"tac"},BDt=ao(()=>_("abbr",{class:"tooltip",title:`total town infrastructure 
 (workshops, storage, house connections)
 ON TOP of the houses autoassigned 
-on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"],VDt=F(" CP "),UDt={colspan:"6"},WDt=["onUpdate:modelValue"],jDt=["value"],GDt=F(" cost "),HDt=["onUpdate:modelValue"],XDt=F(" CP "),YDt=ao(()=>_("span",{class:"spacer"},null,-1)),KDt=["onUpdate:modelValue"],ZDt=F(" always on "),qDt=F("(reusing)"),JDt=["rowspan"],QDt=["rowspan"],t8t=["title"],e8t={class:"tac"},r8t={class:"tac"},n8t={class:"tac"},i8t={class:"tar"},o8t=["title"],a8t={class:"tar"},s8t={class:"tar"},l8t=["title"],u8t={class:"tar"},c8t={class:"tar"},f8t={class:"tar"},h8t=["title"],d8t={class:"tar"},p8t={class:"slider-container"},g8t=F(" Trading\xA0 "),v8t={style:{float:"right"}},m8t=ao(()=>_("br",null,null,-1)),y8t=ao(()=>_("summary",null,"Wagons",-1)),_8t=F(" Order issuing hours: "),b8t=ao(()=>_("br",null,null,-1)),w8t=ao(()=>_("thead",null,[_("tr",null,[_("th",null,"route"),_("th",null,"duration"),_("th",null,"needed"),_("th",null,"capacity"),_("th",null,"utilization")])],-1)),S8t={class:"tar"},T8t={class:"tar"},k8t={class:"tar"},P8t=ao(()=>_("td",{class:"tar",colspan:"4"},null,-1)),E8t={class:"tar"},C8t={class:"right"},A8t=ao(()=>_("h3",null,"Input prices",-1)),x8t=ao(()=>_("thead",null,[_("tr",null,[_("th",null,"item"),_("th",null,"custom"),_("th",null,"buy"),_("th",null,"eff")])],-1)),M8t=["disabled","onUpdate:modelValue"];function I8t(e,t,r,n,i,o){const a=zt("ItemIcon"),s=zt("PriceInput");return I(),O(W,null,[LDt,_("div",ODt,[_("div",RDt,[DDt,_("table",null,[NDt,_("tbody",null,[(I(!0),O(W,null,Pt(o.table.towns,(l,u)=>(I(),O(W,null,[_("tr",null,[_("td",FDt,M(n.gameStore.uloc.node[u]),1),_("td",$Dt,[BDt,F(M()+" ",1),at(_("input",{type:"number",class:"w33em","onUpdate:modelValue":c=>n.userStore.tradeInfraCp[u]=c},null,8,zDt),[[Gt,n.userStore.tradeInfraCp[u],void 0,{number:!0}]]),VDt]),_("td",UDt,[at(_("select",{"onUpdate:modelValue":c=>n.userStore.tradeDestinations[u]=c},[(I(!0),O(W,null,Pt(o.townSortedDestinations(u),c=>(I(),O("option",{key:c.destination,value:c.destination},M(n.gameStore.uloc.node[c.destination])+" "+M(o.formatFixed(c.distanceBonus*100,2))+"% "+M(o.formatFixed(30*c.costPerLt))+"$ ",9,jDt))),128))],8,WDt),[[cr,n.userStore.tradeDestinations[u]]]),o.townStat[u].reverseConnection==!1?(I(),O(W,{key:0},[GDt,at(_("input",{"onUpdate:modelValue":c=>n.userStore.tradeRouteCp[u]=c,type:"number",class:"w3em"},null,8,HDt),[[Gt,n.userStore.tradeRouteCp[u],void 0,{number:!0}]]),XDt,YDt,at(_("input",{type:"checkbox","onUpdate:modelValue":c=>n.userStore.tradeRouteAlwaysOn[u]=c},null,8,KDt),[[Ge,n.userStore.tradeRouteAlwaysOn[u]]]),ZDt],64)):(I(),O(W,{key:1},[qDt],64))])]),(I(!0),O(W,null,Pt(l,c=>(I(),O("tr",{key:c.tnk+"/"+c.rcp},[c.collapsed?nt("",!0):(I(),O("td",{key:0,rowspan:c.rowspan},[c.rcp&&n.gameStore.craftOutputs[c.rcp]?(I(!0),O(W,{key:0},Pt(n.gameStore.craftOutputs[c.rcp],f=>(I(),O(W,null,[n.gameStore.craftInfo[c.rcp].aoc!=1?(I(),O(W,{key:0},[F(M(n.gameStore.craftInfo[c.rcp].aoc),1)],64)):nt("",!0),ft(a,{ik:f},null,8,["ik"])],64))),256)):(I(),O(W,{key:1},[F(M(e.rcp),1)],64))],8,JDt)),c.collapsed?nt("",!0):(I(),O("td",{key:1,class:"tar",rowspan:c.rowspan},[_("abbr",{class:"tooltip",title:c.tradeInfo.sellPriceDesc},M(o.formatFixed(c.tradeInfo.sellPrice)),9,t8t)],8,QDt)),_("td",e8t,M(c.perf.workers),1),_("td",r8t,M(o.formatFixed(c.perf.completionsPerDay)),1),_("td",n8t,M(c.thriftyPercent),1),_("td",i8t,[_("abbr",{class:"tooltip",title:c.makeCost.desc},M(o.formatFixed(c.makeCost.val)),9,o8t)]),_("td",a8t,M(o.formatFixed(c.tradeInfo.transportFee)),1),_("td",s8t,[_("abbr",{class:"tooltip",title:c.tradeInfo.deltaDesc},M(o.formatFixed(c.tradeInfo.delta)),9,l8t)]),_("td",u8t,M(o.formatFixed(c.tradeInfo.roi*100))+"% ",1),_("td",c8t,M(o.formatFixed(c.tradeInfo.dailyProfit,2)),1),_("td",f8t,[_("abbr",{class:"tooltip",title:c.tradeInfo.cpDesc},M(o.formatFixed(c.tradeInfo.cp,2)),9,h8t)]),_("td",d8t,M(o.formatFixed(c.tradeInfo.eff,3)),1)]))),128))],64))),256))])]),_("div",p8t,[g8t,at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=l=>n.userStore.tradingLevel=l),min:"1",max:"140",step:"1"},null,512),[[Gt,n.userStore.tradingLevel,void 0,{number:!0}]]),F(" \xA0"+M(o.tradingLevelString)+" \u2192 "+M(o.formatFixed(n.userStore.bargainBonus*100,1))+"% bargain ",1)]),_("div",v8t,[_("button",{onClick:t[1]||(t[1]=l=>o.copyToWorkshops()),title:"industry, M$/day, CP"},"copy to workshops")]),m8t,F(" Total: "+M(o.formatFixed(o.table.total.silver/1e6,1))+" M$/day, "+M(o.formatFixed(o.table.total.CP,2))+" CP, "+M(o.formatFixed(o.table.total.eff,3))+" M$/day/CP ",1),_("details",null,[y8t,_8t,at(_("input",{type:"number",class:"w3em","onUpdate:modelValue":t[2]||(t[2]=l=>e.pcHours=l)},null,512),[[Gt,e.pcHours,void 0,{number:!0}]]),b8t,_("table",null,[w8t,_("tbody",null,[(I(!0),O(W,null,Pt(o.table.transport,(l,u)=>(I(),O("tr",null,[_("td",null,M(u),1),_("td",null,M(l.duration),1),_("td",S8t,M(o.formatFixed(l.needWagons,2)),1),_("td",T8t,M(l.haveWagons),1),_("td",k8t,M(o.formatFixed(l.utilization*100,2))+"% ",1)]))),256)),_("tr",null,[P8t,_("td",E8t,M(o.formatFixed(o.table.total.transportUtilization*100,2))+"% ",1)])])])])]),_("div",C8t,[A8t,_("table",null,[x8t,_("tbody",null,[(I(!0),O(W,null,Pt(o.usedInputItems,l=>(I(),O("tr",null,[_("td",null,[ft(a,{ik:Number(l)},null,8,["ik"])]),_("td",null,[ft(s,{modelValue:n.userStore.customPrices[l],"onUpdate:modelValue":u=>n.userStore.customPrices[l]=u},null,8,["modelValue","onUpdate:modelValue"])]),_("td",null,[at(_("input",{type:"checkbox",disabled:l in n.gameStore.vendorPrices,"onUpdate:modelValue":u=>n.userStore.keepItems[l]=u},null,8,M8t),[[Ge,n.userStore.keepItems[l]]])]),_("td",null,M(o.formatFixed(n.marketStore.prices[l])),1)]))),256))])])])])],64)}const L8t=ae(IDt,[["render",I8t],["__scopeId","data-v-d235abae"]]);const O8t={setup(){const e=At(),t=ee(),r=ii();return t.$subscribe((n,i)=>{const o=Date.now();localStorage.setItem("user",JSON.stringify(i)),console.log("userStore subscription took",Date.now()-o,"ms")}),{gameStore:e,userStore:t,marketStore:r}},components:{ItemIcon:no,ModalDialog:eA,WorkerEdit:aj,WorkshopsConfig:PDt,TradingConfig:L8t,PriceInput:LH},data:()=>({workerDialogVisible:!1,workshopsConfigVisible:!1,tradingConfigVisible:!1,highlightPending:!1,importDialogVisible:!1}),watch:{"userStore.marketUrl":{handler(e,t){this.marketStore.fetchData()}}},methods:{formatFixed:dt,reload(){this.marketStore.ready=!1,this.marketStore.fetchData()},highlightHash(){if(!!this.highlightPending&&(console.log("highlighting",this.$route.hash,this.highlightPending),this.$route.hash)){const e=document.querySelector(this.$route.hash);e&&(this.highlightPending=!1,e.scrollIntoView(),e.classList.add("anim"))}},fileParse(e){let t=e.target.result,r=JSON.parse(t);"effectivePrices"in r&&delete r.effectivePrices,this.userStore.$patch(r),this.importDialogVisible=!1},fileImport(e){if(!e)return;const t=e.target[0].files;if(t.length<1)return;const r=t[0];console.log("fileImport",r);let n=new FileReader;n.onload=this.fileParse,n.readAsText(r)},fileExport(){var e=document.createElement("a");let t={customPrices:this.userStore.customPrices,keepItems:this.userStore.keepItems,effectivePrices:this.marketStore.prices};const r=JSON.stringify(t);var n=new Blob([r],{type:"text/plain"});e.href=URL.createObjectURL(n),e.download="custom_prices.json",e.click()},clearCustomPrices(){this.userStore.customPrices={},this.userStore.keepItems={}}},mounted(){this.highlightPending=!0,this.highlightHash()},updated(){this.$nextTick(()=>{this.highlightHash()})}},Gr=e=>(Ze("data-v-49706dd0"),e=e(),qe(),e),R8t=Gr(()=>_("button",null,"import",-1)),D8t={id:"toptext"},N8t={class:"settings-tiles"},F8t={class:"settings-tile"},$8t=F(" Server: "),B8t=Yv("<option data-v-49706dd0>NA</option><option data-v-49706dd0>EU</option><option data-v-49706dd0>RU</option><option data-v-49706dd0>KR</option><option data-v-49706dd0>JP</option><option data-v-49706dd0>TH</option><option data-v-49706dd0>TW</option><option data-v-49706dd0>SA</option><option data-v-49706dd0>SEA</option><option data-v-49706dd0>MENA</option><option data-v-49706dd0>CEU</option><option data-v-49706dd0>CNA</option>",12),z8t=[B8t],V8t=Gr(()=>_("br",null,null,-1)),U8t=Gr(()=>_("label",{for:"vp_t"},"VP always on",-1)),W8t=F(") "),j8t=F(" Tax: "),G8t=Yv('<option value="0.65" data-v-49706dd0>0.65 (0)</option><option value="0.65325" data-v-49706dd0>0.65325 (1000)</option><option value="0.6565" data-v-49706dd0>0.6565 (4000)</option><option value="0.65975" data-v-49706dd0>0.65975 (7000)</option><option value="0.65975" data-v-49706dd0>0.69225 (7000 + ring)</option><option value="0.845" data-v-49706dd0>0.845 (0 + VP)</option><option value="0.84825" data-v-49706dd0>0.84825 (1000 + VP)</option><option value="0.8515" data-v-49706dd0>0.8515 (4000 + VP)</option><option value="0.85475" data-v-49706dd0>0.85475 (7000 + VP)</option><option value="0.88725" data-v-49706dd0>0.88725 (7000 + ring + VP)</option><option value="1" data-v-49706dd0>1 (just hoarding)</option>',11),H8t=[G8t],X8t=F(" Language: "),Y8t=Gr(()=>_("option",null,"en",-1)),K8t=Gr(()=>_("option",null,"ru",-1)),Z8t=Gr(()=>_("option",null,"ko",-1)),q8t=Gr(()=>_("option",null,"jp",-1)),J8t=Gr(()=>_("option",null,"tw",-1)),Q8t=[Y8t,K8t,Z8t,q8t,J8t],t9t={class:"settings-tile"},e9t=Gr(()=>_("div",null,"Default worker for hire:",-1)),r9t=Gr(()=>_("label",{for:"dw_f"},"Random Artisan Goblin",-1)),n9t={for:"dw_t"},i9t={class:"settings-tile"},o9t=F(" \u{1F33B}Farming "),a9t=Gr(()=>_("label",{for:"fe_t",style:{"margin-right":"0.4em"}},"enable",-1)),s9t={key:0},l9t={class:"slider-container"},u9t=Gr(()=>_("span",null,"F2P",-1)),c9t=Gr(()=>_("span",null,"P2W",-1)),f9t={style:{display:"flex"}},h9t=F(" Total profit from 10 large fences (use "),d9t=Gr(()=>_("a",{href:"https://bit.ly/MagicalFarmingProfit"},"MFP",-1)),p9t=F(" to estimate):"),g9t=Gr(()=>_("br",null,null,-1)),v9t=F(" M$/day with 10 workers "),m9t=Gr(()=>_("br",null,null,-1)),y9t=F(" M$/day with 0 workers (half growth speed) "),_9t={class:"settings-tile"},b9t=F(" \u{1F3ED}Workshops "),w9t={class:"settings-tile"},S9t=F(" \u{1F5FA}\uFE0F Map "),T9t=F(" hide inactive "),k9t=F(" px icon size "),P9t=Gr(()=>_("div",{class:"spacer"},null,-1)),E9t=F(" Market API status: "),C9t={key:0},A9t={key:1},x9t=F(" \xA0"),M9t=Gr(()=>_("p",null,"By default everything marketable is supposed to be sold on Central Market (with tax).",-1)),I9t=F("If the item is for self use, select Keep (=untax) and/or enter Custom price: "),L9t={class:"scrollable"},O9t={class:"stickyhead"},R9t=Gr(()=>_("thead",null,[_("tr",null,[_("th",null,"Item"),_("th",null,"Market"),_("th",null,"Custom"),_("th",null,"Keep"),_("th",null,"Effective")])],-1)),D9t=["id"],N9t=["href"],F9t=F(" "+M(" ")+" "),$9t={key:0},B9t=["title"],z9t={class:"tar"},V9t=["href"],U9t={class:"tac"},W9t=["disabled","onUpdate:modelValue"],j9t={class:"tar"};function G9t(e,t,r,n,i,o){const a=zt("ModalDialog"),s=zt("WorkerEdit"),l=zt("WorkshopsConfig"),u=zt("TradingConfig"),c=zt("ItemIcon"),f=zt("PriceInput");return I(),O(W,null,[ft(a,{show:e.importDialogVisible,"onUpdate:show":t[2]||(t[2]=h=>e.importDialogVisible=h)},{default:Fe(()=>[_("form",{onSubmit:t[1]||(t[1]=ma(h=>o.fileImport(h),["prevent"]))},[_("input",{type:"file",accept:".json",onClick:t[0]||(t[0]=h=>o.fileImport())}),R8t],32)]),_:1},8,["show"]),ft(a,{show:e.workerDialogVisible,"onUpdate:show":t[4]||(t[4]=h=>e.workerDialogVisible=h)},{default:Fe(()=>[ft(s,{workerEditing:n.userStore.defaultWorker,initialProfit:0,show:e.workerDialogVisible,"onUpdate:show":t[3]||(t[3]=h=>e.workerDialogVisible=h)},null,8,["workerEditing","show"])]),_:1},8,["show"]),ft(a,{show:e.workshopsConfigVisible,"onUpdate:show":t[5]||(t[5]=h=>e.workshopsConfigVisible=h)},{default:Fe(()=>[ft(l)]),_:1},8,["show"]),ft(a,{show:e.tradingConfigVisible,"onUpdate:show":t[6]||(t[6]=h=>e.tradingConfigVisible=h)},{default:Fe(()=>[ft(u)]),_:1},8,["show"]),_("main",null,[_("div",D8t,[_("div",N8t,[_("div",F8t,[_("div",null,[$8t,at(_("select",{"onUpdate:modelValue":t[7]||(t[7]=h=>n.userStore.selectedRegion=h),onChange:t[8]||(t[8]=(...h)=>e.fetchMarket&&e.fetchMarket(...h))},z8t,544),[[cr,n.userStore.selectedRegion]]),V8t,F(" \u2937 base storage: "+M(n.userStore.baseStorage)+" (",1),at(_("input",{type:"checkbox",id:"vp_t","onUpdate:modelValue":t[9]||(t[9]=h=>n.userStore.storageVP=h)},null,512),[[Ge,n.userStore.storageVP]]),U8t,W8t]),_("div",null,[j8t,at(_("select",{"onUpdate:modelValue":t[10]||(t[10]=h=>n.userStore.selectedTax=h)},H8t,512),[[cr,n.userStore.selectedTax]])]),_("div",null,[X8t,at(_("select",{"onUpdate:modelValue":t[11]||(t[11]=h=>n.userStore.selectedLang=h),onChange:t[12]||(t[12]=(...h)=>e.fetchMarket&&e.fetchMarket(...h))},Q8t,544),[[cr,n.userStore.selectedLang]])])]),_("div",t9t,[e9t,_("div",null,[at(_("input",{type:"radio",name:"dw",id:"dw_f",value:!1,"onUpdate:modelValue":t[13]||(t[13]=h=>n.userStore.useDefaultWorker=h)},null,512),[[Pa,n.userStore.useDefaultWorker]]),r9t]),_("div",null,[at(_("input",{type:"radio",name:"dw",id:"dw_t",value:!0,"onUpdate:modelValue":t[14]||(t[14]=h=>n.userStore.useDefaultWorker=h)},null,512),[[Pa,n.userStore.useDefaultWorker]]),_("label",n9t,[F("Custom ("+M(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).wspd,2))+"\u{1F528} "+M(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).mspd,2))+"\u{1F9B6} "+M(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).luck,2))+"\u{1F340}) ",1),_("button",{onClick:t[15]||(t[15]=h=>e.workerDialogVisible=!0)},"edit")])])]),_("div",i9t,[o9t,at(_("input",{type:"checkbox",id:"fe_t","onUpdate:modelValue":t[16]||(t[16]=h=>n.userStore.farmingEnable=h)},null,512),[[Ge,n.userStore.farmingEnable]]),a9t,n.userStore.farmingEnable?(I(),O("span",s9t,[_("div",l9t,[u9t,at(_("input",{type:"range",style:{width:"4em"},"onUpdate:modelValue":t[17]||(t[17]=h=>n.userStore.farmingP2WShare=h),min:"0",max:"80",step:"10"},null,512),[[Gt,n.userStore.farmingP2WShare,void 0,{number:!0}]]),c9t]),F(" (using "+M(80-n.userStore.farmingP2WShare)+"CP) ",1),_("div",f9t,[_("div",null,[h9t,d9t,p9t,g9t,at(_("input",{type:"number",class:"float4","onUpdate:modelValue":t[18]||(t[18]=h=>n.userStore.farmingProfit=h)},null,512),[[Gt,n.userStore.farmingProfit,void 0,{number:!0}]]),v9t,m9t,at(_("input",{type:"number",class:"float4","onUpdate:modelValue":t[19]||(t[19]=h=>n.userStore.farmingBareProfit=h)},null,512),[[Gt,n.userStore.farmingBareProfit,void 0,{number:!0}]]),y9t])])])):nt("",!0)]),_("div",_9t,[b9t,_("div",null,[_("button",{onClick:t[20]||(t[20]=h=>e.workshopsConfigVisible=!0)},"config"),_("button",{onClick:t[21]||(t[21]=h=>e.tradingConfigVisible=!0)},"tradecalc")])]),nt("",!0),_("div",w9t,[S9t,_("div",null,[at(_("input",{type:"checkbox",id:"vi_hie","onUpdate:modelValue":t[24]||(t[24]=h=>n.userStore.mapHideInactive=h)},null,512),[[Ge,n.userStore.mapHideInactive]]),T9t]),_("div",null,[at(_("input",{type:"number",class:"w3em",min:"20",max:"50","onUpdate:modelValue":t[25]||(t[25]=h=>n.userStore.mapIconSize=h)},null,512),[[Gt,n.userStore.mapIconSize]]),k9t])])]),P9t,E9t,n.marketStore.apiAlive?(I(),O("span",C9t,"\u2713")):(I(),O("span",A9t,"\u274C")),x9t,_("button",{onClick:t[26]||(t[26]=h=>o.reload())},"reload"),M9t,_("p",null,[I9t,_("button",{onClick:t[27]||(t[27]=h=>e.importDialogVisible=!0)},"import"),_("button",{onClick:t[28]||(t[28]=h=>o.fileExport())},"export"),_("button",{onClick:t[29]||(t[29]=h=>o.clearCustomPrices())},"clear")])]),_("div",L9t,[_("table",O9t,[R9t,_("tbody",null,[(I(!0),O(W,null,Pt(n.gameStore.itemKeys,h=>(I(),O("tr",{id:"item"+h},[_("td",null,[_("a",{href:this.userStore.itemUrl+h},[ft(c,{ik:h,with_name:!0},null,8,["ik"])],8,N9t),F9t,h in n.marketStore.calculatedPrices?(I(),O("span",$9t,[_("abbr",{class:"tooltip",title:`contains:
+on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"],VDt=F(" CP "),UDt={colspan:"6"},WDt=["onUpdate:modelValue"],jDt=["value"],GDt=F(" cost "),HDt=["onUpdate:modelValue"],XDt=F(" CP "),YDt=ao(()=>_("span",{class:"spacer"},null,-1)),KDt=["onUpdate:modelValue"],ZDt=F(" always on "),qDt=F("(reusing)"),JDt=["rowspan"],QDt=["rowspan"],t8t=["title"],e8t={class:"tac"},r8t={class:"tac"},n8t={class:"tac"},i8t={class:"tar"},o8t=["title"],a8t={class:"tar"},s8t={class:"tar"},l8t=["title"],u8t={class:"tar"},c8t={class:"tar"},f8t={class:"tar"},h8t=["title"],d8t={class:"tar"},p8t={class:"slider-container"},g8t=F(" Trading\xA0 "),v8t={style:{float:"right"}},m8t=ao(()=>_("br",null,null,-1)),y8t=ao(()=>_("summary",null,"Wagons",-1)),_8t=F(" Order issuing hours: "),b8t=ao(()=>_("br",null,null,-1)),w8t=ao(()=>_("thead",null,[_("tr",null,[_("th",null,"route"),_("th",null,"duration"),_("th",null,"needed"),_("th",null,"capacity"),_("th",null,"utilization")])],-1)),S8t={class:"tar"},T8t={class:"tar"},k8t={class:"tar"},P8t=ao(()=>_("td",{class:"tar",colspan:"4"},null,-1)),E8t={class:"tar"},C8t={class:"right"},A8t=ao(()=>_("h3",null,"Input prices",-1)),x8t=ao(()=>_("thead",null,[_("tr",null,[_("th",null,"item"),_("th",null,"custom"),_("th",null,"buy"),_("th",null,"eff")])],-1)),M8t={class:"tac"},I8t=["disabled","onUpdate:modelValue"];function L8t(e,t,r,n,i,o){const a=zt("ItemIcon"),s=zt("PriceInput");return I(),O(W,null,[LDt,_("div",ODt,[_("div",RDt,[DDt,_("table",null,[NDt,_("tbody",null,[(I(!0),O(W,null,Pt(o.table.towns,(l,u)=>(I(),O(W,null,[_("tr",null,[_("td",FDt,M(n.gameStore.uloc.node[u]),1),_("td",$Dt,[BDt,F(M()+" ",1),at(_("input",{type:"number",class:"w33em","onUpdate:modelValue":c=>n.userStore.tradeInfraCp[u]=c},null,8,zDt),[[Gt,n.userStore.tradeInfraCp[u],void 0,{number:!0}]]),VDt]),_("td",UDt,[at(_("select",{"onUpdate:modelValue":c=>n.userStore.tradeDestinations[u]=c},[(I(!0),O(W,null,Pt(o.townSortedDestinations(u),c=>(I(),O("option",{key:c.destination,value:c.destination},M(n.gameStore.uloc.node[c.destination])+" "+M(o.formatFixed(c.distanceBonus*100,2))+"% "+M(o.formatFixed(30*c.costPerLt))+"$ ",9,jDt))),128))],8,WDt),[[cr,n.userStore.tradeDestinations[u]]]),o.townStat[u].reverseConnection==!1?(I(),O(W,{key:0},[GDt,at(_("input",{"onUpdate:modelValue":c=>n.userStore.tradeRouteCp[u]=c,type:"number",class:"w3em"},null,8,HDt),[[Gt,n.userStore.tradeRouteCp[u],void 0,{number:!0}]]),XDt,YDt,at(_("input",{type:"checkbox","onUpdate:modelValue":c=>n.userStore.tradeRouteAlwaysOn[u]=c},null,8,KDt),[[Ge,n.userStore.tradeRouteAlwaysOn[u]]]),ZDt],64)):(I(),O(W,{key:1},[qDt],64))])]),(I(!0),O(W,null,Pt(l,c=>(I(),O("tr",{key:c.tnk+"/"+c.rcp},[c.collapsed?nt("",!0):(I(),O("td",{key:0,rowspan:c.rowspan},[c.rcp&&n.gameStore.craftOutputs[c.rcp]?(I(!0),O(W,{key:0},Pt(n.gameStore.craftOutputs[c.rcp],f=>(I(),O(W,null,[n.gameStore.craftInfo[c.rcp].aoc!=1?(I(),O(W,{key:0},[F(M(n.gameStore.craftInfo[c.rcp].aoc),1)],64)):nt("",!0),ft(a,{ik:f},null,8,["ik"])],64))),256)):(I(),O(W,{key:1},[F(M(e.rcp),1)],64))],8,JDt)),c.collapsed?nt("",!0):(I(),O("td",{key:1,class:"tar",rowspan:c.rowspan},[_("abbr",{class:"tooltip",title:c.tradeInfo.sellPriceDesc},M(o.formatFixed(c.tradeInfo.sellPrice)),9,t8t)],8,QDt)),_("td",e8t,M(c.perf.workers),1),_("td",r8t,M(o.formatFixed(c.perf.completionsPerDay)),1),_("td",n8t,M(c.thriftyPercent),1),_("td",i8t,[_("abbr",{class:"tooltip",title:c.makeCost.desc},M(o.formatFixed(c.makeCost.val)),9,o8t)]),_("td",a8t,M(o.formatFixed(c.tradeInfo.transportFee)),1),_("td",s8t,[_("abbr",{class:"tooltip",title:c.tradeInfo.deltaDesc},M(o.formatFixed(c.tradeInfo.delta)),9,l8t)]),_("td",u8t,M(o.formatFixed(c.tradeInfo.roi*100))+"% ",1),_("td",c8t,M(o.formatFixed(c.tradeInfo.dailyProfit,2)),1),_("td",f8t,[_("abbr",{class:"tooltip",title:c.tradeInfo.cpDesc},M(o.formatFixed(c.tradeInfo.cp,2)),9,h8t)]),_("td",d8t,M(o.formatFixed(c.tradeInfo.eff,3)),1)]))),128))],64))),256))])]),_("div",p8t,[g8t,at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=l=>n.userStore.tradingLevel=l),min:"1",max:"140",step:"1"},null,512),[[Gt,n.userStore.tradingLevel,void 0,{number:!0}]]),F(" \xA0"+M(o.tradingLevelString)+" \u2192 "+M(o.formatFixed(n.userStore.bargainBonus*100,1))+"% bargain ",1)]),_("div",v8t,[_("button",{onClick:t[1]||(t[1]=l=>o.copyToWorkshops()),title:"industry, M$/day, CP"},"copy to workshops")]),m8t,F(" Total: "+M(o.formatFixed(o.table.total.silver/1e6,1))+" M$/day, "+M(o.formatFixed(o.table.total.CP,2))+" CP, "+M(o.formatFixed(o.table.total.eff,3))+" M$/day/CP ",1),_("details",null,[y8t,_8t,at(_("input",{type:"number",class:"w3em","onUpdate:modelValue":t[2]||(t[2]=l=>e.pcHours=l)},null,512),[[Gt,e.pcHours,void 0,{number:!0}]]),b8t,_("table",null,[w8t,_("tbody",null,[(I(!0),O(W,null,Pt(o.table.transport,(l,u)=>(I(),O("tr",null,[_("td",null,M(u),1),_("td",null,M(l.duration),1),_("td",S8t,M(o.formatFixed(l.needWagons,2)),1),_("td",T8t,M(l.haveWagons),1),_("td",k8t,M(o.formatFixed(l.utilization*100,2))+"% ",1)]))),256)),_("tr",null,[P8t,_("td",E8t,M(o.formatFixed(o.table.total.transportUtilization*100,2))+"% ",1)])])])])]),_("div",C8t,[A8t,_("table",null,[x8t,_("tbody",null,[(I(!0),O(W,null,Pt(o.usedInputItems,l=>(I(),O("tr",null,[_("td",null,[ft(a,{ik:Number(l)},null,8,["ik"])]),_("td",null,[ft(s,{modelValue:n.userStore.customPrices[l],"onUpdate:modelValue":u=>n.userStore.customPrices[l]=u,defaultValue:n.marketStore.apiPrices[l]||n.marketStore.prices[l]},null,8,["modelValue","onUpdate:modelValue","defaultValue"])]),_("td",M8t,[at(_("input",{type:"checkbox",disabled:l in n.gameStore.vendorPrices,"onUpdate:modelValue":u=>n.userStore.keepItems[l]=u},null,8,I8t),[[Ge,n.userStore.keepItems[l]]])]),_("td",null,M(o.formatFixed(n.marketStore.prices[l])),1)]))),256))])])])])],64)}const O8t=ae(IDt,[["render",L8t],["__scopeId","data-v-03b6d47f"]]);const R8t={setup(){const e=At(),t=ee(),r=ii();return t.$subscribe((n,i)=>{const o=Date.now();localStorage.setItem("user",JSON.stringify(i)),console.log("userStore subscription took",Date.now()-o,"ms")}),{gameStore:e,userStore:t,marketStore:r}},components:{ItemIcon:no,ModalDialog:eA,WorkerEdit:aj,WorkshopsConfig:PDt,TradingConfig:O8t,PriceInput:LH},data:()=>({workerDialogVisible:!1,workshopsConfigVisible:!1,tradingConfigVisible:!1,highlightPending:!1,importDialogVisible:!1}),watch:{"userStore.marketUrl":{handler(e,t){this.marketStore.fetchData()}}},methods:{formatFixed:dt,reload(){this.marketStore.ready=!1,this.marketStore.fetchData()},highlightHash(){if(!!this.highlightPending&&(console.log("highlighting",this.$route.hash,this.highlightPending),this.$route.hash)){const e=document.querySelector(this.$route.hash);e&&(this.highlightPending=!1,e.scrollIntoView(),e.classList.add("anim"))}},fileParse(e){let t=e.target.result,r=JSON.parse(t);"effectivePrices"in r&&delete r.effectivePrices,this.userStore.$patch(r),this.importDialogVisible=!1},fileImport(e){if(!e)return;const t=e.target[0].files;if(t.length<1)return;const r=t[0];console.log("fileImport",r);let n=new FileReader;n.onload=this.fileParse,n.readAsText(r)},fileExport(){var e=document.createElement("a");let t={customPrices:this.userStore.customPrices,keepItems:this.userStore.keepItems,effectivePrices:this.marketStore.prices};const r=JSON.stringify(t);var n=new Blob([r],{type:"text/plain"});e.href=URL.createObjectURL(n),e.download="custom_prices.json",e.click()},clearCustomPrices(){this.userStore.customPrices={},this.userStore.keepItems={}}},mounted(){this.highlightPending=!0,this.highlightHash()},updated(){this.$nextTick(()=>{this.highlightHash()})}},Gr=e=>(Ze("data-v-fd25de6b"),e=e(),qe(),e),D8t=Gr(()=>_("button",null,"import",-1)),N8t={id:"toptext"},F8t={class:"settings-tiles"},$8t={class:"settings-tile"},B8t=F(" Server: "),z8t=Yv("<option data-v-fd25de6b>NA</option><option data-v-fd25de6b>EU</option><option data-v-fd25de6b>RU</option><option data-v-fd25de6b>KR</option><option data-v-fd25de6b>JP</option><option data-v-fd25de6b>TH</option><option data-v-fd25de6b>TW</option><option data-v-fd25de6b>SA</option><option data-v-fd25de6b>SEA</option><option data-v-fd25de6b>MENA</option><option data-v-fd25de6b>CEU</option><option data-v-fd25de6b>CNA</option>",12),V8t=[z8t],U8t=Gr(()=>_("br",null,null,-1)),W8t=Gr(()=>_("label",{for:"vp_t"},"VP always on",-1)),j8t=F(") "),G8t=F(" Tax: "),H8t=Yv('<option value="0.65" data-v-fd25de6b>0.65 (0)</option><option value="0.65325" data-v-fd25de6b>0.65325 (1000)</option><option value="0.6565" data-v-fd25de6b>0.6565 (4000)</option><option value="0.65975" data-v-fd25de6b>0.65975 (7000)</option><option value="0.65975" data-v-fd25de6b>0.69225 (7000 + ring)</option><option value="0.845" data-v-fd25de6b>0.845 (0 + VP)</option><option value="0.84825" data-v-fd25de6b>0.84825 (1000 + VP)</option><option value="0.8515" data-v-fd25de6b>0.8515 (4000 + VP)</option><option value="0.85475" data-v-fd25de6b>0.85475 (7000 + VP)</option><option value="0.88725" data-v-fd25de6b>0.88725 (7000 + ring + VP)</option><option value="1" data-v-fd25de6b>1 (just hoarding)</option>',11),X8t=[H8t],Y8t=F(" Language: "),K8t=Gr(()=>_("option",null,"en",-1)),Z8t=Gr(()=>_("option",null,"ru",-1)),q8t=Gr(()=>_("option",null,"ko",-1)),J8t=Gr(()=>_("option",null,"jp",-1)),Q8t=Gr(()=>_("option",null,"tw",-1)),t9t=[K8t,Z8t,q8t,J8t,Q8t],e9t={class:"settings-tile"},r9t=Gr(()=>_("div",null,"Default worker for hire:",-1)),n9t=Gr(()=>_("label",{for:"dw_f"},"Random Artisan Goblin",-1)),i9t={for:"dw_t"},o9t={class:"settings-tile"},a9t=F(" \u{1F33B}Farming "),s9t=Gr(()=>_("label",{for:"fe_t",style:{"margin-right":"0.4em"}},"enable",-1)),l9t={key:0},u9t={class:"slider-container"},c9t=Gr(()=>_("span",null,"F2P",-1)),f9t=Gr(()=>_("span",null,"P2W",-1)),h9t={style:{display:"flex"}},d9t=F(" Total profit from 10 large fences (use "),p9t=Gr(()=>_("a",{href:"https://bit.ly/MagicalFarmingProfit"},"MFP",-1)),g9t=F(" to estimate):"),v9t=Gr(()=>_("br",null,null,-1)),m9t=F(" M$/day with 10 workers "),y9t=Gr(()=>_("br",null,null,-1)),_9t=F(" M$/day with 0 workers (half growth speed) "),b9t={class:"settings-tile"},w9t=F(" \u{1F3ED}Workshops "),S9t={class:"settings-tile"},T9t=F(" \u{1F5FA}\uFE0F Map "),k9t=F(" hide inactive "),P9t=F(" px icon size "),E9t=Gr(()=>_("div",{class:"spacer"},null,-1)),C9t=F(" Market API status: "),A9t={key:0},x9t={key:1},M9t=F(" \xA0"),I9t=Gr(()=>_("p",null,"By default everything marketable is supposed to be sold on Central Market (with tax).",-1)),L9t=F("If the item is for self use, select Keep (=untax) and/or enter Custom price: "),O9t={class:"scrollable"},R9t={class:"stickyhead"},D9t=Gr(()=>_("thead",null,[_("tr",null,[_("th",null,"Item"),_("th",null,"Market"),_("th",null,"Custom"),_("th",null,"Keep"),_("th",null,"Effective")])],-1)),N9t=["id"],F9t=["href"],$9t=F(" "+M(" ")+" "),B9t={key:0},z9t=["title"],V9t={class:"tar"},U9t=["href"],W9t={class:"tac"},j9t=["disabled","onUpdate:modelValue"],G9t={class:"tar"};function H9t(e,t,r,n,i,o){const a=zt("ModalDialog"),s=zt("WorkerEdit"),l=zt("WorkshopsConfig"),u=zt("TradingConfig"),c=zt("ItemIcon"),f=zt("PriceInput");return I(),O(W,null,[ft(a,{show:e.importDialogVisible,"onUpdate:show":t[2]||(t[2]=h=>e.importDialogVisible=h)},{default:Fe(()=>[_("form",{onSubmit:t[1]||(t[1]=ma(h=>o.fileImport(h),["prevent"]))},[_("input",{type:"file",accept:".json",onClick:t[0]||(t[0]=h=>o.fileImport())}),D8t],32)]),_:1},8,["show"]),ft(a,{show:e.workerDialogVisible,"onUpdate:show":t[4]||(t[4]=h=>e.workerDialogVisible=h)},{default:Fe(()=>[ft(s,{workerEditing:n.userStore.defaultWorker,initialProfit:0,show:e.workerDialogVisible,"onUpdate:show":t[3]||(t[3]=h=>e.workerDialogVisible=h)},null,8,["workerEditing","show"])]),_:1},8,["show"]),ft(a,{show:e.workshopsConfigVisible,"onUpdate:show":t[5]||(t[5]=h=>e.workshopsConfigVisible=h)},{default:Fe(()=>[ft(l)]),_:1},8,["show"]),ft(a,{show:e.tradingConfigVisible,"onUpdate:show":t[6]||(t[6]=h=>e.tradingConfigVisible=h)},{default:Fe(()=>[ft(u)]),_:1},8,["show"]),_("main",null,[_("div",N8t,[_("div",F8t,[_("div",$8t,[_("div",null,[B8t,at(_("select",{"onUpdate:modelValue":t[7]||(t[7]=h=>n.userStore.selectedRegion=h),onChange:t[8]||(t[8]=(...h)=>e.fetchMarket&&e.fetchMarket(...h))},V8t,544),[[cr,n.userStore.selectedRegion]]),U8t,F(" \u2937 base storage: "+M(n.userStore.baseStorage)+" (",1),at(_("input",{type:"checkbox",id:"vp_t","onUpdate:modelValue":t[9]||(t[9]=h=>n.userStore.storageVP=h)},null,512),[[Ge,n.userStore.storageVP]]),W8t,j8t]),_("div",null,[G8t,at(_("select",{"onUpdate:modelValue":t[10]||(t[10]=h=>n.userStore.selectedTax=h)},X8t,512),[[cr,n.userStore.selectedTax]])]),_("div",null,[Y8t,at(_("select",{"onUpdate:modelValue":t[11]||(t[11]=h=>n.userStore.selectedLang=h),onChange:t[12]||(t[12]=(...h)=>e.fetchMarket&&e.fetchMarket(...h))},t9t,544),[[cr,n.userStore.selectedLang]])])]),_("div",e9t,[r9t,_("div",null,[at(_("input",{type:"radio",name:"dw",id:"dw_f",value:!1,"onUpdate:modelValue":t[13]||(t[13]=h=>n.userStore.useDefaultWorker=h)},null,512),[[Pa,n.userStore.useDefaultWorker]]),n9t]),_("div",null,[at(_("input",{type:"radio",name:"dw",id:"dw_t",value:!0,"onUpdate:modelValue":t[14]||(t[14]=h=>n.userStore.useDefaultWorker=h)},null,512),[[Pa,n.userStore.useDefaultWorker]]),_("label",i9t,[F("Custom ("+M(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).wspd,2))+"\u{1F528} "+M(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).mspd,2))+"\u{1F9B6} "+M(o.formatFixed(n.gameStore.workerStatsOnPlantzone(n.userStore.defaultWorker).luck,2))+"\u{1F340}) ",1),_("button",{onClick:t[15]||(t[15]=h=>e.workerDialogVisible=!0)},"edit")])])]),_("div",o9t,[a9t,at(_("input",{type:"checkbox",id:"fe_t","onUpdate:modelValue":t[16]||(t[16]=h=>n.userStore.farmingEnable=h)},null,512),[[Ge,n.userStore.farmingEnable]]),s9t,n.userStore.farmingEnable?(I(),O("span",l9t,[_("div",u9t,[c9t,at(_("input",{type:"range",style:{width:"4em"},"onUpdate:modelValue":t[17]||(t[17]=h=>n.userStore.farmingP2WShare=h),min:"0",max:"80",step:"10"},null,512),[[Gt,n.userStore.farmingP2WShare,void 0,{number:!0}]]),f9t]),F(" (using "+M(80-n.userStore.farmingP2WShare)+"CP) ",1),_("div",h9t,[_("div",null,[d9t,p9t,g9t,v9t,at(_("input",{type:"number",class:"float4","onUpdate:modelValue":t[18]||(t[18]=h=>n.userStore.farmingProfit=h)},null,512),[[Gt,n.userStore.farmingProfit,void 0,{number:!0}]]),m9t,y9t,at(_("input",{type:"number",class:"float4","onUpdate:modelValue":t[19]||(t[19]=h=>n.userStore.farmingBareProfit=h)},null,512),[[Gt,n.userStore.farmingBareProfit,void 0,{number:!0}]]),_9t])])])):nt("",!0)]),_("div",b9t,[w9t,_("div",null,[_("button",{onClick:t[20]||(t[20]=h=>e.workshopsConfigVisible=!0)},"config"),_("button",{onClick:t[21]||(t[21]=h=>e.tradingConfigVisible=!0)},"tradecalc")])]),nt("",!0),_("div",S9t,[T9t,_("div",null,[at(_("input",{type:"checkbox",id:"vi_hie","onUpdate:modelValue":t[24]||(t[24]=h=>n.userStore.mapHideInactive=h)},null,512),[[Ge,n.userStore.mapHideInactive]]),k9t]),_("div",null,[at(_("input",{type:"number",class:"w3em",min:"20",max:"50","onUpdate:modelValue":t[25]||(t[25]=h=>n.userStore.mapIconSize=h)},null,512),[[Gt,n.userStore.mapIconSize]]),P9t])])]),E9t,C9t,n.marketStore.apiAlive?(I(),O("span",A9t,"\u2713")):(I(),O("span",x9t,"\u274C")),M9t,_("button",{onClick:t[26]||(t[26]=h=>o.reload())},"reload"),I9t,_("p",null,[L9t,_("button",{onClick:t[27]||(t[27]=h=>e.importDialogVisible=!0)},"import"),_("button",{onClick:t[28]||(t[28]=h=>o.fileExport())},"export"),_("button",{onClick:t[29]||(t[29]=h=>o.clearCustomPrices())},"clear")])]),_("div",O9t,[_("table",R9t,[D9t,_("tbody",null,[(I(!0),O(W,null,Pt(n.gameStore.itemKeys,h=>(I(),O("tr",{id:"item"+h},[_("td",null,[_("a",{href:this.userStore.itemUrl+h},[ft(c,{ik:h,with_name:!0},null,8,["ik"])],8,F9t),$9t,h in n.marketStore.calculatedPrices?(I(),O("span",B9t,[_("abbr",{class:"tooltip",title:`contains:
 `+Object.entries(n.marketStore.calculatedPrices[h]).map(([d,p])=>o.formatFixed(p,3)+" "+n.gameStore.uloc.item[d]).join(`
-`)},"\u2139",8,B9t)])):nt("",!0)]),_("td",z9t,[h in n.marketStore.apiPrices?(I(),O("a",{key:0,href:this.marketStore.itemPriceUrl(h)},M(o.formatFixed(n.marketStore.apiPrices[h])),9,V9t)):(I(),O(W,{key:1},[F(M(o.formatFixed(n.gameStore.vendorPrices[h])),1)],64))]),_("td",null,[ft(f,{modelValue:n.userStore.customPrices[h],"onUpdate:modelValue":d=>n.userStore.customPrices[h]=d},null,8,["modelValue","onUpdate:modelValue"])]),_("td",U9t,[at(_("input",{type:"checkbox",disabled:h in n.gameStore.vendorPrices,"onUpdate:modelValue":d=>n.userStore.keepItems[h]=d},null,8,W9t),[[Ge,n.userStore.keepItems[h]]])]),_("td",j9t,M(o.formatFixed(n.marketStore.prices[h])),1)],8,D9t))),256))])])])])],64)}const H9t=ae(O8t,[["render",G9t],["__scopeId","data-v-49706dd0"]]);const X9t={setup(){const e=At(),t=ee(),r=ii();return{gameStore:e,userStore:t,marketStore:r}},data:()=>({}),watch:{},methods:{formatFixed:dt},computed:{plantzonesNearestCpTownsProfits150(){const e=Date.now();let t={};for(const r of Object.keys(this.gameStore.plantzones))t[r]=this.gameStore.plantzoneNearestCpTownsProfits150(r,3);return console.log("cpt: plantzonesNearestCpTownsProfits took",Date.now()-e,"ms"),t}}},Y9t=_("div",{id:"toptext"},[_("p",null,"Using 150/10/10 worker")],-1),K9t=_("tr",null,[_("th",null,"Node/Town"),_("th",null,"connect"),_("th",null,"distance"),_("th",null,"M$/day"),_("th",null,"M$/day/CP")],-1),Z9t={colspan:"5"};function q9t(e,t,r,n,i,o){return I(),O(W,null,[Y9t,_("table",null,[K9t,(I(!0),O(W,null,Pt(n.gameStore.plantzones,(a,s)=>(I(),O(W,null,[_("tr",null,[_("td",Z9t,[_("h3",null,M(s)+" "+M(a.name),1)])]),(I(!0),O(W,null,Pt(o.plantzonesNearestCpTownsProfits150[s],l=>(I(),O("tr",null,[_("td",null,M(n.gameStore.nodeName(l.tnk)),1),_("td",null,M(l.cp)+"CP ",1),_("td",null,M(o.formatFixed(l.dist,0)),1),_("td",null,M(o.formatFixed(l.priceDaily,2)),1),_("td",null,M(o.formatFixed(l.dailyPerCp,3)),1)]))),256))],64))),256))])],64)}const J9t=ae(X9t,[["render",q9t]]),Q9t={setup(){const e=At(),t=ee();return{gameStore:e,userStore:t}},components:{ItemIcon:no},data:()=>({houses:{},houseCrafts:{},towns:new Set([-1]),usages:[-1],filterTown:-1,filterUsage:-1}),created(){this.fetchData()},mounted(){},watch:{},methods:{async fetchData(){this.houseCrafts=await(await fetch("data/houseinforeceipe.json")).json(),this.houses=await(await fetch("data/houseinfo.json")).json();const e=new Set([-1]),t=new Set([-1]);for(const[r,n]of Object.entries(this.houses)){e.add(n.affTown);for(const[o,a]of Object.entries(n.CraftList))t.add(o);this.houses[r].CPfull=this.houses[r].CP;let i=n.needHouseKey;for(;i;)this.houses[r].CPfull+=this.houses[i].CP,i=this.houses[i].needHouseKey}this.towns=e,this.usages=[...t].sort((r,n)=>r-n)}},computed:{craftableCount(){let e=0;for(const t of Object.values(this.houseCrafts[this.filterUsage].groups))e+=t.length;return e},stackableCount(){let e=0;for(const t of Object.values(this.houseCrafts[this.filterUsage].groups))for(const r of t)r in this.gameStore.craftInputs&&(e+=1);return e}}},tNt={id:"toptext"},eNt=F(" Region: "),rNt=["value"],nNt=F(" Usage: "),iNt=["value"],oNt={key:0},aNt=["href"],sNt=_("tr",null,[_("th",null,"town"),_("th",null,"node"),_("th",null,"name"),_("th",null,"CP (with chain)"),_("th",null,"usage/level")],-1),lNt={key:0},uNt=["href"],cNt=F(M(" "));function fNt(e,t,r,n,i,o){const a=zt("ItemIcon");return I(),O("main",null,[_("div",tNt,[eNt,at(_("select",{"onUpdate:modelValue":t[0]||(t[0]=s=>e.filterTown=s)},[(I(!0),O(W,null,Pt(e.towns,s=>(I(),O("option",{value:s},M(s>=0?n.gameStore.uloc.town[s]:"any"),9,rNt))),256))],512),[[cr,e.filterTown]]),nNt,at(_("select",{"onUpdate:modelValue":t[1]||(t[1]=s=>e.filterUsage=s)},[(I(!0),O(W,null,Pt(e.usages,s=>(I(),O("option",{value:s},M(s>=0?n.gameStore.uloc.housetype[s]+" "+s:"any"),9,iNt))),256))],512),[[cr,e.filterUsage]]),e.filterUsage!=-1?(I(),O("details",oNt,[_("summary",null,M(o.craftableCount)+" craftables, "+M(o.stackableCount)+" stackable",1),(I(!0),O(W,null,Pt(this.houseCrafts[e.filterUsage].groups,(s,l)=>(I(),O("div",null,[F(" level "+M(l+1)+": ",1),_("table",null,[(I(!0),O(W,null,Pt(s,u=>(I(),O("tr",null,[(I(!0),O(W,null,Pt(this.gameStore.craftOutputs[u],c=>(I(),O("a",{href:this.userStore.itemUrl+c},[ft(a,{ik:c,with_name:!0},null,8,["ik"])],8,aNt))),256))]))),256))])]))),256))])):nt("",!0)]),_("table",null,[sNt,(I(!0),O(W,null,Pt(e.houses,(s,l)=>(I(),O(W,null,[(e.filterTown==-1||s.affTown==e.filterTown)&&(e.filterUsage==-1||e.filterUsage in s.CraftList)?(I(),O("tr",lNt,[_("td",null,M(s.affTown),1),_("td",null,M(s.parentNode),1),_("td",null,[_("a",{href:"https://bdocodex.com/us/npc/"+s.key},M(n.gameStore.uloc.char[s.key]),9,uNt)]),_("td",null,M(s.CP)+" ("+M(s.CPfull)+")",1),_("td",null,[(I(!0),O(W,null,Pt(s.CraftList,(u,c)=>(I(),O("span",null,[F(M(n.gameStore.uloc.housetype[c]),1),_("sup",null,M(u),1),cNt]))),256))])])):nt("",!0)],64))),256))])])}const hNt=ae(Q9t,[["render",fNt]]);Qr([Ql,Npt,eu,tu,ru]);const dNt={setup(){const e=ee();return{gameStore:At(),userStore:e}},components:{VChart:nu},props:{show:{type:Boolean,default:!1}},data:()=>({tk:5,wantLodging:0,wantStorage:0}),computed:{townsWithHouses(){const e=[];if(!this.gameStore.ready)return e;for(const t of this.gameStore.townsWithLodging){const r=this.gameStore.tnk2tk(t);r in this.gameStore.uloc.town&&e.push(r)}return e},bestLookup(){return this.gameStore.lsLookup(this.tk,this.wantLodging,this.wantStorage)},sortedResult(){const e=[],t=this.bestLookup;if(t&&t.success){for(let r=0;r<t.indices.length;r++){const n=t.indices[r],i=this.gameStore.uloc.char[n],o=t.states[r];e.push({hk:n,name:i,state:o})}e.sort((r,n)=>(""+r.name).localeCompare(n.name))}return e},storageCost(){let e=0;for(const t of this.sortedResult)t.state==1&&(e+=this.gameStore.houseCost(t.hk));return e},lodgingCost(){let e=0;for(const t of this.sortedResult)t.state==2&&(e+=this.gameStore.houseCost(t.hk));return e},townChains(){const e={};for(const t of this.gameStore.housesPerTown[this.tk]){e[t]=[];let r=Number(t);for(;r!=0;)e[t].unshift(r),r=this.gameStore.houseInfo[r].needHouseKey}return e},townTree(){const e={name:"",value:this.gameStore.uloc.town[this.tk],children:[]};if(!this.gameStore.ready)return e;if(!this.bestLookup.success)return console.log("bestlookup failed for tk",this.tk),e;for(const t of this.gameStore.housesPerTown[this.tk]){let r=e;for(const n of this.townChains[t]){const i=r.children.findIndex(o=>o.name==n);if(i>=0)r=r.children[i];else{let o=0;if(this.bestLookup){const s=this.bestLookup.indices.indexOf(n);s!==-1&&(o=this.bestLookup.states[s])}const a={name:n,value:{label:this.gameStore.uloc.char[n],lodging:this.gameStore.houseLodging(n),storage:this.gameStore.houseStorage(n),cp:this.gameStore.houseCost(n)},lineStyle:r.name==0?{color:"transparent"}:o>0?o==2?{color:"#fe6"}:{color:"#a5f"}:{},itemStyle:o>0?o==2?{color:"#fe6"}:{color:"#a5f"}:{},children:[]};r.children.push(a),r=a}}}return this.tk==1553&&console.log("townTree",e),e},chartOption(){return{tooltip:{trigger:"item",triggerOn:"mousemove",formatter:function(e){const t=e.value;return e.name==0?t:`${e.name} ${t.label}<br/>${t.lodging}\u{1F6CF}\uFE0F ${t.storage}\u{1F4E6} ${t.cp}CP`}},series:[{type:"tree",layout:"radial",roam:!0,data:[this.townTree],top:"1%",left:"1%",bottom:"1%",right:"1%",symbolSize:6,initialTreeDepth:9,label:{fontSize:9,color:"gray",position:"top",formatter:function(e){const t=e.value;return e.name==0?"":`{r|${t.lodging}} {o|${t.storage}} ${t.cp}`},rich:{r:{fontSize:9},o:{fontSize:9}}},leaves:{label:{}},emphasis:{focus:"descendant"}}]}}},methods:{formatFixed:dt}},S0=e=>(Ze("data-v-265abb6b"),e=e(),qe(),e),pNt={class:"limit"},gNt={id:"controls"},vNt=S0(()=>_("p",null,[F("data from "),_("a",{href:"https://github.com/Thell/bdo-housecraft"},"Thell/bdo-housecraft")],-1)),mNt={id:"fluid"},yNt={id:"sliders"},_Nt={key:0},bNt=S0(()=>_("tr",null,[_("th"),_("th",null,"wanted"),_("th",null,"found"),_("th",null,"cost"),_("th",null,"per CP")],-1)),wNt=S0(()=>_("th",{class:"lodging"},"lodging ",-1)),SNt=["max"],TNt=S0(()=>_("th",{class:"storage"},"storage",-1)),kNt=["max"],PNt={colspan:"3"},ENt=F(" town "),CNt=["value"],ANt={colspan:"2"},xNt=S0(()=>_("div",{style:{clear:"both"}},null,-1)),MNt={key:0,id:"houselist"};function INt(e,t,r,n,i,o){const a=zt("v-chart");return I(),O("main",null,[_("div",pNt,[_("div",gNt,[vNt,_("div",mNt,[_("div",yNt,[this.gameStore.ready?(I(),O("table",_Nt,[bNt,_("tr",null,[wNt,_("th",null,[at(_("input",{type:"range",class:"wlong","onUpdate:modelValue":t[0]||(t[0]=s=>e.wantLodging=s),min:"0",max:Math.min(n.gameStore.ready?n.gameStore.townUpperLimits[e.tk].lodging:999,100)},null,8,SNt),[[Gt,e.wantLodging,void 0,{number:!0}]]),F(M(e.wantLodging),1)]),_("th",null,M(o.bestLookup?o.bestLookup.lodging:"?"),1),_("th",null,M(o.lodgingCost)+" CP",1),_("th",null,M(o.bestLookup?o.formatFixed(o.bestLookup.lodging/o.lodgingCost,3):"?"),1)]),_("tr",null,[TNt,_("th",null,[at(_("input",{type:"range",class:"wlong","onUpdate:modelValue":t[1]||(t[1]=s=>e.wantStorage=s),min:"0",max:Math.min(n.gameStore.ready?n.gameStore.townUpperLimits[e.tk].storage:999,192-8)},null,8,kNt),[[Gt,e.wantStorage,void 0,{number:!0}]]),F(M(e.wantStorage),1)]),_("th",null,M(o.bestLookup?o.bestLookup.storage:"?"),1),_("th",null,M(o.storageCost)+" CP",1),_("th",null,M(o.bestLookup?o.formatFixed(o.bestLookup.storage/o.storageCost,3):"?"),1)]),_("tr",null,[_("th",PNt,[ENt,at(_("select",{"onUpdate:modelValue":t[2]||(t[2]=s=>e.tk=s)},[(I(!0),O(W,null,Pt(this.townsWithHouses,s=>(I(),O("option",{value:s},M(n.gameStore.uloc.town[s]),9,CNt))),256))],512),[[cr,e.tk]])]),_("th",ANt,M(o.bestLookup?o.bestLookup.cost:"?")+" CP total",1)])])):nt("",!0)])])]),xNt,o.bestLookup?(I(),O("div",MNt,[(I(!0),O(W,null,Pt(o.sortedResult,s=>(I(),O(W,null,[s.state>0?(I(),O("p",{key:0,class:Ur({storage:s.state==1,lodging:s.state==2})},M(s.name),3)):nt("",!0)],64))),256))])):nt("",!0),ft(a,{class:"chart",option:o.chartOption},null,8,["option"])])])}const LNt=ae(dNt,[["render",INt],["__scopeId","data-v-265abb6b"]]);/**
+`)},"\u2139",8,z9t)])):nt("",!0)]),_("td",V9t,[h in n.marketStore.apiPrices?(I(),O("a",{key:0,href:this.marketStore.itemPriceUrl(h)},M(o.formatFixed(n.marketStore.apiPrices[h])),9,U9t)):(I(),O(W,{key:1},[F(M(o.formatFixed(n.gameStore.vendorPrices[h])),1)],64))]),_("td",null,[ft(f,{modelValue:n.userStore.customPrices[h],"onUpdate:modelValue":d=>n.userStore.customPrices[h]=d,defaultValue:n.marketStore.apiPrices[h]||n.marketStore.prices[h]},null,8,["modelValue","onUpdate:modelValue","defaultValue"])]),_("td",W9t,[at(_("input",{type:"checkbox",disabled:h in n.gameStore.vendorPrices,"onUpdate:modelValue":d=>n.userStore.keepItems[h]=d},null,8,j9t),[[Ge,n.userStore.keepItems[h]]])]),_("td",G9t,M(o.formatFixed(n.marketStore.prices[h])),1)],8,N9t))),256))])])])])],64)}const X9t=ae(R8t,[["render",H9t],["__scopeId","data-v-fd25de6b"]]);const Y9t={setup(){const e=At(),t=ee(),r=ii();return{gameStore:e,userStore:t,marketStore:r}},data:()=>({}),watch:{},methods:{formatFixed:dt},computed:{plantzonesNearestCpTownsProfits150(){const e=Date.now();let t={};for(const r of Object.keys(this.gameStore.plantzones))t[r]=this.gameStore.plantzoneNearestCpTownsProfits150(r,3);return console.log("cpt: plantzonesNearestCpTownsProfits took",Date.now()-e,"ms"),t}}},K9t=_("div",{id:"toptext"},[_("p",null,"Using 150/10/10 worker")],-1),Z9t=_("tr",null,[_("th",null,"Node/Town"),_("th",null,"connect"),_("th",null,"distance"),_("th",null,"M$/day"),_("th",null,"M$/day/CP")],-1),q9t={colspan:"5"};function J9t(e,t,r,n,i,o){return I(),O(W,null,[K9t,_("table",null,[Z9t,(I(!0),O(W,null,Pt(n.gameStore.plantzones,(a,s)=>(I(),O(W,null,[_("tr",null,[_("td",q9t,[_("h3",null,M(s)+" "+M(a.name),1)])]),(I(!0),O(W,null,Pt(o.plantzonesNearestCpTownsProfits150[s],l=>(I(),O("tr",null,[_("td",null,M(n.gameStore.nodeName(l.tnk)),1),_("td",null,M(l.cp)+"CP ",1),_("td",null,M(o.formatFixed(l.dist,0)),1),_("td",null,M(o.formatFixed(l.priceDaily,2)),1),_("td",null,M(o.formatFixed(l.dailyPerCp,3)),1)]))),256))],64))),256))])],64)}const Q9t=ae(Y9t,[["render",J9t]]),tNt={setup(){const e=At(),t=ee();return{gameStore:e,userStore:t}},components:{ItemIcon:no},data:()=>({houses:{},houseCrafts:{},towns:new Set([-1]),usages:[-1],filterTown:-1,filterUsage:-1}),created(){this.fetchData()},mounted(){},watch:{},methods:{async fetchData(){this.houseCrafts=await(await fetch("data/houseinforeceipe.json")).json(),this.houses=await(await fetch("data/houseinfo.json")).json();const e=new Set([-1]),t=new Set([-1]);for(const[r,n]of Object.entries(this.houses)){e.add(n.affTown);for(const[o,a]of Object.entries(n.CraftList))t.add(o);this.houses[r].CPfull=this.houses[r].CP;let i=n.needHouseKey;for(;i;)this.houses[r].CPfull+=this.houses[i].CP,i=this.houses[i].needHouseKey}this.towns=e,this.usages=[...t].sort((r,n)=>r-n)}},computed:{craftableCount(){let e=0;for(const t of Object.values(this.houseCrafts[this.filterUsage].groups))e+=t.length;return e},stackableCount(){let e=0;for(const t of Object.values(this.houseCrafts[this.filterUsage].groups))for(const r of t)r in this.gameStore.craftInputs&&(e+=1);return e}}},eNt={id:"toptext"},rNt=F(" Region: "),nNt=["value"],iNt=F(" Usage: "),oNt=["value"],aNt={key:0},sNt=["href"],lNt=_("tr",null,[_("th",null,"town"),_("th",null,"node"),_("th",null,"name"),_("th",null,"CP (with chain)"),_("th",null,"usage/level")],-1),uNt={key:0},cNt=["href"],fNt=F(M(" "));function hNt(e,t,r,n,i,o){const a=zt("ItemIcon");return I(),O("main",null,[_("div",eNt,[rNt,at(_("select",{"onUpdate:modelValue":t[0]||(t[0]=s=>e.filterTown=s)},[(I(!0),O(W,null,Pt(e.towns,s=>(I(),O("option",{value:s},M(s>=0?n.gameStore.uloc.town[s]:"any"),9,nNt))),256))],512),[[cr,e.filterTown]]),iNt,at(_("select",{"onUpdate:modelValue":t[1]||(t[1]=s=>e.filterUsage=s)},[(I(!0),O(W,null,Pt(e.usages,s=>(I(),O("option",{value:s},M(s>=0?n.gameStore.uloc.housetype[s]+" "+s:"any"),9,oNt))),256))],512),[[cr,e.filterUsage]]),e.filterUsage!=-1?(I(),O("details",aNt,[_("summary",null,M(o.craftableCount)+" craftables, "+M(o.stackableCount)+" stackable",1),(I(!0),O(W,null,Pt(this.houseCrafts[e.filterUsage].groups,(s,l)=>(I(),O("div",null,[F(" level "+M(l+1)+": ",1),_("table",null,[(I(!0),O(W,null,Pt(s,u=>(I(),O("tr",null,[(I(!0),O(W,null,Pt(this.gameStore.craftOutputs[u],c=>(I(),O("a",{href:this.userStore.itemUrl+c},[ft(a,{ik:c,with_name:!0},null,8,["ik"])],8,sNt))),256))]))),256))])]))),256))])):nt("",!0)]),_("table",null,[lNt,(I(!0),O(W,null,Pt(e.houses,(s,l)=>(I(),O(W,null,[(e.filterTown==-1||s.affTown==e.filterTown)&&(e.filterUsage==-1||e.filterUsage in s.CraftList)?(I(),O("tr",uNt,[_("td",null,M(s.affTown),1),_("td",null,M(s.parentNode),1),_("td",null,[_("a",{href:"https://bdocodex.com/us/npc/"+s.key},M(n.gameStore.uloc.char[s.key]),9,cNt)]),_("td",null,M(s.CP)+" ("+M(s.CPfull)+")",1),_("td",null,[(I(!0),O(W,null,Pt(s.CraftList,(u,c)=>(I(),O("span",null,[F(M(n.gameStore.uloc.housetype[c]),1),_("sup",null,M(u),1),fNt]))),256))])])):nt("",!0)],64))),256))])])}const dNt=ae(tNt,[["render",hNt]]);Qr([Ql,Npt,eu,tu,ru]);const pNt={setup(){const e=ee();return{gameStore:At(),userStore:e}},components:{VChart:nu},props:{show:{type:Boolean,default:!1}},data:()=>({tk:5,wantLodging:0,wantStorage:0}),computed:{townsWithHouses(){const e=[];if(!this.gameStore.ready)return e;for(const t of this.gameStore.townsWithLodging){const r=this.gameStore.tnk2tk(t);r in this.gameStore.uloc.town&&e.push(r)}return e},bestLookup(){return this.gameStore.lsLookup(this.tk,this.wantLodging,this.wantStorage)},sortedResult(){const e=[],t=this.bestLookup;if(t&&t.success){for(let r=0;r<t.indices.length;r++){const n=t.indices[r],i=this.gameStore.uloc.char[n],o=t.states[r];e.push({hk:n,name:i,state:o})}e.sort((r,n)=>(""+r.name).localeCompare(n.name))}return e},storageCost(){let e=0;for(const t of this.sortedResult)t.state==1&&(e+=this.gameStore.houseCost(t.hk));return e},lodgingCost(){let e=0;for(const t of this.sortedResult)t.state==2&&(e+=this.gameStore.houseCost(t.hk));return e},townChains(){const e={};for(const t of this.gameStore.housesPerTown[this.tk]){e[t]=[];let r=Number(t);for(;r!=0;)e[t].unshift(r),r=this.gameStore.houseInfo[r].needHouseKey}return e},townTree(){const e={name:"",value:this.gameStore.uloc.town[this.tk],children:[]};if(!this.gameStore.ready)return e;if(!this.bestLookup.success)return console.log("bestlookup failed for tk",this.tk),e;for(const t of this.gameStore.housesPerTown[this.tk]){let r=e;for(const n of this.townChains[t]){const i=r.children.findIndex(o=>o.name==n);if(i>=0)r=r.children[i];else{let o=0;if(this.bestLookup){const s=this.bestLookup.indices.indexOf(n);s!==-1&&(o=this.bestLookup.states[s])}const a={name:n,value:{label:this.gameStore.uloc.char[n],lodging:this.gameStore.houseLodging(n),storage:this.gameStore.houseStorage(n),cp:this.gameStore.houseCost(n)},lineStyle:r.name==0?{color:"transparent"}:o>0?o==2?{color:"#fe6"}:{color:"#a5f"}:{},itemStyle:o>0?o==2?{color:"#fe6"}:{color:"#a5f"}:{},children:[]};r.children.push(a),r=a}}}return this.tk==1553&&console.log("townTree",e),e},chartOption(){return{tooltip:{trigger:"item",triggerOn:"mousemove",formatter:function(e){const t=e.value;return e.name==0?t:`${e.name} ${t.label}<br/>${t.lodging}\u{1F6CF}\uFE0F ${t.storage}\u{1F4E6} ${t.cp}CP`}},series:[{type:"tree",layout:"radial",roam:!0,data:[this.townTree],top:"1%",left:"1%",bottom:"1%",right:"1%",symbolSize:6,initialTreeDepth:9,label:{fontSize:9,color:"gray",position:"top",formatter:function(e){const t=e.value;return e.name==0?"":`{r|${t.lodging}} {o|${t.storage}} ${t.cp}`},rich:{r:{fontSize:9},o:{fontSize:9}}},leaves:{label:{}},emphasis:{focus:"descendant"}}]}}},methods:{formatFixed:dt}},S0=e=>(Ze("data-v-265abb6b"),e=e(),qe(),e),gNt={class:"limit"},vNt={id:"controls"},mNt=S0(()=>_("p",null,[F("data from "),_("a",{href:"https://github.com/Thell/bdo-housecraft"},"Thell/bdo-housecraft")],-1)),yNt={id:"fluid"},_Nt={id:"sliders"},bNt={key:0},wNt=S0(()=>_("tr",null,[_("th"),_("th",null,"wanted"),_("th",null,"found"),_("th",null,"cost"),_("th",null,"per CP")],-1)),SNt=S0(()=>_("th",{class:"lodging"},"lodging ",-1)),TNt=["max"],kNt=S0(()=>_("th",{class:"storage"},"storage",-1)),PNt=["max"],ENt={colspan:"3"},CNt=F(" town "),ANt=["value"],xNt={colspan:"2"},MNt=S0(()=>_("div",{style:{clear:"both"}},null,-1)),INt={key:0,id:"houselist"};function LNt(e,t,r,n,i,o){const a=zt("v-chart");return I(),O("main",null,[_("div",gNt,[_("div",vNt,[mNt,_("div",yNt,[_("div",_Nt,[this.gameStore.ready?(I(),O("table",bNt,[wNt,_("tr",null,[SNt,_("th",null,[at(_("input",{type:"range",class:"wlong","onUpdate:modelValue":t[0]||(t[0]=s=>e.wantLodging=s),min:"0",max:Math.min(n.gameStore.ready?n.gameStore.townUpperLimits[e.tk].lodging:999,100)},null,8,TNt),[[Gt,e.wantLodging,void 0,{number:!0}]]),F(M(e.wantLodging),1)]),_("th",null,M(o.bestLookup?o.bestLookup.lodging:"?"),1),_("th",null,M(o.lodgingCost)+" CP",1),_("th",null,M(o.bestLookup?o.formatFixed(o.bestLookup.lodging/o.lodgingCost,3):"?"),1)]),_("tr",null,[kNt,_("th",null,[at(_("input",{type:"range",class:"wlong","onUpdate:modelValue":t[1]||(t[1]=s=>e.wantStorage=s),min:"0",max:Math.min(n.gameStore.ready?n.gameStore.townUpperLimits[e.tk].storage:999,192-8)},null,8,PNt),[[Gt,e.wantStorage,void 0,{number:!0}]]),F(M(e.wantStorage),1)]),_("th",null,M(o.bestLookup?o.bestLookup.storage:"?"),1),_("th",null,M(o.storageCost)+" CP",1),_("th",null,M(o.bestLookup?o.formatFixed(o.bestLookup.storage/o.storageCost,3):"?"),1)]),_("tr",null,[_("th",ENt,[CNt,at(_("select",{"onUpdate:modelValue":t[2]||(t[2]=s=>e.tk=s)},[(I(!0),O(W,null,Pt(this.townsWithHouses,s=>(I(),O("option",{value:s},M(n.gameStore.uloc.town[s]),9,ANt))),256))],512),[[cr,e.tk]])]),_("th",xNt,M(o.bestLookup?o.bestLookup.cost:"?")+" CP total",1)])])):nt("",!0)])])]),MNt,o.bestLookup?(I(),O("div",INt,[(I(!0),O(W,null,Pt(o.sortedResult,s=>(I(),O(W,null,[s.state>0?(I(),O("p",{key:0,class:Ur({storage:s.state==1,lodging:s.state==2})},M(s.name),3)):nt("",!0)],64))),256))])):nt("",!0),ft(a,{class:"chart",option:o.chartOption},null,8,["option"])])])}const ONt=ae(pNt,[["render",LNt],["__scopeId","data-v-265abb6b"]]);/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -2155,7 +2155,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ONt=typeof Object.defineProperty=="function"?Object.defineProperty:null,RNt=ONt;/**
+*/var RNt=typeof Object.defineProperty=="function"?Object.defineProperty:null,DNt=RNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -2171,7 +2171,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var DNt=RNt;function NNt(){try{return DNt({},"x",{}),!0}catch{return!1}}var FNt=NNt;/**
+*/var NNt=DNt;function FNt(){try{return NNt({},"x",{}),!0}catch{return!1}}var $Nt=FNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2187,7 +2187,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $Nt=Object.defineProperty,BNt=$Nt;/**
+*/var BNt=Object.defineProperty,zNt=BNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2203,7 +2203,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Sd=Object.prototype,L8=Sd.toString,O8=Sd.__defineGetter__,R8=Sd.__defineSetter__,zNt=Sd.__lookupGetter__,VNt=Sd.__lookupSetter__;function UNt(e,t,r){var n,i,o,a;if(typeof e!="object"||e===null||L8.call(e)==="[object Array]")throw new TypeError("invalid argument. First argument must be an object. Value: `"+e+"`.");if(typeof r!="object"||r===null||L8.call(r)==="[object Array]")throw new TypeError("invalid argument. Property descriptor must be an object. Value: `"+r+"`.");if(i="value"in r,i&&(zNt.call(e,t)||VNt.call(e,t)?(n=e.__proto__,e.__proto__=Sd,delete e[t],e[t]=r.value,e.__proto__=n):e[t]=r.value),o="get"in r,a="set"in r,i&&(o||a))throw new Error("invalid argument. Cannot specify one or more accessors and a value or writable attribute in the property descriptor.");return o&&O8&&O8.call(e,t,r.get),a&&R8&&R8.call(e,t,r.set),e}var WNt=UNt;/**
+*/var Sd=Object.prototype,L8=Sd.toString,O8=Sd.__defineGetter__,R8=Sd.__defineSetter__,VNt=Sd.__lookupGetter__,UNt=Sd.__lookupSetter__;function WNt(e,t,r){var n,i,o,a;if(typeof e!="object"||e===null||L8.call(e)==="[object Array]")throw new TypeError("invalid argument. First argument must be an object. Value: `"+e+"`.");if(typeof r!="object"||r===null||L8.call(r)==="[object Array]")throw new TypeError("invalid argument. Property descriptor must be an object. Value: `"+r+"`.");if(i="value"in r,i&&(VNt.call(e,t)||UNt.call(e,t)?(n=e.__proto__,e.__proto__=Sd,delete e[t],e[t]=r.value,e.__proto__=n):e[t]=r.value),o="get"in r,a="set"in r,i&&(o||a))throw new Error("invalid argument. Cannot specify one or more accessors and a value or writable attribute in the property descriptor.");return o&&O8&&O8.call(e,t,r.get),a&&R8&&R8.call(e,t,r.set),e}var jNt=WNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2219,7 +2219,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var jNt=FNt,GNt=BNt,HNt=WNt,zE;jNt()?zE=GNt:zE=HNt;var OH=zE;/**
+*/var GNt=$Nt,HNt=zNt,XNt=jNt,zE;GNt()?zE=HNt:zE=XNt;var OH=zE;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2235,7 +2235,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var XNt=OH;function YNt(e,t,r){XNt(e,t,{configurable:!1,enumerable:!0,writable:!1,value:r})}var KNt=YNt;/**
+*/var YNt=OH;function KNt(e,t,r){YNt(e,t,{configurable:!1,enumerable:!0,writable:!1,value:r})}var ZNt=KNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2251,7 +2251,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ZNt=KNt,qNt=ZNt;/**
+*/var qNt=ZNt,JNt=qNt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2267,7 +2267,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var JNt=OH;function QNt(e,t,r){JNt(e,t,{configurable:!1,enumerable:!1,writable:!1,value:r})}var t7t=QNt;/**
+*/var QNt=OH;function t7t(e,t,r){QNt(e,t,{configurable:!1,enumerable:!1,writable:!1,value:r})}var e7t=t7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2283,7 +2283,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var e7t=t7t,tn=e7t;/**
+*/var r7t=e7t,tn=r7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2299,7 +2299,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var r7t=Math.floor,n7t=r7t;/**
+*/var n7t=Math.floor,i7t=n7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2315,7 +2315,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var i7t=n7t,Pi=i7t;/**
+*/var o7t=i7t,Pi=o7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2331,7 +2331,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var o7t=Pi;function a7t(e){return o7t(e)===e}var s7t=a7t;/**
+*/var a7t=Pi;function s7t(e){return a7t(e)===e}var l7t=s7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2347,7 +2347,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var l7t=s7t,au=l7t;/**
+*/var u7t=l7t,au=u7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2363,7 +2363,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var u7t=4294967295>>>0,c7t=u7t;/**
+*/var c7t=4294967295>>>0,f7t=c7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2379,7 +2379,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var f7t=au,h7t=c7t;function d7t(e){return e!=null&&typeof e!="function"&&typeof e.length=="number"&&f7t(e.length)&&e.length>=0&&e.length<=h7t}var p7t=d7t;/**
+*/var h7t=au,d7t=f7t;function p7t(e){return e!=null&&typeof e!="function"&&typeof e.length=="number"&&h7t(e.length)&&e.length>=0&&e.length<=d7t}var g7t=p7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2395,7 +2395,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var g7t=p7t,v7t=g7t;/**
+*/var v7t=g7t,m7t=v7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2411,7 +2411,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var m7t=v7t;function y7t(e){if(typeof e!="function")throw new TypeError("invalid argument. Must provide a function. Value: `"+e+"`.");return t;function t(r){var n,i;if(!m7t(r)||(n=r.length,n===0))return!1;for(i=0;i<n;i++)if(e(r[i])===!1)return!1;return!0}}var _7t=y7t;/**
+*/var y7t=m7t;function _7t(e){if(typeof e!="function")throw new TypeError("invalid argument. Must provide a function. Value: `"+e+"`.");return t;function t(r){var n,i;if(!y7t(r)||(n=r.length,n===0))return!1;for(i=0;i<n;i++)if(e(r[i])===!1)return!1;return!0}}var b7t=_7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2427,7 +2427,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var b7t=_7t,w7t=b7t;/**
+*/var w7t=b7t,S7t=w7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2443,7 +2443,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function S7t(e){return typeof e=="number"}var RH=S7t;/**
+*/function T7t(e){return typeof e=="number"}var RH=T7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2459,7 +2459,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function T7t(){return typeof Symbol=="function"&&typeof Symbol("foo")=="symbol"}var k7t=T7t;/**
+*/function k7t(){return typeof Symbol=="function"&&typeof Symbol("foo")=="symbol"}var P7t=k7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2475,7 +2475,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var P7t=k7t,E7t=P7t;/**
+*/var E7t=P7t,C7t=E7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2491,7 +2491,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var C7t=E7t,A7t=C7t();function x7t(){return A7t&&typeof Symbol.toStringTag=="symbol"}var M7t=x7t;/**
+*/var A7t=C7t,x7t=A7t();function M7t(){return x7t&&typeof Symbol.toStringTag=="symbol"}var I7t=M7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2507,7 +2507,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var I7t=M7t,x2=I7t;/**
+*/var L7t=I7t,x2=L7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2523,7 +2523,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var L7t=Object.prototype.toString,DH=L7t;/**
+*/var O7t=Object.prototype.toString,DH=O7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2539,7 +2539,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var O7t=DH;function R7t(e){return O7t.call(e)}var D7t=R7t;/**
+*/var R7t=DH;function D7t(e){return R7t.call(e)}var N7t=D7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2555,7 +2555,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var N7t=Object.prototype.hasOwnProperty;function F7t(e,t){return e==null?!1:N7t.call(e,t)}var $7t=F7t;/**
+*/var F7t=Object.prototype.hasOwnProperty;function $7t(e,t){return e==null?!1:F7t.call(e,t)}var B7t=$7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2571,7 +2571,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var B7t=$7t,M2=B7t;/**
+*/var z7t=B7t,M2=z7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2587,7 +2587,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var z7t=typeof Symbol=="function"?Symbol.toStringTag:"",V7t=z7t;/**
+*/var V7t=typeof Symbol=="function"?Symbol.toStringTag:"",U7t=V7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2603,7 +2603,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var U7t=M2,kp=V7t,H3=DH;function W7t(e){var t,r,n;if(e==null)return H3.call(e);r=e[kp],t=U7t(e,kp);try{e[kp]=void 0}catch{return H3.call(e)}return n=H3.call(e),t?e[kp]=r:delete e[kp],n}var j7t=W7t;/**
+*/var W7t=M2,kp=U7t,H3=DH;function j7t(e){var t,r,n;if(e==null)return H3.call(e);r=e[kp],t=W7t(e,kp);try{e[kp]=void 0}catch{return H3.call(e)}return n=H3.call(e),t?e[kp]=r:delete e[kp],n}var G7t=j7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2619,7 +2619,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var G7t=x2,H7t=D7t,X7t=j7t,VE;G7t()?VE=X7t:VE=H7t;var Go=VE;/**
+*/var H7t=x2,X7t=N7t,Y7t=G7t,VE;H7t()?VE=Y7t:VE=X7t;var Go=VE;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2635,7 +2635,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Y7t=Number;/**
+*/var K7t=Number;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2651,7 +2651,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var K7t=Y7t,h4=K7t;/**
+*/var Z7t=K7t,h4=Z7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2667,7 +2667,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Z7t=h4,q7t=Z7t.prototype.toString,J7t=q7t;/**
+*/var q7t=h4,J7t=q7t.prototype.toString,Q7t=J7t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2683,7 +2683,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Q7t=J7t;function tFt(e){try{return Q7t.call(e),!0}catch{return!1}}var eFt=tFt;/**
+*/var tFt=Q7t;function eFt(e){try{return tFt.call(e),!0}catch{return!1}}var rFt=eFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2699,7 +2699,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rFt=x2,nFt=Go,iFt=h4,oFt=eFt,aFt=rFt();function sFt(e){return typeof e=="object"?e instanceof iFt?!0:aFt?oFt(e):nFt(e)==="[object Number]":!1}var NH=sFt;/**
+*/var nFt=x2,iFt=Go,oFt=h4,aFt=rFt,sFt=nFt();function lFt(e){return typeof e=="object"?e instanceof oFt?!0:sFt?aFt(e):iFt(e)==="[object Number]":!1}var NH=lFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2715,7 +2715,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var lFt=RH,uFt=NH;function cFt(e){return lFt(e)||uFt(e)}var fFt=cFt;/**
+*/var uFt=RH,cFt=NH;function fFt(e){return uFt(e)||cFt(e)}var hFt=fFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2731,7 +2731,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var FH=tn,d4=fFt,hFt=RH,dFt=NH;FH(d4,"isPrimitive",hFt);FH(d4,"isObject",dFt);var Td=d4;/**
+*/var FH=tn,d4=hFt,dFt=RH,pFt=NH;FH(d4,"isPrimitive",dFt);FH(d4,"isObject",pFt);var Td=d4;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2747,7 +2747,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $H=tn,p4=w7t,g4=Td,pFt=p4(g4.isPrimitive),gFt=p4(g4.isObject),v4=p4(g4);$H(v4,"primitives",pFt);$H(v4,"objects",gFt);var vFt=v4;/**
+*/var $H=tn,p4=S7t,g4=Td,gFt=p4(g4.isPrimitive),vFt=p4(g4.isObject),v4=p4(g4);$H(v4,"primitives",gFt);$H(v4,"objects",vFt);var mFt=v4;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2763,7 +2763,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mFt=Number.POSITIVE_INFINITY,sr=mFt;/**
+*/var yFt=Number.POSITIVE_INFINITY,sr=yFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2779,7 +2779,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var yFt=h4,_Ft=yFt.NEGATIVE_INFINITY,pn=_Ft;/**
+*/var _Ft=h4,bFt=_Ft.NEGATIVE_INFINITY,pn=bFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2795,7 +2795,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var bFt=sr,wFt=pn,SFt=au;function TFt(e){return e<bFt&&e>wFt&&SFt(e)}var BH=TFt;/**
+*/var wFt=sr,SFt=pn,TFt=au;function kFt(e){return e<wFt&&e>SFt&&TFt(e)}var BH=kFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2811,7 +2811,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kFt=Td.isPrimitive,PFt=BH;function EFt(e){return kFt(e)&&PFt(e)}var zH=EFt;/**
+*/var PFt=Td.isPrimitive,EFt=BH;function CFt(e){return PFt(e)&&EFt(e)}var zH=CFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2827,7 +2827,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var CFt=Td.isObject,AFt=BH;function xFt(e){return CFt(e)&&AFt(e.valueOf())}var VH=xFt;/**
+*/var AFt=Td.isObject,xFt=BH;function MFt(e){return AFt(e)&&xFt(e.valueOf())}var VH=MFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2843,7 +2843,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var MFt=zH,IFt=VH;function LFt(e){return MFt(e)||IFt(e)}var OFt=LFt;/**
+*/var IFt=zH,LFt=VH;function OFt(e){return IFt(e)||LFt(e)}var RFt=OFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2859,7 +2859,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var UH=tn,m4=OFt,RFt=zH,DFt=VH;UH(m4,"isPrimitive",RFt);UH(m4,"isObject",DFt);var I2=m4;/**
+*/var UH=tn,m4=RFt,DFt=zH,NFt=VH;UH(m4,"isPrimitive",DFt);UH(m4,"isObject",NFt);var I2=m4;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2875,7 +2875,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var NFt=I2.isPrimitive;function FFt(e){return NFt(e)&&e>=0}var WH=FFt;/**
+*/var FFt=I2.isPrimitive;function $Ft(e){return FFt(e)&&e>=0}var WH=$Ft;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2891,7 +2891,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $Ft=I2.isObject;function BFt(e){return $Ft(e)&&e.valueOf()>=0}var jH=BFt;/**
+*/var BFt=I2.isObject;function zFt(e){return BFt(e)&&e.valueOf()>=0}var jH=zFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2907,7 +2907,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var zFt=WH,VFt=jH;function UFt(e){return zFt(e)||VFt(e)}var WFt=UFt;/**
+*/var VFt=WH,UFt=jH;function WFt(e){return VFt(e)||UFt(e)}var jFt=WFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2923,7 +2923,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GH=tn,y4=WFt,jFt=WH,GFt=jH;GH(y4,"isPrimitive",jFt);GH(y4,"isObject",GFt);var HFt=y4;/**
+*/var GH=tn,y4=jFt,GFt=WH,HFt=jH;GH(y4,"isPrimitive",GFt);GH(y4,"isObject",HFt);var XFt=y4;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2939,7 +2939,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function XFt(e){return e!==e}var YFt=XFt;/**
+*/function YFt(e){return e!==e}var KFt=YFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2955,7 +2955,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var KFt=YFt,be=KFt;/**
+*/var ZFt=KFt,be=ZFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2971,7 +2971,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function ZFt(e,t){var r,n;if(n=e.length,n<2||t===0)return n===0?0:e[0];for(n-=1,r=e[n]*t+e[n-1],n-=2;n>=0;)r=r*t+e[n],n-=1;return r}var HH=ZFt;/**
+*/function qFt(e,t){var r,n;if(n=e.length,n<2||t===0)return n===0?0:e[0];for(n-=1,r=e[n]*t+e[n-1],n-=2;n>=0;)r=r*t+e[n],n-=1;return r}var HH=qFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2987,7 +2987,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var qFt=HH;function JFt(e){var t,r,n,i;if(e.length>500)return o;if(t="return function evalpoly(x){",r=e.length,r===0)t+="return 0.0;";else if(r===1)t+="return "+e[0]+";";else{for(t+="if(x===0.0){return "+e[0]+";}",t+="return "+e[0],n=r-1,i=1;i<r;i++)t+="+x*",i<n&&(t+="("),t+=e[i];for(i=0;i<n-1;i++)t+=")";t+=";"}return t+="}",t+="//# sourceURL=evalpoly.factory.js",new Function(t)();function o(a){return qFt(e,a)}}var QFt=JFt;/**
+*/var JFt=HH;function QFt(e){var t,r,n,i;if(e.length>500)return o;if(t="return function evalpoly(x){",r=e.length,r===0)t+="return 0.0;";else if(r===1)t+="return "+e[0]+";";else{for(t+="if(x===0.0){return "+e[0]+";}",t+="return "+e[0],n=r-1,i=1;i<r;i++)t+="+x*",i<n&&(t+="("),t+=e[i];for(i=0;i<n-1;i++)t+=")";t+=";"}return t+="}",t+="//# sourceURL=evalpoly.factory.js",new Function(t)();function o(a){return JFt(e,a)}}var t$t=QFt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3003,7 +3003,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var t$t=tn,XH=HH,e$t=QFt;t$t(XH,"factory",e$t);var su=XH;/**
+*/var e$t=tn,XH=HH,r$t=t$t;e$t(XH,"factory",r$t);var su=XH;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3019,7 +3019,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var r$t=Go,n$t=typeof Uint32Array=="function";function i$t(e){return n$t&&e instanceof Uint32Array||r$t(e)==="[object Uint32Array]"}var o$t=i$t;/**
+*/var n$t=Go,i$t=typeof Uint32Array=="function";function o$t(e){return i$t&&e instanceof Uint32Array||n$t(e)==="[object Uint32Array]"}var a$t=o$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3035,7 +3035,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var a$t=o$t,s$t=a$t;/**
+*/var s$t=a$t,l$t=s$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3051,7 +3051,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var l$t=4294967295,u$t=l$t;/**
+*/var u$t=4294967295,c$t=u$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3067,7 +3067,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var c$t=typeof Uint32Array=="function"?Uint32Array:null,f$t=c$t;/**
+*/var f$t=typeof Uint32Array=="function"?Uint32Array:null,h$t=f$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3083,7 +3083,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var h$t=s$t,X3=u$t,D8=f$t;function d$t(){var e,t;if(typeof D8!="function")return!1;try{t=[1,3.14,-3.14,X3+1,X3+2],t=new D8(t),e=h$t(t)&&t[0]===1&&t[1]===3&&t[2]===X3-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var p$t=d$t;/**
+*/var d$t=l$t,X3=c$t,D8=h$t;function p$t(){var e,t;if(typeof D8!="function")return!1;try{t=[1,3.14,-3.14,X3+1,X3+2],t=new D8(t),e=d$t(t)&&t[0]===1&&t[1]===3&&t[2]===X3-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var g$t=p$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3099,7 +3099,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var g$t=p$t,v$t=g$t;/**
+*/var v$t=g$t,m$t=v$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3115,7 +3115,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var m$t=typeof Uint32Array=="function"?Uint32Array:void 0,y$t=m$t;/**
+*/var y$t=typeof Uint32Array=="function"?Uint32Array:void 0,_$t=y$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3131,7 +3131,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function _$t(){throw new Error("not implemented")}var b$t=_$t;/**
+*/function b$t(){throw new Error("not implemented")}var w$t=b$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3147,7 +3147,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var w$t=v$t,S$t=y$t,T$t=b$t,UE;w$t()?UE=S$t:UE=T$t;var kd=UE;/**
+*/var S$t=m$t,T$t=_$t,k$t=w$t,UE;S$t()?UE=T$t:UE=k$t;var kd=UE;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3163,7 +3163,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var k$t=Go,P$t=typeof Float64Array=="function";function E$t(e){return P$t&&e instanceof Float64Array||k$t(e)==="[object Float64Array]"}var C$t=E$t;/**
+*/var P$t=Go,E$t=typeof Float64Array=="function";function C$t(e){return E$t&&e instanceof Float64Array||P$t(e)==="[object Float64Array]"}var A$t=C$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3179,7 +3179,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var A$t=C$t,x$t=A$t;/**
+*/var x$t=A$t,M$t=x$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3195,7 +3195,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var M$t=typeof Float64Array=="function"?Float64Array:null,I$t=M$t;/**
+*/var I$t=typeof Float64Array=="function"?Float64Array:null,L$t=I$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3211,7 +3211,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var L$t=x$t,N8=I$t;function O$t(){var e,t;if(typeof N8!="function")return!1;try{t=new N8([1,3.14,-3.14,NaN]),e=L$t(t)&&t[0]===1&&t[1]===3.14&&t[2]===-3.14&&t[3]!==t[3]}catch{e=!1}return e}var R$t=O$t;/**
+*/var O$t=M$t,N8=L$t;function R$t(){var e,t;if(typeof N8!="function")return!1;try{t=new N8([1,3.14,-3.14,NaN]),e=O$t(t)&&t[0]===1&&t[1]===3.14&&t[2]===-3.14&&t[3]!==t[3]}catch{e=!1}return e}var D$t=R$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3227,7 +3227,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var D$t=R$t,N$t=D$t;/**
+*/var N$t=D$t,F$t=N$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3243,7 +3243,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var F$t=typeof Float64Array=="function"?Float64Array:void 0,$$t=F$t;/**
+*/var $$t=typeof Float64Array=="function"?Float64Array:void 0,B$t=$$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3259,7 +3259,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function B$t(){throw new Error("not implemented")}var z$t=B$t;/**
+*/function z$t(){throw new Error("not implemented")}var V$t=z$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3275,7 +3275,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var V$t=N$t,U$t=$$t,W$t=z$t,WE;V$t()?WE=U$t:WE=W$t;var Pd=WE;/**
+*/var U$t=F$t,W$t=B$t,j$t=V$t,WE;U$t()?WE=W$t:WE=j$t;var Pd=WE;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3291,7 +3291,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var j$t=Go,G$t=typeof Uint8Array=="function";function H$t(e){return G$t&&e instanceof Uint8Array||j$t(e)==="[object Uint8Array]"}var X$t=H$t;/**
+*/var G$t=Go,H$t=typeof Uint8Array=="function";function X$t(e){return H$t&&e instanceof Uint8Array||G$t(e)==="[object Uint8Array]"}var Y$t=X$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3307,7 +3307,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Y$t=X$t,K$t=Y$t;/**
+*/var K$t=Y$t,Z$t=K$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3323,7 +3323,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Z$t=255,q$t=Z$t;/**
+*/var q$t=255,J$t=q$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3339,7 +3339,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var J$t=typeof Uint8Array=="function"?Uint8Array:null,Q$t=J$t;/**
+*/var Q$t=typeof Uint8Array=="function"?Uint8Array:null,tBt=Q$t;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3355,7 +3355,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var tBt=K$t,Y3=q$t,F8=Q$t;function eBt(){var e,t;if(typeof F8!="function")return!1;try{t=[1,3.14,-3.14,Y3+1,Y3+2],t=new F8(t),e=tBt(t)&&t[0]===1&&t[1]===3&&t[2]===Y3-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var rBt=eBt;/**
+*/var eBt=Z$t,Y3=J$t,F8=tBt;function rBt(){var e,t;if(typeof F8!="function")return!1;try{t=[1,3.14,-3.14,Y3+1,Y3+2],t=new F8(t),e=eBt(t)&&t[0]===1&&t[1]===3&&t[2]===Y3-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var nBt=rBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3371,7 +3371,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var nBt=rBt,iBt=nBt;/**
+*/var iBt=nBt,oBt=iBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3387,7 +3387,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var oBt=typeof Uint8Array=="function"?Uint8Array:void 0,aBt=oBt;/**
+*/var aBt=typeof Uint8Array=="function"?Uint8Array:void 0,sBt=aBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3403,7 +3403,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function sBt(){throw new Error("not implemented")}var lBt=sBt;/**
+*/function lBt(){throw new Error("not implemented")}var uBt=lBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3419,7 +3419,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var uBt=iBt,cBt=aBt,fBt=lBt,jE;uBt()?jE=cBt:jE=fBt;var hBt=jE;/**
+*/var cBt=oBt,fBt=sBt,hBt=uBt,jE;cBt()?jE=fBt:jE=hBt;var dBt=jE;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3435,7 +3435,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dBt=Go,pBt=typeof Uint16Array=="function";function gBt(e){return pBt&&e instanceof Uint16Array||dBt(e)==="[object Uint16Array]"}var vBt=gBt;/**
+*/var pBt=Go,gBt=typeof Uint16Array=="function";function vBt(e){return gBt&&e instanceof Uint16Array||pBt(e)==="[object Uint16Array]"}var mBt=vBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3451,7 +3451,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mBt=vBt,yBt=mBt;/**
+*/var yBt=mBt,_Bt=yBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3467,7 +3467,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var _Bt=65535,bBt=_Bt;/**
+*/var bBt=65535,wBt=bBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3483,7 +3483,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var wBt=typeof Uint16Array=="function"?Uint16Array:null,SBt=wBt;/**
+*/var SBt=typeof Uint16Array=="function"?Uint16Array:null,TBt=SBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3499,7 +3499,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var TBt=yBt,K3=bBt,$8=SBt;function kBt(){var e,t;if(typeof $8!="function")return!1;try{t=[1,3.14,-3.14,K3+1,K3+2],t=new $8(t),e=TBt(t)&&t[0]===1&&t[1]===3&&t[2]===K3-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var PBt=kBt;/**
+*/var kBt=_Bt,K3=wBt,$8=TBt;function PBt(){var e,t;if(typeof $8!="function")return!1;try{t=[1,3.14,-3.14,K3+1,K3+2],t=new $8(t),e=kBt(t)&&t[0]===1&&t[1]===3&&t[2]===K3-2&&t[3]===0&&t[4]===1}catch{e=!1}return e}var EBt=PBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3515,7 +3515,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var EBt=PBt,CBt=EBt;/**
+*/var CBt=EBt,ABt=CBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3531,7 +3531,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ABt=typeof Uint16Array=="function"?Uint16Array:void 0,xBt=ABt;/**
+*/var xBt=typeof Uint16Array=="function"?Uint16Array:void 0,MBt=xBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3547,7 +3547,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function MBt(){throw new Error("not implemented")}var IBt=MBt;/**
+*/function IBt(){throw new Error("not implemented")}var LBt=IBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3563,7 +3563,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var LBt=CBt,OBt=xBt,RBt=IBt,GE;LBt()?GE=OBt:GE=RBt;var DBt=GE;/**
+*/var OBt=ABt,RBt=MBt,DBt=LBt,GE;OBt()?GE=RBt:GE=DBt;var NBt=GE;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3579,7 +3579,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var NBt=hBt,FBt=DBt,$Bt={uint16:FBt,uint8:NBt},BBt=$Bt;/**
+*/var FBt=dBt,$Bt=NBt,BBt={uint16:$Bt,uint8:FBt},zBt=BBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3595,7 +3595,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var B8=BBt,YH;function zBt(){var e,t;return e=new B8.uint16(1),e[0]=4660,t=new B8.uint8(e.buffer),t[0]===52}YH=zBt();var VBt=YH;/**
+*/var B8=zBt,YH;function VBt(){var e,t;return e=new B8.uint16(1),e[0]=4660,t=new B8.uint8(e.buffer),t[0]===52}YH=VBt();var UBt=YH;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3611,7 +3611,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var UBt=VBt,Ed=UBt;/**
+*/var WBt=UBt,Ed=WBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3627,7 +3627,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var WBt=Ed,HE;WBt===!0?HE=1:HE=0;var jBt=HE;/**
+*/var jBt=Ed,HE;jBt===!0?HE=1:HE=0;var GBt=HE;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3643,7 +3643,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GBt=kd,HBt=Pd,XBt=jBt,KH=new HBt(1),YBt=new GBt(KH.buffer);function KBt(e){return KH[0]=e,YBt[XBt]}var ZBt=KBt;/**
+*/var HBt=kd,XBt=Pd,YBt=GBt,KH=new XBt(1),KBt=new HBt(KH.buffer);function ZBt(e){return KH[0]=e,KBt[YBt]}var qBt=ZBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3659,7 +3659,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var qBt=ZBt,so=qBt;/**
+*/var JBt=qBt,so=JBt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3675,7 +3675,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var JBt=Ed,XE;JBt===!0?XE=1:XE=0;var QBt=XE;/**
+*/var QBt=Ed,XE;QBt===!0?XE=1:XE=0;var tzt=XE;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3691,7 +3691,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var tzt=kd,ezt=Pd,rzt=QBt,YE=new ezt(1),nzt=new tzt(YE.buffer);function izt(e,t){return YE[0]=e,nzt[rzt]=t>>>0,YE[0]}var ozt=izt;/**
+*/var ezt=kd,rzt=Pd,nzt=tzt,YE=new rzt(1),izt=new ezt(YE.buffer);function ozt(e,t){return YE[0]=e,izt[nzt]=t>>>0,YE[0]}var azt=ozt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3707,7 +3707,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var azt=ozt,T0=azt;/**
+*/var szt=azt,T0=szt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3723,7 +3723,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var szt=1023,af=szt;/**
+*/var lzt=1023,af=lzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3739,7 +3739,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var lzt=.34657359027997264,uzt=lzt;/**
+*/var uzt=.34657359027997264,czt=uzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3755,7 +3755,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function czt(e){return e===0?-.03333333333333313:-.03333333333333313+e*(.0015873015872548146+e*(-793650757867488e-19+e*(4008217827329362e-21+e*-20109921818362437e-23)))}var fzt=czt;/**
+*/function fzt(e){return e===0?-.03333333333333313:-.03333333333333313+e*(.0015873015872548146+e*(-793650757867488e-19+e*(4008217827329362e-21+e*-20109921818362437e-23)))}var hzt=fzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3785,7 +3785,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var hzt=be,Z3=so,_1=T0,z8=sr,dzt=pn,pzt=af,gzt=uzt,vzt=fzt,mzt=709.782712893384,q3=.6931471803691238,J3=19082149292705877e-26,V8=1.4426950408889634,yzt=38.816242111356935,_zt=1.0397207708399179;function bzt(e){var t,r,n,i,o,a,s,l,u,c,f,h;if(e===z8||hzt(e))return e;if(e===dzt)return-1;if(e===0)return e;if(e<0?(r=!0,s=-e):(r=!1,s=e),s>=yzt){if(r)return-1;if(s>=mzt)return z8}if(o=Z3(s)|0,s>gzt)s<_zt?r?(n=e+q3,i=-J3,h=-1):(n=e-q3,i=J3,h=1):(r?h=V8*e-.5:h=V8*e+.5,h|=0,c=h,n=e-c*q3,i=c*J3),e=n-i,u=n-e-i;else{if(o<1016070144)return e;h=0}return t=.5*e,l=e*t,a=1+l*vzt(l),c=3-a*t,f=l*((a-c)/(6-e*c)),h===0?e-(e*f-l):(f=e*(f-u)-u,f-=l,h===-1?.5*(e-f)-.5:h===1?e<-.25?-2*(f-(e+.5)):1+2*(e-f):h<=-2||h>56?(s=1-(f-e),n=Z3(s)+(h<<20)|0,s=_1(s,n),s-1):(c=1,h<20?(n=1072693248-(2097152>>h)|0,c=_1(c,n),s=c-(f-e)):(n=pzt-h<<20|0,c=_1(c,n),s=e-(f+c),s+=1),n=Z3(s)+(h<<20)|0,_1(s,n)))}var wzt=bzt;/**
+*/var dzt=be,Z3=so,_1=T0,z8=sr,pzt=pn,gzt=af,vzt=czt,mzt=hzt,yzt=709.782712893384,q3=.6931471803691238,J3=19082149292705877e-26,V8=1.4426950408889634,_zt=38.816242111356935,bzt=1.0397207708399179;function wzt(e){var t,r,n,i,o,a,s,l,u,c,f,h;if(e===z8||dzt(e))return e;if(e===pzt)return-1;if(e===0)return e;if(e<0?(r=!0,s=-e):(r=!1,s=e),s>=_zt){if(r)return-1;if(s>=yzt)return z8}if(o=Z3(s)|0,s>vzt)s<bzt?r?(n=e+q3,i=-J3,h=-1):(n=e-q3,i=J3,h=1):(r?h=V8*e-.5:h=V8*e+.5,h|=0,c=h,n=e-c*q3,i=c*J3),e=n-i,u=n-e-i;else{if(o<1016070144)return e;h=0}return t=.5*e,l=e*t,a=1+l*mzt(l),c=3-a*t,f=l*((a-c)/(6-e*c)),h===0?e-(e*f-l):(f=e*(f-u)-u,f-=l,h===-1?.5*(e-f)-.5:h===1?e<-.25?-2*(f-(e+.5)):1+2*(e-f):h<=-2||h>56?(s=1-(f-e),n=Z3(s)+(h<<20)|0,s=_1(s,n),s-1):(c=1,h<20?(n=1072693248-(2097152>>h)|0,c=_1(c,n),s=c-(f-e)):(n=gzt-h<<20|0,c=_1(c,n),s=e-(f+c),s+=1),n=Z3(s)+(h<<20)|0,_1(s,n)))}var Szt=wzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3801,7 +3801,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Szt=wzt,Cd=Szt;/**
+*/var Tzt=Szt,Cd=Tzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3817,7 +3817,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Tzt(e){return e===0?.6666666666666735:.6666666666666735+e*(.3999999999940942+e*(.2857142874366239+e*(.22222198432149784+e*(.1818357216161805+e*(.15313837699209373+e*.14798198605116586)))))}var kzt=Tzt;/**
+*/function kzt(e){return e===0?.6666666666666735:.6666666666666735+e*(.3999999999940942+e*(.2857142874366239+e*(.22222198432149784+e*(.1818357216161805+e*(.15313837699209373+e*.14798198605116586)))))}var Pzt=kzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3847,7 +3847,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var Pzt=be,U8=so,W8=T0,Ezt=sr,Czt=pn,j8=af,Azt=kzt,Q3=.6931471803691238,tT=19082149292705877e-26,xzt=.41421356237309503,Mzt=-.2928932188134525,Izt=1862645149230957e-24,Lzt=5551115123125783e-32,Ozt=9007199254740992,Rzt=.6666666666666666;function Dzt(e){var t,r,n,i,o,a,s,l,u,c;if(e<-1||Pzt(e))return NaN;if(e===-1)return Czt;if(e===Ezt||e===0)return e;if(e<0?n=-e:n=e,c=1,n<xzt){if(n<Izt)return n<Lzt?e:e-e*e*.5;e>Mzt&&(c=0,i=e,r=1)}return c!==0&&(n<Ozt?(u=1+e,r=U8(u),c=(r>>20)-j8,c>0?o=1-(u-e):o=e-(u-1),o/=u):(u=e,r=U8(u),c=(r>>20)-j8,o=0),r&=1048575,r<434334?u=W8(u,r|1072693248):(c+=1,u=W8(u,r|1071644672),r=1048576-r>>2),i=u-1),t=.5*i*i,r===0?i===0?(o+=c*tT,c*Q3+o):(l=t*(1-Rzt*i),c*Q3-(l-(c*tT+o)-i)):(a=i/(2+i),s=a*a,l=s*Azt(s),c===0?i-(t-a*(t+l)):c*Q3-(t-(a*(t+l)+(c*tT+o))-i))}var Nzt=Dzt;/**
+*/var Ezt=be,U8=so,W8=T0,Czt=sr,Azt=pn,j8=af,xzt=Pzt,Q3=.6931471803691238,tT=19082149292705877e-26,Mzt=.41421356237309503,Izt=-.2928932188134525,Lzt=1862645149230957e-24,Ozt=5551115123125783e-32,Rzt=9007199254740992,Dzt=.6666666666666666;function Nzt(e){var t,r,n,i,o,a,s,l,u,c;if(e<-1||Ezt(e))return NaN;if(e===-1)return Azt;if(e===Czt||e===0)return e;if(e<0?n=-e:n=e,c=1,n<Mzt){if(n<Lzt)return n<Ozt?e:e-e*e*.5;e>Izt&&(c=0,i=e,r=1)}return c!==0&&(n<Rzt?(u=1+e,r=U8(u),c=(r>>20)-j8,c>0?o=1-(u-e):o=e-(u-1),o/=u):(u=e,r=U8(u),c=(r>>20)-j8,o=0),r&=1048575,r<434334?u=W8(u,r|1072693248):(c+=1,u=W8(u,r|1071644672),r=1048576-r>>2),i=u-1),t=.5*i*i,r===0?i===0?(o+=c*tT,c*Q3+o):(l=t*(1-Dzt*i),c*Q3-(l-(c*tT+o)-i)):(a=i/(2+i),s=a*a,l=s*xzt(s),c===0?i-(t-a*(t+l)):c*Q3-(t-(a*(t+l)+(c*tT+o))-i))}var Fzt=Nzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3863,7 +3863,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Fzt=Nzt,Ei=Fzt;/**
+*/var $zt=Fzt,Ei=$zt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3879,7 +3879,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $zt=Math.sqrt,Bzt=$zt;/**
+*/var Bzt=Math.sqrt,zzt=Bzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3895,7 +3895,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var zzt=Bzt,Rr=zzt;/**
+*/var Vzt=zzt,Rr=Vzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3911,7 +3911,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Vzt=.7853981633974483,ZH=Vzt;/**
+*/var Uzt=.7853981633974483,ZH=Uzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2020 The Stdlib Authors.
@@ -3927,7 +3927,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Uzt(e){var t,r,n;return e===0?.16666666666666713:(e<0?t=-e:t=e,t<=1?(r=-8.198089802484825+e*(19.562619833175948+e*(-16.262479672107002+e*(5.444622390564711+e*(-.6019598008014124+e*.004253011369004428)))),n=-49.18853881490881+e*(139.51056146574857+e*(-147.1791292232726+e*(70.49610280856842+e*(-14.740913729888538+e*1))))):(e=1/e,r=.004253011369004428+e*(-.6019598008014124+e*(5.444622390564711+e*(-16.262479672107002+e*(19.562619833175948+e*-8.198089802484825)))),n=1+e*(-14.740913729888538+e*(70.49610280856842+e*(-147.1791292232726+e*(139.51056146574857+e*-49.18853881490881))))),r/n)}var Wzt=Uzt;/**
+*/function Wzt(e){var t,r,n;return e===0?.16666666666666713:(e<0?t=-e:t=e,t<=1?(r=-8.198089802484825+e*(19.562619833175948+e*(-16.262479672107002+e*(5.444622390564711+e*(-.6019598008014124+e*.004253011369004428)))),n=-49.18853881490881+e*(139.51056146574857+e*(-147.1791292232726+e*(70.49610280856842+e*(-14.740913729888538+e*1))))):(e=1/e,r=.004253011369004428+e*(-.6019598008014124+e*(5.444622390564711+e*(-16.262479672107002+e*(19.562619833175948+e*-8.198089802484825)))),n=1+e*(-14.740913729888538+e*(70.49610280856842+e*(-147.1791292232726+e*(139.51056146574857+e*-49.18853881490881))))),r/n)}var jzt=Wzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2020 The Stdlib Authors.
@@ -3943,7 +3943,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function jzt(e){var t,r,n;return e===0?.08333333333333809:(e<0?t=-e:t=e,t<=1?(r=28.536655482610616+e*(-25.56901049652825+e*(6.968710824104713+e*(-.5634242780008963+e*.002967721961301243))),n=342.43986579130785+e*(-383.8770957603691+e*(147.0656354026815+e*(-21.947795316429207+e*1)))):(e=1/e,r=.002967721961301243+e*(-.5634242780008963+e*(6.968710824104713+e*(-25.56901049652825+e*28.536655482610616))),n=1+e*(-21.947795316429207+e*(147.0656354026815+e*(-383.8770957603691+e*342.43986579130785)))),r/n)}var Gzt=jzt;/**
+*/function Gzt(e){var t,r,n;return e===0?.08333333333333809:(e<0?t=-e:t=e,t<=1?(r=28.536655482610616+e*(-25.56901049652825+e*(6.968710824104713+e*(-.5634242780008963+e*.002967721961301243))),n=342.43986579130785+e*(-383.8770957603691+e*(147.0656354026815+e*(-21.947795316429207+e*1)))):(e=1/e,r=.002967721961301243+e*(-.5634242780008963+e*(6.968710824104713+e*(-25.56901049652825+e*28.536655482610616))),n=1+e*(-21.947795316429207+e*(147.0656354026815+e*(-383.8770957603691+e*342.43986579130785)))),r/n)}var Hzt=Gzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3973,7 +3973,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Stephen L. Moshier
 * moshier@na-net.ornl.gov
 * ```
-*/var Hzt=be,Xzt=Rr,G8=ZH,Yzt=Wzt,Kzt=Gzt,Zzt=6123233995736766e-32;function qzt(e){var t,r,n,i,o;if(Hzt(e))return NaN;if(e>0?n=e:(t=!0,n=-e),n>1)return NaN;if(n>.625)r=1-n,i=r*Kzt(r),r=Xzt(r+r),o=G8-r,r=r*i-Zzt,o-=r,o+=G8;else{if(n<1e-8)return e;r=n*n,o=r*Yzt(r),o=n*o+n}return t?-o:o}var Jzt=qzt;/**
+*/var Xzt=be,Yzt=Rr,G8=ZH,Kzt=jzt,Zzt=Hzt,qzt=6123233995736766e-32;function Jzt(e){var t,r,n,i,o;if(Xzt(e))return NaN;if(e>0?n=e:(t=!0,n=-e),n>1)return NaN;if(n>.625)r=1-n,i=r*Zzt(r),r=Yzt(r+r),o=G8-r,r=r*i-qzt,o-=r,o+=G8;else{if(n<1e-8)return e;r=n*n,o=r*Kzt(r),o=n*o+n}return t?-o:o}var Qzt=Jzt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -3989,7 +3989,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Qzt=Jzt,_4=Qzt;/**
+*/var tVt=Qzt,_4=tVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -4005,7 +4005,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function tVt(e){return Math.abs(e)}var eVt=tVt;/**
+*/function eVt(e){return Math.abs(e)}var rVt=eVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4021,7 +4021,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rVt=eVt,$e=rVt;/**
+*/var nVt=rVt,$e=nVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4037,7 +4037,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var nVt=Math.ceil,iVt=nVt;/**
+*/var iVt=Math.ceil,oVt=iVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4053,7 +4053,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var oVt=iVt,qH=oVt;/**
+*/var aVt=oVt,qH=aVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4069,7 +4069,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var aVt=Pi,sVt=qH;function lVt(e){return e<0?sVt(e):aVt(e)}var uVt=lVt;/**
+*/var sVt=Pi,lVt=qH;function uVt(e){return e<0?lVt(e):sVt(e)}var cVt=uVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4085,7 +4085,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var cVt=uVt,b4=cVt;/**
+*/var fVt=cVt,b4=fVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4101,7 +4101,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var fVt=1023,hVt=fVt;/**
+*/var hVt=1023,dVt=hVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4117,7 +4117,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dVt=-1023,pVt=dVt;/**
+*/var pVt=-1023,gVt=pVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4133,7 +4133,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var gVt=-1074,vVt=gVt;/**
+*/var vVt=-1074,mVt=vVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4149,7 +4149,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mVt=sr,yVt=pn;function _Vt(e){return e===mVt||e===yVt}var bVt=_Vt;/**
+*/var yVt=sr,_Vt=pn;function bVt(e){return e===yVt||e===_Vt}var wVt=bVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4165,7 +4165,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var wVt=bVt,Ad=wVt;/**
+*/var SVt=wVt,Ad=SVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4181,7 +4181,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var SVt=2147483648>>>0,TVt=SVt;/**
+*/var TVt=2147483648>>>0,kVt=TVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4197,7 +4197,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kVt=2147483647>>>0,L2=kVt;/**
+*/var PVt=2147483647>>>0,L2=PVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4213,7 +4213,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var PVt=Ed,JH,KE,ZE;PVt===!0?(KE=1,ZE=0):(KE=0,ZE=1);JH={HIGH:KE,LOW:ZE};var EVt=JH;/**
+*/var EVt=Ed,JH,KE,ZE;EVt===!0?(KE=1,ZE=0):(KE=0,ZE=1);JH={HIGH:KE,LOW:ZE};var CVt=JH;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4229,7 +4229,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var CVt=kd,AVt=Pd,QH=EVt,tX=new AVt(1),H8=new CVt(tX.buffer),xVt=QH.HIGH,MVt=QH.LOW;function IVt(e,t,r,n){return tX[0]=e,t[n]=H8[xVt],t[n+r]=H8[MVt],t}var eX=IVt;/**
+*/var AVt=kd,xVt=Pd,QH=CVt,tX=new xVt(1),H8=new AVt(tX.buffer),MVt=QH.HIGH,IVt=QH.LOW;function LVt(e,t,r,n){return tX[0]=e,t[n]=H8[MVt],t[n+r]=H8[IVt],t}var eX=LVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4245,7 +4245,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var LVt=eX;function OVt(e){return LVt(e,[0>>>0,0>>>0],1,0)}var RVt=OVt;/**
+*/var OVt=eX;function RVt(e){return OVt(e,[0>>>0,0>>>0],1,0)}var DVt=RVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4261,7 +4261,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var DVt=tn,rX=RVt,NVt=eX;DVt(rX,"assign",NVt);var w4=rX;/**
+*/var NVt=tn,rX=DVt,FVt=eX;NVt(rX,"assign",FVt);var w4=rX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4277,7 +4277,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var FVt=Ed,nX,qE,JE;FVt===!0?(qE=1,JE=0):(qE=0,JE=1);nX={HIGH:qE,LOW:JE};var $Vt=nX;/**
+*/var $Vt=Ed,nX,qE,JE;$Vt===!0?(qE=1,JE=0):(qE=0,JE=1);nX={HIGH:qE,LOW:JE};var BVt=nX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4293,7 +4293,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var BVt=kd,zVt=Pd,iX=$Vt,oX=new zVt(1),X8=new BVt(oX.buffer),VVt=iX.HIGH,UVt=iX.LOW;function WVt(e,t){return X8[VVt]=e,X8[UVt]=t,oX[0]}var jVt=WVt;/**
+*/var zVt=kd,VVt=Pd,iX=BVt,oX=new VVt(1),X8=new zVt(oX.buffer),UVt=iX.HIGH,WVt=iX.LOW;function jVt(e,t){return X8[UVt]=e,X8[WVt]=t,oX[0]}var GVt=jVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4309,7 +4309,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GVt=jVt,S4=GVt;/**
+*/var HVt=GVt,S4=HVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4325,7 +4325,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var HVt=TVt,XVt=L2,YVt=w4,KVt=so,ZVt=S4,eT=[0,0];function qVt(e,t){var r,n;return YVt.assign(e,eT,1,0),r=eT[0],r&=XVt,n=KVt(t),n&=HVt,r|=n,ZVt(r,eT[1])}var JVt=qVt;/**
+*/var XVt=kVt,YVt=L2,KVt=w4,ZVt=so,qVt=S4,eT=[0,0];function JVt(e,t){var r,n;return KVt.assign(e,eT,1,0),r=eT[0],r&=YVt,n=ZVt(t),n&=XVt,r|=n,qVt(r,eT[1])}var QVt=JVt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4341,7 +4341,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var QVt=JVt,T4=QVt;/**
+*/var tUt=QVt,T4=tUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4357,7 +4357,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var tUt=22250738585072014e-324,sf=tUt;/**
+*/var eUt=22250738585072014e-324,sf=eUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4373,7 +4373,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eUt=sf,rUt=Ad,nUt=be,iUt=$e,oUt=4503599627370496;function aUt(e,t,r,n){return nUt(e)||rUt(e)?(t[n]=e,t[n+r]=0,t):e!==0&&iUt(e)<eUt?(t[n]=e*oUt,t[n+r]=-52,t):(t[n]=e,t[n+r]=0,t)}var aX=aUt;/**
+*/var rUt=sf,nUt=Ad,iUt=be,oUt=$e,aUt=4503599627370496;function sUt(e,t,r,n){return iUt(e)||nUt(e)?(t[n]=e,t[n+r]=0,t):e!==0&&oUt(e)<rUt?(t[n]=e*aUt,t[n+r]=-52,t):(t[n]=e,t[n+r]=0,t)}var aX=sUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4389,7 +4389,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sUt=aX;function lUt(e){return sUt(e,[0,0],1,0)}var uUt=lUt;/**
+*/var lUt=aX;function uUt(e){return lUt(e,[0,0],1,0)}var cUt=uUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4405,7 +4405,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var cUt=tn,sX=uUt,fUt=aX;cUt(sX,"assign",fUt);var hUt=sX;/**
+*/var fUt=tn,sX=cUt,hUt=aX;fUt(sX,"assign",hUt);var dUt=sX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4421,7 +4421,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dUt=2146435072,pUt=dUt;/**
+*/var pUt=2146435072,gUt=pUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4437,7 +4437,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var gUt=so,vUt=pUt,mUt=af;function yUt(e){var t=gUt(e);return t=(t&vUt)>>>20,t-mUt|0}var _Ut=yUt;/**
+*/var vUt=so,mUt=gUt,yUt=af;function _Ut(e){var t=vUt(e);return t=(t&mUt)>>>20,t-yUt|0}var bUt=_Ut;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4453,7 +4453,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var bUt=_Ut,wUt=bUt;/**
+*/var wUt=bUt,SUt=wUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4469,7 +4469,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var SUt=sr,TUt=pn,kUt=af,PUt=hVt,EUt=pVt,CUt=vVt,AUt=be,xUt=Ad,MUt=T4,IUt=hUt.assign,LUt=wUt,OUt=w4,RUt=S4,DUt=2220446049250313e-31,NUt=2148532223>>>0,rT=[0,0],nT=[0,0];function FUt(e,t){var r,n;return t===0||e===0||AUt(e)||xUt(e)?e:(IUt(e,rT,1,0),e=rT[0],t+=rT[1],t+=LUt(e),t<CUt?MUt(0,e):t>PUt?e<0?TUt:SUt:(t<=EUt?(t+=52,n=DUt):n=1,OUt.assign(e,nT,1,0),r=nT[0],r&=NUt,r|=t+kUt<<20,n*RUt(r,nT[1])))}var $Ut=FUt;/**
+*/var TUt=sr,kUt=pn,PUt=af,EUt=dVt,CUt=gVt,AUt=mVt,xUt=be,MUt=Ad,IUt=T4,LUt=dUt.assign,OUt=SUt,RUt=w4,DUt=S4,NUt=2220446049250313e-31,FUt=2148532223>>>0,rT=[0,0],nT=[0,0];function $Ut(e,t){var r,n;return t===0||e===0||xUt(e)||MUt(e)?e:(LUt(e,rT,1,0),e=rT[0],t+=rT[1],t+=OUt(e),t<AUt?IUt(0,e):t>EUt?e<0?kUt:TUt:(t<=CUt?(t+=52,n=NUt):n=1,RUt.assign(e,nT,1,0),r=nT[0],r&=FUt,r|=t+PUt<<20,n*DUt(r,nT[1])))}var BUt=$Ut;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4485,7 +4485,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var BUt=$Ut,xd=BUt;/**
+*/var zUt=BUt,xd=zUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -4501,7 +4501,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function zUt(e){return e===0?.16666666666666602:.16666666666666602+e*(-.0027777777777015593+e*(6613756321437934e-20+e*(-16533902205465252e-22+e*41381367970572385e-24)))}var VUt=zUt;/**
+*/function VUt(e){return e===0?.16666666666666602:.16666666666666602+e*(-.0027777777777015593+e*(6613756321437934e-20+e*(-16533902205465252e-22+e*41381367970572385e-24)))}var UUt=VUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4531,7 +4531,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var UUt=xd,WUt=VUt;function jUt(e,t,r){var n,i,o,a;return n=e-t,i=n*n,o=n-i*WUt(i),a=1-(t-n*o/(2-o)-e),UUt(a,r)}var GUt=jUt;/**
+*/var WUt=xd,jUt=UUt;function GUt(e,t,r){var n,i,o,a;return n=e-t,i=n*n,o=n-i*jUt(i),a=1-(t-n*o/(2-o)-e),WUt(a,r)}var HUt=GUt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4561,7 +4561,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var HUt=be,Y8=b4,XUt=pn,K8=sr,YUt=GUt,KUt=.6931471803691238,ZUt=19082149292705877e-26,Z8=1.4426950408889634,qUt=709.782712893384,JUt=-745.1332191019411,lX=1/(1<<28),QUt=-lX;function tWt(e){var t,r,n;return HUt(e)||e===K8?e:e===XUt?0:e>qUt?K8:e<JUt?0:e>QUt&&e<lX?1+e:(e<0?n=Y8(Z8*e-.5):n=Y8(Z8*e+.5),t=e-n*KUt,r=n*ZUt,YUt(t,r,n))}var eWt=tWt;/**
+*/var XUt=be,Y8=b4,YUt=pn,K8=sr,KUt=HUt,ZUt=.6931471803691238,qUt=19082149292705877e-26,Z8=1.4426950408889634,JUt=709.782712893384,QUt=-745.1332191019411,lX=1/(1<<28),tWt=-lX;function eWt(e){var t,r,n;return XUt(e)||e===K8?e:e===YUt?0:e>JUt?K8:e<QUt?0:e>tWt&&e<lX?1+e:(e<0?n=Y8(Z8*e-.5):n=Y8(Z8*e+.5),t=e-n*ZUt,r=n*qUt,KUt(t,r,n))}var rWt=eWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4577,7 +4577,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rWt=eWt,gr=rWt;/**
+*/var nWt=rWt,gr=nWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4593,7 +4593,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var nWt=au;function iWt(e){return nWt(e/2)}var oWt=iWt;/**
+*/var iWt=au;function oWt(e){return iWt(e/2)}var aWt=oWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4609,7 +4609,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var aWt=oWt,sWt=aWt;/**
+*/var sWt=aWt,lWt=sWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4625,7 +4625,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var q8=sWt;function lWt(e){return e>0?q8(e-1):q8(e+1)}var uWt=lWt;/**
+*/var q8=lWt;function uWt(e){return e>0?q8(e-1):q8(e+1)}var cWt=uWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4641,7 +4641,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var cWt=uWt,k4=cWt;/**
+*/var fWt=cWt,k4=fWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4657,7 +4657,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var fWt=Ed,QE;fWt===!0?QE=0:QE=1;var hWt=QE;/**
+*/var hWt=Ed,QE;hWt===!0?QE=0:QE=1;var dWt=QE;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4673,7 +4673,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dWt=kd,pWt=Pd,gWt=hWt,tC=new pWt(1),vWt=new dWt(tC.buffer);function mWt(e,t){return tC[0]=e,vWt[gWt]=t>>>0,tC[0]}var yWt=mWt;/**
+*/var pWt=kd,gWt=Pd,vWt=dWt,tC=new gWt(1),mWt=new pWt(tC.buffer);function yWt(e,t){return tC[0]=e,mWt[vWt]=t>>>0,tC[0]}var _Wt=yWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4689,7 +4689,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var _Wt=yWt,k0=_Wt;/**
+*/var bWt=_Wt,k0=bWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4705,7 +4705,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function bWt(e){return e|0}var wWt=bWt;/**
+*/function wWt(e){return e|0}var SWt=wWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4721,37 +4721,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var SWt=wWt,uX=SWt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The following copyright and license were part of the original implementation available as part of [FreeBSD]{@link https://svnweb.freebsd.org/base/release/9.3.0/lib/msun/src/s_pow.c}. The implementation follows the original, but has been modified for JavaScript.
-*
-* ```text
-* Copyright (C) 2004 by Sun Microsystems, Inc. All rights reserved.
-*
-* Developed at SunPro, a Sun Microsystems, Inc. business.
-* Permission to use, copy, modify, and distribute this
-* software is freely granted, provided that this notice
-* is preserved.
-* ```
-*/var J8=k4,TWt=T4,kWt=pn,b1=sr;function PWt(e,t){return t===kWt?b1:t===b1?0:t>0?J8(t)?e:0:J8(t)?TWt(b1,e):b1}var EWt=PWt;/**
+*/var TWt=SWt,uX=TWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4781,7 +4751,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var CWt=L2,AWt=so,xWt=1072693247,w1=1e300,S1=1e-300;function MWt(e,t){var r,n;return n=AWt(e),r=n&CWt,r<=xWt?t<0?w1*w1:S1*S1:t>0?w1*w1:S1*S1}var IWt=MWt;/**
+*/var J8=k4,kWt=T4,PWt=pn,b1=sr;function EWt(e,t){return t===PWt?b1:t===b1?0:t>0?J8(t)?e:0:J8(t)?kWt(b1,e):b1}var CWt=EWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4797,7 +4767,37 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var LWt=$e,Q8=sr;function OWt(e,t){return e===-1?(e-e)/(e-e):e===1?1:LWt(e)<1==(t===Q8)?0:Q8}var RWt=OWt;/**
+*
+*
+* ## Notice
+*
+* The following copyright and license were part of the original implementation available as part of [FreeBSD]{@link https://svnweb.freebsd.org/base/release/9.3.0/lib/msun/src/s_pow.c}. The implementation follows the original, but has been modified for JavaScript.
+*
+* ```text
+* Copyright (C) 2004 by Sun Microsystems, Inc. All rights reserved.
+*
+* Developed at SunPro, a Sun Microsystems, Inc. business.
+* Permission to use, copy, modify, and distribute this
+* software is freely granted, provided that this notice
+* is preserved.
+* ```
+*/var AWt=L2,xWt=so,MWt=1072693247,w1=1e300,S1=1e-300;function IWt(e,t){var r,n;return n=xWt(e),r=n&AWt,r<=MWt?t<0?w1*w1:S1*S1:t>0?w1*w1:S1*S1}var LWt=IWt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var OWt=$e,Q8=sr;function RWt(e,t){return e===-1?(e-e)/(e-e):e===1?1:OWt(e)<1==(t===Q8)?0:Q8}var DWt=RWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4813,7 +4813,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function DWt(e){return e===0?.5999999999999946:.5999999999999946+e*(.4285714285785502+e*(.33333332981837743+e*(.272728123808534+e*(.23066074577556175+e*.20697501780033842))))}var NWt=DWt;/**
+*/function NWt(e){return e===0?.5999999999999946:.5999999999999946+e*(.4285714285785502+e*(.33333332981837743+e*(.272728123808534+e*(.23066074577556175+e*.20697501780033842))))}var FWt=NWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4843,7 +4843,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var FWt=so,T1=k0,t9=T0,$Wt=af,BWt=NWt,zWt=1048575,e9=1048576,VWt=1072693248,UWt=536870912,WWt=524288,jWt=20,GWt=9007199254740992,HWt=.9617966939259756,XWt=.9617967009544373,YWt=-7028461650952758e-24,KWt=[1,1.5],ZWt=[0,.5849624872207642],qWt=[0,1350039202129749e-23];function JWt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E;return S=0,r<e9&&(t*=GWt,S-=53,r=FWt(t)),S+=(r>>jWt)-$Wt|0,k=r&zWt|0,r=k|VWt|0,k<=235662?E=0:k<767610?E=1:(E=0,S+=1,r-=e9),t=t9(t,r),c=KWt[E],w=t-c,T=1/(t+c),i=w*T,a=T1(i,0),n=(r>>1|UWt)+WWt,n+=E<<18,l=t9(0,n),u=t-(l-c),s=T*(w-a*l-a*u),o=i*i,b=o*o*BWt(o),b+=s*(a+i),o=a*a,l=3+o+b,l=T1(l,0),u=b-(l-3-o),w=a*l,T=s*l+u*i,h=w+T,h=T1(h,0),d=T-(h-w),p=XWt*h,g=YWt*h+d*HWt+qWt[E],f=ZWt[E],y=S,m=p+g+f+y,m=T1(m,0),v=g-(m-y-f-p),e[0]=m,e[1]=v,e}var QWt=JWt;/**
+*/var $Wt=so,T1=k0,t9=T0,BWt=af,zWt=FWt,VWt=1048575,e9=1048576,UWt=1072693248,WWt=536870912,jWt=524288,GWt=20,HWt=9007199254740992,XWt=.9617966939259756,YWt=.9617967009544373,KWt=-7028461650952758e-24,ZWt=[1,1.5],qWt=[0,.5849624872207642],JWt=[0,1350039202129749e-23];function QWt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E;return S=0,r<e9&&(t*=HWt,S-=53,r=$Wt(t)),S+=(r>>GWt)-BWt|0,k=r&VWt|0,r=k|UWt|0,k<=235662?E=0:k<767610?E=1:(E=0,S+=1,r-=e9),t=t9(t,r),c=ZWt[E],w=t-c,T=1/(t+c),i=w*T,a=T1(i,0),n=(r>>1|WWt)+jWt,n+=E<<18,l=t9(0,n),u=t-(l-c),s=T*(w-a*l-a*u),o=i*i,b=o*o*zWt(o),b+=s*(a+i),o=a*a,l=3+o+b,l=T1(l,0),u=b-(l-3-o),w=a*l,T=s*l+u*i,h=w+T,h=T1(h,0),d=T-(h-w),p=YWt*h,g=KWt*h+d*XWt+JWt[E],f=qWt[E],y=S,m=p+g+f+y,m=T1(m,0),v=g-(m-y-f-p),e[0]=m,e[1]=v,e}var tjt=QWt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4859,7 +4859,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function tjt(e){return e===0?.5:.5+e*(-.3333333333333333+e*.25)}var ejt=tjt;/**
+*/function ejt(e){return e===0?.5:.5+e*(-.3333333333333333+e*.25)}var rjt=ejt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4889,7 +4889,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var rjt=k0,njt=ejt,ijt=1.4426950408889634,ojt=1.4426950216293335,ajt=19259629911266175e-24;function sjt(e,t){var r,n,i,o,a,s;return i=t-1,o=i*i*njt(i),a=ojt*i,s=i*ajt-o*ijt,n=a+s,n=rjt(n,0),r=s-(n-a),e[0]=n,e[1]=r,e}var ljt=sjt;/**
+*/var njt=k0,ijt=rjt,ojt=1.4426950408889634,ajt=1.4426950216293335,sjt=19259629911266175e-24;function ljt(e,t){var r,n,i,o,a,s;return i=t-1,o=i*i*ijt(i),a=ajt*i,s=i*sjt-o*ojt,n=a+s,n=njt(n,0),r=s-(n-a),e[0]=n,e[1]=r,e}var ujt=ljt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4905,7 +4905,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ujt=.6931471805599453,cjt=ujt;/**
+*/var cjt=.6931471805599453,fjt=cjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4921,7 +4921,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var fjt=1048575,hjt=fjt;/**
+*/var hjt=1048575,djt=hjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -4937,7 +4937,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function djt(e){return e===0?.16666666666666602:.16666666666666602+e*(-.0027777777777015593+e*(6613756321437934e-20+e*(-16533902205465252e-22+e*41381367970572385e-24)))}var pjt=djt;/**
+*/function pjt(e){return e===0?.16666666666666602:.16666666666666602+e*(-.0027777777777015593+e*(6613756321437934e-20+e*(-16533902205465252e-22+e*41381367970572385e-24)))}var gjt=pjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4967,7 +4967,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var gjt=so,r9=T0,vjt=k0,mjt=uX,yjt=xd,_jt=cjt,n9=af,i9=L2,o9=hjt,bjt=pjt,a9=1048576,wjt=1071644672,Pp=20,Sjt=.6931471824645996,Tjt=-1904654299957768e-24;function kjt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d;return h=e&i9|0,d=(h>>Pp)-n9|0,f=0,h>wjt&&(f=e+(a9>>d+1)>>>0,d=((f&i9)>>Pp)-n9|0,n=(f&~(o9>>d))>>>0,o=r9(0,n),f=(f&o9|a9)>>Pp-d>>>0,e<0&&(f=-f),t-=o),o=r+t,o=vjt(o,0),s=o*Sjt,l=(r-(o-t))*_jt+o*Tjt,c=s+l,u=l-(c-s),o=c*c,i=c-o*bjt(o),a=c*i/(i-2)-(u+c*u),c=1-(a-c),e=gjt(c),e=mjt(e),e+=f<<Pp>>>0,e>>Pp<=0?c=yjt(c,f):c=r9(c,e),c}var Pjt=kjt;/**
+*/var vjt=so,r9=T0,mjt=k0,yjt=uX,_jt=xd,bjt=fjt,n9=af,i9=L2,o9=djt,wjt=gjt,a9=1048576,Sjt=1071644672,Pp=20,Tjt=.6931471824645996,kjt=-1904654299957768e-24;function Pjt(e,t,r){var n,i,o,a,s,l,u,c,f,h,d;return h=e&i9|0,d=(h>>Pp)-n9|0,f=0,h>Sjt&&(f=e+(a9>>d+1)>>>0,d=((f&i9)>>Pp)-n9|0,n=(f&~(o9>>d))>>>0,o=r9(0,n),f=(f&o9|a9)>>Pp-d>>>0,e<0&&(f=-f),t-=o),o=r+t,o=mjt(o,0),s=o*Tjt,l=(r-(o-t))*bjt+o*kjt,c=s+l,u=l-(c-s),o=c*c,i=c-o*wjt(o),a=c*i/(i-2)-(u+c*u),c=1-(a-c),e=vjt(c),e=yjt(e),e+=f<<Pp>>>0,e>>Pp<=0?c=_jt(c,f):c=r9(c,e),c}var Ejt=Pjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -4997,7 +4997,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var s9=be,l9=k4,u9=Ad,Ejt=au,c9=Rr,Cjt=$e,iT=w4,Ajt=k0,f9=uX,xjt=pn,Mjt=sr,oT=L2,Ijt=EWt,Ljt=IWt,Ojt=RWt,Rjt=QWt,Djt=ljt,Njt=Pjt,Fjt=1072693247,$jt=1105199104,Bjt=1139802112,h9=1083179008,zjt=1072693248,Vjt=1083231232,Ujt=3230714880>>>0,d9=31,nl=1e300,il=1e-300,Wjt=8008566259537294e-32,qa=[0,0],p9=[0,0];function cX(e,t){var r,n,i,o,a,s,l,u,c,f,h,d,p,g,m,v;if(s9(e)||s9(t))return NaN;if(iT.assign(t,qa,1,0),s=qa[0],l=qa[1],l===0){if(t===0)return 1;if(t===1)return e;if(t===-1)return 1/e;if(t===.5)return c9(e);if(t===-.5)return 1/c9(e);if(t===2)return e*e;if(t===3)return e*e*e;if(t===4)return e*=e,e*e;if(u9(t))return Ojt(e,t)}if(iT.assign(e,qa,1,0),o=qa[0],a=qa[1],a===0){if(o===0)return Ijt(e,t);if(e===1)return 1;if(e===-1&&l9(t))return-1;if(u9(e))return e===xjt?cX(-0,-t):t<0?0:Mjt}if(e<0&&Ejt(t)===!1)return(e-e)/(e-e);if(i=Cjt(e),r=o&oT|0,n=s&oT|0,u=o>>>d9|0,c=s>>>d9|0,u&&l9(t)?u=-1:u=1,n>$jt){if(n>Bjt)return Ljt(e,t);if(r<Fjt)return c===1?u*nl*nl:u*il*il;if(r>zjt)return c===0?u*nl*nl:u*il*il;p=Djt(p9,i)}else p=Rjt(p9,i,r);if(f=Ajt(t,0),d=(t-f)*p[0]+t*p[1],h=f*p[0],g=d+h,iT.assign(g,qa,1,0),m=f9(qa[0]),v=f9(qa[1]),m>=h9){if((m-h9|v)!==0||d+Wjt>g-h)return u*nl*nl}else if((m&oT)>=Vjt&&((m-Ujt|v)!==0||d<=g-h))return u*il*il;return g=Njt(m,h,d),u*g}var jjt=cX;/**
+*/var s9=be,l9=k4,u9=Ad,Cjt=au,c9=Rr,Ajt=$e,iT=w4,xjt=k0,f9=uX,Mjt=pn,Ijt=sr,oT=L2,Ljt=CWt,Ojt=LWt,Rjt=DWt,Djt=tjt,Njt=ujt,Fjt=Ejt,$jt=1072693247,Bjt=1105199104,zjt=1139802112,h9=1083179008,Vjt=1072693248,Ujt=1083231232,Wjt=3230714880>>>0,d9=31,nl=1e300,il=1e-300,jjt=8008566259537294e-32,qa=[0,0],p9=[0,0];function cX(e,t){var r,n,i,o,a,s,l,u,c,f,h,d,p,g,m,v;if(s9(e)||s9(t))return NaN;if(iT.assign(t,qa,1,0),s=qa[0],l=qa[1],l===0){if(t===0)return 1;if(t===1)return e;if(t===-1)return 1/e;if(t===.5)return c9(e);if(t===-.5)return 1/c9(e);if(t===2)return e*e;if(t===3)return e*e*e;if(t===4)return e*=e,e*e;if(u9(t))return Rjt(e,t)}if(iT.assign(e,qa,1,0),o=qa[0],a=qa[1],a===0){if(o===0)return Ljt(e,t);if(e===1)return 1;if(e===-1&&l9(t))return-1;if(u9(e))return e===Mjt?cX(-0,-t):t<0?0:Ijt}if(e<0&&Cjt(t)===!1)return(e-e)/(e-e);if(i=Ajt(e),r=o&oT|0,n=s&oT|0,u=o>>>d9|0,c=s>>>d9|0,u&&l9(t)?u=-1:u=1,n>Bjt){if(n>zjt)return Ojt(e,t);if(r<$jt)return c===1?u*nl*nl:u*il*il;if(r>Vjt)return c===0?u*nl*nl:u*il*il;p=Njt(p9,i)}else p=Djt(p9,i,r);if(f=xjt(t,0),d=(t-f)*p[0]+t*p[1],h=f*p[0],g=d+h,iT.assign(g,qa,1,0),m=f9(qa[0]),v=f9(qa[1]),m>=h9){if((m-h9|v)!==0||d+jjt>g-h)return u*nl*nl}else if((m&oT)>=Ujt&&((m-Wjt|v)!==0||d<=g-h))return u*il*il;return g=Fjt(m,h,d),u*g}var Gjt=cX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5013,7 +5013,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Gjt=jjt,Dr=Gjt;/**
+*/var Hjt=Gjt,Dr=Hjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5029,7 +5029,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Hjt=2.718281828459045,Md=Hjt;/**
+*/var Xjt=2.718281828459045,Md=Xjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5045,7 +5045,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Xjt=2220446049250313e-31,Fs=Xjt;/**
+*/var Yjt=2220446049250313e-31,Fs=Yjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5061,7 +5061,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Yjt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=709811.662581658+e*(679979.8474157227+e*(293136.7857211597+e*(74887.54032914672+e*(12555.290582413863+e*(1443.4299244417066+e*(115.24194596137347+e*(6.309239205732627+e*(.22668404630224365+e*(.004826466289237662+e*4624429436045379e-20))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=4624429436045379e-20+e*(.004826466289237662+e*(.22668404630224365+e*(6.309239205732627+e*(115.24194596137347+e*(1443.4299244417066+e*(12555.290582413863+e*(74887.54032914672+e*(293136.7857211597+e*(679979.8474157227+e*709811.662581658))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var Kjt=Yjt;/**
+*/function Kjt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=709811.662581658+e*(679979.8474157227+e*(293136.7857211597+e*(74887.54032914672+e*(12555.290582413863+e*(1443.4299244417066+e*(115.24194596137347+e*(6.309239205732627+e*(.22668404630224365+e*(.004826466289237662+e*4624429436045379e-20))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=4624429436045379e-20+e*(.004826466289237662+e*(.22668404630224365+e*(6.309239205732627+e*(115.24194596137347+e*(1443.4299244417066+e*(12555.290582413863+e*(74887.54032914672+e*(293136.7857211597+e*(679979.8474157227+e*709811.662581658))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var Zjt=Kjt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5090,7 +5090,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var g9=be,Zjt=Ei,qjt=Rr,Jjt=$e,Qjt=gr,aT=Dr,tGt=Md,sT=Fs,lT=Kjt,uT=10.900511;function eGt(e,t){var r,n,i,o,a,s,l;return g9(e)||g9(t)?NaN:e<0||t<0?NaN:t===1?1/e:e===1?1/t:(l=e+t,l<sT?(a=l/e,a/=t,a):l===e&&t<sT?1/t:l===t&&e<sT?1/e:(e<t&&(s=t,t=e,e=s),n=e+uT-.5,i=t+uT-.5,o=l+uT-.5,a=lT(e)*(lT(t)/lT(l)),r=e-.5-t,Jjt(t*r)<o*100&&e>100?a*=Qjt(r*Zjt(-t/o)):a*=aT(n/o,r),o>1e10?a*=aT(n/o*(i/o),t):a*=aT(n*i/(o*o),t),a*=qjt(tGt/i),a))}var rGt=eGt;/**
+*/var g9=be,qjt=Ei,Jjt=Rr,Qjt=$e,tGt=gr,aT=Dr,eGt=Md,sT=Fs,lT=Zjt,uT=10.900511;function rGt(e,t){var r,n,i,o,a,s,l;return g9(e)||g9(t)?NaN:e<0||t<0?NaN:t===1?1/e:e===1?1/t:(l=e+t,l<sT?(a=l/e,a/=t,a):l===e&&t<sT?1/t:l===t&&e<sT?1/e:(e<t&&(s=t,t=e,e=s),n=e+uT-.5,i=t+uT-.5,o=l+uT-.5,a=lT(e)*(lT(t)/lT(l)),r=e-.5-t,Qjt(t*r)<o*100&&e>100?a*=tGt(r*qjt(-t/o)):a*=aT(n/o,r),o>1e10?a*=aT(n/o*(i/o),t):a*=aT(n*i/(o*o),t),a*=Jjt(eGt/i),a))}var nGt=rGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5106,7 +5106,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var nGt=rGt,fX=nGt;/**
+*/var iGt=nGt,fX=iGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5122,7 +5122,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var iGt=sr;function oGt(e){return e===0&&1/e===iGt}var aGt=oGt;/**
+*/var oGt=sr;function aGt(e){return e===0&&1/e===oGt}var sGt=aGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5138,7 +5138,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sGt=aGt,lGt=sGt;/**
+*/var lGt=sGt,uGt=lGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5154,7 +5154,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var v9=lGt,cT=be,uGt=pn,k1=sr;function cGt(e,t){var r,n,i,o;if(r=arguments.length,r===2)return cT(e)||cT(t)?NaN:e===k1||t===k1?k1:e===t&&e===0?v9(e)?e:t:e>t?e:t;for(n=uGt,o=0;o<r;o++){if(i=arguments[o],cT(i)||i===k1)return i;(i>n||i===n&&i===0&&v9(i))&&(n=i)}return n}var fGt=cGt;/**
+*/var v9=uGt,cT=be,cGt=pn,k1=sr;function fGt(e,t){var r,n,i,o;if(r=arguments.length,r===2)return cT(e)||cT(t)?NaN:e===k1||t===k1?k1:e===t&&e===0?v9(e)?e:t:e>t?e:t;for(n=cGt,o=0;o<r;o++){if(i=arguments[o],cT(i)||i===k1)return i;(i>n||i===n&&i===0&&v9(i))&&(n=i)}return n}var hGt=fGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5170,7 +5170,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hGt=fGt,lf=hGt;/**
+*/var dGt=hGt,lf=dGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5186,7 +5186,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var dGt=pn;function pGt(e){return e===0&&1/e===dGt}var gGt=pGt;/**
+*/var pGt=pn;function gGt(e){return e===0&&1/e===pGt}var vGt=gGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5202,7 +5202,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var vGt=gGt,hX=vGt;/**
+*/var mGt=vGt,hX=mGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5218,7 +5218,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var m9=hX,fT=be,P1=pn,mGt=sr;function yGt(e,t){var r,n,i,o;if(r=arguments.length,r===2)return fT(e)||fT(t)?NaN:e===P1||t===P1?P1:e===t&&e===0?m9(e)?e:t:e<t?e:t;for(n=mGt,o=0;o<r;o++){if(i=arguments[o],fT(i)||i===P1)return i;(i<n||i===n&&i===0&&m9(i))&&(n=i)}return n}var _Gt=yGt;/**
+*/var m9=hX,fT=be,P1=pn,yGt=sr;function _Gt(e,t){var r,n,i,o;if(r=arguments.length,r===2)return fT(e)||fT(t)?NaN:e===P1||t===P1?P1:e===t&&e===0?m9(e)?e:t:e<t?e:t;for(n=yGt,o=0;o<r;o++){if(i=arguments[o],fT(i)||i===P1)return i;(i<n||i===n&&i===0&&m9(i))&&(n=i)}return n}var bGt=_Gt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5234,7 +5234,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var bGt=_Gt,lu=bGt;/**
+*/var wGt=bGt,lu=wGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5250,7 +5250,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var wGt=17976931348623157e292,Id=wGt;/**
+*/var SGt=17976931348623157e292,Id=SGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5266,7 +5266,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var SGt=2147483647,TGt=SGt;/**
+*/var TGt=2147483647,kGt=TGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5282,7 +5282,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kGt=1.5707963267948966,P4=kGt;/**
+*/var PGt=1.5707963267948966,P4=PGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5298,7 +5298,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var PGt=3.141592653589793,uu=PGt;/**
+*/var EGt=3.141592653589793,uu=EGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5314,7 +5314,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function EGt(e){return e===0?.0416666666666666:.0416666666666666+e*(-.001388888888887411+e*2480158728947673e-20)}var CGt=EGt;/**
+*/function CGt(e){return e===0?.0416666666666666:.0416666666666666+e*(-.001388888888887411+e*2480158728947673e-20)}var AGt=CGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5330,7 +5330,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function AGt(e){return e===0?-27557314351390663e-23:-27557314351390663e-23+e*(2087572321298175e-24+e*-11359647557788195e-27)}var xGt=AGt;/**
+*/function xGt(e){return e===0?-27557314351390663e-23:-27557314351390663e-23+e*(2087572321298175e-24+e*-11359647557788195e-27)}var MGt=xGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5360,7 +5360,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var MGt=CGt,IGt=xGt;function LGt(e,t){var r,n,i,o;return o=e*e,i=o*o,n=o*MGt(o),n+=i*i*IGt(o),r=.5*o,i=1-r,i+(1-i-r+(o*n-e*t))}var OGt=LGt;/**
+*/var IGt=AGt,LGt=MGt;function OGt(e,t){var r,n,i,o;return o=e*e,i=o*o,n=o*IGt(o),n+=i*i*LGt(o),r=.5*o,i=1-r,i+(1-i-r+(o*n-e*t))}var RGt=OGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5376,7 +5376,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var RGt=OGt,dX=RGt;/**
+*/var DGt=RGt,dX=DGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5406,7 +5406,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var y9=-.16666666666666632,DGt=.00833333333332249,NGt=-.0001984126982985795,FGt=27557313707070068e-22,$Gt=-25050760253406863e-24,BGt=158969099521155e-24;function zGt(e,t){var r,n,i,o;return o=e*e,i=o*o,r=DGt+o*(NGt+o*FGt)+o*i*($Gt+o*BGt),n=o*e,t===0?e+n*(y9+o*r):e-(o*(.5*t-n*r)-t-n*y9)}var VGt=zGt;/**
+*/var y9=-.16666666666666632,NGt=.00833333333332249,FGt=-.0001984126982985795,$Gt=27557313707070068e-22,BGt=-25050760253406863e-24,zGt=158969099521155e-24;function VGt(e,t){var r,n,i,o;return o=e*e,i=o*o,r=NGt+o*(FGt+o*$Gt)+o*i*(BGt+o*zGt),n=o*e,t===0?e+n*(y9+o*r):e-(o*(.5*t-n*r)-t-n*y9)}var UGt=VGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5422,7 +5422,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var UGt=VGt,pX=UGt;/**
+*/var WGt=UGt,pX=WGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5438,7 +5438,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var WGt=Ed,eC;WGt===!0?eC=0:eC=1;var jGt=eC;/**
+*/var jGt=Ed,eC;jGt===!0?eC=0:eC=1;var GGt=eC;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5454,7 +5454,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GGt=kd,HGt=Pd,XGt=jGt,gX=new HGt(1),YGt=new GGt(gX.buffer);function KGt(e){return gX[0]=e,YGt[XGt]}var ZGt=KGt;/**
+*/var HGt=kd,XGt=Pd,YGt=GGt,gX=new XGt(1),KGt=new HGt(gX.buffer);function ZGt(e){return gX[0]=e,KGt[YGt]}var qGt=ZGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5470,7 +5470,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var qGt=ZGt,JGt=qGt;/**
+*/var JGt=qGt,QGt=JGt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -5486,7 +5486,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function QGt(e,t){var r,n;for(r=[],n=0;n<t;n++)r.push(e);return r}var tHt=QGt;/**
+*/function tHt(e,t){var r,n;for(r=[],n=0;n<t;n++)r.push(e);return r}var eHt=tHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -5502,7 +5502,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eHt=tHt,rHt=eHt;/**
+*/var rHt=eHt,nHt=rHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -5518,7 +5518,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var nHt=rHt;function iHt(e){return nHt(0,e)}var oHt=iHt;/**
+*/var iHt=nHt;function oHt(e){return iHt(0,e)}var aHt=oHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -5534,7 +5534,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var aHt=oHt,sHt=aHt;/**
+*/var sHt=aHt,lHt=sHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5564,7 +5564,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var lHt=Pi,E1=xd,O2=sHt,vX=[10680707,7228996,1387004,2578385,16069853,12639074,9804092,4427841,16666979,11263675,12935607,2387514,4345298,14681673,3074569,13734428,16653803,1880361,10960616,8533493,3062596,8710556,7349940,6258241,3772886,3769171,3798172,8675211,12450088,3874808,9961438,366607,15675153,9132554,7151469,3571407,2607881,12013382,4155038,6285869,7677882,13102053,15825725,473591,9065106,15363067,6271263,9264392,5636912,4652155,7056368,13614112,10155062,1944035,9527646,15080200,6658437,6231200,6832269,16767104,5075751,3212806,1398474,7579849,6349435,12618859],uHt=[1.570796251296997,7549789415861596e-23,5390302529957765e-30,3282003415807913e-37,1270655753080676e-44,12293330898111133e-52,27337005381646456e-60,21674168387780482e-67],hT=16777216,dT=5960464477539063e-23,C1=O2(20),_9=O2(20),A1=O2(20),on=O2(20);function mX(e,t,r,n,i,o,a,s,l){var u,c,f,h,d,p,g,m,v;for(h=o,v=n[r],m=r,d=0;m>0;d++)c=dT*v|0,on[d]=v-hT*c|0,v=n[m-1]+c,m-=1;if(v=E1(v,i),v-=8*lHt(v*.125),g=v|0,v-=g,f=0,i>0?(d=on[r-1]>>24-i,g+=d,on[r-1]-=d<<24-i,f=on[r-1]>>23-i):i===0?f=on[r-1]>>23:v>=.5&&(f=2),f>0){for(g+=1,u=0,d=0;d<r;d++)m=on[d],u===0?m!==0&&(u=1,on[d]=16777216-m):on[d]=16777215-m;if(i>0)switch(i){case 1:on[r-1]&=8388607;break;case 2:on[r-1]&=4194303;break}f===2&&(v=1-v,u!==0&&(v-=E1(1,i)))}if(v===0){for(m=0,d=r-1;d>=o;d--)m|=on[d];if(m===0){for(p=1;on[o-p]===0;p++);for(d=r+1;d<=r+p;d++){for(l[s+d]=vX[a+d],c=0,m=0;m<=s;m++)c+=e[m]*l[s+(d-m)];n[d]=c}return r+=p,mX(e,t,r,n,i,o,a,s,l)}}if(v===0)for(r-=1,i-=24;on[r]===0;)r-=1,i-=24;else v=E1(v,-i),v>=hT?(c=dT*v|0,on[r]=v-hT*c|0,r+=1,i+=24,on[r]=c):on[r]=v|0;for(c=E1(1,i),d=r;d>=0;d--)n[d]=c*on[d],c*=dT;for(d=r;d>=0;d--){for(c=0,p=0;p<=h&&p<=r-d;p++)c+=uHt[p]*n[d+p];A1[r-d]=c}for(c=0,d=r;d>=0;d--)c+=A1[d];for(f===0?t[0]=c:t[0]=-c,c=A1[0]-c,d=1;d<=r;d++)c+=A1[d];return f===0?t[1]=c:t[1]=-c,g&7}function cHt(e,t,r,n){var i,o,a,s,l,u,c,f,h;for(o=4,s=n-1,a=(r-3)/24|0,a<0&&(a=0),u=r-24*(a+1),f=a-s,h=s+o,c=0;c<=h;c++)f<0?C1[c]=0:C1[c]=vX[f],f+=1;for(c=0;c<=o;c++){for(i=0,f=0;f<=s;f++)i+=e[f]*C1[s+(c-f)];_9[c]=i}return l=o,mX(e,t,l,_9,u,o,a,s,C1)}var fHt=cHt;/**
+*/var uHt=Pi,E1=xd,O2=lHt,vX=[10680707,7228996,1387004,2578385,16069853,12639074,9804092,4427841,16666979,11263675,12935607,2387514,4345298,14681673,3074569,13734428,16653803,1880361,10960616,8533493,3062596,8710556,7349940,6258241,3772886,3769171,3798172,8675211,12450088,3874808,9961438,366607,15675153,9132554,7151469,3571407,2607881,12013382,4155038,6285869,7677882,13102053,15825725,473591,9065106,15363067,6271263,9264392,5636912,4652155,7056368,13614112,10155062,1944035,9527646,15080200,6658437,6231200,6832269,16767104,5075751,3212806,1398474,7579849,6349435,12618859],cHt=[1.570796251296997,7549789415861596e-23,5390302529957765e-30,3282003415807913e-37,1270655753080676e-44,12293330898111133e-52,27337005381646456e-60,21674168387780482e-67],hT=16777216,dT=5960464477539063e-23,C1=O2(20),_9=O2(20),A1=O2(20),on=O2(20);function mX(e,t,r,n,i,o,a,s,l){var u,c,f,h,d,p,g,m,v;for(h=o,v=n[r],m=r,d=0;m>0;d++)c=dT*v|0,on[d]=v-hT*c|0,v=n[m-1]+c,m-=1;if(v=E1(v,i),v-=8*uHt(v*.125),g=v|0,v-=g,f=0,i>0?(d=on[r-1]>>24-i,g+=d,on[r-1]-=d<<24-i,f=on[r-1]>>23-i):i===0?f=on[r-1]>>23:v>=.5&&(f=2),f>0){for(g+=1,u=0,d=0;d<r;d++)m=on[d],u===0?m!==0&&(u=1,on[d]=16777216-m):on[d]=16777215-m;if(i>0)switch(i){case 1:on[r-1]&=8388607;break;case 2:on[r-1]&=4194303;break}f===2&&(v=1-v,u!==0&&(v-=E1(1,i)))}if(v===0){for(m=0,d=r-1;d>=o;d--)m|=on[d];if(m===0){for(p=1;on[o-p]===0;p++);for(d=r+1;d<=r+p;d++){for(l[s+d]=vX[a+d],c=0,m=0;m<=s;m++)c+=e[m]*l[s+(d-m)];n[d]=c}return r+=p,mX(e,t,r,n,i,o,a,s,l)}}if(v===0)for(r-=1,i-=24;on[r]===0;)r-=1,i-=24;else v=E1(v,-i),v>=hT?(c=dT*v|0,on[r]=v-hT*c|0,r+=1,i+=24,on[r]=c):on[r]=v|0;for(c=E1(1,i),d=r;d>=0;d--)n[d]=c*on[d],c*=dT;for(d=r;d>=0;d--){for(c=0,p=0;p<=h&&p<=r-d;p++)c+=cHt[p]*n[d+p];A1[r-d]=c}for(c=0,d=r;d>=0;d--)c+=A1[d];for(f===0?t[0]=c:t[0]=-c,c=A1[0]-c,d=1;d<=r;d++)c+=A1[d];return f===0?t[1]=c:t[1]=-c,g&7}function fHt(e,t,r,n){var i,o,a,s,l,u,c,f,h;for(o=4,s=n-1,a=(r-3)/24|0,a<0&&(a=0),u=r-24*(a+1),f=a-s,h=s+o,c=0;c<=h;c++)f<0?C1[c]=0:C1[c]=vX[f],f+=1;for(c=0;c<=o;c++){for(i=0,f=0;f<=s;f++)i+=e[f]*C1[s+(c-f)];_9[c]=i}return l=o,mX(e,t,l,_9,u,o,a,s,C1)}var hHt=fHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5580,7 +5580,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hHt=Math.round,dHt=hHt;/**
+*/var dHt=Math.round,pHt=dHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5596,7 +5596,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var pHt=dHt,R2=pHt;/**
+*/var gHt=pHt,R2=gHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5626,7 +5626,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var gHt=R2,b9=so,vHt=.6366197723675814,mHt=1.5707963267341256,yHt=6077100506506192e-26,_Ht=6077100506303966e-26,bHt=20222662487959506e-37,wHt=20222662487111665e-37,SHt=84784276603689e-45,w9=2047;function THt(e,t,r){var n,i,o,a,s,l,u;return i=gHt(e*vHt),a=e-i*mHt,s=i*yHt,u=t>>20|0,r[0]=a-s,n=b9(r[0]),l=u-(n>>20&w9),l>16&&(o=a,s=i*_Ht,a=o-s,s=i*bHt-(o-a-s),r[0]=a-s,n=b9(r[0]),l=u-(n>>20&w9),l>49&&(o=a,s=i*wHt,a=o-s,s=i*SHt-(o-a-s),r[0]=a-s)),r[1]=a-r[0]-s,i}var kHt=THt;/**
+*/var vHt=R2,b9=so,mHt=.6366197723675814,yHt=1.5707963267341256,_Ht=6077100506506192e-26,bHt=6077100506303966e-26,wHt=20222662487959506e-37,SHt=20222662487111665e-37,THt=84784276603689e-45,w9=2047;function kHt(e,t,r){var n,i,o,a,s,l,u;return i=vHt(e*mHt),a=e-i*yHt,s=i*_Ht,u=t>>20|0,r[0]=a-s,n=b9(r[0]),l=u-(n>>20&w9),l>16&&(o=a,s=i*bHt,a=o-s,s=i*wHt-(o-a-s),r[0]=a-s,n=b9(r[0]),l=u-(n>>20&w9),l>49&&(o=a,s=i*SHt,a=o-s,s=i*THt-(o-a-s),r[0]=a-s)),r[1]=a-r[0]-s,i}var PHt=kHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5658,7 +5658,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 *
 * Optimized by Bruce D. Evans.
 * ```
-*/var PHt=so,EHt=JGt,CHt=S4,AHt=fHt,x1=kHt,xHt=0,MHt=16777216,ol=1.5707963267341256,ac=6077100506506192e-26,M1=2*ac,I1=3*ac,L1=4*ac,IHt=2147483647,LHt=2146435072,OHt=1048575,RHt=598523,DHt=1072243195,NHt=1073928572,FHt=1074752122,$Ht=1074977148,BHt=1075183036,zHt=1075388923,VHt=1075594811,UHt=1094263291,Ep=[0,0,0],Cp=[0,0];function WHt(e,t){var r,n,i,o,a,s,l,u;if(i=PHt(e),o=i&IHt|0,o<=DHt)return t[0]=e,t[1]=0,0;if(o<=FHt)return(o&OHt)===RHt?x1(e,o,t):o<=NHt?e>0?(u=e-ol,t[0]=u-ac,t[1]=u-t[0]-ac,1):(u=e+ol,t[0]=u+ac,t[1]=u-t[0]+ac,-1):e>0?(u=e-2*ol,t[0]=u-M1,t[1]=u-t[0]-M1,2):(u=e+2*ol,t[0]=u+M1,t[1]=u-t[0]+M1,-2);if(o<=VHt)return o<=BHt?o===$Ht?x1(e,o,t):e>0?(u=e-3*ol,t[0]=u-I1,t[1]=u-t[0]-I1,3):(u=e+3*ol,t[0]=u+I1,t[1]=u-t[0]+I1,-3):o===zHt?x1(e,o,t):e>0?(u=e-4*ol,t[0]=u-L1,t[1]=u-t[0]-L1,4):(u=e+4*ol,t[0]=u+L1,t[1]=u-t[0]+L1,-4);if(o<UHt)return x1(e,o,t);if(o>=LHt)return t[0]=NaN,t[1]=NaN,0;for(r=EHt(e),n=(o>>20)-1046,u=CHt(o-(n<<20|0),r),s=0;s<2;s++)Ep[s]=u|0,u=(u-Ep[s])*MHt;for(Ep[2]=u,a=3;Ep[a-1]===xHt;)a-=1;return l=AHt(Ep,Cp,n,a),e<0?(t[0]=-Cp[0],t[1]=-Cp[1],-l):(t[0]=Cp[0],t[1]=Cp[1],l)}var jHt=WHt;/**
+*/var EHt=so,CHt=QGt,AHt=S4,xHt=hHt,x1=PHt,MHt=0,IHt=16777216,ol=1.5707963267341256,ac=6077100506506192e-26,M1=2*ac,I1=3*ac,L1=4*ac,LHt=2147483647,OHt=2146435072,RHt=1048575,DHt=598523,NHt=1072243195,FHt=1073928572,$Ht=1074752122,BHt=1074977148,zHt=1075183036,VHt=1075388923,UHt=1075594811,WHt=1094263291,Ep=[0,0,0],Cp=[0,0];function jHt(e,t){var r,n,i,o,a,s,l,u;if(i=EHt(e),o=i&LHt|0,o<=NHt)return t[0]=e,t[1]=0,0;if(o<=$Ht)return(o&RHt)===DHt?x1(e,o,t):o<=FHt?e>0?(u=e-ol,t[0]=u-ac,t[1]=u-t[0]-ac,1):(u=e+ol,t[0]=u+ac,t[1]=u-t[0]+ac,-1):e>0?(u=e-2*ol,t[0]=u-M1,t[1]=u-t[0]-M1,2):(u=e+2*ol,t[0]=u+M1,t[1]=u-t[0]+M1,-2);if(o<=UHt)return o<=zHt?o===BHt?x1(e,o,t):e>0?(u=e-3*ol,t[0]=u-I1,t[1]=u-t[0]-I1,3):(u=e+3*ol,t[0]=u+I1,t[1]=u-t[0]+I1,-3):o===VHt?x1(e,o,t):e>0?(u=e-4*ol,t[0]=u-L1,t[1]=u-t[0]-L1,4):(u=e+4*ol,t[0]=u+L1,t[1]=u-t[0]+L1,-4);if(o<WHt)return x1(e,o,t);if(o>=OHt)return t[0]=NaN,t[1]=NaN,0;for(r=CHt(e),n=(o>>20)-1046,u=AHt(o-(n<<20|0),r),s=0;s<2;s++)Ep[s]=u|0,u=(u-Ep[s])*IHt;for(Ep[2]=u,a=3;Ep[a-1]===MHt;)a-=1;return l=xHt(Ep,Cp,n,a),e<0?(t[0]=-Cp[0],t[1]=-Cp[1],-l):(t[0]=Cp[0],t[1]=Cp[1],l)}var GHt=jHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5674,7 +5674,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var GHt=jHt,yX=GHt;/**
+*/var HHt=GHt,yX=HHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5704,7 +5704,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var HHt=so,S9=dX,pT=pX,XHt=yX,YHt=2147483647,KHt=2146435072,ZHt=1072243195,qHt=1045430272,Ja=[0,0];function JHt(e){var t,r;if(t=HHt(e),t&=YHt,t<=ZHt)return t<qHt?e:pT(e,0);if(t>=KHt)return NaN;switch(r=XHt(e,Ja),r&3){case 0:return pT(Ja[0],Ja[1]);case 1:return S9(Ja[0],Ja[1]);case 2:return-pT(Ja[0],Ja[1]);default:return-S9(Ja[0],Ja[1])}}var QHt=JHt;/**
+*/var XHt=so,S9=dX,pT=pX,YHt=yX,KHt=2147483647,ZHt=2146435072,qHt=1072243195,JHt=1045430272,Ja=[0,0];function QHt(e){var t,r;if(t=XHt(e),t&=KHt,t<=qHt)return t<JHt?e:pT(e,0);if(t>=ZHt)return NaN;switch(r=YHt(e,Ja),r&3){case 0:return pT(Ja[0],Ja[1]);case 1:return S9(Ja[0],Ja[1]);case 2:return-pT(Ja[0],Ja[1]);default:return-S9(Ja[0],Ja[1])}}var tXt=QHt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5720,7 +5720,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var tXt=QHt,P0=tXt;/**
+*/var eXt=tXt,P0=eXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5736,7 +5736,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var eXt=2.5066282746310007,D2=eXt;/**
+*/var rXt=2.5066282746310007,D2=rXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5752,53 +5752,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function rXt(e){return e===0?.08333333333334822:.08333333333334822+e*(.0034722222160545866+e*(-.0026813261780578124+e*(-.00022954996161337813+e*.0007873113957930937)))}var nXt=rXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C code, copyright, license, and constants are from [Cephes]{@link http://www.netlib.org/cephes}. The implementation follows the original, but has been modified for JavaScript.
-*
-* ```text
-* Copyright 1984, 1987, 1989, 1992, 2000 by Stephen L. Moshier
-*
-* Some software in this archive may be from the book _Methods and Programs for Mathematical Functions_ (Prentice-Hall or Simon & Schuster International, 1989) or from the Cephes Mathematical Library, a commercial product. In either event, it is copyrighted by the author. What you see here may be used freely but it comes with no support or guarantee.
-*
-* Stephen L. Moshier
-* moshier@na-net.ornl.gov
-* ```
-*/var iXt=D2,T9=Dr,oXt=gr,aXt=nXt,sXt=143.01608;function lXt(e){var t,r,n;return t=1/e,t=1+t*aXt(t),r=oXt(e),e>sXt?(n=T9(e,.5*e-.25),r=n*(n/r)):r=T9(e,e-.5)/r,iXt*r*t}var uXt=lXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var cXt=.5772156649015329,fXt=cXt;/**
+*/function nXt(e){return e===0?.08333333333334822:.08333333333334822+e*(.0034722222160545866+e*(-.0026813261780578124+e*(-.00022954996161337813+e*.0007873113957930937)))}var iXt=nXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5828,7 +5782,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Stephen L. Moshier
 * moshier@na-net.ornl.gov
 * ```
-*/var hXt=fXt;function dXt(e,t){return t/((1+hXt*e)*e)}var pXt=dXt;/**
+*/var oXt=D2,T9=Dr,aXt=gr,sXt=iXt,lXt=143.01608;function uXt(e){var t,r,n;return t=1/e,t=1+t*sXt(t),r=aXt(e),e>lXt?(n=T9(e,.5*e-.25),r=n*(n/r)):r=T9(e,e-.5)/r,oXt*r*t}var cXt=uXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5844,7 +5798,53 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function gXt(e){var t,r,n;return e===0?1:(e<0?t=-e:t=e,t<=1?(r=1+e*(.4942148268014971+e*(.20744822764843598+e*(.04763678004571372+e*(.010421379756176158+e*(.0011913514700658638+e*(.00016011952247675185+e*0)))))),n=1+e*(.0714304917030273+e*(-.23459179571824335+e*(.035823639860549865+e*(.011813978522206043+e*(-.004456419138517973+e*(.0005396055804933034+e*-23158187332412014e-21))))))):(e=1/e,r=0+e*(.00016011952247675185+e*(.0011913514700658638+e*(.010421379756176158+e*(.04763678004571372+e*(.20744822764843598+e*(.4942148268014971+e*1)))))),n=-23158187332412014e-21+e*(.0005396055804933034+e*(-.004456419138517973+e*(.011813978522206043+e*(.035823639860549865+e*(-.23459179571824335+e*(.0714304917030273+e*1))))))),r/n)}var vXt=gXt;/**
+*/var fXt=.5772156649015329,hXt=fXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C code, copyright, license, and constants are from [Cephes]{@link http://www.netlib.org/cephes}. The implementation follows the original, but has been modified for JavaScript.
+*
+* ```text
+* Copyright 1984, 1987, 1989, 1992, 2000 by Stephen L. Moshier
+*
+* Some software in this archive may be from the book _Methods and Programs for Mathematical Functions_ (Prentice-Hall or Simon & Schuster International, 1989) or from the Cephes Mathematical Library, a commercial product. In either event, it is copyrighted by the author. What you see here may be used freely but it comes with no support or guarantee.
+*
+* Stephen L. Moshier
+* moshier@na-net.ornl.gov
+* ```
+*/var dXt=hXt;function pXt(e,t){return t/((1+dXt*e)*e)}var gXt=pXt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function vXt(e){var t,r,n;return e===0?1:(e<0?t=-e:t=e,t<=1?(r=1+e*(.4942148268014971+e*(.20744822764843598+e*(.04763678004571372+e*(.010421379756176158+e*(.0011913514700658638+e*(.00016011952247675185+e*0)))))),n=1+e*(.0714304917030273+e*(-.23459179571824335+e*(.035823639860549865+e*(.011813978522206043+e*(-.004456419138517973+e*(.0005396055804933034+e*-23158187332412014e-21))))))):(e=1/e,r=0+e*(.00016011952247675185+e*(.0011913514700658638+e*(.010421379756176158+e*(.04763678004571372+e*(.20744822764843598+e*(.4942148268014971+e*1)))))),n=-23158187332412014e-21+e*(.0005396055804933034+e*(-.004456419138517973+e*(.011813978522206043+e*(.035823639860549865+e*(-.23459179571824335+e*(.0714304917030273+e*1))))))),r/n)}var mXt=vXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5874,7 +5874,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Stephen L. Moshier
 * moshier@na-net.ornl.gov
 * ```
-*/var mXt=be,yXt=au,_Xt=hX,k9=$e,bXt=Pi,wXt=P0,P9=sr,E9=pn,C9=uu,A9=uXt,x9=pXt,SXt=vXt;function TXt(e){var t,r,n,i;if(yXt(e)&&e<0||e===E9||mXt(e))return NaN;if(e===0)return _Xt(e)?E9:P9;if(e>171.61447887182297)return P9;if(e<-170.5674972726612)return 0;if(r=k9(e),r>33)return e>=0?A9(e):(n=bXt(r),(n&1)===0?t=-1:t=1,i=r-n,i>.5&&(n+=1,i=r-n),i=r*wXt(C9*i),t*C9/(k9(i)*A9(r)));for(i=1;e>=3;)e-=1,i*=e;for(;e<0;){if(e>-1e-9)return x9(e,i);i/=e,e+=1}for(;e<2;){if(e<1e-9)return x9(e,i);i/=e,e+=1}return e===2?i:(e-=2,i*SXt(e))}var kXt=TXt;/**
+*/var yXt=be,_Xt=au,bXt=hX,k9=$e,wXt=Pi,SXt=P0,P9=sr,E9=pn,C9=uu,A9=cXt,x9=gXt,TXt=mXt;function kXt(e){var t,r,n,i;if(_Xt(e)&&e<0||e===E9||yXt(e))return NaN;if(e===0)return bXt(e)?E9:P9;if(e>171.61447887182297)return P9;if(e<-170.5674972726612)return 0;if(r=k9(e),r>33)return e>=0?A9(e):(n=wXt(r),(n&1)===0?t=-1:t=1,i=r-n,i>.5&&(n+=1,i=r-n),i=r*SXt(C9*i),t*C9/(k9(i)*A9(r)));for(i=1;e>=3;)e-=1,i*=e;for(;e<0;){if(e>-1e-9)return x9(e,i);i/=e,e+=1}for(;e<2;){if(e<1e-9)return x9(e,i);i/=e,e+=1}return e===2?i:(e-=2,i*TXt(e))}var PXt=kXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5890,7 +5890,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var PXt=kXt,za=PXt;const EXt=[1,1,2,6,24,120,720,5040,40320,362880,3628800,39916800,479001600,6227020800,87178291200,1307674368e3,20922789888e3,355687428096e3,6402373705728e3,121645100408832e3,243290200817664e4,5109094217170944e4,11240007277776077e5,2585201673888498e7,6204484017332394e8,15511210043330986e9,40329146112660565e10,10888869450418352e12,30488834461171387e13,8841761993739702e15,26525285981219107e16,8222838654177922e18,2631308369336935e20,8683317618811886e21,29523279903960416e22,10333147966386145e24,37199332678990125e25,13763753091226346e27,5230226174666011e29,20397882081197444e30,8159152832478977e32,3345252661316381e34,140500611775288e37,6041526306337383e37,2658271574788449e39,11962222086548019e40,5502622159812089e42,25862324151116818e43,12413915592536073e45,6082818640342675e47,30414093201713376e48,15511187532873822e50,8065817517094388e52,42748832840600255e53,2308436973392414e56,12696403353658276e57,7109985878048635e59,40526919504877214e60,23505613312828785e62,13868311854568984e64,832098711274139e67,5075802138772248e68,3146997326038794e70,198260831540444e73,12688693218588417e73,8247650592082472e75,5443449390774431e77,3647111091818868e79,24800355424368305e80,1711224524281413e83,11978571669969892e84,8504785885678623e86,61234458376886085e87,44701154615126844e89,3307885441519386e92,248091408113954e95,18854947016660504e95,14518309202828587e97,11324281178206297e99,8946182130782976e101,7156945704626381e103,5797126020747368e105,4753643337012842e107,3945523969720659e109,3314240134565353e111,281710411438055e114,24227095383672734e114,2107757298379528e117,18548264225739844e118,1650795516090846e121,14857159644817615e122,1352001527678403e125,12438414054641308e126,11567725070816416e128,1087366156656743e131,1032997848823906e133,9916779348709496e134,9619275968248212e136,9426890448883248e138,9332621544394415e140,9332621544394415e142,942594775983836e145,9614466715035127e146,990290071648618e149,10299016745145628e150,1081396758240291e153,11462805637347084e154,1226520203196138e157,1324641819451829e159,14438595832024937e160,1588245541522743e163,17629525510902446e164,1974506857221074e167,22311927486598138e168,25435597334721877e170,2925093693493016e173,3393108684451898e175,3969937160808721e177,4684525849754291e179,5574585761207606e181,6689502913449127e183,8094298525273444e185,9875044200833601e187,1214630436702533e190,1506141741511141e192,1882677176888926e194,2372173242880047e196,30126600184576594e197,3856204823625804e200,4974504222477287e202,6466855489220474e204,847158069087882e207,11182486511960043e208,14872707060906857e210,19929427461615188e212,26904727073180504e214,3659042881952549e217,5012888748274992e219,6917786472619489e221,9615723196941089e223,13462012475717526e225,1898143759076171e228,2695364137888163e230,3854370717180073e232,55502938327393044e233,8047926057471992e236,11749972043909107e238,1727245890454639e241,25563239178728654e242,380892263763057e246,5713383956445855e247,862720977423324e250,13113358856834524e251,20063439050956823e253,30897696138473508e255,4789142901463394e258,7471062926282894e260,11729568794264145e262,1853271869493735e265,29467022724950384e266,47147236359920616e268,7590705053947219e271,12296942187394494e273,20044015765453026e275,3287218585534296e278,5423910666131589e280,9003691705778438e282,1503616514864999e285,25260757449731984e286,4269068009004705e289,7257415615307999e291];/**
+*/var EXt=PXt,za=EXt;const CXt=[1,1,2,6,24,120,720,5040,40320,362880,3628800,39916800,479001600,6227020800,87178291200,1307674368e3,20922789888e3,355687428096e3,6402373705728e3,121645100408832e3,243290200817664e4,5109094217170944e4,11240007277776077e5,2585201673888498e7,6204484017332394e8,15511210043330986e9,40329146112660565e10,10888869450418352e12,30488834461171387e13,8841761993739702e15,26525285981219107e16,8222838654177922e18,2631308369336935e20,8683317618811886e21,29523279903960416e22,10333147966386145e24,37199332678990125e25,13763753091226346e27,5230226174666011e29,20397882081197444e30,8159152832478977e32,3345252661316381e34,140500611775288e37,6041526306337383e37,2658271574788449e39,11962222086548019e40,5502622159812089e42,25862324151116818e43,12413915592536073e45,6082818640342675e47,30414093201713376e48,15511187532873822e50,8065817517094388e52,42748832840600255e53,2308436973392414e56,12696403353658276e57,7109985878048635e59,40526919504877214e60,23505613312828785e62,13868311854568984e64,832098711274139e67,5075802138772248e68,3146997326038794e70,198260831540444e73,12688693218588417e73,8247650592082472e75,5443449390774431e77,3647111091818868e79,24800355424368305e80,1711224524281413e83,11978571669969892e84,8504785885678623e86,61234458376886085e87,44701154615126844e89,3307885441519386e92,248091408113954e95,18854947016660504e95,14518309202828587e97,11324281178206297e99,8946182130782976e101,7156945704626381e103,5797126020747368e105,4753643337012842e107,3945523969720659e109,3314240134565353e111,281710411438055e114,24227095383672734e114,2107757298379528e117,18548264225739844e118,1650795516090846e121,14857159644817615e122,1352001527678403e125,12438414054641308e126,11567725070816416e128,1087366156656743e131,1032997848823906e133,9916779348709496e134,9619275968248212e136,9426890448883248e138,9332621544394415e140,9332621544394415e142,942594775983836e145,9614466715035127e146,990290071648618e149,10299016745145628e150,1081396758240291e153,11462805637347084e154,1226520203196138e157,1324641819451829e159,14438595832024937e160,1588245541522743e163,17629525510902446e164,1974506857221074e167,22311927486598138e168,25435597334721877e170,2925093693493016e173,3393108684451898e175,3969937160808721e177,4684525849754291e179,5574585761207606e181,6689502913449127e183,8094298525273444e185,9875044200833601e187,1214630436702533e190,1506141741511141e192,1882677176888926e194,2372173242880047e196,30126600184576594e197,3856204823625804e200,4974504222477287e202,6466855489220474e204,847158069087882e207,11182486511960043e208,14872707060906857e210,19929427461615188e212,26904727073180504e214,3659042881952549e217,5012888748274992e219,6917786472619489e221,9615723196941089e223,13462012475717526e225,1898143759076171e228,2695364137888163e230,3854370717180073e232,55502938327393044e233,8047926057471992e236,11749972043909107e238,1727245890454639e241,25563239178728654e242,380892263763057e246,5713383956445855e247,862720977423324e250,13113358856834524e251,20063439050956823e253,30897696138473508e255,4789142901463394e258,7471062926282894e260,11729568794264145e262,1853271869493735e265,29467022724950384e266,47147236359920616e268,7590705053947219e271,12296942187394494e273,20044015765453026e275,3287218585534296e278,5423910666131589e280,9003691705778438e282,1503616514864999e285,25260757449731984e286,4269068009004705e289,7257415615307999e291];/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5906,7 +5906,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var CXt=be,AXt=au,xXt=za,MXt=sr,IXt=EXt,LXt=170;function OXt(e){return CXt(e)?NaN:AXt(e)?e<0?NaN:e<=LXt?IXt[e]:MXt:xXt(e+1)}var RXt=OXt;/**
+*/var AXt=be,xXt=au,MXt=za,IXt=sr,LXt=CXt,OXt=170;function RXt(e){return AXt(e)?NaN:xXt(e)?e<0?NaN:e<=OXt?LXt[e]:IXt:MXt(e+1)}var DXt=RXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5922,7 +5922,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var DXt=RXt,_X=DXt;/**
+*/var NXt=DXt,_X=NXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5938,7 +5938,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function NXt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=3847467039331777e-5+e*(3685766504351951e-5+e*(1588920245372942e-5+e*(4059208354298835e-6+e*(6805476611834733e-7+e*(7823975500312005e-8+e*(6246580776401795e-9+e*(341986.3488721347+e*(12287.194511824551+e*(261.61404416416684+e*2.5066282746310007))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=2.5066282746310007+e*(261.61404416416684+e*(12287.194511824551+e*(341986.3488721347+e*(6246580776401795e-9+e*(7823975500312005e-8+e*(6805476611834733e-7+e*(4059208354298835e-6+e*(1588920245372942e-5+e*(3685766504351951e-5+e*3847467039331777e-5))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var FXt=NXt;/**
+*/function FXt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=3847467039331777e-5+e*(3685766504351951e-5+e*(1588920245372942e-5+e*(4059208354298835e-6+e*(6805476611834733e-7+e*(7823975500312005e-8+e*(6246580776401795e-9+e*(341986.3488721347+e*(12287.194511824551+e*(261.61404416416684+e*2.5066282746310007))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=2.5066282746310007+e*(261.61404416416684+e*(12287.194511824551+e*(341986.3488721347+e*(6246580776401795e-9+e*(7823975500312005e-8+e*(6805476611834733e-7+e*(4059208354298835e-6+e*(1588920245372942e-5+e*(3685766504351951e-5+e*3847467039331777e-5))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var $Xt=FXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5967,7 +5967,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var $Xt=FXt,BXt=$Xt;/**
+*/var BXt=$Xt,zXt=BXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5983,7 +5983,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var zXt=BXt,VXt=zXt;/**
+*/var VXt=zXt,UXt=VXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -5999,39 +5999,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var UXt=10.900511,E0=UXt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* Copyright John Maddock 2006-7, 2013-14.
-* Copyright Paul A. Bristow 2007, 2013-14.
-* Copyright Nikhar Agrawal 2013-14.
-* Copyright Christopher Kormanyos 2013-14.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var M9=VXt,WXt=za,I9=Ei,L9=$e,O9=gr,R9=Dr,jXt=Fs,GXt=Md,HXt=E0,D9=170,XXt=4269068009004705e289;function bX(e,t){var r,n,i;return e<jXt?t>D9?(n=bX(t,D9-t),n*=e,n*=XXt,1/n):1/(e*WXt(e+t)):(i=e+HXt-.5,e+t===e?L9(t)<10?r=O9((.5-e)*I9(t/i)):r=1:(L9(t)<10?r=O9((.5-e)*I9(t/i)):r=R9(i/(i+t),e-.5),r*=M9(e)/M9(e+t)),r*=R9(GXt/(i+t),t),r)}var YXt=bX;/**
+*/var WXt=10.900511,E0=WXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6063,7 +6031,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var KXt=$e,N9=Pi,F9=za,$9=_X,ZXt=YXt,B9=170;function qXt(e,t){var r,n,i;if(e<=0||e+t<=0)return F9(e)/F9(e+t);if(n=N9(t),n===t){if(i=N9(e),i===e&&e<=B9&&e+t<=B9)return $9(i-1)/$9(n+i-1);if(KXt(t)<20){if(t===0)return 1;if(t<0){for(e-=1,r=e,t+=1;t!==0;)e-=1,r*=e,t+=1;return r}for(r=1/e,t-=1;t!==0;)e+=1,r/=e,t-=1;return r}}return ZXt(e,t)}var JXt=qXt;/**
+*/var M9=UXt,jXt=za,I9=Ei,L9=$e,O9=gr,R9=Dr,GXt=Fs,HXt=Md,XXt=E0,D9=170,YXt=4269068009004705e289;function bX(e,t){var r,n,i;return e<GXt?t>D9?(n=bX(t,D9-t),n*=e,n*=YXt,1/n):1/(e*jXt(e+t)):(i=e+XXt-.5,e+t===e?L9(t)<10?r=O9((.5-e)*I9(t/i)):r=1:(L9(t)<10?r=O9((.5-e)*I9(t/i)):r=R9(i/(i+t),e-.5),r*=M9(e)/M9(e+t)),r*=R9(HXt/(i+t),t),r)}var KXt=bX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6079,7 +6047,23 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var QXt=JXt,E4=QXt;/**
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* Copyright John Maddock 2006-7, 2013-14.
+* Copyright Paul A. Bristow 2007, 2013-14.
+* Copyright Nikhar Agrawal 2013-14.
+* Copyright Christopher Kormanyos 2013-14.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var ZXt=$e,N9=Pi,F9=za,$9=_X,qXt=KXt,B9=170;function JXt(e,t){var r,n,i;if(e<=0||e+t<=0)return F9(e)/F9(e+t);if(n=N9(t),n===t){if(i=N9(e),i===e&&e<=B9&&e+t<=B9)return $9(i-1)/$9(n+i-1);if(ZXt(t)<20){if(t===0)return 1;if(t<0){for(e-=1,r=e,t+=1;t!==0;)e-=1,r*=e,t+=1;return r}for(r=1/e,t-=1;t!==0;)e+=1,r/=e,t-=1;return r}}return qXt(e,t)}var QXt=JXt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6095,7 +6079,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function tYt(e){return e===0?.3999999999940942:.3999999999940942+e*(.22222198432149784+e*.15313837699209373)}var eYt=tYt;/**
+*/var tYt=QXt,E4=tYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6111,7 +6095,23 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function rYt(e){return e===0?.6666666666666735:.6666666666666735+e*(.2857142874366239+e*(.1818357216161805+e*.14798198605116586))}var nYt=rYt;/**
+*/function eYt(e){return e===0?.3999999999940942:.3999999999940942+e*(.22222198432149784+e*.15313837699209373)}var rYt=eYt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function nYt(e){return e===0?.6666666666666735:.6666666666666735+e*(.2857142874366239+e*(.1818357216161805+e*.14798198605116586))}var iYt=nYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6141,7 +6141,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var z9=so,iYt=T0,oYt=be,aYt=af,sYt=pn,lYt=eYt,uYt=nYt,O1=.6931471803691238,R1=19082149292705877e-26,cYt=0x40000000000000,fYt=.3333333333333333,V9=1048575,hYt=2146435072,dYt=1048576,pYt=1072693248;function gYt(e){var t,r,n,i,o,a,s,l,u,c,f,h;return e===0?sYt:oYt(e)||e<0?NaN:(r=z9(e),o=0,r<dYt&&(o-=54,e*=cYt,r=z9(e)),r>=hYt?e+e:(o+=(r>>20)-aYt|0,r&=V9,l=r+614244&1048576|0,e=iYt(e,r|l^pYt),o+=l>>20|0,s=e-1,(V9&2+r)<3?s===0?o===0?0:o*O1+o*R1:(a=s*s*(.5-fYt*s),o===0?s-a:o*O1-(a-o*R1-s)):(c=s/(2+s),h=c*c,l=r-398458|0,f=h*h,u=440401-r|0,i=f*lYt(f),n=h*uYt(f),l|=u,a=n+i,l>0?(t=.5*s*s,o===0?s-(t-c*(t+a)):o*O1-(t-(c*(t+a)+o*R1)-s)):o===0?s-c*(s-a):o*O1-(c*(s-a)-o*R1-s))))}var vYt=gYt;/**
+*/var z9=so,oYt=T0,aYt=be,sYt=af,lYt=pn,uYt=rYt,cYt=iYt,O1=.6931471803691238,R1=19082149292705877e-26,fYt=0x40000000000000,hYt=.3333333333333333,V9=1048575,dYt=2146435072,pYt=1048576,gYt=1072693248;function vYt(e){var t,r,n,i,o,a,s,l,u,c,f,h;return e===0?lYt:aYt(e)||e<0?NaN:(r=z9(e),o=0,r<pYt&&(o-=54,e*=fYt,r=z9(e)),r>=dYt?e+e:(o+=(r>>20)-sYt|0,r&=V9,l=r+614244&1048576|0,e=oYt(e,r|l^gYt),o+=l>>20|0,s=e-1,(V9&2+r)<3?s===0?o===0?0:o*O1+o*R1:(a=s*s*(.5-hYt*s),o===0?s-a:o*O1-(a-o*R1-s)):(c=s/(2+s),h=c*c,l=r-398458|0,f=h*h,u=440401-r|0,i=f*uYt(f),n=h*cYt(f),l|=u,a=n+i,l>0?(t=.5*s*s,o===0?s-(t-c*(t+a)):o*O1-(t-(c*(t+a)+o*R1)-s)):o===0?s-c*(s-a):o*O1-(c*(s-a)-o*R1-s))))}var mYt=vYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6157,7 +6157,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mYt=vYt,Xe=mYt;/**
+*/var yYt=mYt,Xe=yYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6187,7 +6187,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var yYt=so,gT=dX,U9=pX,_Yt=yX,Qa=[0,0],bYt=2147483647,wYt=1072243195,SYt=1044381696,TYt=2146435072;function kYt(e){var t,r;if(t=yYt(e),t&=bYt,t<=wYt)return t<SYt?1:gT(e,0);if(t>=TYt)return NaN;switch(r=_Yt(e,Qa),r&3){case 0:return gT(Qa[0],Qa[1]);case 1:return-U9(Qa[0],Qa[1]);case 2:return-gT(Qa[0],Qa[1]);default:return U9(Qa[0],Qa[1])}}var PYt=kYt;/**
+*/var _Yt=so,gT=dX,U9=pX,bYt=yX,Qa=[0,0],wYt=2147483647,SYt=1072243195,TYt=1044381696,kYt=2146435072;function PYt(e){var t,r;if(t=_Yt(e),t&=wYt,t<=SYt)return t<TYt?1:gT(e,0);if(t>=kYt)return NaN;switch(r=bYt(e,Qa),r&3){case 0:return gT(Qa[0],Qa[1]);case 1:return-U9(Qa[0],Qa[1]);case 2:return-gT(Qa[0],Qa[1]);default:return U9(Qa[0],Qa[1])}}var EYt=PYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6203,7 +6203,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var EYt=PYt,C4=EYt;/**
+*/var CYt=EYt,C4=CYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6219,7 +6219,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var CYt=be,AYt=Ad,W9=C4,vT=P0,xYt=$e,Ap=T4,xp=uu;function MYt(e){var t,r;return CYt(e)?NaN:AYt(e)?NaN:(r=e%2,t=xYt(r),t===0||t===1?Ap(0,r):t<.25?vT(xp*r):t<.75?(t=.5-t,Ap(W9(xp*t),r)):t<1.25?(r=Ap(1,r)-r,vT(xp*r)):t<1.75?(t-=1.5,-Ap(W9(xp*t),r)):(r-=Ap(2,r),vT(xp*r)))}var IYt=MYt;/**
+*/var AYt=be,xYt=Ad,W9=C4,vT=P0,MYt=$e,Ap=T4,xp=uu;function IYt(e){var t,r;return AYt(e)?NaN:xYt(e)?NaN:(r=e%2,t=MYt(r),t===0||t===1?Ap(0,r):t<.25?vT(xp*r):t<.75?(t=.5-t,Ap(W9(xp*t),r)):t<1.25?(r=Ap(1,r)-r,vT(xp*r)):t<1.75?(t-=1.5,-Ap(W9(xp*t),r)):(r-=Ap(2,r),vT(xp*r)))}var LYt=IYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6235,7 +6235,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var LYt=IYt,OYt=LYt;/**
+*/var OYt=LYt,RYt=OYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6251,7 +6251,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function RYt(e){return e===0?.06735230105312927:.06735230105312927+e*(.007385550860814029+e*(.0011927076318336207+e*(.00022086279071390839+e*25214456545125733e-21)))}var DYt=RYt;/**
+*/function DYt(e){return e===0?.06735230105312927:.06735230105312927+e*(.007385550860814029+e*(.0011927076318336207+e*(.00022086279071390839+e*25214456545125733e-21)))}var NYt=DYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6267,7 +6267,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function NYt(e){return e===0?.020580808432516733:.020580808432516733+e*(.0028905138367341563+e*(.0005100697921535113+e*(.00010801156724758394+e*44864094961891516e-21)))}var FYt=NYt;/**
+*/function FYt(e){return e===0?.020580808432516733:.020580808432516733+e*(.0028905138367341563+e*(.0005100697921535113+e*(.00010801156724758394+e*44864094961891516e-21)))}var $Yt=FYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6283,7 +6283,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function $Yt(e){return e===0?1.3920053346762105:1.3920053346762105+e*(.7219355475671381+e*(.17193386563280308+e*(.01864591917156529+e*(.0007779424963818936+e*7326684307446256e-21))))}var BYt=$Yt;/**
+*/function BYt(e){return e===0?1.3920053346762105:1.3920053346762105+e*(.7219355475671381+e*(.17193386563280308+e*(.01864591917156529+e*(.0007779424963818936+e*7326684307446256e-21))))}var zYt=BYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6299,7 +6299,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function zYt(e){return e===0?.21498241596060885:.21498241596060885+e*(.325778796408931+e*(.14635047265246445+e*(.02664227030336386+e*(.0018402845140733772+e*3194753265841009e-20))))}var VYt=zYt;/**
+*/function VYt(e){return e===0?.21498241596060885:.21498241596060885+e*(.325778796408931+e*(.14635047265246445+e*(.02664227030336386+e*(.0018402845140733772+e*3194753265841009e-20))))}var UYt=VYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6315,7 +6315,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function UYt(e){return e===0?-.032788541075985965:-.032788541075985965+e*(.006100538702462913+e*(-.0014034646998923284+e*.00031563207090362595))}var WYt=UYt;/**
+*/function WYt(e){return e===0?-.032788541075985965:-.032788541075985965+e*(.006100538702462913+e*(-.0014034646998923284+e*.00031563207090362595))}var jYt=WYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6331,7 +6331,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function jYt(e){return e===0?.01797067508118204:.01797067508118204+e*(-.0036845201678113826+e*(.000881081882437654+e*-.00031275416837512086))}var GYt=jYt;/**
+*/function GYt(e){return e===0?.01797067508118204:.01797067508118204+e*(-.0036845201678113826+e*(.000881081882437654+e*-.00031275416837512086))}var HYt=GYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6347,7 +6347,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function HYt(e){return e===0?-.010314224129834144:-.010314224129834144+e*(.0022596478090061247+e*(-.0005385953053567405+e*.0003355291926355191))}var XYt=HYt;/**
+*/function XYt(e){return e===0?-.010314224129834144:-.010314224129834144+e*(.0022596478090061247+e*(-.0005385953053567405+e*.0003355291926355191))}var YYt=XYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6363,7 +6363,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function YYt(e){return e===0?.6328270640250934:.6328270640250934+e*(1.4549225013723477+e*(.9777175279633727+e*(.22896372806469245+e*.013381091853678766)))}var KYt=YYt;/**
+*/function KYt(e){return e===0?.6328270640250934:.6328270640250934+e*(1.4549225013723477+e*(.9777175279633727+e*(.22896372806469245+e*.013381091853678766)))}var ZYt=KYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6379,7 +6379,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function ZYt(e){return e===0?2.4559779371304113:2.4559779371304113+e*(2.128489763798934+e*(.7692851504566728+e*(.10422264559336913+e*.003217092422824239)))}var qYt=ZYt;/**
+*/function qYt(e){return e===0?2.4559779371304113:2.4559779371304113+e*(2.128489763798934+e*(.7692851504566728+e*(.10422264559336913+e*.003217092422824239)))}var JYt=qYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6395,7 +6395,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function JYt(e){return e===0?.08333333333333297:.08333333333333297+e*(-.0027777777772877554+e*(.0007936505586430196+e*(-.00059518755745034+e*(.0008363399189962821+e*-.0016309293409657527))))}var QYt=JYt;/**
+*/function QYt(e){return e===0?.08333333333333297:.08333333333333297+e*(-.0027777777772877554+e*(.0007936505586430196+e*(-.00059518755745034+e*(.0008363399189962821+e*-.0016309293409657527))))}var tKt=QYt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6425,7 +6425,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var tKt=be,eKt=Ad,rKt=$e,Uf=Xe,nKt=b4,iKt=OYt,oKt=uu,mT=sr,aKt=DYt,sKt=FYt,lKt=BYt,uKt=VYt,cKt=WYt,fKt=GYt,hKt=XYt,dKt=KYt,pKt=qYt,gKt=QYt,vKt=.07721566490153287,mKt=.3224670334241136,yKt=1,_Kt=-.07721566490153287,bKt=.48383612272381005,wKt=-.1475877229945939,SKt=.06462494023913339,TKt=-.07721566490153287,kKt=1,PKt=.4189385332046727,D1=1.4616321449683622,EKt=4503599627370496,CKt=0x400000000000000,AKt=8470329472543003e-37,j9=1.4616321449683622,xKt=-.12148629053584961,MKt=-3638676997039505e-33;function IKt(e){var t,r,n,i,o,a,s,l,u,c,f,h,d;if(tKt(e)||eKt(e))return e;if(e===0)return mT;if(e<0?(t=!0,e=-e):t=!1,e<AKt)return-Uf(e);if(t){if(e>=EKt||(u=iKt(e),u===0))return mT;r=Uf(oKt/rKt(u*e))}if(e===1||e===2)return 0;if(e<2)switch(e<=.9?(d=-Uf(e),e>=D1-1+.27?(f=1-e,n=0):e>=D1-1-.27?(f=e-(j9-1),n=1):(f=e,n=2)):(d=0,e>=D1+.27?(f=2-e,n=0):e>=D1-.27?(f=e-j9,n=1):(f=e-1,n=2)),n){case 0:h=f*f,a=vKt+h*aKt(h),o=h*(mKt+h*sKt(h)),s=f*a+o,d+=s-.5*f;break;case 1:h=f*f,c=h*f,a=bKt+c*cKt(c),o=wKt+c*fKt(c),i=SKt+c*hKt(c),s=h*a-(MKt-c*(o+f*i)),d+=xKt+s;break;case 2:a=f*(TKt+f*dKt(f)),o=kKt+f*pKt(f),d+=-.5*f+a/o;break}else if(e<8)switch(n=nKt(e),f=e-n,s=f*(_Kt+f*uKt(f)),l=yKt+f*lKt(f),d=.5*f+s/l,h=1,n){case 7:h*=f+6;case 6:h*=f+5;case 5:h*=f+4;case 4:h*=f+3;case 3:h*=f+2,d+=Uf(h)}else e<CKt?(u=Uf(e),h=1/e,f=h*h,c=PKt+h*gKt(f),d=(e-.5)*(u-1)+c):d=e*(Uf(e)-1);return t&&(d=r-d),d}var LKt=IKt;/**
+*/var eKt=be,rKt=Ad,nKt=$e,Uf=Xe,iKt=b4,oKt=RYt,aKt=uu,mT=sr,sKt=NYt,lKt=$Yt,uKt=zYt,cKt=UYt,fKt=jYt,hKt=HYt,dKt=YYt,pKt=ZYt,gKt=JYt,vKt=tKt,mKt=.07721566490153287,yKt=.3224670334241136,_Kt=1,bKt=-.07721566490153287,wKt=.48383612272381005,SKt=-.1475877229945939,TKt=.06462494023913339,kKt=-.07721566490153287,PKt=1,EKt=.4189385332046727,D1=1.4616321449683622,CKt=4503599627370496,AKt=0x400000000000000,xKt=8470329472543003e-37,j9=1.4616321449683622,MKt=-.12148629053584961,IKt=-3638676997039505e-33;function LKt(e){var t,r,n,i,o,a,s,l,u,c,f,h,d;if(eKt(e)||rKt(e))return e;if(e===0)return mT;if(e<0?(t=!0,e=-e):t=!1,e<xKt)return-Uf(e);if(t){if(e>=CKt||(u=oKt(e),u===0))return mT;r=Uf(aKt/nKt(u*e))}if(e===1||e===2)return 0;if(e<2)switch(e<=.9?(d=-Uf(e),e>=D1-1+.27?(f=1-e,n=0):e>=D1-1-.27?(f=e-(j9-1),n=1):(f=e,n=2)):(d=0,e>=D1+.27?(f=2-e,n=0):e>=D1-.27?(f=e-j9,n=1):(f=e-1,n=2)),n){case 0:h=f*f,a=mKt+h*sKt(h),o=h*(yKt+h*lKt(h)),s=f*a+o,d+=s-.5*f;break;case 1:h=f*f,c=h*f,a=wKt+c*fKt(c),o=SKt+c*hKt(c),i=TKt+c*dKt(c),s=h*a-(IKt-c*(o+f*i)),d+=MKt+s;break;case 2:a=f*(kKt+f*pKt(f)),o=PKt+f*gKt(f),d+=-.5*f+a/o;break}else if(e<8)switch(n=iKt(e),f=e-n,s=f*(bKt+f*cKt(f)),l=_Kt+f*uKt(f),d=.5*f+s/l,h=1,n){case 7:h*=f+6;case 6:h*=f+5;case 5:h*=f+4;case 4:h*=f+3;case 3:h*=f+2,d+=Uf(h)}else e<AKt?(u=Uf(e),h=1/e,f=h*h,c=EKt+h*vKt(f),d=(e-.5)*(u-1)+c):d=e*(Uf(e)-1);return t&&(d=r-d),d}var OKt=LKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6441,7 +6441,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var OKt=LKt,Ld=OKt;/**
+*/var RKt=OKt,Ld=RKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6457,7 +6457,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var RKt=14901161193847656e-24,DKt=RKt;/**
+*/var DKt=14901161193847656e-24,NKt=DKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6473,7 +6473,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var NKt=709.782712893384,uf=NKt;/**
+*/var FKt=709.782712893384,uf=FKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6503,7 +6503,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var FKt=gr;function $Kt(e,t){var r,n,i,o;if(i=FKt(-t),n=i,n!==0)for(r=n,o=1;o<e;++o)r/=o,r*=t,n+=r;return n}var BKt=$Kt;/**
+*/var $Kt=gr;function BKt(e,t){var r,n,i,o;if(i=$Kt(-t),n=i,n!==0)for(r=n,o=1;o<e;++o)r/=o,r*=t,n+=r;return n}var zKt=BKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6519,7 +6519,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function zKt(e){return e===0?-.3250421072470015:-.3250421072470015+e*(-.02848174957559851+e*(-.005770270296489442+e*-23763016656650163e-21))}var VKt=zKt;/**
+*/function VKt(e){return e===0?-.3250421072470015:-.3250421072470015+e*(-.02848174957559851+e*(-.005770270296489442+e*-23763016656650163e-21))}var UKt=VKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6535,7 +6535,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function UKt(e){return e===0?.39791722395915535:.39791722395915535+e*(.0650222499887673+e*(.005081306281875766+e*(.00013249473800432164+e*-3960228278775368e-21)))}var WKt=UKt;/**
+*/function WKt(e){return e===0?.39791722395915535:.39791722395915535+e*(.0650222499887673+e*(.005081306281875766+e*(.00013249473800432164+e*-3960228278775368e-21)))}var jKt=WKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6551,7 +6551,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function jKt(e){return e===0?.41485611868374833:.41485611868374833+e*(-.3722078760357013+e*(.31834661990116175+e*(-.11089469428239668+e*(.035478304325618236+e*-.002166375594868791))))}var GKt=jKt;/**
+*/function GKt(e){return e===0?.41485611868374833:.41485611868374833+e*(-.3722078760357013+e*(.31834661990116175+e*(-.11089469428239668+e*(.035478304325618236+e*-.002166375594868791))))}var HKt=GKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6567,7 +6567,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function HKt(e){return e===0?.10642088040084423:.10642088040084423+e*(.540397917702171+e*(.07182865441419627+e*(.12617121980876164+e*(.01363708391202905+e*.011984499846799107))))}var XKt=HKt;/**
+*/function XKt(e){return e===0?.10642088040084423:.10642088040084423+e*(.540397917702171+e*(.07182865441419627+e*(.12617121980876164+e*(.01363708391202905+e*.011984499846799107))))}var YKt=XKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6583,7 +6583,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function YKt(e){return e===0?-.6938585727071818:-.6938585727071818+e*(-10.558626225323291+e*(-62.375332450326006+e*(-162.39666946257347+e*(-184.60509290671104+e*(-81.2874355063066+e*-9.814329344169145)))))}var KKt=YKt;/**
+*/function KKt(e){return e===0?-.6938585727071818:-.6938585727071818+e*(-10.558626225323291+e*(-62.375332450326006+e*(-162.39666946257347+e*(-184.60509290671104+e*(-81.2874355063066+e*-9.814329344169145)))))}var ZKt=KKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6599,7 +6599,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function ZKt(e){return e===0?19.651271667439257:19.651271667439257+e*(137.65775414351904+e*(434.56587747522923+e*(645.3872717332679+e*(429.00814002756783+e*(108.63500554177944+e*(6.570249770319282+e*-.0604244152148581))))))}var qKt=ZKt;/**
+*/function qKt(e){return e===0?19.651271667439257:19.651271667439257+e*(137.65775414351904+e*(434.56587747522923+e*(645.3872717332679+e*(429.00814002756783+e*(108.63500554177944+e*(6.570249770319282+e*-.0604244152148581))))))}var JKt=qKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6615,7 +6615,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function JKt(e){return e===0?-.799283237680523:-.799283237680523+e*(-17.757954917754752+e*(-160.63638485582192+e*(-637.5664433683896+e*(-1025.0951316110772+e*-483.5191916086514))))}var QKt=JKt;/**
+*/function QKt(e){return e===0?-.799283237680523:-.799283237680523+e*(-17.757954917754752+e*(-160.63638485582192+e*(-637.5664433683896+e*(-1025.0951316110772+e*-483.5191916086514))))}var tZt=QKt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6631,7 +6631,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function tZt(e){return e===0?30.33806074348246:30.33806074348246+e*(325.7925129965739+e*(1536.729586084437+e*(3199.8582195085955+e*(2553.0504064331644+e*(474.52854120695537+e*-22.44095244658582)))))}var eZt=tZt;/**
+*/function eZt(e){return e===0?30.33806074348246:30.33806074348246+e*(325.7925129965739+e*(1536.729586084437+e*(3199.8582195085955+e*(2553.0504064331644+e*(474.52854120695537+e*-22.44095244658582)))))}var rZt=eZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6661,7 +6661,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * software is freely granted, provided that this notice
 * is preserved.
 * ```
-*/var rZt=be,G9=gr,nZt=k0,iZt=sr,oZt=pn,aZt=VKt,sZt=WKt,lZt=GKt,uZt=XKt,cZt=KKt,fZt=qKt,hZt=QKt,dZt=eZt,N1=1e-300,pZt=13877787807814457e-33,H9=.8450629115104675,gZt=.12837916709551256,vZt=1,mZt=-.0023621185607526594,yZt=1,_Zt=-.009864944034847148,bZt=1,wZt=-.0098649429247001,SZt=1;function TZt(e){var t,r,n,i,o,a,s,l;if(rZt(e))return NaN;if(e===iZt)return 0;if(e===oZt)return 2;if(e===0)return 1;if(e<0?(t=!0,r=-e):(t=!1,r=e),r<.84375)return r<pZt?1-e:(n=e*e,i=gZt+n*aZt(n),o=vZt+n*sZt(n),a=i/o,e<.25?1-(e+e*a):(i=e*a,i+=e-.5,.5-i));if(r<1.25)return o=r-1,s=mZt+o*lZt(o),l=yZt+o*uZt(o),t?1+H9+s/l:1-H9-s/l;if(r<28){if(o=1/(r*r),r<2.857142857142857)i=_Zt+o*cZt(o),o=bZt+o*fZt(o);else{if(e<-6)return 2-N1;i=wZt+o*hZt(o),o=SZt+o*dZt(o)}return n=nZt(r,0),i=G9(-(n*n)-.5625)*G9((n-r)*(n+r)+i/o),t?2-i/r:i/r}return t?2-N1:N1*N1}var kZt=TZt;/**
+*/var nZt=be,G9=gr,iZt=k0,oZt=sr,aZt=pn,sZt=UKt,lZt=jKt,uZt=HKt,cZt=YKt,fZt=ZKt,hZt=JKt,dZt=tZt,pZt=rZt,N1=1e-300,gZt=13877787807814457e-33,H9=.8450629115104675,vZt=.12837916709551256,mZt=1,yZt=-.0023621185607526594,_Zt=1,bZt=-.009864944034847148,wZt=1,SZt=-.0098649429247001,TZt=1;function kZt(e){var t,r,n,i,o,a,s,l;if(nZt(e))return NaN;if(e===oZt)return 0;if(e===aZt)return 2;if(e===0)return 1;if(e<0?(t=!0,r=-e):(t=!1,r=e),r<.84375)return r<gZt?1-e:(n=e*e,i=vZt+n*sZt(n),o=mZt+n*lZt(n),a=i/o,e<.25?1-(e+e*a):(i=e*a,i+=e-.5,.5-i));if(r<1.25)return o=r-1,s=yZt+o*uZt(o),l=_Zt+o*cZt(o),t?1+H9+s/l:1-H9-s/l;if(r<28){if(o=1/(r*r),r<2.857142857142857)i=bZt+o*fZt(o),o=wZt+o*hZt(o);else{if(e<-6)return 2-N1;i=SZt+o*dZt(o),o=TZt+o*pZt(o)}return n=iZt(r,0),i=G9(-(n*n)-.5625)*G9((n-r)*(n+r)+i/o),t?2-i/r:i/r}return t?2-N1:N1*N1}var PZt=kZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6677,53 +6677,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var PZt=kZt,wX=PZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_37_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* (C) Copyright John Maddock 2006.
-* (C) Copyright Paul A. Bristow 2007.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var EZt=wX,X9=Rr,CZt=gr,AZt=uu;function xZt(e,t){var r,n,i,o,a;if(o=EZt(X9(t)),o!==0&&e>1){for(n=CZt(-t)/X9(AZt*t),n*=t,r=.5,n/=r,i=n,a=2;a<e;++a)n/=a-r,n*=t,i+=n;o+=i}return o}var MZt=xZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var IZt=-708.3964185322641,Od=IZt;/**
+*/var EZt=PZt,wX=EZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6753,7 +6707,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var Wf=gr,F1=Dr,LZt=Xe,Y9=uf,K9=Od;function OZt(e,t){var r,n;return n=e*LZt(t),t>=1?n<Y9&&-t>K9?r=F1(t,e)*Wf(-t):e>=1?r=F1(t/Wf(t/e),e):r=Wf(n-t):n>K9?r=F1(t,e)*Wf(-t):t/e<Y9?r=F1(t/Wf(t/e),e):r=Wf(n-t),r}var RZt=OZt;/**
+*/var CZt=wX,X9=Rr,AZt=gr,xZt=uu;function MZt(e,t){var r,n,i,o,a;if(o=CZt(X9(t)),o!==0&&e>1){for(n=AZt(-t)/X9(xZt*t),n*=t,r=.5,n/=r,i=n,a=2;a<e;++a)n/=a-r,n*=t,i+=n;o+=i}return o}var IZt=MZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6769,151 +6723,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var DZt=6.283185307179586,SX=DZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function NZt(e){return e===0?-.3333333333333333:-.3333333333333333+e*(.08333333333333333+e*(-.014814814814814815+e*(.0011574074074074073+e*(.0003527336860670194+e*(-.0001787551440329218+e*(3919263178522438e-20+e*(-21854485106799924e-22+e*(-185406221071516e-20+e*(8296711340953087e-22+e*(-17665952736826078e-23+e*(6707853543401498e-24+e*(10261809784240309e-24+e*(-4382036018453353e-24+e*914769958223679e-24)))))))))))))}var FZt=NZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function $Zt(e){return e===0?-.001851851851851852:-.001851851851851852+e*(-.003472222222222222+e*(.0026455026455026454+e*(-.0009902263374485596+e*(.00020576131687242798+e*(-4018775720164609e-22+e*(-18098550334489977e-21+e*(764916091608111e-20+e*(-16120900894563446e-22+e*(4647127802807434e-24+e*(1378633446915721e-22+e*(-5752545603517705e-23+e*11951628599778148e-24)))))))))))}var BZt=$Zt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function zZt(e){return e===0?.004133597883597883:.004133597883597883+e*(-.0026813271604938273+e*(.0007716049382716049+e*(20093878600823047e-22+e*(-.00010736653226365161+e*(52923448829120125e-21+e*(-12760635188618728e-21+e*(3423578734096138e-23+e*(13721957309062932e-22+e*(-6298992138380055e-22+e*14280614206064242e-23)))))))))}var VZt=zZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function UZt(e){return e===0?.0006494341563786008:.0006494341563786008+e*(.00022947209362139917+e*(-.0004691894943952557+e*(.00026772063206283885+e*(-7561801671883977e-20+e*(-2396505113867297e-22+e*(11082654115347302e-21+e*(-56749528269915965e-22+e*14230900732435883e-22)))))))}var WZt=UZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function jZt(e){return e===0?-.0008618882909167117:-.0008618882909167117+e*(.0007840392217200666+e*(-.0002990724803031902+e*(-14638452578843418e-22+e*(6641498215465122e-20+e*(-3968365047179435e-20+e*11375726970678419e-21)))))}var GZt=jZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function HZt(e){return e===0?-.00033679855336635813:-.00033679855336635813+e*(-6972813758365858e-20+e*(.0002772753244959392+e*(-.00019932570516188847+e*(6797780477937208e-20+e*(1419062920643967e-22+e*(-13594048189768693e-21+e*(8018470256334202e-21+e*-2291481176508095e-21)))))))}var XZt=HZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function YZt(e){return e===0?.0005313079364639922:.0005313079364639922+e*(-.0005921664373536939+e*(.0002708782096718045+e*(7902353232660328e-22+e*(-8153969367561969e-20+e*(561168275310625e-19+e*-18329116582843375e-21)))))}var KZt=YZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function ZZt(e){return e===0?.00034436760689237765:.00034436760689237765+e*(5171790908260592e-20+e*(-.00033493161081142234+e*(.0002812695154763237+e*-.00010976582244684731)))}var qZt=ZZt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function JZt(e){return e===0?-.0006526239185953094:-.0006526239185953094+e*(.0008394987206720873+e*-.000438297098541721)}var QZt=JZt;/**
+*/var LZt=-708.3964185322641,Od=LZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6943,7 +6753,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var tqt=su,eqt=wX,yT=Rr,rqt=gr,nqt=Xe,iqt=SX,oqt=FZt,aqt=BZt,sqt=VZt,lqt=WZt,uqt=GZt,cqt=XZt,fqt=KZt,hqt=qZt,dqt=QZt,po=[0,0,0,0,0,0,0,0,0,0];function pqt(e,t){var r,n,i,o,a;return n=(t-e)/e,i=-nqt(1+n)+n,o=e*i,a=yT(2*i),t<e&&(a=-a),po[0]=oqt(a),po[1]=aqt(a),po[2]=sqt(a),po[3]=lqt(a),po[4]=uqt(a),po[5]=cqt(a),po[6]=fqt(a),po[7]=hqt(a),po[8]=dqt(a),po[9]=-.0005967612901927463,r=tqt(po,1/e),r*=rqt(-o)/yT(iqt*e),t<e&&(r=-r),r+=eqt(yT(o))/2,r}var gqt=pqt;/**
+*/var Wf=gr,F1=Dr,OZt=Xe,Y9=uf,K9=Od;function RZt(e,t){var r,n;return n=e*OZt(t),t>=1?n<Y9&&-t>K9?r=F1(t,e)*Wf(-t):e>=1?r=F1(t/Wf(t/e),e):r=Wf(n-t):n>K9?r=F1(t,e)*Wf(-t):t/e<Y9?r=F1(t/Wf(t/e),e):r=Wf(n-t),r}var DZt=RZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6959,7 +6769,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var vqt=eval,mqt=vqt;/**
+*/var NZt=6.283185307179586,SX=NZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6975,7 +6785,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var yqt=mqt;function _qt(){var e;try{yqt('"use strict"; (function* () {})'),e=!0}catch{e=!1}return e}var bqt=_qt;/**
+*/function FZt(e){return e===0?-.3333333333333333:-.3333333333333333+e*(.08333333333333333+e*(-.014814814814814815+e*(.0011574074074074073+e*(.0003527336860670194+e*(-.0001787551440329218+e*(3919263178522438e-20+e*(-21854485106799924e-22+e*(-185406221071516e-20+e*(8296711340953087e-22+e*(-17665952736826078e-23+e*(6707853543401498e-24+e*(10261809784240309e-24+e*(-4382036018453353e-24+e*914769958223679e-24)))))))))))))}var $Zt=FZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -6991,7 +6801,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var wqt=bqt,TX=wqt;/**
+*/function BZt(e){return e===0?-.001851851851851852:-.001851851851851852+e*(-.003472222222222222+e*(.0026455026455026454+e*(-.0009902263374485596+e*(.00020576131687242798+e*(-4018775720164609e-22+e*(-18098550334489977e-21+e*(764916091608111e-20+e*(-16120900894563446e-22+e*(4647127802807434e-24+e*(1378633446915721e-22+e*(-5752545603517705e-23+e*11951628599778148e-24)))))))))))}var zZt=BZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7007,7 +6817,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $1=$e,Sqt=Fs,Tqt=1e6;function kqt(e,t){var r,n,i,o,a,s;if(s={},arguments.length>1&&(s=t),n=s.tolerance||Sqt,o=s.maxTerms||Tqt,a=s.initialValue||0,r=typeof e.next=="function",r===!0){for(i of e)if(a+=i,$1(n*a)>=$1(i)||--o===0)break}else do i=e(),a+=i;while($1(n*a)<$1(i)&&--o);return a}var Pqt=kqt;/**
+*/function VZt(e){return e===0?.004133597883597883:.004133597883597883+e*(-.0026813271604938273+e*(.0007716049382716049+e*(20093878600823047e-22+e*(-.00010736653226365161+e*(52923448829120125e-21+e*(-12760635188618728e-21+e*(3423578734096138e-23+e*(13721957309062932e-22+e*(-6298992138380055e-22+e*14280614206064242e-23)))))))))}var UZt=VZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7023,7 +6833,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Z9=$e,Eqt=Fs,Cqt=1e6;function Aqt(e,t){var r,n,i,o,a;a={},arguments.length>1&&(a=t),r=a.tolerance||Eqt,i=a.maxTerms||Cqt,o=a.initialValue||0;do n=e(),o+=n;while(Z9(r*o)<Z9(n)&&--i);return o}var xqt=Aqt;/**
+*/function WZt(e){return e===0?.0006494341563786008:.0006494341563786008+e*(.00022947209362139917+e*(-.0004691894943952557+e*(.00026772063206283885+e*(-7561801671883977e-20+e*(-2396505113867297e-22+e*(11082654115347302e-21+e*(-56749528269915965e-22+e*14230900732435883e-22)))))))}var jZt=WZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7039,7 +6849,71 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Mqt=TX,Iqt=Pqt,Lqt=xqt,rC;Mqt()?rC=Iqt:rC=Lqt;var A4=rC;/**
+*/function GZt(e){return e===0?-.0008618882909167117:-.0008618882909167117+e*(.0007840392217200666+e*(-.0002990724803031902+e*(-14638452578843418e-22+e*(6641498215465122e-20+e*(-3968365047179435e-20+e*11375726970678419e-21)))))}var HZt=GZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function XZt(e){return e===0?-.00033679855336635813:-.00033679855336635813+e*(-6972813758365858e-20+e*(.0002772753244959392+e*(-.00019932570516188847+e*(6797780477937208e-20+e*(1419062920643967e-22+e*(-13594048189768693e-21+e*(8018470256334202e-21+e*-2291481176508095e-21)))))))}var YZt=XZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function KZt(e){return e===0?.0005313079364639922:.0005313079364639922+e*(-.0005921664373536939+e*(.0002708782096718045+e*(7902353232660328e-22+e*(-8153969367561969e-20+e*(561168275310625e-19+e*-18329116582843375e-21)))))}var ZZt=KZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function qZt(e){return e===0?.00034436760689237765:.00034436760689237765+e*(5171790908260592e-20+e*(-.00033493161081142234+e*(.0002812695154763237+e*-.00010976582244684731)))}var JZt=qZt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function QZt(e){return e===0?-.0006526239185953094:-.0006526239185953094+e*(.0008394987206720873+e*-.000438297098541721)}var tqt=QZt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7069,7 +6943,103 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/function Oqt(e,t){var r=1,n=e,i=t;return o;function o(){var a=r;return n+=1,r*=i/n,a}}var Rqt=Oqt;/**
+*/var eqt=su,rqt=wX,yT=Rr,nqt=gr,iqt=Xe,oqt=SX,aqt=$Zt,sqt=zZt,lqt=UZt,uqt=jZt,cqt=HZt,fqt=YZt,hqt=ZZt,dqt=JZt,pqt=tqt,po=[0,0,0,0,0,0,0,0,0,0];function gqt(e,t){var r,n,i,o,a;return n=(t-e)/e,i=-iqt(1+n)+n,o=e*i,a=yT(2*i),t<e&&(a=-a),po[0]=aqt(a),po[1]=sqt(a),po[2]=lqt(a),po[3]=uqt(a),po[4]=cqt(a),po[5]=fqt(a),po[6]=hqt(a),po[7]=dqt(a),po[8]=pqt(a),po[9]=-.0005967612901927463,r=eqt(po,1/e),r*=nqt(-o)/yT(oqt*e),t<e&&(r=-r),r+=rqt(yT(o))/2,r}var vqt=gqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var mqt=eval,yqt=mqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var _qt=yqt;function bqt(){var e;try{_qt('"use strict"; (function* () {})'),e=!0}catch{e=!1}return e}var wqt=bqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Sqt=wqt,TX=Sqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var $1=$e,Tqt=Fs,kqt=1e6;function Pqt(e,t){var r,n,i,o,a,s;if(s={},arguments.length>1&&(s=t),n=s.tolerance||Tqt,o=s.maxTerms||kqt,a=s.initialValue||0,r=typeof e.next=="function",r===!0){for(i of e)if(a+=i,$1(n*a)>=$1(i)||--o===0)break}else do i=e(),a+=i;while($1(n*a)<$1(i)&&--o);return a}var Eqt=Pqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Z9=$e,Cqt=Fs,Aqt=1e6;function xqt(e,t){var r,n,i,o,a;a={},arguments.length>1&&(a=t),r=a.tolerance||Cqt,i=a.maxTerms||Aqt,o=a.initialValue||0;do n=e(),o+=n;while(Z9(r*o)<Z9(n)&&--i);return o}var Mqt=xqt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Iqt=TX,Lqt=Eqt,Oqt=Mqt,rC;Iqt()?rC=Lqt:rC=Oqt;var A4=rC;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7099,7 +7069,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var Dqt=A4,Nqt=Rqt;function Fqt(e,t,r){var n,i;return r=r||0,i=Nqt(e,t),n=Dqt(i,{initialValue:r}),n}var $qt=Fqt;/**
+*/function Rqt(e,t){var r=1,n=e,i=t;return o;function o(){var a=r;return n+=1,r*=i/n,a}}var Dqt=Rqt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7115,7 +7085,37 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Bqt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=709811.662581658+e*(679979.8474157227+e*(293136.7857211597+e*(74887.54032914672+e*(12555.290582413863+e*(1443.4299244417066+e*(115.24194596137347+e*(6.309239205732627+e*(.22668404630224365+e*(.004826466289237662+e*4624429436045379e-20))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=4624429436045379e-20+e*(.004826466289237662+e*(.22668404630224365+e*(6.309239205732627+e*(115.24194596137347+e*(1443.4299244417066+e*(12555.290582413863+e*(74887.54032914672+e*(293136.7857211597+e*(679979.8474157227+e*709811.662581658))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var zqt=Bqt;/**
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_37_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* (C) Copyright John Maddock 2006.
+* (C) Copyright Paul A. Bristow 2007.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var Nqt=A4,Fqt=Dqt;function $qt(e,t,r){var n,i;return r=r||0,i=Fqt(e,t),n=Nqt(i,{initialValue:r}),n}var Bqt=$qt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function zqt(e){var t,r,n;return e===0?1/0:(e<0?t=-e:t=e,t<=1?(r=709811.662581658+e*(679979.8474157227+e*(293136.7857211597+e*(74887.54032914672+e*(12555.290582413863+e*(1443.4299244417066+e*(115.24194596137347+e*(6.309239205732627+e*(.22668404630224365+e*(.004826466289237662+e*4624429436045379e-20))))))))),n=0+e*(362880+e*(1026576+e*(1172700+e*(723680+e*(269325+e*(63273+e*(9450+e*(870+e*(45+e*1)))))))))):(e=1/e,r=4624429436045379e-20+e*(.004826466289237662+e*(.22668404630224365+e*(6.309239205732627+e*(115.24194596137347+e*(1443.4299244417066+e*(12555.290582413863+e*(74887.54032914672+e*(293136.7857211597+e*(679979.8474157227+e*709811.662581658))))))))),n=1+e*(45+e*(870+e*(9450+e*(63273+e*(269325+e*(723680+e*(1172700+e*(1026576+e*(362880+e*0)))))))))),r/n)}var Vqt=zqt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7144,7 +7144,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var Vqt=zqt,Uqt=Vqt;/**
+*/var Uqt=Vqt,Wqt=Uqt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7160,7 +7160,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Wqt=Uqt,N2=Wqt;/**
+*/var jqt=Wqt,N2=jqt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7192,7 +7192,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var jqt=N2,Gqt=Ld,Hqt=za,Xqt=Ei,Yqt=Rr,Kqt=$e,al=gr,Mp=Dr,_T=lf,bT=lu,q9=Xe,B1=uf,Ip=Od,wT=E0,Zqt=Md;function qqt(e,t){var r,n,i,o,a,s,l;return i=e+wT-.5,l=(t-e-wT+.5)/i,e<1?t<=Ip?al(e*q9(t)-t-Gqt(e)):Mp(t,e)*al(-t)/Hqt(e):(Kqt(l*l*e)<=100&&e>150?(r=e*(Xqt(l)-l)+t*(.5-wT)/i,r=al(r)):(o=e*q9(t/i),a=e-t,bT(o,a)<=Ip||_T(o,a)>=B1?(n=a/e,bT(o,a)/2>Ip&&_T(o,a)/2<B1?(s=Mp(t/i,e/2)*al(a/2),r=s*s):bT(o,a)/4>Ip&&_T(o,a)/4<B1&&t>e?(s=Mp(t/i,e/4)*al(a/4),r=s*s,r*=r):n>Ip&&n<B1?r=Mp(t*al(n)/i,e):r=al(o+a)):r=Mp(t/i,e)*al(a)),r*=Yqt(i/Zqt)/jqt(e),r)}var Jqt=qqt;/**
+*/var Gqt=N2,Hqt=Ld,Xqt=za,Yqt=Ei,Kqt=Rr,Zqt=$e,al=gr,Mp=Dr,_T=lf,bT=lu,q9=Xe,B1=uf,Ip=Od,wT=E0,qqt=Md;function Jqt(e,t){var r,n,i,o,a,s,l;return i=e+wT-.5,l=(t-e-wT+.5)/i,e<1?t<=Ip?al(e*q9(t)-t-Hqt(e)):Mp(t,e)*al(-t)/Xqt(e):(Zqt(l*l*e)<=100&&e>150?(r=e*(Yqt(l)-l)+t*(.5-wT)/i,r=al(r)):(o=e*q9(t/i),a=e-t,bT(o,a)<=Ip||_T(o,a)>=B1?(n=a/e,bT(o,a)/2>Ip&&_T(o,a)/2<B1?(s=Mp(t/i,e/2)*al(a/2),r=s*s):bT(o,a)/4>Ip&&_T(o,a)/4<B1&&t>e?(s=Mp(t/i,e/4)*al(a/4),r=s*s,r*=r):n>Ip&&n<B1?r=Mp(t*al(n)/i,e):r=al(o+a)):r=Mp(t/i,e)*al(a)),r*=Kqt(i/qqt)/Gqt(e),r)}var Qqt=Jqt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7221,7 +7221,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var J9=be,Q9=$e,Qqt=Cd,tJt=Xe,eJt=Dr,rJt=b4;function nJt(e,t){var r;if(J9(e)||J9(t))return NaN;if(t===0)return 0;if(e===0)return-1;if(e<0&&t%2===0&&(e=-e),e>0){if((Q9(t*(e-1))<.5||Q9(t)<.2)&&(r=tJt(e)*t,r<.5))return Qqt(r)}else if(rJt(t)!==t)return NaN;return eJt(e,t)-1}var iJt=nJt;/**
+*/var J9=be,Q9=$e,tJt=Cd,eJt=Xe,rJt=Dr,nJt=b4;function iJt(e,t){var r;if(J9(e)||J9(t))return NaN;if(t===0)return 0;if(e===0)return-1;if(e<0&&t%2===0&&(e=-e),e>0){if((Q9(t*(e-1))<.5||Q9(t)<.2)&&(r=eJt(e)*t,r<.5))return tJt(r)}else if(nJt(t)!==t)return NaN;return rJt(e,t)-1}var oJt=iJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7237,7 +7237,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var oJt=iJt,aJt=oJt;/**
+*/var aJt=oJt,sJt=aJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7253,7 +7253,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function sJt(e){var t,r,n;return e===0?-.01803556856784494:(e<0?t=-e:t=e,t<=1?(r=-.01803556856784494+e*(.02512664961998968+e*(.049410315156753225+e*(.0172491608709614+e*(-.0002594535632054381+e*(-.0005410098692152044+e*(-3245886498259485e-20+e*0)))))),n=1+e*(1.962029871977952+e*(1.4801966942423133+e*(.5413914320717209+e*(.09885042511280101+e*(.008213096746488934+e*(.00022493629192211576+e*-22335276320861708e-23))))))):(e=1/e,r=0+e*(-3245886498259485e-20+e*(-.0005410098692152044+e*(-.0002594535632054381+e*(.0172491608709614+e*(.049410315156753225+e*(.02512664961998968+e*-.01803556856784494)))))),n=-22335276320861708e-23+e*(.00022493629192211576+e*(.008213096746488934+e*(.09885042511280101+e*(.5413914320717209+e*(1.4801966942423133+e*(1.962029871977952+e*1))))))),r/n)}var lJt=sJt;/**
+*/function lJt(e){var t,r,n;return e===0?-.01803556856784494:(e<0?t=-e:t=e,t<=1?(r=-.01803556856784494+e*(.02512664961998968+e*(.049410315156753225+e*(.0172491608709614+e*(-.0002594535632054381+e*(-.0005410098692152044+e*(-3245886498259485e-20+e*0)))))),n=1+e*(1.962029871977952+e*(1.4801966942423133+e*(.5413914320717209+e*(.09885042511280101+e*(.008213096746488934+e*(.00022493629192211576+e*-22335276320861708e-23))))))):(e=1/e,r=0+e*(-3245886498259485e-20+e*(-.0005410098692152044+e*(-.0002594535632054381+e*(.0172491608709614+e*(.049410315156753225+e*(.02512664961998968+e*-.01803556856784494)))))),n=-22335276320861708e-23+e*(.00022493629192211576+e*(.008213096746488934+e*(.09885042511280101+e*(.5413914320717209+e*(1.4801966942423133+e*(1.962029871977952+e*1))))))),r/n)}var uJt=lJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7269,7 +7269,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function uJt(e){var t,r,n;return e===0?.04906224540690395:(e<0?t=-e:t=e,t<=1?(r=.04906224540690395+e*(-.09691175301595212+e*(-.4149833583594954+e*(-.4065671242119384+e*(-.1584135863906922+e*(-.024014982064857155+e*-.0010034668769627955))))),n=1+e*(3.0234982984646304+e*(3.4873958536072385+e*(1.9141558827442668+e*(.5071377386143635+e*(.05770397226904519+e*.001957681026011072)))))):(e=1/e,r=-.0010034668769627955+e*(-.024014982064857155+e*(-.1584135863906922+e*(-.4065671242119384+e*(-.4149833583594954+e*(-.09691175301595212+e*.04906224540690395))))),n=.001957681026011072+e*(.05770397226904519+e*(.5071377386143635+e*(1.9141558827442668+e*(3.4873958536072385+e*(3.0234982984646304+e*1)))))),r/n)}var cJt=uJt;/**
+*/function cJt(e){var t,r,n;return e===0?.04906224540690395:(e<0?t=-e:t=e,t<=1?(r=.04906224540690395+e*(-.09691175301595212+e*(-.4149833583594954+e*(-.4065671242119384+e*(-.1584135863906922+e*(-.024014982064857155+e*-.0010034668769627955))))),n=1+e*(3.0234982984646304+e*(3.4873958536072385+e*(1.9141558827442668+e*(.5071377386143635+e*(.05770397226904519+e*.001957681026011072)))))):(e=1/e,r=-.0010034668769627955+e*(-.024014982064857155+e*(-.1584135863906922+e*(-.4065671242119384+e*(-.4149833583594954+e*(-.09691175301595212+e*.04906224540690395))))),n=.001957681026011072+e*(.05770397226904519+e*(.5071377386143635+e*(1.9141558827442668+e*(3.4873958536072385+e*(3.0234982984646304+e*1)))))),r/n)}var fJt=cJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7285,7 +7285,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function fJt(e){var t,r,n;return e===0?-.029232972183027003:(e<0?t=-e:t=e,t<=1?(r=-.029232972183027003+e*(.14421626775719232+e*(-.14244039073863127+e*(.05428096940550536+e*(-.008505359768683364+e*(.0004311713426792973+e*0))))),n=1+e*(-1.5016935605448505+e*(.846973248876495+e*(-.22009515181499575+e*(.02558279715597587+e*(-.0010066679553914337+e*-8271935218912905e-22)))))):(e=1/e,r=0+e*(.0004311713426792973+e*(-.008505359768683364+e*(.05428096940550536+e*(-.14244039073863127+e*(.14421626775719232+e*-.029232972183027003))))),n=-8271935218912905e-22+e*(-.0010066679553914337+e*(.02558279715597587+e*(-.22009515181499575+e*(.846973248876495+e*(-1.5016935605448505+e*1)))))),r/n)}var hJt=fJt;/**
+*/function hJt(e){var t,r,n;return e===0?-.029232972183027003:(e<0?t=-e:t=e,t<=1?(r=-.029232972183027003+e*(.14421626775719232+e*(-.14244039073863127+e*(.05428096940550536+e*(-.008505359768683364+e*(.0004311713426792973+e*0))))),n=1+e*(-1.5016935605448505+e*(.846973248876495+e*(-.22009515181499575+e*(.02558279715597587+e*(-.0010066679553914337+e*-8271935218912905e-22)))))):(e=1/e,r=0+e*(.0004311713426792973+e*(-.008505359768683364+e*(.05428096940550536+e*(-.14244039073863127+e*(.14421626775719232+e*-.029232972183027003))))),n=-8271935218912905e-22+e*(-.0010066679553914337+e*(.02558279715597587+e*(-.22009515181499575+e*(.846973248876495+e*(-1.5016935605448505+e*1)))))),r/n)}var dJt=hJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7317,7 +7317,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var ST=Xe,dJt=Fs,pJt=lJt,gJt=cJt,vJt=hJt,mJt=.15896368026733398,yJt=.5281534194946289,_Jt=.45201730728149414;function bJt(e,t,r){var n,i,o,a;if(e<dJt)return-ST(e);if(t===0||r===0)return 0;if(i=0,e>2){if(e>=3){do e-=1,r-=1,i+=ST(e);while(e>=3);r=e-2}return o=r*(e+1),a=pJt(r),i+=o*mJt+o*a,i}return e<1&&(i+=-ST(e),r=t,t=e,e+=1),e<=1.5?(o=gJt(t),n=t*r,i+=n*yJt+n*o,i):(o=r*t,a=vJt(-r),i+=o*_Jt+o*a,i)}var wJt=bJt;/**
+*/var ST=Xe,pJt=Fs,gJt=uJt,vJt=fJt,mJt=dJt,yJt=.15896368026733398,_Jt=.5281534194946289,bJt=.45201730728149414;function wJt(e,t,r){var n,i,o,a;if(e<pJt)return-ST(e);if(t===0||r===0)return 0;if(i=0,e>2){if(e>=3){do e-=1,r-=1,i+=ST(e);while(e>=3);r=e-2}return o=r*(e+1),a=gJt(r),i+=o*yJt+o*a,i}return e<1&&(i+=-ST(e),r=t,t=e,e+=1),e<=1.5?(o=vJt(t),n=t*r,i+=n*_Jt+n*o,i):(o=r*t,a=mJt(-r),i+=o*bJt+o*a,i)}var SJt=wJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7349,7 +7349,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var tN=za,eN=Cd,SJt=Ei,TJt=be,rN=wJt;function kJt(e){return TJt(e)?NaN:e<0?e<-.5?tN(1+e)-1:eN(-SJt(e)+rN(e+2,e+1,e)):e<2?eN(rN(e+1,e,e-1)):tN(1+e)-1}var PJt=kJt;/**
+*/var tN=za,eN=Cd,TJt=Ei,kJt=be,rN=SJt;function PJt(e){return kJt(e)?NaN:e<0?e<-.5?tN(1+e)-1:eN(-TJt(e)+rN(e+2,e+1,e)):e<2?eN(rN(e+1,e,e-1)):tN(1+e)-1}var EJt=PJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7365,37 +7365,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var EJt=PJt,CJt=EJt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_37_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* (C) Copyright John Maddock 2006.
-* (C) Copyright Paul A. Bristow 2007.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/function AJt(e,t){var r,n,i,o;return r=-t,t=-t,n=e+1,i=1,a;function a(){return o=r/n,r*=t,i+=1,r/=i,n+=1,o}}var xJt=AJt;/**
+*/var CJt=EJt,AJt=CJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7425,71 +7395,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var MJt=aJt,IJt=A4,LJt=CJt,OJt=xJt;function RJt(e,t,r){var n,i,o,a,s;return i=LJt(e),o=(i+1)/e,a=MJt(t,e),i-=a,i/=e,s=OJt(e,t),a+=1,n=r?o:0,i=-a*IJt(s,{initialValue:(n-i)/a}),r&&(i=-i),[i,o]}var DJt=RJt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var NJt=11754943508222875e-54,F2=NJt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var sb=$e,va=F2,FJt=Fs,$Jt=1e6;function BJt(e,t,r){var n,i,o,a,s,l,u;if(n=typeof e.next=="function",u=n?e.next().value:e(),a=u[1],o=u[0],a===0&&(a=va),s=a,l=0,n===!0)do u=e.next().value,u&&(l=u[1]+u[0]*l,l===0&&(l=va),s=u[1]+u[0]/s,s===0&&(s=va),l=1/l,i=s*l,a*=i);while(sb(i-1)>t&&--r);else do u=e(),u&&(l=u[1]+u[0]*l,l===0&&(l=va),s=u[1]+u[0]/s,s===0&&(s=va),l=1/l,i=s*l,a*=i);while(u&&sb(i-1)>t&&--r);return o/a}function zJt(e,t,r){var n,i,o,a,s,l;if(n=typeof e.next=="function",l=n?e.next().value:e(),o=l[1],o===0&&(o=va),a=o,s=0,n===!0)do l=e.next().value,l&&(s=l[1]+l[0]*s,s===0&&(s=va),a=l[1]+l[0]/a,a===0&&(a=va),s=1/s,i=a*s,o*=i);while(l&&sb(i-1)>t&&--r);else do l=e(),l&&(s=l[1]+l[0]*s,s===0&&(s=va),a=l[1]+l[0]/a,a===0&&(a=va),s=1/s,i=a*s,o*=i);while(l&&sb(i-1)>t&&--r);return o}function VJt(e,t){var r,n,i;return n={},arguments.length>1&&(n=t),r=n.maxIter||$Jt,i=n.tolerance||FJt,n.keep?zJt(e,i,r):BJt(e,i,r)}var UJt=VJt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var kX=$e,WJt=Fs,Rh=F2,jJt=1e6;function GJt(e,t,r){var n,i,o,a,s,l;l=e(),s=l[1],i=l[0],s===0&&(s=Rh),o=s,a=0;do l=e(),l&&(a=l[1]+l[0]*a,a===0&&(a=Rh),o=l[1]+l[0]/o,o===0&&(o=Rh),a=1/a,n=o*a,s*=n);while(l&&kX(n-1)>t&&--r);return i/s}function HJt(e,t,r){var n,i,o,a,s;s=e(),a=s[1],a===0&&(a=Rh),i=a,o=0;do s=e(),s&&(o=s[1]+s[0]*o,o===0&&(o=Rh),i=s[1]+s[0]/i,i===0&&(i=Rh),o=1/o,n=i*o,a*=n);while(s&&kX(n-1)>t&&--r);return a}function XJt(e,t){var r,n,i;return n={},arguments.length>1&&(n=t),i=n.tolerance||WJt,r=n.maxIter||jJt,n.keep?HJt(e,i,r):GJt(e,i,r)}var YJt=XJt;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var KJt=TX,ZJt=UJt,qJt=YJt,nC;KJt()?nC=ZJt:nC=qJt;var PX=nC;/**
+*/function xJt(e,t){var r,n,i,o;return r=-t,t=-t,n=e+1,i=1,a;function a(){return o=r/n,r*=t,i+=1,r/=i,n+=1,o}}var MJt=xJt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7519,7 +7425,71 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/function JJt(e,t){var r=t-e+1,n=e,i=0;return o;function o(){return i+=1,r+=2,[i*(n-i),r]}}var QJt=JJt;/**
+*/var IJt=sJt,LJt=A4,OJt=AJt,RJt=MJt;function DJt(e,t,r){var n,i,o,a,s;return i=OJt(e),o=(i+1)/e,a=IJt(t,e),i-=a,i/=e,s=RJt(e,t),a+=1,n=r?o:0,i=-a*LJt(s,{initialValue:(n-i)/a}),r&&(i=-i),[i,o]}var NJt=DJt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var FJt=11754943508222875e-54,F2=FJt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var sb=$e,va=F2,$Jt=Fs,BJt=1e6;function zJt(e,t,r){var n,i,o,a,s,l,u;if(n=typeof e.next=="function",u=n?e.next().value:e(),a=u[1],o=u[0],a===0&&(a=va),s=a,l=0,n===!0)do u=e.next().value,u&&(l=u[1]+u[0]*l,l===0&&(l=va),s=u[1]+u[0]/s,s===0&&(s=va),l=1/l,i=s*l,a*=i);while(sb(i-1)>t&&--r);else do u=e(),u&&(l=u[1]+u[0]*l,l===0&&(l=va),s=u[1]+u[0]/s,s===0&&(s=va),l=1/l,i=s*l,a*=i);while(u&&sb(i-1)>t&&--r);return o/a}function VJt(e,t,r){var n,i,o,a,s,l;if(n=typeof e.next=="function",l=n?e.next().value:e(),o=l[1],o===0&&(o=va),a=o,s=0,n===!0)do l=e.next().value,l&&(s=l[1]+l[0]*s,s===0&&(s=va),a=l[1]+l[0]/a,a===0&&(a=va),s=1/s,i=a*s,o*=i);while(l&&sb(i-1)>t&&--r);else do l=e(),l&&(s=l[1]+l[0]*s,s===0&&(s=va),a=l[1]+l[0]/a,a===0&&(a=va),s=1/s,i=a*s,o*=i);while(l&&sb(i-1)>t&&--r);return o}function UJt(e,t){var r,n,i;return n={},arguments.length>1&&(n=t),r=n.maxIter||BJt,i=n.tolerance||$Jt,n.keep?VJt(e,i,r):zJt(e,i,r)}var WJt=UJt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var kX=$e,jJt=Fs,Rh=F2,GJt=1e6;function HJt(e,t,r){var n,i,o,a,s,l;l=e(),s=l[1],i=l[0],s===0&&(s=Rh),o=s,a=0;do l=e(),l&&(a=l[1]+l[0]*a,a===0&&(a=Rh),o=l[1]+l[0]/o,o===0&&(o=Rh),a=1/a,n=o*a,s*=n);while(l&&kX(n-1)>t&&--r);return i/s}function XJt(e,t,r){var n,i,o,a,s;s=e(),a=s[1],a===0&&(a=Rh),i=a,o=0;do s=e(),s&&(o=s[1]+s[0]*o,o===0&&(o=Rh),i=s[1]+s[0]/i,i===0&&(i=Rh),o=1/o,n=i*o,a*=n);while(s&&kX(n-1)>t&&--r);return a}function YJt(e,t){var r,n,i;return n={},arguments.length>1&&(n=t),i=n.tolerance||jJt,r=n.maxIter||GJt,n.keep?XJt(e,i,r):HJt(e,i,r)}var KJt=YJt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var ZJt=TX,qJt=WJt,JJt=KJt,nC;ZJt()?nC=qJt:nC=JJt;var PX=nC;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7549,7 +7519,37 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var tQt=PX,eQt=QJt;function rQt(e,t){var r=eQt(e,t);return 1/(t-e+1+tQt(r))}var nQt=rQt;/**
+*/function QJt(e,t){var r=t-e+1,n=e,i=0;return o;function o(){return i+=1,r+=2,[i*(n-i),r]}}var tQt=QJt;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_37_0/boost/math/special_functions/gamma.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* (C) Copyright John Maddock 2006.
+* (C) Copyright Paul A. Bristow 2007.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var eQt=PX,rQt=tQt;function nQt(e,t){var r=rQt(e,t);return 1/(t-e+1+eQt(r))}var iQt=nQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7581,7 +7581,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var iQt=Ld,oQt=Pi,Lp=za,nN=$e,aQt=gr,iN=Dr,go=Xe,sQt=DKt,oN=Id,lQt=D2,aN=uf,uQt=sr,cQt=BKt,fQt=MZt,sN=RZt,hQt=gqt,TT=$qt,lN=Jqt,dQt=DJt,uN=nQt,pQt=170;function EX(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,g,m,v,y;if(e<0||t<=0)return NaN;if(o=r===void 0?!0:r,f=n,h=0,t>=pQt&&!o)return f&&t*4<e?(h=t*go(e)-e,h+=go(uN(t,e))):!f&&t>4*e?(h=t*go(e)-e,s=0,h+=go(TT(t,e,s)/t)):(h=EX(t,e,!0,f),h===0?f?(h=1+1/(12*t)+1/(288*t*t),h=go(h)-t+(t-.5)*go(t),h+=go(lQt)):(h=t*go(e)-e,s=0,h+=go(TT(t,e,s)/t)):h=go(h)+iQt(t)),h>aN?uQt:aQt(h);switch(c=t<30&&t<=e+1&&e<aN,c?(v=oQt(t),d=v===t,l=d?!1:nN(v-t)===.5):d=l=!1,d&&e>.6?(f=!f,a=0):l&&e>.2?(f=!f,a=1):e<sQt&&t>1?a=6:e<.5?-.4/go(e)<t?a=2:a=3:e<1.1?e*.75<t?a=2:a=3:(u=!1,o&&t>20&&(p=nN((e-t)/t),t>200?20/t>p*p&&(u=!0):p<.4&&(u=!0)),u?a=5:e-1/(3*e)<t?a=2:(a=4,f=!f)),a){case 0:h=cQt(t,e),o===!1&&(h*=Lp(t));break;case 1:h=fQt(t,e),o===!1&&(h*=Lp(t));break;case 2:h=o?lN(t,e):sN(t,e),h!==0&&(s=0,i=!1,f&&(s=o?1:Lp(t),o||h>=1||oN*h>s?(s/=h,o||t<1||oN/t>s?(s*=-t,i=!0):s=0):s=0)),h*=TT(t,e,s)/t,i&&(f=!1,h=-h);break;case 3:f=!f,m=dQt(t,e,f),h=m[0],y=m[1],f=!1,o&&(h/=y);break;case 4:h=o?lN(t,e):sN(t,e),h!==0&&(h*=uN(t,e));break;case 5:h=hQt(t,e),e>=t&&(f=!f);break;case 6:h=o?iN(e,t)/Lp(t+1):iN(e,t)/t,h*=1-t*e/(t+1);break}return o&&h>1&&(h=1),f&&(g=o?1:Lp(t),h=g-h),h}var gQt=EX;/**
+*/var oQt=Ld,aQt=Pi,Lp=za,nN=$e,sQt=gr,iN=Dr,go=Xe,lQt=NKt,oN=Id,uQt=D2,aN=uf,cQt=sr,fQt=zKt,hQt=IZt,sN=DZt,dQt=vqt,TT=Bqt,lN=Qqt,pQt=NJt,uN=iQt,gQt=170;function EX(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,g,m,v,y;if(e<0||t<=0)return NaN;if(o=r===void 0?!0:r,f=n,h=0,t>=gQt&&!o)return f&&t*4<e?(h=t*go(e)-e,h+=go(uN(t,e))):!f&&t>4*e?(h=t*go(e)-e,s=0,h+=go(TT(t,e,s)/t)):(h=EX(t,e,!0,f),h===0?f?(h=1+1/(12*t)+1/(288*t*t),h=go(h)-t+(t-.5)*go(t),h+=go(uQt)):(h=t*go(e)-e,s=0,h+=go(TT(t,e,s)/t)):h=go(h)+oQt(t)),h>aN?cQt:sQt(h);switch(c=t<30&&t<=e+1&&e<aN,c?(v=aQt(t),d=v===t,l=d?!1:nN(v-t)===.5):d=l=!1,d&&e>.6?(f=!f,a=0):l&&e>.2?(f=!f,a=1):e<lQt&&t>1?a=6:e<.5?-.4/go(e)<t?a=2:a=3:e<1.1?e*.75<t?a=2:a=3:(u=!1,o&&t>20&&(p=nN((e-t)/t),t>200?20/t>p*p&&(u=!0):p<.4&&(u=!0)),u?a=5:e-1/(3*e)<t?a=2:(a=4,f=!f)),a){case 0:h=fQt(t,e),o===!1&&(h*=Lp(t));break;case 1:h=hQt(t,e),o===!1&&(h*=Lp(t));break;case 2:h=o?lN(t,e):sN(t,e),h!==0&&(s=0,i=!1,f&&(s=o?1:Lp(t),o||h>=1||oN*h>s?(s/=h,o||t<1||oN/t>s?(s*=-t,i=!0):s=0):s=0)),h*=TT(t,e,s)/t,i&&(f=!1,h=-h);break;case 3:f=!f,m=pQt(t,e,f),h=m[0],y=m[1],f=!1,o&&(h/=y);break;case 4:h=o?lN(t,e):sN(t,e),h!==0&&(h*=uN(t,e));break;case 5:h=dQt(t,e),e>=t&&(f=!f);break;case 6:h=o?iN(e,t)/Lp(t+1):iN(e,t)/t,h*=1-t*e/(t+1);break}return o&&h>1&&(h=1),f&&(g=o?1:Lp(t),h=g-h),h}var vQt=EX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7597,7 +7597,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var vQt=gQt,CX=vQt;/**
+*/var mQt=vQt,CX=mQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7627,7 +7627,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var jf=gr,z1=Dr,mQt=Xe,cN=uf,fN=Od;function yQt(e,t){var r,n;return n=e*mQt(t),t>=1?n<cN&&-t>fN?r=z1(t,e)*jf(-t):e>=1?r=z1(t/jf(t/e),e):r=jf(n-t):n>fN?r=z1(t,e)*jf(-t):t/e<cN?r=z1(t/jf(t/e),e):r=jf(n-t),r}var _Qt=yQt;/**
+*/var jf=gr,z1=Dr,yQt=Xe,cN=uf,fN=Od;function _Qt(e,t){var r,n;return n=e*yQt(t),t>=1?n<cN&&-t>fN?r=z1(t,e)*jf(-t):e>=1?r=z1(t/jf(t/e),e):r=jf(n-t):n>fN?r=z1(t,e)*jf(-t):t/e<cN?r=z1(t/jf(t/e),e):r=jf(n-t),r}var bQt=_Qt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7659,7 +7659,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var bQt=N2,wQt=Ld,SQt=za,TQt=Ei,kQt=Rr,PQt=$e,sl=gr,Op=Dr,kT=lf,PT=lu,hN=Xe,V1=uf,Rp=Od,ET=E0,EQt=Md;function CQt(e,t){var r,n,i,o,a,s,l;return i=e+ET-.5,l=(t-e-ET+.5)/i,e<1?t<=Rp?sl(e*hN(t)-t-wQt(e)):Op(t,e)*sl(-t)/SQt(e):(PQt(l*l*e)<=100&&e>150?(r=e*(TQt(l)-l)+t*(.5-ET)/i,r=sl(r)):(o=e*hN(t/i),a=e-t,PT(o,a)<=Rp||kT(o,a)>=V1?(n=a/e,PT(o,a)/2>Rp&&kT(o,a)/2<V1?(s=Op(t/i,e/2)*sl(a/2),r=s*s):PT(o,a)/4>Rp&&kT(o,a)/4<V1&&t>e?(s=Op(t/i,e/4)*sl(a/4),r=s*s,r*=r):n>Rp&&n<V1?r=Op(t*sl(n)/i,e):r=sl(o+a)):r=Op(t/i,e)*sl(a)),r*=kQt(i/EQt)/bQt(e),r)}var AQt=CQt;/**
+*/var wQt=N2,SQt=Ld,TQt=za,kQt=Ei,PQt=Rr,EQt=$e,sl=gr,Op=Dr,kT=lf,PT=lu,hN=Xe,V1=uf,Rp=Od,ET=E0,CQt=Md;function AQt(e,t){var r,n,i,o,a,s,l;return i=e+ET-.5,l=(t-e-ET+.5)/i,e<1?t<=Rp?sl(e*hN(t)-t-SQt(e)):Op(t,e)*sl(-t)/TQt(e):(EQt(l*l*e)<=100&&e>150?(r=e*(kQt(l)-l)+t*(.5-ET)/i,r=sl(r)):(o=e*hN(t/i),a=e-t,PT(o,a)<=Rp||kT(o,a)>=V1?(n=a/e,PT(o,a)/2>Rp&&kT(o,a)/2<V1?(s=Op(t/i,e/2)*sl(a/2),r=s*s):PT(o,a)/4>Rp&&kT(o,a)/4<V1&&t>e?(s=Op(t/i,e/4)*sl(a/4),r=s*s,r*=r):n>Rp&&n<V1?r=Op(t*sl(n)/i,e):r=sl(o+a)):r=Op(t/i,e)*sl(a)),r*=PQt(i/CQt)/wQt(e),r)}var xQt=AQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7688,7 +7688,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var xQt=E4,dN=_X,MQt=CX,IQt=Ei,U1=$e,pN=Dr,LQt=Xe,OQt=sf,gN=Fs,RQt=_Qt,DQt=AQt,ll=new Array(30);function NQt(e,t,r,n,i,o,a){var s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E;if(h=t-1,k=e+h/2,n<.35?m=IQt(-n):m=LQt(r),E=-k*m,y=DQt(t,E),y<=OQt)return i;for(a?(s=y/xQt(e,t),s/=pN(k,t)):s=RQt(t,E)/pN(k,t),s*=o,ll[0]=1,b=MQt(E,t,!0,!0),b/=y,c=i+s*b,u=1,d=m/2,d*=d,p=1,v=4*k*k,f=t,T=1;T<ll.length;++T){for(u+=2,ll[T]=0,g=t-T,l=3,w=1;w<T;++w)g=w*t-T,ll[T]+=g*ll[T-w]/dN(l),l+=2;if(ll[T]/=T,ll[T]+=h/dN(u),b=(f*(f+1)*b+(E+f+1)*p)/v,p*=d,f+=2,S=s*ll[T]*b,c+=S,S>1){if(U1(S)<U1(gN*c))break}else if(U1(S/gN)<U1(c))break}return c}var FQt=NQt;/**
+*/var MQt=E4,dN=_X,IQt=CX,LQt=Ei,U1=$e,pN=Dr,OQt=Xe,RQt=sf,gN=Fs,DQt=bQt,NQt=xQt,ll=new Array(30);function FQt(e,t,r,n,i,o,a){var s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E;if(h=t-1,k=e+h/2,n<.35?m=LQt(-n):m=OQt(r),E=-k*m,y=NQt(t,E),y<=RQt)return i;for(a?(s=y/MQt(e,t),s/=pN(k,t)):s=DQt(t,E)/pN(k,t),s*=o,ll[0]=1,b=IQt(E,t,!0,!0),b/=y,c=i+s*b,u=1,d=m/2,d*=d,p=1,v=4*k*k,f=t,T=1;T<ll.length;++T){for(u+=2,ll[T]=0,g=t-T,l=3,w=1;w<T;++w)g=w*t-T,ll[T]+=g*ll[T-w]/dN(l),l+=2;if(ll[T]/=T,ll[T]+=h/dN(u),b=(f*(f+1)*b+(E+f+1)*p)/v,p*=d,f+=2,S=s*ll[T]*b,c+=S,S>1){if(U1(S)<U1(gN*c))break}else if(U1(S/gN)<U1(c))break}return c}var $Qt=FQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7717,7 +7717,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/function $Qt(e,t,r){var n,i;if(r===0)return 1;for(n=1,i=0;i<r;i++)n*=(e+i)/(t+i);return n}var BQt=$Qt;/**
+*/function BQt(e,t,r){var n,i;if(r===0)return 1;for(n=1,i=0;i<r;i++)n*=(e+i)/(t+i);return n}var zQt=BQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7733,7 +7733,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var CT=$e,vN=lf,zQt=sr;function VQt(e,t){var r,n,i;if(r=arguments.length,r===0)return zQt;if(r===2)return vN(CT(e),CT(t));for(n=[],i=0;i<r;i++)n.push(CT(arguments[i]));return vN.apply(null,n)}var UQt=VQt;/**
+*/var CT=$e,vN=lf,VQt=sr;function UQt(e,t){var r,n,i;if(r=arguments.length,r===0)return VQt;if(r===2)return vN(CT(e),CT(t));for(n=[],i=0;i<r;i++)n.push(CT(arguments[i]));return vN.apply(null,n)}var WQt=UQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7749,7 +7749,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var WQt=UQt,jQt=WQt;/**
+*/var jQt=WQt,GQt=jQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7765,7 +7765,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var AT=$e,mN=lu,GQt=sr;function HQt(e,t){var r,n,i;if(r=arguments.length,r===0)return GQt;if(r===2)return mN(AT(e),AT(t));for(n=[],i=0;i<r;i++)n.push(AT(arguments[i]));return mN.apply(null,n)}var XQt=HQt;/**
+*/var AT=$e,mN=lu,HQt=sr;function XQt(e,t){var r,n,i;if(r=arguments.length,r===0)return HQt;if(r===2)return mN(AT(e),AT(t));for(n=[],i=0;i<r;i++)n.push(AT(arguments[i]));return mN.apply(null,n)}var YQt=XQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7781,7 +7781,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YQt=XQt,KQt=YQt;/**
+*/var KQt=YQt,ZQt=KQt;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7810,7 +7810,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var xT=N2,ZQt=jQt,qQt=KQt,yN=Cd,ul=Ei,_N=Rr,W1=$e,na=gr,ia=Dr,JQt=lu,Oi=Xe,oa=uf,Gf=Od,MT=E0,QQt=Md;function tte(e,t,r,n,i){var o,a,s,l,u,c,f,h,d,p,g,m,v,y;if(!i)return ia(r,e)*ia(n,t);if(v=e+t,l=e+MT-.5,u=t+MT-.5,c=v+MT-.5,o=xT(v),o/=xT(e)*xT(t),o*=_N(u/QQt),o*=_N(l/c),f=(r*t-n*l)/l,h=(n*e-r*u)/u,qQt(f,h)<.2)if(f*h>0||JQt(e,t)<1)W1(f)<.1?o*=na(e*ul(f)):o*=ia(r*c/l,e),W1(h)<.1?o*=na(t*ul(h)):o*=ia(n*c/u,t);else if(ZQt(f,h)<.5)a=e<t,s=t/e,a&&s*h<.1||!a&&f/s>.1?(d=yN(s*ul(h)),d=f+d+d*f,d=e*ul(d),o*=na(d)):(d=yN(ul(f)/s),d=h+d+d*h,d=t*ul(d),o*=na(d));else if(W1(f)<W1(h))if(y=e*ul(f)+t*Oi(n*c/u),y<=Gf||y>=oa){if(y+=Oi(o),y>=oa)return NaN;o=na(y)}else o*=na(y);else if(y=t*ul(h)+e*Oi(r*c/l),y<=Gf||y>=oa){if(y+=Oi(o),y>=oa)return NaN;o=na(y)}else o*=na(y);else if(g=r*c/l,m=n*c/u,f=e*Oi(g),h=t*Oi(m),f>=oa||f<=Gf||h>=oa||h<=Gf)if(e<t)if(p=ia(m,t/e),d=e*(Oi(g)+Oi(p)),d<oa&&d>Gf)o*=ia(p*g,e);else{if(h+=f+Oi(o),h>=oa)return NaN;o=na(h)}else if(p=ia(g,e/t),d=(Oi(p)+Oi(m))*t,d<oa&&d>Gf)o*=ia(p*m,t);else{if(h+=f+Oi(o),h>=oa)return NaN;o=na(h)}else o*=ia(g,e)*ia(m,t);return o}var x4=tte;/**
+*/var xT=N2,qQt=GQt,JQt=ZQt,yN=Cd,ul=Ei,_N=Rr,W1=$e,na=gr,ia=Dr,QQt=lu,Oi=Xe,oa=uf,Gf=Od,MT=E0,tte=Md;function ete(e,t,r,n,i){var o,a,s,l,u,c,f,h,d,p,g,m,v,y;if(!i)return ia(r,e)*ia(n,t);if(v=e+t,l=e+MT-.5,u=t+MT-.5,c=v+MT-.5,o=xT(v),o/=xT(e)*xT(t),o*=_N(u/tte),o*=_N(l/c),f=(r*t-n*l)/l,h=(n*e-r*u)/u,JQt(f,h)<.2)if(f*h>0||QQt(e,t)<1)W1(f)<.1?o*=na(e*ul(f)):o*=ia(r*c/l,e),W1(h)<.1?o*=na(t*ul(h)):o*=ia(n*c/u,t);else if(qQt(f,h)<.5)a=e<t,s=t/e,a&&s*h<.1||!a&&f/s>.1?(d=yN(s*ul(h)),d=f+d+d*f,d=e*ul(d),o*=na(d)):(d=yN(ul(f)/s),d=h+d+d*h,d=t*ul(d),o*=na(d));else if(W1(f)<W1(h))if(y=e*ul(f)+t*Oi(n*c/u),y<=Gf||y>=oa){if(y+=Oi(o),y>=oa)return NaN;o=na(y)}else o*=na(y);else if(y=t*ul(h)+e*Oi(r*c/l),y<=Gf||y>=oa){if(y+=Oi(o),y>=oa)return NaN;o=na(y)}else o*=na(y);else if(g=r*c/l,m=n*c/u,f=e*Oi(g),h=t*Oi(m),f>=oa||f<=Gf||h>=oa||h<=Gf)if(e<t)if(p=ia(m,t/e),d=e*(Oi(g)+Oi(p)),d<oa&&d>Gf)o*=ia(p*g,e);else{if(h+=f+Oi(o),h>=oa)return NaN;o=na(h)}else if(p=ia(g,e/t),d=(Oi(p)+Oi(m))*t,d<oa&&d>Gf)o*=ia(p*m,t);else{if(h+=f+Oi(o),h>=oa)return NaN;o=na(h)}else o*=ia(g,e)*ia(m,t);return o}var x4=ete;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7839,7 +7839,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var ete=PX,rte=x4,nte={keep:!0,maxIter:1e3};function ite(e,t,r,n){var i=0;return o;function o(){var a,s,l;return s=(e+i-1)*(e+t+i-1)*i*(t-i)*r*r,a=e+2*i-1,s/=a*a,l=i,l+=i*(t-i)*r/(e+2*i-1),l+=(e+i)*(e*n-t*r+1+i*(2-r))/(e+2*i+1),i+=1,[s,l]}}function ote(e,t,r,n,i,o){var a,s,l;return a=rte(e,t,r,n,i),o&&(o[1]=a),a===0?a:(l=ite(e,t,r,n),s=ete(l,nte),a/s)}var ate=ote;/**
+*/var rte=PX,nte=x4,ite={keep:!0,maxIter:1e3};function ote(e,t,r,n){var i=0;return o;function o(){var a,s,l;return s=(e+i-1)*(e+t+i-1)*i*(t-i)*r*r,a=e+2*i-1,s/=a*a,l=i,l+=i*(t-i)*r/(e+2*i-1),l+=(e+i)*(e*n-t*r+1+i*(2-r))/(e+2*i+1),i+=1,[s,l]}}function ate(e,t,r,n,i,o){var a,s,l;return a=nte(e,t,r,n,i),o&&(o[1]=a),a===0?a:(l=ote(e,t,r,n),s=rte(l,ite),a/s)}var ste=ate;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7855,7 +7855,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var IT=au,bN=be,ste=k4,lte=R2;function AX(e,t){var r,n;if(bN(e)||bN(t))return NaN;if(!IT(e)||!IT(t))return NaN;if(t<0)return 0;if(e<0)return r=AX(-e+t-1,t),ste(t)&&(r=-r),r;if(t>e)return 0;if(t===0||t===e)return 1;if(t===1||t===e-1)return e;for(e-t<t&&(t=e-t),r=e,n=2;n<=t;n++)r*=(e-n+1)/n;return IT(r)?r:lte(r)}var ute=AX;/**
+*/var IT=au,bN=be,lte=k4,ute=R2;function AX(e,t){var r,n;if(bN(e)||bN(t))return NaN;if(!IT(e)||!IT(t))return NaN;if(t<0)return 0;if(e<0)return r=AX(-e+t-1,t),lte(t)&&(r=-r),r;if(t>e)return 0;if(t===0||t===e)return 1;if(t===1||t===e-1)return e;for(e-t<t&&(t=e-t),r=e,n=2;n<=t;n++)r*=(e-n+1)/n;return IT(r)?r:ute(r)}var cte=AX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7871,36 +7871,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var cte=ute,fte=cte;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_61_0/boost/math/special_functions/beta.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* (C) Copyright John Maddock 2006.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var wN=fte,Uu=Pi,Dp=Dr,hte=sf;function dte(e,t,r,n){var i,o,a,s,l;if(o=Dp(r,e),o>hte)for(s=o,l=Uu(e-1);l>t;l--)s*=(l+1)*n/((e-l)*r),o+=s;else if(a=Uu(e*r),a<=t+1&&(a=Uu(t+2)),o=Dp(r,a)*Dp(n,e-a),o*=wN(Uu(e),Uu(a)),o===0)for(l=a-1;l>t;l--)o+=Dp(r,l)*Dp(n,e-l),o*=wN(Uu(e),Uu(l));else{for(s=o,i=o,l=a-1;l>t;l--)s*=(l+1)*n/((e-l)*r),o+=s;for(s=i,l=a+1;l<=e;l++)s*=(e-l+1)*r/(l*n),o+=s}return o}var pte=dte;/**
+*/var fte=cte,hte=fte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7929,7 +7900,36 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var gte=x4;function vte(e,t,r,n,i,o,a){var s,l,u,c;if(s=gte(e,t,r,n,o),a&&(a[1]=s),s/=e,s===0)return s;for(u=1,l=1,c=0;c<i-1;++c)l*=(e+t+c)*r/(e+c+1),u+=l;return s*=u,s}var mte=vte;/**
+*/var wN=hte,Uu=Pi,Dp=Dr,dte=sf;function pte(e,t,r,n){var i,o,a,s,l;if(o=Dp(r,e),o>dte)for(s=o,l=Uu(e-1);l>t;l--)s*=(l+1)*n/((e-l)*r),o+=s;else if(a=Uu(e*r),a<=t+1&&(a=Uu(t+2)),o=Dp(r,a)*Dp(n,e-a),o*=wN(Uu(e),Uu(a)),o===0)for(l=a-1;l>t;l--)o+=Dp(r,l)*Dp(n,e-l),o*=wN(Uu(e),Uu(l));else{for(s=o,i=o,l=a-1;l>t;l--)s*=(l+1)*n/((e-l)*r),o+=s;for(s=i,l=a+1;l<=e;l++)s*=(e-l+1)*r/(l*n),o+=s}return o}var gte=pte;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_61_0/boost/math/special_functions/beta.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* (C) Copyright John Maddock 2006.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var vte=x4;function mte(e,t,r,n,i,o,a){var s,l,u,c;if(s=vte(e,t,r,n,o),a&&(a[1]=s),s/=e,s===0)return s;for(u=1,l=1,c=0;c<i-1;++c)l*=(e+t+c)*r/(e+c+1),u+=l;return s*=u,s}var yte=mte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7958,7 +7958,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var LT=N2,yte=A4,_te=Ei,bte=Rr,OT=gr,j1=Dr,Np=Xe,wte=sf,SN=uf,TN=Od,RT=E0,Ste=Md,kN={maxTerms:100};function Tte(e,t,r,n){var i=1-t,o=1;return a;function a(){var s=n/e;return e+=1,n*=i*r/o,o+=1,i+=1,s}}function kte(e,t,r,n,i,o,a){var s,l,u,c,f,h,d,p;return i?(d=e+t,l=e+RT-.5,u=t+RT-.5,c=d+RT-.5,s=LT(d)/(LT(e)*LT(t)),f=Np(c/u)*(t-.5),h=Np(r*c/l)*e,f>TN&&f<SN&&h>TN&&h<SN?(e*t<u*10?s*=OT((t-.5)*_te(e/u)):s*=j1(c/u,t-.5),s*=j1(r*c/l,e),s*=bte(l/Ste),o&&(o[1]=s*j1(a,t))):(s=Np(s)+f+h+(Np(l)-1)/2,o&&(o[1]=OT(s+t*Np(a))),s=OT(s))):s=j1(r,e),s<wte?n:(p=Tte(e,t,r,s),kN.initialValue=n,yte(p,kN))}var Pte=kte,Ete=be,Cte=Cd,G1=Pi,PN=Ei,EN=_4,Ri=fX,DT=Rr,Ate=gr,Fp=Dr,xte=lf,CN=lu,H1=Id,AN=sf,Mte=TGt,Ite=P4,xX=uu,cl=FQt,NT=BQt,Lte=x4,xN=ate,Ote=pte,$p=mte,aa=Pte,Rte=1/xX;function Dte(e,t,r,n,i,o,a,s){var l,u,c,f,h,d,p,g,m,v,y,b;if(b=1-e,p=s,g=s+a,o[g]=-1,Ete(e)||e<0||e>1)return o[p]=NaN,o[g]=NaN,o;if(n){if(t<0||r<0)return o[p]=NaN,o[g]=NaN,o;if(t===0){if(r===0)return o[p]=NaN,o[g]=NaN,o;if(r>0)return o[p]=i?0:1,o}else if(r===0&&t>0)return o[p]=i?1:0,o}else if(t<=0||r<=0)return o[p]=NaN,o[g]=NaN,o;return e===0?(t===1?o[g]=1:o[g]=t<1?H1/2:AN*2,i?(o[p]=n?1:Ri(t,r),o):(o[p]=0,o)):e===1?(r===1?o[g]=1:o[g]=r<1?H1/2:AN*2,i?o[p]=0:o[p]=n?1:Ri(t,r),o):t===.5&&r===.5?(o[g]=Rte*DT(b*e),y=EN(DT(i?b:e)),y/=Ite,n||(y*=xX),o[p]=y,o):(t===1&&(d=r,r=t,t=d,d=b,b=e,e=d,i=!i),r===1?t===1?(o[p]=i?b:e,o[g]=1,o):(o[g]=t*Fp(e,t-1),b<.5?y=i?-Cte(t*PN(-b)):Ate(t*PN(-b)):y=i?-(Fp(e,t)-1):Fp(e,t),n||(y/=t),o[p]=y,o):(CN(t,r)<=1?(e>.5&&(d=r,r=t,t=d,d=b,b=e,e=d,i=!i),xte(t,r)<=1?t>=CN(.2,r)||Fp(e,t)<=.9?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):(d=r,r=t,t=d,d=b,b=e,e=d,i=!i,b>=.3?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):(n?u=1:u=NT(t+r,t,20),c=$p(t,r,e,b,20,n,o),i?(c-=n?1:Ri(t,r),i=!1,c=-cl(t+20,r,e,b,c,u,n)):c=cl(t+20,r,e,b,c,u,n))):r<=1||e<.1&&Fp(r*e,t)<=.7?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):(d=r,r=t,t=d,d=b,b=e,e=d,i=!i,b>=.3?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):t>=15?i?(c=-(n?1:Ri(t,r)),i=!1,c=-cl(t,r,e,b,c,1,n)):c=cl(t,r,e,b,0,1,n):(n?u=1:u=NT(t+r,t,20),c=$p(t,r,e,b,20,n,o),i?(c-=n?1:Ri(t,r),i=!1,c=-cl(t+20,r,e,b,c,u,n)):c=cl(t+20,r,e,b,c,u,n)))):(t<r?l=t-(t+r)*e:l=(t+r)*b-r,l<0&&(d=r,r=t,t=d,d=b,b=e,e=d,i=!i),r<40?G1(t)===t&&G1(r)===r&&t<Mte-100?(m=t-1,v=r+m,c=Ote(v,m,e,b),n||(c*=Ri(t,r))):r*e<=.7?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):t>15?(v=G1(r),v===r&&(v-=1),f=r-v,n?u=1:u=NT(t+f,f,v),c=$p(f,t,b,e,v,n),c=cl(t,f,e,b,c,1,n),c/=u):n?(v=G1(r),f=r-v,f<=0&&(v-=1,f+=1),c=$p(f,t,b,e,v,n),c+=$p(t,f,e,b,20,n),i&&(c-=1),c=cl(t+20,f,e,b,c,1,n),i&&(c=-c,i=!1)):c=xN(t,r,e,b,n,o):c=xN(t,r,e,b,n,o)),o[g]<0&&(o[g]=Lte(t,r,e,b,!0)),h=b*e,o[g]!==0&&(H1*h<o[g]?o[g]=H1/2:o[g]/=h),o[p]=i?(n?1:Ri(t,r))-c:c,o))}var MX=Dte;/**
+*/var LT=N2,_te=A4,bte=Ei,wte=Rr,OT=gr,j1=Dr,Np=Xe,Ste=sf,SN=uf,TN=Od,RT=E0,Tte=Md,kN={maxTerms:100};function kte(e,t,r,n){var i=1-t,o=1;return a;function a(){var s=n/e;return e+=1,n*=i*r/o,o+=1,i+=1,s}}function Pte(e,t,r,n,i,o,a){var s,l,u,c,f,h,d,p;return i?(d=e+t,l=e+RT-.5,u=t+RT-.5,c=d+RT-.5,s=LT(d)/(LT(e)*LT(t)),f=Np(c/u)*(t-.5),h=Np(r*c/l)*e,f>TN&&f<SN&&h>TN&&h<SN?(e*t<u*10?s*=OT((t-.5)*bte(e/u)):s*=j1(c/u,t-.5),s*=j1(r*c/l,e),s*=wte(l/Tte),o&&(o[1]=s*j1(a,t))):(s=Np(s)+f+h+(Np(l)-1)/2,o&&(o[1]=OT(s+t*Np(a))),s=OT(s))):s=j1(r,e),s<Ste?n:(p=kte(e,t,r,s),kN.initialValue=n,_te(p,kN))}var Ete=Pte,Cte=be,Ate=Cd,G1=Pi,PN=Ei,EN=_4,Ri=fX,DT=Rr,xte=gr,Fp=Dr,Mte=lf,CN=lu,H1=Id,AN=sf,Ite=kGt,Lte=P4,xX=uu,cl=$Qt,NT=zQt,Ote=x4,xN=ste,Rte=gte,$p=yte,aa=Ete,Dte=1/xX;function Nte(e,t,r,n,i,o,a,s){var l,u,c,f,h,d,p,g,m,v,y,b;if(b=1-e,p=s,g=s+a,o[g]=-1,Cte(e)||e<0||e>1)return o[p]=NaN,o[g]=NaN,o;if(n){if(t<0||r<0)return o[p]=NaN,o[g]=NaN,o;if(t===0){if(r===0)return o[p]=NaN,o[g]=NaN,o;if(r>0)return o[p]=i?0:1,o}else if(r===0&&t>0)return o[p]=i?1:0,o}else if(t<=0||r<=0)return o[p]=NaN,o[g]=NaN,o;return e===0?(t===1?o[g]=1:o[g]=t<1?H1/2:AN*2,i?(o[p]=n?1:Ri(t,r),o):(o[p]=0,o)):e===1?(r===1?o[g]=1:o[g]=r<1?H1/2:AN*2,i?o[p]=0:o[p]=n?1:Ri(t,r),o):t===.5&&r===.5?(o[g]=Dte*DT(b*e),y=EN(DT(i?b:e)),y/=Lte,n||(y*=xX),o[p]=y,o):(t===1&&(d=r,r=t,t=d,d=b,b=e,e=d,i=!i),r===1?t===1?(o[p]=i?b:e,o[g]=1,o):(o[g]=t*Fp(e,t-1),b<.5?y=i?-Ate(t*PN(-b)):xte(t*PN(-b)):y=i?-(Fp(e,t)-1):Fp(e,t),n||(y/=t),o[p]=y,o):(CN(t,r)<=1?(e>.5&&(d=r,r=t,t=d,d=b,b=e,e=d,i=!i),Mte(t,r)<=1?t>=CN(.2,r)||Fp(e,t)<=.9?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):(d=r,r=t,t=d,d=b,b=e,e=d,i=!i,b>=.3?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):(n?u=1:u=NT(t+r,t,20),c=$p(t,r,e,b,20,n,o),i?(c-=n?1:Ri(t,r),i=!1,c=-cl(t+20,r,e,b,c,u,n)):c=cl(t+20,r,e,b,c,u,n))):r<=1||e<.1&&Fp(r*e,t)<=.7?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):(d=r,r=t,t=d,d=b,b=e,e=d,i=!i,b>=.3?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):t>=15?i?(c=-(n?1:Ri(t,r)),i=!1,c=-cl(t,r,e,b,c,1,n)):c=cl(t,r,e,b,0,1,n):(n?u=1:u=NT(t+r,t,20),c=$p(t,r,e,b,20,n,o),i?(c-=n?1:Ri(t,r),i=!1,c=-cl(t+20,r,e,b,c,u,n)):c=cl(t+20,r,e,b,c,u,n)))):(t<r?l=t-(t+r)*e:l=(t+r)*b-r,l<0&&(d=r,r=t,t=d,d=b,b=e,e=d,i=!i),r<40?G1(t)===t&&G1(r)===r&&t<Ite-100?(m=t-1,v=r+m,c=Rte(v,m,e,b),n||(c*=Ri(t,r))):r*e<=.7?i?(c=-(n?1:Ri(t,r)),i=!1,c=-aa(t,r,e,c,n,o,b)):c=aa(t,r,e,0,n,o,b):t>15?(v=G1(r),v===r&&(v-=1),f=r-v,n?u=1:u=NT(t+f,f,v),c=$p(f,t,b,e,v,n),c=cl(t,f,e,b,c,1,n),c/=u):n?(v=G1(r),f=r-v,f<=0&&(v-=1,f+=1),c=$p(f,t,b,e,v,n),c+=$p(t,f,e,b,20,n),i&&(c-=1),c=cl(t+20,f,e,b,c,1,n),i&&(c=-c,i=!1)):c=xN(t,r,e,b,n,o):c=xN(t,r,e,b,n,o)),o[g]<0&&(o[g]=Ote(t,r,e,b,!0)),h=b*e,o[g]!==0&&(H1*h<o[g]?o[g]=H1/2:o[g]/=h),o[p]=i?(n?1:Ri(t,r))-c:c,o))}var MX=Nte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7974,7 +7974,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Nte=MX;function Fte(e,t,r,n,i){return Nte(e,t,r,n,i,[0,0],1,0)}var $te=Fte;/**
+*/var Fte=MX;function $te(e,t,r,n,i){return Fte(e,t,r,n,i,[0,0],1,0)}var Bte=$te;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -7990,7 +7990,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Bte=tn,IX=$te,zte=MX;Bte(IX,"assign",zte);var LX=IX;/**
+*/var zte=tn,IX=Bte,Vte=MX;zte(IX,"assign",Vte);var LX=IX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8006,7 +8006,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Vte=LX.assign;function Ute(e,t,r,n,i){var o=[0,0];return n=n!==!1,i=i===!0,Vte(e,t,r,n,i,o,1,0),o[0]}var Wte=Ute;/**
+*/var Ute=LX.assign;function Wte(e,t,r,n,i){var o=[0,0];return n=n!==!1,i=i===!0,Ute(e,t,r,n,i,o,1,0),o[0]}var jte=Wte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8022,7 +8022,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var jte=Wte,M4=jte;/**
+*/var Gte=jte,M4=Gte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8038,7 +8038,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Gte(e){var t,r,n;return e===0?-.0005087819496582806:(e<0?t=-e:t=e,t<=1?(r=-.0005087819496582806+e*(-.008368748197417368+e*(.03348066254097446+e*(-.012692614766297404+e*(-.03656379714117627+e*(.02198786811111689+e*(.008226878746769157+e*(-.005387729650712429+e*(0+e*0)))))))),n=1+e*(-.9700050433032906+e*(-1.5657455823417585+e*(1.5622155839842302+e*(.662328840472003+e*(-.7122890234154284+e*(-.05273963823400997+e*(.07952836873415717+e*(-.0023339375937419+e*.0008862163904564247))))))))):(e=1/e,r=0+e*(0+e*(-.005387729650712429+e*(.008226878746769157+e*(.02198786811111689+e*(-.03656379714117627+e*(-.012692614766297404+e*(.03348066254097446+e*(-.008368748197417368+e*-.0005087819496582806)))))))),n=.0008862163904564247+e*(-.0023339375937419+e*(.07952836873415717+e*(-.05273963823400997+e*(-.7122890234154284+e*(.662328840472003+e*(1.5622155839842302+e*(-1.5657455823417585+e*(-.9700050433032906+e*1))))))))),r/n)}var Hte=Gte;/**
+*/function Hte(e){var t,r,n;return e===0?-.0005087819496582806:(e<0?t=-e:t=e,t<=1?(r=-.0005087819496582806+e*(-.008368748197417368+e*(.03348066254097446+e*(-.012692614766297404+e*(-.03656379714117627+e*(.02198786811111689+e*(.008226878746769157+e*(-.005387729650712429+e*(0+e*0)))))))),n=1+e*(-.9700050433032906+e*(-1.5657455823417585+e*(1.5622155839842302+e*(.662328840472003+e*(-.7122890234154284+e*(-.05273963823400997+e*(.07952836873415717+e*(-.0023339375937419+e*.0008862163904564247))))))))):(e=1/e,r=0+e*(0+e*(-.005387729650712429+e*(.008226878746769157+e*(.02198786811111689+e*(-.03656379714117627+e*(-.012692614766297404+e*(.03348066254097446+e*(-.008368748197417368+e*-.0005087819496582806)))))))),n=.0008862163904564247+e*(-.0023339375937419+e*(.07952836873415717+e*(-.05273963823400997+e*(-.7122890234154284+e*(.662328840472003+e*(1.5622155839842302+e*(-1.5657455823417585+e*(-.9700050433032906+e*1))))))))),r/n)}var Xte=Hte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8054,7 +8054,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Xte(e){var t,r,n;return e===0?-.20243350835593876:(e<0?t=-e:t=e,t<=1?(r=-.20243350835593876+e*(.10526468069939171+e*(8.3705032834312+e*(17.644729840837403+e*(-18.851064805871424+e*(-44.6382324441787+e*(17.445385985570866+e*(21.12946554483405+e*-3.6719225470772936))))))),n=1+e*(6.242641248542475+e*(3.971343795334387+e*(-28.66081804998+e*(-20.14326346804852+e*(48.560921310873994+e*(10.826866735546016+e*(-22.643693341313973+e*1.7211476576120028)))))))):(e=1/e,r=-3.6719225470772936+e*(21.12946554483405+e*(17.445385985570866+e*(-44.6382324441787+e*(-18.851064805871424+e*(17.644729840837403+e*(8.3705032834312+e*(.10526468069939171+e*-.20243350835593876))))))),n=1.7211476576120028+e*(-22.643693341313973+e*(10.826866735546016+e*(48.560921310873994+e*(-20.14326346804852+e*(-28.66081804998+e*(3.971343795334387+e*(6.242641248542475+e*1)))))))),r/n)}var Yte=Xte;/**
+*/function Yte(e){var t,r,n;return e===0?-.20243350835593876:(e<0?t=-e:t=e,t<=1?(r=-.20243350835593876+e*(.10526468069939171+e*(8.3705032834312+e*(17.644729840837403+e*(-18.851064805871424+e*(-44.6382324441787+e*(17.445385985570866+e*(21.12946554483405+e*-3.6719225470772936))))))),n=1+e*(6.242641248542475+e*(3.971343795334387+e*(-28.66081804998+e*(-20.14326346804852+e*(48.560921310873994+e*(10.826866735546016+e*(-22.643693341313973+e*1.7211476576120028)))))))):(e=1/e,r=-3.6719225470772936+e*(21.12946554483405+e*(17.445385985570866+e*(-44.6382324441787+e*(-18.851064805871424+e*(17.644729840837403+e*(8.3705032834312+e*(.10526468069939171+e*-.20243350835593876))))))),n=1.7211476576120028+e*(-22.643693341313973+e*(10.826866735546016+e*(48.560921310873994+e*(-20.14326346804852+e*(-28.66081804998+e*(3.971343795334387+e*(6.242641248542475+e*1)))))))),r/n)}var Kte=Yte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8070,7 +8070,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Kte(e){var t,r,n;return e===0?-.1311027816799519:(e<0?t=-e:t=e,t<=1?(r=-.1311027816799519+e*(-.16379404719331705+e*(.11703015634199525+e*(.38707973897260434+e*(.3377855389120359+e*(.14286953440815717+e*(.029015791000532906+e*(.0021455899538880526+e*(-6794655751811263e-22+e*(28522533178221704e-24+e*-681149956853777e-24))))))))),n=1+e*(3.4662540724256723+e*(5.381683457070069+e*(4.778465929458438+e*(2.5930192162362027+e*(.848854343457902+e*(.15226433829533179+e*(.011059242293464892+e*(0+e*(0+e*0)))))))))):(e=1/e,r=-681149956853777e-24+e*(28522533178221704e-24+e*(-6794655751811263e-22+e*(.0021455899538880526+e*(.029015791000532906+e*(.14286953440815717+e*(.3377855389120359+e*(.38707973897260434+e*(.11703015634199525+e*(-.16379404719331705+e*-.1311027816799519))))))))),n=0+e*(0+e*(0+e*(.011059242293464892+e*(.15226433829533179+e*(.848854343457902+e*(2.5930192162362027+e*(4.778465929458438+e*(5.381683457070069+e*(3.4662540724256723+e*1)))))))))),r/n)}var Zte=Kte;/**
+*/function Zte(e){var t,r,n;return e===0?-.1311027816799519:(e<0?t=-e:t=e,t<=1?(r=-.1311027816799519+e*(-.16379404719331705+e*(.11703015634199525+e*(.38707973897260434+e*(.3377855389120359+e*(.14286953440815717+e*(.029015791000532906+e*(.0021455899538880526+e*(-6794655751811263e-22+e*(28522533178221704e-24+e*-681149956853777e-24))))))))),n=1+e*(3.4662540724256723+e*(5.381683457070069+e*(4.778465929458438+e*(2.5930192162362027+e*(.848854343457902+e*(.15226433829533179+e*(.011059242293464892+e*(0+e*(0+e*0)))))))))):(e=1/e,r=-681149956853777e-24+e*(28522533178221704e-24+e*(-6794655751811263e-22+e*(.0021455899538880526+e*(.029015791000532906+e*(.14286953440815717+e*(.3377855389120359+e*(.38707973897260434+e*(.11703015634199525+e*(-.16379404719331705+e*-.1311027816799519))))))))),n=0+e*(0+e*(0+e*(.011059242293464892+e*(.15226433829533179+e*(.848854343457902+e*(2.5930192162362027+e*(4.778465929458438+e*(5.381683457070069+e*(3.4662540724256723+e*1)))))))))),r/n)}var qte=Zte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8086,7 +8086,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function qte(e){var t,r,n;return e===0?-.0350353787183178:(e<0?t=-e:t=e,t<=1?(r=-.0350353787183178+e*(-.0022242652921344794+e*(.018557330651423107+e*(.009508047013259196+e*(.0018712349281955923+e*(.00015754461742496055+e*(460469890584318e-20+e*(-2304047769118826e-25+e*26633922742578204e-28))))))),n=1+e*(1.3653349817554064+e*(.7620591645536234+e*(.22009110576413124+e*(.03415891436709477+e*(.00263861676657016+e*(7646752923027944e-20+e*(0+e*0)))))))):(e=1/e,r=26633922742578204e-28+e*(-2304047769118826e-25+e*(460469890584318e-20+e*(.00015754461742496055+e*(.0018712349281955923+e*(.009508047013259196+e*(.018557330651423107+e*(-.0022242652921344794+e*-.0350353787183178))))))),n=0+e*(0+e*(7646752923027944e-20+e*(.00263861676657016+e*(.03415891436709477+e*(.22009110576413124+e*(.7620591645536234+e*(1.3653349817554064+e*1)))))))),r/n)}var Jte=qte;/**
+*/function Jte(e){var t,r,n;return e===0?-.0350353787183178:(e<0?t=-e:t=e,t<=1?(r=-.0350353787183178+e*(-.0022242652921344794+e*(.018557330651423107+e*(.009508047013259196+e*(.0018712349281955923+e*(.00015754461742496055+e*(460469890584318e-20+e*(-2304047769118826e-25+e*26633922742578204e-28))))))),n=1+e*(1.3653349817554064+e*(.7620591645536234+e*(.22009110576413124+e*(.03415891436709477+e*(.00263861676657016+e*(7646752923027944e-20+e*(0+e*0)))))))):(e=1/e,r=26633922742578204e-28+e*(-2304047769118826e-25+e*(460469890584318e-20+e*(.00015754461742496055+e*(.0018712349281955923+e*(.009508047013259196+e*(.018557330651423107+e*(-.0022242652921344794+e*-.0350353787183178))))))),n=0+e*(0+e*(7646752923027944e-20+e*(.00263861676657016+e*(.03415891436709477+e*(.22009110576413124+e*(.7620591645536234+e*(1.3653349817554064+e*1)))))))),r/n)}var Qte=Jte;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8102,7 +8102,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Qte(e){var t,r,n;return e===0?-.016743100507663373:(e<0?t=-e:t=e,t<=1?(r=-.016743100507663373+e*(-.0011295143874558028+e*(.001056288621524929+e*(.00020938631748758808+e*(14962478375834237e-21+e*(44969678992770644e-23+e*(4625961635228786e-24+e*(-2811287356288318e-29+e*9905570997331033e-32))))))),n=1+e*(.5914293448864175+e*(.1381518657490833+e*(.016074608709367652+e*(.0009640118070051656+e*(27533547476472603e-21+e*(282243172016108e-21+e*(0+e*0)))))))):(e=1/e,r=9905570997331033e-32+e*(-2811287356288318e-29+e*(4625961635228786e-24+e*(44969678992770644e-23+e*(14962478375834237e-21+e*(.00020938631748758808+e*(.001056288621524929+e*(-.0011295143874558028+e*-.016743100507663373))))))),n=0+e*(0+e*(282243172016108e-21+e*(27533547476472603e-21+e*(.0009640118070051656+e*(.016074608709367652+e*(.1381518657490833+e*(.5914293448864175+e*1)))))))),r/n)}var tee=Qte;/**
+*/function tee(e){var t,r,n;return e===0?-.016743100507663373:(e<0?t=-e:t=e,t<=1?(r=-.016743100507663373+e*(-.0011295143874558028+e*(.001056288621524929+e*(.00020938631748758808+e*(14962478375834237e-21+e*(44969678992770644e-23+e*(4625961635228786e-24+e*(-2811287356288318e-29+e*9905570997331033e-32))))))),n=1+e*(.5914293448864175+e*(.1381518657490833+e*(.016074608709367652+e*(.0009640118070051656+e*(27533547476472603e-21+e*(282243172016108e-21+e*(0+e*0)))))))):(e=1/e,r=9905570997331033e-32+e*(-2811287356288318e-29+e*(4625961635228786e-24+e*(44969678992770644e-23+e*(14962478375834237e-21+e*(.00020938631748758808+e*(.001056288621524929+e*(-.0011295143874558028+e*-.016743100507663373))))))),n=0+e*(0+e*(282243172016108e-21+e*(27533547476472603e-21+e*(.0009640118070051656+e*(.016074608709367652+e*(.1381518657490833+e*(.5914293448864175+e*1)))))))),r/n)}var eee=tee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8131,7 +8131,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var eee=be,MN=Rr,IN=Xe,ree=sr,nee=pn,iee=Hte,oee=Yte,aee=Zte,see=Jte,lee=tee,uee=.08913147449493408,cee=2.249481201171875,fee=.807220458984375,hee=.9399557113647461,dee=.9836282730102539;function pee(e){var t,r,n,i,o;return eee(e)?NaN:e===0?ree:e===2?nee:e===1?0:e>2||e<0?NaN:(e>1?(t=-1,n=2-e):(t=1,n=e),e=1-n,e<=.5?(i=e*(e+10),o=iee(e),t*(i*uee+i*o)):n>=.25?(i=MN(-2*IN(n)),n-=.25,o=oee(n),t*(i/(cee+o))):(n=MN(-IN(n)),n<3?(r=n-1.125,o=aee(r),t*(fee*n+o*n)):n<6?(r=n-3,o=see(r),t*(hee*n+o*n)):(r=n-6,o=lee(r),t*(dee*n+o*n))))}var gee=pee;/**
+*/var ree=be,MN=Rr,IN=Xe,nee=sr,iee=pn,oee=Xte,aee=Kte,see=qte,lee=Qte,uee=eee,cee=.08913147449493408,fee=2.249481201171875,hee=.807220458984375,dee=.9399557113647461,pee=.9836282730102539;function gee(e){var t,r,n,i,o;return ree(e)?NaN:e===0?nee:e===2?iee:e===1?0:e>2||e<0?NaN:(e>1?(t=-1,n=2-e):(t=1,n=e),e=1-n,e<=.5?(i=e*(e+10),o=oee(e),t*(i*cee+i*o)):n>=.25?(i=MN(-2*IN(n)),n-=.25,o=aee(n),t*(i/(fee+o))):(n=MN(-IN(n)),n<3?(r=n-1.125,o=see(r),t*(hee*n+o*n)):n<6?(r=n-3,o=lee(r),t*(dee*n+o*n)):(r=n-6,o=uee(r),t*(pee*n+o*n))))}var vee=gee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8147,7 +8147,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var vee=gee,C0=vee;/**
+*/var mee=vee,C0=mee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8177,7 +8177,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Stephen L. Moshier
 * moshier@na-net.ornl.gov
 * ```
-*/var mee=be,LN=_4,yee=Rr,ON=ZH,_ee=6123233995736766e-32;function bee(e){var t;return mee(e)?NaN:e<-1||e>1?NaN:e>.5?2*LN(yee(.5-.5*e)):(t=ON-LN(e),t+=_ee,t+=ON,t)}var wee=bee;/**
+*/var yee=be,LN=_4,_ee=Rr,ON=ZH,bee=6123233995736766e-32;function wee(e){var t;return yee(e)?NaN:e<-1||e>1?NaN:e>.5?2*LN(_ee(.5-.5*e)):(t=ON-LN(e),t+=bee,t+=ON,t)}var See=wee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8193,7 +8193,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var See=wee,Tee=See;/**
+*/var Tee=See,kee=Tee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8209,7 +8209,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kee=1.4142135623730951,I4=kee;/**
+*/var Pee=1.4142135623730951,I4=Pee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8225,7 +8225,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Pee(e){return e===0?.16666666666666666:.16666666666666666+e*.16666666666666666}var Eee=Pee;/**
+*/function Eee(e){return e===0?.16666666666666666:.16666666666666666+e*.16666666666666666}var Cee=Eee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8241,7 +8241,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Cee(e){return e===0?.058333333333333334:.058333333333333334+e*(.06666666666666667+e*.008333333333333333)}var Aee=Cee;/**
+*/function Aee(e){return e===0?.058333333333333334:.058333333333333334+e*(.06666666666666667+e*.008333333333333333)}var xee=Aee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8257,7 +8257,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function xee(e){return e===0?.0251984126984127:.0251984126984127+e*(.026785714285714284+e*(.0017857142857142857+e*.0001984126984126984))}var Mee=xee;/**
+*/function Mee(e){return e===0?.0251984126984127:.0251984126984127+e*(.026785714285714284+e*(.0017857142857142857+e*.0001984126984126984))}var Iee=Mee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8273,7 +8273,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Iee(e){return e===0?.012039792768959435:.012039792768959435+e*(.010559964726631394+e*(-.0011078042328042327+e*(.0003747795414462081+e*27557319223985893e-22)))}var Lee=Iee;/**
+*/function Lee(e){return e===0?.012039792768959435:.012039792768959435+e*(.010559964726631394+e*(-.0011078042328042327+e*(.0003747795414462081+e*27557319223985893e-22)))}var Oee=Lee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8289,7 +8289,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Oee(e){return e===0?.003837005972422639:.003837005972422639+e*(.00610392115600449+e*(-.0016095979637646305+e*(.0005945867404200738+e*(-6270542728876062e-20+e*2505210838544172e-23))))}var Ree=Oee;/**
+*/function Ree(e){return e===0?.003837005972422639:.003837005972422639+e*(.00610392115600449+e*(-.0016095979637646305+e*(.0005945867404200738+e*(-6270542728876062e-20+e*2505210838544172e-23))))}var Dee=Ree;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8305,7 +8305,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Dee(e){return e===0?.0032177478835464946:.0032177478835464946+e*(.0010898206731540065+e*(-.0012579159844784845+e*(.0006908420797309686+e*(-.00016376804137220805+e*(154012654012654e-19+e*16059043836821613e-26)))))}var Nee=Dee;/**
+*/function Nee(e){return e===0?.0032177478835464946:.0032177478835464946+e*(.0010898206731540065+e*(-.0012579159844784845+e*(.0006908420797309686+e*(-.00016376804137220805+e*(154012654012654e-19+e*16059043836821613e-26)))))}var Fee=Nee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8321,7 +8321,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Fee(e){return e===0?.001743826229834001:.001743826229834001+e*(3353097688001788e-20+e*(-.0007624513544032393+e*(.0006451304695145635+e*(-.000249472580470431+e*(49255746366361444e-21+e*(-39851014346715405e-22+e*7647163731819816e-28))))))}var $ee=Fee;/**
+*/function $ee(e){return e===0?.001743826229834001:.001743826229834001+e*(3353097688001788e-20+e*(-.0007624513544032393+e*(.0006451304695145635+e*(-.000249472580470431+e*(49255746366361444e-21+e*(-39851014346715405e-22+e*7647163731819816e-28))))))}var Bee=$ee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8337,7 +8337,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Bee(e){return e===0?.0009647274732138864:.0009647274732138864+e*(-.0003110108632631878+e*(-.00036307660358786886+e*(.0005140660578834113+e*(-.00029133414466938067+e*(9086710793521991e-20+e*(-15303004486655377e-21+e*(10914179173496788e-22+e*28114572543455206e-31)))))))}var zee=Bee;/**
+*/function zee(e){return e===0?.0009647274732138864:.0009647274732138864+e*(-.0003110108632631878+e*(-.00036307660358786886+e*(.0005140660578834113+e*(-.00029133414466938067+e*(9086710793521991e-20+e*(-15303004486655377e-21+e*(10914179173496788e-22+e*28114572543455206e-31)))))))}var Vee=zee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8353,7 +8353,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Vee(e){return e===0?.0005422926281312969:.0005422926281312969+e*(-.0003694266780000966+e*(-.00010230378073700413+e*(.00035764655430568635+e*(-.00028690924218514614+e*(.00012645437628698076+e*(-33202652391372056e-21+e*(4890304529197534e-21+e*(-3123956959982987e-22+e*822063524662433e-32))))))))}var Uee=Vee;/**
+*/function Uee(e){return e===0?.0005422926281312969:.0005422926281312969+e*(-.0003694266780000966+e*(-.00010230378073700413+e*(.00035764655430568635+e*(-.00028690924218514614+e*(.00012645437628698076+e*(-33202652391372056e-21+e*(4890304529197534e-21+e*(-3123956959982987e-22+e*822063524662433e-32))))))))}var Wee=Uee;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8383,7 +8383,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var Wee=E4,jee=su,Gee=Rr,Hee=uu,Xee=Eee,Yee=Aee,Kee=Mee,Zee=Lee,qee=Ree,Jee=Nee,Qee=$ee,tre=zee,ere=Uee,rre=0,sa=[1,0,0,0,0,0,0,0,0,0];function nre(e,t){var r,n;return n=Wee(e/2,.5)*Gee(e*Hee)*(t-.5),r=1/e,sa[1]=Xee(r),sa[2]=Yee(r),sa[3]=Kee(r),sa[4]=Zee(r),sa[5]=qee(r),sa[6]=Jee(r),sa[7]=Qee(r),sa[8]=tre(r),sa[9]=ere(r),rre+n*jee(sa,n*n)}var ire=nre;/**
+*/var jee=E4,Gee=su,Hee=Rr,Xee=uu,Yee=Cee,Kee=xee,Zee=Iee,qee=Oee,Jee=Dee,Qee=Fee,tre=Bee,ere=Vee,rre=Wee,nre=0,sa=[1,0,0,0,0,0,0,0,0,0];function ire(e,t){var r,n;return n=jee(e/2,.5)*Hee(e*Xee)*(t-.5),r=1/e,sa[1]=Yee(r),sa[2]=Kee(r),sa[3]=Zee(r),sa[4]=qee(r),sa[5]=Jee(r),sa[6]=Qee(r),sa[7]=tre(r),sa[8]=ere(r),sa[9]=rre(r),nre+n*Gee(sa,n*n)}var ore=ire;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8413,7 +8413,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var ore=E4,are=su,RN=Rr,sre=Dr,lre=uu,fl=[0,0,0,0,0,0,0];function ure(e,t){var r,n,i,o,a,s,l,u;return u=ore(e/2,.5)*RN(e*lre)*t,o=e+2,a=e+4,s=e+6,fl[0]=1,fl[1]=-(e+1)/(2*o),o*=e+2,fl[2]=-e*(e+1)*(e+3)/(8*o*a),o*=e+2,fl[3]=-e*(e+1)*(e+5)*((3*e+7)*e-2)/(48*o*a*s),o*=e+2,a*=e+4,fl[4]=-e*(e+1)*(e+7)*(((((15*e+154)*e+465)*e+286)*e-336)*e+64)/(384*o*a*s*(e+8)),o*=e+2,fl[5]=-e*(e+1)*(e+3)*(e+9)*((((((35*e+452)*e+1573)*e+600)*e-2020)*e+928)*e-128)/(1280*o*a*s*(e+8)*(e+10)),o*=e+2,a*=e+4,s*=e+6,fl[6]=-e*(e+1)*(e+11)*(((((((((((945*e+31506)*e+425858)*e+2980236)*e+11266745)*e+20675018)*e+7747124)*e-22574632)*e-8565600)*e+18108416)*e-7099392)*e+884736)/(46080*o*a*s*(e+8)*(e+10)*(e+12)),l=RN(e),i=sre(l*u,1/e),n=i*i,r=are(fl,n),r*=l,r/=i,-r}var cre=ure;/**
+*/var are=E4,sre=su,RN=Rr,lre=Dr,ure=uu,fl=[0,0,0,0,0,0,0];function cre(e,t){var r,n,i,o,a,s,l,u;return u=are(e/2,.5)*RN(e*ure)*t,o=e+2,a=e+4,s=e+6,fl[0]=1,fl[1]=-(e+1)/(2*o),o*=e+2,fl[2]=-e*(e+1)*(e+3)/(8*o*a),o*=e+2,fl[3]=-e*(e+1)*(e+5)*((3*e+7)*e-2)/(48*o*a*s),o*=e+2,a*=e+4,fl[4]=-e*(e+1)*(e+7)*(((((15*e+154)*e+465)*e+286)*e-336)*e+64)/(384*o*a*s*(e+8)),o*=e+2,fl[5]=-e*(e+1)*(e+3)*(e+9)*((((((35*e+452)*e+1573)*e+600)*e-2020)*e+928)*e-128)/(1280*o*a*s*(e+8)*(e+10)),o*=e+2,a*=e+4,s*=e+6,fl[6]=-e*(e+1)*(e+11)*(((((((((((945*e+31506)*e+425858)*e+2980236)*e+11266745)*e+20675018)*e+7747124)*e-22574632)*e-8565600)*e+18108416)*e-7099392)*e+884736)/(46080*o*a*s*(e+8)*(e+10)*(e+12)),l=RN(e),i=lre(l*u,1/e),n=i*i,r=sre(fl,n),r*=l,r/=i,-r}var fre=cre;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8443,7 +8443,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var DN=C0,fre=Cd,NN=Rr,hre=Dr,dre=P4,FN=I4;function pre(e,t){var r,n,i,o,a,s,l;return e>1e20?-DN(2*t)*FN:(r=1/(e-.5),n=48/(r*r),i=((20700*r/n-98)*r-16)*r+96.36,o=((94.5/(n+i)-3)/n+1)*NN(r*dre)*e,l=hre(o*2*t,2/e),l>.05+r?(s=-DN(2*t)*FN,l=s*s,e<5&&(i+=.3*(e-4.5)*(s+.6)),i+=(((.05*o*s-5)*s-7)*s-2)*s+n,l=(((((.4*l+6.3)*l+36)*l+94.5)/i-l-3)/n+1)*s,l=fre(r*l*l)):l=((1/(((e+6)/(e*l)-.089*o-.822)*(e+2)*3)+.5/(e+4))*l-1)*(e+1)/(e+2)+1/l,a=NN(e*l),-a)}var gre=pre;/**
+*/var DN=C0,hre=Cd,NN=Rr,dre=Dr,pre=P4,FN=I4;function gre(e,t){var r,n,i,o,a,s,l;return e>1e20?-DN(2*t)*FN:(r=1/(e-.5),n=48/(r*r),i=((20700*r/n-98)*r-16)*r+96.36,o=((94.5/(n+i)-3)/n+1)*NN(r*pre)*e,l=dre(o*2*t,2/e),l>.05+r?(s=-DN(2*t)*FN,l=s*s,e<5&&(i+=.3*(e-4.5)*(s+.6)),i+=(((.05*o*s-5)*s-7)*s-2)*s+n,l=(((((.4*l+6.3)*l+36)*l+94.5)/i-l-3)/n+1)*s,l=hre(r*l*l)):l=((1/(((e+6)/(e*l)-.089*o-.822)*(e+2)*3)+.5/(e+4))*l-1)*(e+1)/(e+2)+1/l,a=NN(e*l),-a)}var vre=gre;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8473,7 +8473,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var $N=C0,BN=Pi,FT=xd,zN=R2,vre=Tee,X1=Rr,mre=$e,VN=C4,yre=Dr,_re=P0,UN=I4,WN=uu,jN=ire,Y1=cre,$T=gre,GN=268435456,bre=1/3,wre=2*53/3,Sre=.8549879733383485;function Tre(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,g,m,v,y;if(s=0,t>r?(u=r,r=t,t=u,a=!0):a=!1,BN(e)===e&&e<20)switch(i=FT(1,wre),BN(e)){case 1:t===.5?s=0:s=-VN(WN*t)/_re(WN*t);break;case 2:s=(2*t-1)/X1(2*t*r);break;case 4:l=4*t*r,o=X1(l),g=4*VN(vre(o)/3)/o,m=X1(g-4),s=t-.5<0?-m:m;break;case 6:if(t<1e-150)return(a?-1:1)*$T(e,t);v=4*(t-t*t),y=yre(v,bre),p=6*(1+Sre*(1/y-1));do f=p*p,h=f*f,d=p*h,c=p,p=2*(8*v*d-270*f+2187)/(5*(4*v*h-216*p-243));while(mre((p-c)/p)>i);p=X1(p-e),s=t-.5<0?-p:p;break;default:e>GN?s=$N(2*t)*UN:e<3?(n=.2742-e*.0242143,t>n?s=jN(e,t):s=Y1(e,t)):(n=FT(1,zN(e/-.654)),t>n?s=$T(e,t):s=Y1(e,t))}else e>GN?s=-$N(2*t)*UN:e<3?(n=.2742-e*.0242143,t>n?s=jN(e,t):s=Y1(e,t)):(n=FT(1,zN(e/-.654)),t>n?s=$T(e,t):s=Y1(e,t));return a?-s:s}var kre=Tre;/**
+*/var $N=C0,BN=Pi,FT=xd,zN=R2,mre=kee,X1=Rr,yre=$e,VN=C4,_re=Dr,bre=P0,UN=I4,WN=uu,jN=ore,Y1=fre,$T=vre,GN=268435456,wre=1/3,Sre=2*53/3,Tre=.8549879733383485;function kre(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,g,m,v,y;if(s=0,t>r?(u=r,r=t,t=u,a=!0):a=!1,BN(e)===e&&e<20)switch(i=FT(1,Sre),BN(e)){case 1:t===.5?s=0:s=-VN(WN*t)/bre(WN*t);break;case 2:s=(2*t-1)/X1(2*t*r);break;case 4:l=4*t*r,o=X1(l),g=4*VN(mre(o)/3)/o,m=X1(g-4),s=t-.5<0?-m:m;break;case 6:if(t<1e-150)return(a?-1:1)*$T(e,t);v=4*(t-t*t),y=_re(v,wre),p=6*(1+Tre*(1/y-1));do f=p*p,h=f*f,d=p*h,c=p,p=2*(8*v*d-270*f+2187)/(5*(4*v*h-216*p-243));while(yre((p-c)/p)>i);p=X1(p-e),s=t-.5<0?-p:p;break;default:e>GN?s=$N(2*t)*UN:e<3?(n=.2742-e*.0242143,t>n?s=jN(e,t):s=Y1(e,t)):(n=FT(1,zN(e/-.654)),t>n?s=$T(e,t):s=Y1(e,t))}else e>GN?s=-$N(2*t)*UN:e<3?(n=.2742-e*.0242143,t>n?s=jN(e,t):s=Y1(e,t)):(n=FT(1,zN(e/-.654)),t>n?s=$T(e,t):s=Y1(e,t));return a?-s:s}var Pre=kre;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8503,7 +8503,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var Pre=kre;function Ere(e,t,r){var n,i,o,a;return i=t/2,o=1-i,n=e*2,a=Pre(n,i,o),r&&(r.value=a*a/(n+a*a)),n/(n+a*a)}var Cre=Ere;/**
+*/var Ere=Pre;function Cre(e,t,r){var n,i,o,a;return i=t/2,o=1-i,n=e*2,a=Ere(n,i,o),r&&(r.value=a*a/(n+a*a)),n/(n+a*a)}var Are=Cre;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8533,7 +8533,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var K1=su,Are=C0,HN=Rr,xre=gr,ts=I4,fr=[0,0,0,0,0,0,0],Bp=[0,0,0,0];function Mre(e,t,r){var n,i,o,a,s,l,u;return n=Are(2*r),n/=-HN(e/2),Bp[0]=n,l=t-e,a=l*l,s=a*l,fr[0]=-l*ts/2,fr[1]=(1-2*l)/8,fr[2]=-(l*ts/48),fr[3]=-1/192,fr[4]=-l*ts/3840,fr[5]=0,fr[6]=0,Bp[1]=K1(fr,n),fr[0]=l*ts*(3*l-2)/12,fr[1]=(20*a-12*l+1)/128,fr[2]=l*ts*(20*l-1)/960,fr[3]=(16*a+30*l-15)/4608,fr[4]=l*ts*(21*l+32)/53760,fr[5]=(-(32*a)+63)/368640,fr[6]=-l*ts*(120*l+17)/25804480,Bp[2]=K1(fr,n),fr[0]=l*ts*(-75*a+80*l-16)/480,fr[1]=(-1080*s+868*a-90*l-45)/9216,fr[2]=l*ts*(-1190*a+84*l+373)/53760,fr[3]=(-2240*s-2508*a+2100*l-165)/368640,fr[4]=0,fr[5]=0,fr[6]=0,Bp[3]=K1(fr,n),o=K1(Bp,1/e),i=o*o,u=-xre(-i/2),i===0?.5:(1+o*HN((1+u)/i))/2}var Ire=Mre;/**
+*/var K1=su,xre=C0,HN=Rr,Mre=gr,ts=I4,fr=[0,0,0,0,0,0,0],Bp=[0,0,0,0];function Ire(e,t,r){var n,i,o,a,s,l,u;return n=xre(2*r),n/=-HN(e/2),Bp[0]=n,l=t-e,a=l*l,s=a*l,fr[0]=-l*ts/2,fr[1]=(1-2*l)/8,fr[2]=-(l*ts/48),fr[3]=-1/192,fr[4]=-l*ts/3840,fr[5]=0,fr[6]=0,Bp[1]=K1(fr,n),fr[0]=l*ts*(3*l-2)/12,fr[1]=(20*a-12*l+1)/128,fr[2]=l*ts*(20*l-1)/960,fr[3]=(16*a+30*l-15)/4608,fr[4]=l*ts*(21*l+32)/53760,fr[5]=(-(32*a)+63)/368640,fr[6]=-l*ts*(120*l+17)/25804480,Bp[2]=K1(fr,n),fr[0]=l*ts*(-75*a+80*l-16)/480,fr[1]=(-1080*s+868*a-90*l-45)/9216,fr[2]=l*ts*(-1190*a+84*l+373)/53760,fr[3]=(-2240*s-2508*a+2100*l-165)/368640,fr[4]=0,fr[5]=0,fr[6]=0,Bp[3]=K1(fr,n),o=K1(Bp,1/e),i=o*o,u=-Mre(-i/2),i===0?.5:(1+o*HN((1+u)/i))/2}var Lre=Ire;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8563,7 +8563,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var XN=Xe,Lre=Id,Z1=Lre/4;function Ore(e,t){return r;function r(n){var i,o,a;return a=1-n,a===0?[-Z1,-Z1]:n===0?[-Z1,-Z1]:(o=XN(n)+t*XN(a)+e,i=1/n-t/a,[o,i])}}var OX=Ore;/**
+*/var XN=Xe,Ore=Id,Z1=Ore/4;function Rre(e,t){return r;function r(n){var i,o,a;return a=1-n,a===0?[-Z1,-Z1]:n===0?[-Z1,-Z1]:(o=XN(n)+t*XN(a)+e,i=1/n-t/a,[o,i])}}var OX=Rre;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8579,7 +8579,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Rre=be;function Dre(e){return e===0||Rre(e)?e:e<0?-1:1}var Nre=Dre;/**
+*/var Dre=be;function Nre(e){return e===0||Dre(e)?e:e<0?-1:1}var Fre=Nre;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -8595,736 +8595,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Fre=Nre,RX=Fre;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_62_0/boost/math/tools/roots.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* Copyright John Maddock 2006.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var YN=RX,q1=$e,$re=xd,BT=Id;function Bre(e,t,r,n,i,o){var a,s,l,u,c,f,h,d,p,g;p=0,a=0,c=t,u=$re(1,1-i),h=BT,s=BT,l=BT,f=o;do{if(a=p,l=s,s=h,d=e(c),p=d[0],g=d[1],f-=1,p===0)break;if(g===0?(a===0&&(c===r?t=n:t=r,a=e(t),h=t-c),YN(a)*YN(p)<0?h<0?h=(c-r)/2:h=(c-n)/2:h<0?h=(c-n)/2:h=(c-r)/2):h=p/g,q1(h*2)>q1(l)&&(h=h>0?(c-r)/2:(c-n)/2),t=c,c-=h,c<=r){if(h=.5*(t-r),c=t-h,c===r||c===n)break}else if(c>=n&&(h=.5*(t-n),c=t-h,c===r||c===n))break;h>0?n=t:r=t}while(f&&q1(c*u)<q1(h));return c}var DX=Bre;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function zre(e){return e===0?-1:-1+e*(-5+e*5)}var Vre=zre;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Ure(e){return e===0?1:1+e*(21+e*(-69+e*46))}var Wre=Ure;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function jre(e){return e===0?7:7+e*(-2+e*(33+e*(-62+e*31)))}var Gre=jre;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Hre(e){return e===0?25:25+e*(-52+e*(-17+e*(88+e*(-115+e*46))))}var Xre=Hre;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Yre(e){return e===0?7:7+e*(12+e*(-78+e*52))}var Kre=Yre;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Zre(e){return e===0?-7:-7+e*(2+e*(183+e*(-370+e*185)))}var qre=Zre;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Jre(e){return e===0?-533:-533+e*(776+e*(-1835+e*(10240+e*(-13525+e*5410))))}var Qre=Jre;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function tne(e){return e===0?-1579:-1579+e*(3747+e*(-3372+e*(-15821+e*(45588+e*(-45213+e*15071)))))}var ene=tne;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function rne(e){return e===0?449:449+e*(-1259+e*(-769+e*(6686+e*(-9260+e*3704))))}var nne=rne;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function ine(e){return e===0?63149:63149+e*(-151557+e*(140052+e*(-727469+e*(2239932+e*(-2251437+e*750479)))))}var one=ine;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function ane(e){return e===0?29233:29233+e*(-78755+e*(105222+e*(146879+e*(-1602610+e*(3195183+e*(-2554139+e*729754))))))}var sne=ane;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function lne(e){return e===0?1:1+e*(-13+e*13)}var une=lne;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function cne(e){return e===0?1:1+e*(21+e*(-69+e*46))}var fne=cne;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/detail/ibeta_inverse.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* Copyright John Maddock 2006.
-* Copyright Paul A. Bristow 2007.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var Hf=su,hne=C0,dne=$e,pne=gr,KN=Xe,gne=Rr,vne=P0,mne=C4,yne=OX,_ne=DX,bne=Vre,wne=Wre,Sne=Gre,Tne=Xre,kne=Kre,Pne=qre,Ene=Qre,Cne=ene,Ane=nne,xne=one,Mne=sne,Ine=une,Lne=fne,Ae=[0,0,0,0,0,0],zp=[0,0,0,0];function One(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S;return s=hne(2*e)/-gne(t/2),w=vne(r),b=mne(r),zp[0]=s,v=w*w,y=b*b,g=w*b,p=g*g,d=p*g,h=p*p,f=p*d,c=d*d,u=h*d,Ae[0]=(2*v-1)/(3*g),Ae[1]=-bne(v)/(36*p),Ae[2]=wne(v)/(1620*d),Ae[3]=Sne(v)/(6480*h),Ae[4]=Tne(v)/(90720*f),Ae[5]=0,zp[1]=Hf(Ae,s),Ae[0]=-kne(v)/(405*d),Ae[1]=Pne(v)/(2592*h),Ae[2]=-Ene(v)/(204120*f),Ae[3]=-Cne(v)/(2099520*c),Ae[4]=0,Ae[5]=0,zp[2]=Hf(Ae,s),Ae[0]=Ane(v)/(102060*f),Ae[1]=-xne(v)/(20995200*c),Ae[2]=Mne(v)/(36741600*u),Ae[3]=0,Ae[4]=0,Ae[5]=0,zp[3]=Hf(Ae,s),l=Hf(zp,1/t),o=b/w,o*=o,m=-(l*l)/(2*v)+KN(v)+y*KN(y)/v,dne(l)<.7?(Ae[0]=v,Ae[1]=g,Ae[2]=(1-2*v)/3,Ae[3]=Ine(v)/(36*g),Ae[4]=Lne(v)/(270*p),Ae[5]=0,S=Hf(Ae,l)):(T=pne(m),Ae[0]=T,Ae[1]=o,Ae[2]=0,Ae[3]=3*o*(3*o+1)/6,Ae[4]=4*o*(4*o+1)*(4*o+2)/24,Ae[5]=5*o*(5*o+1)*(5*o+2)*(5*o+3)/120,S=Hf(Ae,T),(S-v)*l<0&&(S=1-S)),l<0?(i=0,n=v):(i=v,n=1),(S<i||S>n)&&(S=(i+n)/2),a=yne(-m,o),S=_ne(a,S,i,n,32,100),S}var Rne=One,lb={exports:{}},iC={exports:{}},Fv=1e3,$v=Fv*60,Bv=$v*60,zv=Bv*24,Dne=zv*365.25,Nne=function(e,t){t=t||{};var r=typeof e;if(r==="string"&&e.length>0)return Fne(e);if(r==="number"&&isNaN(e)===!1)return t.long?Bne(e):$ne(e);throw new Error("val is not a non-empty string or a valid number. val="+JSON.stringify(e))};function Fne(e){if(e=String(e),!(e.length>100)){var t=/^((?:\d+)?\.?\d+) *(milliseconds?|msecs?|ms|seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|years?|yrs?|y)?$/i.exec(e);if(!!t){var r=parseFloat(t[1]),n=(t[2]||"ms").toLowerCase();switch(n){case"years":case"year":case"yrs":case"yr":case"y":return r*Dne;case"days":case"day":case"d":return r*zv;case"hours":case"hour":case"hrs":case"hr":case"h":return r*Bv;case"minutes":case"minute":case"mins":case"min":case"m":return r*$v;case"seconds":case"second":case"secs":case"sec":case"s":return r*Fv;case"milliseconds":case"millisecond":case"msecs":case"msec":case"ms":return r;default:return}}}}function $ne(e){return e>=zv?Math.round(e/zv)+"d":e>=Bv?Math.round(e/Bv)+"h":e>=$v?Math.round(e/$v)+"m":e>=Fv?Math.round(e/Fv)+"s":e+"ms"}function Bne(e){return J1(e,zv,"day")||J1(e,Bv,"hour")||J1(e,$v,"minute")||J1(e,Fv,"second")||e+" ms"}function J1(e,t,r){if(!(e<t))return e<t*1.5?Math.floor(e/t)+" "+r:Math.ceil(e/t)+" "+r+"s"}(function(e,t){t=e.exports=i.debug=i.default=i,t.coerce=l,t.disable=a,t.enable=o,t.enabled=s,t.humanize=Nne,t.names=[],t.skips=[],t.formatters={};var r;function n(u){var c=0,f;for(f in u)c=(c<<5)-c+u.charCodeAt(f),c|=0;return t.colors[Math.abs(c)%t.colors.length]}function i(u){function c(){if(!!c.enabled){var f=c,h=+new Date,d=h-(r||h);f.diff=d,f.prev=r,f.curr=h,r=h;for(var p=new Array(arguments.length),g=0;g<p.length;g++)p[g]=arguments[g];p[0]=t.coerce(p[0]),typeof p[0]!="string"&&p.unshift("%O");var m=0;p[0]=p[0].replace(/%([a-zA-Z%])/g,function(y,b){if(y==="%%")return y;m++;var w=t.formatters[b];if(typeof w=="function"){var T=p[m];y=w.call(f,T),p.splice(m,1),m--}return y}),t.formatArgs.call(f,p);var v=c.log||t.log||console.log.bind(console);v.apply(f,p)}}return c.namespace=u,c.enabled=t.enabled(u),c.useColors=t.useColors(),c.color=n(u),typeof t.init=="function"&&t.init(c),c}function o(u){t.save(u),t.names=[],t.skips=[];for(var c=(typeof u=="string"?u:"").split(/[\s,]+/),f=c.length,h=0;h<f;h++)!c[h]||(u=c[h].replace(/\*/g,".*?"),u[0]==="-"?t.skips.push(new RegExp("^"+u.substr(1)+"$")):t.names.push(new RegExp("^"+u+"$")))}function a(){t.enable("")}function s(u){var c,f;for(c=0,f=t.skips.length;c<f;c++)if(t.skips[c].test(u))return!1;for(c=0,f=t.names.length;c<f;c++)if(t.names[c].test(u))return!0;return!1}function l(u){return u instanceof Error?u.stack||u.message:u}})(iC,iC.exports);(function(e,t){t=e.exports=iC.exports,t.log=i,t.formatArgs=n,t.save=o,t.load=a,t.useColors=r,t.storage=typeof chrome<"u"&&typeof chrome.storage<"u"?chrome.storage.local:s(),t.colors=["lightseagreen","forestgreen","goldenrod","dodgerblue","darkorchid","crimson"];function r(){return typeof window<"u"&&window.process&&window.process.type==="renderer"?!0:typeof document<"u"&&document.documentElement&&document.documentElement.style&&document.documentElement.style.WebkitAppearance||typeof window<"u"&&window.console&&(window.console.firebug||window.console.exception&&window.console.table)||typeof navigator<"u"&&navigator.userAgent&&navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/)&&parseInt(RegExp.$1,10)>=31||typeof navigator<"u"&&navigator.userAgent&&navigator.userAgent.toLowerCase().match(/applewebkit\/(\d+)/)}t.formatters.j=function(l){try{return JSON.stringify(l)}catch(u){return"[UnexpectedJSONParseError]: "+u.message}};function n(l){var u=this.useColors;if(l[0]=(u?"%c":"")+this.namespace+(u?" %c":" ")+l[0]+(u?"%c ":" ")+"+"+t.humanize(this.diff),!!u){var c="color: "+this.color;l.splice(1,0,c,"color: inherit");var f=0,h=0;l[0].replace(/%[a-zA-Z%]/g,function(d){d!=="%%"&&(f++,d==="%c"&&(h=f))}),l.splice(h,0,c)}}function i(){return typeof console=="object"&&console.log&&Function.prototype.apply.call(console.log,console,arguments)}function o(l){try{l==null?t.storage.removeItem("debug"):t.storage.debug=l}catch{}}function a(){var l;try{l=t.storage.debug}catch{}return!l&&typeof process<"u"&&"env"in process&&(l=process.env.DEBUG),l}t.enable(a());function s(){try{return window.localStorage}catch{}}})(lb,lb.exports);/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var zne=34028234663852886e22,$2=zne;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var Vne=lb.exports,ZN=CX,Une=$e,Wne=gr,qN=Xe,jne=$2,JN=Vne("gammaincinv:higher_newton");function Gne(e,t,r,n,i,o,a,s){var l,u,c,f,h,d,p,g,m,v,y,b,w,T;T=e,y=1,b=1,d=t*t,u=e;do{if(T=e,p=T*T,r===0){if(l=(1-t)*qN(T)+T+o,l>qN(jne))return JN("Warning: overflow problems in one or more steps of the computation. The initial approximation to the root is returned."),u;w=Wne(l)}else w=-a*T;s?(g=ZN(T,t,!0,!1),c=-w*(g-n)):(m=ZN(T,t,!0,!0),c=w*(m-i)),w=c,n>1e-120||b>1?(f=.5*(T-t+1)/T,h=(2*p-4*T*t+4*T+2*d-3*t+1)/p,h/=6,e=T+w*(1+w*(f+w*h))):e=T+w,y=Une(T/e-1),b+=1,T=e,T<0&&(T=u,b=100)}while(y>2e-14&&b<35);return(y>2e-14||b>99)&&JN("Warning: the number of iterations in the Newton method reached the upper limit N=35. The last value obtained for the root is given as output."),v=T||0,v}var Hne=Gne;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Xne(e){return e===0?0:0+e*(1+e*(1+e*(1.5+e*(2.6666666666666665+e*(5.208333333333333+e*10.8)))))}var Yne=Xne;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Kne(e){return e===0?1:1+e*(1+e*(.3333333333333333+e*(.027777777777777776+e*(-.003703703703703704+e*(.0002314814814814815+e*5878894767783657e-20)))))}var Zne=Kne;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var qne=$e,Jne=gr,QN=Xe,Qne=su,tie=Yne,eie=Zne,rie=1e-8,nie=.08333333333333333,iie=.008333333333333333,Xf=[1,0,0,0,0,0];function oie(e){var t,r,n,i,o,a,s,l,u;if(u=e*e*.5,e===0?o=0:e<-1?(l=Jne(-1-u),o=tie(l)):e<1?(l=e,o=eie(l)):(l=11+u,a=QN(l),o=l+a,l=1/l,t=a*a,r=t*a,n=r*a,i=n*a,Xf[1]=(2-a)*.5,Xf[2]=(-9*a+6+2*t)/6,Xf[3]=-(3*r+36*a-22*t-12)*nie,Xf[4]=(60+350*t-300*a-125*r+12*n)/60,Xf[5]=-(-120-274*n+900*a-1700*t+1125*r+20*i)*iie,o+=a*l*Qne(Xf,l)),l=1,e>-3.5&&e<-.03||e>.03&&e<40){l=1,s=o;do o=s*(u+QN(s))/(s-1),l=qne(s/o-1),s=o;while(l>rie)}return o}var NX=oie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var aie=.9189385332046728,FX=aie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var sie=[1.9963790515900766,-.0017971032528832887,13129285796384672e-21,-2340875228178749e-22,72291210671127e-22,-3280997607821e-22,19875070901e-21,-1509214183e-21,1375340084e-22,-145728923e-22,17532367e-22,-2351465e-22,346551e-22,-55471e-22,9548e-22,-1748e-22,332e-22,-58e-22];function lie(e,t){var r,n,i,o,a;n=0,i=0,r=t+t,a=e;do o=i,i=n,n=r*i-o+sie[a],a-=1;while(a>=0);return(n-o)/2}var uie=lie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function cie(e){return e===0?.025721014990011306:.025721014990011306+e*(.08247596616699963+e*(-.0025328157302663564+e*(.0006099292666946337+e*(-.00033543297638406+e*.000250505279903))))}var fie=cie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function hie(e){return e===0?.08333333333333333:.08333333333333333+e*(-.002777777777777778+e*(.0007936507936507937+e*-.0005952380952380953))}var die=hie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var zT=Ld,Q1=Xe,VT=FX,pie=F2,gie=$2,vie=uie,mie=fie,yie=die,_ie=.30865217988013566;function bie(e){var t;return e<pie?gie:e<1?zT(e+1)-(e+.5)*Q1(e)+e-VT:e<2?zT(e)-(e-.5)*Q1(e)+e-VT:e<3?zT(e-1)-(e-.5)*Q1(e)+e-VT+Q1(e-1):e<12?(t=18/(e*e)-1,vie(17,t)/(12*e)):(t=1/(e*e),e<1e3?mie(t)/(_ie+t)/e:yie(t)/e)}var wie=bie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var t7=gr,Sie=za,Tie=Xe,kie=$2,Pie=D2,Eie=wie;function Cie(e){return e>=3?t7(Eie(e)):e>0?Sie(e)/(t7(-e+(e-.5)*Tie(e))*Pie):kie}var Aie=Cie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function xie(e){var t,r,n;return e===0?-.3333333333438:(e<0?t=-e:t=e,t<=1?(r=-.3333333333438+e*(-.2070740359969+e*(-.05041806657154+e*(-.004923635739372+e*-4293658292782e-17))),n=1+e*(.7045554412463+e*(.2118190062224+e*(.03048648397436+e*.001605037988091)))):(e=1/e,r=-4293658292782e-17+e*(-.004923635739372+e*(-.05041806657154+e*(-.2070740359969+e*-.3333333333438))),n=.001605037988091+e*(.03048648397436+e*(.2118190062224+e*(.7045554412463+e*1)))),r/n)}var Mie=xie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var Iie=$e,Lie=Xe,Oie=NX,Rie=Mie;function Die(e){var t;return Iie(e)<1?Rie(e):(t=Oie(e),Lie(e/(t-1))/e)}var Nie=Die;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Fie(e){var t,r,n;return e===0?-.0172847633523:(e<0?t=-e:t=e,t<=1?(r=-.0172847633523+e*(-.0159372646475+e*(-.00464910887221+e*(-.00060683488776+e*-614830384279e-17))),n=1+e*(.764050615669+e*(.297143406325+e*(.0579490176079+e*.00574558524851)))):(e=1/e,r=-614830384279e-17+e*(-.00060683488776+e*(-.00464910887221+e*(-.0159372646475+e*-.0172847633523))),n=.00574558524851+e*(.0579490176079+e*(.297143406325+e*(.764050615669+e*1)))),r/n)}var $ie=Fie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Bie(e){var t,r,n;return e===0?-.0172839517431:(e<0?t=-e:t=e,t<=1?(r=-.0172839517431+e*(-.0146362417966+e*(-.00357406772616+e*(-.000391032032692+e*249634036069e-17))),n=1+e*(.690560400696+e*(.249962384741+e*(.0443843438769+e*.00424073217211)))):(e=1/e,r=249634036069e-17+e*(-.000391032032692+e*(-.00357406772616+e*(-.0146362417966+e*-.0172839517431))),n=.00424073217211+e*(.0443843438769+e*(.249962384741+e*(.690560400696+e*1)))),r/n)}var zie=Bie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Vie(e){var t,r,n;return e===0?.99994466948:(e<0?t=-e:t=e,t<=1?(r=.99994466948+e*(104.649839762+e*(857.204033806+e*(731.901559577+e*45.5174411671))),n=1+e*(104.526456943+e*(823.313447808+e*(3119.93802124+e*3970.03311219)))):(e=1/e,r=45.5174411671+e*(731.901559577+e*(857.204033806+e*(104.649839762+e*.99994466948))),n=3970.03311219+e*(3119.93802124+e*(823.313447808+e*(104.526456943+e*1)))),r/n)}var Uie=Vie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var Wie=Xe,jie=$ie,Gie=zie,Hie=Uie;function Xie(e){var t,r;return e<-5?(r=e*e,t=Wie(-e),(12-r-6*(t*t))/(12*r*e)):e<-2?jie(e):e<2?Gie(e):e<1e3?(r=1/e,Hie(e)/(-12*e)):-1/(12*e)}var Yie=Xie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Kie(e){var t,r,n;return e===0?.0495346498136:(e<0?t=-e:t=e,t<=1?(r=.0495346498136+e*(.0299521337141+e*(.00688296911516+e*(.000512634846317+e*-201411722031e-16))),n=1+e*(.759803615283+e*(.261547111595+e*(.0464854522477+e*.00403751193496)))):(e=1/e,r=-201411722031e-16+e*(.000512634846317+e*(.00688296911516+e*(.0299521337141+e*.0495346498136))),n=.00403751193496+e*(.0464854522477+e*(.261547111595+e*(.759803615283+e*1)))),r/n)}var Zie=Kie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function qie(e){var t,r,n;return e===0?.00452313583942:(e<0?t=-e:t=e,t<=1?(r=.00452313583942+e*(.00120744920113+e*(-789724156582e-16+e*(-504476066942e-16+e*-535770949796e-17))),n=1+e*(.912203410349+e*(.405368773071+e*(.0901638932349+e*.00948935714996)))):(e=1/e,r=-535770949796e-17+e*(-504476066942e-16+e*(-789724156582e-16+e*(.00120744920113+e*.00452313583942))),n=.00948935714996+e*(.0901638932349+e*(.405368773071+e*(.912203410349+e*1)))),r/n)}var Jie=qie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Qie(e){var t,r,n;return e===0?.00439937562904:(e<0?t=-e:t=e,t<=1?(r=.00439937562904+e*(.000487225670639+e*(-.000128470657374+e*(529110969589e-17+e*15716677175e-17))),n=1+e*(.794435257415+e*(.333094721709+e*(.0703527806143+e*.00806110846078)))):(e=1/e,r=15716677175e-17+e*(529110969589e-17+e*(-.000128470657374+e*(.000487225670639+e*.00439937562904))),n=.00806110846078+e*(.0703527806143+e*(.333094721709+e*(.794435257415+e*1)))),r/n)}var toe=Qie;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function eoe(e){var t,r,n;return e===0?-.0011481191232:(e<0?t=-e:t=e,t<=1?(r=-.0011481191232+e*(-.112850923276+e*(1.51623048511+e*(-.218472031183+e*.0730002451555))),n=1+e*(14.2482206905+e*(69.7360396285+e*(218.938950816+e*277.067027185)))):(e=1/e,r=.0730002451555+e*(-.218472031183+e*(1.51623048511+e*(-.112850923276+e*-.0011481191232))),n=277.067027185+e*(218.938950816+e*(69.7360396285+e*(14.2482206905+e*1)))),r/n)}var roe=eoe;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function noe(e){var t,r,n;return e===0?-.000145727889667:(e<0?t=-e:t=e,t<=1?(r=-.000145727889667+e*(-.290806748131+e*(-13.308504545+e*(199.722374056+e*-11.4311378756))),n=1+e*(139.612587808+e*(2189.01116348+e*(7115.24019009+e*45574.6081453)))):(e=1/e,r=-11.4311378756+e*(199.722374056+e*(-13.308504545+e*(-.290806748131+e*-.000145727889667))),n=45574.6081453+e*(7115.24019009+e*(2189.01116348+e*(139.612587808+e*1)))),r/n)}var ioe=noe;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var e7=Xe,ooe=Zie,aoe=Jie,soe=toe,loe=roe,uoe=ioe;function coe(e){var t,r;return e<-8?(t=e*e,r=e7(-e)/e,(-30+e*r*(6*t*r*r-12+t))/(12*e*t*t)):e<-4?ooe(e)/(e*e):e<-2?aoe(e):e<2?soe(e):e<10?(t=1/e,loe(t)/(e*e)):e<100?(t=1/e,uoe(t)/(e*e)):-e7(e)/(12*e*e*e)}var foe=coe;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var hoe=lb.exports,r7=su,vo=Ld,doe=C0,n7=za,ty=Rr,i7=$e,Yf=gr,poe=lu,goe=Dr,Di=Xe,voe=D2,moe=$2,yoe=SX,_oe=Hne,o7=NX,a7=Aie,boe=Nie,woe=Yie,Soe=foe,Toe=hoe("gammaincinv:compute"),hl=.5,UT=.3333333333333333,koe=.25,s7=.2,l7=.16666666666666666,Poe=.08333333333333333,Eoe=.041666666666666664,Ni=[0,0,0,0,0];function Coe(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E,P,C,A,L,R,D,$,z,Y,K,et,Tt,Ct,vt,wt,Kt,Z,it,tt,bt,kt,It;if(t<hl?(a=!0,s=t,bt=-1):(a=!1,s=r,bt=1),Z=0,i7(e-1)<1e-4&&(it=0,a?t<.001?(K=t*t,D=K*t,Y=D*t,S=Y*t,T=S*t,k=t+K*hl+D*UT+Y*koe+S*s7+T*l7):k=-Di(1-t):k=-Di(r),e===1?(Z=2,Tt=k):(o=vo(e),Z=1)),r<1e-30&&e<hl&&(it=0,k=-Di(r*n7(e))+(e-1)*Di(-Di(r*n7(e))),Z=1,o=vo(e)),e>1&&e<500&&t<1e-80){for(it=0,l=1/e,n=1/(e+1),k=(vo(e+1)+Di(t))*l,k=Yf(k),m=k,Kt=0;Kt<10;Kt++)k=m*Yf(k*l)*goe(1-k*n,l);Z=1,o=vo(e)}if(u=1/e*(Di(t)+vo(e+1)),u<Di(s7*(1+e))&&Z===0&&(tt=Yf(u),it=0,E=e*e,et=E*e,$=et*e,v=e+1,d=v*v,h=v*d,f=d*d,y=e+2,c=y*y,b=e+3,Ni[0]=1,Ni[1]=1/v,Ni[2]=hl*(3*e+5)/(d*y),Ni[3]=UT*(31+8*E+33*e)/(h*y*b),Ni[4]=Eoe*(2888+1179*et+125*$+3971*E+5661*e)/(f*c*b*(e+4)),k=tt*r7(Ni,tt),o=vo(e),Z=1),e<10&&Z===0&&(p=ty(e)/(a7(e)*voe),g=poe(.02,p),r<g&&(it=0,vt=1-e,L=vt*vt,R=L*vt,w=ty(-2/e*Di(r/p)),k=e*o7(w),wt=Di(k),k>5?(P=wt*wt,C=P*wt,A=C*wt,tt=1/k,Ni[0]=wt-1,Ni[1]=(3*vt-2*vt*wt+P-2*wt+2)*hl,Ni[2]=(24*vt*wt-11*L-24*vt-6*P+12*wt-12-9*vt*P+6*L*wt+2*C)*l7,Ni[3]=(-12*R*wt+8.04*vt*P-114*L*wt+(72+36*P)+(3*A-72*wt+162)*(vt-168*vt*wt)-(12*C+25*R)-(22*vt*C+36*L*P+120*L))*Poe,Ni[4]=0,k=k-wt+vt*tt*r7(Ni,tt)):(tt=1/k,P=wt*wt,Ct=wt-1,kt=wt-vt*tt*Ct,kt<k&&(k-=kt)),o=vo(e),Z=1)),i7(s-hl)<1e-5&&Z===0&&(it=0,l=1/e,k=e-UT+(.019753086419753086+.007211444248481286*l)*l,o=vo(e),Z=1),e<1&&Z===0&&(it=0,a?k=Yf(1/e*(Di(s)+vo(e+1))):k=Yf(1/e*(Di(1-s)+vo(e+1))),o=vo(e),Z=1),Z===0)if(it=1,l=1/e,tt=doe(2*s),w=bt*tt/ty(e*hl),tt<moe)w+=(boe(w)+(woe(w)+Soe(w)*l)*l)*l,k=e*o7(w),It=w,z=-ty(e/yoe)*Yf(-hl*e*It*It)/a7(e),i=1/z;else return Toe("Warning: Overflow problems in one or more steps of the computation."),NaN;return Z<2&&(Tt=_oe(k,e,it,t,r,o,i,a)),Tt}var Aoe=Coe;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var u7=be,xoe=F2,c7=sr,f7=Aoe;function Moe(e,t,r){return u7(e)||u7(t)?NaN:t<xoe?NaN:e>1||e<0?NaN:r===!0?e===0?c7:e===1?0:f7(t,1-e,e):e===0?0:e===1?c7:f7(t,e,1-e)}var Ioe=Moe;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var Loe=Ioe,Ooe=Loe;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var Roe=5e-324,Doe=Roe;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*
-* ## Notice
-*
-* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/detail/ibeta_inverse.hpp}. The implementation has been modified for JavaScript.
-*
-* ```text
-* Copyright John Maddock 2006.
-* Copyright Paul A. Bristow 2007.
-*
-* Use, modification and distribution are subject to the
-* Boost Software License, Version 1.0. (See accompanying file
-* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
-* ```
-*/var h7=Ooe,d7=Xe,Noe=Rr,Foe=Doe,$oe=OX,Boe=DX;function zoe(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E,P,C,A,L,R,D,$,z,Y;return r<n?l=h7(r,t,!0):l=h7(n,t,!1),l/=e,v=t/e,$=Noe(1+v),T=$*$,S=T*$,k=T*T,E=S*T,P=S*S,C=k*S,A=k*k,L=E*k,c=E*E,D=l-v,y=D*D,b=y*D,w=y*y,R=$+1,f=R*R,h=R*f,d=f*f,p=($+2)*($-1)/(3*$),p+=(S+9*T+21*$+5)*D/(36*T*R),p-=(k-13*S+69*T+167*$+46)*y/(1620*f*S),p-=(7*E+21*k+70*S+26*T-93*$-31)*b/(6480*h*k),p-=(75*P+202*E+188*k-888*S-1345*T+118*$+138)*w/(272160*d*E),g=(28*k+131*S+402*T+581*$+208)*($-1)/(1620*R*S),g-=(35*P-154*E-623*k-1636*S-3983*T-3514*$-925)*D/(12960*f*k),g-=(2132*C+7915*P+16821*E+35066*k+87490*S+141183*T+95993*$+21640)*y/(816480*E*h),g-=(11053*A+53308*C+117010*P+163924*E+116188*k-258428*S-677042*T-481940*$-105497)*b/(14696640*d*P),m=-((3592*C+8375*P-1323*E-29198*k-89578*S-154413*T-116063*$-29632)*($-1))/(816480*E*f),m-=(442043*L+2054169*A+3803094*C+3470754*P+2141568*E-2393568*k-19904934*S-34714674*T-23128299*$-5253353)*D/(146966400*P*h),m-=(116932*c+819281*L+2378172*A+4341330*C+6806004*P+10622748*E+18739500*k+30651894*S+30869976*T+15431867*$+2919016)*y/(146966400*d*C),u=l+p/e+g/(e*e)+m/(e*e*e),u<=0&&(u=Foe),z=u-v*d7(u)+(1+v)*d7(1+v)-v,i=1/(1+v),a=u<v?i:0,s=u<v?1:i,Y=(a+s)/2,o=$oe(z,v),Boe(o,Y,a,s,32,100)}var Voe=zoe;/**
+*/var $re=Fre,RX=$re;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9353,7 +8624,215 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var Nr=$e,Uoe=xd,WT=RX,Woe=lf,jT=Id;function joe(e,t,r,n,i,o){var a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T;b=0,s=!1,f=t,c=Uoe(1,1-i),p=Woe(1e7*t,1e7),h=0,l=p,u=p,d=o;do{if(h=b,u=l,l=p,y=e(f),b=y[0],w=y[1],T=y[2],d-=1,b===0)break;if(w===0?(h===0&&(f===r?t=n:t=r,h=e(t),p=t-f),WT(h)*WT(b)<0?p<0?p=(f-r)/2:p=(f-n)/2:p<0?p=(f-n)/2:p=(f-r)/2):T===0?p=b/w:(g=2*b,v=2*w-b*(T/w),Nr(v)<1&&Nr(g)>=Nr(v)*jT?p=b/w:p=g/v,p*w/b<0&&(p=b/w,Nr(p)>2*Nr(t)&&(p=(p<0?-1:1)*2*Nr(t)))),a=Nr(p/u),a>.8&&a<2&&(p=p>0?(f-r)/2:(f-n)/2,Nr(p)>f&&(p=WT(p)*f),u=p*3),t=f,f-=p,f<r){if(Nr(r)<1&&Nr(f)>1&&jT/Nr(f)<Nr(r)?m=1e3:m=f/r,Nr(m)<1&&(m=1/m),!s&&m>0&&m<3)p=.99*(t-r),f=t-p,s=!0;else if(p=(t-r)/2,f=t-p,f===r||f===n)break}else if(f>n){if(Nr(n)<1&&Nr(f)>1&&jT/Nr(f)<Nr(n)?m=1e3:m=f/n,Nr(m)<1&&(m=1/m),!s&&m>0&&m<3)p=.99*(t-n),f=t-p,s=!0;else if(p=(t-n)/2,f=t-p,f===r||f===n)break}p>0?n=t:r=t}while(d&&Nr(f*c)<Nr(p));return f}var Goe=joe;/**
+*/var YN=RX,q1=$e,Bre=xd,BT=Id;function zre(e,t,r,n,i,o){var a,s,l,u,c,f,h,d,p,g;p=0,a=0,c=t,u=Bre(1,1-i),h=BT,s=BT,l=BT,f=o;do{if(a=p,l=s,s=h,d=e(c),p=d[0],g=d[1],f-=1,p===0)break;if(g===0?(a===0&&(c===r?t=n:t=r,a=e(t),h=t-c),YN(a)*YN(p)<0?h<0?h=(c-r)/2:h=(c-n)/2:h<0?h=(c-n)/2:h=(c-r)/2):h=p/g,q1(h*2)>q1(l)&&(h=h>0?(c-r)/2:(c-n)/2),t=c,c-=h,c<=r){if(h=.5*(t-r),c=t-h,c===r||c===n)break}else if(c>=n&&(h=.5*(t-n),c=t-h,c===r||c===n))break;h>0?n=t:r=t}while(f&&q1(c*u)<q1(h));return c}var DX=zre;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Vre(e){return e===0?-1:-1+e*(-5+e*5)}var Ure=Vre;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Wre(e){return e===0?1:1+e*(21+e*(-69+e*46))}var jre=Wre;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Gre(e){return e===0?7:7+e*(-2+e*(33+e*(-62+e*31)))}var Hre=Gre;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Xre(e){return e===0?25:25+e*(-52+e*(-17+e*(88+e*(-115+e*46))))}var Yre=Xre;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Kre(e){return e===0?7:7+e*(12+e*(-78+e*52))}var Zre=Kre;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function qre(e){return e===0?-7:-7+e*(2+e*(183+e*(-370+e*185)))}var Jre=qre;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Qre(e){return e===0?-533:-533+e*(776+e*(-1835+e*(10240+e*(-13525+e*5410))))}var tne=Qre;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function ene(e){return e===0?-1579:-1579+e*(3747+e*(-3372+e*(-15821+e*(45588+e*(-45213+e*15071)))))}var rne=ene;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function nne(e){return e===0?449:449+e*(-1259+e*(-769+e*(6686+e*(-9260+e*3704))))}var ine=nne;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function one(e){return e===0?63149:63149+e*(-151557+e*(140052+e*(-727469+e*(2239932+e*(-2251437+e*750479)))))}var ane=one;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function sne(e){return e===0?29233:29233+e*(-78755+e*(105222+e*(146879+e*(-1602610+e*(3195183+e*(-2554139+e*729754))))))}var lne=sne;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function une(e){return e===0?1:1+e*(-13+e*13)}var cne=une;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function fne(e){return e===0?1:1+e*(21+e*(-69+e*46))}var hne=fne;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9383,7 +8862,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * Boost Software License, Version 1.0. (See accompanying file
 * LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
 * ```
-*/var Hoe=LX.assign,Xoe=$e,Yoe=Id,GT=sf;function Koe(e,t,r,n){return i;function i(o){var a,s,l,u,c;return c=1-o,a=[0,0],Hoe(o,e,t,!0,n,a,1,0),u=a[0]-r,s=a[1],n&&(s=-s),c===0&&(c=GT*64),o===0&&(o=GT*64),l=s*(-(c*e)+(t-2)*o+1),Xoe(l)<c*o*Yoe&&(l/=c*o),n&&(l=-l),s===0&&(s=(n?-1:1)*GT*64),[u,s,l]}}var Zoe=Koe,qoe=su,p7=M4,HT=Cd,g7=Ei,Joe=_4,Kf=fX,v7=Rr,Qoe=$e,m7=gr,la=Dr,y7=P0,tae=lf,eae=lu,_7=Xe,XT=sf,b7=P4,w7=Fs,rae=Cre,nae=Ire,iae=Rne,oae=Voe,aae=Goe,sae=Zoe,lae=32,uae=1e3,Wu=[0,0,0,0,0];function cae(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E,P,C,A,L,R,D,$,z;if(o=!1,n===0)return[1,0];if(r===0)return[0,1];if(e===1){if(t===1)return[r,1-r];g=t,t=e,e=g,g=n,n=r,r=g,o=!0}if($=0,s=0,u=1,e===.5){if(t===.5)return $=y7(r*b7),$*=$,z=y7(n*b7),z*=z,[$,z];t>.5&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o)}if(t===.5&&e>=.5&&r!==1)E={},$=rae(e,r,E),z=E.value;else{if(t===1)return r<n?e>1?($=la(r,1/e),z=-HT(_7(r)/e)):($=la(r,1/e),z=1-$):($=m7(g7(-n)/e),z=-HT(g7(-n)/e)),o&&(g=z,z=$,$=g),[$,z];if(e+t>5)r>.5&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o),h=eae(e,t),f=tae(e,t),v7(h)>f-h&&h>5?($=nae(e,t,r),z=1-$):(L=e+t,l=Joe(v7(e/L)),a=h/L,a>=.2&&a<=.8&&L>=10?(p=la(r,1/e),p<.0025&&e+t<200?$=p*la(e*Kf(e,t),1/e):$=iae(r,L,l),z=1-$):(e<t&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o),d=0,t<2&&(d=Kf(e,t)),d===0?z=1:(z=la(t*n*d,1/t),$=1-z)),z>1e-5&&($=oae(e,t,r,n),z=1-$));else if(e<1&&t<1){if(k=(1-e)/(2-e-t),b=p7(k,e,t)-r,Qoe(b)/r<w7*3)return o?[1-k,k]:[k,1-k];b<0&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o,k=1-k),S=la(e*r*Kf(e,t),1/e),$=S/(1+S),z=1/(1+S),$>k&&($=k),u=k}else e>1&&t>1?(k=(e-1)/(e+t-2),m=(t-1)/(e+t-2),T=p7(k,e,t)-r,T<0&&(g=t,t=e,e=g,g=n,n=r,r=g,g=m,m=k,k=g,o=!o),w=_7(r*e*Kf(e,t))/e,$=m7(w),z=$<.9?1-$:-HT(w),t<e&&$<.2&&(v=e-1,y=t-1,P=e*e,C=e*P,A=t*t,Wu[0]=0,Wu[1]=1,Wu[2]=y/v,v*=v,Wu[3]=y*(3*e*t+5*t+P-e-4)/(2*(e+2)*v),v*=e+1,Wu[4]=y*(33*e*A+31*A+8*P*A-30*e*t-47*t+11*P*t+6*C*t+18+4*e-C+P*P-10*P),Wu[4]/=3*(e+3)*(e+2)*v,$=qoe(Wu,$)),$>k&&($=k),u=k):(t<e&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o),la(r,1/e)<.5?($=la(r*e*Kf(e,t),1/e),$===0&&($=XT),z=1-$):(z=la(1-la(r,t*Kf(e,t)),1/t),z===0&&(z=XT),$=1-z))}return $>.5&&(g=t,t=e,e=g,g=n,n=r,r=g,g=z,z=$,$=g,o=!o,R=1-u,D=1-s,s=R,u=D),s===0&&(o?(s=w7,$<s&&($=s)):s=XT,$<s&&($=s)),i=lae,$<1e-50&&(e<1||t<1)&&(i*=3,i/=2),c=sae(e,t,r<n?r:n,r>=n),$=aae(c,$,s,u,i,uae),$===s&&($=0),o?[1-$,$]:[$,1-$]}var fae=cae;/**
+*/var Hf=su,dne=C0,pne=$e,gne=gr,KN=Xe,vne=Rr,mne=P0,yne=C4,_ne=OX,bne=DX,wne=Ure,Sne=jre,Tne=Hre,kne=Yre,Pne=Zre,Ene=Jre,Cne=tne,Ane=rne,xne=ine,Mne=ane,Ine=lne,Lne=cne,One=hne,Ae=[0,0,0,0,0,0],zp=[0,0,0,0];function Rne(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S;return s=dne(2*e)/-vne(t/2),w=mne(r),b=yne(r),zp[0]=s,v=w*w,y=b*b,g=w*b,p=g*g,d=p*g,h=p*p,f=p*d,c=d*d,u=h*d,Ae[0]=(2*v-1)/(3*g),Ae[1]=-wne(v)/(36*p),Ae[2]=Sne(v)/(1620*d),Ae[3]=Tne(v)/(6480*h),Ae[4]=kne(v)/(90720*f),Ae[5]=0,zp[1]=Hf(Ae,s),Ae[0]=-Pne(v)/(405*d),Ae[1]=Ene(v)/(2592*h),Ae[2]=-Cne(v)/(204120*f),Ae[3]=-Ane(v)/(2099520*c),Ae[4]=0,Ae[5]=0,zp[2]=Hf(Ae,s),Ae[0]=xne(v)/(102060*f),Ae[1]=-Mne(v)/(20995200*c),Ae[2]=Ine(v)/(36741600*u),Ae[3]=0,Ae[4]=0,Ae[5]=0,zp[3]=Hf(Ae,s),l=Hf(zp,1/t),o=b/w,o*=o,m=-(l*l)/(2*v)+KN(v)+y*KN(y)/v,pne(l)<.7?(Ae[0]=v,Ae[1]=g,Ae[2]=(1-2*v)/3,Ae[3]=Lne(v)/(36*g),Ae[4]=One(v)/(270*p),Ae[5]=0,S=Hf(Ae,l)):(T=gne(m),Ae[0]=T,Ae[1]=o,Ae[2]=0,Ae[3]=3*o*(3*o+1)/6,Ae[4]=4*o*(4*o+1)*(4*o+2)/24,Ae[5]=5*o*(5*o+1)*(5*o+2)*(5*o+3)/120,S=Hf(Ae,T),(S-v)*l<0&&(S=1-S)),l<0?(i=0,n=v):(i=v,n=1),(S<i||S>n)&&(S=(i+n)/2),a=_ne(-m,o),S=bne(a,S,i,n,32,100),S}var Dne=Rne,lb={exports:{}},iC={exports:{}},Fv=1e3,$v=Fv*60,Bv=$v*60,zv=Bv*24,Nne=zv*365.25,Fne=function(e,t){t=t||{};var r=typeof e;if(r==="string"&&e.length>0)return $ne(e);if(r==="number"&&isNaN(e)===!1)return t.long?zne(e):Bne(e);throw new Error("val is not a non-empty string or a valid number. val="+JSON.stringify(e))};function $ne(e){if(e=String(e),!(e.length>100)){var t=/^((?:\d+)?\.?\d+) *(milliseconds?|msecs?|ms|seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|years?|yrs?|y)?$/i.exec(e);if(!!t){var r=parseFloat(t[1]),n=(t[2]||"ms").toLowerCase();switch(n){case"years":case"year":case"yrs":case"yr":case"y":return r*Nne;case"days":case"day":case"d":return r*zv;case"hours":case"hour":case"hrs":case"hr":case"h":return r*Bv;case"minutes":case"minute":case"mins":case"min":case"m":return r*$v;case"seconds":case"second":case"secs":case"sec":case"s":return r*Fv;case"milliseconds":case"millisecond":case"msecs":case"msec":case"ms":return r;default:return}}}}function Bne(e){return e>=zv?Math.round(e/zv)+"d":e>=Bv?Math.round(e/Bv)+"h":e>=$v?Math.round(e/$v)+"m":e>=Fv?Math.round(e/Fv)+"s":e+"ms"}function zne(e){return J1(e,zv,"day")||J1(e,Bv,"hour")||J1(e,$v,"minute")||J1(e,Fv,"second")||e+" ms"}function J1(e,t,r){if(!(e<t))return e<t*1.5?Math.floor(e/t)+" "+r:Math.ceil(e/t)+" "+r+"s"}(function(e,t){t=e.exports=i.debug=i.default=i,t.coerce=l,t.disable=a,t.enable=o,t.enabled=s,t.humanize=Fne,t.names=[],t.skips=[],t.formatters={};var r;function n(u){var c=0,f;for(f in u)c=(c<<5)-c+u.charCodeAt(f),c|=0;return t.colors[Math.abs(c)%t.colors.length]}function i(u){function c(){if(!!c.enabled){var f=c,h=+new Date,d=h-(r||h);f.diff=d,f.prev=r,f.curr=h,r=h;for(var p=new Array(arguments.length),g=0;g<p.length;g++)p[g]=arguments[g];p[0]=t.coerce(p[0]),typeof p[0]!="string"&&p.unshift("%O");var m=0;p[0]=p[0].replace(/%([a-zA-Z%])/g,function(y,b){if(y==="%%")return y;m++;var w=t.formatters[b];if(typeof w=="function"){var T=p[m];y=w.call(f,T),p.splice(m,1),m--}return y}),t.formatArgs.call(f,p);var v=c.log||t.log||console.log.bind(console);v.apply(f,p)}}return c.namespace=u,c.enabled=t.enabled(u),c.useColors=t.useColors(),c.color=n(u),typeof t.init=="function"&&t.init(c),c}function o(u){t.save(u),t.names=[],t.skips=[];for(var c=(typeof u=="string"?u:"").split(/[\s,]+/),f=c.length,h=0;h<f;h++)!c[h]||(u=c[h].replace(/\*/g,".*?"),u[0]==="-"?t.skips.push(new RegExp("^"+u.substr(1)+"$")):t.names.push(new RegExp("^"+u+"$")))}function a(){t.enable("")}function s(u){var c,f;for(c=0,f=t.skips.length;c<f;c++)if(t.skips[c].test(u))return!1;for(c=0,f=t.names.length;c<f;c++)if(t.names[c].test(u))return!0;return!1}function l(u){return u instanceof Error?u.stack||u.message:u}})(iC,iC.exports);(function(e,t){t=e.exports=iC.exports,t.log=i,t.formatArgs=n,t.save=o,t.load=a,t.useColors=r,t.storage=typeof chrome<"u"&&typeof chrome.storage<"u"?chrome.storage.local:s(),t.colors=["lightseagreen","forestgreen","goldenrod","dodgerblue","darkorchid","crimson"];function r(){return typeof window<"u"&&window.process&&window.process.type==="renderer"?!0:typeof document<"u"&&document.documentElement&&document.documentElement.style&&document.documentElement.style.WebkitAppearance||typeof window<"u"&&window.console&&(window.console.firebug||window.console.exception&&window.console.table)||typeof navigator<"u"&&navigator.userAgent&&navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/)&&parseInt(RegExp.$1,10)>=31||typeof navigator<"u"&&navigator.userAgent&&navigator.userAgent.toLowerCase().match(/applewebkit\/(\d+)/)}t.formatters.j=function(l){try{return JSON.stringify(l)}catch(u){return"[UnexpectedJSONParseError]: "+u.message}};function n(l){var u=this.useColors;if(l[0]=(u?"%c":"")+this.namespace+(u?" %c":" ")+l[0]+(u?"%c ":" ")+"+"+t.humanize(this.diff),!!u){var c="color: "+this.color;l.splice(1,0,c,"color: inherit");var f=0,h=0;l[0].replace(/%[a-zA-Z%]/g,function(d){d!=="%%"&&(f++,d==="%c"&&(h=f))}),l.splice(h,0,c)}}function i(){return typeof console=="object"&&console.log&&Function.prototype.apply.call(console.log,console,arguments)}function o(l){try{l==null?t.storage.removeItem("debug"):t.storage.debug=l}catch{}}function a(){var l;try{l=t.storage.debug}catch{}return!l&&typeof process<"u"&&"env"in process&&(l=process.env.DEBUG),l}t.enable(a());function s(){try{return window.localStorage}catch{}}})(lb,lb.exports);/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9399,7 +8878,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hae=fae,dae=hae;/**
+*/var Vne=34028234663852886e22,$2=Vne;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9415,7 +8894,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YT=be,S7=dae;function pae(e,t,r,n){return YT(e)||YT(t)||YT(r)?NaN:t<=0||r<=0?NaN:e<0||e>1?NaN:n?S7(t,r,1-e,e)[0]:S7(t,r,e,1-e)[0]}var gae=pae;/**
+*/var Une=lb.exports,ZN=CX,Wne=$e,jne=gr,qN=Xe,Gne=$2,JN=Une("gammaincinv:higher_newton");function Hne(e,t,r,n,i,o,a,s){var l,u,c,f,h,d,p,g,m,v,y,b,w,T;T=e,y=1,b=1,d=t*t,u=e;do{if(T=e,p=T*T,r===0){if(l=(1-t)*qN(T)+T+o,l>qN(Gne))return JN("Warning: overflow problems in one or more steps of the computation. The initial approximation to the root is returned."),u;w=jne(l)}else w=-a*T;s?(g=ZN(T,t,!0,!1),c=-w*(g-n)):(m=ZN(T,t,!0,!0),c=w*(m-i)),w=c,n>1e-120||b>1?(f=.5*(T-t+1)/T,h=(2*p-4*T*t+4*T+2*d-3*t+1)/p,h/=6,e=T+w*(1+w*(f+w*h))):e=T+w,y=Wne(T/e-1),b+=1,T=e,T<0&&(T=u,b=100)}while(y>2e-14&&b<35);return(y>2e-14||b>99)&&JN("Warning: the number of iterations in the Newton method reached the upper limit N=35. The last value obtained for the root is given as output."),v=T||0,v}var Xne=Hne;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9431,7 +8910,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var vae=gae,$X=vae;/**
+*/function Yne(e){return e===0?0:0+e*(1+e*(1+e*(1.5+e*(2.6666666666666665+e*(5.208333333333333+e*10.8)))))}var Kne=Yne;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9447,7 +8926,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mae=$X,KT=be;function yae(e,t,r){return KT(e)||KT(t)||KT(r)||t<=0||r<=0||e<0||e>1?NaN:mae(e,t,r)}var _ae=yae;/**
+*/function Zne(e){return e===0?1:1+e*(1+e*(.3333333333333333+e*(.027777777777777776+e*(-.003703703703703704+e*(.0002314814814814815+e*5878894767783657e-20)))))}var qne=Zne;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9463,7 +8942,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function bae(e){return t;function t(){return e}}var wae=bae;/**
+*/var Jne=$e,Qne=gr,QN=Xe,tie=su,eie=Kne,rie=qne,nie=1e-8,iie=.08333333333333333,oie=.008333333333333333,Xf=[1,0,0,0,0,0];function aie(e){var t,r,n,i,o,a,s,l,u;if(u=e*e*.5,e===0?o=0:e<-1?(l=Qne(-1-u),o=eie(l)):e<1?(l=e,o=rie(l)):(l=11+u,a=QN(l),o=l+a,l=1/l,t=a*a,r=t*a,n=r*a,i=n*a,Xf[1]=(2-a)*.5,Xf[2]=(-9*a+6+2*t)/6,Xf[3]=-(3*r+36*a-22*t-12)*iie,Xf[4]=(60+350*t-300*a-125*r+12*n)/60,Xf[5]=-(-120-274*n+900*a-1700*t+1125*r+20*i)*oie,o+=a*l*tie(Xf,l)),l=1,e>-3.5&&e<-.03||e>.03&&e<40){l=1,s=o;do o=s*(u+QN(s))/(s-1),l=Jne(s/o-1),s=o;while(l>nie)}return o}var NX=aie;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9479,7 +8958,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Sae=wae,B2=Sae;/**
+*/var sie=.9189385332046728,FX=sie;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9495,7 +8974,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Tae=B2,kae=$X,ZT=be;function Pae(e,t){if(ZT(e)||ZT(t)||e<=0||t<=0)return Tae(NaN);return r;function r(n){return ZT(n)||n<0||n>1?NaN:kae(n,e,t)}}var Eae=Pae;/**
+*/var lie=[1.9963790515900766,-.0017971032528832887,13129285796384672e-21,-2340875228178749e-22,72291210671127e-22,-3280997607821e-22,19875070901e-21,-1509214183e-21,1375340084e-22,-145728923e-22,17532367e-22,-2351465e-22,346551e-22,-55471e-22,9548e-22,-1748e-22,332e-22,-58e-22];function uie(e,t){var r,n,i,o,a;n=0,i=0,r=t+t,a=e;do o=i,i=n,n=r*i-o+lie[a],a-=1;while(a>=0);return(n-o)/2}var cie=uie;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9511,7 +8990,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Cae=tn,BX=_ae,Aae=Eae;Cae(BX,"factory",Aae);var xae=BX;/**
+*/function fie(e){return e===0?.025721014990011306:.025721014990011306+e*(.08247596616699963+e*(-.0025328157302663564+e*(.0006099292666946337+e*(-.00033543297638406+e*.000250505279903))))}var hie=fie;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9527,7 +9006,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Mae=Pi;function Iae(e){return Mae(e)===e&&e>=0}var Lae=Iae;/**
+*/function die(e){return e===0?.08333333333333333:.08333333333333333+e*(-.002777777777777778+e*(.0007936507936507937+e*-.0005952380952380953))}var pie=die;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9543,7 +9022,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Oae=Lae,z2=Oae;/**
+*/var zT=Ld,Q1=Xe,VT=FX,gie=F2,vie=$2,mie=cie,yie=hie,_ie=pie,bie=.30865217988013566;function wie(e){var t;return e<gie?vie:e<1?zT(e+1)-(e+.5)*Q1(e)+e-VT:e<2?zT(e)-(e-.5)*Q1(e)+e-VT:e<3?zT(e-1)-(e-.5)*Q1(e)+e-VT+Q1(e-1):e<12?(t=18/(e*e)-1,mie(17,t)/(12*e)):(t=1/(e*e),e<1e3?yie(t)/(bie+t)/e:_ie(t)/e)}var Sie=wie;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9559,7 +9038,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Rae=z2,Dae=M4,qT=be,Nae=Pi,Fae=sr;function $ae(e,t,r){return qT(e)||qT(t)||qT(r)||r<0||r>1||!Rae(t)||t===Fae?NaN:e<0?0:e>=t?1:(e=Nae(e+1e-7),Dae(r,e+1,t-e,!0,!0))}var Bae=$ae;/**
+*/var t7=gr,Tie=za,kie=Xe,Pie=$2,Eie=D2,Cie=Sie;function Aie(e){return e>=3?t7(Cie(e)):e>0?Tie(e)/(t7(-e+(e-.5)*kie(e))*Eie):Pie}var xie=Aie;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9575,7 +9054,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var zae=z2,Vae=B2,Uae=M4,JT=be,Wae=Pi,jae=sr;function Gae(e,t){if(JT(e)||JT(t)||t<0||t>1||!zae(e)||e===jae)return Vae(NaN);return r;function r(n){return JT(n)?NaN:n<0?0:n>=e?1:(n=Wae(n+1e-7),Uae(t,n+1,e-n,!0,!0))}}var Hae=Gae;/**
+*/function Mie(e){var t,r,n;return e===0?-.3333333333438:(e<0?t=-e:t=e,t<=1?(r=-.3333333333438+e*(-.2070740359969+e*(-.05041806657154+e*(-.004923635739372+e*-4293658292782e-17))),n=1+e*(.7045554412463+e*(.2118190062224+e*(.03048648397436+e*.001605037988091)))):(e=1/e,r=-4293658292782e-17+e*(-.004923635739372+e*(-.05041806657154+e*(-.2070740359969+e*-.3333333333438))),n=.001605037988091+e*(.03048648397436+e*(.2118190062224+e*(.7045554412463+e*1)))),r/n)}var Iie=Mie;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9591,7 +9070,528 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Xae=tn,zX=Bae,Yae=Hae;Xae(zX,"factory",Yae);var Kae=zX;/**
+*/var Lie=$e,Oie=Xe,Rie=NX,Die=Iie;function Nie(e){var t;return Lie(e)<1?Die(e):(t=Rie(e),Oie(e/(t-1))/e)}var Fie=Nie;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function $ie(e){var t,r,n;return e===0?-.0172847633523:(e<0?t=-e:t=e,t<=1?(r=-.0172847633523+e*(-.0159372646475+e*(-.00464910887221+e*(-.00060683488776+e*-614830384279e-17))),n=1+e*(.764050615669+e*(.297143406325+e*(.0579490176079+e*.00574558524851)))):(e=1/e,r=-614830384279e-17+e*(-.00060683488776+e*(-.00464910887221+e*(-.0159372646475+e*-.0172847633523))),n=.00574558524851+e*(.0579490176079+e*(.297143406325+e*(.764050615669+e*1)))),r/n)}var Bie=$ie;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function zie(e){var t,r,n;return e===0?-.0172839517431:(e<0?t=-e:t=e,t<=1?(r=-.0172839517431+e*(-.0146362417966+e*(-.00357406772616+e*(-.000391032032692+e*249634036069e-17))),n=1+e*(.690560400696+e*(.249962384741+e*(.0443843438769+e*.00424073217211)))):(e=1/e,r=249634036069e-17+e*(-.000391032032692+e*(-.00357406772616+e*(-.0146362417966+e*-.0172839517431))),n=.00424073217211+e*(.0443843438769+e*(.249962384741+e*(.690560400696+e*1)))),r/n)}var Vie=zie;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Uie(e){var t,r,n;return e===0?.99994466948:(e<0?t=-e:t=e,t<=1?(r=.99994466948+e*(104.649839762+e*(857.204033806+e*(731.901559577+e*45.5174411671))),n=1+e*(104.526456943+e*(823.313447808+e*(3119.93802124+e*3970.03311219)))):(e=1/e,r=45.5174411671+e*(731.901559577+e*(857.204033806+e*(104.649839762+e*.99994466948))),n=3970.03311219+e*(3119.93802124+e*(823.313447808+e*(104.526456943+e*1)))),r/n)}var Wie=Uie;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var jie=Xe,Gie=Bie,Hie=Vie,Xie=Wie;function Yie(e){var t,r;return e<-5?(r=e*e,t=jie(-e),(12-r-6*(t*t))/(12*r*e)):e<-2?Gie(e):e<2?Hie(e):e<1e3?(r=1/e,Xie(e)/(-12*e)):-1/(12*e)}var Kie=Yie;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Zie(e){var t,r,n;return e===0?.0495346498136:(e<0?t=-e:t=e,t<=1?(r=.0495346498136+e*(.0299521337141+e*(.00688296911516+e*(.000512634846317+e*-201411722031e-16))),n=1+e*(.759803615283+e*(.261547111595+e*(.0464854522477+e*.00403751193496)))):(e=1/e,r=-201411722031e-16+e*(.000512634846317+e*(.00688296911516+e*(.0299521337141+e*.0495346498136))),n=.00403751193496+e*(.0464854522477+e*(.261547111595+e*(.759803615283+e*1)))),r/n)}var qie=Zie;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function Jie(e){var t,r,n;return e===0?.00452313583942:(e<0?t=-e:t=e,t<=1?(r=.00452313583942+e*(.00120744920113+e*(-789724156582e-16+e*(-504476066942e-16+e*-535770949796e-17))),n=1+e*(.912203410349+e*(.405368773071+e*(.0901638932349+e*.00948935714996)))):(e=1/e,r=-535770949796e-17+e*(-504476066942e-16+e*(-789724156582e-16+e*(.00120744920113+e*.00452313583942))),n=.00948935714996+e*(.0901638932349+e*(.405368773071+e*(.912203410349+e*1)))),r/n)}var Qie=Jie;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function toe(e){var t,r,n;return e===0?.00439937562904:(e<0?t=-e:t=e,t<=1?(r=.00439937562904+e*(.000487225670639+e*(-.000128470657374+e*(529110969589e-17+e*15716677175e-17))),n=1+e*(.794435257415+e*(.333094721709+e*(.0703527806143+e*.00806110846078)))):(e=1/e,r=15716677175e-17+e*(529110969589e-17+e*(-.000128470657374+e*(.000487225670639+e*.00439937562904))),n=.00806110846078+e*(.0703527806143+e*(.333094721709+e*(.794435257415+e*1)))),r/n)}var eoe=toe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function roe(e){var t,r,n;return e===0?-.0011481191232:(e<0?t=-e:t=e,t<=1?(r=-.0011481191232+e*(-.112850923276+e*(1.51623048511+e*(-.218472031183+e*.0730002451555))),n=1+e*(14.2482206905+e*(69.7360396285+e*(218.938950816+e*277.067027185)))):(e=1/e,r=.0730002451555+e*(-.218472031183+e*(1.51623048511+e*(-.112850923276+e*-.0011481191232))),n=277.067027185+e*(218.938950816+e*(69.7360396285+e*(14.2482206905+e*1)))),r/n)}var noe=roe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function ioe(e){var t,r,n;return e===0?-.000145727889667:(e<0?t=-e:t=e,t<=1?(r=-.000145727889667+e*(-.290806748131+e*(-13.308504545+e*(199.722374056+e*-11.4311378756))),n=1+e*(139.612587808+e*(2189.01116348+e*(7115.24019009+e*45574.6081453)))):(e=1/e,r=-11.4311378756+e*(199.722374056+e*(-13.308504545+e*(-.290806748131+e*-.000145727889667))),n=45574.6081453+e*(7115.24019009+e*(2189.01116348+e*(139.612587808+e*1)))),r/n)}var ooe=ioe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var e7=Xe,aoe=qie,soe=Qie,loe=eoe,uoe=noe,coe=ooe;function foe(e){var t,r;return e<-8?(t=e*e,r=e7(-e)/e,(-30+e*r*(6*t*r*r-12+t))/(12*e*t*t)):e<-4?aoe(e)/(e*e):e<-2?soe(e):e<2?loe(e):e<10?(t=1/e,uoe(t)/(e*e)):e<100?(t=1/e,coe(t)/(e*e)):-e7(e)/(12*e*e*e)}var hoe=foe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var doe=lb.exports,r7=su,vo=Ld,poe=C0,n7=za,ty=Rr,i7=$e,Yf=gr,goe=lu,voe=Dr,Di=Xe,moe=D2,yoe=$2,_oe=SX,boe=Xne,o7=NX,a7=xie,woe=Fie,Soe=Kie,Toe=hoe,koe=doe("gammaincinv:compute"),hl=.5,UT=.3333333333333333,Poe=.25,s7=.2,l7=.16666666666666666,Eoe=.08333333333333333,Coe=.041666666666666664,Ni=[0,0,0,0,0];function Aoe(e,t,r){var n,i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E,P,C,A,L,R,D,$,z,Y,K,et,Tt,Ct,vt,wt,Kt,Z,it,tt,bt,kt,It;if(t<hl?(a=!0,s=t,bt=-1):(a=!1,s=r,bt=1),Z=0,i7(e-1)<1e-4&&(it=0,a?t<.001?(K=t*t,D=K*t,Y=D*t,S=Y*t,T=S*t,k=t+K*hl+D*UT+Y*Poe+S*s7+T*l7):k=-Di(1-t):k=-Di(r),e===1?(Z=2,Tt=k):(o=vo(e),Z=1)),r<1e-30&&e<hl&&(it=0,k=-Di(r*n7(e))+(e-1)*Di(-Di(r*n7(e))),Z=1,o=vo(e)),e>1&&e<500&&t<1e-80){for(it=0,l=1/e,n=1/(e+1),k=(vo(e+1)+Di(t))*l,k=Yf(k),m=k,Kt=0;Kt<10;Kt++)k=m*Yf(k*l)*voe(1-k*n,l);Z=1,o=vo(e)}if(u=1/e*(Di(t)+vo(e+1)),u<Di(s7*(1+e))&&Z===0&&(tt=Yf(u),it=0,E=e*e,et=E*e,$=et*e,v=e+1,d=v*v,h=v*d,f=d*d,y=e+2,c=y*y,b=e+3,Ni[0]=1,Ni[1]=1/v,Ni[2]=hl*(3*e+5)/(d*y),Ni[3]=UT*(31+8*E+33*e)/(h*y*b),Ni[4]=Coe*(2888+1179*et+125*$+3971*E+5661*e)/(f*c*b*(e+4)),k=tt*r7(Ni,tt),o=vo(e),Z=1),e<10&&Z===0&&(p=ty(e)/(a7(e)*moe),g=goe(.02,p),r<g&&(it=0,vt=1-e,L=vt*vt,R=L*vt,w=ty(-2/e*Di(r/p)),k=e*o7(w),wt=Di(k),k>5?(P=wt*wt,C=P*wt,A=C*wt,tt=1/k,Ni[0]=wt-1,Ni[1]=(3*vt-2*vt*wt+P-2*wt+2)*hl,Ni[2]=(24*vt*wt-11*L-24*vt-6*P+12*wt-12-9*vt*P+6*L*wt+2*C)*l7,Ni[3]=(-12*R*wt+8.04*vt*P-114*L*wt+(72+36*P)+(3*A-72*wt+162)*(vt-168*vt*wt)-(12*C+25*R)-(22*vt*C+36*L*P+120*L))*Eoe,Ni[4]=0,k=k-wt+vt*tt*r7(Ni,tt)):(tt=1/k,P=wt*wt,Ct=wt-1,kt=wt-vt*tt*Ct,kt<k&&(k-=kt)),o=vo(e),Z=1)),i7(s-hl)<1e-5&&Z===0&&(it=0,l=1/e,k=e-UT+(.019753086419753086+.007211444248481286*l)*l,o=vo(e),Z=1),e<1&&Z===0&&(it=0,a?k=Yf(1/e*(Di(s)+vo(e+1))):k=Yf(1/e*(Di(1-s)+vo(e+1))),o=vo(e),Z=1),Z===0)if(it=1,l=1/e,tt=poe(2*s),w=bt*tt/ty(e*hl),tt<yoe)w+=(woe(w)+(Soe(w)+Toe(w)*l)*l)*l,k=e*o7(w),It=w,z=-ty(e/_oe)*Yf(-hl*e*It*It)/a7(e),i=1/z;else return koe("Warning: Overflow problems in one or more steps of the computation."),NaN;return Z<2&&(Tt=boe(k,e,it,t,r,o,i,a)),Tt}var xoe=Aoe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var u7=be,Moe=F2,c7=sr,f7=xoe;function Ioe(e,t,r){return u7(e)||u7(t)?NaN:t<Moe?NaN:e>1||e<0?NaN:r===!0?e===0?c7:e===1?0:f7(t,1-e,e):e===0?0:e===1?c7:f7(t,e,1-e)}var Loe=Ioe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Ooe=Loe,Roe=Ooe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Doe=5e-324,Noe=Doe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/detail/ibeta_inverse.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* Copyright John Maddock 2006.
+* Copyright Paul A. Bristow 2007.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var h7=Roe,d7=Xe,Foe=Rr,$oe=Noe,Boe=OX,zoe=DX;function Voe(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E,P,C,A,L,R,D,$,z,Y;return r<n?l=h7(r,t,!0):l=h7(n,t,!1),l/=e,v=t/e,$=Foe(1+v),T=$*$,S=T*$,k=T*T,E=S*T,P=S*S,C=k*S,A=k*k,L=E*k,c=E*E,D=l-v,y=D*D,b=y*D,w=y*y,R=$+1,f=R*R,h=R*f,d=f*f,p=($+2)*($-1)/(3*$),p+=(S+9*T+21*$+5)*D/(36*T*R),p-=(k-13*S+69*T+167*$+46)*y/(1620*f*S),p-=(7*E+21*k+70*S+26*T-93*$-31)*b/(6480*h*k),p-=(75*P+202*E+188*k-888*S-1345*T+118*$+138)*w/(272160*d*E),g=(28*k+131*S+402*T+581*$+208)*($-1)/(1620*R*S),g-=(35*P-154*E-623*k-1636*S-3983*T-3514*$-925)*D/(12960*f*k),g-=(2132*C+7915*P+16821*E+35066*k+87490*S+141183*T+95993*$+21640)*y/(816480*E*h),g-=(11053*A+53308*C+117010*P+163924*E+116188*k-258428*S-677042*T-481940*$-105497)*b/(14696640*d*P),m=-((3592*C+8375*P-1323*E-29198*k-89578*S-154413*T-116063*$-29632)*($-1))/(816480*E*f),m-=(442043*L+2054169*A+3803094*C+3470754*P+2141568*E-2393568*k-19904934*S-34714674*T-23128299*$-5253353)*D/(146966400*P*h),m-=(116932*c+819281*L+2378172*A+4341330*C+6806004*P+10622748*E+18739500*k+30651894*S+30869976*T+15431867*$+2919016)*y/(146966400*d*C),u=l+p/e+g/(e*e)+m/(e*e*e),u<=0&&(u=$oe),z=u-v*d7(u)+(1+v)*d7(1+v)-v,i=1/(1+v),a=u<v?i:0,s=u<v?1:i,Y=(a+s)/2,o=Boe(z,v),zoe(o,Y,a,s,32,100)}var Uoe=Voe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_62_0/boost/math/tools/roots.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* Copyright John Maddock 2006.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var Nr=$e,Woe=xd,WT=RX,joe=lf,jT=Id;function Goe(e,t,r,n,i,o){var a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T;b=0,s=!1,f=t,c=Woe(1,1-i),p=joe(1e7*t,1e7),h=0,l=p,u=p,d=o;do{if(h=b,u=l,l=p,y=e(f),b=y[0],w=y[1],T=y[2],d-=1,b===0)break;if(w===0?(h===0&&(f===r?t=n:t=r,h=e(t),p=t-f),WT(h)*WT(b)<0?p<0?p=(f-r)/2:p=(f-n)/2:p<0?p=(f-n)/2:p=(f-r)/2):T===0?p=b/w:(g=2*b,v=2*w-b*(T/w),Nr(v)<1&&Nr(g)>=Nr(v)*jT?p=b/w:p=g/v,p*w/b<0&&(p=b/w,Nr(p)>2*Nr(t)&&(p=(p<0?-1:1)*2*Nr(t)))),a=Nr(p/u),a>.8&&a<2&&(p=p>0?(f-r)/2:(f-n)/2,Nr(p)>f&&(p=WT(p)*f),u=p*3),t=f,f-=p,f<r){if(Nr(r)<1&&Nr(f)>1&&jT/Nr(f)<Nr(r)?m=1e3:m=f/r,Nr(m)<1&&(m=1/m),!s&&m>0&&m<3)p=.99*(t-r),f=t-p,s=!0;else if(p=(t-r)/2,f=t-p,f===r||f===n)break}else if(f>n){if(Nr(n)<1&&Nr(f)>1&&jT/Nr(f)<Nr(n)?m=1e3:m=f/n,Nr(m)<1&&(m=1/m),!s&&m>0&&m<3)p=.99*(t-n),f=t-p,s=!0;else if(p=(t-n)/2,f=t-p,f===r||f===n)break}p>0?n=t:r=t}while(d&&Nr(f*c)<Nr(p));return f}var Hoe=Goe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_64_0/boost/math/special_functions/detail/ibeta_inverse.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* Copyright John Maddock 2006.
+* Copyright Paul A. Bristow 2007.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/var Xoe=LX.assign,Yoe=$e,Koe=Id,GT=sf;function Zoe(e,t,r,n){return i;function i(o){var a,s,l,u,c;return c=1-o,a=[0,0],Xoe(o,e,t,!0,n,a,1,0),u=a[0]-r,s=a[1],n&&(s=-s),c===0&&(c=GT*64),o===0&&(o=GT*64),l=s*(-(c*e)+(t-2)*o+1),Yoe(l)<c*o*Koe&&(l/=c*o),n&&(l=-l),s===0&&(s=(n?-1:1)*GT*64),[u,s,l]}}var qoe=Zoe,Joe=su,p7=M4,HT=Cd,g7=Ei,Qoe=_4,Kf=fX,v7=Rr,tae=$e,m7=gr,la=Dr,y7=P0,eae=lf,rae=lu,_7=Xe,XT=sf,b7=P4,w7=Fs,nae=Are,iae=Lre,oae=Dne,aae=Uoe,sae=Hoe,lae=qoe,uae=32,cae=1e3,Wu=[0,0,0,0,0];function fae(e,t,r,n){var i,o,a,s,l,u,c,f,h,d,p,g,m,v,y,b,w,T,S,k,E,P,C,A,L,R,D,$,z;if(o=!1,n===0)return[1,0];if(r===0)return[0,1];if(e===1){if(t===1)return[r,1-r];g=t,t=e,e=g,g=n,n=r,r=g,o=!0}if($=0,s=0,u=1,e===.5){if(t===.5)return $=y7(r*b7),$*=$,z=y7(n*b7),z*=z,[$,z];t>.5&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o)}if(t===.5&&e>=.5&&r!==1)E={},$=nae(e,r,E),z=E.value;else{if(t===1)return r<n?e>1?($=la(r,1/e),z=-HT(_7(r)/e)):($=la(r,1/e),z=1-$):($=m7(g7(-n)/e),z=-HT(g7(-n)/e)),o&&(g=z,z=$,$=g),[$,z];if(e+t>5)r>.5&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o),h=rae(e,t),f=eae(e,t),v7(h)>f-h&&h>5?($=iae(e,t,r),z=1-$):(L=e+t,l=Qoe(v7(e/L)),a=h/L,a>=.2&&a<=.8&&L>=10?(p=la(r,1/e),p<.0025&&e+t<200?$=p*la(e*Kf(e,t),1/e):$=oae(r,L,l),z=1-$):(e<t&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o),d=0,t<2&&(d=Kf(e,t)),d===0?z=1:(z=la(t*n*d,1/t),$=1-z)),z>1e-5&&($=aae(e,t,r,n),z=1-$));else if(e<1&&t<1){if(k=(1-e)/(2-e-t),b=p7(k,e,t)-r,tae(b)/r<w7*3)return o?[1-k,k]:[k,1-k];b<0&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o,k=1-k),S=la(e*r*Kf(e,t),1/e),$=S/(1+S),z=1/(1+S),$>k&&($=k),u=k}else e>1&&t>1?(k=(e-1)/(e+t-2),m=(t-1)/(e+t-2),T=p7(k,e,t)-r,T<0&&(g=t,t=e,e=g,g=n,n=r,r=g,g=m,m=k,k=g,o=!o),w=_7(r*e*Kf(e,t))/e,$=m7(w),z=$<.9?1-$:-HT(w),t<e&&$<.2&&(v=e-1,y=t-1,P=e*e,C=e*P,A=t*t,Wu[0]=0,Wu[1]=1,Wu[2]=y/v,v*=v,Wu[3]=y*(3*e*t+5*t+P-e-4)/(2*(e+2)*v),v*=e+1,Wu[4]=y*(33*e*A+31*A+8*P*A-30*e*t-47*t+11*P*t+6*C*t+18+4*e-C+P*P-10*P),Wu[4]/=3*(e+3)*(e+2)*v,$=Joe(Wu,$)),$>k&&($=k),u=k):(t<e&&(g=t,t=e,e=g,g=n,n=r,r=g,o=!o),la(r,1/e)<.5?($=la(r*e*Kf(e,t),1/e),$===0&&($=XT),z=1-$):(z=la(1-la(r,t*Kf(e,t)),1/t),z===0&&(z=XT),$=1-z))}return $>.5&&(g=t,t=e,e=g,g=n,n=r,r=g,g=z,z=$,$=g,o=!o,R=1-u,D=1-s,s=R,u=D),s===0&&(o?(s=w7,$<s&&($=s)):s=XT,$<s&&($=s)),i=uae,$<1e-50&&(e<1||t<1)&&(i*=3,i/=2),c=lae(e,t,r<n?r:n,r>=n),$=sae(c,$,s,u,i,cae),$===s&&($=0),o?[1-$,$]:[$,1-$]}var hae=fae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var dae=hae,pae=dae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var YT=be,S7=pae;function gae(e,t,r,n){return YT(e)||YT(t)||YT(r)?NaN:t<=0||r<=0?NaN:e<0||e>1?NaN:n?S7(t,r,1-e,e)[0]:S7(t,r,e,1-e)[0]}var vae=gae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var mae=vae,$X=mae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var yae=$X,KT=be;function _ae(e,t,r){return KT(e)||KT(t)||KT(r)||t<=0||r<=0||e<0||e>1?NaN:yae(e,t,r)}var bae=_ae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/function wae(e){return t;function t(){return e}}var Sae=wae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Tae=Sae,B2=Tae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var kae=B2,Pae=$X,ZT=be;function Eae(e,t){if(ZT(e)||ZT(t)||e<=0||t<=0)return kae(NaN);return r;function r(n){return ZT(n)||n<0||n>1?NaN:Pae(n,e,t)}}var Cae=Eae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Aae=tn,BX=bae,xae=Cae;Aae(BX,"factory",xae);var Mae=BX;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Iae=Pi;function Lae(e){return Iae(e)===e&&e>=0}var Oae=Lae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Rae=Oae,z2=Rae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Dae=z2,Nae=M4,qT=be,Fae=Pi,$ae=sr;function Bae(e,t,r){return qT(e)||qT(t)||qT(r)||r<0||r>1||!Dae(t)||t===$ae?NaN:e<0?0:e>=t?1:(e=Fae(e+1e-7),Nae(r,e+1,t-e,!0,!0))}var zae=Bae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Vae=z2,Uae=B2,Wae=M4,JT=be,jae=Pi,Gae=sr;function Hae(e,t){if(JT(e)||JT(t)||t<0||t>1||!Vae(e)||e===Gae)return Uae(NaN);return r;function r(n){return JT(n)?NaN:n<0?0:n>=e?1:(n=jae(n+1e-7),Wae(t,n+1,e-n,!0,!0))}}var Xae=Hae;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Yae=tn,zX=zae,Kae=Xae;Yae(zX,"factory",Kae);var Zae=zX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9614,7 +9614,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * The code is adapted from the Fortran routine from the FNLIB library of the [SLATEC Common Mathematical Library]{@link http://www.netlib.no/netlib/slatec/fnlib/}.
 *
 * The original code was developed by W. Fullerton of Los Alamos Scientific Laboratory, a governmental institution, and is therefore public domain.
-*/var VX=[1276642195630063e-46,-3401102254316749e-45,1025680058010471e-43,-35475981581010704e-43,14292273559424982e-41,-6831888753985767e-39,39628370610464347e-38,-2868042435334643e-35,2683181998482699e-33,-3399615005417722e-31,6221098041892606e-29,-1809129475572494e-26,981082564692473e-23,-1384948176067564e-20,.16663894804518634],Zae=VX.length;function qae(e){var t,r,n,i,o;if(e<-1.1||e>1.1)return NaN;for(n=0,i=0,t=2*e,o=0;o<Zae;o++)r=n,n=i,i=t*n-r+VX[o];return(i-r)*.5}var Jae=qae;/**
+*/var VX=[1276642195630063e-46,-3401102254316749e-45,1025680058010471e-43,-35475981581010704e-43,14292273559424982e-41,-6831888753985767e-39,39628370610464347e-38,-2868042435334643e-35,2683181998482699e-33,-3399615005417722e-31,6221098041892606e-29,-1809129475572494e-26,981082564692473e-23,-1384948176067564e-20,.16663894804518634],qae=VX.length;function Jae(e){var t,r,n,i,o;if(e<-1.1||e>1.1)return NaN;for(n=0,i=0,t=2*e,o=0;o<qae;o++)r=n,n=i,i=t*n-r+VX[o];return(i-r)*.5}var Qae=Jae;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9637,7 +9637,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * The code is adapted from the Fortran routine from the FNLIB library of the [SLATEC Common Mathematical Library]{@link http://www.netlib.no/netlib/fn/d9lgmc.f}.
 *
 * The original code was developed by W. Fullerton of Los Alamos Scientific Laboratory, a governmental institution, and is therefore public domain.
-*/var Qae=Dr,tse=Jae,ese=9490626562425156e-8,rse=3745194030963158e291;function nse(e){return e<10?NaN:e>=rse?0:e<ese?tse(2*Qae(10/e,2)-1)/e:1/(e*12)}var ise=nse;/**
+*/var tse=Dr,ese=Qae,rse=9490626562425156e-8,nse=3745194030963158e291;function ise(e){return e<10?NaN:e>=nse?0:e<rse?ese(2*tse(10/e,2)-1)/e:1/(e*12)}var ose=ise;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9660,7 +9660,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * The code is adapted from the Fortran routine from the FNLIB library of the [SLATEC Common Mathematical Library]{@link http://www.netlib.no/netlib/slatec/fnlib/albeta.f}.
 *
 * The original code was developed by W. Fullerton of Los Alamos Scientific Laboratory, a governmental institution, and is therefore public domain.
-*/var ose=Ld,T7=Ei,QT=za,ase=lf,sse=lu,ey=Xe,lse=FX,use=pn,k7=sr,Vp=ise;function cse(e,t){var r,n,i;return n=sse(e,t),i=ase(e,t),n<0?NaN:n===0?k7:i===k7?use:n>=10?(r=Vp(n)+Vp(i)-Vp(n+i),-.5*ey(i)+lse+r+(n-.5)*ey(n/(n+i))+i*T7(-n/(n+i))):i>=10?(r=Vp(i)-Vp(n+i),ose(n)+r+n-n*ey(n+i)+(i-.5)*T7(-n/(n+i))):ey(QT(n)*(QT(i)/QT(n+i)))}var fse=cse;/**
+*/var ase=Ld,T7=Ei,QT=za,sse=lf,lse=lu,ey=Xe,use=FX,cse=pn,k7=sr,Vp=ose;function fse(e,t){var r,n,i;return n=lse(e,t),i=sse(e,t),n<0?NaN:n===0?k7:i===k7?cse:n>=10?(r=Vp(n)+Vp(i)-Vp(n+i),-.5*ey(i)+use+r+(n-.5)*ey(n/(n+i))+i*T7(-n/(n+i))):i>=10?(r=Vp(i)-Vp(n+i),ase(n)+r+n-n*ey(n+i)+(i-.5)*T7(-n/(n+i))):ey(QT(n)*(QT(i)/QT(n+i)))}var hse=fse;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9676,7 +9676,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hse=fse,dse=hse;/**
+*/var dse=hse,pse=dse;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9692,7 +9692,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var P7=au,E7=be,pse=dse,gse=$e,C7=Xe,A7=pn;function oC(e,t){return E7(e)||E7(t)?NaN:!P7(e)||!P7(t)?NaN:e<0?oC(-e+t-1,t):t<0?A7:t===0?0:t===1?C7(gse(e)):e<t?A7:e-t<2?oC(e,e-t):-C7(e+1)-pse(e-t+1,t+1)}var vse=oC;/**
+*/var P7=au,E7=be,gse=pse,vse=$e,C7=Xe,A7=pn;function oC(e,t){return E7(e)||E7(t)?NaN:!P7(e)||!P7(t)?NaN:e<0?oC(-e+t-1,t):t<0?A7:t===0?0:t===1?C7(vse(e)):e<t?A7:e-t<2?oC(e,e-t):-C7(e+1)-gse(e-t+1,t+1)}var mse=oC;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9708,7 +9708,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mse=vse,UX=mse;/**
+*/var yse=mse,UX=yse;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9724,7 +9724,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var x7=z2,yse=UX,ek=be,_se=Ei,bse=gr,wse=Xe,Sse=sr;function Tse(e,t,r){var n;return ek(e)||ek(t)||ek(r)||r<0||r>1||!x7(t)||t===Sse?NaN:x7(e)?e>t?0:r===0?e===0?1:0:r===1?e===t?1:0:(n=yse(t,e),n+=e*wse(r)+(t-e)*_se(-r),bse(n)):0}var kse=Tse;/**
+*/var x7=z2,_se=UX,ek=be,bse=Ei,wse=gr,Sse=Xe,Tse=sr;function kse(e,t,r){var n;return ek(e)||ek(t)||ek(r)||r<0||r>1||!x7(t)||t===Tse?NaN:x7(e)?e>t?0:r===0?e===0?1:0:r===1?e===t?1:0:(n=_se(t,e),n+=e*Sse(r)+(t-e)*bse(-r),wse(n)):0}var Pse=kse;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9740,7 +9740,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var M7=be;function Pse(e,t){return M7(e)||M7(t)?NaN:e===t?1:0}var Ese=Pse;/**
+*/var M7=be;function Ese(e,t){return M7(e)||M7(t)?NaN:e===t?1:0}var Cse=Ese;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9756,7 +9756,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Cse=B2,I7=be;function Ase(e){if(I7(e))return Cse(NaN);return t;function t(r){return I7(r)?NaN:r===e?1:0}}var xse=Ase;/**
+*/var Ase=B2,I7=be;function xse(e){if(I7(e))return Ase(NaN);return t;function t(r){return I7(r)?NaN:r===e?1:0}}var Mse=xse;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9772,7 +9772,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Mse=tn,WX=Ese,Ise=xse;Mse(WX,"factory",Ise);var Lse=WX;/**
+*/var Ise=tn,WX=Cse,Lse=Mse;Ise(WX,"factory",Lse);var Ose=WX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9788,7 +9788,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var L7=z2,Ose=B2,Rse=UX,O7=Lse.factory,rk=be,Dse=Ei,Nse=gr,Fse=Xe,$se=sr;function Bse(e,t){if(rk(e)||rk(t)||!L7(e)||e===$se||t<0||t>1)return Ose(NaN);if(t===0||e===0)return O7(0);if(t===1)return O7(e);return r;function r(n){var i;return rk(n)?NaN:L7(n)?n>e?0:(i=Rse(e,n),i+=n*Fse(t)+(e-n)*Dse(-t),Nse(i)):0}}var zse=Bse;/**
+*/var L7=z2,Rse=B2,Dse=UX,O7=Ose.factory,rk=be,Nse=Ei,Fse=gr,$se=Xe,Bse=sr;function zse(e,t){if(rk(e)||rk(t)||!L7(e)||e===Bse||t<0||t>1)return Rse(NaN);if(t===0||e===0)return O7(0);if(t===1)return O7(e);return r;function r(n){var i;return rk(n)?NaN:L7(n)?n>e?0:(i=Dse(e,n),i+=n*$se(t)+(e-n)*Nse(-t),Fse(i)):0}}var Vse=zse;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9804,7 +9804,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Vse=tn,jX=kse,Use=zse;Vse(jX,"factory",Use);var Wse=jX;/**
+*/var Use=tn,jX=Pse,Wse=Vse;Use(jX,"factory",Wse);var jse=jX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9820,7 +9820,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var jse=Go,aC;function Gse(e){return jse(e)==="[object Array]"}Array.isArray?aC=Array.isArray:aC=Gse;var Hse=aC;/**
+*/var Gse=Go,aC;function Hse(e){return Gse(e)==="[object Array]"}Array.isArray?aC=Array.isArray:aC=Hse;var Xse=aC;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9836,7 +9836,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Xse=Hse,GX=Xse;/**
+*/var Yse=Xse,GX=Yse;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9852,7 +9852,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Yse=GX;function Kse(e){return typeof e=="object"&&e!==null&&!Yse(e)}var Zse=Kse;/**
+*/var Kse=GX;function Zse(e){return typeof e=="object"&&e!==null&&!Kse(e)}var qse=Zse;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9868,7 +9868,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var qse=Zse,Jse=qse;/**
+*/var Jse=qse,Qse=Jse;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9884,7 +9884,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Qse=/./,tle=Qse;/**
+*/var tle=/./,ele=tle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9900,7 +9900,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function ele(e){return typeof e=="boolean"}var HX=ele;/**
+*/function rle(e){return typeof e=="boolean"}var HX=rle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9916,7 +9916,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rle=Boolean.prototype.toString,nle=rle;/**
+*/var nle=Boolean.prototype.toString,ile=nle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9932,7 +9932,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ile=nle;function ole(e){try{return ile.call(e),!0}catch{return!1}}var ale=ole;/**
+*/var ole=ile;function ale(e){try{return ole.call(e),!0}catch{return!1}}var sle=ale;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9948,7 +9948,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var sle=x2,lle=Go,ule=ale,cle=sle();function fle(e){return typeof e=="object"?e instanceof Boolean?!0:cle?ule(e):lle(e)==="[object Boolean]":!1}var XX=fle;/**
+*/var lle=x2,ule=Go,cle=sle,fle=lle();function hle(e){return typeof e=="object"?e instanceof Boolean?!0:fle?cle(e):ule(e)==="[object Boolean]":!1}var XX=hle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9964,7 +9964,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hle=HX,dle=XX;function ple(e){return hle(e)||dle(e)}var gle=ple;/**
+*/var dle=HX,ple=XX;function gle(e){return dle(e)||ple(e)}var vle=gle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9980,7 +9980,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var YX=tn,L4=gle,vle=HX,mle=XX;YX(L4,"isPrimitive",vle);YX(L4,"isObject",mle);var KX=L4;/**
+*/var YX=tn,L4=vle,mle=HX,yle=XX;YX(L4,"isPrimitive",mle);YX(L4,"isObject",yle);var KX=L4;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -9996,7 +9996,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function yle(){return new Function("return this;")()}var _le=yle;/**
+*/function _le(){return new Function("return this;")()}var ble=_le;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10012,7 +10012,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ble=typeof self=="object"?self:null,wle=ble;/**
+*/var wle=typeof self=="object"?self:null,Sle=wle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10028,7 +10028,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Sle=typeof window=="object"?window:null,Tle=Sle;/**
+*/var Tle=typeof window=="object"?window:null,kle=Tle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10044,7 +10044,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kle=typeof i_=="object"?i_:null,Ple=kle;/**
+*/var Ple=typeof i_=="object"?i_:null,Ele=Ple;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10060,7 +10060,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Ele=KX.isPrimitive,Cle=_le,R7=wle,D7=Tle,N7=Ple;function Ale(e){if(arguments.length){if(!Ele(e))throw new TypeError("invalid argument. Must provide a boolean primitive. Value: `"+e+"`.");if(e)return Cle()}if(R7)return R7;if(D7)return D7;if(N7)return N7;throw new Error("unexpected error. Unable to resolve global object.")}var xle=Ale;/**
+*/var Cle=KX.isPrimitive,Ale=ble,R7=Sle,D7=kle,N7=Ele;function xle(e){if(arguments.length){if(!Cle(e))throw new TypeError("invalid argument. Must provide a boolean primitive. Value: `"+e+"`.");if(e)return Ale()}if(R7)return R7;if(D7)return D7;if(N7)return N7;throw new Error("unexpected error. Unable to resolve global object.")}var Mle=xle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10076,7 +10076,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Mle=xle,Ile=Mle;/**
+*/var Ile=Mle,Lle=Ile;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10092,7 +10092,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Lle=Ile,F7=Lle(),Ole=F7.document&&F7.document.childNodes,Rle=Ole;/**
+*/var Ole=Lle,F7=Ole(),Rle=F7.document&&F7.document.childNodes,Dle=Rle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10108,7 +10108,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Dle=Int8Array,Nle=Dle;/**
+*/var Nle=Int8Array,Fle=Nle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10124,39 +10124,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Fle=tle,$le=Rle,Ble=Nle;function zle(){return typeof Fle=="function"||typeof Ble=="object"||typeof $le=="function"}var Vle=zle;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2021 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/function Ule(){return/^\s*function\s*([^(]*)/i}var ZX=Ule;/**
-* @license Apache-2.0
-*
-* Copyright (c) 2018 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/var Wle=ZX,jle=Wle(),Gle=jle;/**
+*/var $le=ele,Ble=Dle,zle=Fle;function Vle(){return typeof $le=="function"||typeof zle=="object"||typeof Ble=="function"}var Ule=Vle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -10172,7 +10140,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Hle=tn,qX=ZX,Xle=Gle;Hle(qX,"REGEXP",Xle);var Yle=qX;/**
+*/function Wle(){return/^\s*function\s*([^(]*)/i}var ZX=Wle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10188,7 +10156,23 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Kle=GX;function Zle(e){if(typeof e!="function")throw new TypeError("invalid argument. Must provide a function. Value: `"+e+"`.");return t;function t(r){var n,i;if(!Kle(r)||(n=r.length,n===0))return!1;for(i=0;i<n;i++)if(e(r[i])===!1)return!1;return!0}}var qle=Zle;/**
+*/var jle=ZX,Gle=jle(),Hle=Gle;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2021 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var Xle=tn,qX=ZX,Yle=Hle;Xle(qX,"REGEXP",Yle);var Kle=qX;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10204,7 +10188,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Jle=qle,Qle=Jle;/**
+*/var Zle=GX;function qle(e){if(typeof e!="function")throw new TypeError("invalid argument. Must provide a function. Value: `"+e+"`.");return t;function t(r){var n,i;if(!Zle(r)||(n=r.length,n===0))return!1;for(i=0;i<n;i++)if(e(r[i])===!1)return!1;return!0}}var Jle=qle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10220,7 +10204,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function tue(e){return e!==null&&typeof e=="object"}var eue=tue;/**
+*/var Qle=Jle,tue=Qle;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10236,7 +10220,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rue=tn,nue=Qle,O4=eue,iue=nue(O4);rue(O4,"isObjectLikeArray",iue);var oue=O4;/**
+*/function eue(e){return e!==null&&typeof e=="object"}var rue=eue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10252,7 +10236,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var aue=oue;function sue(e){return aue(e)&&(e._isBuffer||e.constructor&&typeof e.constructor.isBuffer=="function"&&e.constructor.isBuffer(e))}var lue=sue;/**
+*/var nue=tn,iue=tue,O4=rue,oue=iue(O4);nue(O4,"isObjectLikeArray",oue);var aue=O4;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10268,7 +10252,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var uue=lue,cue=uue;/**
+*/var sue=aue;function lue(e){return sue(e)&&(e._isBuffer||e.constructor&&typeof e.constructor.isBuffer=="function"&&e.constructor.isBuffer(e))}var uue=lue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10284,7 +10268,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var fue=Go,hue=Yle.REGEXP,due=cue;function pue(e){var t,r,n;if(r=fue(e).slice(8,-1),(r==="Object"||r==="Error")&&e.constructor){if(n=e.constructor,typeof n.name=="string")return n.name;if(t=hue.exec(n.toString()),t)return t[1]}return due(e)?"Buffer":r}var gue=pue;/**
+*/var cue=uue,fue=cue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10300,7 +10284,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var vue=gue,JX=vue;/**
+*/var hue=Go,due=Kle.REGEXP,pue=fue;function gue(e){var t,r,n;if(r=hue(e).slice(8,-1),(r==="Object"||r==="Error")&&e.constructor){if(n=e.constructor,typeof n.name=="string")return n.name;if(t=due.exec(n.toString()),t)return t[1]}return pue(e)?"Buffer":r}var vue=gue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10316,7 +10300,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var mue=JX;function yue(e){var t;return e===null?"null":(t=typeof e,t==="object"?mue(e).toLowerCase():t)}var _ue=yue;/**
+*/var mue=vue,JX=mue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10332,7 +10316,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var bue=JX;function wue(e){return bue(e).toLowerCase()}var Sue=wue;/**
+*/var yue=JX;function _ue(e){var t;return e===null?"null":(t=typeof e,t==="object"?yue(e).toLowerCase():t)}var bue=_ue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10348,7 +10332,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Tue=Vle,kue=_ue,Pue=Sue,Eue=Tue()?Pue:kue,Cue=Eue;/**
+*/var wue=JX;function Sue(e){return wue(e).toLowerCase()}var Tue=Sue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10364,7 +10348,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Aue=Cue;function xue(e){return Aue(e)==="function"}var Mue=xue;/**
+*/var kue=Ule,Pue=bue,Eue=Tue,Cue=kue()?Eue:Pue,Aue=Cue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10380,7 +10364,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Iue=Mue,QX=Iue;/**
+*/var xue=Aue;function Mue(e){return xue(e)==="function"}var Iue=Mue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10396,7 +10380,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Lue=Object.getPrototypeOf,Oue=Lue;/**
+*/var Lue=Iue,QX=Lue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10412,7 +10396,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function Rue(e){return e.__proto__}var Due=Rue;/**
+*/var Oue=Object.getPrototypeOf,Rue=Oue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10428,7 +10412,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Nue=Go,Fue=Due;function $ue(e){var t=Fue(e);return t||t===null?t:Nue(e.constructor)==="[object Function]"?e.constructor.prototype:e instanceof Object?Object.prototype:null}var Bue=$ue;/**
+*/function Due(e){return e.__proto__}var Nue=Due;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10444,7 +10428,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var zue=QX,Vue=Oue,Uue=Bue,sC;zue(Object.getPrototypeOf)?sC=Vue:sC=Uue;var Wue=sC;/**
+*/var Fue=Go,$ue=Nue;function Bue(e){var t=$ue(e);return t||t===null?t:Fue(e.constructor)==="[object Function]"?e.constructor.prototype:e instanceof Object?Object.prototype:null}var zue=Bue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10460,7 +10444,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var jue=Wue;function Gue(e){return e==null?null:(e=Object(e),jue(e))}var Hue=Gue;/**
+*/var Vue=QX,Uue=Rue,Wue=zue,sC;Vue(Object.getPrototypeOf)?sC=Uue:sC=Wue;var jue=sC;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10476,7 +10460,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Xue=Hue,Yue=Xue;/**
+*/var Gue=jue;function Hue(e){return e==null?null:(e=Object(e),Gue(e))}var Xue=Hue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10492,7 +10476,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Kue=Jse,$7=QX,Zue=Yue,jy=M2,que=Go,Jue=Object.prototype;function Que(e){var t;for(t in e)if(!jy(e,t))return!1;return!0}function tce(e){var t;return Kue(e)?(t=Zue(e),t?!jy(e,"constructor")&&jy(t,"constructor")&&$7(t.constructor)&&que(t.constructor)==="[object Function]"&&jy(t,"isPrototypeOf")&&$7(t.isPrototypeOf)&&(t===Jue||Que(e)):!0):!1}var ece=tce;/**
+*/var Yue=Xue,Kue=Yue;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10508,7 +10492,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var rce=ece,tY=rce;/**
+*/var Zue=Qse,$7=QX,que=Kue,jy=M2,Jue=Go,Que=Object.prototype;function tce(e){var t;for(t in e)if(!jy(e,t))return!1;return!0}function ece(e){var t;return Zue(e)?(t=que(e),t?!jy(e,"constructor")&&jy(t,"constructor")&&$7(t.constructor)&&Jue(t.constructor)==="[object Function]"&&jy(t,"isPrototypeOf")&&$7(t.isPrototypeOf)&&(t===Que||tce(e)):!0):!1}var rce=ece;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10524,7 +10508,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/function nce(e){return typeof e=="string"}var eY=nce;/**
+*/var nce=rce,tY=nce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10540,7 +10524,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ice=String.prototype.valueOf,oce=ice;/**
+*/function ice(e){return typeof e=="string"}var eY=ice;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10556,7 +10540,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var ace=oce;function sce(e){try{return ace.call(e),!0}catch{return!1}}var lce=sce;/**
+*/var oce=String.prototype.valueOf,ace=oce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10572,7 +10556,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var uce=x2,cce=Go,fce=lce,hce=uce();function dce(e){return typeof e=="object"?e instanceof String?!0:hce?fce(e):cce(e)==="[object String]":!1}var rY=dce;/**
+*/var sce=ace;function lce(e){try{return sce.call(e),!0}catch{return!1}}var uce=lce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10588,7 +10572,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var pce=eY,gce=rY;function vce(e){return pce(e)||gce(e)}var mce=vce;/**
+*/var cce=x2,fce=Go,hce=uce,dce=cce();function pce(e){return typeof e=="object"?e instanceof String?!0:dce?hce(e):fce(e)==="[object String]":!1}var rY=pce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10604,7 +10588,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var nY=tn,R4=mce,yce=eY,_ce=rY;nY(R4,"isPrimitive",yce);nY(R4,"isObject",_ce);var bce=R4;/**
+*/var gce=eY,vce=rY;function mce(e){return gce(e)||vce(e)}var yce=mce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10620,7 +10604,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var wce=Td.isPrimitive,Sce=be;function Tce(e){return wce(e)&&Sce(e)}var iY=Tce;/**
+*/var nY=tn,R4=yce,_ce=eY,bce=rY;nY(R4,"isPrimitive",_ce);nY(R4,"isObject",bce);var wce=R4;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10636,7 +10620,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var kce=Td.isObject,Pce=be;function Ece(e){return kce(e)&&Pce(e.valueOf())}var oY=Ece;/**
+*/var Sce=Td.isPrimitive,Tce=be;function kce(e){return Sce(e)&&Tce(e)}var iY=kce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10652,7 +10636,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Cce=iY,Ace=oY;function xce(e){return Cce(e)||Ace(e)}var Mce=xce;/**
+*/var Pce=Td.isObject,Ece=be;function Cce(e){return Pce(e)&&Ece(e.valueOf())}var oY=Cce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10668,7 +10652,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var aY=tn,D4=Mce,Ice=iY,Lce=oY;aY(D4,"isPrimitive",Ice);aY(D4,"isObject",Lce);var Oce=D4;/**
+*/var Ace=iY,xce=oY;function Mce(e){return Ace(e)||xce(e)}var Ice=Mce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10684,7 +10668,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var B7=Td.isPrimitive,Rce=tY,Dce=bce.isPrimitive,z7=Oce,nk=M2;function Nce(e,t){return Rce(t)?nk(t,"alpha")&&(e.alpha=t.alpha,!B7(e.alpha)||z7(e.alpha))?new TypeError("invalid option. `alpha` option must be a number primitive. Option: `"+e.alpha+"`."):nk(t,"alternative")&&(e.alternative=t.alternative,!Dce(e.alternative))?new TypeError("invalid option. `alternative` option must be a string primitive. Option: `"+e.alternative+"`."):nk(t,"p")&&(e.p=t.p,!B7(e.p)||z7(e.p))?new TypeError("invalid option. `p` option must be a number primitive. Option: `"+e.p+"`."):null:new TypeError("invalid argument. Options argument must be an object. Value: `"+t+"`.")}var Fce=Nce;/**
+*/var aY=tn,D4=Ice,Lce=iY,Oce=oY;aY(D4,"isPrimitive",Lce);aY(D4,"isObject",Oce);var Rce=D4;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10700,7 +10684,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var $ce=I2.isPrimitive;function Bce(e){return $ce(e)&&e>0}var sY=Bce;/**
+*/var B7=Td.isPrimitive,Dce=tY,Nce=wce.isPrimitive,z7=Rce,nk=M2;function Fce(e,t){return Dce(t)?nk(t,"alpha")&&(e.alpha=t.alpha,!B7(e.alpha)||z7(e.alpha))?new TypeError("invalid option. `alpha` option must be a number primitive. Option: `"+e.alpha+"`."):nk(t,"alternative")&&(e.alternative=t.alternative,!Nce(e.alternative))?new TypeError("invalid option. `alternative` option must be a string primitive. Option: `"+e.alternative+"`."):nk(t,"p")&&(e.p=t.p,!B7(e.p)||z7(e.p))?new TypeError("invalid option. `p` option must be a number primitive. Option: `"+e.p+"`."):null:new TypeError("invalid argument. Options argument must be an object. Value: `"+t+"`.")}var $ce=Fce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10716,7 +10700,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var zce=I2.isObject;function Vce(e){return zce(e)&&e.valueOf()>0}var lY=Vce;/**
+*/var Bce=I2.isPrimitive;function zce(e){return Bce(e)&&e>0}var sY=zce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10732,7 +10716,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Uce=sY,Wce=lY;function jce(e){return Uce(e)||Wce(e)}var Gce=jce;/**
+*/var Vce=I2.isObject;function Uce(e){return Vce(e)&&e.valueOf()>0}var lY=Uce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10748,7 +10732,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var uY=tn,N4=Gce,Hce=sY,Xce=lY;uY(N4,"isPrimitive",Hce);uY(N4,"isObject",Xce);var Yce=N4;/**
+*/var Wce=sY,jce=lY;function Gce(e){return Wce(e)||jce(e)}var Hce=Gce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10764,7 +10748,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Kce=9007199254740991,Zce=Kce;/**
+*/var uY=tn,N4=Hce,Xce=sY,Yce=lY;uY(N4,"isPrimitive",Xce);uY(N4,"isObject",Yce);var Kce=N4;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10780,7 +10764,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var qce=308,Jce=qce;/**
+*/var Zce=9007199254740991,qce=Zce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10796,7 +10780,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Qce=-308,tfe=Qce;/**
+*/var Jce=308,Qce=Jce;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10812,7 +10796,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var efe=-324,rfe=efe;/**
+*/var tfe=-308,efe=tfe;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10828,7 +10812,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var V7=be,ry=Ad,U7=Dr,nfe=$e,W7=R2,ife=Zce,j7=Jce,ofe=tfe,afe=rfe,sfe=ife+1,G7=1e308;function lfe(e,t){var r,n;return V7(e)||V7(t)||ry(t)?NaN:ry(e)||e===0||t<afe||nfe(e)>sfe&&t<=0?e:t>j7?0*e:t<ofe?(r=U7(10,-(t+j7)),n=e*G7*r,ry(n)?e:W7(n)/G7/r):(r=U7(10,-t),n=e*r,ry(n)?e:W7(n)/r)}var ufe=lfe;/**
+*/var rfe=-324,nfe=rfe;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10844,7 +10828,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var cfe=ufe,ffe=cfe;/**
+*/var V7=be,ry=Ad,U7=Dr,ife=$e,W7=R2,ofe=qce,j7=Qce,afe=efe,sfe=nfe,lfe=ofe+1,G7=1e308;function ufe(e,t){var r,n;return V7(e)||V7(t)||ry(t)?NaN:ry(e)||e===0||t<sfe||ife(e)>lfe&&t<=0?e:t>j7?0*e:t<afe?(r=U7(10,-(t+j7)),n=e*G7*r,ry(n)?e:W7(n)/G7/r):(r=U7(10,-t),n=e*r,ry(n)?e:W7(n)/r)}var cfe=ufe;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10860,7 +10844,23 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var hfe=Yce,dfe=tY,pfe=KX.isPrimitive,H7=M2,ny=ffe;function gfe(e){var t,r,n;if(r=4,t=!0,arguments.length>0){if(!dfe(e))throw new TypeError("invalid argument. First argument must be an options object. Value: `"+e+"`.");if(H7(e,"digits")){if(!hfe(e.digits))throw new TypeError("invalid option. `digits` option must be a positive integer. Option: `"+e.digits+"`.");r=e.digits}if(H7(e,"decision")){if(!pfe(e.decision))throw new TypeError("invalid option. `decision` option must be a boolean primitive. Option: `"+e.decision+"`.");t=e.decision}}switch(n="",n+=this.method,n+=`
+*/var ffe=cfe,hfe=ffe;/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/var dfe=Kce,pfe=tY,gfe=KX.isPrimitive,H7=M2,ny=hfe;function vfe(e){var t,r,n;if(r=4,t=!0,arguments.length>0){if(!pfe(e))throw new TypeError("invalid argument. First argument must be an options object. Value: `"+e+"`.");if(H7(e,"digits")){if(!dfe(e.digits))throw new TypeError("invalid option. `digits` option must be a positive integer. Option: `"+e.digits+"`.");r=e.digits}if(H7(e,"decision")){if(!gfe(e.decision))throw new TypeError("invalid option. `decision` option must be a boolean primitive. Option: `"+e.decision+"`.");t=e.decision}}switch(n="",n+=this.method,n+=`
 
 `,n+="Alternative hypothesis: ",n+="True correlation coefficient is ",this.alternative){case"less":n+="less than ";break;case"greater":n+="greater than ";break;case"two-sided":default:n+="not equal to ";break}return n+=this.nullValue,n+=`
 
@@ -10869,7 +10869,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 `,n+="    "+(1-this.alpha)*100+"% confidence interval: ["+ny(this.ci[0],-r)+","+ny(this.ci[1],-r)+"]",n+=`
 
 `,t&&(n+="Test Decision: ",this.rejected?n+="Reject null in favor of alternative at "+this.alpha*100+"% significance level":n+="Fail to reject null in favor of alternative at "+this.alpha*100+"% significance level",n+=`
-`),n}var vfe=gfe;/**
+`),n}var mfe=vfe;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10885,7 +10885,7 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var es=qNt,mfe=vFt,X7=HFt,cY=xae,yfe=Pi,_fe=qH,Zf=Kae,ik=Wse,Y7=Fce,bfe=vfe,K7=1+1e-7;function Z7(e,t,r){return e===0?0:cY(r,e,t-e+1)}function q7(e,t,r){return e===t?1:cY(1-r,e+1,t-e)}function wfe(){var e,t,r,n,i,o,a,s,l,u,c,f,h,d,p;if(t={},mfe(arguments[0])){if(h=arguments[0],h.length!==2)throw new Error("invalid argument. If provided an array, it must have two elements. Value: `"+h+"`.");c=h[1]+h[0],h=h[0],arguments[1]&&(a=Y7(t,arguments[1]))}else{if(h=arguments[0],c=arguments[1],!X7(h))throw new TypeError("invalid argument. Must provide a nonnegative integer or a two-element array. Value: `"+h+"`.");if(!X7(c))throw new TypeError("invalid argument. Must provide a nonnegative integer. Value: `"+c+"`.");if(h>c)throw new TypeError("invalid arguments. `x` cannot be larger than `n`. `x:"+h+", n:"+c+"`.");arguments[2]&&(a=Y7(t,arguments[2]))}if(a)throw a;if(t.alpha===void 0?e=.05:e=t.alpha,e<0||e>1)throw new RangeError("invalid argument. Option `alpha` must be a number in the range 0 to 1. Value: `"+e+"`.");if(t.p===void 0?f=.5:f=t.p,f<0||f>1)throw new RangeError("invalid argument. Option `p` must be a probability. Value: `"+f+"`.");switch(o=t.alternative||"two-sided",i=h/c,o){case"less":n=Zf(h,c,f),r=[0,q7(h,c,e)];break;case"greater":n=1-Zf(h-1,c,f),r=[Z7(h,c,e),1];break;case"two-sided":if(l=ik(h,c,f),u=c*f,h===u)n=1;else if(h<u){for(d=0,p=_fe(u);p<=c;p++)ik(p,c,f)<=l*K7&&(d+=1);n=Zf(h,c,f)+(1-Zf(c-d,c,f))}else{for(d=0,p=0;p<=yfe(u);p++)ik(p,c,f)<=l*K7&&(d+=1);n=Zf(d-1,c,f)+(1-Zf(h-1,c,f))}r=[Z7(h,c,e/2),q7(h,c,e/2)];break;default:throw new Error("Invalid option. `alternative` must be either `two-sided`, `less` or `greater`. Value: `"+o+"`")}return s={},es(s,"rejected",n<=e),es(s,"alpha",e),es(s,"pValue",n),es(s,"statistic",i),es(s,"ci",r),es(s,"nullValue",f),es(s,"alternative",o),es(s,"method","Exact binomial test"),es(s,"print",bfe),s}var Sfe=wfe;/**
+*/var es=JNt,yfe=mFt,X7=XFt,cY=Mae,_fe=Pi,bfe=qH,Zf=Zae,ik=jse,Y7=$ce,wfe=mfe,K7=1+1e-7;function Z7(e,t,r){return e===0?0:cY(r,e,t-e+1)}function q7(e,t,r){return e===t?1:cY(1-r,e+1,t-e)}function Sfe(){var e,t,r,n,i,o,a,s,l,u,c,f,h,d,p;if(t={},yfe(arguments[0])){if(h=arguments[0],h.length!==2)throw new Error("invalid argument. If provided an array, it must have two elements. Value: `"+h+"`.");c=h[1]+h[0],h=h[0],arguments[1]&&(a=Y7(t,arguments[1]))}else{if(h=arguments[0],c=arguments[1],!X7(h))throw new TypeError("invalid argument. Must provide a nonnegative integer or a two-element array. Value: `"+h+"`.");if(!X7(c))throw new TypeError("invalid argument. Must provide a nonnegative integer. Value: `"+c+"`.");if(h>c)throw new TypeError("invalid arguments. `x` cannot be larger than `n`. `x:"+h+", n:"+c+"`.");arguments[2]&&(a=Y7(t,arguments[2]))}if(a)throw a;if(t.alpha===void 0?e=.05:e=t.alpha,e<0||e>1)throw new RangeError("invalid argument. Option `alpha` must be a number in the range 0 to 1. Value: `"+e+"`.");if(t.p===void 0?f=.5:f=t.p,f<0||f>1)throw new RangeError("invalid argument. Option `p` must be a probability. Value: `"+f+"`.");switch(o=t.alternative||"two-sided",i=h/c,o){case"less":n=Zf(h,c,f),r=[0,q7(h,c,e)];break;case"greater":n=1-Zf(h-1,c,f),r=[Z7(h,c,e),1];break;case"two-sided":if(l=ik(h,c,f),u=c*f,h===u)n=1;else if(h<u){for(d=0,p=bfe(u);p<=c;p++)ik(p,c,f)<=l*K7&&(d+=1);n=Zf(h,c,f)+(1-Zf(c-d,c,f))}else{for(d=0,p=0;p<=_fe(u);p++)ik(p,c,f)<=l*K7&&(d+=1);n=Zf(d-1,c,f)+(1-Zf(h-1,c,f))}r=[Z7(h,c,e/2),q7(h,c,e/2)];break;default:throw new Error("Invalid option. `alternative` must be either `two-sided`, `less` or `greater`. Value: `"+o+"`")}return s={},es(s,"rejected",n<=e),es(s,"alpha",e),es(s,"pValue",n),es(s,"statistic",i),es(s,"ci",r),es(s,"nullValue",f),es(s,"alternative",o),es(s,"method","Exact binomial test"),es(s,"print",wfe),s}var Tfe=Sfe;/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -10901,8 +10901,8 @@ on Home page (lodging is autoassigned)`},"infra",-1)),zDt=["onUpdate:modelValue"
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var Tfe=Sfe,F4=Tfe;const kfe=od({id:"droprates",state:()=>({selected_pzk:"",selected_ik:"",selected_specie:"",selected_model:"a",usePooling:!1,plotChiSquared:!1})}),Pfe=Array.prototype.concat,fY=Object.prototype.toString;function hY(e,t){var r=e>t?e:t;return Math.pow(10,17-~~(Math.log(r>0?r:-r)*Math.LOG10E))}const Na=Array.isArray||function(t){return fY.call(t)==="[object Array]"};function Vv(e){return fY.call(e)==="[object Function]"}function hn(e){return typeof e=="number"?e-e===0:!1}function Efe(e){return Pfe.apply([],e)}const dY={calcRdx:hY,isArray:Na,isFunction:Vv,isNumber:hn,toVector:Efe};let ro=Math.random;function pY(e){if(typeof e!="function")throw new TypeError("fn is not a function");ro=e}function V2(e){return e.length||1}function gY(e){return e[0].length||1}function Cfe(e){return{rows:V2(e),cols:gY(e)}}function $4(e,t){return Na(t)?t.map(r=>$4(e,r)):e[t]}function vY(e,t){return $4(e,t)}function ub(e,t){if(Na(t)){const n=rr(e.length).map(()=>new Array(t.length));return t.forEach(function(i,o){rr(e.length).forEach(function(a){n[a][o]=e[a][i]})}),n}const r=new Array(e.length);for(let n=0;n<e.length;n++)r[n]=[e[n][t]];return r}function mY(e,t){return ub(e,t).map(r=>r[0])}function Afe(e){const t=V2(e),r=new Array(t);for(let n=0;n<t;n++)r[n]=[e[n][n]];return r}function xfe(e){for(var t=V2(e)-1,r=new Array(t),n=0;t>=0;t--,n++)r[n]=[e[n][t]];return r}function Fl(e){var t=[],r,n,i,o,a;for(Na(e[0])||(e=[e]),n=e.length,i=e[0].length,a=0;a<i;a++){for(r=new Array(n),o=0;o<n;o++)r[o]=e[o][a];t.push(r)}return t.length===1?t[0]:t}function Wn(e,t,r){var n,i,o,a,s;for(Na(e[0])||(e=[e]),i=e.length,o=e[0].length,a=r?e:new Array(i),n=0;n<i;n++)for(a[n]||(a[n]=new Array(o)),s=0;s<o;s++)a[n][s]=t(e[n][s],n,s);return a.length===1?a[0]:a}function U2(e,t,r){var n,i,o,a,s;for(Na(e[0])||(e=[e]),i=e.length,o=e[0].length,a=r?e:new Array(i),n=0;n<i;n++)for(a[n]||(a[n]=new Array(o)),o>0&&(a[n][0]=e[n][0]),s=1;s<o;s++)a[n][s]=t(a[n][s-1],e[n][s]);return a.length===1?a[0]:a}function B4(e,t){return Wn(e,t,!0)}function Rd(e,t,r){var n=new Array(e),i,o;for(Vv(t)&&(r=t,t=e),i=0;i<e;i++)for(n[i]=new Array(t),o=0;o<t;o++)n[i][o]=r(i,o);return n}function yY(){return 0}function Mfe(){return 1}function Ife(e,t){return e===t?1:0}function Va(e,t){return hn(t)||(t=e),Rd(e,t,yY)}function Lfe(e,t){return hn(t)||(t=e),Rd(e,t,Mfe)}function Ofe(e,t){return hn(t)||(t=e),Rd(e,t,ro)}function Nc(e,t){return hn(t)||(t=e),Rd(e,t,Ife)}function Rfe(e){var t=e.length,r,n;if(e.length!==e[0].length)return!1;for(r=0;r<t;r++)for(n=0;n<t;n++)if(e[n][r]!==e[r][n])return!1;return!0}function Dfe(e){return B4(e,yY)}function _Y(e,t,r,n){Vv(n)||(n=!1);var i=[],o=hY(e,t),a=(t*o-e*o)/((r-1)*o),s=e,l;for(l=0;s<=t&&l<r;l++,s=(e*o+a*o*l)/o)i.push(n?n(s,l):s);return i}function rr(e,t,r){var n=[],i;if(r=r||1,t===void 0&&(t=e,e=0),e===t||r===0)return[];if(e<t&&r<0)return[];if(e>t&&r>0)return[];if(r>0)for(i=e;i<t;i+=r)n.push(i);else for(i=e;i>t;i+=r)n.push(i);return n}function os(e,t){function r(l,u,c,f){var h,d=[],p=l.length;if(u===void 0&&c===void 0&&f===void 0)return W2(l);if(u=u||0,c=c||l.length,u=u>=0?u:p+u,c=c>=0?c:p+c,f=f||1,u===c||f===0)return[];if(u<c&&f<0)return[];if(u>c&&f>0)return[];if(f>0)for(h=u;h<c;h+=f)d.push(l[h]);else for(h=u;h>c;h+=f)d.push(l[h]);return d}var n,i;if(t=t||{},hn(t.row)){if(hn(t.col))return e[t.row][t.col];var o=vY(e,t.row);return n=t.col||{},r(o,n.start,n.end,n.step)}if(hn(t.col)){var a=mY(e,t.col);return i=t.row||{},r(a,i.start,i.end,i.step)}i=t.row||{},n=t.col||{};var s=r(e,i.start,i.end,i.step);return s.map(function(l){return r(l,n.start,n.end,n.step)})}function lg(e,t,r){var n,i;if(hn(t.row)){if(hn(t.col))return e[t.row][t.col]=r;t.col=t.col||{},t.col.start=t.col.start||0,t.col.end=t.col.end||e[0].length,t.col.step=t.col.step||1,n=rr(t.col.start,Math.min(e.length,t.col.end),t.col.step);var o=t.row;return n.forEach(function(s,l){e[o][s]=r[l]}),e}if(hn(t.col)){t.row=t.row||{},t.row.start=t.row.start||0,t.row.end=t.row.end||e.length,t.row.step=t.row.step||1,i=rr(t.row.start,Math.min(e[0].length,t.row.end),t.row.step);var a=t.col;return i.forEach(function(s,l){e[s][a]=r[l]}),e}return r[0].length===void 0&&(r=[r]),t.row.start=t.row.start||0,t.row.end=t.row.end||e.length,t.row.step=t.row.step||1,t.col.start=t.col.start||0,t.col.end=t.col.end||e[0].length,t.col.step=t.col.step||1,i=rr(t.row.start,Math.min(e.length,t.row.end),t.row.step),n=rr(t.col.start,Math.min(e[0].length,t.col.end),t.col.step),i.forEach(function(s,l){n.forEach(function(u,c){e[s][u]=r[l][c]})}),e}function Nfe(e){var t=Va(e.length,e.length);return e.forEach(function(r,n){t[n][n]=r}),t}function W2(e){return e.map(function(t){return hn(t)?t:t.map(function(r){return r})})}const Ffe=Object.freeze(Object.defineProperty({__proto__:null,utils:dY,get random_fn(){return ro},setRandom:pY,rows:V2,cols:gY,dimensions:Cfe,row:$4,rowa:vY,col:ub,cola:mY,diag:Afe,antidiag:xfe,transpose:Fl,map:Wn,cumreduce:U2,alter:B4,create:Rd,zeros:Va,ones:Lfe,rand:Ofe,identity:Nc,symmetric:Rfe,clear:Dfe,seq:_Y,arange:rr,slice:os,sliceAssign:lg,diagonal:Nfe,copy:W2},Symbol.toStringTag,{value:"Module"}));function Dd(e,t){return e-t}function J7(e,t,r){return Math.max(t,Math.min(e,r))}function jn(e){for(var t=0,r=e.length;--r>=0;)t+=e[r];return t}function $fe(e){for(var t=0,r=e.length;--r>=0;)t+=e[r]*e[r];return t}function j2(e){for(var t=Wr(e),r=0,n=e.length,i;--n>=0;)i=e[n]-t,r+=i*i;return r}function Bfe(e){for(var t=0,r=e.length;--r>=0;)t+=e[r];return t}function bY(e){for(var t=1,r=e.length;--r>=0;)t*=e[r];return t}function z4(e){for(var t=e[0],r=0;++r<e.length;)e[r]<t&&(t=e[r]);return t}function V4(e){for(var t=e[0],r=0;++r<e.length;)e[r]>t&&(t=e[r]);return t}function zfe(e){for(var t={},r=[],n=0;n<e.length;n++)t[e[n]]||(t[e[n]]=!0,r.push(e[n]));return r}function Wr(e){return jn(e)/e.length}function Vfe(e){return j2(e)/e.length}function Ufe(e){return Math.pow(bY(e),1/e.length)}function lC(e){var t=e.length,r=e.slice().sort(Dd);return t&1?r[t/2|0]:(r[t/2-1]+r[t/2])/2}function Wfe(e){return U2(e,function(t,r){return t+r})}function jfe(e){return U2(e,function(t,r){return t*r})}function Gfe(e){var t=[],r=e.length,n;for(n=1;n<r;n++)t.push(e[n]-e[n-1]);return t}function uC(e){var t,r=[],n={};for(t=0;t<e.length;t++){var i=e[t];n[i]?n[i]++:(n[i]=1,r.push(i))}var o=r.sort(Dd),a={},s=1;for(t=0;t<o.length;t++){var i=o[t],l=n[i],u=s,c=s+l-1,f=(u+c)/2;a[i]=f,s+=l}return e.map(function(h){return a[h]})}function Hfe(e){var t=e.length,r=e.slice().sort(Dd),n=1,i=0,o=0,a=[],s;for(s=0;s<t;s++)r[s]===r[s+1]?n++:(n>i?(a=[r[s]],i=n,o=0):n===i&&(a.push(r[s]),o++),n=1);return o===0?a[0]:a}function Xfe(e){return V4(e)-z4(e)}function wY(e,t){return j2(e)/(e.length-(t?1:0))}function SY(e){var t=e.reduce(function(n,i){return n+j2(i)},0),r=e.reduce(function(n,i){return n+i.length},0);return t/(r-e.length)}function Yfe(e){for(var t=Wr(e),r=e.length,n=new Array(r),i=0;i<r;i++)n[i]=e[i]-t;return n}function As(e,t){return Math.sqrt(wY(e,t))}function TY(e){return Math.sqrt(SY(e))}function Kfe(e){for(var t=Wr(e),r=[],n=e.length-1;n>=0;n--)r.push(Math.abs(e[n]-t));return Wr(r)}function Zfe(e){for(var t=lC(e),r=[],n=e.length-1;n>=0;n--)r.push(Math.abs(e[n]-t));return lC(r)}function qfe(e){return As(e)/Wr(e)}function Jfe(e){var t=e.length,r=e.slice().sort(Dd);return[r[Math.round(t/4)-1],r[Math.round(t/2)-1],r[Math.round(t*3/4)-1]]}function Qfe(e,t,r,n){var i=e.slice().sort(Dd),o=[t.length],a=e.length,s,l,u,c,f,h;for(typeof r>"u"&&(r=3/8),typeof n>"u"&&(n=3/8),s=0;s<t.length;s++)l=t[s],u=r+l*(1-r-n),c=a*l+u,f=Math.floor(J7(c,1,a-1)),h=J7(c-f,0,1),o[s]=(1-h)*i[f-1]+h*i[f];return o}function the(e,t,r){var n=e.slice().sort(Dd),i=t*(n.length+(r?1:-1))+(r?0:1),o=parseInt(i),a=i-o;return o+1<n.length?n[o-1]+a*(n[o]-n[o-1]):n[o-1]}function ehe(e,t,r){var n=0,i=e.length,o=!1,a,s;for(r==="strict"&&(o=!0),s=0;s<i;s++)a=e[s],(o&&a<t||!o&&a<=t)&&n++;return n/i}function rhe(e,t){t=t||4;var r=z4(e),n=(V4(e)-r)/t,i=e.length,o=[],a;for(a=0;a<t;a++)o[a]=0;for(a=0;a<i;a++)o[Math.min(Math.floor((e[a]-r)/n),t-1)]+=1;return o}function kY(e,t){var r=Wr(e),n=Wr(t),i=e.length,o=new Array(i),a;for(a=0;a<i;a++)o[a]=(e[a]-r)*(t[a]-n);return jn(o)/(i-1)}function PY(e,t){return kY(e,t)/As(e,1)/As(t,1)}function nhe(e,t){return e=uC(e),t=uC(t),PY(e,t)}function U4(e,t){for(var r=Wr(e),n=As(e),i=e.length,o=0,a=0;a<i;a++)o+=Math.pow((e[a]-r)/n,t);return o/e.length}function ihe(e){return U4(e,3)}function ohe(e){return U4(e,4)-3}const ahe=Object.freeze(Object.defineProperty({__proto__:null,sum:jn,sumsqrd:$fe,sumsqerr:j2,sumrow:Bfe,product:bY,min:z4,max:V4,unique:zfe,mean:Wr,meansqerr:Vfe,geomean:Ufe,median:lC,cumsum:Wfe,cumprod:jfe,diff:Gfe,rank:uC,mode:Hfe,range:Xfe,variance:wY,pooledvariance:SY,deviation:Yfe,stdev:As,pooledstdev:TY,meandev:Kfe,meddev:Zfe,coeffvar:qfe,quartiles:Jfe,quantiles:Qfe,percentile:the,percentileOfScore:ehe,histogram:rhe,covariance:kY,corrcoeff:PY,spearmancoeff:nhe,stanMoment:U4,skewness:ihe,kurtosis:ohe},Symbol.toStringTag,{value:"Module"}));function she(e,t,r){return e<t||e>r?0:1/(r-t)}function lhe(e,t,r){return e<t?0:e<r?(e-t)/(r-t):1}function uhe(e,t,r){return t+e*(r-t)}function che(e,t){return .5*(e+t)}function fhe(e,t){return Wr(e)}function hhe(){throw new Error("mode is not yet implemented")}function EY(e,t){return e/2+t/2+(t/2-e/2)*(2*ro()-1)}function dhe(e,t){return Math.pow(t-e,2)/12}const phe=Object.freeze(Object.defineProperty({__proto__:null,pdf:she,cdf:lhe,inv:uhe,mean:che,median:fhe,mode:hhe,sample:EY,variance:dhe},Symbol.toStringTag,{value:"Module"}));function ghe(e,t,r){return r<=t?NaN:e<=t||e>=r?0:2/Math.PI*Math.pow(Math.pow(r-t,2)-Math.pow(2*e-t-r,2),-.5)}function vhe(e,t,r){return e<t?0:e<r?2/Math.PI*Math.asin(Math.sqrt((e-t)/(r-t))):1}function mhe(e,t,r){return t+(.5-.5*Math.cos(Math.PI*e))*(r-t)}function yhe(e,t){return t<=e?NaN:(e+t)/2}function _he(e,t){return t<=e?NaN:(e+t)/2}function bhe(){throw new Error("mode is not yet implemented")}function whe(e,t){return(e+t)/2+(t-e)/2*Math.sin(2*Math.PI*EY(0,1))}function She(e,t){return t<=e?NaN:Math.pow(t-e,2)/8}const The=Object.freeze(Object.defineProperty({__proto__:null,pdf:ghe,cdf:vhe,inv:mhe,mean:yhe,median:_he,mode:bhe,sample:whe,variance:She},Symbol.toStringTag,{value:"Module"}));function br(e){var t=0,r=[76.18009172947146,-86.50532032941678,24.01409824083091,-1.231739572450155,.001208650973866179,-5395239384953e-18],n=1.000000000190015,i,o,a;for(a=(o=i=e)+5.5,a-=(i+.5)*Math.log(a);t<6;t++)n+=r[t]/++o;return Math.log(2.5066282746310007*n/i)-a}function CY(e){var t,r,n,i,o,a,s,l=[.08333333333333333,-.002777777777777778,.0007936507936507937,-.0005952380952380952,.0008417508417508418,-.001917526917526918,.00641025641025641,-.02955065359477124,.1796443723688307,-1.3924322169059];if(t=e,s=0,e==1||e==2)return 0;for(e<=7&&(s=Math.floor(7-e),t=e+s),r=1/(t*t),n=2*Math.PI,o=l[9],a=8;a>=0;a--)o*=r,o+=l[a];if(i=o/t+.5*Math.log(n)+(t-.5)*Math.log(t)-t,e<=7)for(a=1;a<=s;a++)i-=Math.log(t-1),t-=1;return i}function Oo(e){var t=[-1.716185138865495,24.76565080557592,-379.80425647094563,629.3311553128184,866.9662027904133,-31451.272968848367,-36144.413418691176,66456.14382024054],r=[-30.8402300119739,315.35062697960416,-1015.1563674902192,-3107.771671572311,22538.11842098015,4755.846277527881,-134659.9598649693,-115132.2596755535],n=!1,i=0,o=0,a=0,s=e,l,u,c,f;if(e>171.6243769536076)return 1/0;if(s<=0)if(f=s%1+36e-17,f)n=(s&1?-1:1)*Math.PI/Math.sin(Math.PI*f),s=1-s;else return 1/0;for(c=s,s<1?u=s++:u=(s-=i=(s|0)-1)-1,l=0;l<8;++l)a=(a+t[l])*u,o=o*u+r[l];if(f=a/o+1,c<s)f/=c;else if(c>s)for(l=0;l<i;++l)f*=s,s++;return n&&(f=n/f),f}function khe(e,t){return Nd(e,t)*Oo(e)}function Nd(e,t){var r=br(e),n=e,i=1/e,o=i,a=t+1-e,s=1/1e-30,l=1/a,u=l,c=1,f=-~(Math.log(e>=1?e:1/e)*8.5+e*.4+17),h;if(t<0||e<=0)return NaN;if(t<e+1){for(;c<=f;c++)i+=o*=t/++n;return i*Math.exp(-t+e*Math.log(t)-r)}for(;c<=f;c++)h=-c*(c-e),a+=2,l=h*l+a,s=a+h/s,l=1/l,u*=l*s;return 1-u*Math.exp(-t+e*Math.log(t)-r)}function Gy(e){return e<0?NaN:br(e+1)}function bc(e){return e<0?NaN:Oo(e+1)}function W4(e,t){return e>170||t>170?Math.exp(AY(e,t)):bc(e)/bc(t)/bc(e-t)}function AY(e,t){return Gy(e)-Gy(t)-Gy(e-t)}function Phe(e,t){return bc(e)/bc(e-t)}function G2(e,t){if(!(e<=0||t<=0))return e+t>170?Math.exp(j4(e,t)):Oo(e)*Oo(t)/Oo(e+t)}function j4(e,t){return br(e)+br(t)-br(e+t)}function cC(e,t,r){var n=1e-30,i=1,o=t+r,a=t+1,s=t-1,l=1,u=1-o*e/a,c,f,h,d;for(Math.abs(u)<n&&(u=n),u=1/u,d=u;i<=100&&(c=2*i,f=i*(r-i)*e/((s+c)*(t+c)),u=1+f*u,Math.abs(u)<n&&(u=n),l=1+f/l,Math.abs(l)<n&&(l=n),u=1/u,d*=u*l,f=-(t+i)*(o+i)*e/((t+c)*(a+c)),u=1+f*u,Math.abs(u)<n&&(u=n),l=1+f/l,Math.abs(l)<n&&(l=n),u=1/u,h=u*l,d*=h,!(Math.abs(h-1)<3e-7));i++);return d}function H2(e,t){var r=0,n=t-1,i=1e-8,o=br(t),a,s,l,u,c,f,h;if(e>=1)return Math.max(100,t+100*Math.sqrt(t));if(e<=0)return 0;for(t>1?(f=Math.log(n),h=Math.exp(n*(f-1)-o),c=e<.5?e:1-e,l=Math.sqrt(-2*Math.log(c)),a=(2.30753+l*.27061)/(1+l*(.99229+l*.04481))-l,e<.5&&(a=-a),a=Math.max(.001,t*Math.pow(1-1/(9*t)-a/(3*Math.sqrt(t)),3))):(l=1-t*(.253+t*.12),e<l?a=Math.pow(e/l,1/t):a=1-Math.log(1-(e-l)/(1-l)));r<12;r++){if(a<=0)return 0;if(s=Nd(t,a)-e,t>1?l=h*Math.exp(-(a-n)+n*(Math.log(a)-f)):l=Math.exp(-a+n*Math.log(a)-o),u=s/l,a-=l=u/(1-.5*Math.min(1,u*((t-1)/a-1))),a<=0&&(a=.5*(a+l)),Math.abs(l)<i*a)break}return a}function X2(e){var t=[-1.3026537197817094,.6419697923564902,.019476473204185836,-.00956151478680863,-.000946595344482036,.000366839497852761,42523324806907e-18,-20278578112534e-18,-1624290004647e-18,130365583558e-17,15626441722e-18,-85238095915e-18,6529054439e-18,5059343495e-18,-991364156e-18,-227365122e-18,96467911e-18,2394038e-18,-6886027e-18,894487e-18,313092e-18,-112708e-18,381e-18,7106e-18,-1523e-18,-94e-18,121e-18,-28e-18],r=t.length-1,n=!1,i=0,o=0,a,s,l,u;for(e<0&&(e=-e,n=!0),a=2/(2+e),s=4*a-2;r>0;r--)l=i,i=s*i-o+t[r],o=l;return u=a*Math.exp(-e*e+.5*(t[0]+s*i)-o),n?u-1:1-u}function xY(e){return 1-X2(e)}function G4(e){var t=0,r,n,i,o;if(e>=2)return-100;if(e<=0)return 100;for(o=e<1?e:2-e,i=Math.sqrt(-2*Math.log(o/2)),r=-.70711*((2.30753+i*.27061)/(1+i*(.99229+i*.04481))-i);t<2;t++)n=xY(r)-o,r+=n/(1.1283791670955126*Math.exp(-r*r)-r*n);return e<1?r:-r}function A0(e,t,r){var n=1e-8,i=t-1,o=r-1,a=0,s,l,u,c,f,h,d,p,g,m,v;if(e<=0)return 0;if(e>=1)return 1;for(t>=1&&r>=1?(u=e<.5?e:1-e,c=Math.sqrt(-2*Math.log(u)),d=(2.30753+c*.27061)/(1+c*(.99229+c*.04481))-c,e<.5&&(d=-d),p=(d*d-3)/6,g=2/(1/(2*t-1)+1/(2*r-1)),m=d*Math.sqrt(p+g)/g-(1/(2*r-1)-1/(2*t-1))*(p+5/6-2/(3*g)),d=t/(t+r*Math.exp(2*m))):(s=Math.log(t/(t+r)),l=Math.log(r/(t+r)),c=Math.exp(t*s)/t,f=Math.exp(r*l)/r,m=c+f,e<c/m?d=Math.pow(t*m*e,1/t):d=1-Math.pow(r*m*(1-e),1/r)),v=-br(t)-br(r)+br(t+r);a<10;a++){if(d===0||d===1)return d;if(h=x0(d,t,r)-e,c=Math.exp(i*Math.log(d)+o*Math.log(1-d)+v),f=h/c,d-=c=f/(1-.5*Math.min(1,f*(i/d-o/(1-d)))),d<=0&&(d=.5*(d+c)),d>=1&&(d=.5*(d+c+1)),Math.abs(c)<n*d&&a>0)break}return d}function x0(e,t,r){var n=e===0||e===1?0:Math.exp(br(t+r)-br(t)-br(r)+t*Math.log(e)+r*Math.log(1-e));return e<0||e>1?!1:e<(t+1)/(t+r+2)?n*cC(e,t,r)/t:1-n*cC(1-e,r,t)/r}function cf(e,t){var r,n,i,o,a;if(t||(t=e),e)return Rd(e,t,function(){return cf()});do r=ro(),n=1.7156*(ro()-.5),i=r-.449871,o=Math.abs(n)+.386595,a=i*i+o*(.196*o-.25472*i);while(a>.27597&&(a>.27846||n*n>-4*Math.log(r)*r*r));return n/r}function Fa(e,t,r){var n=e,i,o,a,s,l,u;if(r||(r=t),e||(e=1),t)return u=Va(t,r),u.alter(function(){return Fa(e)}),u;e<1&&(e+=1),i=e-1/3,o=1/Math.sqrt(9*i);do{do l=cf(),s=1+o*l;while(s<=0);s=s*s*s,a=ro()}while(a>1-.331*Math.pow(l,4)&&Math.log(a)>.5*l*l+i*(1-s+Math.log(s)));if(e==n)return i*s;do a=ro();while(a===0);return Math.pow(a,1/n)*i*s}const Ehe=Object.freeze(Object.defineProperty({__proto__:null,gammaln:br,loggam:CY,gammafn:Oo,gammap:khe,lowRegGamma:Nd,factorialln:Gy,factorial:bc,combination:W4,combinationln:AY,permutation:Phe,betafn:G2,betaln:j4,betacf:cC,gammapinv:H2,erf:X2,erfc:xY,erfcinv:G4,ibetainv:A0,ibeta:x0,randn:cf,randg:Fa},Symbol.toStringTag,{value:"Module"}));function Che(e,t,r){return e>1||e<0?0:t==1&&r==1?1:t<512&&r<512?Math.pow(e,t-1)*Math.pow(1-e,r-1)/G2(t,r):Math.exp((t-1)*Math.log(e)+(r-1)*Math.log(1-e)-j4(t,r))}function cb(e,t,r){return e>1||e<0?(e>1)*1:x0(e,t,r)}function Ahe(e,t,r){return A0(e,t,r)}function xhe(e,t){return e/(e+t)}function Mhe(e,t){return A0(.5,e,t)}function Ihe(e,t){return(e-1)/(e+t-2)}function Lhe(e,t){var r=Fa(e);return r/(r+Fa(t))}function Ohe(e,t){return e*t/(Math.pow(e+t,2)*(e+t+1))}const Rhe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Che,cdf:cb,inv:Ahe,mean:xhe,median:Mhe,mode:Ihe,sample:Lhe,variance:Ohe},Symbol.toStringTag,{value:"Module"}));function Q7(e,t,r,n){for(var i=0,o=1,a=1,s=1,l=0,u=0,c;Math.abs((a-u)/a)>n;)u=a,c=-(t+l)*(t+r+l)*e/(t+2*l)/(t+2*l+1),i=a+c*i,o=s+c*o,l=l+1,c=l*(r-l)*e/(t+2*l-1)/(t+2*l),a=i+c*a,s=o+c*s,i=i/s,o=o/s,a=a/s,s=1;return a/t}function MY(e,t,r){return r===0||r===1?t*r===e?1:0:W4(t,e)*Math.pow(r,e)*Math.pow(1-r,t-e)}function Dhe(e,t,r){var n,i=1e-10;if(e<0)return 0;if(e>=t)return 1;if(r<0||r>1||t<=0)return NaN;e=Math.floor(e);var o=r,a=e+1,s=t-e,l=a+s,u=Math.exp(br(l)-br(s)-br(a)+a*Math.log(o)+s*Math.log(1-o));return o<(a+1)/(l+2)?n=u*Q7(o,a,s,i):n=1-u*Q7(1-o,s,a,i),Math.round((1-n)*(1/i))/(1/i)}const Nhe=Object.freeze(Object.defineProperty({__proto__:null,pdf:MY,cdf:Dhe},Symbol.toStringTag,{value:"Module"}));function Fhe(e,t,r){return r<0?0:r/(Math.pow(e-t,2)+Math.pow(r,2))/Math.PI}function $he(e,t,r){return Math.atan((e-t)/r)/Math.PI+.5}function Bhe(e,t,r){return t+r*Math.tan(Math.PI*(e-.5))}function zhe(e){return e}function Vhe(e){return e}function Uhe(e,t){return cf()*Math.sqrt(1/(2*randg(.5)))*t+e}const Whe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Fhe,cdf:$he,inv:Bhe,median:zhe,mode:Vhe,sample:Uhe},Symbol.toStringTag,{value:"Module"}));function jhe(e,t,r){var n,i,o;return e<0?0:t<=2?e===0&&t<2?1/0:e===0&&t===2?1:1/G2(t/2,r/2)*Math.pow(t/r,t/2)*Math.pow(e,t/2-1)*Math.pow(1+t/r*e,-(t+r)/2):(n=t*e/(r+e*t),i=r/(r+e*t),o=t*i/2,o*MY((t-2)/2,(t+r-2)/2,n))}function fb(e,t,r){return e<0?0:x0(t*e/(t*e+r),t/2,r/2)}function Ghe(e,t,r){return r/(t*(1/A0(e,t/2,r/2)-1))}function Hhe(e,t){return t>2?t/(t-2):void 0}function Xhe(e,t){return e>2?t*(e-2)/(e*(t+2)):void 0}function Yhe(e,t){var r=Fa(e/2)*2,n=Fa(t/2)*2;return r/e/(n/t)}function Khe(e,t){if(!(t<=4))return 2*t*t*(e+t-2)/(e*(t-2)*(t-2)*(t-4))}const Zhe=Object.freeze(Object.defineProperty({__proto__:null,pdf:jhe,cdf:fb,inv:Ghe,mean:Hhe,mode:Xhe,sample:Yhe,variance:Khe},Symbol.toStringTag,{value:"Module"}));function qhe(e,t){return e<0?0:e===0&&t===2?.5:Math.exp((t/2-1)*Math.log(e)-e/2-t/2*Math.log(2)-br(t/2))}function Jhe(e,t){return e<0?0:Nd(t/2,e/2)}function Qhe(e,t){return 2*H2(e,.5*t)}function tde(e){return e}function ede(e){return e*Math.pow(1-2/(9*e),3)}function rde(e){return e-2>0?e-2:0}function nde(e){return Fa(e/2)*2}function ide(e){return 2*e}const ode=Object.freeze(Object.defineProperty({__proto__:null,pdf:qhe,cdf:Jhe,inv:Qhe,mean:tde,median:ede,mode:rde,sample:nde,variance:ide},Symbol.toStringTag,{value:"Module"}));function ade(e,t){return e<0?0:t*Math.exp(-t*e)}function sde(e,t){return e<0?0:1-Math.exp(-t*e)}function lde(e,t){return-Math.log(1-e)/t}function ude(e){return 1/e}function cde(e){return 1/e*Math.log(2)}function fde(){return 0}function hde(e){return-1/e*Math.log(ro())}function dde(e){return Math.pow(e,-2)}const pde=Object.freeze(Object.defineProperty({__proto__:null,pdf:ade,cdf:sde,inv:lde,mean:ude,median:cde,mode:fde,sample:hde,variance:dde},Symbol.toStringTag,{value:"Module"}));function gde(e,t,r){return e<0?0:e===0&&t===1?1/r:Math.exp((t-1)*Math.log(e)-e/r-br(t)-t*Math.log(r))}function vde(e,t,r){return e<0?0:Nd(t,e/r)}function mde(e,t,r){return H2(e,t)*r}function yde(e,t){return e*t}function _de(e,t){if(e>1)return(e-1)*t}function bde(e,t){return Fa(e)*t}function wde(e,t){return e*t*t}const Sde=Object.freeze(Object.defineProperty({__proto__:null,pdf:gde,cdf:vde,inv:mde,mean:yde,mode:_de,sample:bde,variance:wde},Symbol.toStringTag,{value:"Module"}));function ug(e,t,r,n){if(e!==e|0)return!1;if(e<0||e<r-(t-n))return 0;if(e>n||e>r)return 0;if(r*2>t)return n*2>t?ug(t-r-n+e,t,t-r,t-n):ug(n-e,t,t-r,n);if(n*2>t)return ug(r-e,t,r,t-n);if(r<n)return ug(e,t,n,r);for(var i=1,o=0,a=0;a<e;a++){for(;i>1&&o<n;)i*=1-r/(t-o),o++;i*=(n-a)*(r-a)/((a+1)*(t-r-n+a+1))}for(;o<n;o++)i*=1-r/(t-o);return Math.min(1,Math.max(0,i))}function cg(e,t,r,n){if(e<0||e<r-(t-n))return 0;if(e>=n||e>=r)return 1;if(r*2>t)return n*2>t?cg(t-r-n+e,t,t-r,t-n):1-cg(n-e-1,t,t-r,n);if(n*2>t)return 1-cg(r-e-1,t,r,t-n);if(r<n)return cg(e,t,n,r);for(var i=1,o=1,a=0,s=0;s<e;s++){for(;i>1&&a<n;){var l=1-r/(t-a);o*=l,i*=l,a++}o*=(n-s)*(r-s)/((s+1)*(t-r-n+s+1)),i+=o}for(;a<n;a++)i*=1-r/(t-a);return Math.min(1,Math.max(0,i))}const Tde=Object.freeze(Object.defineProperty({__proto__:null,pdf:ug,cdf:cg},Symbol.toStringTag,{value:"Module"}));function kde(e,t,r){return e<=0?0:Math.exp(-(t+1)*Math.log(e)-r/e-br(t)+t*Math.log(r))}function Pde(e,t,r){return e<=0?0:1-Nd(t,r/e)}function Ede(e,t,r){return r/H2(1-e,t)}function Cde(e,t){return e>1?t/(e-1):void 0}function Ade(e,t){return t/(e+1)}function xde(e,t){return t/Fa(e)}function Mde(e,t){if(!(e<=2))return t*t/((e-1)*(e-1)*(e-2))}const Ide=Object.freeze(Object.defineProperty({__proto__:null,pdf:kde,cdf:Pde,inv:Ede,mean:Cde,mode:Ade,sample:xde,variance:Mde},Symbol.toStringTag,{value:"Module"}));function Lde(e,t,r){return e===0&&t===1?r:e===1&&r===1?t:Math.exp(Math.log(t)+Math.log(r)+(t-1)*Math.log(e)+(r-1)*Math.log(1-Math.pow(e,t)))}function Ode(e,t,r){return e<0?0:e>1?1:1-Math.pow(1-Math.pow(e,t),r)}function Rde(e,t,r){return Math.pow(1-Math.pow(1-e,1/r),1/t)}function Dde(e,t){return t*Oo(1+1/e)*Oo(t)/Oo(1+1/e+t)}function Nde(e,t){return Math.pow(1-Math.pow(2,-1/t),1/e)}function Fde(e,t){if(e>=1&&t>=1&&e!==1&&t!==1)return Math.pow((e-1)/(e*t-1),1/e)}function $de(){throw new Error("variance not yet implemented")}const Bde=Object.freeze(Object.defineProperty({__proto__:null,pdf:Lde,cdf:Ode,inv:Rde,mean:Dde,median:Nde,mode:Fde,variance:$de},Symbol.toStringTag,{value:"Module"}));function zde(e){return e/Math.abs(e)}function Vde(e,t,r){return r<=0?0:Math.exp(-Math.abs(e-t)/r)/(2*r)}function Ude(e,t,r){return r<=0?0:e<t?.5*Math.exp((e-t)/r):1-.5*Math.exp(-(e-t)/r)}function Wde(e){return e}function jde(e){return e}function Gde(e){return e}function Hde(e,t){return 2*t*t}function Xde(e,t){var r=ro()-.5;return e-t*zde(r)*Math.log(1-2*Math.abs(r))}const Yde=Object.freeze(Object.defineProperty({__proto__:null,pdf:Vde,cdf:Ude,mean:Wde,median:jde,mode:Gde,variance:Hde,sample:Xde},Symbol.toStringTag,{value:"Module"}));function Kde(e,t,r){return e<=0?0:Math.exp(-Math.log(e)-.5*Math.log(2*Math.PI)-Math.log(r)-Math.pow(Math.log(e)-t,2)/(2*r*r))}function Zde(e,t,r){return e<0?0:.5+.5*X2((Math.log(e)-t)/Math.sqrt(2*r*r))}function qde(e,t,r){return Math.exp(-1.4142135623730951*r*G4(2*e)+t)}function Jde(e,t){return Math.exp(e+t*t/2)}function Qde(e){return Math.exp(e)}function tpe(e,t){return Math.exp(e-t*t)}function epe(e,t){return Math.exp(cf()*t+e)}function rpe(e,t){return(Math.exp(t*t)-1)*Math.exp(2*e+t*t)}const npe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Kde,cdf:Zde,inv:qde,mean:Jde,median:Qde,mode:tpe,sample:epe,variance:rpe},Symbol.toStringTag,{value:"Module"}));function IY(e,t,r){return e!==e>>>0?!1:e<0?0:W4(e+t-1,t-1)*Math.pow(1-r,e)*Math.pow(r,t)}function ipe(e,t,r){var n=0,i=0;if(e<0)return 0;for(;i<=e;i++)n+=IY(i,t,r);return n}const ope=Object.freeze(Object.defineProperty({__proto__:null,pdf:IY,cdf:ipe},Symbol.toStringTag,{value:"Module"}));function LY(e,t){return t=t>1e100?1e100:t,1/(Math.sqrt(t)*G2(.5,t/2))*Math.pow(1+e*e/t,-((t+1)/2))}function as(e,t){var r=t/2;return x0((e+Math.sqrt(e*e+t))/(2*Math.sqrt(e*e+t)),r,r)}function hb(e,t){var r=A0(2*Math.min(e,1-e),.5*t,.5);return r=Math.sqrt(t*(1-r)/r),e>.5?r:-r}function ape(e){return e>1?0:void 0}function spe(){return 0}function lpe(){return 0}function upe(e){return cf()*Math.sqrt(e/(2*Fa(e/2)))}function cpe(e){return e>2?e/(e-2):e>1?1/0:void 0}const fpe=Object.freeze(Object.defineProperty({__proto__:null,pdf:LY,cdf:as,inv:hb,mean:ape,median:spe,mode:lpe,sample:upe,variance:cpe},Symbol.toStringTag,{value:"Module"}));function hpe(e,t,r){return Math.exp(-.5*Math.log(2*Math.PI)-Math.log(r)-Math.pow(e-t,2)/(2*r*r))}function To(e,t,r){return .5*(1+X2((e-t)/Math.sqrt(2*r*r)))}function fC(e,t,r){return-1.4142135623730951*r*G4(2*e)+t}function dpe(e){return e}function ppe(e){return e}function gpe(e){return e}function vpe(e,t){return cf()*t+e}function mpe(e,t){return t*t}const ype=Object.freeze(Object.defineProperty({__proto__:null,pdf:hpe,cdf:To,inv:fC,mean:dpe,median:ppe,mode:gpe,sample:vpe,variance:mpe},Symbol.toStringTag,{value:"Module"}));function _pe(e,t,r){var n=1e-14;return Math.abs(r)<n?LY(e,t):Math.abs(e)<n?Math.exp(br((t+1)/2)-r*r/2-.5*Math.log(Math.PI*t)-br(t/2)):t/e*(hC(e*Math.sqrt(1+2/t),t+2,r)-hC(e,t,r))}function hC(e,t,r){var n=1e-14,i=200;if(Math.abs(r)<n)return as(e,t);var o=!1;e<0&&(o=!0,r=-r);for(var a=To(-r,0,1),s=n+1,l=s,u=e*e/(e*e+t),c=0,f=Math.exp(-r*r/2),h=Math.exp(-r*r/2-.5*Math.log(2)-br(3/2))*r;c<i||l>n||s>n;)l=s,c>0&&(f*=r*r/(2*c),h*=r*r/(2*(c+1/2))),s=f*cb(u,c+.5,t/2)+h*cb(u,c+1,t/2),a+=.5*s,c++;return o?1-a:a}const bpe=Object.freeze(Object.defineProperty({__proto__:null,pdf:_pe,cdf:hC},Symbol.toStringTag,{value:"Module"}));function wpe(e,t,r){return e<t?0:r*Math.pow(t,r)/Math.pow(e,r+1)}function Spe(e,t,r){return e<t?0:1-Math.pow(t/e,r)}function Tpe(e,t,r){return t/Math.pow(1-e,1/r)}function kpe(e,t){if(!(t<=1))return t*Math.pow(e,t)/(t-1)}function Ppe(e,t){return e*(t*Math.SQRT2)}function Epe(e){return e}function Cpe(e,t){if(!(t<=2))return e*e*t/(Math.pow(t-1,2)*(t-2))}const Ape=Object.freeze(Object.defineProperty({__proto__:null,pdf:wpe,cdf:Spe,inv:Tpe,mean:kpe,median:Ppe,mode:Epe,variance:Cpe},Symbol.toStringTag,{value:"Module"}));function gt(...e){return new gt._init(...e)}gt._init=function(...e){if(Na(e[0]))if(Na(e[0][0])){Vv(e[1])&&(e[0]=Wn(e[0],e[1]));for(let t=0;t<e[0].length;t++)this[t]=e[0][t];this.length=e[0].length}else this[0]=Vv(e[1])?Wn(e[0],e[1]):e[0],this.length=1;else if(hn(e[0]))this[0]=_Y.apply(null,e),this.length=1;else{if(e[0]instanceof gt)return gt(e[0].toArray());this[0]=[],this.length=1}return this};gt._init.prototype=gt.prototype;gt._init.constructor=gt;gt.setRandom=pY;const ai=gt.prototype;ai.length=0;ai.push=Array.prototype.push;ai.sort=Array.prototype.sort;ai.splice=Array.prototype.splice;ai.slice=Array.prototype.slice;ai.toArray=function(){return this.length>1?this.slice():this.slice()[0]};ai.map=function(e,t){return gt(Wn(this,e,t))};ai.cumreduce=function(e,t){return gt(U2(this,e,t))};ai.alter=function(e){return B4(this,e),this};"transpose clear symmetric rows cols dimensions diag antidiag".split(" ").forEach(e=>{ai[e]=function(t){if(t)return t.call(this,ai[e].call(this)),this;const r=gt[e](this);return Array.isArray(r)?gt(r):r}});"row col".split(" ").forEach(e=>{ai[e]=function(t,r){return r?(r.call(this,ai[e].call(this,t)),this):gt(gt[e](this,t))}});"create zeros ones rand identity".split(" ").forEach(e=>{ai[e]=function(...t){return gt(gt[e](...t))}});function OY(e,t){return t<0||e%1!==0||e<0?0:Math.pow(t,e)*Math.exp(-t)/bc(e)}function xpe(e,t){var r=[],n=0;if(e<0)return 0;for(;n<=e;n++)r.push(OY(n,t));return jn(r)}function Mpe(e){return e}function Ipe(e){return e}function Lpe(e){var t=1,r=0,n=Math.exp(-e);do r++,t*=gt._random_fn();while(t>n);return r-1}function Ope(e){var t=e,r,n,i,o,a,s,l,u,c,f;for(o=Math.sqrt(t),a=Math.log(t),l=.931+2.53*o,s=-.059+.02483*l,u=1.1239+1.1328/(l-3.4),c=.9277-3.6224/(l-2);;){if(n=Math.random()-.5,i=Math.random(),f=.5-Math.abs(n),r=Math.floor((2*s/f+l)*n+t+.43),f>=.07&&i<=c)return r;if(!(r<0||f<.013&&i>f)&&Math.log(i)+Math.log(u)-Math.log(s/(f*f)+l)<=-t+r*a-CY(r+1))return r}}function Rpe(e){return e<10?Lpe(e):Ope(e)}const Dpe=Object.freeze(Object.defineProperty({__proto__:null,pdf:OY,cdf:xpe,mean:Mpe,variance:Ipe,sample:Rpe},Symbol.toStringTag,{value:"Module"}));function Npe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<t||e>r?0:e<n?2*(e-t)/((r-t)*(n-t)):e===n?2/(r-t):2*(r-e)/((r-t)*(r-n))}function Fpe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<=t?0:e>=r?1:e<=n?Math.pow(e-t,2)/((r-t)*(n-t)):1-Math.pow(r-e,2)/((r-t)*(r-n))}function $pe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<=(n-t)/(r-t)?t+(r-t)*Math.sqrt(e*((n-t)/(r-t))):t+(r-t)*(1-Math.sqrt((1-e)*(1-(n-t)/(r-t))))}function Bpe(e,t,r){return(e+t+r)/3}function zpe(e,t,r){if(r<=(e+t)/2)return t-Math.sqrt((t-e)*(t-r))/Math.sqrt(2);if(r>(e+t)/2)return e+Math.sqrt((t-e)*(r-e))/Math.sqrt(2)}function Vpe(e,t,r){return r}function Upe(e,t,r){var n=ro();return n<(r-e)/(t-e)?e+Math.sqrt(n*(t-e)*(r-e)):t-Math.sqrt((1-n)*(t-e)*(t-r))}function Wpe(e,t,r){return(e*e+t*t+r*r-e*t-e*r-t*r)/18}const jpe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Npe,cdf:Fpe,inv:$pe,mean:Bpe,median:zpe,mode:Vpe,sample:Upe,variance:Wpe},Symbol.toStringTag,{value:"Module"}));function tF(e,t,r){var n=12,i=6,o=-30,a=-50,s=60,l=8,u=3,c=2,f=3,h=[.9815606342467192,.9041172563704749,.7699026741943047,.5873179542866175,.3678314989981802,.1252334085114689],d=[.04717533638651183,.10693932599531843,.16007832854334622,.20316742672306592,.2334925365383548,.24914704581340277],p=e*.5;if(p>=l)return 1;var g=2*To(p,0,1)-1;g>=Math.exp(a/r)?g=Math.pow(g,r):g=0;var m;e>u?m=c:m=f;for(var v=p,y=(l-p)/m,b=v+y,w=0,T=r-1,S=1;S<=m;S++){for(var k=0,E=.5*(b+v),P=.5*(b-v),C=1;C<=n;C++){var A,L;i<C?(A=n-C+1,L=h[A-1]):(A=C,L=-h[A-1]);var R=P*L,D=E+R,$=D*D;if($>s)break;var z=2*To(D,0,1),Y=2*To(D,e,1),K=z*.5-Y*.5;K>=Math.exp(o/T)&&(K=d[A-1]*Math.exp(-(.5*$))*Math.pow(K,T),k+=K)}k*=2*P*r/Math.sqrt(2*Math.PI),w+=k,v=b,b+=y}return g+=w,g<=Math.exp(o/t)?0:(g=Math.pow(g,t),g>=1?1:g)}function Gpe(e,t,r){var n=.322232421088,i=.099348462606,o=-1,a=.588581570495,s=-.342242088547,l=.531103462366,u=-.204231210125,c=.10353775285,f=-453642210148e-16,h=.0038560700634,d=.8832,p=.2368,g=1.214,m=1.208,v=1.4142,y=120,b=.5-.5*e,w=Math.sqrt(Math.log(1/(b*b))),T=w+((((w*f+u)*w+s)*w+o)*w+n)/((((w*h+c)*w+l)*w+a)*w+i);r<y&&(T+=(T*T*T+T)/r/4);var S=d-p*T;return r<y&&(S+=-g/r+m*T/r),T*(S*Math.log(t-1)+v)}function Qg(e,t,r){var n=1,i=t,o=16,a=8,s=-30,l=1e-14,u=100,c=800,f=5e3,h=25e3,d=1,p=.5,g=.25,m=.125,v=[.9894009349916499,.9445750230732326,.8656312023878318,.755404408355003,.6178762444026438,.45801677765722737,.2816035507792589,.09501250983763744],y=[.027152459411754096,.062253523938647894,.09515851168249279,.12462897125553388,.14959598881657674,.16915651939500254,.18260341504492358,.1894506104550685];if(e<=0)return 0;if(r<2||n<1||i<2)return NaN;if(!Number.isFinite(e))return 1;if(r>h)return tF(e,n,i);var b=r*.5,w=b*Math.log(r)-r*Math.log(2)-br(b),T=b-1,S=r*.25,k;r<=u?k=d:r<=c?k=p:r<=f?k=g:k=m,w+=Math.log(k);for(var E=0,P=1;P<=50;P++){for(var C=0,A=(2*P-1)*k,L=1;L<=o;L++){var R,D;a<L?(R=L-a-1,D=w+T*Math.log(A+v[R]*k)-(v[R]*k+A)*S):(R=L-1,D=w+T*Math.log(A-v[R]*k)+(v[R]*k-A)*S);var $;if(D>=s){a<L?$=e*Math.sqrt((v[R]*k+A)*.5):$=e*Math.sqrt((-(v[R]*k)+A)*.5);var z=tF($,n,i),Y=z*y[R]*Math.exp(D);C+=Y}}if(P*k>=1&&C<=l)break;E+=C}if(C>l)throw new Error("tukey.cdf failed to converge");return E>1&&(E=1),E}function Hpe(e,t,r){var n=1,i=t,o=1e-4,a=50;if(r<2||n<1||i<2)return NaN;if(e<0||e>1)return NaN;if(e===0)return 0;if(e===1)return 1/0;var s=Gpe(e,i,r),l=Qg(s,t,r)-e,u;l>0?u=Math.max(0,s-1):u=s+1;for(var c=Qg(u,t,r)-e,f,h=1;h<a;h++){f=u-c*(u-s)/(c-l),l=c,s=u,f<0&&(f=0,c=-e),c=Qg(f,t,r)-e,u=f;var d=Math.abs(u-s);if(d<o)return f}throw new Error("tukey.inv failed to converge")}const Xpe=Object.freeze(Object.defineProperty({__proto__:null,cdf:Qg,inv:Hpe},Symbol.toStringTag,{value:"Module"}));function Ype(e,t,r){return e<0||t<0||r<0?0:r/t*Math.pow(e/t,r-1)*Math.exp(-Math.pow(e/t,r))}function Kpe(e,t,r){return e<0?0:1-Math.exp(-Math.pow(e/t,r))}function Zpe(e,t,r){return t*Math.pow(-Math.log(1-e),1/r)}function RY(e,t){return e*Oo(1+1/t)}function qpe(e,t){return e*Math.pow(Math.log(2),1/t)}function Jpe(e,t){return t<=1?0:e*Math.pow((t-1)/t,1/t)}function Qpe(e,t){return e*Math.pow(-Math.log(ro()),1/t)}function tge(e,t){return e*e*Oo(1+2/t)-Math.pow(RY(e,t),2)}const ege=Object.freeze(Object.defineProperty({__proto__:null,pdf:Ype,cdf:Kpe,inv:Zpe,mean:RY,median:qpe,mode:Jpe,sample:Qpe,variance:tge},Symbol.toStringTag,{value:"Module"})),rge=Object.freeze(Object.defineProperty({__proto__:null,arcsine:The,beta:Rhe,binomial:Nhe,cauchy:Whe,centralF:Zhe,chisquare:ode,exponential:pde,gamma:Sde,hypgeom:Tde,invgamma:Ide,kumaraswamy:Bde,laplace:Yde,lognormal:npe,negbin:ope,noncentralt:bpe,normal:ype,pareto:Ape,poisson:Dpe,studentt:fpe,triangular:jpe,tukey:Xpe,uniform:phe,weibull:ege},Symbol.toStringTag,{value:"Module"}));function dC(){const e=[...arguments];return hn(e[1])?(e[0]-e[1])/e[2]:(e[0]-Wr(e[1]))/As(e[1],e[2])}function H4(){const e=[...arguments];let t;return Na(e[1])?(t=dC(e[0],e[1],e[3]),e[2]===1?To(-Math.abs(t),0,1):To(-Math.abs(t),0,1)*2):e.length>2?(t=dC(e[0],e[1],e[2]),e[3]===1?To(-Math.abs(t),0,1):To(-Math.abs(t),0,1)*2):(t=e[0],e[1]===1?To(-Math.abs(t),0,1):To(-Math.abs(t),0,1)*2)}function pC(){const e=[...arguments];return e.length===4?(e[0]-e[1])/(e[2]/Math.sqrt(e[3])):(e[0]-Wr(e[1]))/(As(e[1],!0)/Math.sqrt(e[1].length))}function nge(){const e=[...arguments];let t;return e.length===5?(t=Math.abs(pC(e[0],e[1],e[2],e[3])),e[4]===1?as(-t,e[3]-1):as(-t,e[3]-1)*2):hn(e[1])?(t=Math.abs(e[0]),e[2]===1?as(-t,e[1]-1):as(-t,e[1]-1)*2):(t=Math.abs(pC(e[0],e[1])),e[2]===1?as(-t,e[1].length-1):as(-t,e[1].length-1)*2)}function ige(){var e=[...arguments],t,r,n,i,o,a,s,l;if(e.length===1){for(o=new Array(e[0].length),s=0;s<e[0].length;s++)o[s]=e[0][s];e=o}for(r=[],s=0;s<e.length;s++)r=r.concat(e[s]);for(n=Wr(r),t=0,s=0;s<e.length;s++)t=t+e[s].length*Math.pow(Wr(e[s])-n,2);for(t/=e.length-1,a=0,s=0;s<e.length;s++)for(i=Wr(e[s]),l=0;l<e[s].length;l++)a+=Math.pow(e[s][l]-i,2);return a/=r.length-e.length,t/a}function oge(){var e=[...arguments],t,r,n,i;if(hn(e[0]))return 1-fb(e[0],e[1],e[2]);var o=o(e);for(t=e.length-1,n=0,i=0;i<e.length;i++)n=n+e[i].length;return r=n-t-1,1-fb(o,t,r)}function age(e,t,r){return 1-fb(e,t,r)}function gC(){var e=[...arguments],t,r,n,i,o;return hn(e[0])?(t=e[0],r=e[1],n=e[2],i=e[3],o=e[4]):(t=Wr(e[0]),r=Wr(e[1]),n=e[0].length,i=e[1].length,o=e[2]),Math.abs(t-r)/(o*Math.sqrt((1/n+1/i)/2))}function DY(){var e=[...arguments],t;e.length===3?(t=e[0],e=e.slice(1)):e.length===7?(t=gC(e[0],e[1],e[2],e[3],e[4]),e=e.slice(5)):(t=gC(e[0],e[1],e[2]),e=e.slice(3));var r=e[0],n=e[1];return 1-Qg(t,n,r-n)}function sge(e){for(var t=TY(e),r=e.map(l=>Wr(l)),n=e.reduce((l,u)=>l+u.length,0),i=[],o=0;o<e.length;++o)for(var a=o+1;a<e.length;++a){var s=DY(r[o],r[a],e[o].length,e[a].length,t,n,e.length);i.push([[o,a],s])}return i}function lge(){const e=[...arguments],t=new Array(2);let r;return e.length===4?r=Math.abs(fC(e[1]/2,0,1)*e[2]/Math.sqrt(e[3])):r=Math.abs(fC(e[1]/2,0,1)*As(e[2])/Math.sqrt(e[2].length)),t[0]=e[0]-r,t[1]=e[0]+r,t}function uge(){const e=[...arguments],t=new Array(2);let r;return e.length===4?r=Math.abs(hb(e[1]/2,e[3]-1)*e[2]/Math.sqrt(e[3])):r=Math.abs(hb(e[1]/2,e[2].length-1)*As(e[2],!0)/Math.sqrt(e[2].length)),t[0]=e[0]-r,t[1]=e[0]+r,t}function cge(e,t){return e<t}function NY(e,t,r,n){if(e>1||r>1||e<=0||r<=0)throw new Error("Proportions should be greater than 0 and less than 1");var i=(e*t+r*n)/(t+n),o=Math.sqrt(i*(1-i)*(1/t+1/n));return(e-r)/o}function fge(e,t,r,n){const i=NY(e,t,r,n);return H4(i,1)}function hge(e,t,r,n){const i=NY(e,t,r,n);return H4(i,2)}const dge=Object.freeze(Object.defineProperty({__proto__:null,zscore:dC,ztest:H4,tscore:pC,ttest:nge,anovafscore:ige,anovaftest:oge,ftest:age,qscore:gC,qtest:DY,tukeyhsd:sge,normalci:lge,tci:uge,significant:cge,oneSidedDifferenceOfProportions:fge,twoSidedDifferenceOfProportions:hge},Symbol.toStringTag,{value:"Module"}));function $o(e){return Na(e)||e.constructor.name==="jStat"}function ei(e,t){return $o(t)?($o(t[0])||(t=[t]),Wn(e,function(r,n,i){return r+t[n][i]})):Wn(e,function(r){return r+t})}function Fc(e,t){return $o(t)?($o(t[0])||(t=[t]),Wn(e,function(r,n,i){return r-t[n][i]||0})):Wn(e,function(r){return r-t})}function vC(e,t){return $o(t)?($o(t[0])||(t=[t]),ke(e,$a(t))):Wn(e,function(r){return r/t})}function ke(e,t){let r,n;if(e.length===void 0&&t.length===void 0)return e*t;const i=e.length,o=e[0].length,a=Va(i,r=$o(t)?t[0].length:o);let s=0;if($o(t)){for(;s<r;s++)for(let l=0;l<i;l++){n=0;for(let u=0;u<o;u++)n+=e[l][u]*t[u][s];a[l][s]=n}return i===1&&s===1?a[0][0]:a}return Wn(e,function(l){return l*t})}function pge(e,t){return ke(e.map(r=>[r]),[t])}function db(e,t){$o(e[0])||(e=[e]),$o(t[0])||(t=[t]);var r=e[0].length===1&&e.length!==1?Fl(e):e,n=t[0].length===1&&t.length!==1?Fl(t):t,i=[],o=r.length,a=r[0].length,s,l;for(let u=0;u<o;u++){for(i[u]=[],s=0,l=0;l<a;l++)s+=r[u][l]*n[u][l];i[u]=s}return i.length===1?i[0]:i}function mC(e,t){return Wn(e,r=>Math.pow(r,t))}function gge(e){return Wn(e,t=>Math.exp(t))}function vge(e){return Wn(e,t=>Math.log(t))}function mge(e){return Wn(e,t=>Math.abs(t))}function ed(e,t){var r=0,n=0;for(isNaN(t)&&(t=2),$o(e[0])&&(e=e[0]);n<e.length;n++)r+=Math.pow(Math.abs(e[n]),t);return Math.pow(r,1/t)}function yge(e,t){return Math.acos(db(e,t)/(ed(e)*ed(t)))}function X4(e,t){var r=[],n;for(n=0;n<e.length;n++)r.push(e[n].slice());for(n=0;n<r.length;n++)Array.prototype.push.apply(r[n],t[n]);return r}function $a(e){for(var t=e.length,r=e[0].length,n=Nc(t,r),i=FY(e,n),o=[],a=0,s;a<t;a++)for(o[a]=[],s=r;s<i[0].length;s++)o[a][s-r]=i[a][s];return o}function _ge(e){var t=e.length,r=t*2,n=new Array(r),i=t-1,o=r-1,a=i-t+1,s=o,l=0,u=0,c;if(t===2)return e[0][0]*e[1][1]-e[0][1]*e[1][0];for(;l<r;l++)n[l]=1;for(l=0;l<t;l++){for(c=0;c<t;c++)n[a<0?a+t:a]*=e[l][c],n[s<t?s+t:s]*=e[l][c],a++,s--;a=--i-t+1,s=--o}for(l=0;l<t;l++)u+=n[l];for(;l<r;l++)u-=n[l];return u}function bge(e,t){var r=0,n=0,i=e.length,o=e[0].length,a=1,s=0,l=[],u,c,f,h;for(e=X4(e,t),u=e[0].length,r=0;r<i;r++){for(c=e[r][r],n=r,h=r+1;h<o;h++)c<Math.abs(e[h][r])&&(c=e[h][r],n=h);if(n!=r)for(h=0;h<u;h++)f=e[r][h],e[r][h]=e[n][h],e[n][h]=f;for(n=r+1;n<i;n++)for(a=e[n][r]/e[r][r],h=r;h<u;h++)e[n][h]=e[n][h]-a*e[r][h]}for(r=i-1;r>=0;r--){for(s=0,n=r+1;n<=i-1;n++)s=s+l[n]*e[r][n];l[r]=(e[r][u-1]-s)/e[r][r]}return l}function FY(e,t){var r=X4(e,t),n=r.length,i=r[0].length,o=0,a,s,l;for(s=0;s<n;s++){var u=s;for(l=s+1;l<n;l++)Math.abs(r[l][s])>Math.abs(r[u][s])&&(u=l);var c=r[s];for(r[s]=r[u],r[u]=c,l=s+1;l<n;l++)for(o=r[l][s]/r[s][s],a=s;a<i;a++)r[l][a]-=r[s][a]*o}for(s=n-1;s>=0;s--){for(o=r[s][s],l=0;l<s;l++)for(a=i-1;a>s-1;a--)r[l][a]-=r[s][a]*r[l][s]/o;for(r[s][s]/=o,a=n;a<i;a++)r[s][a]/=o}return r}function wge(e,t){var r=e[0].length,n=Va(1,r)[0],i,o=!1;return t[0].length!=null&&(t=t.map(function(a){return a[0]}),o=!0),rr(r-1,-1,-1).forEach(function(a){i=rr(a+1,r).map(function(s){return n[s]*e[a][s]}),n[a]=(t[a]-jn(i))/e[a][a]}),o?n.map(function(a){return[a]}):n}function Sge(e,t){var r=e[0].length,n=Va(1,r)[0],i,o=!1;return t[0].length!=null&&(t=t.map(function(a){return a[0]}),o=!0),rr(r).forEach(function(a){i=rr(a).map(function(s){return e[a][s]*n[s]}),n[a]=(t[a]-jn(i))/e[a][a]}),o?n.map(function(a){return[a]}):n}function Tge(e){var t=e.length,r=Nc(t),n=Va(e.length,e[0].length),i;return rr(t).forEach(function(o){n[0][o]=e[0][o]}),rr(1,t).forEach(function(o){rr(o).forEach(function(a){i=rr(a).map(function(s){return r[o][s]*n[s][a]}),r[o][a]=(e[o][a]-jn(i))/n[a][a]}),rr(o,t).forEach(function(a){i=rr(o).map(function(s){return r[o][s]*n[s][a]}),n[o][a]=e[i.length][a]-jn(i)})}),[r,n]}function kge(e){var t=e.length,r=Va(e.length,e[0].length),n;return rr(t).forEach(function(i){n=rr(i).map(function(o){return Math.pow(r[i][o],2)}),r[i][i]=Math.sqrt(e[i][i]-jn(n)),rr(i+1,t).forEach(function(o){n=rr(i).map(function(a){return r[i][a]*r[o][a]}),r[o][i]=(e[i][o]-jn(n))/r[i][i]})}),r}function Pge(e,t,r,n){for(var i=0,o=0,a=e.length,s=[],l=[],u=[],c,f,h,d;i<a;i++)for(s[i]=[],l[i]=[],u[i]=[],o=0;o<a;o++)i>o?(s[i][o]=e[i][o],l[i][o]=u[i][o]=0):i<o?(l[i][o]=e[i][o],s[i][o]=u[i][o]=0):(u[i][o]=e[i][o],s[i][o]=l[i][o]=0);for(h=ke(ke($a(u),ei(s,l)),-1),f=ke($a(u),t),c=r,d=ei(ke(h,r),f),i=2;Math.abs(ed(Fc(d,c)))>n;)c=d,d=ei(ke(h,c),f),i++;return d}function Ege(e,t,r,n){for(var i=0,o=e.length,a=[],s=[],l=[],u,c,f,h,d;i<o;i++)for(a[i]=[],s[i]=[],l[i]=[],u=0;u<o;u++)i>u?(a[i][u]=e[i][u],s[i][u]=l[i][u]=0):i<u?(s[i][u]=e[i][u],a[i][u]=l[i][u]=0):(l[i][u]=e[i][u],a[i][u]=s[i][u]=0);for(h=ke(ke($a(ei(l,a)),s),-1),f=ke($a(ei(l,a)),t),c=r,d=ei(ke(h,r),f),i=2;Math.abs(ed(Fc(d,c)))>n;)c=d,d=ei(ke(h,c),f),i=i+1;return d}function Cge(e,t,r,n,i){for(var o=0,a=e.length,s=[],l=[],u=[],c,f,h,d,p;o<a;o++)for(s[o]=[],l[o]=[],u[o]=[],c=0;c<a;c++)o>c?(s[o][c]=e[o][c],l[o][c]=u[o][c]=0):o<c?(l[o][c]=e[o][c],s[o][c]=u[o][c]=0):(u[o][c]=e[o][c],s[o][c]=l[o][c]=0);for(d=ke($a(ei(u,ke(s,i))),Fc(ke(u,1-i),ke(l,i))),h=ke(ke($a(ei(u,ke(s,i))),t),i),f=r,p=ei(ke(d,r),h),o=2;Math.abs(ed(Fc(p,f)))>n;)f=p,p=ei(ke(d,f),h),o++;return p}function Age(e){for(var t=e.length,r=e[0].length,n=0,i=[],o=[],a,s,l,u,c;n<t-1;n++){for(a=0,u=n+1;u<r;u++)a+=e[u][n]*e[u][n];for(c=e[n+1][n]>0?-1:1,a=c*Math.sqrt(a),s=Math.sqrt((a*a-e[n+1][n]*a)/2),i=Va(t,1),i[n+1][0]=(e[n+1][n]-a)/(2*s),l=n+2;l<t;l++)i[l][0]=e[l][n]/(2*s);o=Fc(Nc(t,r),ke(ke(i,Fl(i)),2)),e=ke(o,ke(e,o))}return e}function $Y(e){var t=e.length,r=e[0].length,n=Va(r,r);e=W2(e);var i,o,a;for(o=0;o<r;o++){for(n[o][o]=Math.sqrt(jn(rr(t).map(function(s){return e[s][o]*e[s][o]}))),i=0;i<t;i++)e[i][o]=e[i][o]/n[o][o];for(a=o+1;a<r;a++)for(n[o][a]=jn(rr(t).map(function(s){return e[s][o]*e[s][a]})),i=0;i<t;i++)e[i][a]=e[i][a]-e[i][o]*n[o][a]}return[e,n]}function xge(e){e=W2(e);var t=e.length,r=Nc(t);return rr(t-1,-1,-1).forEach(function(n){lg(r,{row:n},vC(os(r,{row:n}),e[n][n])),lg(e,{row:n},vC(os(e,{row:n}),e[n][n])),rr(n).forEach(function(i){var o=ke(e[i][n],-1),a=os(e,{row:i}),s=ke(os(e,{row:n}),o);lg(e,{row:i},ei(a,s));var l=os(r,{row:i}),u=ke(os(r,{row:n}),o);lg(r,{row:i},ei(l,u))})}),r}function BY(e,t){var r=!1;t[0].length===void 0&&(t=t.map(function(f){return[f]}),r=!0);var[n,i]=$Y(e),o=e[0].length,a=os(n,{col:{end:o}}),s=os(i,{row:{end:o}}),l=xge(s),u=Fl(a);u[0].length===void 0&&(u=[u]);var c=ke(ke(l,u),t);return c.length===void 0&&(c=[[c]]),r?c.map(function(f){return f[0]}):c}function zY(e){for(var t=1,r=e.length,n=Nc(r,r),i=[],o,a,s,l,u,c,f,h;t===1;){for(c=e[0][1],l=0,u=1,a=0;a<r;a++)for(s=0;s<r;s++)a!=s&&c<Math.abs(e[a][s])&&(c=Math.abs(e[a][s]),l=a,u=s);for(e[l][l]===e[u][u]?f=e[l][u]>0?Math.PI/4:-Math.PI/4:f=Math.atan(2*e[l][u]/(e[l][l]-e[u][u]))/2,h=Nc(r,r),h[l][l]=Math.cos(f),h[l][u]=-Math.sin(f),h[u][l]=Math.sin(f),h[u][u]=Math.cos(f),n=ke(n,h),o=ke(ke($a(h),e),h),e=o,t=0,a=1;a<r;a++)for(s=1;s<r;s++)a!=s&&Math.abs(e[a][s])>.001&&(t=1)}for(a=0;a<r;a++)i.push(e[a][a]);return[n,i]}function Mge(e,t,r,n,i,o){var a,s,l,u,c;if(o===2)for(;n<=r;)a=t*e(n,i),s=t*e(n+t,i+a),l=i+(a+s)/2,i=l,n=n+t;if(o===4)for(;n<=r;)a=t*e(n,i),s=t*e(n+t/2,i+a/2),u=t*e(n+t/2,i+s/2),c=t*e(n+t,i+u),l=i+(a+2*s+2*u+c)/6,i=l,n=n+t;return i}function Ige(e,t,r,n){for(var i=0,o=(r-t)/2,a=[],s=[],l=[],u,c,f,h,d;i<n/2;){for(d=e(t),f=t,h=0;f<=r;f=f+o,h++)a[h]=f;for(u=a.length,f=1;f<u-1;f++)d+=(f%2!==0?4:2)*e(a[f]);d=o/3*(d+e(r)),l[i]=d,o/=2,i++}for(c=l.length,u=1;c!==1;){for(f=0;f<c-1;f++)s[f]=(Math.pow(4,u)*l[f+1]-l[f])/(Math.pow(4,u)-1);c=s.length,l=s,s=[],u++}return l}function Lge(e,t,r,n){function i(p,g){for(var m=0,v=p.length,y;m<v;m++)p[m]===g&&(y=m);return y}for(var o=Math.abs(r-e[i(e,r)+1]),a=0,s=[],l=[],u,c,f,h,d;n>=o;)u=i(e,r+n),c=i(e,r),s[a]=(t[u]-2*t[c]+t[2*c-u])/(n*n),n/=2,a++;for(h=s.length,f=1;h!=1;){for(d=0;d<h-1;d++)l[d]=(Math.pow(4,f)*s[d+1]-s[d])/(Math.pow(4,f)-1);h=l.length,s=l,l=[],f++}return s}function Oge(e,t,r,n){for(var i=(r-t)/n,o=e(t),a=[],s=t,l=0,u=1,c;s<=r;s=s+i,l++)a[l]=s;for(c=a.length;u<c-1;u++)o+=(u%2!==0?4:2)*e(a[u]);return i/3*(o+e(r))}function Rge(e,t,r,n){for(var i=e.length,o=0,a=0,s=[],l=[],u=[],c=[],f;a<i;a++){for(s[a]=1,f=0;f<i;f++)a!=f&&(s[a]*=(n-e[f])/(e[a]-e[f]));for(l[a]=0,f=0;f<i;f++)a!=f&&(l[a]+=1/(e[a]-e[f]));u[a]=(1-2*(n-e[a])*l[a])*(s[a]*s[a]),c[a]=(n-e[a])*(s[a]*s[a]),o+=u[a]*t[a]+c[a]*r[a]}return o}function Dge(e,t,r){for(var n=0,i=0,o,a,s=e.length;i<s;i++){for(a=t[i],o=0;o<s;o++)i!=o&&(a*=(r-e[o])/(e[i]-e[o]));n+=a}return n}function Nge(e,t,r){for(var n=e.length,i=0,o,a=[],s=[],l=[],u=[],c=[],f=[],h=[];i<n-1;i++)c[i]=e[i+1]-e[i];for(l[0]=0,i=1;i<n-1;i++)l[i]=3/c[i]*(t[i+1]-t[i])-3/c[i-1]*(t[i]-t[i-1]);for(i=1;i<n-1;i++)a[i]=[],s[i]=[],a[i][i-1]=c[i-1],a[i][i]=2*(c[i-1]+c[i]),a[i][i+1]=c[i],s[i][0]=l[i];for(u=ke($a(a),s),o=0;o<n-1;o++)f[o]=(t[o+1]-t[o])/c[o]-c[o]*(u[o+1][0]+2*u[o][0])/3,h[o]=(u[o+1][0]-u[o][0])/(3*c[o]);for(o=0;o<n&&!(e[o]>r);o++);return o-=1,t[o]+(r-e[o])*f[o]+mC(r-e[o],2)*u[o]+(r-e[o])*mC(r-e[o],2)*h[o]}function Fge(){throw new Error("gauss_quadrature not yet implemented")}function $ge(e){var t=e.length,r=e[0].length,n=0,i,o,a=[],s=[],l=[],u=[],c=[],f=[],h=[],d=[],p=[],g=[];for(n=0;n<t;n++)a[n]=jn(e[n])/r;for(n=0;n<r;n++)for(h[n]=[],i=0;i<t;i++)h[n][i]=e[i][n]-a[i];for(h=Fl(h),n=0;n<t;n++)for(d[n]=[],i=0;i<t;i++)d[n][i]=db([h[n]],[h[i]])/(r-1);for(l=zY(d),p=l[0],s=l[1],g=Fl(p),n=0;n<s.length;n++)for(i=n;i<s.length;i++)s[n]<s[i]&&(o=s[n],s[n]=s[i],s[i]=o,u=g[n],g[n]=g[i],g[i]=u);for(f=Fl(h),n=0;n<t;n++)for(c[n]=[],i=0;i<f.length;i++)c[n][i]=db([g[n]],[f[i]]);return[e,s,g,c]}const Bge=Object.freeze(Object.defineProperty({__proto__:null,add:ei,subtract:Fc,divide:vC,multiply:ke,outer:pge,dot:db,pow:mC,exp:gge,log:vge,abs:mge,norm:ed,angle:yge,aug:X4,inv:$a,det:_ge,gauss_elimination:bge,gauss_jordan:FY,triaUpSolve:wge,triaLowSolve:Sge,lu:Tge,cholesky:kge,gauss_jacobi:Pge,gauss_seidel:Ege,SOR:Cge,householder:Age,QR:$Y,lstsq:BY,jacobi:zY,rungekutta:Mge,romberg:Ige,richardson:Lge,simpson:Oge,hermite:Rge,lagrange:Dge,cubic_spline:Nge,gauss_quadrature:Fge,PCA:$ge},Symbol.toStringTag,{value:"Module"}));function zge(e){var t=e[0].length,r=rr(t).map(function(n){var i=rr(t).filter(function(o){return o!==n});return VY(ub(e,n).map(function(o){return o[0]}),ub(e,i))});return r}function VY(e,t){var r=e.length,n=t[0].length-1,i=r-n-1,o=BY(t,e),a=ke(t,o.map(function(d){return[d]})).map(function(d){return d[0]}),s=Fc(e,a),l=Wr(e),u=jn(a.map(function(d){return Math.pow(d-l,2)})),c=jn(e.map(function(d,p){return Math.pow(d-a[p],2)})),f=u+c,h=u/f;return{exog:t,endog:e,nobs:r,df_model:n,df_resid:i,coef:o,predict:a,resid:s,ybar:l,SST:f,SSE:u,SSR:c,R2:h}}function Vge(e){var t=zge(e.exog),r=Math.sqrt(e.SSR/e.df_resid),n=t.map(function(l){var u=l.SST,c=l.R2;return r/Math.sqrt(u*(1-c))}),i=e.coef.map(function(l,u){return(l-0)/n[u]}),o=i.map(function(l){var u=as(l,e.df_resid);return(u>.5?1-u:u)*2}),a=hb(.975,e.df_resid),s=e.coef.map(function(l,u){var c=a*n[u];return[l-c,l+c]});return{se:n,t:i,p:o,sigmaHat:r,interval95:s}}function Uge(e){var t=e.R2/e.df_model/((1-e.R2)/e.df_resid),r=function(i,o,a){return cb(i/(a/o+i),o/2,a/2)},n=1-r(t,e.df_model,e.df_resid);return{F_statistic:t,pvalue:n}}function Wge(e,t){var r=VY(e,t),n=Vge(r),i=Uge(r),o=1-(1-r.R2)*((r.nobs-1)/r.df_resid);return r.t=n,r.f=i,r.adjust_R2=o,r}const jge={ols:Wge},Gge=Object.freeze(Object.defineProperty({__proto__:null,models:jge},Symbol.toStringTag,{value:"Module"}));Object.assign(gt,Ffe,ahe,dge,Bge,Gge,Ehe);for(const[e,t]of Object.entries(rge)){let r=function(...n){return this instanceof r?(this.givenArgs=n,this):new r(...n)};Object.assign(r,t),gt[e]=r,gt.prototype[e]=function(...n){const i=r(...n);return i.data=this,i},r.prototype.sample=function(n){const i=this.givenArgs;return n?gt.alter(n,()=>t.sample(...i)):t.sample(...i)},["pdf","cdf","inv"].forEach(n=>{r.prototype[n]=function(i){return!i&&i!==0&&(i=this.data),typeof i!="number"?gt.map(i,o=>t[n](o,...this.givenArgs)):t[n](i,...this.givenArgs)}}),["mean","median","mode","variance"].forEach(n=>{r.prototype[n]=function(){return t[n](...this.givenArgs)}})}"gammaln gammafn factorial factorialln".split(" ").forEach(function(e){gt.prototype[e]=function(){return gt(gt.map(this,function(t){return gt[e](t)}))}});gt.prototype.randn=function(){return gt(gt.randn.apply(null,arguments))};const Y4=dY.isFunction;(function(e){for(var t=0;t<e.length;t++)(function(r){gt.prototype[r]=function(n,i){var o=[],a=0,s=this;if(Y4(n)&&(i=n,n=!1),i)return setTimeout(function(){i.call(s,gt.prototype[r].call(s,n))}),this;if(this.length>1){for(s=n===!0?this:this.transpose();a<s.length;a++)o[a]=gt[r](s[a]);return o}return gt[r](this[0],n)}})(e[t])})("cumsum cumprod".split(" "));(function(e){for(var t=0;t<e.length;t++)(function(r){gt.prototype[r]=function(n,i){var o=[],a=0,s=this;if(Y4(n)&&(i=n,n=!1),i)return setTimeout(function(){i.call(s,gt.prototype[r].call(s,n))}),this;if(this.length>1){for(r!=="sumrow"&&(s=n===!0?this:this.transpose());a<s.length;a++)o[a]=gt[r](s[a]);return n===!0?gt[r](gt.utils.toVector(o)):o}return gt[r](this[0],n)}})(e[t])})("sum sumsqrd sumsqerr sumrow product min max unique mean meansqerr geomean median diff rank mode range variance deviation stdev meandev meddev coeffvar quartiles histogram skewness kurtosis".split(" "));(function(e){for(var t=0;t<e.length;t++)(function(r){gt.prototype[r]=function(){var n=[],i=0,o=this,a=Array.prototype.slice.call(arguments),s;if(Y4(a[a.length-1])){s=a[a.length-1];var l=a.slice(0,a.length-1);return setTimeout(function(){s.call(o,gt.prototype[r].apply(o,l))}),this}else{s=void 0;var u=function(f){return gt[r].apply(o,[f].concat(a))}}if(this.length>1){for(o=o.transpose();i<o.length;i++)n[i]=u(o[i]);return n}return u(this[0])}})(e[t])})("quantiles percentileOfScore".split(" "));gt.prototype.zscore=function(t,r){return(t-this.mean())/this.stdev(r)};gt.prototype.ztest=function(t,r,n){const i=Math.abs(this.zscore(t,n));return r===1?gt.normal.cdf(-i,0,1):gt.normal.cdf(-i,0,1)*2};gt.prototype.tscore=function(t){return(t-this.mean())/(this.stdev(!0)/Math.sqrt(this.cols()))};gt.prototype.ttest=function(t,r){return r===1?1-gt.studentt.cdf(Math.abs(this.tscore(t)),this.cols()-1):gt.studentt.cdf(-Math.abs(this.tscore(t)),this.cols()-1)*2};gt.prototype.anovafscore=function(){return gt.anovafscore(this.toArray())};gt.prototype.anovaftes=function(){var t=0,r;for(r=0;r<this.length;r++)t=t+this[r].length;return gt.ftest(this.anovafscore(),this.length-1,t-this.length)};gt.prototype.oneSidedDifferenceOfProportions=function(){console.error("Please use jStat.oneSidedDifferenceOfProportions() instead")};gt.prototype.twoSidedDifferenceOfProportions=function(){console.error("Please use jStat.twoSidedDifferenceOfProportions() instead")};"add divide multiply subtract dot pow exp log abs norm angle".split(" ").forEach(e=>{gt.prototype[e]=function(t,r){const n=this;return r?(r.call(n,gt.prototype[e].call(n,t)),this):typeof gt[e](this,t)=="number"?gt[e](this,t):gt(gt[e](this,t))}});gt.jStat=gt;function Hge(e,t,r,n){let i=[];for(let a=0;a<=r;a++){const s=.5+a+0,u=gt.lognormal.pdf(s,e,n)*t;u<.01||i.push([a,u])}return i}function Xge(e,t,r,n){let i=[];for(let a=0;a<=r;a++){const s=.5+a+0,u=gt.gamma.pdf(s,e,n)*t;u<.01||i.push([a,u])}return i}function Yge(e,t,r,n){let i=[];for(let o=0;o<=r;o++){const a=.5+o,l=gt.uniform.pdf(a,e-n/2,e+n/2)*t;l<.01||i.push([o,l])}return i}function Kge(e,t,r,n){let i=[];for(let o=0;o<=r;o++){const a=.5+o,l=gt.triangular.pdf(a,e-n,e+n,e)*t;l<.01||i.push([o,l])}return i}function Zge(e,t,r,n){let i=[];for(let o=0;o<=r;o++){const a=.5+o,l=gt.normal.pdf(a,e,n)*t;l<.01||i.push([o,l])}return i}function Y2(e,t,r,n){if(n)return qge(e,t,r);const i=t;let o=[];for(let a=0;a<=r;a++){const s=gt.binomial.pdf(a,r,e/r);if(s<0)return null;const l=s*i;l<.01||o.push([a,l])}return o}function qge(e,t,r){const n=t;let i=[],o=0;for(let a=0;a<=r;a++){const s=gt.binomial.pdf(a,r,e/r);if(s<0)return null;const l=s*n;if(l<.01)continue;const u=Math.floor(a*1.684);if(o)for(let c=o;c<u;c++)i.push([c,0]);i.push([u,l]),o=u+1}return i}function Jge(e,t,r,n,i,o){let a=[],s=0;for(let p=0;p<=i;p++){const g=gt.binomial.pdf(p,i,e/i);if(g<0){a=null;break}const m=g*t;if(m<.01)continue;const v=Math.floor(p*1.684);if(s)for(let y=s;y<v;y++)a.push([y,0]);a.push([v,m]),s=v+1}const l=n/t,u={};for(let p=0;p<=i;p++){const g=gt.binomial.pdf(p,i,r/i);if(g<0)throw Error(`invalid arguments for Stat.binomial.pdf: ${p}, ${i}, ${r/i}`);if(g*n<.01)continue;const v=o?Math.floor(p*1.684):p;a.forEach(y=>{const[b,w]=y,T=b+v,S=w*g*l;T in u?u[T]+=S:u[T]=S})}let c=99,f=0;for(const[p,g]of Object.entries(u)){if(g<.01)continue;const m=parseInt(p);m<c&&(c=m),m>f&&(f=m)}const h=[];for(let p=c;p<=f;p++)if(p in u){const g=u[p];h.push([p,g])}else h.push([p,0]);return{bellU:a,bellL:h}}function UY(e,t){let r={};if(e)for(let[o,a]of e)r[o]=a;for(let[o,a]of t)o in r?r[o]+=a:r[o]=a;let n=Object.entries(r).sort((o,a)=>o[0]-a[0]),i=[];for(let[o,a]of n)i.push([o,a]);return i}function K2(e,t,r,n,i){if(n)throw Error("not implemented");return Qge(e,t,r,i)}function Qge(e,t,r,n){let i,o,a;if(!Object.keys(e).length)return{mse:i,chisq:o,pval:a};i=0;for(const[p,[g,m]]of Object.entries(e)){const v=parseInt(g);if(n&&v==0)continue;const y=v in t?t[v]:0,b=m-y;i+=b*b}const s=3,l=r+2,u=Object.keys(e).sort((p,g)=>e[g][1]-e[p][1]);let c={},f=0;if(u.forEach(p=>{const g=e[p][0];if(n&&g=="0")return;const m=e[p][1],v=g in t?t[g]:0;(m>=s||v>=s||f<l)&&(c[g]={y_model:m,y_observed:v},f++)}),Object.keys(c).length==0)return console.log("can't compute chiSquared: only",c,"bins left after discard"),{mse:i,chisq:o,pval:a};let d=0;o=0;for(const[p,{y_model:g,y_observed:m}]of Object.entries(c)){const v=g-m;o+=v*v/g,d++}return d-1-r<1?(console.log("can't compute pval: bins",d,"variables",r),{mse:i,chisq:o,pval:a}):(isFinite(o)?a=1-gt.chisquare.cdf(o,d-1-r):a=0,{mse:i,chisq:o,pval:a,variables:r})}function WY(e){e.forEach(t=>{t[0]=Math.floor(t[0]*1.684)})}Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);const tve={data:()=>({selected_np:1,selected_n:10,isBinary:!1}),props:{stats:Object,histogram:Object,isGiant:Boolean},components:{VChart:nu},methods:{formatFixed:dt,isGoodVal:Gi,formatKMG:Ob,makeBinomialArray:Y2,loss:K2,applyGiantBonus:WY,makeModelA(e,t){let r={np:e,n:t};if(r.bell=this.makeBinomialArray(e,this.stats.len,t,this.isGiant),!r.bell)return null;if(r.loss=this.loss(r.bell,this.histogram.map,2),this.isBinary=0 in r.bell&&1 in r.bell&&Object.keys(r.bell).length==2&&0 in this.histogram.map&&1 in this.histogram.map&&Object.keys(this.histogram.map).length==2,this.isBinary){const n=this.stats.lucky.len,i=r.bell[1][1],o=this.histogram.map[1],a=i/n;o<=n&&0<a&&a<1?(r.loss.binomtest=F4(o,Math.round(n),{p:a}),r.loss.pval=r.loss.binomtest.pValue,console.log("binomtest:",r.bell,this.histogram.map,o,n,a,r.loss.binomtest)):(console.log("can't binomtest",r.bell,this.histogram.map,o,n,a),r.loss.binomtest=NaN)}return r},tuneModelA(e,t,r){let n=[t];t===void 0&&(n=[1,10,20,40,110,120,140,150],n=n.filter(o=>o>=e&&o<=this.stats.max*5),r&&n.push(r));let i={n:NaN,loss:{mse:NaN,chisq:NaN,pval:NaN}};return n.forEach(o=>{const a=this.makeModelA(e,o);if(!a)return;Gi(a.loss.mse)&&(!Gi(i.loss.mse)||a.loss.mse<i.loss.mse)&&(i=a)}),i},applySelectedNP(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_np=e)},applySelectedN(e){e<0||(e<this.selected_np&&(this.selected_np=e),this.selected_n=e)}},computed:{modelA(){return this.makeModelA(this.selected_np,this.selected_n)},modelAForChart(){const e=this.stats.len,t=this.stats.generalSigmas,r=[];return this.modelA.bell.forEach(([n,i])=>{const o=i/e,a=t*Math.sqrt(o*(1-o)/e),s=Math.max(0,o-a)*e,l=Math.min(1,o+a)*e;r.push([n,i,s,l])}),r},sweepRange(){const e={lo:Math.max(0,this.stats.meanLo),init:this.stats.mean,hi:this.stats.meanHi};return this.isGiant&&(e.init>60?(e.lo/=1.684,e.init/=1.684,e.hi/=1.684):e.init>50?(e.lo/=1.684,e.init/=1.684,e.hi/=1.64):e.init>20?(e.lo/=1.684,e.init/=1.684,e.hi/=1.6):e.init>10?(e.lo/=1.684,e.init/=1.684,e.hi/=1.5):e.init>5?(e.lo/=1.684,e.init/=1.684,e.hi/=1.3):e.init>1&&(e.lo/=1.684,e.init/=1.684,e.hi/=1)),e.range=e.hi-e.lo,e},modelASweep(){const e=this.tuneModelA(this.sweepRange.init,void 0);let t=10;const r=[.002,.005,.01,.02,.05,.1,.2,.5,1,2,5];for(const a of r)if(Math.floor(this.sweepRange.range/a)<20){t=a;break}const n=Math.ceil(this.sweepRange.lo/t)*t;let i=e;const o=[];for(let a=n;a<=this.sweepRange.hi;a+=t){let s=this.tuneModelA(a,void 0);a>this.sweepRange.init&&a<this.sweepRange.init+t&&o.push([this.sweepRange.init,s.n,e.loss.mse,e.loss.chisq,e.loss.pval]),o.push([a,s.n,s.loss.mse,s.loss.chisq,s.loss.pval]),s.loss.mse<i.loss.mse&&(i=s)}return isFinite(i.loss.mse)&&(this.selected_np=i.np,this.selected_n=i.n),{result:i,log:o}},makeChartHist(){return{legend:null,tooltip:{trigger:"axis"},dataset:[{source:this.histogram.arr},{source:this.modelAForChart}],xAxis:{axisLine:{onZero:!1},min:this.stats.min==0?-1:null,max:this.stats.max<3?this.stats.max+1:null},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:8,right:10,bottom:20},series:[{type:"bar",name:"observed",datasetIndex:0,encode:{x:0,y:1},tooltip:{valueFormatter:t=>dt(t,0)}},{type:"line",name:"model",datasetIndex:1,encode:{x:0,y:1},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1},{type:"line",name:`-${this.stats.generalSigmas}\u03C3`,datasetIndex:1,encode:{x:0,y:2},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"line",name:`+${this.stats.generalSigmas}\u03C3`,datasetIndex:1,encode:{x:0,y:3},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1,lineStyle:{opacity:.4}}]}},makeChartASweep(){const e={legend:{},tooltip:{trigger:"axis",formatter:function(t){const r=t[0].data;return`np=${dt(r[0],2)}<br/>n=${dt(r[1],2)}<br/>MSE=${r[2].toLocaleString(void 0,{notation:"compact"})}<br/>\u03C7\xB2=${r[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${dt(r[4],2)}<br/>`}},title:{subtext:"",left:"center",textStyle:{fontSize:10}},dataset:[{source:this.modelASweep.log}],xAxis:{min:this.sweepRange.lo,max:this.sweepRange.hi,name:"np",nameLocation:"center",nameGap:20,axisLine:{onZero:!1},axisLabel:{showMinLabel:!1}},yAxis:[{position:"left",axisLabel:{formatter:t=>t.toLocaleString(void 0,{notation:"compact"})},splitLine:{show:!1}},{position:"right",axisLabel:{formatter:t=>t.toLocaleString(void 0,{notation:"compact"})}}],grid:{left:35,top:30,right:40,bottom:20},series:[{name:"MSE",type:"line",encode:{x:0,y:2},tooltip:{valueFormatter:t=>dt(t,2)}},{name:"p-val",type:"line",encode:{x:0,y:4},tooltip:{valueFormatter:t=>dt(t,4)},yAxisIndex:1}]};return console.log("makeChartASweep",e.dataset),e}}},gn=e=>(Ze("data-v-cd6f3e00"),e=e(),qe(),e),eve=gn(()=>_("span",{class:"title"},"Model A",-1)),rve=gn(()=>_("span",null,[F(": all points were taken from a single distribution with "),_("i",null,"np = M")],-1)),nve=F(" with giant bonus"),ive={key:0},ove={style:{float:"left"}},ave=F(" Sweeping through "),sve=gn(()=>_("i",null,"np",-1)),lve={key:0,id:"chartSweep"},uve={key:1},cve={style:{padding:"1em"}},fve=gn(()=>_("th",null,null,-1)),hve=gn(()=>_("th",null,"np",-1)),dve=gn(()=>_("th",null,"n",-1)),pve=gn(()=>_("th",null,"MSE",-1)),gve=gn(()=>_("th",null,"p-val",-1)),vve=gn(()=>_("td",null,"Best fit:",-1)),mve=gn(()=>_("td",null,"Manual:",-1)),yve=F(" np: "),_ve=["value","min","max","step"],bve=F(" n: "),wve=["value","min"],Sve=gn(()=>_("br",null,null,-1)),Tve={id:"chartHisto",style:{float:"left"}},kve=gn(()=>_("div",{style:{clear:"both"}},null,-1)),Pve=gn(()=>_("br",null,null,-1)),Eve=gn(()=>_("p",{class:"fsxs"},[F("MSE: "),_("i",null,"\u03A3 (observed - model)\xB2"),F(", discard nothing \u2190 this is used for fitting")],-1)),Cve={key:0,class:"fsxs"},Ave=F("p-val: "),xve=gn(()=>_("a",{href:"https://en.wikipedia.org/wiki/Binomial_test"},"exact",-1)),Mve=[Ave,xve],Ive=gn(()=>_("p",{class:"fsxs"},[F("\u03C7\xB2: discard bins where model < 3, then "),_("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),Lve=gn(()=>_("p",{class:"fsxs"},[F("p-val: "),_("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function Ove(e,t,r,n,i,o){const a=zt("v-chart");return I(),O(W,null,[eve,rve,_("p",null,[at(_("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=s=>r.isGiant=s)},null,512),[[Ge,r.isGiant]]),nve]),r.isGiant?(I(),O("p",ive,"This causes gaps in Unlucky distrubution because giantValue=floor(1.684*ordinaryValue);")):nt("",!0),_("div",null,[_("div",ove,[ave,sve,F(" values in "+M(o.formatFixed(this.sweepRange.lo,2))+"\u2026"+M(o.formatFixed(this.sweepRange.hi,2))+" range: ",1),o.modelASweep.result.np?(I(),O("div",lve,[ft(a,{option:o.makeChartASweep},null,8,["option"])])):(I(),O("div",uve," [failed] ")),_("div",cve,[_("table",null,[_("tr",null,[fve,hve,dve,pve,nt("",!0),gve]),o.modelASweep.result?(I(),O("tr",{key:0,class:Ur({strike:r.stats.aBad})},[vve,_("td",null,M(o.formatFixed(o.modelASweep.result.np,4)),1),_("td",null,M(o.formatFixed(o.modelASweep.result.n)),1),_("td",null,M(o.formatFixed(o.modelASweep.result.loss.mse,2)),1),nt("",!0),_("td",null,M(o.formatFixed(o.modelASweep.result.loss.pval,4)),1)],2)):nt("",!0),_("tr",null,[mve,_("td",null,M(o.formatFixed(e.selected_np,4)),1),_("td",null,M(e.selected_n),1),_("td",null,M(o.formatFixed(o.modelA.loss.mse,2)),1),nt("",!0),_("td",null,M(o.formatFixed(o.modelA.loss.pval,4)),1)])]),yve,_("input",{type:"range",onInput:t[1]||(t[1]=s=>o.applySelectedNP(Number(s.target.value))),value:e.selected_np,min:r.stats.min,max:r.stats.max,step:.01,class:"vmid"},null,40,_ve),bve,_("input",{type:"range",onInput:t[2]||(t[2]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:r.stats.max,max:200,step:1,class:"vmid"},null,40,wve),Sve])]),_("div",Tve,[o.modelA.bell?(I(),qr(a,{key:0,option:o.makeChartHist},null,8,["option"])):(I(),O(W,{key:1},[F(" [failed to build the requested distribution np="+M(o.modelA.np)+" n="+M(o.modelA.n)+" ] ",1)],64))]),kve,Pve,Eve,e.isBinary?(I(),O("p",Cve,Mve)):(I(),O(W,{key:1},[Ive,Lve],64))])],64)}const Rve=ae(tve,[["render",Ove],["__scopeId","data-v-cd6f3e00"]]);Qr([Ql,dd,Zc,qc,Bgt,eu,tu,ru,Jc,vd,gd,pd,Qc]);const Dve={data:()=>({selected_np:1,selected_n:10,sweep_lo:0,sweep_hi:1}),props:{stats:Object,histogram:Object},components:{VChart:nu},methods:{isGoodVal:Gi,formatFixed:dt,formatKMG:Ob,makeBinomialArray:Y2,loss:K2,makeModelB(e,t){const r=this.makeBinomialArray(e,this.stats.lucky.len,t);if(!r)return null;const n={np:e,n:t,bell:r},i=this.histogram.map,o=this.histogramLuckOnly.err[0][1],a=this.histogramLuckOnly.err[0][2];if(r[0]<o){const l={...i};l[0]=o,n.loss=this.loss(n.bell,l,2,!1)}else if(r[0]>a){const l={...i};l[0]=a,n.loss=this.loss(n.bell,l,2,!1)}else{const l={...i};delete l[0],n.loss=this.loss(n.bell,l,2,!1,!0)}if(0 in r&&1 in r&&Object.keys(r).length==2&&0 in i&&1 in i&&Object.keys(i).length==2){const l=this.stats.lucky.len,u=r[1][1],c=i[1],f=u/l;c<=l&&0<f&&f<1?(n.loss.binomtest=F4(c,Math.round(l),{p:f}),n.loss.pval=n.loss.binomtest.pValue,console.log("binomtest:",r,i,c,l,f,n.loss.binomtest)):(console.log("can't binomtest",r,i,c,l,f),n.loss.binomtest=NaN)}return n},tuneModelB(e,t){let r=[t];t===void 0&&(r=[10,20,40,110,120,140,150],r.push(this.stats.max),r=r.filter(i=>i<=this.stats.max*5));let n={np:0,n:1,loss:{mse:void 0,chisq:void 0,pval:void 0}};if(!this.histogramLuckOnly){console.log("tuneModelB skip");return}return r.forEach(i=>{const o=this.makeModelB(e,i);if(!o)return;Gi(o.loss.mse)&&(!Gi(n.loss.mse)||o.loss.mse<n.loss.mse)&&(n=o)}),n&&n.np>0&&n.np<=n.n?n:(console.log(`tuneModelB np=${e} -> failed`),null)},applySelectedNp(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_np=e)},applySelectedN(e){e<0||(e<this.selected_np&&(this.selected_np=e),this.selected_n=e)}},computed:{histogramLuckOnly(){const e={...this.histogram.map};e[0]=this.histogram.map[0]-this.stats.unlucky.len;const t=[],r=[];for(const[n,i]of Object.entries(e)){if(n==0){const o=this.histogram.map[0]-(this.stats.len-this.stats.lucky.lenHi),a=this.histogram.map[0]-(this.stats.len-this.stats.lucky.lenLo);r.push([n,a,o])}t.push([n,i])}return{map:e,arr:t,err:r}},zeroBinRange(){return{min:this.histogramLuckOnly.err[0][1],max:this.histogramLuckOnly.err[0][2]}},npRangeForBinary(){if(Object.keys(this.histogram.map).length==2&&1 in this.histogram.map){const e=this.histogram.map[1];return{min:e/(this.zeroBinRange.max+e),max:e/(this.zeroBinRange.min+e)}}},modelB(){const e=this.makeModelB(this.selected_np,this.selected_n);return console.log("modelB",e),e},modelBForChart(){const e=this.stats.len,t=this.stats.generalSigmas,r=[];return this.modelB.bell.forEach(([n,i])=>{const o=i/e,a=t*Math.sqrt(o*(1-o)/e),s=Math.max(0,o-a)*e,l=Math.min(1,o+a)*e;r.push([n,i,s,l])}),r},modelBSweep(){const e=Math.max(this.stats.meanLo/this.stats.lucky.share,0);if(e>8888888)return console.log("modelBSweep skip - no input",this.stats.meanLo,this.stats.lucky.share,this.stats.lucky.std),!1;this.sweep_lo=e,this.sweep_hi=this.stats.meanHi/this.stats.lucky.share;const t=this.sweep_hi-e;let r=10;const n=[.002,.005,.01,.02,.05,.1,.2,.5,1,2,5];for(const s of n)if(Math.floor(t/s)<40){r=s;break}if(Math.floor(t/r)>1e3)return!1;const i=Math.ceil(e/r)*r;let o={np:void 0,n:void 0,loss:{mse:1/0,chisq:1/0,pval:0}};const a=[];for(let s=i;s<=this.sweep_hi;s+=r){const l=this.tuneModelB(s,void 0);if(!l)continue;a.push([s,l.n,l.loss.mse,l.loss.chisq,l.loss.pval]),Gi(l.loss.mse)&&(!Gi(o.loss.mse)||l.loss.mse<o.loss.mse)&&(console.log("new best model",s,l),o=l)}return this.selected_np=o.np,this.selected_n=o.n,{result:o,log:a}},makeChartBSweep(){const e={legend:{},tooltip:{trigger:"axis",formatter:function(t){const r=t[0].data;return`np=${dt(r[0],2)}<br/>n=${dt(r[1])}<br/>MSE=${r[2].toLocaleString(void 0,{notation:"compact"})}<br/>\u03C7\xB2=${r[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${dt(r[4],2)}<br/>`}},title:{subtext:"",left:"center",textStyle:{fontSize:10}},dataset:[{source:this.modelBSweep.log}],xAxis:{min:this.sweep_lo,max:this.sweep_hi,name:"np",nameLocation:"center",nameGap:20,axisLine:{onZero:!1},axisLabel:{showMinLabel:!1}},yAxis:[{position:"left",axisLabel:{formatter:t=>this.formatKMG(t)},splitLine:{show:!1}},{position:"right"}],grid:{left:35,top:30,right:40,bottom:20},series:[{name:"MSE",type:"line",encode:{x:0,y:2},tooltip:{valueFormatter:t=>dt(t,2)}},{name:"p-val",type:"line",encode:{x:0,y:4},tooltip:{valueFormatter:t=>dt(t,4)},yAxisIndex:1}]};return console.log("makeChartBSweep",e.dataset),e},makeChartBHist(){return{legend:null,tooltip:{trigger:"axis"},dataset:[{source:this.histogramLuckOnly.arr},{source:this.histogramLuckOnly.err},{source:this.modelBForChart}],xAxis:{axisLine:{onZero:!1},min:-1,max:this.stats.max+1},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:8,right:10,bottom:20},series:[{type:"bar",name:"observed",datasetIndex:0,encode:{x:0,y:1},tooltip:{valueFormatter:t=>dt(t,0)}},{type:"line",name:"model",datasetIndex:2,encode:{x:0,y:1},tooltip:{valueFormatter:t=>dt(t,3)},showSymbol:!1},{type:"line",name:`-${this.stats.generalSigmas}\u03C3`,datasetIndex:2,encode:{x:0,y:2},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"line",name:`+${this.stats.generalSigmas}\u03C3`,datasetIndex:2,encode:{x:0,y:3},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"custom",name:"observed-error",datasetIndex:1,encode:{x:0,y:[1,2]},itemStyle:{borderWidth:1.5},renderItem:function(t,r){var n=r.value(0),i=r.coord([n,r.value(1)]),o=r.coord([n,r.value(2)]),a=r.size([1,0])[0]*.1,s=r.style({stroke:r.visual("color"),fill:void 0});return{type:"group",children:[{type:"line",transition:["shape"],shape:{x1:i[0]-a,y1:i[1],x2:i[0]+a,y2:i[1]},style:s},{type:"line",transition:["shape"],shape:{x1:i[0],y1:i[1],x2:o[0],y2:o[1]},style:s},{type:"line",transition:["shape"],shape:{x1:o[0]-a,y1:o[1],x2:o[0]+a,y2:o[1]},style:s}]}},tooltip:{show:!1},z:100}]}}}},en=e=>(Ze("data-v-7790bb48"),e=e(),qe(),e),Nve=en(()=>_("span",{class:"title"},"Model B",-1)),Fve=en(()=>_("span",null,[F(": majority (1-\u03BB) of points are zero, but \u03BB points are from a binomial distribution with such "),_("i",null,"np"),F(", that \u03BB"),_("i",null,"np"),F(" = M")],-1)),$ve=F("Sweeping through "),Bve=en(()=>_("i",null,"np",-1)),zve={style:{float:"left"}},Vve={key:0,id:"chartSweep"},Uve={style:{padding:"1em"}},Wve={style:{float:"left"}},jve=en(()=>_("th",null,null,-1)),Gve=en(()=>_("th",null,"np",-1)),Hve=en(()=>_("th",null,"n",-1)),Xve=en(()=>_("th",null,"MSE",-1)),Yve=en(()=>_("th",null,"p-val",-1)),Kve={key:0},Zve=en(()=>_("td",null,"Best fit:",-1)),qve=en(()=>_("td",null,"Manual:",-1)),Jve=F(" np\u1D38: "),Qve=["value","min","max","step"],t0e=F(" n\u1D38: "),e0e=["value"],r0e=en(()=>_("div",{style:{clear:"both"}},null,-1)),n0e={key:0,style:{float:"left"}},i0e={id:"chartHisto"},o0e=en(()=>_("br",null,null,-1)),a0e={key:0},s0e=F(" Corresponding range for "),l0e=en(()=>_("i",null,"np",-1)),u0e={key:1},c0e=en(()=>_("div",{style:{clear:"both"}},null,-1)),f0e=en(()=>_("p",{class:"fsxs"},[F("MSE: "),_("i",null,"\u03A3 (observed - model)\xB2"),F(", discard nothing \u2190 this is used for fitting")],-1)),h0e={key:0,class:"fsxs"},d0e=F("p-val: "),p0e=en(()=>_("a",{href:"https://en.wikipedia.org/wiki/Binomial_test"},"exact",-1)),g0e=[d0e,p0e],v0e=en(()=>_("p",{class:"fsxs"},[F("\u03C7\xB2: discard bins where model < 3, then "),_("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),m0e=en(()=>_("p",{class:"fsxs"},[F("p-val: "),_("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function y0e(e,t,r,n,i,o){const a=zt("v-chart");return I(),O(W,null,[Nve,Fve,o.modelB?(I(),O(W,{key:0},[_("p",null,[$ve,Bve,F(" values in "+M(o.formatFixed(this.sweep_lo,2))+"\u2026"+M(o.formatFixed(this.sweep_hi,2))+" range:",1)]),_("div",null,[_("div",zve,[o.modelBSweep?(I(),O("div",Vve,[ft(a,{option:o.makeChartBSweep},null,8,["option"])])):nt("",!0),_("div",Uve,[_("div",Wve,[_("table",null,[_("tr",null,[jve,Gve,Hve,Xve,nt("",!0),Yve]),o.modelBSweep.result?(I(),O("tr",Kve,[Zve,_("td",null,M(o.formatFixed(o.modelBSweep.result.np,3)),1),_("td",null,M(o.modelBSweep.result.n),1),_("td",null,M(o.formatFixed(o.modelBSweep.result.loss.mse,2)),1),nt("",!0),_("td",null,M(o.formatFixed(o.modelBSweep.result.loss.pval,4)),1)])):nt("",!0),_("tr",null,[qve,_("td",null,M(o.formatFixed(e.selected_np,3)),1),_("td",null,M(e.selected_n),1),_("td",null,M(o.formatFixed(o.modelB.loss.mse,2)),1),nt("",!0),_("td",null,M(o.formatFixed(o.modelB.loss.pval,4)),1)])]),_("p",null,[Jve,_("input",{type:"range",onInput:t[0]||(t[0]=s=>o.applySelectedNp(Number(s.target.value))),value:e.selected_np,min:r.stats.min,max:e.sweep_hi*1.5,step:.01,class:"vmid"},null,40,Qve),t0e,_("input",{type:"range",onInput:t[1]||(t[1]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:1,max:200,step:1,class:"vmid"},null,40,e0e)])]),r0e])]),o.modelB.bell?(I(),O("div",n0e,[_("div",i0e,[ft(a,{option:o.makeChartBHist},null,8,["option"])]),_("div",null,[F(" Bin 0 has 1-\u03BB \u2248 "+M(o.formatFixed(r.stats.unlucky.len))+" samples removed, "+M(o.formatFixed(o.histogramLuckOnly.arr[0][1]))+" remaining",1),o0e,F(" Depending on actual \u03BB could potentially be "+M(o.formatFixed(o.histogramLuckOnly.err[0][1]))+"\u2026"+M(o.formatFixed(o.histogramLuckOnly.err[0][2]))+" remaining ",1),o.npRangeForBinary?(I(),O("p",a0e,[s0e,l0e,F(": "+M(o.formatFixed(o.npRangeForBinary.min,3))+"\u2026"+M(o.formatFixed(o.npRangeForBinary.max,3)),1)])):nt("",!0)])])):(I(),O("div",u0e," bad parameters ")),c0e]),_("div",null,[f0e,o.npRangeForBinary?(I(),O("p",h0e,g0e)):(I(),O(W,{key:1},[v0e,m0e],64))])],64)):nt("",!0)],64)}const _0e=ae(Dve,[["render",y0e],["__scopeId","data-v-7790bb48"]]);Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);class b0e{constructor(){this.data={},this.xmin=999,this.xmax=-999,this.ymin=999,this.ymax=-999}put(t,r,n){this.data.hasOwnProperty(t)||(this.data[t]={}),this.data[t][r]=n,this.xmin=Math.min(this.xmin,r/1e4),this.xmax=Math.max(this.xmax,r/1e4),this.ymin=Math.min(this.ymin,t/1e4),this.ymax=Math.max(this.ymax,t/1e4)}get(t,r){return!this.data.hasOwnProperty(t)||!this.data[t].hasOwnProperty(r)?null:this.data[t][r]}aslist(){let t=[];for(let[r,n]of Object.entries(this.data).sort((i,o)=>i[0]-o[0]))for(let[i,o]of Object.entries(n).sort((a,s)=>a[0]-s[0]))t.push([r/1e4,i/1e4,o.n,o.loss.mse,o.loss.chisq,o.loss.pval]);return t}}const w0e={data:()=>({selected_npL:1,selected_npU:1,selected_n:10,isGiant_lucky:!1,forceMSE:!1,bestPval:0}),props:{stats:Object,histogram:Object,isGiant:Boolean},components:{VChart:nu},methods:{isGoodVal:Gi,formatFixed:dt,formatKMG:Ob,makeBinomialArray:Y2,makeBinomialArraysForGiant:Jge,sumDistributions:UY,loss:K2,applyGiantBonus:WY,ul2u(e,t,r){return r/(1-t)-t*e/(1-t)},l2u(e,t,r){return r-t*e},findPsStep(e,t,r,n,i){let a={il:0,iu:0,model:i};for(let s=-30;s<=30;s++)for(let l=-30;l<=30;l++){const u=t+l*n,c=r+s*n;if(u<0||c<0)continue;const f=this.isGiant?this.sweepRange.u_hi:this.l2u(c/1e4,this.stats.lucky.shareLo,this.sweepRange.u_hi);if(u/1e4>f)continue;const h=this.l2u(c/1e4,this.stats.lucky.shareHi,this.sweepRange.u_lo);if(u/1e4<h)continue;let d=e.get(u,c);d===null&&(d=this.makemodelC(c/1e4,void 0,u/1e4,void 0),this.bestPval=Math.max(this.bestPval,d.loss.pval),e.put(u,c,d)),d.loss.mse<a.model.loss.mse&&(a={il:s,iu:l,model:d})}return a},findPsRound(e,t,r,n,i,o){for(;t<=150;){let a=this.findPsStep(e,r,n,o,i);if(a.il==0&&a.iu==0)return console.log("no improvement on round",t),{round:t,curU:r,curL:n,model:a.model};if(r+=a.iu*o,n+=a.il*o,n/1e4>this.stats.max)return{round:t,curU:r,curL:n,model:a.model};t++}return{round:t,curU:r,curL:n,model:i}},makemodelC(e,t,r){let n=[t];t===void 0&&(n=[10,20,40,120],n=n.filter(o=>o>=e&&o>=r&&o>=this.stats.max));let i={n:void 0,loss:{mse:void 0,chisq:void 0,pval:void 0}};return this.stats.unlucky.len==0||(n.forEach(o=>{const a={npL:e,n:o,npU:r};if(this.isGiant){const l=this.makeBinomialArraysForGiant(r,this.stats.unlucky.len,e,this.stats.lucky.len,o,this.isGiant_lucky);a.bellU=l.bellU,a.bellL=l.bellL,a.bell=this.sumDistributions(a.bellL,a.bellU)}else a.bellU=this.makeBinomialArray(r,this.stats.unlucky.len,o),a.bellL=this.makeBinomialArray(r+e,this.stats.lucky.len,o),a.bell=this.sumDistributions(a.bellL,a.bellU);a.loss=this.loss(a.bell,this.histogram.map,3),Gi(a.loss.mse)&&(!Gi(i.loss.mse)||a.loss.mse<i.loss.mse)&&(i=a)}),i||console.log("makemodelC failed",e,r,t)),i},applySelectedNpL(e){e<0||(e>this.selected_nL&&(this.selected_nL=Math.ceil(e)),e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_npL=e)},applySelectedNpU(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_npU=e)},applySelectedNL(e){e<0||(e<this.selected_npL&&(this.selected_npL=e),this.selected_nL=e)},applySelectedNU(e){e<0||(e<this.selected_npU&&(this.selected_npU=e),this.selected_nU=e)},applySelectedN(e){e<0||(e<this.selected_npL&&(this.selected_npL=e),e<this.selected_npU&&(this.selected_npU=e),this.selected_n=e)},meanOfDistribution(e){let t=0,r=0;for(let[n,i]of e)t+=i,r+=n*i;return r/t}},computed:{modelC(){const e=this.makemodelC(this.selected_npL,this.selected_n,this.selected_npU);return console.log("modelC",e),e},sweepRange(){const e={u_lo:Math.max(0,this.stats.meanLo),u_init:this.stats.mean,u_hi:this.stats.meanHi,l_init:0};if(this.isGiant){const t=this.makeBinomialArray(e.u_init,this.stats.unlucky.len,100,!1),r=this.meanOfDistribution(t),n=this.makeBinomialArray(e.u_init,this.stats.unlucky.len,100,!0),o=this.meanOfDistribution(n)/r;console.log("init giant bonus",o),e.u_lo/=o,e.u_init/=o,e.u_hi/=o}return e},modelCSweep(){if(isNaN(this.stats.mean))return!1;this.bestPval=0;let e=1;const t=this.sweepRange.u_hi-this.sweepRange.u_lo;let r=1e4;t<3&&(r=5e3),t<1.5&&(r=2500),t<.6&&(r=1e3),t<.3&&(r=500),t<.12&&(r=200),t<.06&&(r=100),t<.03&&(r=50);let n=Math.round(this.sweepRange.u_init*1e4/r)*r,i=Math.round(this.sweepRange.l_init*1e4/r)*r;n<0&&(n=0),i<0&&(i=0);let o=this.makemodelC(i/1e4,void 0,n/1e4,void 0);this.stats.psGridPath=[[0,n/1e4,i/1e4,o.loss.chisq]];let a=new b0e;a.put(n,i,o),{round:e,curU:n,curL:i,model:o}=this.findPsRound(a,e,n,i,o,r);const s=a.aslist();return this.selected_npL=o.npL,this.selected_npU=o.npU,this.selected_n=o.n,console.log("modelCSweep",o,this.stats.lucky.mean),{result:o,psGridDotsMap:a,psGridDots:s}},makeChartCHist(){return{legend:{},tooltip:{trigger:"axis",valueFormatter:t=>dt(t,0)},dataset:[{source:this.histogram.arr},{source:this.modelC.bell},{source:this.modelC.bellL},{source:this.modelC.bellU}],xAxis:{min:this.stats.min==0?-1:null,max:this.stats.max<5?this.stats.max+1:null},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:30,right:10,bottom:20},series:[{name:"observed",type:"bar",encode:{x:0,y:1},tooltip:{trigger:"axis",valueFormatter:t=>dt(t,0)}},{name:"model \u03A3",type:"line",datasetIndex:1,encode:{x:0,y:1},showSymbol:!1},{name:"model U",type:"line",datasetIndex:3,encode:{x:0,y:1},showSymbol:!1},{name:"model L",type:"line",datasetIndex:2,encode:{x:0,y:1},showSymbol:!1}]}},makeChartCGrid(){const e=2.272727272727273;let{xmin:t,xmax:r,ymin:n,ymax:i}=this.modelCSweep.psGridDotsMap;const o=(t+r)/2,a=(n+i)/2;let s=.2;this.stats.mean<2&&(s=.05);const l=1.2*(this.modelCSweep.psGridDotsMap.xmax-this.modelCSweep.psGridDotsMap.xmin)+s,u=1.2*(this.modelCSweep.psGridDotsMap.ymax-this.modelCSweep.psGridDotsMap.ymin)+s;if(l/u>e){const v=l,y=l/e;t=o-v/2,r=o+v/2,n=a-y/2,i=a+y/2}else{const v=u*e,y=u;t=o-v/2,r=o+v/2,n=a-y/2,i=a+y/2}const f={xmin:t,xmax:r,ymin:n,ymax:i},h=this.forceMSE||isNaN(this.modelCSweep.result.loss.pval);let d=h?["#282","#2c2","#cc2","#ccc"]:["#ccc","#cc2","#2c2","#282"];const p={inRange:{color:d},calculable:!0,precision:h?0:2,controller:{inRange:{color:d}},orient:"vertical",top:"center",right:10,align:"left",padding:0};let g=h?{min:this.modelCSweep.result.loss.mse,max:this.modelCSweep.result.loss.mse*2,dimension:3,text:["MSE",""]}:{min:0,max:this.bestPval,dimension:5,text:["p-val",""]};return{legend:{},tooltip:{trigger:"item",axisPointer:{type:"cross"},formatter:function(v){const y=v.data;return`np\u1D41=${dt(y[0],2)}<br/>np\u1D38=${dt(y[1],2)}<br/>n=${dt(y[2],2)}<br/>MSE=${y[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${dt(y[5],2)}<br/>`}},title:{},dataset:[{source:this.modelCSweep.psGridDots}],xAxis:{name:"np\u1D38",nameGap:5,min:f.xmin,max:f.xmax,axisLabel:{showMinLabel:!1,showMaxLabel:!1},axisLine:{onZero:!1}},yAxis:{name:"np\u1D41",nameGap:5,min:f.ymin,max:f.ymax,axisLabel:{showMinLabel:!1,showMaxLabel:!1},axisLine:{onZero:!1}},grid:{left:35,top:30,right:40,bottom:20},series:[{type:"scatter",encode:{x:1,y:0,tooltip:[1,0,3]},tooltip:{valueFormatter:v=>`${v[1]} \u2192 ${dt(v[2],4)}`},symbolSize:6,markArea:{silent:!0,data:[[{name:`M\xB1${this.stats.generalSigmas}\u03C3`,coord:[this.sweepRange.u_lo-this.sweepRange.u_init,this.sweepRange.u_lo]},{coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.sweepRange.u_hi]}]],label:{show:!0,position:"left"},itemStyle:{color:"rgba(0, 0, 200, 0)",borderWidth:1,borderType:"dashed"}},markLine:{silent:!0,symbol:"none",data:[this.isGiant?[{name:"low \u03BB, high M",label:{position:"insideMiddleTop"},coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]}]:[{name:"low \u03BB, high M",label:{position:"insideMiddleTop"},coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.modelCSweep.psGridDotsMap.xmax,this.stats.lucky.shareLo,this.sweepRange.u_hi)]}],[{name:"high \u03BB, low M",label:{position:"insideMiddleBottom"},coord:[this.sweepRange.u_lo-this.sweepRange.u_init,this.l2u(this.sweepRange.u_lo-this.sweepRange.u_init,this.stats.lucky.shareHi,this.sweepRange.u_lo)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.modelCSweep.psGridDotsMap.xmax,this.stats.lucky.shareHi,this.sweepRange.u_lo)]}]]}}],visualMap:{...p,...g}}}}},si=e=>(Ze("data-v-ada12390"),e=e(),qe(),e),S0e=si(()=>_("span",{class:"title"},"Model C",-1)),T0e=F(": some points were taken from a distribution L, and the rest from distribution U,"),k0e=si(()=>_("br",null,null,-1)),P0e=si(()=>_("br",null,null,-1)),E0e=F(" with giant bonus on Unlucky"),C0e=F(" with giant bonus on Lucky"),A0e={style:{float:"left"}},x0e={style:{width:"570px",height:"270px"}},M0e={key:1,class:"inner"},I0e={style:{padding:"1em"}},L0e={style:{float:"left"}},O0e=si(()=>_("tr",null,[_("th"),_("th",null,"np\u1D41"),_("th",null,"np\u1D38"),_("th",null,"n"),_("th",null,"MSE"),_("th",null,"p-val")],-1)),R0e=si(()=>_("td",null,"Best fit:",-1)),D0e=si(()=>_("td",null,"Manual:",-1)),N0e=["value","min","max","step"],F0e=F(" np\u1D41 "),$0e=si(()=>_("br",null,null,-1)),B0e=["value","max","step"],z0e=F(" np\u1D38 "),V0e=si(()=>_("br",null,null,-1)),U0e=["value"],W0e=F(" n "),j0e=si(()=>_("div",{style:{clear:"both"}},null,-1)),G0e={key:0,id:"chartHisto",style:{float:"left"}},H0e=si(()=>_("div",{style:{clear:"both"}},null,-1)),X0e=si(()=>_("br",null,null,-1)),Y0e=si(()=>_("p",{class:"fsxs"},[F("MSE: "),_("i",null,"\u03A3 (observed - model)\xB2"),F(", discard nothing \u2190 this is used for fitting")],-1)),K0e=si(()=>_("p",{class:"fsxs"},[F("\u03C7\xB2: discard bins where model < 3, then "),_("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),Z0e=si(()=>_("p",{class:"fsxs"},[F("p-val: "),_("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function q0e(e,t,r,n,i,o){var s,l;const a=zt("v-chart");return I(),O(W,null,[S0e,_("span",null,[T0e,k0e,F(" so (1 - \u03BB) np\u1D41 + \u03BB (np\u1D41 + np\u1D38) = M, where \u03BB \u2208 "+M(o.formatFixed(r.stats.lucky.shareLo*100,2))+"\u2026"+M(o.formatFixed(r.stats.lucky.shareHi*100,2))+"% and M \u2208 "+M(o.formatFixed(r.stats.mean-1.96*r.stats.meanErr,2))+"\u2026"+M(o.formatFixed(r.stats.mean+1.96*r.stats.meanErr,2)),1)]),P0e,_("p",null,[at(_("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=u=>r.isGiant=u)},null,512),[[Ge,r.isGiant]]),E0e]),_("p",null,[at(_("input",{type:"checkbox","onUpdate:modelValue":t[1]||(t[1]=u=>e.isGiant_lucky=u)},null,512),[[Ge,e.isGiant_lucky]]),C0e]),_("div",A0e,[_("div",x0e,[((l=(s=o.modelCSweep)==null?void 0:s.result)==null?void 0:l.npU)&&e.bestPval?(I(),qr(a,{key:0,option:o.makeChartCGrid},null,8,["option"])):(I(),O("div",M0e," np\u1D41=0 or no bestPval "))]),_("div",I0e,[_("div",L0e,[_("table",null,[O0e,o.modelCSweep.result?(I(),O("tr",{key:0,class:Ur({strike:r.stats.dBad})},[R0e,_("td",null,M(o.formatFixed(o.modelCSweep.result.npU,2)),1),_("td",null,M(o.formatFixed(o.modelCSweep.result.npL,2)),1),_("td",null,M(o.modelCSweep.result.n),1),_("td",null,M(o.formatFixed(o.modelCSweep.result.loss.mse,2)),1),_("td",null,M(o.formatFixed(o.modelCSweep.result.loss.pval,4)),1)],2)):nt("",!0),_("tr",null,[D0e,_("td",null,M(o.formatFixed(e.selected_npU,2)),1),_("td",null,M(o.formatFixed(e.selected_npL,2)),1),_("td",null,M(e.selected_n),1),_("td",null,M(o.formatFixed(o.modelC.loss.mse,2)),1),_("td",null,M(o.formatFixed(o.modelC.loss.pval,4)),1)])]),_("p",null,[_("input",{type:"range",onInput:t[2]||(t[2]=u=>o.applySelectedNpU(Number(u.target.value))),value:e.selected_npU,min:r.stats.min,max:r.stats.max,step:.01,class:"vmid"},null,40,N0e),F0e,$0e,_("input",{type:"range",onInput:t[3]||(t[3]=u=>o.applySelectedNpL(Number(u.target.value))),value:e.selected_npL,min:0,max:r.stats.max,step:.01,class:"vmid"},null,40,B0e),z0e,V0e,_("input",{type:"range",onInput:t[4]||(t[4]=u=>o.applySelectedN(Number(u.target.value))),value:e.selected_n,min:1,max:200,step:1,class:"vmid"},null,40,U0e),W0e])]),j0e])]),o.modelC.bell?(I(),O("div",G0e,[ft(a,{option:o.makeChartCHist},null,8,["option"])])):nt("",!0),H0e,X0e,Y0e,K0e,Z0e],64)}const J0e=ae(w0e,[["render",q0e],["__scopeId","data-v-ada12390"]]);Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);const Q0e={setup(){const e=At(),t=kfe(),r=localStorage.getItem("droprates");return t.$patch(JSON.parse(r)),t.$subscribe((n,i)=>{localStorage.setItem("droprates",JSON.stringify(i))}),{gameStore:e,dropratesStore:t}},components:{ItemIcon:no,VChart:nu,DRMA:Rve,DRMB:_0e,DRMC:J0e},provide(){return{[oj]:yr(()=>this.darkMode?"dark":"default")}},data(){const e=matchMedia("(prefers-color-scheme: dark)");return{alldata:{},generalSigmas:2,hide_buckets:{},darkModeQuery:e,darkMode:e.matches}},created(){this.fetchObservations()},mounted(){this.darkModeQuery.addEventListener("change",()=>{this.darkMode=this.darkModeQuery.matches})},watch:{},computed:{currentDataset(){const e={};if(this.dropratesStore.selected_pzk in this.alldata){const t=this.alldata[this.dropratesStore.selected_pzk];if(this.dropratesStore.selected_ik in t){const r=t[this.dropratesStore.selected_ik];if(this.dropratesStore.selected_specie in r){const n=r[this.dropratesStore.selected_specie];for(let[i,o]of Object.entries(n).sort((a,s)=>a[0]-s[0]))e[i]=o}}}return e},weightedDataset(){let e={};for(let[t,r]of Object.entries(this.currentDataset)){if(this.hide_buckets[t])continue;const n=r.length;let i=[];for(let o=0;o<n;o++){const a=gt.binomial.cdf(o,n,1-t/100);i.push(a)}e[t]={len:n,luckyLen:n*t/100,sorted:[...r].sort((o,a)=>o-a),weights:i}}return e},stats(){const e=this.currentDataset;let t=0,r=0;for(const[g,m]of Object.entries(e))t+=e[g].length,r+=e[g].length;const n=this.weightedDataset;for(let[g,m]of Object.entries(n))for(let v of m.weights)v>this.stats.generalConfidence/100,v>1-this.stats.generalConfidence/100;let i=[],o=[],a=0,s=100,l=0;for(const[g,m]of Object.entries(n)){s=Math.min(s,g),l=Math.max(l,g);let{len:v,luckyLen:y,sorted:b,weights:w}=m;a+=y,i.push(...b),o.push(...w)}const u={1.5:86.6385597,2:95.4499736,2.5:98.7580669,3:99.7300203,3.5:99.9534741841929,4:99.9936657516334},c={generalSigmas:this.generalSigmas,generalConfidence:u[this.generalSigmas],lenRaw:t,dataRaw:e,dataByLuck:n,minLuck:s,maxLuck:l,dataFlatSorted:i,weightsFlat:o,len:i.length,min:gt.min(i),max:gt.max(i),range:gt.range(i),sum:gt.sum(i),mean:gt.mean(i),meanErr:0,meanLo:0,meanHi:0,std:gt.stdev(i,!0),bell:[],histo:[]};if(c.meanErr=Math.sqrt(c.mean/c.max*(1-c.mean/c.max)*c.max/c.len),c.meanLo=c.mean-this.generalSigmas*c.meanErr,c.meanHi=c.mean+this.generalSigmas*c.meanErr,c.lucky={len:a,share:a/c.len,mean:0,std:0,lenHi:0,lenLo:0,shareHi:0,shareLo:0},isNaN(c.lucky.share))c.lucky.shareLo=NaN,c.lucky.shareHi=NaN,c.lucky.lenLo=NaN,c.lucky.lenHi=NaN;else{console.log("binomTest of lucky share%=",c.lucky.share,"with significance=",1-c.generalConfidence/100);const g=this.binomialTest(Math.round(c.lucky.len),c.len,{p:c.lucky.share,alpha:1-c.generalConfidence/100});c.lucky.shareLo=g.ci[0],c.lucky.shareHi=g.ci[1],c.lucky.lenLo=g.ci[0]*c.len,c.lucky.lenHi=g.ci[1]*c.len}c.unlucky={len:c.len-a,share:1-c.lucky.share,mean:0,std:0};let f=0,h=0;for(const[g,m]of Object.entries(n)){let{len:v,luckyLen:y,luckeyLen95:b,sorted:w,weights:T}=m;for(let S=0;S<v;S++){const k=w[S],E=T[S];f+=k*(1-E),h+=k*E}}c.unlucky.mean=f/c.unlucky.len,c.lucky.mean=h/c.lucky.len;let d=0,p=0;for(const[g,m]of Object.entries(n)){let{len:v,sorted:y,weights:b}=m;for(let w=0;w<v;w++){const T=b[w],S=y[w]-c.unlucky.mean;d+=S*S*(1-T);const k=y[w]-c.lucky.mean;p+=k*k*T}}return c.unlucky.std=Math.sqrt(d/c.unlucky.len),c.lucky.std=Math.sqrt(p/c.lucky.len),console.log("stats",c),c},histogram(){const e={arr:[],map:{}};if(this.stats.range>0){let t=[1];t=gt.histogram(this.stats.dataFlatSorted,this.stats.range+1);const n=Array.from(Array(this.stats.range+1).keys()).map(i=>[this.stats.min+i,t[i]]);e.arr=n;for(let i=0;i<t.length;i++)e.map[this.stats.min+i]=t[i]}else e.arr=[[this.stats.min,this.stats.len]],e.map[this.stats.min]=this.stats.len;return console.log("histogram",e),e}},methods:{formatFixed:dt,binomialTest:F4,async fetchObservations(){const e=Date.now();this.alldata=await(await fetch("data/manual/yields_observed_202505_202509.json")).json();const t=this.dropratesStore.selected_pzk;this.dropratesStore.selected_pzk=t&&this.alldata[t]?t:Object.keys(this.alldata)[0];const r=this.dropratesStore.selected_ik;this.dropratesStore.selected_ik=r&&this.alldata[t][r]?r:Object.keys(this.alldata[t])[0];const n=this.dropratesStore.selected_specie;this.dropratesStore.selected_specie=n&&this.alldata[t][r][n]?n:Object.keys(this.alldata[t][r])[0],console.log("fetchObservations took",Date.now()-e,"ms",this.dropratesStore.selected_pzk,this.dropratesStore.selected_ik,this.dropratesStore.selected_specie)},activate(e,t,r){this.dropratesStore.selected_pzk=e,this.dropratesStore.selected_ik=t,this.dropratesStore.selected_specie=r}}},Ho=e=>(Ze("data-v-cad86964"),e=e(),qe(),e),tme={id:"menu"},eme={style:{display:"none"}},rme=Ho(()=>_("p",{class:"fsxs"},"Left: droprate parameters currently used in workerman",-1)),nme=Ho(()=>_("p",{class:"fsxs"},"Right: observations used to find out current serverside parameters",-1)),ime={key:1},ome=Ho(()=>_("tr",null,[_("th",{class:"fsxs"},"n"),_("th",{class:"fsxs"},"np\u1D41"),_("th",{class:"fsxs"},"np\u1D38"),_("th",{class:"fsxs"},"item"),_("th",{class:"fsxs"},"normal"),_("th",{class:"fsxs"},"giant")],-1)),ame={class:"fsxs"},sme={class:"fsxs"},lme={class:"fsxs"},ume={class:"center"},cme=["title","onClick"],fme=["title"],hme={id:"content"},dme=Ho(()=>_("tr",null,[_("td",null,"mute"),_("td",null,"luck")],-1)),pme={class:"center"},gme=["onUpdate:modelValue"],vme=F(" Possible luck procs observed with "),mme=Yv('<option value="1.5" data-v-cad86964>\xB11.5\u03C3</option><option value="2" data-v-cad86964>\xB12\u03C3</option><option value="2.5" data-v-cad86964>\xB12.5\u03C3</option><option value="3" data-v-cad86964>\xB13\u03C3</option><option value="3.5" data-v-cad86964>\xB13.5\u03C3</option><option value="4" data-v-cad86964>\xB14\u03C3</option>',6),yme=[mme],_me=Ho(()=>_("tr",null,[_("th"),_("th",null,"min"),_("th",null,"max")],-1)),bme=Ho(()=>_("td",null,"count",-1)),wme=Ho(()=>_("td",null,"% of total",-1)),Sme={id:"settings"},Tme=F(" Use model:"),kme=Ho(()=>_("br",null,null,-1)),Pme=Ho(()=>_("label",{for:"option1"},[F("A. Same item drop regardless of luck (plants, lumber, ores)"),_("br")],-1)),Eme=Ho(()=>_("label",{for:"option2"},[F("B. Item only drops when luck procs (sacks, lumbering rares)"),_("br")],-1)),Cme=Ho(()=>_("label",{for:"option3"},[F("C. Different drops when luck procs and when not (eggs, honey)"),_("br")],-1)),Ame={key:0,id:"modelA",style:{float:"left"}},xme={key:1},Mme={key:2};function Ime(e,t,r,n,i,o){const a=zt("RouterLink"),s=zt("ItemIcon"),l=zt("DRMA"),u=zt("DRMB"),c=zt("DRMC");return I(),O("main",null,[_("div",tme,[_("div",eme,M(n.dropratesStore.selected_pzk)+" "+M(n.dropratesStore.selected_ik)+" "+M(n.dropratesStore.selected_specie),1),rme,nme,(I(!0),O(W,null,Pt(i.alldata,(f,h)=>(I(),O(W,null,[h in n.gameStore.plantzoneStatic?(I(),qr(a,{key:0,tag:"a",to:{path:"./",hash:"#node"+h}},{default:Fe(()=>[F(M(h)+" "+M(n.gameStore.plantzoneName(h)),1)]),_:2},1032,["to"])):(I(),O("span",ime,M(h),1)),_("table",null,[ome,(I(!0),O(W,null,Pt(f,(d,p)=>(I(),O("tr",null,[_("td",ame,[n.gameStore.ready&&Number(h)in n.gameStore.plantzones?(I(),O(W,{key:0},[F(M(n.gameStore.plantzones[Number(h)].rolls),1)],64)):nt("",!0)]),_("td",sme,[n.gameStore.ready&&Number(h)in n.gameStore.plantzones&&p in n.gameStore.plantzones[Number(h)].unlucky?(I(),O(W,{key:0},[F(M(n.gameStore.plantzones[Number(h)].unlucky[p]),1)],64)):nt("",!0)]),_("td",lme,[n.gameStore.ready&&Number(h)in n.gameStore.plantzones&&p in n.gameStore.plantzones[Number(h)].lucky?(I(),O(W,{key:0},[F(M(n.gameStore.plantzones[Number(h)].lucky[p]),1)],64)):nt("",!0)]),_("td",null,[ft(a,{tag:"a",to:{path:"./settings",hash:"#item"+p}},{default:Fe(()=>[_("span",null,[ft(s,{ik:Number(p)},null,8,["ik"])])]),_:2},1032,["to"]),F(" "+M(n.gameStore.itemName(p)),1)]),(I(),O(W,null,Pt(["normal","giant"],g=>_("td",ume,[g in d?(I(),O(W,{key:0},[h!=n.dropratesStore.selected_pzk||p!=n.dropratesStore.selected_ik||g!=n.dropratesStore.selected_specie?(I(),O("button",{key:0,title:`item ${p} ${g}`,onClick:m=>o.activate(h,p,g)},M(Object.values(d[g]).flat().length),9,cme)):(I(),O("button",{key:1,title:`item ${p} ${g}`,class:"pressed"},M(Object.values(d[g]).flat().length),9,fme))],64)):nt("",!0)])),64))]))),256))])],64))),256))]),_("div",hme,[_("details",null,[_("summary",null,[F("Dataset: size N = "+M(o.stats.len)+", sum "+M(o.stats.sum)+", mean M = "+M(o.formatFixed(o.stats.mean,3))+"\xB1"+M(o.formatFixed(1.96*o.stats.meanErr,3))+", ",1),this.stats.minLuck==this.stats.maxLuck?(I(),O(W,{key:0},[F(M(this.stats.maxLuck),1)],64)):(I(),O(W,{key:1},[F(M(o.formatFixed(this.stats.minLuck,2))+"\u2026"+M(o.formatFixed(this.stats.maxLuck,2)),1)],64)),F("\u{1F340} \u2192 \u03BB \u2208 "+M(o.formatFixed(o.stats.lucky.shareLo*100,2))+"\u2026"+M(o.formatFixed(o.stats.lucky.shareHi*100,2))+"% cycles were lucky ",1)]),_("div",null,[_("table",null,[dme,(I(!0),O(W,null,Pt(o.stats.dataRaw,(f,h)=>(I(),O("tr",{class:Ur({strike:i.hide_buckets[h]})},[_("td",pme,[at(_("input",{"onUpdate:modelValue":d=>i.hide_buckets[h]=d,type:"checkbox"},null,8,gme),[[Ge,i.hide_buckets[h]]])]),_("td",null,M(h),1),(I(!0),O(W,null,Pt(f,d=>(I(),O("td",null,M(d),1))),256))],2))),256))])]),_("p",null,[vme,at(_("select",{"onUpdate:modelValue":t[0]||(t[0]=f=>i.generalSigmas=f)},yme,512),[[cr,i.generalSigmas]]),F(" ("+M(o.formatFixed(o.stats.generalConfidence,2))+"%) confidence: ",1),_("table",null,[_me,_("tr",null,[bme,_("td",null,M(o.formatFixed(o.stats.lucky.lenLo,2)),1),_("td",null,M(o.formatFixed(o.stats.lucky.lenHi,2)),1)]),_("tr",null,[wme,_("td",null,M(o.formatFixed(o.stats.lucky.shareLo*100,2)),1),_("td",null,M(o.formatFixed(o.stats.lucky.shareHi*100,2)),1)])])])]),_("div",Sme,[Tme,kme,at(_("input",{type:"radio",id:"option1",value:"a","onUpdate:modelValue":t[1]||(t[1]=f=>n.dropratesStore.selected_model=f)},null,512),[[Pa,n.dropratesStore.selected_model]]),Pme,at(_("input",{type:"radio",id:"option2",value:"b","onUpdate:modelValue":t[2]||(t[2]=f=>n.dropratesStore.selected_model=f)},null,512),[[Pa,n.dropratesStore.selected_model]]),Eme,at(_("input",{type:"radio",id:"option3",value:"c","onUpdate:modelValue":t[3]||(t[3]=f=>n.dropratesStore.selected_model=f)},null,512),[[Pa,n.dropratesStore.selected_model]]),Cme]),n.dropratesStore.selected_model=="a"?(I(),O("div",Ame,[ft(l,{stats:o.stats,histogram:o.histogram,isGiant:n.dropratesStore.selected_specie=="giant"},null,8,["stats","histogram","isGiant"])])):nt("",!0),n.dropratesStore.selected_model=="b"?(I(),O("div",xme,[ft(u,{stats:o.stats,histogram:o.histogram},null,8,["stats","histogram"])])):nt("",!0),n.dropratesStore.selected_model=="c"?(I(),O("div",Mme,[ft(c,{stats:o.stats,histogram:o.histogram,isGiant:n.dropratesStore.selected_specie=="giant"},null,8,["stats","histogram","isGiant"])])):nt("",!0)])])}const Lme=ae(Q0e,[["render",Ime],["__scopeId","data-v-cad86964"]]),Ome={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},Rme=["step"],Dme=["max","step"];function Nme(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.mean=a),class:"vmid",min:0,max:2,step:.01},null,8,Rme),[[Gt,r.me.mean]]),F(" \u03BC="+M(r.me.mean),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.sigma=a),class:"vmid",min:0,max:.7,step:.01},null,8,Dme),[[Gt,r.me.sigma]]),F(" \u03C3="+M(r.me.sigma),1)])],64)}const Fme=ae(Ome,[["render",Nme]]),$me={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},Bme=["step"],zme=["step"];function Vme(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.center=a),class:"vmid",min:0,max:2,step:.01},null,8,Bme),[[Gt,r.me.center]]),F(" c="+M(r.me.center),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.width=a),class:"vmid",min:0,max:2,step:.01},null,8,zme),[[Gt,r.me.width]]),F(" w="+M(r.me.width),1)])],64)}const Ume=ae($me,[["render",Vme]]),Wme={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},jme=["step"],Gme=["step"];function Hme(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.center=a),class:"vmid",min:0,max:2,step:.01},null,8,jme),[[Gt,r.me.center]]),F(" c="+M(r.me.center),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.width=a),class:"vmid",min:0,max:2,step:.01},null,8,Gme),[[Gt,r.me.width]]),F(" w="+M(r.me.width),1)])],64)}const Xme=ae(Wme,[["render",Hme]]),Yme={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},Kme=["min","step"],Zme=["min","max","step"];function qme(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.at=a),class:"vmid",min:.1,max:2,step:.01},null,8,Kme),[[Gt,r.me.at]]),F(" \u03B1\u03B8="+M(r.me.at),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.theta=a),class:"vmid",min:.01,max:.3,step:.001},null,8,Zme),[[Gt,r.me.theta]]),F(" \u03B8="+M(r.me.theta),1)])],64)}const Jme=ae(Yme,[["render",qme]]),Qme={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},t1e=["min","step"],e1e=F(" e"),r1e=_("sup",null,"\u03BC",-1),n1e=["min","max","step"];function i1e(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.emu=a),class:"vmid",min:.1,max:2,step:.01},null,8,t1e),[[Gt,r.me.emu]]),e1e,r1e,F("="+M(r.me.emu),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.sigma=a),class:"vmid",min:.1,max:.7,step:.01},null,8,n1e),[[Gt,r.me.sigma]]),F(" \u03C3="+M(r.me.sigma),1)])],64)}const o1e=ae(Qme,[["render",i1e]]),a1e={data:()=>({}),props:{me:Object,isLast:Boolean},emits:["delete"],components:{FishCurveNormal:Fme,FishCurveLognormal:o1e,FishCurveUniform:Ume,FishCurveTriangular:Xme,FishCurveGamma:Jme},methods:{formatFixed:dt,morph(e){const t=this.me.kind,r=e.target.value;let n=0,i=0;switch(t){case"Normal":n=this.me.mean,i=this.me.sigma;break;case"Triangular":n=this.me.center,i=this.me.width/2;break;case"Uniform":n=this.me.center,i=this.me.width/2;break;case"Gamma":n=this.me.at,i=Math.sqrt(this.me.at*this.me.theta);break;case"Lognormal":n=this.me.emu;const o=this.me.sigma*this.me.sigma;i=Math.sqrt((Math.exp(o)-1)*Math.exp(2*Math.log(this.me.emu)+o));break;default:throw Error(`unknown curve kind ${t}`)}switch(console.log(`${t} -> ${r} (${n}, ${i})`),r){case"Normal":this.me.mean=n,this.me.sigma=i,this.me.mean=Math.round(this.me.mean*100)/100,this.me.sigma=Math.round(this.me.sigma*100)/100;break;case"Triangular":this.me.center=n,this.me.width=i*2,this.me.center=Math.round(this.me.center*100)/100,this.me.width=Math.round(this.me.width*100)/100;break;case"Uniform":this.me.center=n,this.me.width=i*2,this.me.center=Math.round(this.me.center*100)/100,this.me.width=Math.round(this.me.width*100)/100;break;case"Gamma":this.me.at=n,this.me.theta=i*i/n,this.me.alpha=Math.round(this.me.alpha*100)/100,this.me.theta=Math.round(this.me.theta*1e3)/1e3;break;case"Lognormal":this.me.emu=n,this.me.sigma=Math.sqrt(Math.log(1+i*i/n/n)),this.me.mean=Math.round(this.me.mean*100)/100,this.me.sigma=Math.round(this.me.sigma*100)/100;break;default:throw Error(`unknown curve kind ${r}`)}this.me.kind=r}},computed:{componentName(){return"FishCurve"+this.me.kind}}},s1e=["disabled","step"],l1e=["value"],u1e=_("option",null,"Normal",-1),c1e=_("option",null,"Triangular",-1),f1e=_("option",null,"Uniform",-1),h1e=_("option",null,"Gamma",-1),d1e=_("option",null,"Lognormal",-1),p1e=[u1e,c1e,f1e,h1e,d1e];function g1e(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.amount=a),disabled:r.isLast,class:"vmid",min:0,max:1,step:.01},null,8,s1e),[[Gt,r.me.amount]]),F(" "+M(o.formatFixed(r.me.amount*100,1))+"% ",1)]),_("td",null,[_("select",{value:r.me.kind,onChange:t[1]||(t[1]=a=>o.morph(a))},p1e,40,l1e)]),(I(),qr(WF(o.componentName),{me:r.me,"onUpdate:me":t[2]||(t[2]=a=>r.me=a)},null,40,["me"])),_("td",null,[_("button",{onClick:t[3]||(t[3]=a=>e.$emit("delete"))},"delete")])],64)}const v1e=ae(a1e,[["render",g1e]]);Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);const m1e={data:()=>({curves:[],presets:[[{amount:1,kind:"Lognormal",emu:1.01,sigma:.41}],[{amount:1,kind:"Gamma",at:1.05,theta:.163}],[{amount:.81,kind:"Normal",mean:1.09,sigma:.38},{amount:1,kind:"Normal",mean:.7,sigma:.17}],[{amount:.49,kind:"Normal",mean:.74,sigma:.21},{amount:.75,kind:"Normal",mean:1.19,sigma:.21},{amount:1,kind:"Normal",mean:1.62,sigma:.21}],[{amount:.5,kind:"Triangular",center:1,width:.76},{amount:.32,kind:"Triangular",center:.69,width:.34},{amount:1,kind:"Normal",mean:1.25,sigma:.42}],[{amount:.24,kind:"Normal",mean:.62,sigma:.16},{amount:.36,kind:"Normal",mean:.87,sigma:.16},{amount:.49,kind:"Normal",mean:1.18,sigma:.18},{amount:1,kind:"Normal",mean:1.47,sigma:.28}]],forceMSE:!1,bestPval:0}),mounted(){this.loadPreset(0)},props:{stats:Object,histogram:Object,avg_size:Number,mode_relative:Boolean},components:{VChart:nu,FishCurve:v1e},methods:{isGoodVal:Gi,formatFixed:dt,formatKMG:Ob,makeBinomialArray:Y2,makeNormalArray:Zge,makeLognormalArray:Hge,makeUniformArray:Yge,makeGammaArray:Xge,makeTriangularArray:Kge,sumDistributions:UY,loss:K2,removeCurve(e){this.curves.splice(e,1),this.curves[this.curves.length-1].amount=1},addCurve(){this.curves[this.curves.length-1].amount/=2,this.curves.push({amount:1,kind:"Normal",mean:1,sigma:.1})},loadPreset(e){const t=this.presets[e];this.curves=[];for(const r of t)this.curves.push({...r})},makeModel(){const e={bells:[],bell:[]};let t=-1,r=this.stats.len;for(const n of this.curves){let i=null;switch(t+=3,n.kind){case"Normal":n.amount=="rest"&&(n.amount=r),i=this.makeNormalArray(n.mean*this.avg_size,n.amount*r,this.stats.max,n.sigma*this.avg_size),r-=n.amount*r;break;case"Triangular":i=this.makeTriangularArray(n.center*this.avg_size,n.amount*r,this.stats.max,n.width*this.avg_size),r-=n.amount*r;break;case"Uniform":i=this.makeUniformArray(n.center*this.avg_size,n.amount*r,this.stats.max,n.width*this.avg_size),r-=n.amount*r;break;case"Gamma":i=this.makeGammaArray(n.at/n.theta,n.amount*r,this.stats.max,n.theta*this.avg_size),r-=n.amount*r;break;case"Lognormal":i=this.makeLognormalArray(Math.log(n.emu*this.avg_size),n.amount*r,this.stats.max,n.sigma),r-=n.amount*r;break;default:throw Error(`unknown curve kind ${n.kind}`)}e.bells.push(i),e.bell=this.sumDistributions(e.bell,i)}return e.loss=this.loss(e.bell,this.histogram.map,t),e||console.log("makeModel failed",npU,npL,stdDev),e}},computed:{modelC(){const e=this.makeModel();return console.log("model",e),e},makeHistogramOption(){const e={legend:{},title:{text:`MSE=${dt(this.modelC.loss.mse,2)}
+*/var kfe=Tfe,F4=kfe;const Pfe=od({id:"droprates",state:()=>({selected_pzk:"",selected_ik:"",selected_specie:"",selected_model:"a",usePooling:!1,plotChiSquared:!1})}),Efe=Array.prototype.concat,fY=Object.prototype.toString;function hY(e,t){var r=e>t?e:t;return Math.pow(10,17-~~(Math.log(r>0?r:-r)*Math.LOG10E))}const Na=Array.isArray||function(t){return fY.call(t)==="[object Array]"};function Vv(e){return fY.call(e)==="[object Function]"}function hn(e){return typeof e=="number"?e-e===0:!1}function Cfe(e){return Efe.apply([],e)}const dY={calcRdx:hY,isArray:Na,isFunction:Vv,isNumber:hn,toVector:Cfe};let ro=Math.random;function pY(e){if(typeof e!="function")throw new TypeError("fn is not a function");ro=e}function V2(e){return e.length||1}function gY(e){return e[0].length||1}function Afe(e){return{rows:V2(e),cols:gY(e)}}function $4(e,t){return Na(t)?t.map(r=>$4(e,r)):e[t]}function vY(e,t){return $4(e,t)}function ub(e,t){if(Na(t)){const n=rr(e.length).map(()=>new Array(t.length));return t.forEach(function(i,o){rr(e.length).forEach(function(a){n[a][o]=e[a][i]})}),n}const r=new Array(e.length);for(let n=0;n<e.length;n++)r[n]=[e[n][t]];return r}function mY(e,t){return ub(e,t).map(r=>r[0])}function xfe(e){const t=V2(e),r=new Array(t);for(let n=0;n<t;n++)r[n]=[e[n][n]];return r}function Mfe(e){for(var t=V2(e)-1,r=new Array(t),n=0;t>=0;t--,n++)r[n]=[e[n][t]];return r}function Fl(e){var t=[],r,n,i,o,a;for(Na(e[0])||(e=[e]),n=e.length,i=e[0].length,a=0;a<i;a++){for(r=new Array(n),o=0;o<n;o++)r[o]=e[o][a];t.push(r)}return t.length===1?t[0]:t}function Wn(e,t,r){var n,i,o,a,s;for(Na(e[0])||(e=[e]),i=e.length,o=e[0].length,a=r?e:new Array(i),n=0;n<i;n++)for(a[n]||(a[n]=new Array(o)),s=0;s<o;s++)a[n][s]=t(e[n][s],n,s);return a.length===1?a[0]:a}function U2(e,t,r){var n,i,o,a,s;for(Na(e[0])||(e=[e]),i=e.length,o=e[0].length,a=r?e:new Array(i),n=0;n<i;n++)for(a[n]||(a[n]=new Array(o)),o>0&&(a[n][0]=e[n][0]),s=1;s<o;s++)a[n][s]=t(a[n][s-1],e[n][s]);return a.length===1?a[0]:a}function B4(e,t){return Wn(e,t,!0)}function Rd(e,t,r){var n=new Array(e),i,o;for(Vv(t)&&(r=t,t=e),i=0;i<e;i++)for(n[i]=new Array(t),o=0;o<t;o++)n[i][o]=r(i,o);return n}function yY(){return 0}function Ife(){return 1}function Lfe(e,t){return e===t?1:0}function Va(e,t){return hn(t)||(t=e),Rd(e,t,yY)}function Ofe(e,t){return hn(t)||(t=e),Rd(e,t,Ife)}function Rfe(e,t){return hn(t)||(t=e),Rd(e,t,ro)}function Nc(e,t){return hn(t)||(t=e),Rd(e,t,Lfe)}function Dfe(e){var t=e.length,r,n;if(e.length!==e[0].length)return!1;for(r=0;r<t;r++)for(n=0;n<t;n++)if(e[n][r]!==e[r][n])return!1;return!0}function Nfe(e){return B4(e,yY)}function _Y(e,t,r,n){Vv(n)||(n=!1);var i=[],o=hY(e,t),a=(t*o-e*o)/((r-1)*o),s=e,l;for(l=0;s<=t&&l<r;l++,s=(e*o+a*o*l)/o)i.push(n?n(s,l):s);return i}function rr(e,t,r){var n=[],i;if(r=r||1,t===void 0&&(t=e,e=0),e===t||r===0)return[];if(e<t&&r<0)return[];if(e>t&&r>0)return[];if(r>0)for(i=e;i<t;i+=r)n.push(i);else for(i=e;i>t;i+=r)n.push(i);return n}function os(e,t){function r(l,u,c,f){var h,d=[],p=l.length;if(u===void 0&&c===void 0&&f===void 0)return W2(l);if(u=u||0,c=c||l.length,u=u>=0?u:p+u,c=c>=0?c:p+c,f=f||1,u===c||f===0)return[];if(u<c&&f<0)return[];if(u>c&&f>0)return[];if(f>0)for(h=u;h<c;h+=f)d.push(l[h]);else for(h=u;h>c;h+=f)d.push(l[h]);return d}var n,i;if(t=t||{},hn(t.row)){if(hn(t.col))return e[t.row][t.col];var o=vY(e,t.row);return n=t.col||{},r(o,n.start,n.end,n.step)}if(hn(t.col)){var a=mY(e,t.col);return i=t.row||{},r(a,i.start,i.end,i.step)}i=t.row||{},n=t.col||{};var s=r(e,i.start,i.end,i.step);return s.map(function(l){return r(l,n.start,n.end,n.step)})}function lg(e,t,r){var n,i;if(hn(t.row)){if(hn(t.col))return e[t.row][t.col]=r;t.col=t.col||{},t.col.start=t.col.start||0,t.col.end=t.col.end||e[0].length,t.col.step=t.col.step||1,n=rr(t.col.start,Math.min(e.length,t.col.end),t.col.step);var o=t.row;return n.forEach(function(s,l){e[o][s]=r[l]}),e}if(hn(t.col)){t.row=t.row||{},t.row.start=t.row.start||0,t.row.end=t.row.end||e.length,t.row.step=t.row.step||1,i=rr(t.row.start,Math.min(e[0].length,t.row.end),t.row.step);var a=t.col;return i.forEach(function(s,l){e[s][a]=r[l]}),e}return r[0].length===void 0&&(r=[r]),t.row.start=t.row.start||0,t.row.end=t.row.end||e.length,t.row.step=t.row.step||1,t.col.start=t.col.start||0,t.col.end=t.col.end||e[0].length,t.col.step=t.col.step||1,i=rr(t.row.start,Math.min(e.length,t.row.end),t.row.step),n=rr(t.col.start,Math.min(e[0].length,t.col.end),t.col.step),i.forEach(function(s,l){n.forEach(function(u,c){e[s][u]=r[l][c]})}),e}function Ffe(e){var t=Va(e.length,e.length);return e.forEach(function(r,n){t[n][n]=r}),t}function W2(e){return e.map(function(t){return hn(t)?t:t.map(function(r){return r})})}const $fe=Object.freeze(Object.defineProperty({__proto__:null,utils:dY,get random_fn(){return ro},setRandom:pY,rows:V2,cols:gY,dimensions:Afe,row:$4,rowa:vY,col:ub,cola:mY,diag:xfe,antidiag:Mfe,transpose:Fl,map:Wn,cumreduce:U2,alter:B4,create:Rd,zeros:Va,ones:Ofe,rand:Rfe,identity:Nc,symmetric:Dfe,clear:Nfe,seq:_Y,arange:rr,slice:os,sliceAssign:lg,diagonal:Ffe,copy:W2},Symbol.toStringTag,{value:"Module"}));function Dd(e,t){return e-t}function J7(e,t,r){return Math.max(t,Math.min(e,r))}function jn(e){for(var t=0,r=e.length;--r>=0;)t+=e[r];return t}function Bfe(e){for(var t=0,r=e.length;--r>=0;)t+=e[r]*e[r];return t}function j2(e){for(var t=Wr(e),r=0,n=e.length,i;--n>=0;)i=e[n]-t,r+=i*i;return r}function zfe(e){for(var t=0,r=e.length;--r>=0;)t+=e[r];return t}function bY(e){for(var t=1,r=e.length;--r>=0;)t*=e[r];return t}function z4(e){for(var t=e[0],r=0;++r<e.length;)e[r]<t&&(t=e[r]);return t}function V4(e){for(var t=e[0],r=0;++r<e.length;)e[r]>t&&(t=e[r]);return t}function Vfe(e){for(var t={},r=[],n=0;n<e.length;n++)t[e[n]]||(t[e[n]]=!0,r.push(e[n]));return r}function Wr(e){return jn(e)/e.length}function Ufe(e){return j2(e)/e.length}function Wfe(e){return Math.pow(bY(e),1/e.length)}function lC(e){var t=e.length,r=e.slice().sort(Dd);return t&1?r[t/2|0]:(r[t/2-1]+r[t/2])/2}function jfe(e){return U2(e,function(t,r){return t+r})}function Gfe(e){return U2(e,function(t,r){return t*r})}function Hfe(e){var t=[],r=e.length,n;for(n=1;n<r;n++)t.push(e[n]-e[n-1]);return t}function uC(e){var t,r=[],n={};for(t=0;t<e.length;t++){var i=e[t];n[i]?n[i]++:(n[i]=1,r.push(i))}var o=r.sort(Dd),a={},s=1;for(t=0;t<o.length;t++){var i=o[t],l=n[i],u=s,c=s+l-1,f=(u+c)/2;a[i]=f,s+=l}return e.map(function(h){return a[h]})}function Xfe(e){var t=e.length,r=e.slice().sort(Dd),n=1,i=0,o=0,a=[],s;for(s=0;s<t;s++)r[s]===r[s+1]?n++:(n>i?(a=[r[s]],i=n,o=0):n===i&&(a.push(r[s]),o++),n=1);return o===0?a[0]:a}function Yfe(e){return V4(e)-z4(e)}function wY(e,t){return j2(e)/(e.length-(t?1:0))}function SY(e){var t=e.reduce(function(n,i){return n+j2(i)},0),r=e.reduce(function(n,i){return n+i.length},0);return t/(r-e.length)}function Kfe(e){for(var t=Wr(e),r=e.length,n=new Array(r),i=0;i<r;i++)n[i]=e[i]-t;return n}function As(e,t){return Math.sqrt(wY(e,t))}function TY(e){return Math.sqrt(SY(e))}function Zfe(e){for(var t=Wr(e),r=[],n=e.length-1;n>=0;n--)r.push(Math.abs(e[n]-t));return Wr(r)}function qfe(e){for(var t=lC(e),r=[],n=e.length-1;n>=0;n--)r.push(Math.abs(e[n]-t));return lC(r)}function Jfe(e){return As(e)/Wr(e)}function Qfe(e){var t=e.length,r=e.slice().sort(Dd);return[r[Math.round(t/4)-1],r[Math.round(t/2)-1],r[Math.round(t*3/4)-1]]}function the(e,t,r,n){var i=e.slice().sort(Dd),o=[t.length],a=e.length,s,l,u,c,f,h;for(typeof r>"u"&&(r=3/8),typeof n>"u"&&(n=3/8),s=0;s<t.length;s++)l=t[s],u=r+l*(1-r-n),c=a*l+u,f=Math.floor(J7(c,1,a-1)),h=J7(c-f,0,1),o[s]=(1-h)*i[f-1]+h*i[f];return o}function ehe(e,t,r){var n=e.slice().sort(Dd),i=t*(n.length+(r?1:-1))+(r?0:1),o=parseInt(i),a=i-o;return o+1<n.length?n[o-1]+a*(n[o]-n[o-1]):n[o-1]}function rhe(e,t,r){var n=0,i=e.length,o=!1,a,s;for(r==="strict"&&(o=!0),s=0;s<i;s++)a=e[s],(o&&a<t||!o&&a<=t)&&n++;return n/i}function nhe(e,t){t=t||4;var r=z4(e),n=(V4(e)-r)/t,i=e.length,o=[],a;for(a=0;a<t;a++)o[a]=0;for(a=0;a<i;a++)o[Math.min(Math.floor((e[a]-r)/n),t-1)]+=1;return o}function kY(e,t){var r=Wr(e),n=Wr(t),i=e.length,o=new Array(i),a;for(a=0;a<i;a++)o[a]=(e[a]-r)*(t[a]-n);return jn(o)/(i-1)}function PY(e,t){return kY(e,t)/As(e,1)/As(t,1)}function ihe(e,t){return e=uC(e),t=uC(t),PY(e,t)}function U4(e,t){for(var r=Wr(e),n=As(e),i=e.length,o=0,a=0;a<i;a++)o+=Math.pow((e[a]-r)/n,t);return o/e.length}function ohe(e){return U4(e,3)}function ahe(e){return U4(e,4)-3}const she=Object.freeze(Object.defineProperty({__proto__:null,sum:jn,sumsqrd:Bfe,sumsqerr:j2,sumrow:zfe,product:bY,min:z4,max:V4,unique:Vfe,mean:Wr,meansqerr:Ufe,geomean:Wfe,median:lC,cumsum:jfe,cumprod:Gfe,diff:Hfe,rank:uC,mode:Xfe,range:Yfe,variance:wY,pooledvariance:SY,deviation:Kfe,stdev:As,pooledstdev:TY,meandev:Zfe,meddev:qfe,coeffvar:Jfe,quartiles:Qfe,quantiles:the,percentile:ehe,percentileOfScore:rhe,histogram:nhe,covariance:kY,corrcoeff:PY,spearmancoeff:ihe,stanMoment:U4,skewness:ohe,kurtosis:ahe},Symbol.toStringTag,{value:"Module"}));function lhe(e,t,r){return e<t||e>r?0:1/(r-t)}function uhe(e,t,r){return e<t?0:e<r?(e-t)/(r-t):1}function che(e,t,r){return t+e*(r-t)}function fhe(e,t){return .5*(e+t)}function hhe(e,t){return Wr(e)}function dhe(){throw new Error("mode is not yet implemented")}function EY(e,t){return e/2+t/2+(t/2-e/2)*(2*ro()-1)}function phe(e,t){return Math.pow(t-e,2)/12}const ghe=Object.freeze(Object.defineProperty({__proto__:null,pdf:lhe,cdf:uhe,inv:che,mean:fhe,median:hhe,mode:dhe,sample:EY,variance:phe},Symbol.toStringTag,{value:"Module"}));function vhe(e,t,r){return r<=t?NaN:e<=t||e>=r?0:2/Math.PI*Math.pow(Math.pow(r-t,2)-Math.pow(2*e-t-r,2),-.5)}function mhe(e,t,r){return e<t?0:e<r?2/Math.PI*Math.asin(Math.sqrt((e-t)/(r-t))):1}function yhe(e,t,r){return t+(.5-.5*Math.cos(Math.PI*e))*(r-t)}function _he(e,t){return t<=e?NaN:(e+t)/2}function bhe(e,t){return t<=e?NaN:(e+t)/2}function whe(){throw new Error("mode is not yet implemented")}function She(e,t){return(e+t)/2+(t-e)/2*Math.sin(2*Math.PI*EY(0,1))}function The(e,t){return t<=e?NaN:Math.pow(t-e,2)/8}const khe=Object.freeze(Object.defineProperty({__proto__:null,pdf:vhe,cdf:mhe,inv:yhe,mean:_he,median:bhe,mode:whe,sample:She,variance:The},Symbol.toStringTag,{value:"Module"}));function br(e){var t=0,r=[76.18009172947146,-86.50532032941678,24.01409824083091,-1.231739572450155,.001208650973866179,-5395239384953e-18],n=1.000000000190015,i,o,a;for(a=(o=i=e)+5.5,a-=(i+.5)*Math.log(a);t<6;t++)n+=r[t]/++o;return Math.log(2.5066282746310007*n/i)-a}function CY(e){var t,r,n,i,o,a,s,l=[.08333333333333333,-.002777777777777778,.0007936507936507937,-.0005952380952380952,.0008417508417508418,-.001917526917526918,.00641025641025641,-.02955065359477124,.1796443723688307,-1.3924322169059];if(t=e,s=0,e==1||e==2)return 0;for(e<=7&&(s=Math.floor(7-e),t=e+s),r=1/(t*t),n=2*Math.PI,o=l[9],a=8;a>=0;a--)o*=r,o+=l[a];if(i=o/t+.5*Math.log(n)+(t-.5)*Math.log(t)-t,e<=7)for(a=1;a<=s;a++)i-=Math.log(t-1),t-=1;return i}function Oo(e){var t=[-1.716185138865495,24.76565080557592,-379.80425647094563,629.3311553128184,866.9662027904133,-31451.272968848367,-36144.413418691176,66456.14382024054],r=[-30.8402300119739,315.35062697960416,-1015.1563674902192,-3107.771671572311,22538.11842098015,4755.846277527881,-134659.9598649693,-115132.2596755535],n=!1,i=0,o=0,a=0,s=e,l,u,c,f;if(e>171.6243769536076)return 1/0;if(s<=0)if(f=s%1+36e-17,f)n=(s&1?-1:1)*Math.PI/Math.sin(Math.PI*f),s=1-s;else return 1/0;for(c=s,s<1?u=s++:u=(s-=i=(s|0)-1)-1,l=0;l<8;++l)a=(a+t[l])*u,o=o*u+r[l];if(f=a/o+1,c<s)f/=c;else if(c>s)for(l=0;l<i;++l)f*=s,s++;return n&&(f=n/f),f}function Phe(e,t){return Nd(e,t)*Oo(e)}function Nd(e,t){var r=br(e),n=e,i=1/e,o=i,a=t+1-e,s=1/1e-30,l=1/a,u=l,c=1,f=-~(Math.log(e>=1?e:1/e)*8.5+e*.4+17),h;if(t<0||e<=0)return NaN;if(t<e+1){for(;c<=f;c++)i+=o*=t/++n;return i*Math.exp(-t+e*Math.log(t)-r)}for(;c<=f;c++)h=-c*(c-e),a+=2,l=h*l+a,s=a+h/s,l=1/l,u*=l*s;return 1-u*Math.exp(-t+e*Math.log(t)-r)}function Gy(e){return e<0?NaN:br(e+1)}function bc(e){return e<0?NaN:Oo(e+1)}function W4(e,t){return e>170||t>170?Math.exp(AY(e,t)):bc(e)/bc(t)/bc(e-t)}function AY(e,t){return Gy(e)-Gy(t)-Gy(e-t)}function Ehe(e,t){return bc(e)/bc(e-t)}function G2(e,t){if(!(e<=0||t<=0))return e+t>170?Math.exp(j4(e,t)):Oo(e)*Oo(t)/Oo(e+t)}function j4(e,t){return br(e)+br(t)-br(e+t)}function cC(e,t,r){var n=1e-30,i=1,o=t+r,a=t+1,s=t-1,l=1,u=1-o*e/a,c,f,h,d;for(Math.abs(u)<n&&(u=n),u=1/u,d=u;i<=100&&(c=2*i,f=i*(r-i)*e/((s+c)*(t+c)),u=1+f*u,Math.abs(u)<n&&(u=n),l=1+f/l,Math.abs(l)<n&&(l=n),u=1/u,d*=u*l,f=-(t+i)*(o+i)*e/((t+c)*(a+c)),u=1+f*u,Math.abs(u)<n&&(u=n),l=1+f/l,Math.abs(l)<n&&(l=n),u=1/u,h=u*l,d*=h,!(Math.abs(h-1)<3e-7));i++);return d}function H2(e,t){var r=0,n=t-1,i=1e-8,o=br(t),a,s,l,u,c,f,h;if(e>=1)return Math.max(100,t+100*Math.sqrt(t));if(e<=0)return 0;for(t>1?(f=Math.log(n),h=Math.exp(n*(f-1)-o),c=e<.5?e:1-e,l=Math.sqrt(-2*Math.log(c)),a=(2.30753+l*.27061)/(1+l*(.99229+l*.04481))-l,e<.5&&(a=-a),a=Math.max(.001,t*Math.pow(1-1/(9*t)-a/(3*Math.sqrt(t)),3))):(l=1-t*(.253+t*.12),e<l?a=Math.pow(e/l,1/t):a=1-Math.log(1-(e-l)/(1-l)));r<12;r++){if(a<=0)return 0;if(s=Nd(t,a)-e,t>1?l=h*Math.exp(-(a-n)+n*(Math.log(a)-f)):l=Math.exp(-a+n*Math.log(a)-o),u=s/l,a-=l=u/(1-.5*Math.min(1,u*((t-1)/a-1))),a<=0&&(a=.5*(a+l)),Math.abs(l)<i*a)break}return a}function X2(e){var t=[-1.3026537197817094,.6419697923564902,.019476473204185836,-.00956151478680863,-.000946595344482036,.000366839497852761,42523324806907e-18,-20278578112534e-18,-1624290004647e-18,130365583558e-17,15626441722e-18,-85238095915e-18,6529054439e-18,5059343495e-18,-991364156e-18,-227365122e-18,96467911e-18,2394038e-18,-6886027e-18,894487e-18,313092e-18,-112708e-18,381e-18,7106e-18,-1523e-18,-94e-18,121e-18,-28e-18],r=t.length-1,n=!1,i=0,o=0,a,s,l,u;for(e<0&&(e=-e,n=!0),a=2/(2+e),s=4*a-2;r>0;r--)l=i,i=s*i-o+t[r],o=l;return u=a*Math.exp(-e*e+.5*(t[0]+s*i)-o),n?u-1:1-u}function xY(e){return 1-X2(e)}function G4(e){var t=0,r,n,i,o;if(e>=2)return-100;if(e<=0)return 100;for(o=e<1?e:2-e,i=Math.sqrt(-2*Math.log(o/2)),r=-.70711*((2.30753+i*.27061)/(1+i*(.99229+i*.04481))-i);t<2;t++)n=xY(r)-o,r+=n/(1.1283791670955126*Math.exp(-r*r)-r*n);return e<1?r:-r}function A0(e,t,r){var n=1e-8,i=t-1,o=r-1,a=0,s,l,u,c,f,h,d,p,g,m,v;if(e<=0)return 0;if(e>=1)return 1;for(t>=1&&r>=1?(u=e<.5?e:1-e,c=Math.sqrt(-2*Math.log(u)),d=(2.30753+c*.27061)/(1+c*(.99229+c*.04481))-c,e<.5&&(d=-d),p=(d*d-3)/6,g=2/(1/(2*t-1)+1/(2*r-1)),m=d*Math.sqrt(p+g)/g-(1/(2*r-1)-1/(2*t-1))*(p+5/6-2/(3*g)),d=t/(t+r*Math.exp(2*m))):(s=Math.log(t/(t+r)),l=Math.log(r/(t+r)),c=Math.exp(t*s)/t,f=Math.exp(r*l)/r,m=c+f,e<c/m?d=Math.pow(t*m*e,1/t):d=1-Math.pow(r*m*(1-e),1/r)),v=-br(t)-br(r)+br(t+r);a<10;a++){if(d===0||d===1)return d;if(h=x0(d,t,r)-e,c=Math.exp(i*Math.log(d)+o*Math.log(1-d)+v),f=h/c,d-=c=f/(1-.5*Math.min(1,f*(i/d-o/(1-d)))),d<=0&&(d=.5*(d+c)),d>=1&&(d=.5*(d+c+1)),Math.abs(c)<n*d&&a>0)break}return d}function x0(e,t,r){var n=e===0||e===1?0:Math.exp(br(t+r)-br(t)-br(r)+t*Math.log(e)+r*Math.log(1-e));return e<0||e>1?!1:e<(t+1)/(t+r+2)?n*cC(e,t,r)/t:1-n*cC(1-e,r,t)/r}function cf(e,t){var r,n,i,o,a;if(t||(t=e),e)return Rd(e,t,function(){return cf()});do r=ro(),n=1.7156*(ro()-.5),i=r-.449871,o=Math.abs(n)+.386595,a=i*i+o*(.196*o-.25472*i);while(a>.27597&&(a>.27846||n*n>-4*Math.log(r)*r*r));return n/r}function Fa(e,t,r){var n=e,i,o,a,s,l,u;if(r||(r=t),e||(e=1),t)return u=Va(t,r),u.alter(function(){return Fa(e)}),u;e<1&&(e+=1),i=e-1/3,o=1/Math.sqrt(9*i);do{do l=cf(),s=1+o*l;while(s<=0);s=s*s*s,a=ro()}while(a>1-.331*Math.pow(l,4)&&Math.log(a)>.5*l*l+i*(1-s+Math.log(s)));if(e==n)return i*s;do a=ro();while(a===0);return Math.pow(a,1/n)*i*s}const Che=Object.freeze(Object.defineProperty({__proto__:null,gammaln:br,loggam:CY,gammafn:Oo,gammap:Phe,lowRegGamma:Nd,factorialln:Gy,factorial:bc,combination:W4,combinationln:AY,permutation:Ehe,betafn:G2,betaln:j4,betacf:cC,gammapinv:H2,erf:X2,erfc:xY,erfcinv:G4,ibetainv:A0,ibeta:x0,randn:cf,randg:Fa},Symbol.toStringTag,{value:"Module"}));function Ahe(e,t,r){return e>1||e<0?0:t==1&&r==1?1:t<512&&r<512?Math.pow(e,t-1)*Math.pow(1-e,r-1)/G2(t,r):Math.exp((t-1)*Math.log(e)+(r-1)*Math.log(1-e)-j4(t,r))}function cb(e,t,r){return e>1||e<0?(e>1)*1:x0(e,t,r)}function xhe(e,t,r){return A0(e,t,r)}function Mhe(e,t){return e/(e+t)}function Ihe(e,t){return A0(.5,e,t)}function Lhe(e,t){return(e-1)/(e+t-2)}function Ohe(e,t){var r=Fa(e);return r/(r+Fa(t))}function Rhe(e,t){return e*t/(Math.pow(e+t,2)*(e+t+1))}const Dhe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Ahe,cdf:cb,inv:xhe,mean:Mhe,median:Ihe,mode:Lhe,sample:Ohe,variance:Rhe},Symbol.toStringTag,{value:"Module"}));function Q7(e,t,r,n){for(var i=0,o=1,a=1,s=1,l=0,u=0,c;Math.abs((a-u)/a)>n;)u=a,c=-(t+l)*(t+r+l)*e/(t+2*l)/(t+2*l+1),i=a+c*i,o=s+c*o,l=l+1,c=l*(r-l)*e/(t+2*l-1)/(t+2*l),a=i+c*a,s=o+c*s,i=i/s,o=o/s,a=a/s,s=1;return a/t}function MY(e,t,r){return r===0||r===1?t*r===e?1:0:W4(t,e)*Math.pow(r,e)*Math.pow(1-r,t-e)}function Nhe(e,t,r){var n,i=1e-10;if(e<0)return 0;if(e>=t)return 1;if(r<0||r>1||t<=0)return NaN;e=Math.floor(e);var o=r,a=e+1,s=t-e,l=a+s,u=Math.exp(br(l)-br(s)-br(a)+a*Math.log(o)+s*Math.log(1-o));return o<(a+1)/(l+2)?n=u*Q7(o,a,s,i):n=1-u*Q7(1-o,s,a,i),Math.round((1-n)*(1/i))/(1/i)}const Fhe=Object.freeze(Object.defineProperty({__proto__:null,pdf:MY,cdf:Nhe},Symbol.toStringTag,{value:"Module"}));function $he(e,t,r){return r<0?0:r/(Math.pow(e-t,2)+Math.pow(r,2))/Math.PI}function Bhe(e,t,r){return Math.atan((e-t)/r)/Math.PI+.5}function zhe(e,t,r){return t+r*Math.tan(Math.PI*(e-.5))}function Vhe(e){return e}function Uhe(e){return e}function Whe(e,t){return cf()*Math.sqrt(1/(2*randg(.5)))*t+e}const jhe=Object.freeze(Object.defineProperty({__proto__:null,pdf:$he,cdf:Bhe,inv:zhe,median:Vhe,mode:Uhe,sample:Whe},Symbol.toStringTag,{value:"Module"}));function Ghe(e,t,r){var n,i,o;return e<0?0:t<=2?e===0&&t<2?1/0:e===0&&t===2?1:1/G2(t/2,r/2)*Math.pow(t/r,t/2)*Math.pow(e,t/2-1)*Math.pow(1+t/r*e,-(t+r)/2):(n=t*e/(r+e*t),i=r/(r+e*t),o=t*i/2,o*MY((t-2)/2,(t+r-2)/2,n))}function fb(e,t,r){return e<0?0:x0(t*e/(t*e+r),t/2,r/2)}function Hhe(e,t,r){return r/(t*(1/A0(e,t/2,r/2)-1))}function Xhe(e,t){return t>2?t/(t-2):void 0}function Yhe(e,t){return e>2?t*(e-2)/(e*(t+2)):void 0}function Khe(e,t){var r=Fa(e/2)*2,n=Fa(t/2)*2;return r/e/(n/t)}function Zhe(e,t){if(!(t<=4))return 2*t*t*(e+t-2)/(e*(t-2)*(t-2)*(t-4))}const qhe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Ghe,cdf:fb,inv:Hhe,mean:Xhe,mode:Yhe,sample:Khe,variance:Zhe},Symbol.toStringTag,{value:"Module"}));function Jhe(e,t){return e<0?0:e===0&&t===2?.5:Math.exp((t/2-1)*Math.log(e)-e/2-t/2*Math.log(2)-br(t/2))}function Qhe(e,t){return e<0?0:Nd(t/2,e/2)}function tde(e,t){return 2*H2(e,.5*t)}function ede(e){return e}function rde(e){return e*Math.pow(1-2/(9*e),3)}function nde(e){return e-2>0?e-2:0}function ide(e){return Fa(e/2)*2}function ode(e){return 2*e}const ade=Object.freeze(Object.defineProperty({__proto__:null,pdf:Jhe,cdf:Qhe,inv:tde,mean:ede,median:rde,mode:nde,sample:ide,variance:ode},Symbol.toStringTag,{value:"Module"}));function sde(e,t){return e<0?0:t*Math.exp(-t*e)}function lde(e,t){return e<0?0:1-Math.exp(-t*e)}function ude(e,t){return-Math.log(1-e)/t}function cde(e){return 1/e}function fde(e){return 1/e*Math.log(2)}function hde(){return 0}function dde(e){return-1/e*Math.log(ro())}function pde(e){return Math.pow(e,-2)}const gde=Object.freeze(Object.defineProperty({__proto__:null,pdf:sde,cdf:lde,inv:ude,mean:cde,median:fde,mode:hde,sample:dde,variance:pde},Symbol.toStringTag,{value:"Module"}));function vde(e,t,r){return e<0?0:e===0&&t===1?1/r:Math.exp((t-1)*Math.log(e)-e/r-br(t)-t*Math.log(r))}function mde(e,t,r){return e<0?0:Nd(t,e/r)}function yde(e,t,r){return H2(e,t)*r}function _de(e,t){return e*t}function bde(e,t){if(e>1)return(e-1)*t}function wde(e,t){return Fa(e)*t}function Sde(e,t){return e*t*t}const Tde=Object.freeze(Object.defineProperty({__proto__:null,pdf:vde,cdf:mde,inv:yde,mean:_de,mode:bde,sample:wde,variance:Sde},Symbol.toStringTag,{value:"Module"}));function ug(e,t,r,n){if(e!==e|0)return!1;if(e<0||e<r-(t-n))return 0;if(e>n||e>r)return 0;if(r*2>t)return n*2>t?ug(t-r-n+e,t,t-r,t-n):ug(n-e,t,t-r,n);if(n*2>t)return ug(r-e,t,r,t-n);if(r<n)return ug(e,t,n,r);for(var i=1,o=0,a=0;a<e;a++){for(;i>1&&o<n;)i*=1-r/(t-o),o++;i*=(n-a)*(r-a)/((a+1)*(t-r-n+a+1))}for(;o<n;o++)i*=1-r/(t-o);return Math.min(1,Math.max(0,i))}function cg(e,t,r,n){if(e<0||e<r-(t-n))return 0;if(e>=n||e>=r)return 1;if(r*2>t)return n*2>t?cg(t-r-n+e,t,t-r,t-n):1-cg(n-e-1,t,t-r,n);if(n*2>t)return 1-cg(r-e-1,t,r,t-n);if(r<n)return cg(e,t,n,r);for(var i=1,o=1,a=0,s=0;s<e;s++){for(;i>1&&a<n;){var l=1-r/(t-a);o*=l,i*=l,a++}o*=(n-s)*(r-s)/((s+1)*(t-r-n+s+1)),i+=o}for(;a<n;a++)i*=1-r/(t-a);return Math.min(1,Math.max(0,i))}const kde=Object.freeze(Object.defineProperty({__proto__:null,pdf:ug,cdf:cg},Symbol.toStringTag,{value:"Module"}));function Pde(e,t,r){return e<=0?0:Math.exp(-(t+1)*Math.log(e)-r/e-br(t)+t*Math.log(r))}function Ede(e,t,r){return e<=0?0:1-Nd(t,r/e)}function Cde(e,t,r){return r/H2(1-e,t)}function Ade(e,t){return e>1?t/(e-1):void 0}function xde(e,t){return t/(e+1)}function Mde(e,t){return t/Fa(e)}function Ide(e,t){if(!(e<=2))return t*t/((e-1)*(e-1)*(e-2))}const Lde=Object.freeze(Object.defineProperty({__proto__:null,pdf:Pde,cdf:Ede,inv:Cde,mean:Ade,mode:xde,sample:Mde,variance:Ide},Symbol.toStringTag,{value:"Module"}));function Ode(e,t,r){return e===0&&t===1?r:e===1&&r===1?t:Math.exp(Math.log(t)+Math.log(r)+(t-1)*Math.log(e)+(r-1)*Math.log(1-Math.pow(e,t)))}function Rde(e,t,r){return e<0?0:e>1?1:1-Math.pow(1-Math.pow(e,t),r)}function Dde(e,t,r){return Math.pow(1-Math.pow(1-e,1/r),1/t)}function Nde(e,t){return t*Oo(1+1/e)*Oo(t)/Oo(1+1/e+t)}function Fde(e,t){return Math.pow(1-Math.pow(2,-1/t),1/e)}function $de(e,t){if(e>=1&&t>=1&&e!==1&&t!==1)return Math.pow((e-1)/(e*t-1),1/e)}function Bde(){throw new Error("variance not yet implemented")}const zde=Object.freeze(Object.defineProperty({__proto__:null,pdf:Ode,cdf:Rde,inv:Dde,mean:Nde,median:Fde,mode:$de,variance:Bde},Symbol.toStringTag,{value:"Module"}));function Vde(e){return e/Math.abs(e)}function Ude(e,t,r){return r<=0?0:Math.exp(-Math.abs(e-t)/r)/(2*r)}function Wde(e,t,r){return r<=0?0:e<t?.5*Math.exp((e-t)/r):1-.5*Math.exp(-(e-t)/r)}function jde(e){return e}function Gde(e){return e}function Hde(e){return e}function Xde(e,t){return 2*t*t}function Yde(e,t){var r=ro()-.5;return e-t*Vde(r)*Math.log(1-2*Math.abs(r))}const Kde=Object.freeze(Object.defineProperty({__proto__:null,pdf:Ude,cdf:Wde,mean:jde,median:Gde,mode:Hde,variance:Xde,sample:Yde},Symbol.toStringTag,{value:"Module"}));function Zde(e,t,r){return e<=0?0:Math.exp(-Math.log(e)-.5*Math.log(2*Math.PI)-Math.log(r)-Math.pow(Math.log(e)-t,2)/(2*r*r))}function qde(e,t,r){return e<0?0:.5+.5*X2((Math.log(e)-t)/Math.sqrt(2*r*r))}function Jde(e,t,r){return Math.exp(-1.4142135623730951*r*G4(2*e)+t)}function Qde(e,t){return Math.exp(e+t*t/2)}function tpe(e){return Math.exp(e)}function epe(e,t){return Math.exp(e-t*t)}function rpe(e,t){return Math.exp(cf()*t+e)}function npe(e,t){return(Math.exp(t*t)-1)*Math.exp(2*e+t*t)}const ipe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Zde,cdf:qde,inv:Jde,mean:Qde,median:tpe,mode:epe,sample:rpe,variance:npe},Symbol.toStringTag,{value:"Module"}));function IY(e,t,r){return e!==e>>>0?!1:e<0?0:W4(e+t-1,t-1)*Math.pow(1-r,e)*Math.pow(r,t)}function ope(e,t,r){var n=0,i=0;if(e<0)return 0;for(;i<=e;i++)n+=IY(i,t,r);return n}const ape=Object.freeze(Object.defineProperty({__proto__:null,pdf:IY,cdf:ope},Symbol.toStringTag,{value:"Module"}));function LY(e,t){return t=t>1e100?1e100:t,1/(Math.sqrt(t)*G2(.5,t/2))*Math.pow(1+e*e/t,-((t+1)/2))}function as(e,t){var r=t/2;return x0((e+Math.sqrt(e*e+t))/(2*Math.sqrt(e*e+t)),r,r)}function hb(e,t){var r=A0(2*Math.min(e,1-e),.5*t,.5);return r=Math.sqrt(t*(1-r)/r),e>.5?r:-r}function spe(e){return e>1?0:void 0}function lpe(){return 0}function upe(){return 0}function cpe(e){return cf()*Math.sqrt(e/(2*Fa(e/2)))}function fpe(e){return e>2?e/(e-2):e>1?1/0:void 0}const hpe=Object.freeze(Object.defineProperty({__proto__:null,pdf:LY,cdf:as,inv:hb,mean:spe,median:lpe,mode:upe,sample:cpe,variance:fpe},Symbol.toStringTag,{value:"Module"}));function dpe(e,t,r){return Math.exp(-.5*Math.log(2*Math.PI)-Math.log(r)-Math.pow(e-t,2)/(2*r*r))}function To(e,t,r){return .5*(1+X2((e-t)/Math.sqrt(2*r*r)))}function fC(e,t,r){return-1.4142135623730951*r*G4(2*e)+t}function ppe(e){return e}function gpe(e){return e}function vpe(e){return e}function mpe(e,t){return cf()*t+e}function ype(e,t){return t*t}const _pe=Object.freeze(Object.defineProperty({__proto__:null,pdf:dpe,cdf:To,inv:fC,mean:ppe,median:gpe,mode:vpe,sample:mpe,variance:ype},Symbol.toStringTag,{value:"Module"}));function bpe(e,t,r){var n=1e-14;return Math.abs(r)<n?LY(e,t):Math.abs(e)<n?Math.exp(br((t+1)/2)-r*r/2-.5*Math.log(Math.PI*t)-br(t/2)):t/e*(hC(e*Math.sqrt(1+2/t),t+2,r)-hC(e,t,r))}function hC(e,t,r){var n=1e-14,i=200;if(Math.abs(r)<n)return as(e,t);var o=!1;e<0&&(o=!0,r=-r);for(var a=To(-r,0,1),s=n+1,l=s,u=e*e/(e*e+t),c=0,f=Math.exp(-r*r/2),h=Math.exp(-r*r/2-.5*Math.log(2)-br(3/2))*r;c<i||l>n||s>n;)l=s,c>0&&(f*=r*r/(2*c),h*=r*r/(2*(c+1/2))),s=f*cb(u,c+.5,t/2)+h*cb(u,c+1,t/2),a+=.5*s,c++;return o?1-a:a}const wpe=Object.freeze(Object.defineProperty({__proto__:null,pdf:bpe,cdf:hC},Symbol.toStringTag,{value:"Module"}));function Spe(e,t,r){return e<t?0:r*Math.pow(t,r)/Math.pow(e,r+1)}function Tpe(e,t,r){return e<t?0:1-Math.pow(t/e,r)}function kpe(e,t,r){return t/Math.pow(1-e,1/r)}function Ppe(e,t){if(!(t<=1))return t*Math.pow(e,t)/(t-1)}function Epe(e,t){return e*(t*Math.SQRT2)}function Cpe(e){return e}function Ape(e,t){if(!(t<=2))return e*e*t/(Math.pow(t-1,2)*(t-2))}const xpe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Spe,cdf:Tpe,inv:kpe,mean:Ppe,median:Epe,mode:Cpe,variance:Ape},Symbol.toStringTag,{value:"Module"}));function gt(...e){return new gt._init(...e)}gt._init=function(...e){if(Na(e[0]))if(Na(e[0][0])){Vv(e[1])&&(e[0]=Wn(e[0],e[1]));for(let t=0;t<e[0].length;t++)this[t]=e[0][t];this.length=e[0].length}else this[0]=Vv(e[1])?Wn(e[0],e[1]):e[0],this.length=1;else if(hn(e[0]))this[0]=_Y.apply(null,e),this.length=1;else{if(e[0]instanceof gt)return gt(e[0].toArray());this[0]=[],this.length=1}return this};gt._init.prototype=gt.prototype;gt._init.constructor=gt;gt.setRandom=pY;const ai=gt.prototype;ai.length=0;ai.push=Array.prototype.push;ai.sort=Array.prototype.sort;ai.splice=Array.prototype.splice;ai.slice=Array.prototype.slice;ai.toArray=function(){return this.length>1?this.slice():this.slice()[0]};ai.map=function(e,t){return gt(Wn(this,e,t))};ai.cumreduce=function(e,t){return gt(U2(this,e,t))};ai.alter=function(e){return B4(this,e),this};"transpose clear symmetric rows cols dimensions diag antidiag".split(" ").forEach(e=>{ai[e]=function(t){if(t)return t.call(this,ai[e].call(this)),this;const r=gt[e](this);return Array.isArray(r)?gt(r):r}});"row col".split(" ").forEach(e=>{ai[e]=function(t,r){return r?(r.call(this,ai[e].call(this,t)),this):gt(gt[e](this,t))}});"create zeros ones rand identity".split(" ").forEach(e=>{ai[e]=function(...t){return gt(gt[e](...t))}});function OY(e,t){return t<0||e%1!==0||e<0?0:Math.pow(t,e)*Math.exp(-t)/bc(e)}function Mpe(e,t){var r=[],n=0;if(e<0)return 0;for(;n<=e;n++)r.push(OY(n,t));return jn(r)}function Ipe(e){return e}function Lpe(e){return e}function Ope(e){var t=1,r=0,n=Math.exp(-e);do r++,t*=gt._random_fn();while(t>n);return r-1}function Rpe(e){var t=e,r,n,i,o,a,s,l,u,c,f;for(o=Math.sqrt(t),a=Math.log(t),l=.931+2.53*o,s=-.059+.02483*l,u=1.1239+1.1328/(l-3.4),c=.9277-3.6224/(l-2);;){if(n=Math.random()-.5,i=Math.random(),f=.5-Math.abs(n),r=Math.floor((2*s/f+l)*n+t+.43),f>=.07&&i<=c)return r;if(!(r<0||f<.013&&i>f)&&Math.log(i)+Math.log(u)-Math.log(s/(f*f)+l)<=-t+r*a-CY(r+1))return r}}function Dpe(e){return e<10?Ope(e):Rpe(e)}const Npe=Object.freeze(Object.defineProperty({__proto__:null,pdf:OY,cdf:Mpe,mean:Ipe,variance:Lpe,sample:Dpe},Symbol.toStringTag,{value:"Module"}));function Fpe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<t||e>r?0:e<n?2*(e-t)/((r-t)*(n-t)):e===n?2/(r-t):2*(r-e)/((r-t)*(r-n))}function $pe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<=t?0:e>=r?1:e<=n?Math.pow(e-t,2)/((r-t)*(n-t)):1-Math.pow(r-e,2)/((r-t)*(r-n))}function Bpe(e,t,r,n){return r<=t||n<t||n>r?NaN:e<=(n-t)/(r-t)?t+(r-t)*Math.sqrt(e*((n-t)/(r-t))):t+(r-t)*(1-Math.sqrt((1-e)*(1-(n-t)/(r-t))))}function zpe(e,t,r){return(e+t+r)/3}function Vpe(e,t,r){if(r<=(e+t)/2)return t-Math.sqrt((t-e)*(t-r))/Math.sqrt(2);if(r>(e+t)/2)return e+Math.sqrt((t-e)*(r-e))/Math.sqrt(2)}function Upe(e,t,r){return r}function Wpe(e,t,r){var n=ro();return n<(r-e)/(t-e)?e+Math.sqrt(n*(t-e)*(r-e)):t-Math.sqrt((1-n)*(t-e)*(t-r))}function jpe(e,t,r){return(e*e+t*t+r*r-e*t-e*r-t*r)/18}const Gpe=Object.freeze(Object.defineProperty({__proto__:null,pdf:Fpe,cdf:$pe,inv:Bpe,mean:zpe,median:Vpe,mode:Upe,sample:Wpe,variance:jpe},Symbol.toStringTag,{value:"Module"}));function tF(e,t,r){var n=12,i=6,o=-30,a=-50,s=60,l=8,u=3,c=2,f=3,h=[.9815606342467192,.9041172563704749,.7699026741943047,.5873179542866175,.3678314989981802,.1252334085114689],d=[.04717533638651183,.10693932599531843,.16007832854334622,.20316742672306592,.2334925365383548,.24914704581340277],p=e*.5;if(p>=l)return 1;var g=2*To(p,0,1)-1;g>=Math.exp(a/r)?g=Math.pow(g,r):g=0;var m;e>u?m=c:m=f;for(var v=p,y=(l-p)/m,b=v+y,w=0,T=r-1,S=1;S<=m;S++){for(var k=0,E=.5*(b+v),P=.5*(b-v),C=1;C<=n;C++){var A,L;i<C?(A=n-C+1,L=h[A-1]):(A=C,L=-h[A-1]);var R=P*L,D=E+R,$=D*D;if($>s)break;var z=2*To(D,0,1),Y=2*To(D,e,1),K=z*.5-Y*.5;K>=Math.exp(o/T)&&(K=d[A-1]*Math.exp(-(.5*$))*Math.pow(K,T),k+=K)}k*=2*P*r/Math.sqrt(2*Math.PI),w+=k,v=b,b+=y}return g+=w,g<=Math.exp(o/t)?0:(g=Math.pow(g,t),g>=1?1:g)}function Hpe(e,t,r){var n=.322232421088,i=.099348462606,o=-1,a=.588581570495,s=-.342242088547,l=.531103462366,u=-.204231210125,c=.10353775285,f=-453642210148e-16,h=.0038560700634,d=.8832,p=.2368,g=1.214,m=1.208,v=1.4142,y=120,b=.5-.5*e,w=Math.sqrt(Math.log(1/(b*b))),T=w+((((w*f+u)*w+s)*w+o)*w+n)/((((w*h+c)*w+l)*w+a)*w+i);r<y&&(T+=(T*T*T+T)/r/4);var S=d-p*T;return r<y&&(S+=-g/r+m*T/r),T*(S*Math.log(t-1)+v)}function Qg(e,t,r){var n=1,i=t,o=16,a=8,s=-30,l=1e-14,u=100,c=800,f=5e3,h=25e3,d=1,p=.5,g=.25,m=.125,v=[.9894009349916499,.9445750230732326,.8656312023878318,.755404408355003,.6178762444026438,.45801677765722737,.2816035507792589,.09501250983763744],y=[.027152459411754096,.062253523938647894,.09515851168249279,.12462897125553388,.14959598881657674,.16915651939500254,.18260341504492358,.1894506104550685];if(e<=0)return 0;if(r<2||n<1||i<2)return NaN;if(!Number.isFinite(e))return 1;if(r>h)return tF(e,n,i);var b=r*.5,w=b*Math.log(r)-r*Math.log(2)-br(b),T=b-1,S=r*.25,k;r<=u?k=d:r<=c?k=p:r<=f?k=g:k=m,w+=Math.log(k);for(var E=0,P=1;P<=50;P++){for(var C=0,A=(2*P-1)*k,L=1;L<=o;L++){var R,D;a<L?(R=L-a-1,D=w+T*Math.log(A+v[R]*k)-(v[R]*k+A)*S):(R=L-1,D=w+T*Math.log(A-v[R]*k)+(v[R]*k-A)*S);var $;if(D>=s){a<L?$=e*Math.sqrt((v[R]*k+A)*.5):$=e*Math.sqrt((-(v[R]*k)+A)*.5);var z=tF($,n,i),Y=z*y[R]*Math.exp(D);C+=Y}}if(P*k>=1&&C<=l)break;E+=C}if(C>l)throw new Error("tukey.cdf failed to converge");return E>1&&(E=1),E}function Xpe(e,t,r){var n=1,i=t,o=1e-4,a=50;if(r<2||n<1||i<2)return NaN;if(e<0||e>1)return NaN;if(e===0)return 0;if(e===1)return 1/0;var s=Hpe(e,i,r),l=Qg(s,t,r)-e,u;l>0?u=Math.max(0,s-1):u=s+1;for(var c=Qg(u,t,r)-e,f,h=1;h<a;h++){f=u-c*(u-s)/(c-l),l=c,s=u,f<0&&(f=0,c=-e),c=Qg(f,t,r)-e,u=f;var d=Math.abs(u-s);if(d<o)return f}throw new Error("tukey.inv failed to converge")}const Ype=Object.freeze(Object.defineProperty({__proto__:null,cdf:Qg,inv:Xpe},Symbol.toStringTag,{value:"Module"}));function Kpe(e,t,r){return e<0||t<0||r<0?0:r/t*Math.pow(e/t,r-1)*Math.exp(-Math.pow(e/t,r))}function Zpe(e,t,r){return e<0?0:1-Math.exp(-Math.pow(e/t,r))}function qpe(e,t,r){return t*Math.pow(-Math.log(1-e),1/r)}function RY(e,t){return e*Oo(1+1/t)}function Jpe(e,t){return e*Math.pow(Math.log(2),1/t)}function Qpe(e,t){return t<=1?0:e*Math.pow((t-1)/t,1/t)}function tge(e,t){return e*Math.pow(-Math.log(ro()),1/t)}function ege(e,t){return e*e*Oo(1+2/t)-Math.pow(RY(e,t),2)}const rge=Object.freeze(Object.defineProperty({__proto__:null,pdf:Kpe,cdf:Zpe,inv:qpe,mean:RY,median:Jpe,mode:Qpe,sample:tge,variance:ege},Symbol.toStringTag,{value:"Module"})),nge=Object.freeze(Object.defineProperty({__proto__:null,arcsine:khe,beta:Dhe,binomial:Fhe,cauchy:jhe,centralF:qhe,chisquare:ade,exponential:gde,gamma:Tde,hypgeom:kde,invgamma:Lde,kumaraswamy:zde,laplace:Kde,lognormal:ipe,negbin:ape,noncentralt:wpe,normal:_pe,pareto:xpe,poisson:Npe,studentt:hpe,triangular:Gpe,tukey:Ype,uniform:ghe,weibull:rge},Symbol.toStringTag,{value:"Module"}));function dC(){const e=[...arguments];return hn(e[1])?(e[0]-e[1])/e[2]:(e[0]-Wr(e[1]))/As(e[1],e[2])}function H4(){const e=[...arguments];let t;return Na(e[1])?(t=dC(e[0],e[1],e[3]),e[2]===1?To(-Math.abs(t),0,1):To(-Math.abs(t),0,1)*2):e.length>2?(t=dC(e[0],e[1],e[2]),e[3]===1?To(-Math.abs(t),0,1):To(-Math.abs(t),0,1)*2):(t=e[0],e[1]===1?To(-Math.abs(t),0,1):To(-Math.abs(t),0,1)*2)}function pC(){const e=[...arguments];return e.length===4?(e[0]-e[1])/(e[2]/Math.sqrt(e[3])):(e[0]-Wr(e[1]))/(As(e[1],!0)/Math.sqrt(e[1].length))}function ige(){const e=[...arguments];let t;return e.length===5?(t=Math.abs(pC(e[0],e[1],e[2],e[3])),e[4]===1?as(-t,e[3]-1):as(-t,e[3]-1)*2):hn(e[1])?(t=Math.abs(e[0]),e[2]===1?as(-t,e[1]-1):as(-t,e[1]-1)*2):(t=Math.abs(pC(e[0],e[1])),e[2]===1?as(-t,e[1].length-1):as(-t,e[1].length-1)*2)}function oge(){var e=[...arguments],t,r,n,i,o,a,s,l;if(e.length===1){for(o=new Array(e[0].length),s=0;s<e[0].length;s++)o[s]=e[0][s];e=o}for(r=[],s=0;s<e.length;s++)r=r.concat(e[s]);for(n=Wr(r),t=0,s=0;s<e.length;s++)t=t+e[s].length*Math.pow(Wr(e[s])-n,2);for(t/=e.length-1,a=0,s=0;s<e.length;s++)for(i=Wr(e[s]),l=0;l<e[s].length;l++)a+=Math.pow(e[s][l]-i,2);return a/=r.length-e.length,t/a}function age(){var e=[...arguments],t,r,n,i;if(hn(e[0]))return 1-fb(e[0],e[1],e[2]);var o=o(e);for(t=e.length-1,n=0,i=0;i<e.length;i++)n=n+e[i].length;return r=n-t-1,1-fb(o,t,r)}function sge(e,t,r){return 1-fb(e,t,r)}function gC(){var e=[...arguments],t,r,n,i,o;return hn(e[0])?(t=e[0],r=e[1],n=e[2],i=e[3],o=e[4]):(t=Wr(e[0]),r=Wr(e[1]),n=e[0].length,i=e[1].length,o=e[2]),Math.abs(t-r)/(o*Math.sqrt((1/n+1/i)/2))}function DY(){var e=[...arguments],t;e.length===3?(t=e[0],e=e.slice(1)):e.length===7?(t=gC(e[0],e[1],e[2],e[3],e[4]),e=e.slice(5)):(t=gC(e[0],e[1],e[2]),e=e.slice(3));var r=e[0],n=e[1];return 1-Qg(t,n,r-n)}function lge(e){for(var t=TY(e),r=e.map(l=>Wr(l)),n=e.reduce((l,u)=>l+u.length,0),i=[],o=0;o<e.length;++o)for(var a=o+1;a<e.length;++a){var s=DY(r[o],r[a],e[o].length,e[a].length,t,n,e.length);i.push([[o,a],s])}return i}function uge(){const e=[...arguments],t=new Array(2);let r;return e.length===4?r=Math.abs(fC(e[1]/2,0,1)*e[2]/Math.sqrt(e[3])):r=Math.abs(fC(e[1]/2,0,1)*As(e[2])/Math.sqrt(e[2].length)),t[0]=e[0]-r,t[1]=e[0]+r,t}function cge(){const e=[...arguments],t=new Array(2);let r;return e.length===4?r=Math.abs(hb(e[1]/2,e[3]-1)*e[2]/Math.sqrt(e[3])):r=Math.abs(hb(e[1]/2,e[2].length-1)*As(e[2],!0)/Math.sqrt(e[2].length)),t[0]=e[0]-r,t[1]=e[0]+r,t}function fge(e,t){return e<t}function NY(e,t,r,n){if(e>1||r>1||e<=0||r<=0)throw new Error("Proportions should be greater than 0 and less than 1");var i=(e*t+r*n)/(t+n),o=Math.sqrt(i*(1-i)*(1/t+1/n));return(e-r)/o}function hge(e,t,r,n){const i=NY(e,t,r,n);return H4(i,1)}function dge(e,t,r,n){const i=NY(e,t,r,n);return H4(i,2)}const pge=Object.freeze(Object.defineProperty({__proto__:null,zscore:dC,ztest:H4,tscore:pC,ttest:ige,anovafscore:oge,anovaftest:age,ftest:sge,qscore:gC,qtest:DY,tukeyhsd:lge,normalci:uge,tci:cge,significant:fge,oneSidedDifferenceOfProportions:hge,twoSidedDifferenceOfProportions:dge},Symbol.toStringTag,{value:"Module"}));function $o(e){return Na(e)||e.constructor.name==="jStat"}function ei(e,t){return $o(t)?($o(t[0])||(t=[t]),Wn(e,function(r,n,i){return r+t[n][i]})):Wn(e,function(r){return r+t})}function Fc(e,t){return $o(t)?($o(t[0])||(t=[t]),Wn(e,function(r,n,i){return r-t[n][i]||0})):Wn(e,function(r){return r-t})}function vC(e,t){return $o(t)?($o(t[0])||(t=[t]),ke(e,$a(t))):Wn(e,function(r){return r/t})}function ke(e,t){let r,n;if(e.length===void 0&&t.length===void 0)return e*t;const i=e.length,o=e[0].length,a=Va(i,r=$o(t)?t[0].length:o);let s=0;if($o(t)){for(;s<r;s++)for(let l=0;l<i;l++){n=0;for(let u=0;u<o;u++)n+=e[l][u]*t[u][s];a[l][s]=n}return i===1&&s===1?a[0][0]:a}return Wn(e,function(l){return l*t})}function gge(e,t){return ke(e.map(r=>[r]),[t])}function db(e,t){$o(e[0])||(e=[e]),$o(t[0])||(t=[t]);var r=e[0].length===1&&e.length!==1?Fl(e):e,n=t[0].length===1&&t.length!==1?Fl(t):t,i=[],o=r.length,a=r[0].length,s,l;for(let u=0;u<o;u++){for(i[u]=[],s=0,l=0;l<a;l++)s+=r[u][l]*n[u][l];i[u]=s}return i.length===1?i[0]:i}function mC(e,t){return Wn(e,r=>Math.pow(r,t))}function vge(e){return Wn(e,t=>Math.exp(t))}function mge(e){return Wn(e,t=>Math.log(t))}function yge(e){return Wn(e,t=>Math.abs(t))}function ed(e,t){var r=0,n=0;for(isNaN(t)&&(t=2),$o(e[0])&&(e=e[0]);n<e.length;n++)r+=Math.pow(Math.abs(e[n]),t);return Math.pow(r,1/t)}function _ge(e,t){return Math.acos(db(e,t)/(ed(e)*ed(t)))}function X4(e,t){var r=[],n;for(n=0;n<e.length;n++)r.push(e[n].slice());for(n=0;n<r.length;n++)Array.prototype.push.apply(r[n],t[n]);return r}function $a(e){for(var t=e.length,r=e[0].length,n=Nc(t,r),i=FY(e,n),o=[],a=0,s;a<t;a++)for(o[a]=[],s=r;s<i[0].length;s++)o[a][s-r]=i[a][s];return o}function bge(e){var t=e.length,r=t*2,n=new Array(r),i=t-1,o=r-1,a=i-t+1,s=o,l=0,u=0,c;if(t===2)return e[0][0]*e[1][1]-e[0][1]*e[1][0];for(;l<r;l++)n[l]=1;for(l=0;l<t;l++){for(c=0;c<t;c++)n[a<0?a+t:a]*=e[l][c],n[s<t?s+t:s]*=e[l][c],a++,s--;a=--i-t+1,s=--o}for(l=0;l<t;l++)u+=n[l];for(;l<r;l++)u-=n[l];return u}function wge(e,t){var r=0,n=0,i=e.length,o=e[0].length,a=1,s=0,l=[],u,c,f,h;for(e=X4(e,t),u=e[0].length,r=0;r<i;r++){for(c=e[r][r],n=r,h=r+1;h<o;h++)c<Math.abs(e[h][r])&&(c=e[h][r],n=h);if(n!=r)for(h=0;h<u;h++)f=e[r][h],e[r][h]=e[n][h],e[n][h]=f;for(n=r+1;n<i;n++)for(a=e[n][r]/e[r][r],h=r;h<u;h++)e[n][h]=e[n][h]-a*e[r][h]}for(r=i-1;r>=0;r--){for(s=0,n=r+1;n<=i-1;n++)s=s+l[n]*e[r][n];l[r]=(e[r][u-1]-s)/e[r][r]}return l}function FY(e,t){var r=X4(e,t),n=r.length,i=r[0].length,o=0,a,s,l;for(s=0;s<n;s++){var u=s;for(l=s+1;l<n;l++)Math.abs(r[l][s])>Math.abs(r[u][s])&&(u=l);var c=r[s];for(r[s]=r[u],r[u]=c,l=s+1;l<n;l++)for(o=r[l][s]/r[s][s],a=s;a<i;a++)r[l][a]-=r[s][a]*o}for(s=n-1;s>=0;s--){for(o=r[s][s],l=0;l<s;l++)for(a=i-1;a>s-1;a--)r[l][a]-=r[s][a]*r[l][s]/o;for(r[s][s]/=o,a=n;a<i;a++)r[s][a]/=o}return r}function Sge(e,t){var r=e[0].length,n=Va(1,r)[0],i,o=!1;return t[0].length!=null&&(t=t.map(function(a){return a[0]}),o=!0),rr(r-1,-1,-1).forEach(function(a){i=rr(a+1,r).map(function(s){return n[s]*e[a][s]}),n[a]=(t[a]-jn(i))/e[a][a]}),o?n.map(function(a){return[a]}):n}function Tge(e,t){var r=e[0].length,n=Va(1,r)[0],i,o=!1;return t[0].length!=null&&(t=t.map(function(a){return a[0]}),o=!0),rr(r).forEach(function(a){i=rr(a).map(function(s){return e[a][s]*n[s]}),n[a]=(t[a]-jn(i))/e[a][a]}),o?n.map(function(a){return[a]}):n}function kge(e){var t=e.length,r=Nc(t),n=Va(e.length,e[0].length),i;return rr(t).forEach(function(o){n[0][o]=e[0][o]}),rr(1,t).forEach(function(o){rr(o).forEach(function(a){i=rr(a).map(function(s){return r[o][s]*n[s][a]}),r[o][a]=(e[o][a]-jn(i))/n[a][a]}),rr(o,t).forEach(function(a){i=rr(o).map(function(s){return r[o][s]*n[s][a]}),n[o][a]=e[i.length][a]-jn(i)})}),[r,n]}function Pge(e){var t=e.length,r=Va(e.length,e[0].length),n;return rr(t).forEach(function(i){n=rr(i).map(function(o){return Math.pow(r[i][o],2)}),r[i][i]=Math.sqrt(e[i][i]-jn(n)),rr(i+1,t).forEach(function(o){n=rr(i).map(function(a){return r[i][a]*r[o][a]}),r[o][i]=(e[i][o]-jn(n))/r[i][i]})}),r}function Ege(e,t,r,n){for(var i=0,o=0,a=e.length,s=[],l=[],u=[],c,f,h,d;i<a;i++)for(s[i]=[],l[i]=[],u[i]=[],o=0;o<a;o++)i>o?(s[i][o]=e[i][o],l[i][o]=u[i][o]=0):i<o?(l[i][o]=e[i][o],s[i][o]=u[i][o]=0):(u[i][o]=e[i][o],s[i][o]=l[i][o]=0);for(h=ke(ke($a(u),ei(s,l)),-1),f=ke($a(u),t),c=r,d=ei(ke(h,r),f),i=2;Math.abs(ed(Fc(d,c)))>n;)c=d,d=ei(ke(h,c),f),i++;return d}function Cge(e,t,r,n){for(var i=0,o=e.length,a=[],s=[],l=[],u,c,f,h,d;i<o;i++)for(a[i]=[],s[i]=[],l[i]=[],u=0;u<o;u++)i>u?(a[i][u]=e[i][u],s[i][u]=l[i][u]=0):i<u?(s[i][u]=e[i][u],a[i][u]=l[i][u]=0):(l[i][u]=e[i][u],a[i][u]=s[i][u]=0);for(h=ke(ke($a(ei(l,a)),s),-1),f=ke($a(ei(l,a)),t),c=r,d=ei(ke(h,r),f),i=2;Math.abs(ed(Fc(d,c)))>n;)c=d,d=ei(ke(h,c),f),i=i+1;return d}function Age(e,t,r,n,i){for(var o=0,a=e.length,s=[],l=[],u=[],c,f,h,d,p;o<a;o++)for(s[o]=[],l[o]=[],u[o]=[],c=0;c<a;c++)o>c?(s[o][c]=e[o][c],l[o][c]=u[o][c]=0):o<c?(l[o][c]=e[o][c],s[o][c]=u[o][c]=0):(u[o][c]=e[o][c],s[o][c]=l[o][c]=0);for(d=ke($a(ei(u,ke(s,i))),Fc(ke(u,1-i),ke(l,i))),h=ke(ke($a(ei(u,ke(s,i))),t),i),f=r,p=ei(ke(d,r),h),o=2;Math.abs(ed(Fc(p,f)))>n;)f=p,p=ei(ke(d,f),h),o++;return p}function xge(e){for(var t=e.length,r=e[0].length,n=0,i=[],o=[],a,s,l,u,c;n<t-1;n++){for(a=0,u=n+1;u<r;u++)a+=e[u][n]*e[u][n];for(c=e[n+1][n]>0?-1:1,a=c*Math.sqrt(a),s=Math.sqrt((a*a-e[n+1][n]*a)/2),i=Va(t,1),i[n+1][0]=(e[n+1][n]-a)/(2*s),l=n+2;l<t;l++)i[l][0]=e[l][n]/(2*s);o=Fc(Nc(t,r),ke(ke(i,Fl(i)),2)),e=ke(o,ke(e,o))}return e}function $Y(e){var t=e.length,r=e[0].length,n=Va(r,r);e=W2(e);var i,o,a;for(o=0;o<r;o++){for(n[o][o]=Math.sqrt(jn(rr(t).map(function(s){return e[s][o]*e[s][o]}))),i=0;i<t;i++)e[i][o]=e[i][o]/n[o][o];for(a=o+1;a<r;a++)for(n[o][a]=jn(rr(t).map(function(s){return e[s][o]*e[s][a]})),i=0;i<t;i++)e[i][a]=e[i][a]-e[i][o]*n[o][a]}return[e,n]}function Mge(e){e=W2(e);var t=e.length,r=Nc(t);return rr(t-1,-1,-1).forEach(function(n){lg(r,{row:n},vC(os(r,{row:n}),e[n][n])),lg(e,{row:n},vC(os(e,{row:n}),e[n][n])),rr(n).forEach(function(i){var o=ke(e[i][n],-1),a=os(e,{row:i}),s=ke(os(e,{row:n}),o);lg(e,{row:i},ei(a,s));var l=os(r,{row:i}),u=ke(os(r,{row:n}),o);lg(r,{row:i},ei(l,u))})}),r}function BY(e,t){var r=!1;t[0].length===void 0&&(t=t.map(function(f){return[f]}),r=!0);var[n,i]=$Y(e),o=e[0].length,a=os(n,{col:{end:o}}),s=os(i,{row:{end:o}}),l=Mge(s),u=Fl(a);u[0].length===void 0&&(u=[u]);var c=ke(ke(l,u),t);return c.length===void 0&&(c=[[c]]),r?c.map(function(f){return f[0]}):c}function zY(e){for(var t=1,r=e.length,n=Nc(r,r),i=[],o,a,s,l,u,c,f,h;t===1;){for(c=e[0][1],l=0,u=1,a=0;a<r;a++)for(s=0;s<r;s++)a!=s&&c<Math.abs(e[a][s])&&(c=Math.abs(e[a][s]),l=a,u=s);for(e[l][l]===e[u][u]?f=e[l][u]>0?Math.PI/4:-Math.PI/4:f=Math.atan(2*e[l][u]/(e[l][l]-e[u][u]))/2,h=Nc(r,r),h[l][l]=Math.cos(f),h[l][u]=-Math.sin(f),h[u][l]=Math.sin(f),h[u][u]=Math.cos(f),n=ke(n,h),o=ke(ke($a(h),e),h),e=o,t=0,a=1;a<r;a++)for(s=1;s<r;s++)a!=s&&Math.abs(e[a][s])>.001&&(t=1)}for(a=0;a<r;a++)i.push(e[a][a]);return[n,i]}function Ige(e,t,r,n,i,o){var a,s,l,u,c;if(o===2)for(;n<=r;)a=t*e(n,i),s=t*e(n+t,i+a),l=i+(a+s)/2,i=l,n=n+t;if(o===4)for(;n<=r;)a=t*e(n,i),s=t*e(n+t/2,i+a/2),u=t*e(n+t/2,i+s/2),c=t*e(n+t,i+u),l=i+(a+2*s+2*u+c)/6,i=l,n=n+t;return i}function Lge(e,t,r,n){for(var i=0,o=(r-t)/2,a=[],s=[],l=[],u,c,f,h,d;i<n/2;){for(d=e(t),f=t,h=0;f<=r;f=f+o,h++)a[h]=f;for(u=a.length,f=1;f<u-1;f++)d+=(f%2!==0?4:2)*e(a[f]);d=o/3*(d+e(r)),l[i]=d,o/=2,i++}for(c=l.length,u=1;c!==1;){for(f=0;f<c-1;f++)s[f]=(Math.pow(4,u)*l[f+1]-l[f])/(Math.pow(4,u)-1);c=s.length,l=s,s=[],u++}return l}function Oge(e,t,r,n){function i(p,g){for(var m=0,v=p.length,y;m<v;m++)p[m]===g&&(y=m);return y}for(var o=Math.abs(r-e[i(e,r)+1]),a=0,s=[],l=[],u,c,f,h,d;n>=o;)u=i(e,r+n),c=i(e,r),s[a]=(t[u]-2*t[c]+t[2*c-u])/(n*n),n/=2,a++;for(h=s.length,f=1;h!=1;){for(d=0;d<h-1;d++)l[d]=(Math.pow(4,f)*s[d+1]-s[d])/(Math.pow(4,f)-1);h=l.length,s=l,l=[],f++}return s}function Rge(e,t,r,n){for(var i=(r-t)/n,o=e(t),a=[],s=t,l=0,u=1,c;s<=r;s=s+i,l++)a[l]=s;for(c=a.length;u<c-1;u++)o+=(u%2!==0?4:2)*e(a[u]);return i/3*(o+e(r))}function Dge(e,t,r,n){for(var i=e.length,o=0,a=0,s=[],l=[],u=[],c=[],f;a<i;a++){for(s[a]=1,f=0;f<i;f++)a!=f&&(s[a]*=(n-e[f])/(e[a]-e[f]));for(l[a]=0,f=0;f<i;f++)a!=f&&(l[a]+=1/(e[a]-e[f]));u[a]=(1-2*(n-e[a])*l[a])*(s[a]*s[a]),c[a]=(n-e[a])*(s[a]*s[a]),o+=u[a]*t[a]+c[a]*r[a]}return o}function Nge(e,t,r){for(var n=0,i=0,o,a,s=e.length;i<s;i++){for(a=t[i],o=0;o<s;o++)i!=o&&(a*=(r-e[o])/(e[i]-e[o]));n+=a}return n}function Fge(e,t,r){for(var n=e.length,i=0,o,a=[],s=[],l=[],u=[],c=[],f=[],h=[];i<n-1;i++)c[i]=e[i+1]-e[i];for(l[0]=0,i=1;i<n-1;i++)l[i]=3/c[i]*(t[i+1]-t[i])-3/c[i-1]*(t[i]-t[i-1]);for(i=1;i<n-1;i++)a[i]=[],s[i]=[],a[i][i-1]=c[i-1],a[i][i]=2*(c[i-1]+c[i]),a[i][i+1]=c[i],s[i][0]=l[i];for(u=ke($a(a),s),o=0;o<n-1;o++)f[o]=(t[o+1]-t[o])/c[o]-c[o]*(u[o+1][0]+2*u[o][0])/3,h[o]=(u[o+1][0]-u[o][0])/(3*c[o]);for(o=0;o<n&&!(e[o]>r);o++);return o-=1,t[o]+(r-e[o])*f[o]+mC(r-e[o],2)*u[o]+(r-e[o])*mC(r-e[o],2)*h[o]}function $ge(){throw new Error("gauss_quadrature not yet implemented")}function Bge(e){var t=e.length,r=e[0].length,n=0,i,o,a=[],s=[],l=[],u=[],c=[],f=[],h=[],d=[],p=[],g=[];for(n=0;n<t;n++)a[n]=jn(e[n])/r;for(n=0;n<r;n++)for(h[n]=[],i=0;i<t;i++)h[n][i]=e[i][n]-a[i];for(h=Fl(h),n=0;n<t;n++)for(d[n]=[],i=0;i<t;i++)d[n][i]=db([h[n]],[h[i]])/(r-1);for(l=zY(d),p=l[0],s=l[1],g=Fl(p),n=0;n<s.length;n++)for(i=n;i<s.length;i++)s[n]<s[i]&&(o=s[n],s[n]=s[i],s[i]=o,u=g[n],g[n]=g[i],g[i]=u);for(f=Fl(h),n=0;n<t;n++)for(c[n]=[],i=0;i<f.length;i++)c[n][i]=db([g[n]],[f[i]]);return[e,s,g,c]}const zge=Object.freeze(Object.defineProperty({__proto__:null,add:ei,subtract:Fc,divide:vC,multiply:ke,outer:gge,dot:db,pow:mC,exp:vge,log:mge,abs:yge,norm:ed,angle:_ge,aug:X4,inv:$a,det:bge,gauss_elimination:wge,gauss_jordan:FY,triaUpSolve:Sge,triaLowSolve:Tge,lu:kge,cholesky:Pge,gauss_jacobi:Ege,gauss_seidel:Cge,SOR:Age,householder:xge,QR:$Y,lstsq:BY,jacobi:zY,rungekutta:Ige,romberg:Lge,richardson:Oge,simpson:Rge,hermite:Dge,lagrange:Nge,cubic_spline:Fge,gauss_quadrature:$ge,PCA:Bge},Symbol.toStringTag,{value:"Module"}));function Vge(e){var t=e[0].length,r=rr(t).map(function(n){var i=rr(t).filter(function(o){return o!==n});return VY(ub(e,n).map(function(o){return o[0]}),ub(e,i))});return r}function VY(e,t){var r=e.length,n=t[0].length-1,i=r-n-1,o=BY(t,e),a=ke(t,o.map(function(d){return[d]})).map(function(d){return d[0]}),s=Fc(e,a),l=Wr(e),u=jn(a.map(function(d){return Math.pow(d-l,2)})),c=jn(e.map(function(d,p){return Math.pow(d-a[p],2)})),f=u+c,h=u/f;return{exog:t,endog:e,nobs:r,df_model:n,df_resid:i,coef:o,predict:a,resid:s,ybar:l,SST:f,SSE:u,SSR:c,R2:h}}function Uge(e){var t=Vge(e.exog),r=Math.sqrt(e.SSR/e.df_resid),n=t.map(function(l){var u=l.SST,c=l.R2;return r/Math.sqrt(u*(1-c))}),i=e.coef.map(function(l,u){return(l-0)/n[u]}),o=i.map(function(l){var u=as(l,e.df_resid);return(u>.5?1-u:u)*2}),a=hb(.975,e.df_resid),s=e.coef.map(function(l,u){var c=a*n[u];return[l-c,l+c]});return{se:n,t:i,p:o,sigmaHat:r,interval95:s}}function Wge(e){var t=e.R2/e.df_model/((1-e.R2)/e.df_resid),r=function(i,o,a){return cb(i/(a/o+i),o/2,a/2)},n=1-r(t,e.df_model,e.df_resid);return{F_statistic:t,pvalue:n}}function jge(e,t){var r=VY(e,t),n=Uge(r),i=Wge(r),o=1-(1-r.R2)*((r.nobs-1)/r.df_resid);return r.t=n,r.f=i,r.adjust_R2=o,r}const Gge={ols:jge},Hge=Object.freeze(Object.defineProperty({__proto__:null,models:Gge},Symbol.toStringTag,{value:"Module"}));Object.assign(gt,$fe,she,pge,zge,Hge,Che);for(const[e,t]of Object.entries(nge)){let r=function(...n){return this instanceof r?(this.givenArgs=n,this):new r(...n)};Object.assign(r,t),gt[e]=r,gt.prototype[e]=function(...n){const i=r(...n);return i.data=this,i},r.prototype.sample=function(n){const i=this.givenArgs;return n?gt.alter(n,()=>t.sample(...i)):t.sample(...i)},["pdf","cdf","inv"].forEach(n=>{r.prototype[n]=function(i){return!i&&i!==0&&(i=this.data),typeof i!="number"?gt.map(i,o=>t[n](o,...this.givenArgs)):t[n](i,...this.givenArgs)}}),["mean","median","mode","variance"].forEach(n=>{r.prototype[n]=function(){return t[n](...this.givenArgs)}})}"gammaln gammafn factorial factorialln".split(" ").forEach(function(e){gt.prototype[e]=function(){return gt(gt.map(this,function(t){return gt[e](t)}))}});gt.prototype.randn=function(){return gt(gt.randn.apply(null,arguments))};const Y4=dY.isFunction;(function(e){for(var t=0;t<e.length;t++)(function(r){gt.prototype[r]=function(n,i){var o=[],a=0,s=this;if(Y4(n)&&(i=n,n=!1),i)return setTimeout(function(){i.call(s,gt.prototype[r].call(s,n))}),this;if(this.length>1){for(s=n===!0?this:this.transpose();a<s.length;a++)o[a]=gt[r](s[a]);return o}return gt[r](this[0],n)}})(e[t])})("cumsum cumprod".split(" "));(function(e){for(var t=0;t<e.length;t++)(function(r){gt.prototype[r]=function(n,i){var o=[],a=0,s=this;if(Y4(n)&&(i=n,n=!1),i)return setTimeout(function(){i.call(s,gt.prototype[r].call(s,n))}),this;if(this.length>1){for(r!=="sumrow"&&(s=n===!0?this:this.transpose());a<s.length;a++)o[a]=gt[r](s[a]);return n===!0?gt[r](gt.utils.toVector(o)):o}return gt[r](this[0],n)}})(e[t])})("sum sumsqrd sumsqerr sumrow product min max unique mean meansqerr geomean median diff rank mode range variance deviation stdev meandev meddev coeffvar quartiles histogram skewness kurtosis".split(" "));(function(e){for(var t=0;t<e.length;t++)(function(r){gt.prototype[r]=function(){var n=[],i=0,o=this,a=Array.prototype.slice.call(arguments),s;if(Y4(a[a.length-1])){s=a[a.length-1];var l=a.slice(0,a.length-1);return setTimeout(function(){s.call(o,gt.prototype[r].apply(o,l))}),this}else{s=void 0;var u=function(f){return gt[r].apply(o,[f].concat(a))}}if(this.length>1){for(o=o.transpose();i<o.length;i++)n[i]=u(o[i]);return n}return u(this[0])}})(e[t])})("quantiles percentileOfScore".split(" "));gt.prototype.zscore=function(t,r){return(t-this.mean())/this.stdev(r)};gt.prototype.ztest=function(t,r,n){const i=Math.abs(this.zscore(t,n));return r===1?gt.normal.cdf(-i,0,1):gt.normal.cdf(-i,0,1)*2};gt.prototype.tscore=function(t){return(t-this.mean())/(this.stdev(!0)/Math.sqrt(this.cols()))};gt.prototype.ttest=function(t,r){return r===1?1-gt.studentt.cdf(Math.abs(this.tscore(t)),this.cols()-1):gt.studentt.cdf(-Math.abs(this.tscore(t)),this.cols()-1)*2};gt.prototype.anovafscore=function(){return gt.anovafscore(this.toArray())};gt.prototype.anovaftes=function(){var t=0,r;for(r=0;r<this.length;r++)t=t+this[r].length;return gt.ftest(this.anovafscore(),this.length-1,t-this.length)};gt.prototype.oneSidedDifferenceOfProportions=function(){console.error("Please use jStat.oneSidedDifferenceOfProportions() instead")};gt.prototype.twoSidedDifferenceOfProportions=function(){console.error("Please use jStat.twoSidedDifferenceOfProportions() instead")};"add divide multiply subtract dot pow exp log abs norm angle".split(" ").forEach(e=>{gt.prototype[e]=function(t,r){const n=this;return r?(r.call(n,gt.prototype[e].call(n,t)),this):typeof gt[e](this,t)=="number"?gt[e](this,t):gt(gt[e](this,t))}});gt.jStat=gt;function Xge(e,t,r,n){let i=[];for(let a=0;a<=r;a++){const s=.5+a+0,u=gt.lognormal.pdf(s,e,n)*t;u<.01||i.push([a,u])}return i}function Yge(e,t,r,n){let i=[];for(let a=0;a<=r;a++){const s=.5+a+0,u=gt.gamma.pdf(s,e,n)*t;u<.01||i.push([a,u])}return i}function Kge(e,t,r,n){let i=[];for(let o=0;o<=r;o++){const a=.5+o,l=gt.uniform.pdf(a,e-n/2,e+n/2)*t;l<.01||i.push([o,l])}return i}function Zge(e,t,r,n){let i=[];for(let o=0;o<=r;o++){const a=.5+o,l=gt.triangular.pdf(a,e-n,e+n,e)*t;l<.01||i.push([o,l])}return i}function qge(e,t,r,n){let i=[];for(let o=0;o<=r;o++){const a=.5+o,l=gt.normal.pdf(a,e,n)*t;l<.01||i.push([o,l])}return i}function Y2(e,t,r,n){if(n)return Jge(e,t,r);const i=t;let o=[];for(let a=0;a<=r;a++){const s=gt.binomial.pdf(a,r,e/r);if(s<0)return null;const l=s*i;l<.01||o.push([a,l])}return o}function Jge(e,t,r){const n=t;let i=[],o=0;for(let a=0;a<=r;a++){const s=gt.binomial.pdf(a,r,e/r);if(s<0)return null;const l=s*n;if(l<.01)continue;const u=Math.floor(a*1.684);if(o)for(let c=o;c<u;c++)i.push([c,0]);i.push([u,l]),o=u+1}return i}function Qge(e,t,r,n,i,o){let a=[],s=0;for(let p=0;p<=i;p++){const g=gt.binomial.pdf(p,i,e/i);if(g<0){a=null;break}const m=g*t;if(m<.01)continue;const v=Math.floor(p*1.684);if(s)for(let y=s;y<v;y++)a.push([y,0]);a.push([v,m]),s=v+1}const l=n/t,u={};for(let p=0;p<=i;p++){const g=gt.binomial.pdf(p,i,r/i);if(g<0)throw Error(`invalid arguments for Stat.binomial.pdf: ${p}, ${i}, ${r/i}`);if(g*n<.01)continue;const v=o?Math.floor(p*1.684):p;a.forEach(y=>{const[b,w]=y,T=b+v,S=w*g*l;T in u?u[T]+=S:u[T]=S})}let c=99,f=0;for(const[p,g]of Object.entries(u)){if(g<.01)continue;const m=parseInt(p);m<c&&(c=m),m>f&&(f=m)}const h=[];for(let p=c;p<=f;p++)if(p in u){const g=u[p];h.push([p,g])}else h.push([p,0]);return{bellU:a,bellL:h}}function UY(e,t){let r={};if(e)for(let[o,a]of e)r[o]=a;for(let[o,a]of t)o in r?r[o]+=a:r[o]=a;let n=Object.entries(r).sort((o,a)=>o[0]-a[0]),i=[];for(let[o,a]of n)i.push([o,a]);return i}function K2(e,t,r,n,i){if(n)throw Error("not implemented");return tve(e,t,r,i)}function tve(e,t,r,n){let i,o,a;if(!Object.keys(e).length)return{mse:i,chisq:o,pval:a};i=0;for(const[p,[g,m]]of Object.entries(e)){const v=parseInt(g);if(n&&v==0)continue;const y=v in t?t[v]:0,b=m-y;i+=b*b}const s=3,l=r+2,u=Object.keys(e).sort((p,g)=>e[g][1]-e[p][1]);let c={},f=0;if(u.forEach(p=>{const g=e[p][0];if(n&&g=="0")return;const m=e[p][1],v=g in t?t[g]:0;(m>=s||v>=s||f<l)&&(c[g]={y_model:m,y_observed:v},f++)}),Object.keys(c).length==0)return console.log("can't compute chiSquared: only",c,"bins left after discard"),{mse:i,chisq:o,pval:a};let d=0;o=0;for(const[p,{y_model:g,y_observed:m}]of Object.entries(c)){const v=g-m;o+=v*v/g,d++}return d-1-r<1?(console.log("can't compute pval: bins",d,"variables",r),{mse:i,chisq:o,pval:a}):(isFinite(o)?a=1-gt.chisquare.cdf(o,d-1-r):a=0,{mse:i,chisq:o,pval:a,variables:r})}function WY(e){e.forEach(t=>{t[0]=Math.floor(t[0]*1.684)})}Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);const eve={data:()=>({selected_np:1,selected_n:10,isBinary:!1}),props:{stats:Object,histogram:Object,isGiant:Boolean},components:{VChart:nu},methods:{formatFixed:dt,isGoodVal:Gi,formatKMG:Ob,makeBinomialArray:Y2,loss:K2,applyGiantBonus:WY,makeModelA(e,t){let r={np:e,n:t};if(r.bell=this.makeBinomialArray(e,this.stats.len,t,this.isGiant),!r.bell)return null;if(r.loss=this.loss(r.bell,this.histogram.map,2),this.isBinary=0 in r.bell&&1 in r.bell&&Object.keys(r.bell).length==2&&0 in this.histogram.map&&1 in this.histogram.map&&Object.keys(this.histogram.map).length==2,this.isBinary){const n=this.stats.lucky.len,i=r.bell[1][1],o=this.histogram.map[1],a=i/n;o<=n&&0<a&&a<1?(r.loss.binomtest=F4(o,Math.round(n),{p:a}),r.loss.pval=r.loss.binomtest.pValue,console.log("binomtest:",r.bell,this.histogram.map,o,n,a,r.loss.binomtest)):(console.log("can't binomtest",r.bell,this.histogram.map,o,n,a),r.loss.binomtest=NaN)}return r},tuneModelA(e,t,r){let n=[t];t===void 0&&(n=[1,10,20,40,110,120,140,150],n=n.filter(o=>o>=e&&o<=this.stats.max*5),r&&n.push(r));let i={n:NaN,loss:{mse:NaN,chisq:NaN,pval:NaN}};return n.forEach(o=>{const a=this.makeModelA(e,o);if(!a)return;Gi(a.loss.mse)&&(!Gi(i.loss.mse)||a.loss.mse<i.loss.mse)&&(i=a)}),i},applySelectedNP(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_np=e)},applySelectedN(e){e<0||(e<this.selected_np&&(this.selected_np=e),this.selected_n=e)}},computed:{modelA(){return this.makeModelA(this.selected_np,this.selected_n)},modelAForChart(){const e=this.stats.len,t=this.stats.generalSigmas,r=[];return this.modelA.bell.forEach(([n,i])=>{const o=i/e,a=t*Math.sqrt(o*(1-o)/e),s=Math.max(0,o-a)*e,l=Math.min(1,o+a)*e;r.push([n,i,s,l])}),r},sweepRange(){const e={lo:Math.max(0,this.stats.meanLo),init:this.stats.mean,hi:this.stats.meanHi};return this.isGiant&&(e.init>60?(e.lo/=1.684,e.init/=1.684,e.hi/=1.684):e.init>50?(e.lo/=1.684,e.init/=1.684,e.hi/=1.64):e.init>20?(e.lo/=1.684,e.init/=1.684,e.hi/=1.6):e.init>10?(e.lo/=1.684,e.init/=1.684,e.hi/=1.5):e.init>5?(e.lo/=1.684,e.init/=1.684,e.hi/=1.3):e.init>1&&(e.lo/=1.684,e.init/=1.684,e.hi/=1)),e.range=e.hi-e.lo,e},modelASweep(){const e=this.tuneModelA(this.sweepRange.init,void 0);let t=10;const r=[.002,.005,.01,.02,.05,.1,.2,.5,1,2,5];for(const a of r)if(Math.floor(this.sweepRange.range/a)<20){t=a;break}const n=Math.ceil(this.sweepRange.lo/t)*t;let i=e;const o=[];for(let a=n;a<=this.sweepRange.hi;a+=t){let s=this.tuneModelA(a,void 0);a>this.sweepRange.init&&a<this.sweepRange.init+t&&o.push([this.sweepRange.init,s.n,e.loss.mse,e.loss.chisq,e.loss.pval]),o.push([a,s.n,s.loss.mse,s.loss.chisq,s.loss.pval]),s.loss.mse<i.loss.mse&&(i=s)}return isFinite(i.loss.mse)&&(this.selected_np=i.np,this.selected_n=i.n),{result:i,log:o}},makeChartHist(){return{legend:null,tooltip:{trigger:"axis"},dataset:[{source:this.histogram.arr},{source:this.modelAForChart}],xAxis:{axisLine:{onZero:!1},min:this.stats.min==0?-1:null,max:this.stats.max<3?this.stats.max+1:null},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:8,right:10,bottom:20},series:[{type:"bar",name:"observed",datasetIndex:0,encode:{x:0,y:1},tooltip:{valueFormatter:t=>dt(t,0)}},{type:"line",name:"model",datasetIndex:1,encode:{x:0,y:1},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1},{type:"line",name:`-${this.stats.generalSigmas}\u03C3`,datasetIndex:1,encode:{x:0,y:2},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"line",name:`+${this.stats.generalSigmas}\u03C3`,datasetIndex:1,encode:{x:0,y:3},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1,lineStyle:{opacity:.4}}]}},makeChartASweep(){const e={legend:{},tooltip:{trigger:"axis",formatter:function(t){const r=t[0].data;return`np=${dt(r[0],2)}<br/>n=${dt(r[1],2)}<br/>MSE=${r[2].toLocaleString(void 0,{notation:"compact"})}<br/>\u03C7\xB2=${r[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${dt(r[4],2)}<br/>`}},title:{subtext:"",left:"center",textStyle:{fontSize:10}},dataset:[{source:this.modelASweep.log}],xAxis:{min:this.sweepRange.lo,max:this.sweepRange.hi,name:"np",nameLocation:"center",nameGap:20,axisLine:{onZero:!1},axisLabel:{showMinLabel:!1}},yAxis:[{position:"left",axisLabel:{formatter:t=>t.toLocaleString(void 0,{notation:"compact"})},splitLine:{show:!1}},{position:"right",axisLabel:{formatter:t=>t.toLocaleString(void 0,{notation:"compact"})}}],grid:{left:35,top:30,right:40,bottom:20},series:[{name:"MSE",type:"line",encode:{x:0,y:2},tooltip:{valueFormatter:t=>dt(t,2)}},{name:"p-val",type:"line",encode:{x:0,y:4},tooltip:{valueFormatter:t=>dt(t,4)},yAxisIndex:1}]};return console.log("makeChartASweep",e.dataset),e}}},gn=e=>(Ze("data-v-cd6f3e00"),e=e(),qe(),e),rve=gn(()=>_("span",{class:"title"},"Model A",-1)),nve=gn(()=>_("span",null,[F(": all points were taken from a single distribution with "),_("i",null,"np = M")],-1)),ive=F(" with giant bonus"),ove={key:0},ave={style:{float:"left"}},sve=F(" Sweeping through "),lve=gn(()=>_("i",null,"np",-1)),uve={key:0,id:"chartSweep"},cve={key:1},fve={style:{padding:"1em"}},hve=gn(()=>_("th",null,null,-1)),dve=gn(()=>_("th",null,"np",-1)),pve=gn(()=>_("th",null,"n",-1)),gve=gn(()=>_("th",null,"MSE",-1)),vve=gn(()=>_("th",null,"p-val",-1)),mve=gn(()=>_("td",null,"Best fit:",-1)),yve=gn(()=>_("td",null,"Manual:",-1)),_ve=F(" np: "),bve=["value","min","max","step"],wve=F(" n: "),Sve=["value","min"],Tve=gn(()=>_("br",null,null,-1)),kve={id:"chartHisto",style:{float:"left"}},Pve=gn(()=>_("div",{style:{clear:"both"}},null,-1)),Eve=gn(()=>_("br",null,null,-1)),Cve=gn(()=>_("p",{class:"fsxs"},[F("MSE: "),_("i",null,"\u03A3 (observed - model)\xB2"),F(", discard nothing \u2190 this is used for fitting")],-1)),Ave={key:0,class:"fsxs"},xve=F("p-val: "),Mve=gn(()=>_("a",{href:"https://en.wikipedia.org/wiki/Binomial_test"},"exact",-1)),Ive=[xve,Mve],Lve=gn(()=>_("p",{class:"fsxs"},[F("\u03C7\xB2: discard bins where model < 3, then "),_("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),Ove=gn(()=>_("p",{class:"fsxs"},[F("p-val: "),_("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function Rve(e,t,r,n,i,o){const a=zt("v-chart");return I(),O(W,null,[rve,nve,_("p",null,[at(_("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=s=>r.isGiant=s)},null,512),[[Ge,r.isGiant]]),ive]),r.isGiant?(I(),O("p",ove,"This causes gaps in Unlucky distrubution because giantValue=floor(1.684*ordinaryValue);")):nt("",!0),_("div",null,[_("div",ave,[sve,lve,F(" values in "+M(o.formatFixed(this.sweepRange.lo,2))+"\u2026"+M(o.formatFixed(this.sweepRange.hi,2))+" range: ",1),o.modelASweep.result.np?(I(),O("div",uve,[ft(a,{option:o.makeChartASweep},null,8,["option"])])):(I(),O("div",cve," [failed] ")),_("div",fve,[_("table",null,[_("tr",null,[hve,dve,pve,gve,nt("",!0),vve]),o.modelASweep.result?(I(),O("tr",{key:0,class:Ur({strike:r.stats.aBad})},[mve,_("td",null,M(o.formatFixed(o.modelASweep.result.np,4)),1),_("td",null,M(o.formatFixed(o.modelASweep.result.n)),1),_("td",null,M(o.formatFixed(o.modelASweep.result.loss.mse,2)),1),nt("",!0),_("td",null,M(o.formatFixed(o.modelASweep.result.loss.pval,4)),1)],2)):nt("",!0),_("tr",null,[yve,_("td",null,M(o.formatFixed(e.selected_np,4)),1),_("td",null,M(e.selected_n),1),_("td",null,M(o.formatFixed(o.modelA.loss.mse,2)),1),nt("",!0),_("td",null,M(o.formatFixed(o.modelA.loss.pval,4)),1)])]),_ve,_("input",{type:"range",onInput:t[1]||(t[1]=s=>o.applySelectedNP(Number(s.target.value))),value:e.selected_np,min:r.stats.min,max:r.stats.max,step:.01,class:"vmid"},null,40,bve),wve,_("input",{type:"range",onInput:t[2]||(t[2]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:r.stats.max,max:200,step:1,class:"vmid"},null,40,Sve),Tve])]),_("div",kve,[o.modelA.bell?(I(),qr(a,{key:0,option:o.makeChartHist},null,8,["option"])):(I(),O(W,{key:1},[F(" [failed to build the requested distribution np="+M(o.modelA.np)+" n="+M(o.modelA.n)+" ] ",1)],64))]),Pve,Eve,Cve,e.isBinary?(I(),O("p",Ave,Ive)):(I(),O(W,{key:1},[Lve,Ove],64))])],64)}const Dve=ae(eve,[["render",Rve],["__scopeId","data-v-cd6f3e00"]]);Qr([Ql,dd,Zc,qc,Bgt,eu,tu,ru,Jc,vd,gd,pd,Qc]);const Nve={data:()=>({selected_np:1,selected_n:10,sweep_lo:0,sweep_hi:1}),props:{stats:Object,histogram:Object},components:{VChart:nu},methods:{isGoodVal:Gi,formatFixed:dt,formatKMG:Ob,makeBinomialArray:Y2,loss:K2,makeModelB(e,t){const r=this.makeBinomialArray(e,this.stats.lucky.len,t);if(!r)return null;const n={np:e,n:t,bell:r},i=this.histogram.map,o=this.histogramLuckOnly.err[0][1],a=this.histogramLuckOnly.err[0][2];if(r[0]<o){const l={...i};l[0]=o,n.loss=this.loss(n.bell,l,2,!1)}else if(r[0]>a){const l={...i};l[0]=a,n.loss=this.loss(n.bell,l,2,!1)}else{const l={...i};delete l[0],n.loss=this.loss(n.bell,l,2,!1,!0)}if(0 in r&&1 in r&&Object.keys(r).length==2&&0 in i&&1 in i&&Object.keys(i).length==2){const l=this.stats.lucky.len,u=r[1][1],c=i[1],f=u/l;c<=l&&0<f&&f<1?(n.loss.binomtest=F4(c,Math.round(l),{p:f}),n.loss.pval=n.loss.binomtest.pValue,console.log("binomtest:",r,i,c,l,f,n.loss.binomtest)):(console.log("can't binomtest",r,i,c,l,f),n.loss.binomtest=NaN)}return n},tuneModelB(e,t){let r=[t];t===void 0&&(r=[10,20,40,110,120,140,150],r.push(this.stats.max),r=r.filter(i=>i<=this.stats.max*5));let n={np:0,n:1,loss:{mse:void 0,chisq:void 0,pval:void 0}};if(!this.histogramLuckOnly){console.log("tuneModelB skip");return}return r.forEach(i=>{const o=this.makeModelB(e,i);if(!o)return;Gi(o.loss.mse)&&(!Gi(n.loss.mse)||o.loss.mse<n.loss.mse)&&(n=o)}),n&&n.np>0&&n.np<=n.n?n:(console.log(`tuneModelB np=${e} -> failed`),null)},applySelectedNp(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_np=e)},applySelectedN(e){e<0||(e<this.selected_np&&(this.selected_np=e),this.selected_n=e)}},computed:{histogramLuckOnly(){const e={...this.histogram.map};e[0]=this.histogram.map[0]-this.stats.unlucky.len;const t=[],r=[];for(const[n,i]of Object.entries(e)){if(n==0){const o=this.histogram.map[0]-(this.stats.len-this.stats.lucky.lenHi),a=this.histogram.map[0]-(this.stats.len-this.stats.lucky.lenLo);r.push([n,a,o])}t.push([n,i])}return{map:e,arr:t,err:r}},zeroBinRange(){return{min:this.histogramLuckOnly.err[0][1],max:this.histogramLuckOnly.err[0][2]}},npRangeForBinary(){if(Object.keys(this.histogram.map).length==2&&1 in this.histogram.map){const e=this.histogram.map[1];return{min:e/(this.zeroBinRange.max+e),max:e/(this.zeroBinRange.min+e)}}},modelB(){const e=this.makeModelB(this.selected_np,this.selected_n);return console.log("modelB",e),e},modelBForChart(){const e=this.stats.len,t=this.stats.generalSigmas,r=[];return this.modelB.bell.forEach(([n,i])=>{const o=i/e,a=t*Math.sqrt(o*(1-o)/e),s=Math.max(0,o-a)*e,l=Math.min(1,o+a)*e;r.push([n,i,s,l])}),r},modelBSweep(){const e=Math.max(this.stats.meanLo/this.stats.lucky.share,0);if(e>8888888)return console.log("modelBSweep skip - no input",this.stats.meanLo,this.stats.lucky.share,this.stats.lucky.std),!1;this.sweep_lo=e,this.sweep_hi=this.stats.meanHi/this.stats.lucky.share;const t=this.sweep_hi-e;let r=10;const n=[.002,.005,.01,.02,.05,.1,.2,.5,1,2,5];for(const s of n)if(Math.floor(t/s)<40){r=s;break}if(Math.floor(t/r)>1e3)return!1;const i=Math.ceil(e/r)*r;let o={np:void 0,n:void 0,loss:{mse:1/0,chisq:1/0,pval:0}};const a=[];for(let s=i;s<=this.sweep_hi;s+=r){const l=this.tuneModelB(s,void 0);if(!l)continue;a.push([s,l.n,l.loss.mse,l.loss.chisq,l.loss.pval]),Gi(l.loss.mse)&&(!Gi(o.loss.mse)||l.loss.mse<o.loss.mse)&&(console.log("new best model",s,l),o=l)}return this.selected_np=o.np,this.selected_n=o.n,{result:o,log:a}},makeChartBSweep(){const e={legend:{},tooltip:{trigger:"axis",formatter:function(t){const r=t[0].data;return`np=${dt(r[0],2)}<br/>n=${dt(r[1])}<br/>MSE=${r[2].toLocaleString(void 0,{notation:"compact"})}<br/>\u03C7\xB2=${r[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${dt(r[4],2)}<br/>`}},title:{subtext:"",left:"center",textStyle:{fontSize:10}},dataset:[{source:this.modelBSweep.log}],xAxis:{min:this.sweep_lo,max:this.sweep_hi,name:"np",nameLocation:"center",nameGap:20,axisLine:{onZero:!1},axisLabel:{showMinLabel:!1}},yAxis:[{position:"left",axisLabel:{formatter:t=>this.formatKMG(t)},splitLine:{show:!1}},{position:"right"}],grid:{left:35,top:30,right:40,bottom:20},series:[{name:"MSE",type:"line",encode:{x:0,y:2},tooltip:{valueFormatter:t=>dt(t,2)}},{name:"p-val",type:"line",encode:{x:0,y:4},tooltip:{valueFormatter:t=>dt(t,4)},yAxisIndex:1}]};return console.log("makeChartBSweep",e.dataset),e},makeChartBHist(){return{legend:null,tooltip:{trigger:"axis"},dataset:[{source:this.histogramLuckOnly.arr},{source:this.histogramLuckOnly.err},{source:this.modelBForChart}],xAxis:{axisLine:{onZero:!1},min:-1,max:this.stats.max+1},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:8,right:10,bottom:20},series:[{type:"bar",name:"observed",datasetIndex:0,encode:{x:0,y:1},tooltip:{valueFormatter:t=>dt(t,0)}},{type:"line",name:"model",datasetIndex:2,encode:{x:0,y:1},tooltip:{valueFormatter:t=>dt(t,3)},showSymbol:!1},{type:"line",name:`-${this.stats.generalSigmas}\u03C3`,datasetIndex:2,encode:{x:0,y:2},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"line",name:`+${this.stats.generalSigmas}\u03C3`,datasetIndex:2,encode:{x:0,y:3},tooltip:{valueFormatter:t=>dt(t,0)},showSymbol:!1,lineStyle:{opacity:.4}},{type:"custom",name:"observed-error",datasetIndex:1,encode:{x:0,y:[1,2]},itemStyle:{borderWidth:1.5},renderItem:function(t,r){var n=r.value(0),i=r.coord([n,r.value(1)]),o=r.coord([n,r.value(2)]),a=r.size([1,0])[0]*.1,s=r.style({stroke:r.visual("color"),fill:void 0});return{type:"group",children:[{type:"line",transition:["shape"],shape:{x1:i[0]-a,y1:i[1],x2:i[0]+a,y2:i[1]},style:s},{type:"line",transition:["shape"],shape:{x1:i[0],y1:i[1],x2:o[0],y2:o[1]},style:s},{type:"line",transition:["shape"],shape:{x1:o[0]-a,y1:o[1],x2:o[0]+a,y2:o[1]},style:s}]}},tooltip:{show:!1},z:100}]}}}},en=e=>(Ze("data-v-7790bb48"),e=e(),qe(),e),Fve=en(()=>_("span",{class:"title"},"Model B",-1)),$ve=en(()=>_("span",null,[F(": majority (1-\u03BB) of points are zero, but \u03BB points are from a binomial distribution with such "),_("i",null,"np"),F(", that \u03BB"),_("i",null,"np"),F(" = M")],-1)),Bve=F("Sweeping through "),zve=en(()=>_("i",null,"np",-1)),Vve={style:{float:"left"}},Uve={key:0,id:"chartSweep"},Wve={style:{padding:"1em"}},jve={style:{float:"left"}},Gve=en(()=>_("th",null,null,-1)),Hve=en(()=>_("th",null,"np",-1)),Xve=en(()=>_("th",null,"n",-1)),Yve=en(()=>_("th",null,"MSE",-1)),Kve=en(()=>_("th",null,"p-val",-1)),Zve={key:0},qve=en(()=>_("td",null,"Best fit:",-1)),Jve=en(()=>_("td",null,"Manual:",-1)),Qve=F(" np\u1D38: "),t0e=["value","min","max","step"],e0e=F(" n\u1D38: "),r0e=["value"],n0e=en(()=>_("div",{style:{clear:"both"}},null,-1)),i0e={key:0,style:{float:"left"}},o0e={id:"chartHisto"},a0e=en(()=>_("br",null,null,-1)),s0e={key:0},l0e=F(" Corresponding range for "),u0e=en(()=>_("i",null,"np",-1)),c0e={key:1},f0e=en(()=>_("div",{style:{clear:"both"}},null,-1)),h0e=en(()=>_("p",{class:"fsxs"},[F("MSE: "),_("i",null,"\u03A3 (observed - model)\xB2"),F(", discard nothing \u2190 this is used for fitting")],-1)),d0e={key:0,class:"fsxs"},p0e=F("p-val: "),g0e=en(()=>_("a",{href:"https://en.wikipedia.org/wiki/Binomial_test"},"exact",-1)),v0e=[p0e,g0e],m0e=en(()=>_("p",{class:"fsxs"},[F("\u03C7\xB2: discard bins where model < 3, then "),_("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),y0e=en(()=>_("p",{class:"fsxs"},[F("p-val: "),_("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function _0e(e,t,r,n,i,o){const a=zt("v-chart");return I(),O(W,null,[Fve,$ve,o.modelB?(I(),O(W,{key:0},[_("p",null,[Bve,zve,F(" values in "+M(o.formatFixed(this.sweep_lo,2))+"\u2026"+M(o.formatFixed(this.sweep_hi,2))+" range:",1)]),_("div",null,[_("div",Vve,[o.modelBSweep?(I(),O("div",Uve,[ft(a,{option:o.makeChartBSweep},null,8,["option"])])):nt("",!0),_("div",Wve,[_("div",jve,[_("table",null,[_("tr",null,[Gve,Hve,Xve,Yve,nt("",!0),Kve]),o.modelBSweep.result?(I(),O("tr",Zve,[qve,_("td",null,M(o.formatFixed(o.modelBSweep.result.np,3)),1),_("td",null,M(o.modelBSweep.result.n),1),_("td",null,M(o.formatFixed(o.modelBSweep.result.loss.mse,2)),1),nt("",!0),_("td",null,M(o.formatFixed(o.modelBSweep.result.loss.pval,4)),1)])):nt("",!0),_("tr",null,[Jve,_("td",null,M(o.formatFixed(e.selected_np,3)),1),_("td",null,M(e.selected_n),1),_("td",null,M(o.formatFixed(o.modelB.loss.mse,2)),1),nt("",!0),_("td",null,M(o.formatFixed(o.modelB.loss.pval,4)),1)])]),_("p",null,[Qve,_("input",{type:"range",onInput:t[0]||(t[0]=s=>o.applySelectedNp(Number(s.target.value))),value:e.selected_np,min:r.stats.min,max:e.sweep_hi*1.5,step:.01,class:"vmid"},null,40,t0e),e0e,_("input",{type:"range",onInput:t[1]||(t[1]=s=>o.applySelectedN(Number(s.target.value))),value:e.selected_n,min:1,max:200,step:1,class:"vmid"},null,40,r0e)])]),n0e])]),o.modelB.bell?(I(),O("div",i0e,[_("div",o0e,[ft(a,{option:o.makeChartBHist},null,8,["option"])]),_("div",null,[F(" Bin 0 has 1-\u03BB \u2248 "+M(o.formatFixed(r.stats.unlucky.len))+" samples removed, "+M(o.formatFixed(o.histogramLuckOnly.arr[0][1]))+" remaining",1),a0e,F(" Depending on actual \u03BB could potentially be "+M(o.formatFixed(o.histogramLuckOnly.err[0][1]))+"\u2026"+M(o.formatFixed(o.histogramLuckOnly.err[0][2]))+" remaining ",1),o.npRangeForBinary?(I(),O("p",s0e,[l0e,u0e,F(": "+M(o.formatFixed(o.npRangeForBinary.min,3))+"\u2026"+M(o.formatFixed(o.npRangeForBinary.max,3)),1)])):nt("",!0)])])):(I(),O("div",c0e," bad parameters ")),f0e]),_("div",null,[h0e,o.npRangeForBinary?(I(),O("p",d0e,v0e)):(I(),O(W,{key:1},[m0e,y0e],64))])],64)):nt("",!0)],64)}const b0e=ae(Nve,[["render",_0e],["__scopeId","data-v-7790bb48"]]);Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);class w0e{constructor(){this.data={},this.xmin=999,this.xmax=-999,this.ymin=999,this.ymax=-999}put(t,r,n){this.data.hasOwnProperty(t)||(this.data[t]={}),this.data[t][r]=n,this.xmin=Math.min(this.xmin,r/1e4),this.xmax=Math.max(this.xmax,r/1e4),this.ymin=Math.min(this.ymin,t/1e4),this.ymax=Math.max(this.ymax,t/1e4)}get(t,r){return!this.data.hasOwnProperty(t)||!this.data[t].hasOwnProperty(r)?null:this.data[t][r]}aslist(){let t=[];for(let[r,n]of Object.entries(this.data).sort((i,o)=>i[0]-o[0]))for(let[i,o]of Object.entries(n).sort((a,s)=>a[0]-s[0]))t.push([r/1e4,i/1e4,o.n,o.loss.mse,o.loss.chisq,o.loss.pval]);return t}}const S0e={data:()=>({selected_npL:1,selected_npU:1,selected_n:10,isGiant_lucky:!1,forceMSE:!1,bestPval:0}),props:{stats:Object,histogram:Object,isGiant:Boolean},components:{VChart:nu},methods:{isGoodVal:Gi,formatFixed:dt,formatKMG:Ob,makeBinomialArray:Y2,makeBinomialArraysForGiant:Qge,sumDistributions:UY,loss:K2,applyGiantBonus:WY,ul2u(e,t,r){return r/(1-t)-t*e/(1-t)},l2u(e,t,r){return r-t*e},findPsStep(e,t,r,n,i){let a={il:0,iu:0,model:i};for(let s=-30;s<=30;s++)for(let l=-30;l<=30;l++){const u=t+l*n,c=r+s*n;if(u<0||c<0)continue;const f=this.isGiant?this.sweepRange.u_hi:this.l2u(c/1e4,this.stats.lucky.shareLo,this.sweepRange.u_hi);if(u/1e4>f)continue;const h=this.l2u(c/1e4,this.stats.lucky.shareHi,this.sweepRange.u_lo);if(u/1e4<h)continue;let d=e.get(u,c);d===null&&(d=this.makemodelC(c/1e4,void 0,u/1e4,void 0),this.bestPval=Math.max(this.bestPval,d.loss.pval),e.put(u,c,d)),d.loss.mse<a.model.loss.mse&&(a={il:s,iu:l,model:d})}return a},findPsRound(e,t,r,n,i,o){for(;t<=150;){let a=this.findPsStep(e,r,n,o,i);if(a.il==0&&a.iu==0)return console.log("no improvement on round",t),{round:t,curU:r,curL:n,model:a.model};if(r+=a.iu*o,n+=a.il*o,n/1e4>this.stats.max)return{round:t,curU:r,curL:n,model:a.model};t++}return{round:t,curU:r,curL:n,model:i}},makemodelC(e,t,r){let n=[t];t===void 0&&(n=[10,20,40,120],n=n.filter(o=>o>=e&&o>=r&&o>=this.stats.max));let i={n:void 0,loss:{mse:void 0,chisq:void 0,pval:void 0}};return this.stats.unlucky.len==0||(n.forEach(o=>{const a={npL:e,n:o,npU:r};if(this.isGiant){const l=this.makeBinomialArraysForGiant(r,this.stats.unlucky.len,e,this.stats.lucky.len,o,this.isGiant_lucky);a.bellU=l.bellU,a.bellL=l.bellL,a.bell=this.sumDistributions(a.bellL,a.bellU)}else a.bellU=this.makeBinomialArray(r,this.stats.unlucky.len,o),a.bellL=this.makeBinomialArray(r+e,this.stats.lucky.len,o),a.bell=this.sumDistributions(a.bellL,a.bellU);a.loss=this.loss(a.bell,this.histogram.map,3),Gi(a.loss.mse)&&(!Gi(i.loss.mse)||a.loss.mse<i.loss.mse)&&(i=a)}),i||console.log("makemodelC failed",e,r,t)),i},applySelectedNpL(e){e<0||(e>this.selected_nL&&(this.selected_nL=Math.ceil(e)),e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_npL=e)},applySelectedNpU(e){e<0||(e>this.selected_n&&(this.selected_n=Math.ceil(e)),this.selected_npU=e)},applySelectedNL(e){e<0||(e<this.selected_npL&&(this.selected_npL=e),this.selected_nL=e)},applySelectedNU(e){e<0||(e<this.selected_npU&&(this.selected_npU=e),this.selected_nU=e)},applySelectedN(e){e<0||(e<this.selected_npL&&(this.selected_npL=e),e<this.selected_npU&&(this.selected_npU=e),this.selected_n=e)},meanOfDistribution(e){let t=0,r=0;for(let[n,i]of e)t+=i,r+=n*i;return r/t}},computed:{modelC(){const e=this.makemodelC(this.selected_npL,this.selected_n,this.selected_npU);return console.log("modelC",e),e},sweepRange(){const e={u_lo:Math.max(0,this.stats.meanLo),u_init:this.stats.mean,u_hi:this.stats.meanHi,l_init:0};if(this.isGiant){const t=this.makeBinomialArray(e.u_init,this.stats.unlucky.len,100,!1),r=this.meanOfDistribution(t),n=this.makeBinomialArray(e.u_init,this.stats.unlucky.len,100,!0),o=this.meanOfDistribution(n)/r;console.log("init giant bonus",o),e.u_lo/=o,e.u_init/=o,e.u_hi/=o}return e},modelCSweep(){if(isNaN(this.stats.mean))return!1;this.bestPval=0;let e=1;const t=this.sweepRange.u_hi-this.sweepRange.u_lo;let r=1e4;t<3&&(r=5e3),t<1.5&&(r=2500),t<.6&&(r=1e3),t<.3&&(r=500),t<.12&&(r=200),t<.06&&(r=100),t<.03&&(r=50);let n=Math.round(this.sweepRange.u_init*1e4/r)*r,i=Math.round(this.sweepRange.l_init*1e4/r)*r;n<0&&(n=0),i<0&&(i=0);let o=this.makemodelC(i/1e4,void 0,n/1e4,void 0);this.stats.psGridPath=[[0,n/1e4,i/1e4,o.loss.chisq]];let a=new w0e;a.put(n,i,o),{round:e,curU:n,curL:i,model:o}=this.findPsRound(a,e,n,i,o,r);const s=a.aslist();return this.selected_npL=o.npL,this.selected_npU=o.npU,this.selected_n=o.n,console.log("modelCSweep",o,this.stats.lucky.mean),{result:o,psGridDotsMap:a,psGridDots:s}},makeChartCHist(){return{legend:{},tooltip:{trigger:"axis",valueFormatter:t=>dt(t,0)},dataset:[{source:this.histogram.arr},{source:this.modelC.bell},{source:this.modelC.bellL},{source:this.modelC.bellU}],xAxis:{min:this.stats.min==0?-1:null,max:this.stats.max<5?this.stats.max+1:null},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:30,right:10,bottom:20},series:[{name:"observed",type:"bar",encode:{x:0,y:1},tooltip:{trigger:"axis",valueFormatter:t=>dt(t,0)}},{name:"model \u03A3",type:"line",datasetIndex:1,encode:{x:0,y:1},showSymbol:!1},{name:"model U",type:"line",datasetIndex:3,encode:{x:0,y:1},showSymbol:!1},{name:"model L",type:"line",datasetIndex:2,encode:{x:0,y:1},showSymbol:!1}]}},makeChartCGrid(){const e=2.272727272727273;let{xmin:t,xmax:r,ymin:n,ymax:i}=this.modelCSweep.psGridDotsMap;const o=(t+r)/2,a=(n+i)/2;let s=.2;this.stats.mean<2&&(s=.05);const l=1.2*(this.modelCSweep.psGridDotsMap.xmax-this.modelCSweep.psGridDotsMap.xmin)+s,u=1.2*(this.modelCSweep.psGridDotsMap.ymax-this.modelCSweep.psGridDotsMap.ymin)+s;if(l/u>e){const v=l,y=l/e;t=o-v/2,r=o+v/2,n=a-y/2,i=a+y/2}else{const v=u*e,y=u;t=o-v/2,r=o+v/2,n=a-y/2,i=a+y/2}const f={xmin:t,xmax:r,ymin:n,ymax:i},h=this.forceMSE||isNaN(this.modelCSweep.result.loss.pval);let d=h?["#282","#2c2","#cc2","#ccc"]:["#ccc","#cc2","#2c2","#282"];const p={inRange:{color:d},calculable:!0,precision:h?0:2,controller:{inRange:{color:d}},orient:"vertical",top:"center",right:10,align:"left",padding:0};let g=h?{min:this.modelCSweep.result.loss.mse,max:this.modelCSweep.result.loss.mse*2,dimension:3,text:["MSE",""]}:{min:0,max:this.bestPval,dimension:5,text:["p-val",""]};return{legend:{},tooltip:{trigger:"item",axisPointer:{type:"cross"},formatter:function(v){const y=v.data;return`np\u1D41=${dt(y[0],2)}<br/>np\u1D38=${dt(y[1],2)}<br/>n=${dt(y[2],2)}<br/>MSE=${y[3].toLocaleString(void 0,{notation:"compact"})}<br/>p-val=${dt(y[5],2)}<br/>`}},title:{},dataset:[{source:this.modelCSweep.psGridDots}],xAxis:{name:"np\u1D38",nameGap:5,min:f.xmin,max:f.xmax,axisLabel:{showMinLabel:!1,showMaxLabel:!1},axisLine:{onZero:!1}},yAxis:{name:"np\u1D41",nameGap:5,min:f.ymin,max:f.ymax,axisLabel:{showMinLabel:!1,showMaxLabel:!1},axisLine:{onZero:!1}},grid:{left:35,top:30,right:40,bottom:20},series:[{type:"scatter",encode:{x:1,y:0,tooltip:[1,0,3]},tooltip:{valueFormatter:v=>`${v[1]} \u2192 ${dt(v[2],4)}`},symbolSize:6,markArea:{silent:!0,data:[[{name:`M\xB1${this.stats.generalSigmas}\u03C3`,coord:[this.sweepRange.u_lo-this.sweepRange.u_init,this.sweepRange.u_lo]},{coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.sweepRange.u_hi]}]],label:{show:!0,position:"left"},itemStyle:{color:"rgba(0, 0, 200, 0)",borderWidth:1,borderType:"dashed"}},markLine:{silent:!0,symbol:"none",data:[this.isGiant?[{name:"low \u03BB, high M",label:{position:"insideMiddleTop"},coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]}]:[{name:"low \u03BB, high M",label:{position:"insideMiddleTop"},coord:[this.sweepRange.u_hi-this.sweepRange.u_init,this.l2u(this.sweepRange.u_hi-this.sweepRange.u_init,this.stats.lucky.shareLo,this.sweepRange.u_hi)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.modelCSweep.psGridDotsMap.xmax,this.stats.lucky.shareLo,this.sweepRange.u_hi)]}],[{name:"high \u03BB, low M",label:{position:"insideMiddleBottom"},coord:[this.sweepRange.u_lo-this.sweepRange.u_init,this.l2u(this.sweepRange.u_lo-this.sweepRange.u_init,this.stats.lucky.shareHi,this.sweepRange.u_lo)]},{coord:[this.modelCSweep.psGridDotsMap.xmax,this.l2u(this.modelCSweep.psGridDotsMap.xmax,this.stats.lucky.shareHi,this.sweepRange.u_lo)]}]]}}],visualMap:{...p,...g}}}}},si=e=>(Ze("data-v-ada12390"),e=e(),qe(),e),T0e=si(()=>_("span",{class:"title"},"Model C",-1)),k0e=F(": some points were taken from a distribution L, and the rest from distribution U,"),P0e=si(()=>_("br",null,null,-1)),E0e=si(()=>_("br",null,null,-1)),C0e=F(" with giant bonus on Unlucky"),A0e=F(" with giant bonus on Lucky"),x0e={style:{float:"left"}},M0e={style:{width:"570px",height:"270px"}},I0e={key:1,class:"inner"},L0e={style:{padding:"1em"}},O0e={style:{float:"left"}},R0e=si(()=>_("tr",null,[_("th"),_("th",null,"np\u1D41"),_("th",null,"np\u1D38"),_("th",null,"n"),_("th",null,"MSE"),_("th",null,"p-val")],-1)),D0e=si(()=>_("td",null,"Best fit:",-1)),N0e=si(()=>_("td",null,"Manual:",-1)),F0e=["value","min","max","step"],$0e=F(" np\u1D41 "),B0e=si(()=>_("br",null,null,-1)),z0e=["value","max","step"],V0e=F(" np\u1D38 "),U0e=si(()=>_("br",null,null,-1)),W0e=["value"],j0e=F(" n "),G0e=si(()=>_("div",{style:{clear:"both"}},null,-1)),H0e={key:0,id:"chartHisto",style:{float:"left"}},X0e=si(()=>_("div",{style:{clear:"both"}},null,-1)),Y0e=si(()=>_("br",null,null,-1)),K0e=si(()=>_("p",{class:"fsxs"},[F("MSE: "),_("i",null,"\u03A3 (observed - model)\xB2"),F(", discard nothing \u2190 this is used for fitting")],-1)),Z0e=si(()=>_("p",{class:"fsxs"},[F("\u03C7\xB2: discard bins where model < 3, then "),_("i",null,"\u03A3 (observed - model)\xB2 / model")],-1)),q0e=si(()=>_("p",{class:"fsxs"},[F("p-val: "),_("i",null,"1 - chisquare.cdf(\u03C7\xB2, bins - 1 - dof) \u2190 this depends too much on previous step discards")],-1));function J0e(e,t,r,n,i,o){var s,l;const a=zt("v-chart");return I(),O(W,null,[T0e,_("span",null,[k0e,P0e,F(" so (1 - \u03BB) np\u1D41 + \u03BB (np\u1D41 + np\u1D38) = M, where \u03BB \u2208 "+M(o.formatFixed(r.stats.lucky.shareLo*100,2))+"\u2026"+M(o.formatFixed(r.stats.lucky.shareHi*100,2))+"% and M \u2208 "+M(o.formatFixed(r.stats.mean-1.96*r.stats.meanErr,2))+"\u2026"+M(o.formatFixed(r.stats.mean+1.96*r.stats.meanErr,2)),1)]),E0e,_("p",null,[at(_("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=u=>r.isGiant=u)},null,512),[[Ge,r.isGiant]]),C0e]),_("p",null,[at(_("input",{type:"checkbox","onUpdate:modelValue":t[1]||(t[1]=u=>e.isGiant_lucky=u)},null,512),[[Ge,e.isGiant_lucky]]),A0e]),_("div",x0e,[_("div",M0e,[((l=(s=o.modelCSweep)==null?void 0:s.result)==null?void 0:l.npU)&&e.bestPval?(I(),qr(a,{key:0,option:o.makeChartCGrid},null,8,["option"])):(I(),O("div",I0e," np\u1D41=0 or no bestPval "))]),_("div",L0e,[_("div",O0e,[_("table",null,[R0e,o.modelCSweep.result?(I(),O("tr",{key:0,class:Ur({strike:r.stats.dBad})},[D0e,_("td",null,M(o.formatFixed(o.modelCSweep.result.npU,2)),1),_("td",null,M(o.formatFixed(o.modelCSweep.result.npL,2)),1),_("td",null,M(o.modelCSweep.result.n),1),_("td",null,M(o.formatFixed(o.modelCSweep.result.loss.mse,2)),1),_("td",null,M(o.formatFixed(o.modelCSweep.result.loss.pval,4)),1)],2)):nt("",!0),_("tr",null,[N0e,_("td",null,M(o.formatFixed(e.selected_npU,2)),1),_("td",null,M(o.formatFixed(e.selected_npL,2)),1),_("td",null,M(e.selected_n),1),_("td",null,M(o.formatFixed(o.modelC.loss.mse,2)),1),_("td",null,M(o.formatFixed(o.modelC.loss.pval,4)),1)])]),_("p",null,[_("input",{type:"range",onInput:t[2]||(t[2]=u=>o.applySelectedNpU(Number(u.target.value))),value:e.selected_npU,min:r.stats.min,max:r.stats.max,step:.01,class:"vmid"},null,40,F0e),$0e,B0e,_("input",{type:"range",onInput:t[3]||(t[3]=u=>o.applySelectedNpL(Number(u.target.value))),value:e.selected_npL,min:0,max:r.stats.max,step:.01,class:"vmid"},null,40,z0e),V0e,U0e,_("input",{type:"range",onInput:t[4]||(t[4]=u=>o.applySelectedN(Number(u.target.value))),value:e.selected_n,min:1,max:200,step:1,class:"vmid"},null,40,W0e),j0e])]),G0e])]),o.modelC.bell?(I(),O("div",H0e,[ft(a,{option:o.makeChartCHist},null,8,["option"])])):nt("",!0),X0e,Y0e,K0e,Z0e,q0e],64)}const Q0e=ae(S0e,[["render",J0e],["__scopeId","data-v-ada12390"]]);Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);const tme={setup(){const e=At(),t=Pfe(),r=localStorage.getItem("droprates");return t.$patch(JSON.parse(r)),t.$subscribe((n,i)=>{localStorage.setItem("droprates",JSON.stringify(i))}),{gameStore:e,dropratesStore:t}},components:{ItemIcon:no,VChart:nu,DRMA:Dve,DRMB:b0e,DRMC:Q0e},provide(){return{[oj]:yr(()=>this.darkMode?"dark":"default")}},data(){const e=matchMedia("(prefers-color-scheme: dark)");return{alldata:{},generalSigmas:2,hide_buckets:{},darkModeQuery:e,darkMode:e.matches}},created(){this.fetchObservations()},mounted(){this.darkModeQuery.addEventListener("change",()=>{this.darkMode=this.darkModeQuery.matches})},watch:{},computed:{currentDataset(){const e={};if(this.dropratesStore.selected_pzk in this.alldata){const t=this.alldata[this.dropratesStore.selected_pzk];if(this.dropratesStore.selected_ik in t){const r=t[this.dropratesStore.selected_ik];if(this.dropratesStore.selected_specie in r){const n=r[this.dropratesStore.selected_specie];for(let[i,o]of Object.entries(n).sort((a,s)=>a[0]-s[0]))e[i]=o}}}return e},weightedDataset(){let e={};for(let[t,r]of Object.entries(this.currentDataset)){if(this.hide_buckets[t])continue;const n=r.length;let i=[];for(let o=0;o<n;o++){const a=gt.binomial.cdf(o,n,1-t/100);i.push(a)}e[t]={len:n,luckyLen:n*t/100,sorted:[...r].sort((o,a)=>o-a),weights:i}}return e},stats(){const e=this.currentDataset;let t=0,r=0;for(const[g,m]of Object.entries(e))t+=e[g].length,r+=e[g].length;const n=this.weightedDataset;for(let[g,m]of Object.entries(n))for(let v of m.weights)v>this.stats.generalConfidence/100,v>1-this.stats.generalConfidence/100;let i=[],o=[],a=0,s=100,l=0;for(const[g,m]of Object.entries(n)){s=Math.min(s,g),l=Math.max(l,g);let{len:v,luckyLen:y,sorted:b,weights:w}=m;a+=y,i.push(...b),o.push(...w)}const u={1.5:86.6385597,2:95.4499736,2.5:98.7580669,3:99.7300203,3.5:99.9534741841929,4:99.9936657516334},c={generalSigmas:this.generalSigmas,generalConfidence:u[this.generalSigmas],lenRaw:t,dataRaw:e,dataByLuck:n,minLuck:s,maxLuck:l,dataFlatSorted:i,weightsFlat:o,len:i.length,min:gt.min(i),max:gt.max(i),range:gt.range(i),sum:gt.sum(i),mean:gt.mean(i),meanErr:0,meanLo:0,meanHi:0,std:gt.stdev(i,!0),bell:[],histo:[]};if(c.meanErr=Math.sqrt(c.mean/c.max*(1-c.mean/c.max)*c.max/c.len),c.meanLo=c.mean-this.generalSigmas*c.meanErr,c.meanHi=c.mean+this.generalSigmas*c.meanErr,c.lucky={len:a,share:a/c.len,mean:0,std:0,lenHi:0,lenLo:0,shareHi:0,shareLo:0},isNaN(c.lucky.share))c.lucky.shareLo=NaN,c.lucky.shareHi=NaN,c.lucky.lenLo=NaN,c.lucky.lenHi=NaN;else{console.log("binomTest of lucky share%=",c.lucky.share,"with significance=",1-c.generalConfidence/100);const g=this.binomialTest(Math.round(c.lucky.len),c.len,{p:c.lucky.share,alpha:1-c.generalConfidence/100});c.lucky.shareLo=g.ci[0],c.lucky.shareHi=g.ci[1],c.lucky.lenLo=g.ci[0]*c.len,c.lucky.lenHi=g.ci[1]*c.len}c.unlucky={len:c.len-a,share:1-c.lucky.share,mean:0,std:0};let f=0,h=0;for(const[g,m]of Object.entries(n)){let{len:v,luckyLen:y,luckeyLen95:b,sorted:w,weights:T}=m;for(let S=0;S<v;S++){const k=w[S],E=T[S];f+=k*(1-E),h+=k*E}}c.unlucky.mean=f/c.unlucky.len,c.lucky.mean=h/c.lucky.len;let d=0,p=0;for(const[g,m]of Object.entries(n)){let{len:v,sorted:y,weights:b}=m;for(let w=0;w<v;w++){const T=b[w],S=y[w]-c.unlucky.mean;d+=S*S*(1-T);const k=y[w]-c.lucky.mean;p+=k*k*T}}return c.unlucky.std=Math.sqrt(d/c.unlucky.len),c.lucky.std=Math.sqrt(p/c.lucky.len),console.log("stats",c),c},histogram(){const e={arr:[],map:{}};if(this.stats.range>0){let t=[1];t=gt.histogram(this.stats.dataFlatSorted,this.stats.range+1);const n=Array.from(Array(this.stats.range+1).keys()).map(i=>[this.stats.min+i,t[i]]);e.arr=n;for(let i=0;i<t.length;i++)e.map[this.stats.min+i]=t[i]}else e.arr=[[this.stats.min,this.stats.len]],e.map[this.stats.min]=this.stats.len;return console.log("histogram",e),e}},methods:{formatFixed:dt,binomialTest:F4,async fetchObservations(){const e=Date.now();this.alldata=await(await fetch("data/manual/yields_observed_202505_202509.json")).json();const t=this.dropratesStore.selected_pzk;this.dropratesStore.selected_pzk=t&&this.alldata[t]?t:Object.keys(this.alldata)[0];const r=this.dropratesStore.selected_ik;this.dropratesStore.selected_ik=r&&this.alldata[t][r]?r:Object.keys(this.alldata[t])[0];const n=this.dropratesStore.selected_specie;this.dropratesStore.selected_specie=n&&this.alldata[t][r][n]?n:Object.keys(this.alldata[t][r])[0],console.log("fetchObservations took",Date.now()-e,"ms",this.dropratesStore.selected_pzk,this.dropratesStore.selected_ik,this.dropratesStore.selected_specie)},activate(e,t,r){this.dropratesStore.selected_pzk=e,this.dropratesStore.selected_ik=t,this.dropratesStore.selected_specie=r}}},Ho=e=>(Ze("data-v-cad86964"),e=e(),qe(),e),eme={id:"menu"},rme={style:{display:"none"}},nme=Ho(()=>_("p",{class:"fsxs"},"Left: droprate parameters currently used in workerman",-1)),ime=Ho(()=>_("p",{class:"fsxs"},"Right: observations used to find out current serverside parameters",-1)),ome={key:1},ame=Ho(()=>_("tr",null,[_("th",{class:"fsxs"},"n"),_("th",{class:"fsxs"},"np\u1D41"),_("th",{class:"fsxs"},"np\u1D38"),_("th",{class:"fsxs"},"item"),_("th",{class:"fsxs"},"normal"),_("th",{class:"fsxs"},"giant")],-1)),sme={class:"fsxs"},lme={class:"fsxs"},ume={class:"fsxs"},cme={class:"center"},fme=["title","onClick"],hme=["title"],dme={id:"content"},pme=Ho(()=>_("tr",null,[_("td",null,"mute"),_("td",null,"luck")],-1)),gme={class:"center"},vme=["onUpdate:modelValue"],mme=F(" Possible luck procs observed with "),yme=Yv('<option value="1.5" data-v-cad86964>\xB11.5\u03C3</option><option value="2" data-v-cad86964>\xB12\u03C3</option><option value="2.5" data-v-cad86964>\xB12.5\u03C3</option><option value="3" data-v-cad86964>\xB13\u03C3</option><option value="3.5" data-v-cad86964>\xB13.5\u03C3</option><option value="4" data-v-cad86964>\xB14\u03C3</option>',6),_me=[yme],bme=Ho(()=>_("tr",null,[_("th"),_("th",null,"min"),_("th",null,"max")],-1)),wme=Ho(()=>_("td",null,"count",-1)),Sme=Ho(()=>_("td",null,"% of total",-1)),Tme={id:"settings"},kme=F(" Use model:"),Pme=Ho(()=>_("br",null,null,-1)),Eme=Ho(()=>_("label",{for:"option1"},[F("A. Same item drop regardless of luck (plants, lumber, ores)"),_("br")],-1)),Cme=Ho(()=>_("label",{for:"option2"},[F("B. Item only drops when luck procs (sacks, lumbering rares)"),_("br")],-1)),Ame=Ho(()=>_("label",{for:"option3"},[F("C. Different drops when luck procs and when not (eggs, honey)"),_("br")],-1)),xme={key:0,id:"modelA",style:{float:"left"}},Mme={key:1},Ime={key:2};function Lme(e,t,r,n,i,o){const a=zt("RouterLink"),s=zt("ItemIcon"),l=zt("DRMA"),u=zt("DRMB"),c=zt("DRMC");return I(),O("main",null,[_("div",eme,[_("div",rme,M(n.dropratesStore.selected_pzk)+" "+M(n.dropratesStore.selected_ik)+" "+M(n.dropratesStore.selected_specie),1),nme,ime,(I(!0),O(W,null,Pt(i.alldata,(f,h)=>(I(),O(W,null,[h in n.gameStore.plantzoneStatic?(I(),qr(a,{key:0,tag:"a",to:{path:"./",hash:"#node"+h}},{default:Fe(()=>[F(M(h)+" "+M(n.gameStore.plantzoneName(h)),1)]),_:2},1032,["to"])):(I(),O("span",ome,M(h),1)),_("table",null,[ame,(I(!0),O(W,null,Pt(f,(d,p)=>(I(),O("tr",null,[_("td",sme,[n.gameStore.ready&&Number(h)in n.gameStore.plantzones?(I(),O(W,{key:0},[F(M(n.gameStore.plantzones[Number(h)].rolls),1)],64)):nt("",!0)]),_("td",lme,[n.gameStore.ready&&Number(h)in n.gameStore.plantzones&&p in n.gameStore.plantzones[Number(h)].unlucky?(I(),O(W,{key:0},[F(M(n.gameStore.plantzones[Number(h)].unlucky[p]),1)],64)):nt("",!0)]),_("td",ume,[n.gameStore.ready&&Number(h)in n.gameStore.plantzones&&p in n.gameStore.plantzones[Number(h)].lucky?(I(),O(W,{key:0},[F(M(n.gameStore.plantzones[Number(h)].lucky[p]),1)],64)):nt("",!0)]),_("td",null,[ft(a,{tag:"a",to:{path:"./settings",hash:"#item"+p}},{default:Fe(()=>[_("span",null,[ft(s,{ik:Number(p)},null,8,["ik"])])]),_:2},1032,["to"]),F(" "+M(n.gameStore.itemName(p)),1)]),(I(),O(W,null,Pt(["normal","giant"],g=>_("td",cme,[g in d?(I(),O(W,{key:0},[h!=n.dropratesStore.selected_pzk||p!=n.dropratesStore.selected_ik||g!=n.dropratesStore.selected_specie?(I(),O("button",{key:0,title:`item ${p} ${g}`,onClick:m=>o.activate(h,p,g)},M(Object.values(d[g]).flat().length),9,fme)):(I(),O("button",{key:1,title:`item ${p} ${g}`,class:"pressed"},M(Object.values(d[g]).flat().length),9,hme))],64)):nt("",!0)])),64))]))),256))])],64))),256))]),_("div",dme,[_("details",null,[_("summary",null,[F("Dataset: size N = "+M(o.stats.len)+", sum "+M(o.stats.sum)+", mean M = "+M(o.formatFixed(o.stats.mean,3))+"\xB1"+M(o.formatFixed(1.96*o.stats.meanErr,3))+", ",1),this.stats.minLuck==this.stats.maxLuck?(I(),O(W,{key:0},[F(M(this.stats.maxLuck),1)],64)):(I(),O(W,{key:1},[F(M(o.formatFixed(this.stats.minLuck,2))+"\u2026"+M(o.formatFixed(this.stats.maxLuck,2)),1)],64)),F("\u{1F340} \u2192 \u03BB \u2208 "+M(o.formatFixed(o.stats.lucky.shareLo*100,2))+"\u2026"+M(o.formatFixed(o.stats.lucky.shareHi*100,2))+"% cycles were lucky ",1)]),_("div",null,[_("table",null,[pme,(I(!0),O(W,null,Pt(o.stats.dataRaw,(f,h)=>(I(),O("tr",{class:Ur({strike:i.hide_buckets[h]})},[_("td",gme,[at(_("input",{"onUpdate:modelValue":d=>i.hide_buckets[h]=d,type:"checkbox"},null,8,vme),[[Ge,i.hide_buckets[h]]])]),_("td",null,M(h),1),(I(!0),O(W,null,Pt(f,d=>(I(),O("td",null,M(d),1))),256))],2))),256))])]),_("p",null,[mme,at(_("select",{"onUpdate:modelValue":t[0]||(t[0]=f=>i.generalSigmas=f)},_me,512),[[cr,i.generalSigmas]]),F(" ("+M(o.formatFixed(o.stats.generalConfidence,2))+"%) confidence: ",1),_("table",null,[bme,_("tr",null,[wme,_("td",null,M(o.formatFixed(o.stats.lucky.lenLo,2)),1),_("td",null,M(o.formatFixed(o.stats.lucky.lenHi,2)),1)]),_("tr",null,[Sme,_("td",null,M(o.formatFixed(o.stats.lucky.shareLo*100,2)),1),_("td",null,M(o.formatFixed(o.stats.lucky.shareHi*100,2)),1)])])])]),_("div",Tme,[kme,Pme,at(_("input",{type:"radio",id:"option1",value:"a","onUpdate:modelValue":t[1]||(t[1]=f=>n.dropratesStore.selected_model=f)},null,512),[[Pa,n.dropratesStore.selected_model]]),Eme,at(_("input",{type:"radio",id:"option2",value:"b","onUpdate:modelValue":t[2]||(t[2]=f=>n.dropratesStore.selected_model=f)},null,512),[[Pa,n.dropratesStore.selected_model]]),Cme,at(_("input",{type:"radio",id:"option3",value:"c","onUpdate:modelValue":t[3]||(t[3]=f=>n.dropratesStore.selected_model=f)},null,512),[[Pa,n.dropratesStore.selected_model]]),Ame]),n.dropratesStore.selected_model=="a"?(I(),O("div",xme,[ft(l,{stats:o.stats,histogram:o.histogram,isGiant:n.dropratesStore.selected_specie=="giant"},null,8,["stats","histogram","isGiant"])])):nt("",!0),n.dropratesStore.selected_model=="b"?(I(),O("div",Mme,[ft(u,{stats:o.stats,histogram:o.histogram},null,8,["stats","histogram"])])):nt("",!0),n.dropratesStore.selected_model=="c"?(I(),O("div",Ime,[ft(c,{stats:o.stats,histogram:o.histogram,isGiant:n.dropratesStore.selected_specie=="giant"},null,8,["stats","histogram","isGiant"])])):nt("",!0)])])}const Ome=ae(tme,[["render",Lme],["__scopeId","data-v-cad86964"]]),Rme={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},Dme=["step"],Nme=["max","step"];function Fme(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.mean=a),class:"vmid",min:0,max:2,step:.01},null,8,Dme),[[Gt,r.me.mean]]),F(" \u03BC="+M(r.me.mean),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.sigma=a),class:"vmid",min:0,max:.7,step:.01},null,8,Nme),[[Gt,r.me.sigma]]),F(" \u03C3="+M(r.me.sigma),1)])],64)}const $me=ae(Rme,[["render",Fme]]),Bme={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},zme=["step"],Vme=["step"];function Ume(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.center=a),class:"vmid",min:0,max:2,step:.01},null,8,zme),[[Gt,r.me.center]]),F(" c="+M(r.me.center),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.width=a),class:"vmid",min:0,max:2,step:.01},null,8,Vme),[[Gt,r.me.width]]),F(" w="+M(r.me.width),1)])],64)}const Wme=ae(Bme,[["render",Ume]]),jme={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},Gme=["step"],Hme=["step"];function Xme(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.center=a),class:"vmid",min:0,max:2,step:.01},null,8,Gme),[[Gt,r.me.center]]),F(" c="+M(r.me.center),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.width=a),class:"vmid",min:0,max:2,step:.01},null,8,Hme),[[Gt,r.me.width]]),F(" w="+M(r.me.width),1)])],64)}const Yme=ae(jme,[["render",Xme]]),Kme={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},Zme=["min","step"],qme=["min","max","step"];function Jme(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.at=a),class:"vmid",min:.1,max:2,step:.01},null,8,Zme),[[Gt,r.me.at]]),F(" \u03B1\u03B8="+M(r.me.at),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.theta=a),class:"vmid",min:.01,max:.3,step:.001},null,8,qme),[[Gt,r.me.theta]]),F(" \u03B8="+M(r.me.theta),1)])],64)}const Qme=ae(Kme,[["render",Jme]]),t1e={data:()=>({}),props:{me:Object},components:{},methods:{},computed:{}},e1e=["min","step"],r1e=F(" e"),n1e=_("sup",null,"\u03BC",-1),i1e=["min","max","step"];function o1e(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.emu=a),class:"vmid",min:.1,max:2,step:.01},null,8,e1e),[[Gt,r.me.emu]]),r1e,n1e,F("="+M(r.me.emu),1)]),_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[1]||(t[1]=a=>r.me.sigma=a),class:"vmid",min:.1,max:.7,step:.01},null,8,i1e),[[Gt,r.me.sigma]]),F(" \u03C3="+M(r.me.sigma),1)])],64)}const a1e=ae(t1e,[["render",o1e]]),s1e={data:()=>({}),props:{me:Object,isLast:Boolean},emits:["delete"],components:{FishCurveNormal:$me,FishCurveLognormal:a1e,FishCurveUniform:Wme,FishCurveTriangular:Yme,FishCurveGamma:Qme},methods:{formatFixed:dt,morph(e){const t=this.me.kind,r=e.target.value;let n=0,i=0;switch(t){case"Normal":n=this.me.mean,i=this.me.sigma;break;case"Triangular":n=this.me.center,i=this.me.width/2;break;case"Uniform":n=this.me.center,i=this.me.width/2;break;case"Gamma":n=this.me.at,i=Math.sqrt(this.me.at*this.me.theta);break;case"Lognormal":n=this.me.emu;const o=this.me.sigma*this.me.sigma;i=Math.sqrt((Math.exp(o)-1)*Math.exp(2*Math.log(this.me.emu)+o));break;default:throw Error(`unknown curve kind ${t}`)}switch(console.log(`${t} -> ${r} (${n}, ${i})`),r){case"Normal":this.me.mean=n,this.me.sigma=i,this.me.mean=Math.round(this.me.mean*100)/100,this.me.sigma=Math.round(this.me.sigma*100)/100;break;case"Triangular":this.me.center=n,this.me.width=i*2,this.me.center=Math.round(this.me.center*100)/100,this.me.width=Math.round(this.me.width*100)/100;break;case"Uniform":this.me.center=n,this.me.width=i*2,this.me.center=Math.round(this.me.center*100)/100,this.me.width=Math.round(this.me.width*100)/100;break;case"Gamma":this.me.at=n,this.me.theta=i*i/n,this.me.alpha=Math.round(this.me.alpha*100)/100,this.me.theta=Math.round(this.me.theta*1e3)/1e3;break;case"Lognormal":this.me.emu=n,this.me.sigma=Math.sqrt(Math.log(1+i*i/n/n)),this.me.mean=Math.round(this.me.mean*100)/100,this.me.sigma=Math.round(this.me.sigma*100)/100;break;default:throw Error(`unknown curve kind ${r}`)}this.me.kind=r}},computed:{componentName(){return"FishCurve"+this.me.kind}}},l1e=["disabled","step"],u1e=["value"],c1e=_("option",null,"Normal",-1),f1e=_("option",null,"Triangular",-1),h1e=_("option",null,"Uniform",-1),d1e=_("option",null,"Gamma",-1),p1e=_("option",null,"Lognormal",-1),g1e=[c1e,f1e,h1e,d1e,p1e];function v1e(e,t,r,n,i,o){return I(),O(W,null,[_("td",null,[at(_("input",{type:"range","onUpdate:modelValue":t[0]||(t[0]=a=>r.me.amount=a),disabled:r.isLast,class:"vmid",min:0,max:1,step:.01},null,8,l1e),[[Gt,r.me.amount]]),F(" "+M(o.formatFixed(r.me.amount*100,1))+"% ",1)]),_("td",null,[_("select",{value:r.me.kind,onChange:t[1]||(t[1]=a=>o.morph(a))},g1e,40,u1e)]),(I(),qr(WF(o.componentName),{me:r.me,"onUpdate:me":t[2]||(t[2]=a=>r.me=a)},null,40,["me"])),_("td",null,[_("button",{onClick:t[3]||(t[3]=a=>e.$emit("delete"))},"delete")])],64)}const m1e=ae(s1e,[["render",v1e]]);Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);const y1e={data:()=>({curves:[],presets:[[{amount:1,kind:"Lognormal",emu:1.01,sigma:.41}],[{amount:1,kind:"Gamma",at:1.05,theta:.163}],[{amount:.81,kind:"Normal",mean:1.09,sigma:.38},{amount:1,kind:"Normal",mean:.7,sigma:.17}],[{amount:.49,kind:"Normal",mean:.74,sigma:.21},{amount:.75,kind:"Normal",mean:1.19,sigma:.21},{amount:1,kind:"Normal",mean:1.62,sigma:.21}],[{amount:.5,kind:"Triangular",center:1,width:.76},{amount:.32,kind:"Triangular",center:.69,width:.34},{amount:1,kind:"Normal",mean:1.25,sigma:.42}],[{amount:.24,kind:"Normal",mean:.62,sigma:.16},{amount:.36,kind:"Normal",mean:.87,sigma:.16},{amount:.49,kind:"Normal",mean:1.18,sigma:.18},{amount:1,kind:"Normal",mean:1.47,sigma:.28}]],forceMSE:!1,bestPval:0}),mounted(){this.loadPreset(0)},props:{stats:Object,histogram:Object,avg_size:Number,mode_relative:Boolean},components:{VChart:nu,FishCurve:m1e},methods:{isGoodVal:Gi,formatFixed:dt,formatKMG:Ob,makeBinomialArray:Y2,makeNormalArray:qge,makeLognormalArray:Xge,makeUniformArray:Kge,makeGammaArray:Yge,makeTriangularArray:Zge,sumDistributions:UY,loss:K2,removeCurve(e){this.curves.splice(e,1),this.curves[this.curves.length-1].amount=1},addCurve(){this.curves[this.curves.length-1].amount/=2,this.curves.push({amount:1,kind:"Normal",mean:1,sigma:.1})},loadPreset(e){const t=this.presets[e];this.curves=[];for(const r of t)this.curves.push({...r})},makeModel(){const e={bells:[],bell:[]};let t=-1,r=this.stats.len;for(const n of this.curves){let i=null;switch(t+=3,n.kind){case"Normal":n.amount=="rest"&&(n.amount=r),i=this.makeNormalArray(n.mean*this.avg_size,n.amount*r,this.stats.max,n.sigma*this.avg_size),r-=n.amount*r;break;case"Triangular":i=this.makeTriangularArray(n.center*this.avg_size,n.amount*r,this.stats.max,n.width*this.avg_size),r-=n.amount*r;break;case"Uniform":i=this.makeUniformArray(n.center*this.avg_size,n.amount*r,this.stats.max,n.width*this.avg_size),r-=n.amount*r;break;case"Gamma":i=this.makeGammaArray(n.at/n.theta,n.amount*r,this.stats.max,n.theta*this.avg_size),r-=n.amount*r;break;case"Lognormal":i=this.makeLognormalArray(Math.log(n.emu*this.avg_size),n.amount*r,this.stats.max,n.sigma),r-=n.amount*r;break;default:throw Error(`unknown curve kind ${n.kind}`)}e.bells.push(i),e.bell=this.sumDistributions(e.bell,i)}return e.loss=this.loss(e.bell,this.histogram.map,t),e||console.log("makeModel failed",npU,npL,stdDev),e}},computed:{modelC(){const e=this.makeModel();return console.log("model",e),e},makeHistogramOption(){const e={legend:{},title:{text:`MSE=${dt(this.modelC.loss.mse,2)}
 p-val=${dt(this.modelC.loss.pval,4)}`,textStyle:{fontWeight:"normal",fontSize:11},right:"3%",top:"10%"},tooltip:{trigger:"axis",extraCssText:"background: var(--color-background);border-color: gray;color: var(--color-text);",valueFormatter:t=>dt(t,1),formatter:function(t){const r=t[0].axisValue;let n=`<div style="text-align:center;">[ ${r}...${r+1} )</div>`;return t.forEach(i=>{const o=i.seriesName=="observed"?i.data[1]:dt(i.data[1],1);n+=`<div>
                 <div style="display:inline-block;">${i.marker} ${i.seriesName}</div>
                 <div style="float:right;margin-left:10px;font-weight:600">${o}</div>
-              </div>`}),n}},dataset:[{source:this.histogram.arr},{source:this.modelC.bell}],xAxis:{min:this.stats.min==0?-1:null,max:this.mode_relative?this.stats.max<5?this.stats.max+1:null:this.avg_size*3},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:30,right:10,bottom:20},series:[{name:"observed",type:"bar",encode:{x:0,y:1},tooltip:{trigger:"axis",valueFormatter:t=>dt(t,0)}},{name:"curve \u03A3",type:"line",datasetIndex:1,encode:{x:0,y:1},showSymbol:!1,lineStyle:{opacity:1}}]};for(const[t,r]of this.modelC.bells.entries())e.dataset.push({source:r}),e.series.push({name:`curve ${t}`,type:"line",datasetIndex:2+t,encode:{x:0,y:1},showSymbol:!1,lineStyle:{opacity:1}});return e}}},y1e=e=>(Ze("data-v-95ac9cb8"),e=e(),qe(),e),_1e=["onClick"],b1e={key:0,id:"chartHisto",style:{float:"left"}},w1e=y1e(()=>_("div",{style:{clear:"both"}},null,-1));function S1e(e,t,r,n,i,o){const a=zt("FishCurve"),s=zt("v-chart");return I(),O(W,null,[_("div",null,[(I(!0),O(W,null,Pt(e.presets,(l,u)=>(I(),O("button",{onClick:c=>o.loadPreset(u)},"preset"+M(u),9,_1e))),256)),_("table",null,[(I(!0),O(W,null,Pt(e.curves,(l,u)=>(I(),O("tr",null,[_("td",null,M(u),1),(I(),qr(a,{key:u,isLast:u==e.curves.length-1,me:e.curves[u],"onUpdate:me":c=>e.curves[u]=c,onDelete:c=>o.removeCurve(u)},null,8,["isLast","me","onUpdate:me","onDelete"]))]))),256))]),_("button",{onClick:t[0]||(t[0]=(...l)=>o.addCurve&&o.addCurve(...l))},"add curve")]),o.modelC.bell?(I(),O("div",b1e,[ft(s,{option:o.makeHistogramOption,"update-options":{notMerge:!0},autoresize:""},null,8,["option"])])):nt("",!0),w1e],64)}const T1e=ae(m1e,[["render",S1e],["__scopeId","data-v-95ac9cb8"]]);Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);const k1e={setup(){},components:{VChart:nu,FishModel:T1e},provide(){return{[oj]:yr(()=>this.darkMode?"dark":"default")}},data(){const e=matchMedia("(prefers-color-scheme: dark)");return{mode_relative:!0,relative_base:100,alldata:{},selectedFish:"ALL",selectedLuck:68.3,generalSigmas:4,fish_info:{},hide_buckets:{},darkModeQuery:e,darkMode:e.matches}},created(){this.fetchObservations()},mounted(){this.darkModeQuery.addEventListener("change",()=>{this.darkMode=this.darkModeQuery.matches})},watch:{},computed:{currentDataset(){const e=[];if(this.selectedFish in this.alldata){const t=this.get_fish_info(this.selectedFish);for(const r of this.alldata[this.selectedFish])this.mode_relative?e.push(this.relative_base*r/t.avg_size):e.push(r)}return e},weightedDataset(){let e={};const t=this.currentDataset,r=t.length;let n=[];for(let i=0;i<r;i++){const o=gt.binomial.cdf(i,r,1-this.selectedLuck/100);n.push(o)}return e={len:r,luckyLen:r*this.selectedLuck/100,sorted:[...t].sort((i,o)=>i-o),weights:n},e.grouped=e.sorted.reduce((i,o)=>{const a=Math.floor(o);return i[a]||(i[a]=[]),i[a].push(o),i},{}),e},stats(){const e=this.currentDataset;let t=e.length;const r=this.weightedDataset;for(let p of r.weights)p>this.stats.generalConfidence/100,p>1-this.stats.generalConfidence/100;let n=[],i=[],o=100,a=0;o=Math.min(o,this.selectedLuck),a=Math.max(a,this.selectedLuck);let{len:s,luckyLen:l,sorted:u,weights:c,grouped:f}=r;n.push(...u),i.push(...c);const h={1.5:86.6385597,2:95.4499736,2.5:98.7580669,3:99.7300203,3.5:99.9534741841929,4:99.9936657516334},d={generalSigmas:this.generalSigmas,generalConfidence:h[this.generalSigmas],lenRaw:t,dataRaw:e,dataFlatSorted:n,weightsFlat:i,len:n.length,min:gt.min(n),max:gt.max(n),range:gt.range(n),sum:gt.sum(n),mean:gt.mean(n),meanErr:0,meanLo:0,meanHi:0,std:gt.stdev(n,!0),bell:[],histo:[]};return d.meanErr=Math.sqrt(d.mean/d.max*(1-d.mean/d.max)*d.max/d.len),d.meanLo=d.mean-this.generalSigmas*d.meanErr,d.meanHi=d.mean+this.generalSigmas*d.meanErr,console.log("stats",d),d},histogram(){const e={arr:[],map:{}};if(this.stats.len>0){const r=this.stats.dataFlatSorted[this.stats.len-1],n=Math.ceil(r/1);console.log("binCount",n);const i=Array(n).fill(0);for(const o of this.stats.dataFlatSorted){const a=Math.floor(o/1);i[a]++}for(let o=0;o<n;o++){const a=o*1;e.arr.push([a,i[o]]),e.map[a]=i[o]}}return this.stats.range>0||(e.arr=[[this.stats.min,this.stats.len]],e.map[this.stats.min]=this.stats.len),console.log("histogram",e),e}},methods:{formatFixed:dt,isNumber:YQ,async fetchObservations(){const e=Date.now();if(this.alldata=await(await fetch("data/manual/catches_by_fish.json")).json(),this.fish_info=await(await fetch("data/encyclopedia.json")).json(),this.mode_relative){console.log("filling group ALL");const o=[];for(const[a,s]of Object.entries(this.alldata)){const l=this.get_fish_info(a),u=(l.baseSize+l.varySize)/2;for(const c of s)o.push(this.relative_base*c/u)}this.alldata.ALL=o,this.fish_info.ALL={baseSize:"x",varySize:"x",avg_size:this.relative_base}}const t={},r={};for(const[o,a]of Object.entries(this.alldata)){const s=this.get_fish_info(o),l=`${s.baseSize}_${s.varySize}`,u=a.length;l in t||(t[l]={fishes:[],totalSamples:0}),t[l].fishes.push(o),t[l].totalSamples+=u}console.log("bs_group_sizes",t);for(const[o,a]of Object.entries(this.alldata)){const l=`${this.get_fish_info(o).avg_size}`,u=a.length;l in r||(r[l]={fishes:[],totalSamples:0}),r[l].fishes.push(o),r[l].totalSamples+=u}console.log("avg_group_sizes",r);const n={},i={};for(const[o,a]of Object.entries(this.alldata)){const s=this.get_fish_info(o),l=`${s.baseSize}_${s.varySize}`,u=t[l];if(u.fishes.length>1&&u.totalSamples>1500){const h=u.fishes.join("+");h in n||(n[h]={sizes:[],info:{baseSize:s.baseSize,varySize:s.varySize}});for(const d of a)n[h].sizes.push(d)}const c=`${s.avg_size}`,f=r[c];if(f.fishes.length>1&&f.totalSamples>1500){const h=f.fishes.join("+");if(h in n)continue;h in i||(i[h]={sizes:[],info:{baseSize:"x",varySize:"x",avg_size:s.avg_size}});for(const d of a)i[h].sizes.push(d)}}for(const[o,a]of Object.entries(n)){const s=`by BS/FVS (${o})`;this.alldata[s]=a.sizes,this.fish_info[s]=a.info}for(const[o,a]of Object.entries(i)){const s=`by AVG (${o})`;this.alldata[s]=a.sizes,this.fish_info[s]=a.info}console.log("fetchObservations took",Date.now()-e,"ms")},activate(e){this.selectedFish=e},get_fish_info(e){const t=e in this.fish_info?this.fish_info[e]:{baseSize:1,varySize:1};return"avg_size"in t||(t.avg_size=(t.baseSize+t.varySize)/2),t}}},jY=e=>(Ze("data-v-e49e7ec7"),e=e(),qe(),e),P1e={id:"menu"},E1e={style:{display:"none"}},C1e=F("relative sizes (scaled to Avg= "),A1e=F(" ) "),x1e=jY(()=>_("br",null,null,-1)),M1e=jY(()=>_("tr",null,[_("th",null,"ik"),_("th",null,"BS"),_("th",null,"FVS"),_("th",null,"Avg"),_("th",null,"data")],-1)),I1e={key:0},L1e=["title"],O1e=["onClick"],R1e={id:"content"};function D1e(e,t,r,n,i,o){const a=zt("FishModel");return I(),O("main",null,[_("div",P1e,[_("div",E1e,M(i.selectedFish),1),at(_("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=s=>i.mode_relative=s)},null,512),[[Ge,i.mode_relative]]),C1e,at(_("input",{type:"number","onUpdate:modelValue":t[1]||(t[1]=s=>i.relative_base=s),step:"10",style:{width:"3.5em"}},null,512),[[Gt,i.relative_base]]),A1e,x1e,_("table",null,[M1e,(I(!0),O(W,null,Pt(i.alldata,(s,l)=>(I(),O(W,null,[s.length>1e3?(I(),O("tr",I1e,[_("td",null,[l.startsWith("by")?(I(),O("abbr",{key:0,class:"tooltip",title:l},"group",8,L1e)):(I(),O(W,{key:1},[F(M(l),1)],64))]),_("td",null,M(o.get_fish_info(l).baseSize),1),_("td",null,M(o.get_fish_info(l).varySize),1),_("td",null,M(o.get_fish_info(l).avg_size),1),_("td",null,[_("button",{class:Ur({pressed:l===i.selectedFish}),onClick:u=>o.activate(l)},M(s.length),11,O1e)])])):nt("",!0)],64))),256))])]),_("div",R1e,[_("details",null,[_("summary",null,"Dataset: size N = "+M(o.stats.len)+", mean M = "+M(o.formatFixed(o.stats.mean,3))+"\xB1"+M(o.formatFixed(1.96*o.stats.meanErr,3))+", min = "+M(o.formatFixed(o.stats.min,3))+", max = "+M(o.formatFixed(o.stats.max,3)),1),_("div",null,[_("table",null,[(I(!0),O(W,null,Pt(o.weightedDataset.grouped,(s,l)=>(I(),O("tr",null,[(I(!0),O(W,null,Pt(s,u=>(I(),O("td",null,M(o.formatFixed(u,3)),1))),256))]))),256))])])]),_("div",null,[ft(a,{stats:o.stats,histogram:o.histogram,avg_size:i.mode_relative?i.relative_base:i.fish_info[i.selectedFish].avg_size},null,8,["stats","histogram","avg_size"])])])])}const N1e=ae(k1e,[["render",D1e],["__scopeId","data-v-e49e7ec7"]]);const F1e={setup(){return{gameStore:At()}},components:{},data(){return{all_origins:[],all_destinations:[],rtp_pair_count:10,rtp_results:[],real_pair_count:10,real_steps:10,real_results:[],retry_until_red:!1,green_retries:0,max_ms:5e3,mapNodes:new Set,deck:null,tileLayer:null,iconData:[],iconPositions:{},iconLayer:null,lineData:[],lineLayer:null,initialViewState:{target:[0,0],zoom:-8,minZoom:-12,maxZoom:-5},hoverInfo:null}},async mounted(){function e(r){const n=i=>{r()?i():setTimeout(o=>n(i),100)};return new Promise(n)}console.log("mounted, sleeping"),await e(r=>this.gameStore.ready==!0),console.log("resuming");const t=At();this.all_origins=t.townsWithLodging,this.all_destinations=[];for(const r of Object.keys(t.plantzones))this.all_destinations.push(Number(r));this.iconData=await(await fetch("data/deck_icons.json")).json(),this.iconPositions=await(await fetch("data/deck_icon_positions.json")).json(),this.lineData=await(await fetch("data/deck_links.json")).json(),this.deck=this.initializeDeck(),this.updateDeck()},computed:{iconsCalc(){const e=[];if(this.hiddenNodesCount=0,!this.iconData)return e;const t=[];return this.iconData.forEach(([r,n])=>{if(r in this.gameStore.nodes){const i=this.mapNodes.has(r);i||(this.hiddenNodesCount+=1);const o=!1,a={key:r,kind:n,pos:this.iconPositions[r],taken:i,isHighlighted:o,thisCpCost:this.gameStore.ready?this.gameStore.nodes[r].CP:0};e.push({...a,hidden:!a.taken||o})}}),console.log("iconsCalc",this.hiddenNodesCount,"hidden"),{normal:e,highlighted:t}},linesCalc(){const e=[172,172,172,255],t=[255,179,0,255];let r=[];return this.lineData.forEach(([n,i])=>{let o=e;this.mapNodes.has(n)&&this.mapNodes.has(i)&&(o=t),r.push({start:this.iconPositions[n],end:this.iconPositions[i],color:o})}),r}},methods:{run_case(e){const t=At(),r=[];for(const a of e.pairs)r.push({type:"worker",source:a[0],target:a[1]});const n=t.routeOld([],r),i=t.routeWasm([],r);e.str="";for(const a of e.pairs)e.str+=`${a[1]},${a[0]} `;return{testcase:e,resultOld:n,resultWasm:i,red:i.autotakenNodesCP>n.autotakenNodesCP}},run_rtp(){const e=Date.now();for(;;){const t=new Set,r={label:`rtp${this.rtp_results.length}`,pairs:[]};for(let i=0;i<this.rtp_pair_count;i++){const o=this.all_origins[Math.floor(Math.random()*this.all_origins.length)],a=this.all_destinations.filter(l=>!t.has(l)),s=a[Math.floor(Math.random()*a.length)];t.add(s),r.pairs.push([o,s])}const n=this.run_case(r);if(this.retry_until_red&&!n.red&&this.green_retries++,!this.retry_until_red||n.red||Date.now()-e>this.max_ms){this.rtp_results.push(n);break}}},run_real(){const e=At(),t=Date.now();for(;;){const r=new Set,n={label:`real${this.real_results.length}`,pairs:[]};for(let o=0;o<this.real_pair_count;o++){const a=this.all_origins.filter(u=>!r.has(u));a.length==0&&(r=new Set,n.pairs=[],o=-1);const s=a[Math.floor(Math.random()*a.length)];let l=s;for(let u=0;u<this.real_steps;u++){if(!(l in e.links))throw Error(`${l} has no links?!`);const f=e.links[l].filter(h=>!r.has(h));if(f.length==0)break;{const h=Math.floor(Math.random()*f.length);l=f[h],l==s&&u--}}r.add(l),l==s?o--:n.pairs.push([s,l])}const i=this.run_case(n);if(this.retry_until_red&&!i.red&&this.green_retries++,!this.retry_until_red||i.red||Date.now()-t>this.max_ms){this.real_results.push(i);break}}},makeIconsLayer(){return new Es({data:this.iconsCalc.normal,onHover:e=>this.hoverInfo=e,getPosition:e=>e.pos,getColor:e=>[66,66,66,e.hidden?0:255],getIcon:function(e){return{url:"data/icons/node/"+(e.isHighlighted?"highlighted/":"")+(e.taken?"":"gray/")+`${e.kind}.png`,width:256,height:256,anchorX:128,anchorY:128}},transitions:{getColor:400},modelMatrix:[1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,1],getSize:e=>32*(e.isHighlighted?1.66:1),autoHighlight:!0,pickable:!0})},makeLineLayer(){return new P2({data:this.linesCalc,getSourcePosition:e=>e.start,getTargetPosition:e=>e.end,getColor:e=>e.color,modelMatrix:[1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,1]})},initializeDeck(){return console.log("initializeDeck"),this.tileLayer=new w0({data:"https://shrddr.github.io/maptiles/{z}/{x}_{y}.webp",minZoom:0,maxZoom:7,tileSize:256*12800,zoomOffset:14,extent:[-67*2*12800,-71*2*12800,58*2*12800,35*2*12800],renderSubLayers:e=>{const{bbox:{left:t,bottom:r,right:n,top:i}}=e.tile;return new _0(e,{data:null,image:e.data,bounds:[t,r,n,i]})}}),this.lineLayer=this.makeLineLayer(),this.iconLayer=this.makeIconsLayer(),new y0({canvas:"deck-canvas",mapbox:!1,initialViewState:this.initialViewState,layers:[this.tileLayer,this.lineLayer,this.iconLayer],controller:{doubleClickZoom:!1},views:[new m0({controller:!0})]})},updateDeck(){!this.deck||(console.log("updateDeck"),this.lineLayer=this.makeLineLayer(),this.iconLayer=this.makeIconsLayer(),this.deck.setProps({layers:[this.tileLayer,this.lineLayer,this.iconLayer],initialViewState:this.initialViewState}))}}},cu=e=>(Ze("data-v-f6fae1b6"),e=e(),qe(),e),$1e={id:"content"},B1e=F(" retry until first fail up to "),z1e=F("ms "),V1e={class:"column-container"},U1e={class:"column"},W1e=cu(()=>_("h3",null,[F(" Random town-plantzone pairs "),_("abbr",{class:"tooltip",title:"completely random, including on the other side of the map"},"\u2139")],-1)),j1e=F(" Pairs "),G1e=cu(()=>_("br",null,null,-1)),H1e=cu(()=>_("thead",null,[_("tr",null,[_("td",null,"old"),_("td",null,"wasm"),_("td",null,"\u2265"),_("td",null,"details")])],-1)),X1e=["onClick"],Y1e=["onClick"],K1e=cu(()=>_("br",null,null,-1)),Z1e={class:"column"},q1e=cu(()=>_("h3",null,[F(" Realistic "),_("abbr",{class:"tooltip",title:"plantzones tend to be near hometowns (~sqrt of steps)"},"\u2139")],-1)),J1e=F(" Pairs "),Q1e=cu(()=>_("br",null,null,-1)),tye=F(" Steps "),eye=cu(()=>_("br",null,null,-1)),rye=cu(()=>_("thead",null,[_("tr",null,[_("td",null,"old"),_("td",null,"wasm"),_("td",null,"\u2265"),_("td",null,"details")])],-1)),nye=["onClick"],iye=["onClick"],oye={id:"map"},aye={id:"deck-canvas",ref:"canvas"};function sye(e,t,r,n,i,o){return I(),O("main",null,[_("div",$1e,[at(_("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=a=>i.retry_until_red=a)},null,512),[[Ge,i.retry_until_red]]),B1e,at(_("input",{type:"number",class:"w5em","onUpdate:modelValue":t[1]||(t[1]=a=>i.max_ms=a)},null,512),[[Gt,i.max_ms,void 0,{number:!0}]]),z1e,i.retry_until_red?(I(),O(W,{key:0},[F(" ("+M(i.green_retries)+"\u2714\uFE0F ignored) ",1)],64)):nt("",!0),_("div",V1e,[_("div",U1e,[W1e,j1e,at(_("input",{type:"range","onUpdate:modelValue":t[2]||(t[2]=a=>i.rtp_pair_count=a),min:"1",max:"80"},null,512),[[Gt,i.rtp_pair_count,void 0,{number:!0}]]),F(" "+M(i.rtp_pair_count),1),G1e,_("button",{onClick:t[3]||(t[3]=(...a)=>o.run_rtp&&o.run_rtp(...a))},"run"),_("table",null,[H1e,_("tbody",null,[(I(!0),O(W,null,Pt(i.rtp_results,a=>(I(),O("tr",null,[_("td",null,[_("button",{onClick:s=>{i.mapNodes=a.resultOld.autotakenNodes,o.updateDeck()}},M(a.resultOld.autotakenNodesCP),9,X1e)]),_("td",null,[_("button",{onClick:s=>{i.mapNodes=new Set(a.resultWasm.autotakenNodes),o.updateDeck()}},M(a.resultWasm.autotakenNodesCP),9,Y1e)]),_("td",null,M(a.red?"\u274C":"\u2714\uFE0F"),1),_("td",null,[_("details",null,[_("summary",null,M(a.testcase.label),1),_("pre",null,M(a.testcase.str),1),F(" old "+M([...a.resultOld.autotakenNodes]),1),K1e,F(" wasm "+M(a.resultWasm.autotakenNodes),1)])])]))),256))])])]),_("div",Z1e,[q1e,J1e,at(_("input",{type:"range","onUpdate:modelValue":t[4]||(t[4]=a=>i.real_pair_count=a),min:"1",max:"80"},null,512),[[Gt,i.real_pair_count,void 0,{number:!0}]]),F(" "+M(i.real_pair_count),1),Q1e,tye,at(_("input",{type:"range","onUpdate:modelValue":t[5]||(t[5]=a=>i.real_steps=a),min:"1",max:"80"},null,512),[[Gt,i.real_steps,void 0,{number:!0}]]),F(" "+M(i.real_steps),1),eye,_("button",{onClick:t[6]||(t[6]=(...a)=>o.run_real&&o.run_real(...a))},"run"),_("table",null,[rye,_("tbody",null,[(I(!0),O(W,null,Pt(i.real_results,a=>(I(),O("tr",null,[_("td",null,[_("button",{onClick:s=>{i.mapNodes=a.resultOld.autotakenNodes,o.updateDeck()}},M(a.resultOld.autotakenNodesCP),9,nye)]),_("td",null,[_("button",{onClick:s=>{i.mapNodes=new Set(a.resultWasm.autotakenNodes),o.updateDeck()}},M(a.resultWasm.autotakenNodesCP),9,iye)]),_("td",null,M(a.red?"\u274C":"\u2714\uFE0F"),1),_("td",null,[_("details",null,[_("summary",null,M(a.testcase.label),1),_("pre",null,M(a.testcase.str),1),F(" old "+M([...a.resultOld.autotakenNodes])+" wasm "+M(a.resultWasm.autotakenNodes),1)])])]))),256))])])])])]),_("div",oye,[_("canvas",aye,null,512),i.hoverInfo&&i.hoverInfo.object?(I(),O("div",{key:0,id:"tooltip",style:wa({left:i.hoverInfo.x+"px",top:i.hoverInfo.y+"px"})},M(i.hoverInfo.object.key)+" "+M(n.gameStore.uloc.node[i.hoverInfo.object.key])+" "+M(i.hoverInfo.object.thisCpCost)+"CP ",5)):nt("",!0)])])}const lye=ae(F1e,[["render",sye],["__scopeId","data-v-f6fae1b6"]]);const uye={setup(){return{gameStore:At()}},components:{},data(){return{deck:null,tileLayer:null,rgLayer:null,rLayer:null,resourceLayer:null,originLayer:null,initialViewState:{target:[0,0],zoom:-12,minZoom:-12,maxZoom:-5},hoverx:0,hovery:0,selectedZone:0,highlightedIcon:0,currentLayer:"RG"}},computed:{},mounted(){this.deck=this.initializeDeck()},watch:{highlightedIcon(e){this.resourceLayer=this.makeResourceLayer(),this.originLayer=this.makeOriginLayer(),this.deck.setProps({layers:[this.tileLayer,this.rgLayer,this.rLayer,this.resourceLayer,this.originLayer]})},currentLayer(e){this.rgLayer=this.makeRgLayer(),this.rLayer=this.makeRLayer(),this.deck.setProps({layers:[this.tileLayer,this.rgLayer,this.rLayer,this.resourceLayer,this.originLayer]})}},methods:{makeResourceLayer(){return new Es({id:"ResourceLayer",data:"data/deck_rg_graphs.json",getPosition:e=>[e.graphx,e.graphz],getColor:e=>[66,66,66,255],getIcon:function(e){return{url:"data/icons/target_percent.png",width:128,height:128,anchorX:64,anchorY:64}},modelMatrix:[1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,1],getSize:e=>e.k==this.highlightedIcon?50:0,visible:this.currentLayer=="RG",updateTriggers:{getSize:this.highlightedIcon}})},makeOriginLayer(){return new Es({id:"OriginLayer",data:"data/deck_r_origins.json",getPosition:e=>[e.x,e.z],getColor:e=>[66,66,66,255],getIcon:function(e){return{url:"data/icons/target_orig.png",width:128,height:128,anchorX:64,anchorY:64}},modelMatrix:[1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,1],getSize:e=>e.r==this.highlightedIcon?50:0,visible:this.currentLayer=="R",updateTriggers:{getSize:this.highlightedIcon}})},makeRgLayer(){return new Nv({id:"RegionGroupLayer",data:"data/rg_latest_1_5.geojson",stroked:!1,getLineWidth:50,lineWidthMinPixels:1,getLineColor:[255,255,255],getFillColor:e=>e.properties.c,pickable:!0,autoHighlight:!0,coordinateSystem:Pe.CARTESIAN,modelMatrix:[301.1765,0,0,0,0,301.1765,0,0,0,0,1,0,-2048e3,-2048e3,0,1],opacity:.1,visible:this.currentLayer=="RG",onHover:({object:e})=>{e&&e.properties&&(this.highlightedIcon=e.properties.rg)}})},makeRLayer(){return new Nv({id:"RegionLayer",data:"data/r_latest_1_5.geojson",stroked:!1,getLineWidth:50,lineWidthMinPixels:1,getLineColor:[255,255,255],getFillColor:e=>e.properties.c,pickable:!0,autoHighlight:!0,coordinateSystem:Pe.CARTESIAN,modelMatrix:[301.1765,0,0,0,0,301.1765,0,0,0,0,1,0,-2048e3,-2048e3,0,1],opacity:.1,visible:this.currentLayer=="R",onHover:({object:e})=>{e&&e.properties&&(this.highlightedIcon=e.properties.r)}})},initializeDeck(){return this.tileLayer=new w0({id:"TileLayer",data:"https://shrddr.github.io/maptiles/{z}/{x}_{y}.webp",minZoom:0,maxZoom:7,tileSize:256*12800,zoomOffset:14,extent:[-67*2*12800,-71*2*12800,58*2*12800,35*2*12800],renderSubLayers:t=>{const{bbox:{left:r,bottom:n,right:i,top:o}}=t.tile;return new _0(t,{data:null,image:t.data,bounds:[r,n,i,o]})}}),this.resourceLayer=this.makeResourceLayer(),this.originLayer=this.makeOriginLayer(),this.rgLayer=this.makeRgLayer(),this.rLayer=this.makeRLayer(),new y0({canvas:"deck-canvas",mapbox:!1,initialViewState:this.initialViewState,layers:[this.tileLayer,this.rgLayer,this.rLayer,this.resourceLayer,this.originLayer],controller:{doubleClickZoom:!1},getTooltip:({object:t})=>{if(t&&t.properties){if(t.properties.r)return`R${t.properties.r}`;if(t.properties.rg)return`RG${t.properties.rg}`}},views:[new m0({controller:!0})],onHover:(t,r)=>{t.coordinate&&(this.hoverx=Math.round(t.coordinate[0]),this.hovery=Math.round(t.coordinate[1]))}})}}},GY=e=>(Ze("data-v-ef43d3dd"),e=e(),qe(),e),cye={id:"canvas-limiter"},fye={id:"deck-canvas",ref:"canvas"},hye={id:"coords"},dye=GY(()=>_("label",{for:"sr"},"Regions",-1)),pye=GY(()=>_("label",{for:"srg"},"RegionGroups",-1));function gye(e,t,r,n,i,o){return I(),O("main",null,[_("div",cye,[_("canvas",fye,null,512),_("div",hye,[F(" x: "+M(i.hoverx)+" y: "+M(-i.hovery)+" ",1),_("div",null,[at(_("input",{type:"radio",id:"sr",value:"R","onUpdate:modelValue":t[0]||(t[0]=a=>i.currentLayer=a)},null,512),[[Pa,i.currentLayer]]),dye,at(_("input",{type:"radio",id:"srg",value:"RG","onUpdate:modelValue":t[1]||(t[1]=a=>i.currentLayer=a)},null,512),[[Pa,i.currentLayer]]),pye])])])])}const vye=ae(uye,[["render",gye],["__scopeId","data-v-ef43d3dd"]]),mye=jQ({history:sQ("/workerman/"),routes:[{path:"/",name:"home",component:dOt},{path:"/plantzones",component:lRt},{path:"/resources",component:ZRt},{path:"/settings",component:H9t},{path:"/about",component:()=>btt(()=>import("./AboutView.7a4303d7.js"),[])},{path:"/othertowns",component:J9t},{path:"/workshops",component:hNt},{path:"/housecraft",component:LNt},{path:"/droprates",component:Lme},{path:"/routertests",component:lye},{path:"/regionmap",component:vye},{path:"/fishsize",component:N1e},{path:"/lodging",component:bRt}]});const K4=O$(mtt),yye=zJ();K4.use(yye);K4.use(mye);K4.mount("#app");export{W as F,ae as _,_ as a,F as b,O as c,zt as d,qr as e,ft as f,Yv as g,qe as h,I as o,Ze as p,jF as r,M as t,At as u,Fe as w};
+              </div>`}),n}},dataset:[{source:this.histogram.arr},{source:this.modelC.bell}],xAxis:{min:this.stats.min==0?-1:null,max:this.mode_relative?this.stats.max<5?this.stats.max+1:null:this.avg_size*3},yAxis:{axisLine:{onZero:!1},axisLabel:{formatter:t=>this.formatKMG(t)}},grid:{left:35,top:30,right:10,bottom:20},series:[{name:"observed",type:"bar",encode:{x:0,y:1},tooltip:{trigger:"axis",valueFormatter:t=>dt(t,0)}},{name:"curve \u03A3",type:"line",datasetIndex:1,encode:{x:0,y:1},showSymbol:!1,lineStyle:{opacity:1}}]};for(const[t,r]of this.modelC.bells.entries())e.dataset.push({source:r}),e.series.push({name:`curve ${t}`,type:"line",datasetIndex:2+t,encode:{x:0,y:1},showSymbol:!1,lineStyle:{opacity:1}});return e}}},_1e=e=>(Ze("data-v-95ac9cb8"),e=e(),qe(),e),b1e=["onClick"],w1e={key:0,id:"chartHisto",style:{float:"left"}},S1e=_1e(()=>_("div",{style:{clear:"both"}},null,-1));function T1e(e,t,r,n,i,o){const a=zt("FishCurve"),s=zt("v-chart");return I(),O(W,null,[_("div",null,[(I(!0),O(W,null,Pt(e.presets,(l,u)=>(I(),O("button",{onClick:c=>o.loadPreset(u)},"preset"+M(u),9,b1e))),256)),_("table",null,[(I(!0),O(W,null,Pt(e.curves,(l,u)=>(I(),O("tr",null,[_("td",null,M(u),1),(I(),qr(a,{key:u,isLast:u==e.curves.length-1,me:e.curves[u],"onUpdate:me":c=>e.curves[u]=c,onDelete:c=>o.removeCurve(u)},null,8,["isLast","me","onUpdate:me","onDelete"]))]))),256))]),_("button",{onClick:t[0]||(t[0]=(...l)=>o.addCurve&&o.addCurve(...l))},"add curve")]),o.modelC.bell?(I(),O("div",w1e,[ft(s,{option:o.makeHistogramOption,"update-options":{notMerge:!0},autoresize:""},null,8,["option"])])):nt("",!0),S1e],64)}const k1e=ae(y1e,[["render",T1e],["__scopeId","data-v-95ac9cb8"]]);Qr([Ql,dd,Zc,qc,eu,tu,ru,Jc,vd,gd,pd,Qc]);const P1e={setup(){},components:{VChart:nu,FishModel:k1e},provide(){return{[oj]:yr(()=>this.darkMode?"dark":"default")}},data(){const e=matchMedia("(prefers-color-scheme: dark)");return{mode_relative:!0,relative_base:100,alldata:{},selectedFish:"ALL",selectedLuck:68.3,generalSigmas:4,fish_info:{},hide_buckets:{},darkModeQuery:e,darkMode:e.matches}},created(){this.fetchObservations()},mounted(){this.darkModeQuery.addEventListener("change",()=>{this.darkMode=this.darkModeQuery.matches})},watch:{},computed:{currentDataset(){const e=[];if(this.selectedFish in this.alldata){const t=this.get_fish_info(this.selectedFish);for(const r of this.alldata[this.selectedFish])this.mode_relative?e.push(this.relative_base*r/t.avg_size):e.push(r)}return e},weightedDataset(){let e={};const t=this.currentDataset,r=t.length;let n=[];for(let i=0;i<r;i++){const o=gt.binomial.cdf(i,r,1-this.selectedLuck/100);n.push(o)}return e={len:r,luckyLen:r*this.selectedLuck/100,sorted:[...t].sort((i,o)=>i-o),weights:n},e.grouped=e.sorted.reduce((i,o)=>{const a=Math.floor(o);return i[a]||(i[a]=[]),i[a].push(o),i},{}),e},stats(){const e=this.currentDataset;let t=e.length;const r=this.weightedDataset;for(let p of r.weights)p>this.stats.generalConfidence/100,p>1-this.stats.generalConfidence/100;let n=[],i=[],o=100,a=0;o=Math.min(o,this.selectedLuck),a=Math.max(a,this.selectedLuck);let{len:s,luckyLen:l,sorted:u,weights:c,grouped:f}=r;n.push(...u),i.push(...c);const h={1.5:86.6385597,2:95.4499736,2.5:98.7580669,3:99.7300203,3.5:99.9534741841929,4:99.9936657516334},d={generalSigmas:this.generalSigmas,generalConfidence:h[this.generalSigmas],lenRaw:t,dataRaw:e,dataFlatSorted:n,weightsFlat:i,len:n.length,min:gt.min(n),max:gt.max(n),range:gt.range(n),sum:gt.sum(n),mean:gt.mean(n),meanErr:0,meanLo:0,meanHi:0,std:gt.stdev(n,!0),bell:[],histo:[]};return d.meanErr=Math.sqrt(d.mean/d.max*(1-d.mean/d.max)*d.max/d.len),d.meanLo=d.mean-this.generalSigmas*d.meanErr,d.meanHi=d.mean+this.generalSigmas*d.meanErr,console.log("stats",d),d},histogram(){const e={arr:[],map:{}};if(this.stats.len>0){const r=this.stats.dataFlatSorted[this.stats.len-1],n=Math.ceil(r/1);console.log("binCount",n);const i=Array(n).fill(0);for(const o of this.stats.dataFlatSorted){const a=Math.floor(o/1);i[a]++}for(let o=0;o<n;o++){const a=o*1;e.arr.push([a,i[o]]),e.map[a]=i[o]}}return this.stats.range>0||(e.arr=[[this.stats.min,this.stats.len]],e.map[this.stats.min]=this.stats.len),console.log("histogram",e),e}},methods:{formatFixed:dt,isNumber:YQ,async fetchObservations(){const e=Date.now();if(this.alldata=await(await fetch("data/manual/catches_by_fish.json")).json(),this.fish_info=await(await fetch("data/encyclopedia.json")).json(),this.mode_relative){console.log("filling group ALL");const o=[];for(const[a,s]of Object.entries(this.alldata)){const l=this.get_fish_info(a),u=(l.baseSize+l.varySize)/2;for(const c of s)o.push(this.relative_base*c/u)}this.alldata.ALL=o,this.fish_info.ALL={baseSize:"x",varySize:"x",avg_size:this.relative_base}}const t={},r={};for(const[o,a]of Object.entries(this.alldata)){const s=this.get_fish_info(o),l=`${s.baseSize}_${s.varySize}`,u=a.length;l in t||(t[l]={fishes:[],totalSamples:0}),t[l].fishes.push(o),t[l].totalSamples+=u}console.log("bs_group_sizes",t);for(const[o,a]of Object.entries(this.alldata)){const l=`${this.get_fish_info(o).avg_size}`,u=a.length;l in r||(r[l]={fishes:[],totalSamples:0}),r[l].fishes.push(o),r[l].totalSamples+=u}console.log("avg_group_sizes",r);const n={},i={};for(const[o,a]of Object.entries(this.alldata)){const s=this.get_fish_info(o),l=`${s.baseSize}_${s.varySize}`,u=t[l];if(u.fishes.length>1&&u.totalSamples>1500){const h=u.fishes.join("+");h in n||(n[h]={sizes:[],info:{baseSize:s.baseSize,varySize:s.varySize}});for(const d of a)n[h].sizes.push(d)}const c=`${s.avg_size}`,f=r[c];if(f.fishes.length>1&&f.totalSamples>1500){const h=f.fishes.join("+");if(h in n)continue;h in i||(i[h]={sizes:[],info:{baseSize:"x",varySize:"x",avg_size:s.avg_size}});for(const d of a)i[h].sizes.push(d)}}for(const[o,a]of Object.entries(n)){const s=`by BS/FVS (${o})`;this.alldata[s]=a.sizes,this.fish_info[s]=a.info}for(const[o,a]of Object.entries(i)){const s=`by AVG (${o})`;this.alldata[s]=a.sizes,this.fish_info[s]=a.info}console.log("fetchObservations took",Date.now()-e,"ms")},activate(e){this.selectedFish=e},get_fish_info(e){const t=e in this.fish_info?this.fish_info[e]:{baseSize:1,varySize:1};return"avg_size"in t||(t.avg_size=(t.baseSize+t.varySize)/2),t}}},jY=e=>(Ze("data-v-e49e7ec7"),e=e(),qe(),e),E1e={id:"menu"},C1e={style:{display:"none"}},A1e=F("relative sizes (scaled to Avg= "),x1e=F(" ) "),M1e=jY(()=>_("br",null,null,-1)),I1e=jY(()=>_("tr",null,[_("th",null,"ik"),_("th",null,"BS"),_("th",null,"FVS"),_("th",null,"Avg"),_("th",null,"data")],-1)),L1e={key:0},O1e=["title"],R1e=["onClick"],D1e={id:"content"};function N1e(e,t,r,n,i,o){const a=zt("FishModel");return I(),O("main",null,[_("div",E1e,[_("div",C1e,M(i.selectedFish),1),at(_("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=s=>i.mode_relative=s)},null,512),[[Ge,i.mode_relative]]),A1e,at(_("input",{type:"number","onUpdate:modelValue":t[1]||(t[1]=s=>i.relative_base=s),step:"10",style:{width:"3.5em"}},null,512),[[Gt,i.relative_base]]),x1e,M1e,_("table",null,[I1e,(I(!0),O(W,null,Pt(i.alldata,(s,l)=>(I(),O(W,null,[s.length>1e3?(I(),O("tr",L1e,[_("td",null,[l.startsWith("by")?(I(),O("abbr",{key:0,class:"tooltip",title:l},"group",8,O1e)):(I(),O(W,{key:1},[F(M(l),1)],64))]),_("td",null,M(o.get_fish_info(l).baseSize),1),_("td",null,M(o.get_fish_info(l).varySize),1),_("td",null,M(o.get_fish_info(l).avg_size),1),_("td",null,[_("button",{class:Ur({pressed:l===i.selectedFish}),onClick:u=>o.activate(l)},M(s.length),11,R1e)])])):nt("",!0)],64))),256))])]),_("div",D1e,[_("details",null,[_("summary",null,"Dataset: size N = "+M(o.stats.len)+", mean M = "+M(o.formatFixed(o.stats.mean,3))+"\xB1"+M(o.formatFixed(1.96*o.stats.meanErr,3))+", min = "+M(o.formatFixed(o.stats.min,3))+", max = "+M(o.formatFixed(o.stats.max,3)),1),_("div",null,[_("table",null,[(I(!0),O(W,null,Pt(o.weightedDataset.grouped,(s,l)=>(I(),O("tr",null,[(I(!0),O(W,null,Pt(s,u=>(I(),O("td",null,M(o.formatFixed(u,3)),1))),256))]))),256))])])]),_("div",null,[ft(a,{stats:o.stats,histogram:o.histogram,avg_size:i.mode_relative?i.relative_base:i.fish_info[i.selectedFish].avg_size},null,8,["stats","histogram","avg_size"])])])])}const F1e=ae(P1e,[["render",N1e],["__scopeId","data-v-e49e7ec7"]]);const $1e={setup(){return{gameStore:At()}},components:{},data(){return{all_origins:[],all_destinations:[],rtp_pair_count:10,rtp_results:[],real_pair_count:10,real_steps:10,real_results:[],retry_until_red:!1,green_retries:0,max_ms:5e3,mapNodes:new Set,deck:null,tileLayer:null,iconData:[],iconPositions:{},iconLayer:null,lineData:[],lineLayer:null,initialViewState:{target:[0,0],zoom:-8,minZoom:-12,maxZoom:-5},hoverInfo:null}},async mounted(){function e(r){const n=i=>{r()?i():setTimeout(o=>n(i),100)};return new Promise(n)}console.log("mounted, sleeping"),await e(r=>this.gameStore.ready==!0),console.log("resuming");const t=At();this.all_origins=t.townsWithLodging,this.all_destinations=[];for(const r of Object.keys(t.plantzones))this.all_destinations.push(Number(r));this.iconData=await(await fetch("data/deck_icons.json")).json(),this.iconPositions=await(await fetch("data/deck_icon_positions.json")).json(),this.lineData=await(await fetch("data/deck_links.json")).json(),this.deck=this.initializeDeck(),this.updateDeck()},computed:{iconsCalc(){const e=[];if(this.hiddenNodesCount=0,!this.iconData)return e;const t=[];return this.iconData.forEach(([r,n])=>{if(r in this.gameStore.nodes){const i=this.mapNodes.has(r);i||(this.hiddenNodesCount+=1);const o=!1,a={key:r,kind:n,pos:this.iconPositions[r],taken:i,isHighlighted:o,thisCpCost:this.gameStore.ready?this.gameStore.nodes[r].CP:0};e.push({...a,hidden:!a.taken||o})}}),console.log("iconsCalc",this.hiddenNodesCount,"hidden"),{normal:e,highlighted:t}},linesCalc(){const e=[172,172,172,255],t=[255,179,0,255];let r=[];return this.lineData.forEach(([n,i])=>{let o=e;this.mapNodes.has(n)&&this.mapNodes.has(i)&&(o=t),r.push({start:this.iconPositions[n],end:this.iconPositions[i],color:o})}),r}},methods:{run_case(e){const t=At(),r=[];for(const a of e.pairs)r.push({type:"worker",source:a[0],target:a[1]});const n=t.routeOld([],r),i=t.routeWasm([],r);e.str="";for(const a of e.pairs)e.str+=`${a[1]},${a[0]} `;return{testcase:e,resultOld:n,resultWasm:i,red:i.autotakenNodesCP>n.autotakenNodesCP}},run_rtp(){const e=Date.now();for(;;){const t=new Set,r={label:`rtp${this.rtp_results.length}`,pairs:[]};for(let i=0;i<this.rtp_pair_count;i++){const o=this.all_origins[Math.floor(Math.random()*this.all_origins.length)],a=this.all_destinations.filter(l=>!t.has(l)),s=a[Math.floor(Math.random()*a.length)];t.add(s),r.pairs.push([o,s])}const n=this.run_case(r);if(this.retry_until_red&&!n.red&&this.green_retries++,!this.retry_until_red||n.red||Date.now()-e>this.max_ms){this.rtp_results.push(n);break}}},run_real(){const e=At(),t=Date.now();for(;;){const r=new Set,n={label:`real${this.real_results.length}`,pairs:[]};for(let o=0;o<this.real_pair_count;o++){const a=this.all_origins.filter(u=>!r.has(u));a.length==0&&(r=new Set,n.pairs=[],o=-1);const s=a[Math.floor(Math.random()*a.length)];let l=s;for(let u=0;u<this.real_steps;u++){if(!(l in e.links))throw Error(`${l} has no links?!`);const f=e.links[l].filter(h=>!r.has(h));if(f.length==0)break;{const h=Math.floor(Math.random()*f.length);l=f[h],l==s&&u--}}r.add(l),l==s?o--:n.pairs.push([s,l])}const i=this.run_case(n);if(this.retry_until_red&&!i.red&&this.green_retries++,!this.retry_until_red||i.red||Date.now()-t>this.max_ms){this.real_results.push(i);break}}},makeIconsLayer(){return new Es({data:this.iconsCalc.normal,onHover:e=>this.hoverInfo=e,getPosition:e=>e.pos,getColor:e=>[66,66,66,e.hidden?0:255],getIcon:function(e){return{url:"data/icons/node/"+(e.isHighlighted?"highlighted/":"")+(e.taken?"":"gray/")+`${e.kind}.png`,width:256,height:256,anchorX:128,anchorY:128}},transitions:{getColor:400},modelMatrix:[1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,1],getSize:e=>32*(e.isHighlighted?1.66:1),autoHighlight:!0,pickable:!0})},makeLineLayer(){return new P2({data:this.linesCalc,getSourcePosition:e=>e.start,getTargetPosition:e=>e.end,getColor:e=>e.color,modelMatrix:[1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,1]})},initializeDeck(){return console.log("initializeDeck"),this.tileLayer=new w0({data:"https://shrddr.github.io/maptiles/{z}/{x}_{y}.webp",minZoom:0,maxZoom:7,tileSize:256*12800,zoomOffset:14,extent:[-67*2*12800,-71*2*12800,58*2*12800,35*2*12800],renderSubLayers:e=>{const{bbox:{left:t,bottom:r,right:n,top:i}}=e.tile;return new _0(e,{data:null,image:e.data,bounds:[t,r,n,i]})}}),this.lineLayer=this.makeLineLayer(),this.iconLayer=this.makeIconsLayer(),new y0({canvas:"deck-canvas",mapbox:!1,initialViewState:this.initialViewState,layers:[this.tileLayer,this.lineLayer,this.iconLayer],controller:{doubleClickZoom:!1},views:[new m0({controller:!0})]})},updateDeck(){!this.deck||(console.log("updateDeck"),this.lineLayer=this.makeLineLayer(),this.iconLayer=this.makeIconsLayer(),this.deck.setProps({layers:[this.tileLayer,this.lineLayer,this.iconLayer],initialViewState:this.initialViewState}))}}},cu=e=>(Ze("data-v-f6fae1b6"),e=e(),qe(),e),B1e={id:"content"},z1e=F(" retry until first fail up to "),V1e=F("ms "),U1e={class:"column-container"},W1e={class:"column"},j1e=cu(()=>_("h3",null,[F(" Random town-plantzone pairs "),_("abbr",{class:"tooltip",title:"completely random, including on the other side of the map"},"\u2139")],-1)),G1e=F(" Pairs "),H1e=cu(()=>_("br",null,null,-1)),X1e=cu(()=>_("thead",null,[_("tr",null,[_("td",null,"old"),_("td",null,"wasm"),_("td",null,"\u2265"),_("td",null,"details")])],-1)),Y1e=["onClick"],K1e=["onClick"],Z1e=cu(()=>_("br",null,null,-1)),q1e={class:"column"},J1e=cu(()=>_("h3",null,[F(" Realistic "),_("abbr",{class:"tooltip",title:"plantzones tend to be near hometowns (~sqrt of steps)"},"\u2139")],-1)),Q1e=F(" Pairs "),tye=cu(()=>_("br",null,null,-1)),eye=F(" Steps "),rye=cu(()=>_("br",null,null,-1)),nye=cu(()=>_("thead",null,[_("tr",null,[_("td",null,"old"),_("td",null,"wasm"),_("td",null,"\u2265"),_("td",null,"details")])],-1)),iye=["onClick"],oye=["onClick"],aye={id:"map"},sye={id:"deck-canvas",ref:"canvas"};function lye(e,t,r,n,i,o){return I(),O("main",null,[_("div",B1e,[at(_("input",{type:"checkbox","onUpdate:modelValue":t[0]||(t[0]=a=>i.retry_until_red=a)},null,512),[[Ge,i.retry_until_red]]),z1e,at(_("input",{type:"number",class:"w5em","onUpdate:modelValue":t[1]||(t[1]=a=>i.max_ms=a)},null,512),[[Gt,i.max_ms,void 0,{number:!0}]]),V1e,i.retry_until_red?(I(),O(W,{key:0},[F(" ("+M(i.green_retries)+"\u2714\uFE0F ignored) ",1)],64)):nt("",!0),_("div",U1e,[_("div",W1e,[j1e,G1e,at(_("input",{type:"range","onUpdate:modelValue":t[2]||(t[2]=a=>i.rtp_pair_count=a),min:"1",max:"80"},null,512),[[Gt,i.rtp_pair_count,void 0,{number:!0}]]),F(" "+M(i.rtp_pair_count),1),H1e,_("button",{onClick:t[3]||(t[3]=(...a)=>o.run_rtp&&o.run_rtp(...a))},"run"),_("table",null,[X1e,_("tbody",null,[(I(!0),O(W,null,Pt(i.rtp_results,a=>(I(),O("tr",null,[_("td",null,[_("button",{onClick:s=>{i.mapNodes=a.resultOld.autotakenNodes,o.updateDeck()}},M(a.resultOld.autotakenNodesCP),9,Y1e)]),_("td",null,[_("button",{onClick:s=>{i.mapNodes=new Set(a.resultWasm.autotakenNodes),o.updateDeck()}},M(a.resultWasm.autotakenNodesCP),9,K1e)]),_("td",null,M(a.red?"\u274C":"\u2714\uFE0F"),1),_("td",null,[_("details",null,[_("summary",null,M(a.testcase.label),1),_("pre",null,M(a.testcase.str),1),F(" old "+M([...a.resultOld.autotakenNodes]),1),Z1e,F(" wasm "+M(a.resultWasm.autotakenNodes),1)])])]))),256))])])]),_("div",q1e,[J1e,Q1e,at(_("input",{type:"range","onUpdate:modelValue":t[4]||(t[4]=a=>i.real_pair_count=a),min:"1",max:"80"},null,512),[[Gt,i.real_pair_count,void 0,{number:!0}]]),F(" "+M(i.real_pair_count),1),tye,eye,at(_("input",{type:"range","onUpdate:modelValue":t[5]||(t[5]=a=>i.real_steps=a),min:"1",max:"80"},null,512),[[Gt,i.real_steps,void 0,{number:!0}]]),F(" "+M(i.real_steps),1),rye,_("button",{onClick:t[6]||(t[6]=(...a)=>o.run_real&&o.run_real(...a))},"run"),_("table",null,[nye,_("tbody",null,[(I(!0),O(W,null,Pt(i.real_results,a=>(I(),O("tr",null,[_("td",null,[_("button",{onClick:s=>{i.mapNodes=a.resultOld.autotakenNodes,o.updateDeck()}},M(a.resultOld.autotakenNodesCP),9,iye)]),_("td",null,[_("button",{onClick:s=>{i.mapNodes=new Set(a.resultWasm.autotakenNodes),o.updateDeck()}},M(a.resultWasm.autotakenNodesCP),9,oye)]),_("td",null,M(a.red?"\u274C":"\u2714\uFE0F"),1),_("td",null,[_("details",null,[_("summary",null,M(a.testcase.label),1),_("pre",null,M(a.testcase.str),1),F(" old "+M([...a.resultOld.autotakenNodes])+" wasm "+M(a.resultWasm.autotakenNodes),1)])])]))),256))])])])])]),_("div",aye,[_("canvas",sye,null,512),i.hoverInfo&&i.hoverInfo.object?(I(),O("div",{key:0,id:"tooltip",style:wa({left:i.hoverInfo.x+"px",top:i.hoverInfo.y+"px"})},M(i.hoverInfo.object.key)+" "+M(n.gameStore.uloc.node[i.hoverInfo.object.key])+" "+M(i.hoverInfo.object.thisCpCost)+"CP ",5)):nt("",!0)])])}const uye=ae($1e,[["render",lye],["__scopeId","data-v-f6fae1b6"]]);const cye={setup(){return{gameStore:At()}},components:{},data(){return{deck:null,tileLayer:null,rgLayer:null,rLayer:null,resourceLayer:null,originLayer:null,initialViewState:{target:[0,0],zoom:-12,minZoom:-12,maxZoom:-5},hoverx:0,hovery:0,selectedZone:0,highlightedIcon:0,currentLayer:"RG"}},computed:{},mounted(){this.deck=this.initializeDeck()},watch:{highlightedIcon(e){this.resourceLayer=this.makeResourceLayer(),this.originLayer=this.makeOriginLayer(),this.deck.setProps({layers:[this.tileLayer,this.rgLayer,this.rLayer,this.resourceLayer,this.originLayer]})},currentLayer(e){this.rgLayer=this.makeRgLayer(),this.rLayer=this.makeRLayer(),this.deck.setProps({layers:[this.tileLayer,this.rgLayer,this.rLayer,this.resourceLayer,this.originLayer]})}},methods:{makeResourceLayer(){return new Es({id:"ResourceLayer",data:"data/deck_rg_graphs.json",getPosition:e=>[e.graphx,e.graphz],getColor:e=>[66,66,66,255],getIcon:function(e){return{url:"data/icons/target_percent.png",width:128,height:128,anchorX:64,anchorY:64}},modelMatrix:[1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,1],getSize:e=>e.k==this.highlightedIcon?50:0,visible:this.currentLayer=="RG",updateTriggers:{getSize:this.highlightedIcon}})},makeOriginLayer(){return new Es({id:"OriginLayer",data:"data/deck_r_origins.json",getPosition:e=>[e.x,e.z],getColor:e=>[66,66,66,255],getIcon:function(e){return{url:"data/icons/target_orig.png",width:128,height:128,anchorX:64,anchorY:64}},modelMatrix:[1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,1],getSize:e=>e.r==this.highlightedIcon?50:0,visible:this.currentLayer=="R",updateTriggers:{getSize:this.highlightedIcon}})},makeRgLayer(){return new Nv({id:"RegionGroupLayer",data:"data/rg_latest_1_5.geojson",stroked:!1,getLineWidth:50,lineWidthMinPixels:1,getLineColor:[255,255,255],getFillColor:e=>e.properties.c,pickable:!0,autoHighlight:!0,coordinateSystem:Pe.CARTESIAN,modelMatrix:[301.1765,0,0,0,0,301.1765,0,0,0,0,1,0,-2048e3,-2048e3,0,1],opacity:.1,visible:this.currentLayer=="RG",onHover:({object:e})=>{e&&e.properties&&(this.highlightedIcon=e.properties.rg)}})},makeRLayer(){return new Nv({id:"RegionLayer",data:"data/r_latest_1_5.geojson",stroked:!1,getLineWidth:50,lineWidthMinPixels:1,getLineColor:[255,255,255],getFillColor:e=>e.properties.c,pickable:!0,autoHighlight:!0,coordinateSystem:Pe.CARTESIAN,modelMatrix:[301.1765,0,0,0,0,301.1765,0,0,0,0,1,0,-2048e3,-2048e3,0,1],opacity:.1,visible:this.currentLayer=="R",onHover:({object:e})=>{e&&e.properties&&(this.highlightedIcon=e.properties.r)}})},initializeDeck(){return this.tileLayer=new w0({id:"TileLayer",data:"https://shrddr.github.io/maptiles/{z}/{x}_{y}.webp",minZoom:0,maxZoom:7,tileSize:256*12800,zoomOffset:14,extent:[-67*2*12800,-71*2*12800,58*2*12800,35*2*12800],renderSubLayers:t=>{const{bbox:{left:r,bottom:n,right:i,top:o}}=t.tile;return new _0(t,{data:null,image:t.data,bounds:[r,n,i,o]})}}),this.resourceLayer=this.makeResourceLayer(),this.originLayer=this.makeOriginLayer(),this.rgLayer=this.makeRgLayer(),this.rLayer=this.makeRLayer(),new y0({canvas:"deck-canvas",mapbox:!1,initialViewState:this.initialViewState,layers:[this.tileLayer,this.rgLayer,this.rLayer,this.resourceLayer,this.originLayer],controller:{doubleClickZoom:!1},getTooltip:({object:t})=>{if(t&&t.properties){if(t.properties.r)return`R${t.properties.r}`;if(t.properties.rg)return`RG${t.properties.rg}`}},views:[new m0({controller:!0})],onHover:(t,r)=>{t.coordinate&&(this.hoverx=Math.round(t.coordinate[0]),this.hovery=Math.round(t.coordinate[1]))}})}}},GY=e=>(Ze("data-v-ef43d3dd"),e=e(),qe(),e),fye={id:"canvas-limiter"},hye={id:"deck-canvas",ref:"canvas"},dye={id:"coords"},pye=GY(()=>_("label",{for:"sr"},"Regions",-1)),gye=GY(()=>_("label",{for:"srg"},"RegionGroups",-1));function vye(e,t,r,n,i,o){return I(),O("main",null,[_("div",fye,[_("canvas",hye,null,512),_("div",dye,[F(" x: "+M(i.hoverx)+" y: "+M(-i.hovery)+" ",1),_("div",null,[at(_("input",{type:"radio",id:"sr",value:"R","onUpdate:modelValue":t[0]||(t[0]=a=>i.currentLayer=a)},null,512),[[Pa,i.currentLayer]]),pye,at(_("input",{type:"radio",id:"srg",value:"RG","onUpdate:modelValue":t[1]||(t[1]=a=>i.currentLayer=a)},null,512),[[Pa,i.currentLayer]]),gye])])])])}const mye=ae(cye,[["render",vye],["__scopeId","data-v-ef43d3dd"]]),yye=jQ({history:sQ("/workerman/"),routes:[{path:"/",name:"home",component:dOt},{path:"/plantzones",component:lRt},{path:"/resources",component:ZRt},{path:"/settings",component:X9t},{path:"/about",component:()=>btt(()=>import("./AboutView.ae7613c6.js"),[])},{path:"/othertowns",component:Q9t},{path:"/workshops",component:dNt},{path:"/housecraft",component:ONt},{path:"/droprates",component:Ome},{path:"/routertests",component:uye},{path:"/regionmap",component:mye},{path:"/fishsize",component:F1e},{path:"/lodging",component:bRt}]});const K4=O$(mtt),_ye=zJ();K4.use(_ye);K4.use(yye);K4.mount("#app");export{W as F,ae as _,_ as a,F as b,O as c,zt as d,qr as e,ft as f,Yv as g,qe as h,I as o,Ze as p,jF as r,M as t,At as u,Fe as w};
