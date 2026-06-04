@@ -1,4 +1,530 @@
 {
+  "2084": {
+    "key": 2084,
+    "node": {
+      "key": 2084,
+      "pos": {
+        "x": 470722.0,
+        "y": 963.657,
+        "z": 177441.0
+      },
+      "kind": 8,
+      "CP": 2,
+      "name": "\ubc8c\ubaa9",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1322,
+      "time": 500,
+      "subgroup": {
+        "key": 42152,
+        "drops": [
+          4608,
+          5012,
+          5005
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 204,
+    "parent": 1312,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2083": {
+    "key": 2083,
+    "node": {
+      "key": 2083,
+      "pos": {
+        "x": 474245.0,
+        "y": 953.693,
+        "z": 178854.0
+      },
+      "kind": 8,
+      "CP": 2,
+      "name": "\ubc8c\ubaa9",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1322,
+      "time": 500,
+      "subgroup": {
+        "key": 42152,
+        "drops": [
+          4608,
+          5012,
+          5005
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 204,
+    "parent": 1312,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2082": {
+    "key": 2082,
+    "node": {
+      "key": 2082,
+      "pos": {
+        "x": 476258.0,
+        "y": -4013.01,
+        "z": -70747.7
+      },
+      "kind": 7,
+      "CP": 2,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1521,
+      "time": 200,
+      "subgroup": {
+        "key": 41174,
+        "drops": [
+          4009,
+          4802,
+          4412
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 210,
+    "parent": 1310,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2081": {
+    "key": 2081,
+    "node": {
+      "key": 2081,
+      "pos": {
+        "x": 364576.0,
+        "y": 2964.45,
+        "z": 100089.0
+      },
+      "kind": 7,
+      "CP": 2,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1517,
+      "time": 200,
+      "subgroup": {
+        "key": 41173,
+        "drops": [
+          4008,
+          4803,
+          4411
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 204,
+    "parent": 1373,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2080": {
+    "key": 2080,
+    "node": {
+      "key": 2080,
+      "pos": {
+        "x": 461012.0,
+        "y": -253.103,
+        "z": 70412.9
+      },
+      "kind": 15,
+      "CP": 2,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1937,
+      "time": 2550,
+      "subgroup": {
+        "key": 44070,
+        "drops": [
+          5960,
+          4411
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41163,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 203,
+    "parent": 1324,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2063": {
+    "key": 2063,
+    "node": {
+      "key": 2063,
+      "pos": {
+        "x": -581281.0,
+        "y": -3289.87,
+        "z": -374984.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1637,
+      "time": 600,
+      "subgroup": {
+        "key": 44036,
+        "drops": [
+          5960,
+          5522
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41114,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 156,
+    "parent": 1629,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2062": {
+    "key": 2062,
+    "node": {
+      "key": 2062,
+      "pos": {
+        "x": -573202.0,
+        "y": -2607.15,
+        "z": -439390.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1637,
+      "time": 600,
+      "subgroup": {
+        "key": 44036,
+        "drops": [
+          5960,
+          5522
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41114,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 156,
+    "parent": 1628,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2061": {
+    "key": 2061,
+    "node": {
+      "key": 2061,
+      "pos": {
+        "x": 68598.1,
+        "y": 30351.3,
+        "z": -339366.0
+      },
+      "kind": 8,
+      "CP": 1,
+      "name": "\ubc8c\ubaa9",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1225,
+      "time": 150,
+      "subgroup": {
+        "key": 42105,
+        "drops": [
+          4607,
+          5010
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 238,
+    "parent": 1669,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2060": {
+    "key": 2060,
+    "node": {
+      "key": 2060,
+      "pos": {
+        "x": 62768.1,
+        "y": 31510.5,
+        "z": -350894.0
+      },
+      "kind": 8,
+      "CP": 1,
+      "name": "\ubc8c\ubaa9",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1225,
+      "time": 150,
+      "subgroup": {
+        "key": 42105,
+        "drops": [
+          4607,
+          5010
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 238,
+    "parent": 1669,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2059": {
+    "key": 2059,
+    "node": {
+      "key": 2059,
+      "pos": {
+        "x": -13570.7,
+        "y": 9785.8,
+        "z": -328676.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1932,
+      "time": 2550,
+      "subgroup": {
+        "key": 44066,
+        "drops": [
+          5960,
+          4410
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41163,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 226,
+    "parent": 1656,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2058": {
+    "key": 2058,
+    "node": {
+      "key": 2058,
+      "pos": {
+        "x": -16848.4,
+        "y": 9621.39,
+        "z": -330897.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1932,
+      "time": 2550,
+      "subgroup": {
+        "key": 44066,
+        "drops": [
+          5960,
+          4410
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41163,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 226,
+    "parent": 1656,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
   "2054": {
     "key": 2054,
     "node": {
@@ -230,6 +756,759 @@
     },
     "regiongroup": 294,
     "parent": 2024,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2079": {
+    "key": 2079,
+    "node": {
+      "key": 2079,
+      "pos": {
+        "x": 457008.0,
+        "y": 379.47,
+        "z": 72193.8
+      },
+      "kind": 15,
+      "CP": 2,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1936,
+      "time": 2550,
+      "subgroup": {
+        "key": 44069,
+        "drops": [
+          5960,
+          4412
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41163,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 203,
+    "parent": 1324,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2078": {
+    "key": 2078,
+    "node": {
+      "key": 2078,
+      "pos": {
+        "x": 425030.0,
+        "y": 797.852,
+        "z": 55908.5
+      },
+      "kind": 8,
+      "CP": 2,
+      "name": "\ubc8c\ubaa9",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1323,
+      "time": 200,
+      "subgroup": {
+        "key": 42153,
+        "drops": [
+          4609,
+          5013,
+          5005
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 203,
+    "parent": 1305,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2077": {
+    "key": 2077,
+    "node": {
+      "key": 2077,
+      "pos": {
+        "x": 1176070.0,
+        "y": 15340.6,
+        "z": 10597.6
+      },
+      "kind": 7,
+      "CP": 2,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1521,
+      "time": 200,
+      "subgroup": {
+        "key": 41174,
+        "drops": [
+          4009,
+          4802,
+          4412
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 213,
+    "parent": 1393,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2076": {
+    "key": 2076,
+    "node": {
+      "key": 2076,
+      "pos": {
+        "x": 1156070.0,
+        "y": 12992.0,
+        "z": 8496.97
+      },
+      "kind": 7,
+      "CP": 2,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1521,
+      "time": 200,
+      "subgroup": {
+        "key": 41174,
+        "drops": [
+          4009,
+          4802,
+          4412
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 202,
+    "parent": 1393,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2075": {
+    "key": 2075,
+    "node": {
+      "key": 2075,
+      "pos": {
+        "x": 1138640.0,
+        "y": 16942.7,
+        "z": -80537.1
+      },
+      "kind": 7,
+      "CP": 2,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1935,
+      "time": 280,
+      "subgroup": {
+        "key": 41213,
+        "drops": [
+          4001,
+          4206
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 213,
+    "parent": 1384,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2074": {
+    "key": 2074,
+    "node": {
+      "key": 2074,
+      "pos": {
+        "x": 824306.0,
+        "y": 11057.9,
+        "z": -20783.7
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1934,
+      "time": 600,
+      "subgroup": {
+        "key": 44068,
+        "drops": [
+          4202,
+          5960,
+          5960
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41113,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 202,
+    "parent": 1335,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2073": {
+    "key": 2073,
+    "node": {
+      "key": 2073,
+      "pos": {
+        "x": 888207.0,
+        "y": 17889.3,
+        "z": 62268.8
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1934,
+      "time": 600,
+      "subgroup": {
+        "key": 44068,
+        "drops": [
+          4202,
+          5960,
+          5960
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41113,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 206,
+    "parent": 1334,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2072": {
+    "key": 2072,
+    "node": {
+      "key": 2072,
+      "pos": {
+        "x": 754975.0,
+        "y": 9796.58,
+        "z": 141316.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1934,
+      "time": 600,
+      "subgroup": {
+        "key": 44068,
+        "drops": [
+          4202,
+          5960,
+          5960
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41113,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 202,
+    "parent": 1333,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2071": {
+    "key": 2071,
+    "node": {
+      "key": 2071,
+      "pos": {
+        "x": 827091.0,
+        "y": 7720.3,
+        "z": 279608.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1934,
+      "time": 600,
+      "subgroup": {
+        "key": 44068,
+        "drops": [
+          4202,
+          5960,
+          5960
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41113,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 202,
+    "parent": 1332,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2070": {
+    "key": 2070,
+    "node": {
+      "key": 2070,
+      "pos": {
+        "x": 735166.0,
+        "y": 12447.6,
+        "z": 377453.0
+      },
+      "kind": 7,
+      "CP": 2,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1517,
+      "time": 200,
+      "subgroup": {
+        "key": 41173,
+        "drops": [
+          4008,
+          4803,
+          4411
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41063,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 204,
+    "parent": 1328,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2069": {
+    "key": 2069,
+    "node": {
+      "key": 2069,
+      "pos": {
+        "x": -204919.0,
+        "y": 17967.5,
+        "z": -476950.0
+      },
+      "kind": 7,
+      "CP": 2,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1711,
+      "time": 280,
+      "subgroup": {
+        "key": 41185,
+        "drops": [
+          4013,
+          4801
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 165,
+    "parent": 1702,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2068": {
+    "key": 2068,
+    "node": {
+      "key": 2068,
+      "pos": {
+        "x": -294441.0,
+        "y": 990.322,
+        "z": -606529.0
+      },
+      "kind": 8,
+      "CP": 2,
+      "name": "\ubc8c\ubaa9",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1712,
+      "time": 280,
+      "subgroup": {
+        "key": 42177,
+        "drops": [
+          4619,
+          5023
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 161,
+    "parent": 1697,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2067": {
+    "key": 2067,
+    "node": {
+      "key": 2067,
+      "pos": {
+        "x": -270507.0,
+        "y": 5890.69,
+        "z": -594339.0
+      },
+      "kind": 14,
+      "CP": 1,
+      "name": "\ub2ed\uace0\uae30 \uc0dd\uc0b0",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1713,
+      "time": 200,
+      "subgroup": {
+        "key": 40197,
+        "drops": [
+          7921,
+          9064
+        ]
+      },
+      "subgroupLuck": {
+        "key": 40207,
+        "drops": [
+          7921,
+          9064
+        ]
+      }
+    },
+    "regiongroup": 164,
+    "parent": 1695,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2066": {
+    "key": 2066,
+    "node": {
+      "key": 2066,
+      "pos": {
+        "x": -339763.0,
+        "y": 32649.8,
+        "z": -304568.0
+      },
+      "kind": 7,
+      "CP": 2,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1642,
+      "time": 280,
+      "subgroup": {
+        "key": 41178,
+        "drops": [
+          4011,
+          4804
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 153,
+    "parent": 1611,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2065": {
+    "key": 2065,
+    "node": {
+      "key": 2065,
+      "pos": {
+        "x": -346305.0,
+        "y": 32089.1,
+        "z": -305572.0
+      },
+      "kind": 7,
+      "CP": 2,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1636,
+      "time": 280,
+      "subgroup": {
+        "key": 41177,
+        "drops": [
+          4011,
+          4805
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41014,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 153,
+    "parent": 1611,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "2064": {
+    "key": 2064,
+    "node": {
+      "key": 2064,
+      "pos": {
+        "x": -440199.0,
+        "y": 17650.0,
+        "z": -320900.0
+      },
+      "kind": 15,
+      "CP": 1,
+      "name": "\ubc1c\uad74",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1933,
+      "time": 2550,
+      "subgroup": {
+        "key": 44067,
+        "drops": [
+          5960,
+          4407
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41163,
+        "drops": [
+          1026
+        ]
+      }
+    },
+    "regiongroup": 152,
+    "parent": 1613,
     "species": [
       0,
       1,
@@ -1782,9 +3061,9 @@
         "y": 10654.6,
         "z": -281193.0
       },
-      "kind": 6,
+      "kind": 8,
       "CP": 2,
-      "name": "\ucc44\uc9d1",
+      "name": "\ubc8c\ubaa9",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -1792,18 +3071,24 @@
       "is_plantzone": true
     },
     "peg": {
-      "key": 1676,
+      "key": 1683,
       "time": 280,
       "subgroup": {
-        "key": 43181,
+        "key": 42173,
         "drops": [
-          5401
+          4616,
+          4701,
+          5020
         ]
       },
       "subgroupLuck": {
-        "key": 40111,
+        "key": 44961,
         "drops": [
-          1024
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -1827,9 +3112,9 @@
         "y": 14796.7,
         "z": -285580.0
       },
-      "kind": 6,
+      "kind": 8,
       "CP": 2,
-      "name": "\ucc44\uc9d1",
+      "name": "\ubc8c\ubaa9",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -1837,18 +3122,24 @@
       "is_plantzone": true
     },
     "peg": {
-      "key": 1675,
+      "key": 1683,
       "time": 280,
       "subgroup": {
-        "key": 43180,
+        "key": 42173,
         "drops": [
-          5532
+          4616,
+          4701,
+          5020
         ]
       },
       "subgroupLuck": {
-        "key": 40111,
+        "key": 44961,
         "drops": [
-          1024
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
         ]
       }
     },
@@ -4219,7 +5510,7 @@
         "z": 201035.0
       },
       "kind": 8,
-      "CP": 3,
+      "CP": 2,
       "name": "\ubc8c\ubaa9",
       "is_main": 0,
       "has_lodging": false,
@@ -4270,7 +5561,7 @@
         "z": 211907.0
       },
       "kind": 8,
-      "CP": 3,
+      "CP": 2,
       "name": "\ubc8c\ubaa9",
       "is_main": 0,
       "has_lodging": false,
@@ -6987,9 +8278,9 @@
     "node": {
       "key": 1823,
       "pos": {
-        "x": -1391420.0,
-        "y": -5013.37,
-        "z": 1008200.0
+        "x": -1374380.0,
+        "y": -5955.84,
+        "z": 1015100.0
       },
       "kind": 15,
       "CP": 1,
@@ -11359,9 +12650,9 @@
         "y": 13094.3,
         "z": 109401.0
       },
-      "kind": 8,
+      "kind": 6,
       "CP": 3,
-      "name": "\ubc8c\ubaa9",
+      "name": "\ucc44\uc9d1",
       "is_main": 0,
       "has_lodging": false,
       "is_planttown": false,
@@ -11597,7 +12888,7 @@
         "z": 126686.0
       },
       "kind": 6,
-      "CP": 3,
+      "CP": 1,
       "name": "\ucc44\uc9d1",
       "is_main": 0,
       "has_lodging": false,
@@ -11643,7 +12934,7 @@
         "z": 99847.9
       },
       "kind": 6,
-      "CP": 3,
+      "CP": 1,
       "name": "\ucc44\uc9d1",
       "is_main": 0,
       "has_lodging": false,
@@ -12145,7 +13436,7 @@
         "z": -157160.0
       },
       "kind": 8,
-      "CP": 3,
+      "CP": 2,
       "name": "\ubc8c\ubaa9",
       "is_main": 0,
       "has_lodging": false,
@@ -14754,6 +16045,102 @@
       5
     ]
   },
+  "207": {
+    "key": 207,
+    "node": {
+      "key": 207,
+      "pos": {
+        "x": -209683.0,
+        "y": 2204.27,
+        "z": 89042.4
+      },
+      "kind": 7,
+      "CP": 1,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1111,
+      "time": 200,
+      "subgroup": {
+        "key": 41051,
+        "drops": [
+          4001,
+          4801
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41061,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 64,
+    "parent": 72,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "206": {
+    "key": 206,
+    "node": {
+      "key": 206,
+      "pos": {
+        "x": -107873.0,
+        "y": -2576.87,
+        "z": 95063.3
+      },
+      "kind": 8,
+      "CP": 1,
+      "name": "\ubc8c\ubaa9",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1084,
+      "time": 200,
+      "subgroup": {
+        "key": 42041,
+        "drops": [
+          4601,
+          5001
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 62,
+    "parent": 66,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
   "205": {
     "key": 205,
     "node": {
@@ -14908,7 +16295,8 @@
       "subgroup": {
         "key": 41041,
         "drops": [
-          4003
+          4003,
+          4406
         ]
       },
       "subgroupLuck": {
@@ -14953,7 +16341,8 @@
       "subgroup": {
         "key": 42041,
         "drops": [
-          4601
+          4601,
+          5001
         ]
       },
       "subgroupLuck": {
@@ -14969,6 +16358,102 @@
     },
     "regiongroup": 62,
     "parent": 66,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "209": {
+    "key": 209,
+    "node": {
+      "key": 209,
+      "pos": {
+        "x": -263248.0,
+        "y": 3744.75,
+        "z": 108841.0
+      },
+      "kind": 8,
+      "CP": 1,
+      "name": "\ubc8c\ubaa9",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1222,
+      "time": 150,
+      "subgroup": {
+        "key": 42102,
+        "drops": [
+          4604,
+          5004
+        ]
+      },
+      "subgroupLuck": {
+        "key": 44961,
+        "drops": [
+          5007,
+          5006,
+          5011,
+          5005,
+          5008
+        ]
+      }
+    },
+    "regiongroup": 64,
+    "parent": 63,
+    "species": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "208": {
+    "key": 208,
+    "node": {
+      "key": 208,
+      "pos": {
+        "x": -203731.0,
+        "y": 536.72,
+        "z": 90492.8
+      },
+      "kind": 7,
+      "CP": 1,
+      "name": "\ucc44\uad11",
+      "is_main": 0,
+      "has_lodging": false,
+      "is_planttown": false,
+      "is_hidden": false,
+      "is_plantzone": true
+    },
+    "peg": {
+      "key": 1112,
+      "time": 150,
+      "subgroup": {
+        "key": 41052,
+        "drops": [
+          4001,
+          4407
+        ]
+      },
+      "subgroupLuck": {
+        "key": 41061,
+        "drops": [
+          1025
+        ]
+      }
+    },
+    "regiongroup": 64,
+    "parent": 72,
     "species": [
       0,
       1,

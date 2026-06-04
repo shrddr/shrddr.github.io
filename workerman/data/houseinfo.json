@@ -49,7 +49,7 @@
   },
   "3820": {
     "key": 3820,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1750,
     "affTown": 1124,
     "needHouseKey": 3819,
@@ -65,7 +65,7 @@
   },
   "3819": {
     "key": 3819,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1750,
     "affTown": 1124,
     "needHouseKey": 3818,
@@ -383,7 +383,7 @@
   },
   "3805": {
     "key": 3805,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1691,
     "affTown": 955,
     "needHouseKey": 3804,
@@ -399,7 +399,7 @@
   },
   "3804": {
     "key": 3804,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1691,
     "affTown": 955,
     "needHouseKey": 3803,
@@ -463,7 +463,7 @@
   },
   "3702": {
     "key": 3702,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1381,
     "affTown": 694,
     "needHouseKey": 0,
@@ -477,7 +477,7 @@
   },
   "3701": {
     "key": 3701,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1381,
     "affTown": 694,
     "needHouseKey": 0,
@@ -563,7 +563,7 @@
   },
   "3613": {
     "key": 3613,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -611,7 +611,7 @@
   },
   "3610": {
     "key": 3610,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -662,7 +662,7 @@
   },
   "3607": {
     "key": 3607,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -679,7 +679,7 @@
   },
   "3606": {
     "key": 3606,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -695,7 +695,7 @@
   },
   "3605": {
     "key": 3605,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -711,7 +711,7 @@
   },
   "3604": {
     "key": 3604,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -742,7 +742,7 @@
   },
   "3602": {
     "key": 3602,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -757,7 +757,7 @@
   },
   "3601": {
     "key": 3601,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1649,
     "affTown": 873,
     "needHouseKey": 0,
@@ -1224,7 +1224,7 @@
   },
   "3310": {
     "key": 3310,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 1351,
     "affTown": 605,
     "needHouseKey": 3309,
@@ -1254,7 +1254,7 @@
   },
   "3308": {
     "key": 3308,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1319,
     "affTown": 605,
     "needHouseKey": 3307,
@@ -1287,7 +1287,7 @@
   },
   "3306": {
     "key": 3306,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1319,
     "affTown": 605,
     "needHouseKey": 3305,
@@ -1302,7 +1302,7 @@
   },
   "3305": {
     "key": 3305,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1319,
     "affTown": 605,
     "needHouseKey": 3304,
@@ -1334,7 +1334,7 @@
   },
   "3303": {
     "key": 3303,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1319,
     "affTown": 605,
     "needHouseKey": 3302,
@@ -1349,7 +1349,7 @@
   },
   "3302": {
     "key": 3302,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1319,
     "affTown": 605,
     "needHouseKey": 3301,
@@ -1381,7 +1381,7 @@
   },
   "3207": {
     "key": 3207,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1352,
     "affTown": 601,
     "needHouseKey": 3206,
@@ -1396,7 +1396,7 @@
   },
   "3206": {
     "key": 3206,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1352,
     "affTown": 601,
     "needHouseKey": 0,
@@ -1413,7 +1413,7 @@
   },
   "3205": {
     "key": 3205,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1314,
     "affTown": 601,
     "needHouseKey": 3204,
@@ -1430,7 +1430,7 @@
   },
   "3204": {
     "key": 3204,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1314,
     "affTown": 601,
     "needHouseKey": 0,
@@ -1447,7 +1447,7 @@
   },
   "3203": {
     "key": 3203,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1314,
     "affTown": 601,
     "needHouseKey": 3202,
@@ -1463,7 +1463,7 @@
   },
   "3202": {
     "key": 3202,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1314,
     "affTown": 601,
     "needHouseKey": 3201,
@@ -1496,7 +1496,7 @@
   },
   "3175": {
     "key": 3175,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1353,
     "affTown": 619,
     "needHouseKey": 3174,
@@ -1511,7 +1511,7 @@
   },
   "3174": {
     "key": 3174,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1353,
     "affTown": 619,
     "needHouseKey": 0,
@@ -1527,7 +1527,7 @@
   },
   "3173": {
     "key": 3173,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1343,
     "affTown": 619,
     "needHouseKey": 3172,
@@ -1542,7 +1542,7 @@
   },
   "3172": {
     "key": 3172,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1343,
     "affTown": 619,
     "needHouseKey": 3171,
@@ -1574,7 +1574,7 @@
   },
   "3168": {
     "key": 3168,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1354,
     "affTown": 229,
     "needHouseKey": 0,
@@ -1619,7 +1619,7 @@
   },
   "3149": {
     "key": 3149,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3147,
@@ -1636,7 +1636,7 @@
   },
   "3148": {
     "key": 3148,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3147,
@@ -1666,7 +1666,7 @@
   },
   "3146": {
     "key": 3146,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3145,
@@ -1681,7 +1681,7 @@
   },
   "3145": {
     "key": 3145,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3144,
@@ -1711,7 +1711,7 @@
   },
   "3143": {
     "key": 3143,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3141,
@@ -1742,7 +1742,7 @@
   },
   "3167": {
     "key": 3167,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1355,
     "affTown": 229,
     "needHouseKey": 3166,
@@ -1802,7 +1802,7 @@
   },
   "3162": {
     "key": 3162,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3161,
@@ -1819,7 +1819,7 @@
   },
   "3161": {
     "key": 3161,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3158,
@@ -1834,7 +1834,7 @@
   },
   "3160": {
     "key": 3160,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3159,
@@ -1848,7 +1848,7 @@
   },
   "3159": {
     "key": 3159,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3158,
@@ -1863,7 +1863,7 @@
   },
   "3158": {
     "key": 3158,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 0,
@@ -1878,7 +1878,7 @@
   },
   "3157": {
     "key": 3157,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3156,
@@ -1895,7 +1895,7 @@
   },
   "3156": {
     "key": 3156,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3154,
@@ -1924,7 +1924,7 @@
   },
   "3154": {
     "key": 3154,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3152,
@@ -1968,7 +1968,7 @@
   },
   "3114": {
     "key": 3114,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3112,
@@ -1983,7 +1983,7 @@
   },
   "3113": {
     "key": 3113,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3112,
@@ -1998,7 +1998,7 @@
   },
   "3112": {
     "key": 3112,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3110,
@@ -2012,7 +2012,7 @@
   },
   "3111": {
     "key": 3111,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3110,
@@ -2027,7 +2027,7 @@
   },
   "3110": {
     "key": 3110,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3108,
@@ -2043,7 +2043,7 @@
   },
   "3109": {
     "key": 3109,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3108,
@@ -2073,7 +2073,7 @@
   },
   "3107": {
     "key": 3107,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3106,
@@ -2088,7 +2088,7 @@
   },
   "3106": {
     "key": 3106,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3105,
@@ -2103,7 +2103,7 @@
   },
   "3105": {
     "key": 3105,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3103,
@@ -2133,7 +2133,7 @@
   },
   "3134": {
     "key": 3134,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3133,
@@ -2148,7 +2148,7 @@
   },
   "3133": {
     "key": 3133,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3131,
@@ -2163,7 +2163,7 @@
   },
   "3132": {
     "key": 3132,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3131,
@@ -2179,7 +2179,7 @@
   },
   "3131": {
     "key": 3131,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3130,
@@ -2211,7 +2211,7 @@
   },
   "3129": {
     "key": 3129,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3128,
@@ -2227,7 +2227,7 @@
   },
   "3128": {
     "key": 3128,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3127,
@@ -2271,7 +2271,7 @@
   },
   "3125": {
     "key": 3125,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3123,
@@ -2315,7 +2315,7 @@
   },
   "3122": {
     "key": 3122,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3121,
@@ -2345,7 +2345,7 @@
   },
   "3087": {
     "key": 3087,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3085,
@@ -2360,7 +2360,7 @@
   },
   "3086": {
     "key": 3086,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3085,
@@ -2375,7 +2375,7 @@
   },
   "3085": {
     "key": 3085,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3084,
@@ -2389,7 +2389,7 @@
   },
   "3084": {
     "key": 3084,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3082,
@@ -2452,7 +2452,7 @@
   },
   "3075": {
     "key": 3075,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3072,
@@ -2469,7 +2469,7 @@
   },
   "3074": {
     "key": 3074,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3072,
@@ -2485,7 +2485,7 @@
   },
   "3073": {
     "key": 3073,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3072,
@@ -2500,7 +2500,7 @@
   },
   "3072": {
     "key": 3072,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 0,
@@ -2530,7 +2530,7 @@
   },
   "3102": {
     "key": 3102,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3101,
@@ -2575,7 +2575,7 @@
   },
   "3092": {
     "key": 3092,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3091,
@@ -2591,7 +2591,7 @@
   },
   "3091": {
     "key": 3091,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3089,
@@ -2608,7 +2608,7 @@
   },
   "3090": {
     "key": 3090,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3089,
@@ -2638,7 +2638,7 @@
   },
   "3088": {
     "key": 3088,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3087,
@@ -2702,7 +2702,7 @@
   },
   "3502": {
     "key": 3502,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2720,7 +2720,7 @@
   },
   "3501": {
     "key": 3501,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2735,7 +2735,7 @@
   },
   "3519": {
     "key": 3519,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2751,7 +2751,7 @@
   },
   "3518": {
     "key": 3518,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2767,7 +2767,7 @@
   },
   "3517": {
     "key": 3517,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2784,7 +2784,7 @@
   },
   "3516": {
     "key": 3516,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2802,7 +2802,7 @@
   },
   "3515": {
     "key": 3515,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2817,7 +2817,7 @@
   },
   "3514": {
     "key": 3514,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2833,7 +2833,7 @@
   },
   "3513": {
     "key": 3513,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2848,7 +2848,7 @@
   },
   "3512": {
     "key": 3512,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2864,7 +2864,7 @@
   },
   "3511": {
     "key": 3511,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2881,7 +2881,7 @@
   },
   "3510": {
     "key": 3510,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2915,7 +2915,7 @@
   },
   "3508": {
     "key": 3508,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2948,7 +2948,7 @@
   },
   "3506": {
     "key": 3506,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2964,7 +2964,7 @@
   },
   "3505": {
     "key": 3505,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 1623,
     "affTown": 735,
     "needHouseKey": 0,
@@ -2996,7 +2996,7 @@
   },
   "3404": {
     "key": 3404,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1380,
     "affTown": 693,
     "needHouseKey": 3403,
@@ -3030,7 +3030,7 @@
   },
   "3402": {
     "key": 3402,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1380,
     "affTown": 693,
     "needHouseKey": 3401,
@@ -3079,7 +3079,7 @@
   },
   "2798": {
     "key": 2798,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2792,
@@ -3095,7 +3095,7 @@
   },
   "2797": {
     "key": 2797,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2796,
@@ -3111,7 +3111,7 @@
   },
   "2796": {
     "key": 2796,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2793,
@@ -3127,7 +3127,7 @@
   },
   "2795": {
     "key": 2795,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2794,
@@ -3143,7 +3143,7 @@
   },
   "2794": {
     "key": 2794,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2793,
@@ -3159,7 +3159,7 @@
   },
   "2793": {
     "key": 2793,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2792,
@@ -3206,7 +3206,7 @@
   },
   "2815": {
     "key": 2815,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 712,
     "affTown": 77,
     "needHouseKey": 2814,
@@ -3253,7 +3253,7 @@
   },
   "2812": {
     "key": 2812,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 712,
     "affTown": 77,
     "needHouseKey": 2811,
@@ -3300,7 +3300,7 @@
   },
   "2804": {
     "key": 2804,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2791,
@@ -3316,7 +3316,7 @@
   },
   "2803": {
     "key": 2803,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2801,
@@ -3332,7 +3332,7 @@
   },
   "2802": {
     "key": 2802,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2801,
@@ -3412,7 +3412,7 @@
   },
   "2753": {
     "key": 2753,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2754,
@@ -3428,7 +3428,7 @@
   },
   "2752": {
     "key": 2752,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2753,
@@ -3444,7 +3444,7 @@
   },
   "2776": {
     "key": 2776,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2775,
@@ -3459,7 +3459,7 @@
   },
   "2775": {
     "key": 2775,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2774,
@@ -3522,7 +3522,7 @@
   },
   "2771": {
     "key": 2771,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 0,
@@ -3554,7 +3554,7 @@
   },
   "2703": {
     "key": 2703,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2663,
@@ -3570,7 +3570,7 @@
   },
   "2702": {
     "key": 2702,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2662,
@@ -3586,7 +3586,7 @@
   },
   "2701": {
     "key": 2701,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2700,
@@ -3619,7 +3619,7 @@
   },
   "2699": {
     "key": 2699,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2660,
@@ -3636,7 +3636,7 @@
   },
   "2698": {
     "key": 2698,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2658,
@@ -3652,7 +3652,7 @@
   },
   "2697": {
     "key": 2697,
-    "CP": 4,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2689,
@@ -3684,7 +3684,7 @@
   },
   "2695": {
     "key": 2695,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2634,
@@ -3701,7 +3701,7 @@
   },
   "2694": {
     "key": 2694,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2692,
@@ -3717,7 +3717,7 @@
   },
   "2693": {
     "key": 2693,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2692,
@@ -3750,7 +3750,7 @@
   },
   "2690": {
     "key": 2690,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2689,
@@ -3799,7 +3799,7 @@
   },
   "2671": {
     "key": 2671,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2670,
@@ -3830,7 +3830,7 @@
   },
   "2669": {
     "key": 2669,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2668,
@@ -3878,7 +3878,7 @@
   },
   "2666": {
     "key": 2666,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2663,
@@ -3910,7 +3910,7 @@
   },
   "2664": {
     "key": 2664,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2663,
@@ -3927,7 +3927,7 @@
   },
   "2663": {
     "key": 2663,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2662,
@@ -3973,7 +3973,7 @@
   },
   "2660": {
     "key": 2660,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2659,
@@ -4035,7 +4035,7 @@
   },
   "2656": {
     "key": 2656,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2655,
@@ -4052,7 +4052,7 @@
   },
   "2687": {
     "key": 2687,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2685,
@@ -4068,7 +4068,7 @@
   },
   "2686": {
     "key": 2686,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2685,
@@ -4114,7 +4114,7 @@
   },
   "2683": {
     "key": 2683,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2682,
@@ -4130,7 +4130,7 @@
   },
   "2682": {
     "key": 2682,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2684,
@@ -4178,7 +4178,7 @@
   },
   "2679": {
     "key": 2679,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2678,
@@ -4195,7 +4195,7 @@
   },
   "2678": {
     "key": 2678,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2680,
@@ -4211,7 +4211,7 @@
   },
   "2677": {
     "key": 2677,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2678,
@@ -4258,7 +4258,7 @@
   },
   "2674": {
     "key": 2674,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2673,
@@ -4274,7 +4274,7 @@
   },
   "2673": {
     "key": 2673,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2672,
@@ -4306,7 +4306,7 @@
   },
   "2639": {
     "key": 2639,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2696,
@@ -4322,7 +4322,7 @@
   },
   "2638": {
     "key": 2638,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2637,
@@ -4385,7 +4385,7 @@
   },
   "2634": {
     "key": 2634,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2632,
@@ -4400,7 +4400,7 @@
   },
   "2633": {
     "key": 2633,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2632,
@@ -4416,7 +4416,7 @@
   },
   "2632": {
     "key": 2632,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2630,
@@ -4431,7 +4431,7 @@
   },
   "2631": {
     "key": 2631,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2630,
@@ -4494,7 +4494,7 @@
   },
   "2627": {
     "key": 2627,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2626,
@@ -4524,7 +4524,7 @@
   },
   "2625": {
     "key": 2625,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2624,
@@ -4540,7 +4540,7 @@
   },
   "2624": {
     "key": 2624,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2626,
@@ -4571,7 +4571,7 @@
   },
   "2653": {
     "key": 2653,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2652,
@@ -4586,7 +4586,7 @@
   },
   "2652": {
     "key": 2652,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2650,
@@ -4602,7 +4602,7 @@
   },
   "2651": {
     "key": 2651,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2650,
@@ -4634,7 +4634,7 @@
   },
   "2649": {
     "key": 2649,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2648,
@@ -4665,7 +4665,7 @@
   },
   "2646": {
     "key": 2646,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2644,
@@ -4680,7 +4680,7 @@
   },
   "2645": {
     "key": 2645,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2644,
@@ -4727,7 +4727,7 @@
   },
   "2642": {
     "key": 2642,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2641,
@@ -4737,13 +4737,13 @@
       "16": 3,
       "0": 1
     },
-    "x": -245798.59375,
+    "x": -245782.796875,
     "y": -2844.982421875,
-    "z": -52249.4765625
+    "z": -52251.9453125
   },
   "2641": {
     "key": 2641,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2696,
@@ -4790,7 +4790,7 @@
   },
   "2605": {
     "key": 2605,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2607,
@@ -4823,7 +4823,7 @@
   },
   "2603": {
     "key": 2603,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2602,
@@ -4840,7 +4840,7 @@
   },
   "2602": {
     "key": 2602,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2601,
@@ -4871,7 +4871,7 @@
   },
   "2623": {
     "key": 2623,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2622,
@@ -4887,7 +4887,7 @@
   },
   "2622": {
     "key": 2622,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2624,
@@ -4918,7 +4918,7 @@
   },
   "2620": {
     "key": 2620,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2619,
@@ -4932,7 +4932,7 @@
   },
   "2619": {
     "key": 2619,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2607,
@@ -5073,7 +5073,7 @@
   },
   "2610": {
     "key": 2610,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2609,
@@ -5104,7 +5104,7 @@
   },
   "2571": {
     "key": 2571,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2566,
@@ -5137,7 +5137,7 @@
   },
   "2567": {
     "key": 2567,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2563,
@@ -5154,7 +5154,7 @@
   },
   "2566": {
     "key": 2566,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2565,
@@ -5187,7 +5187,7 @@
   },
   "2564": {
     "key": 2564,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2563,
@@ -5266,7 +5266,7 @@
   },
   "3053": {
     "key": 3053,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3052,
@@ -5282,7 +5282,7 @@
   },
   "3052": {
     "key": 3052,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3049,
@@ -5298,7 +5298,7 @@
   },
   "3051": {
     "key": 3051,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3050,
@@ -5344,7 +5344,7 @@
   },
   "3048": {
     "key": 3048,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3046,
@@ -5360,7 +5360,7 @@
   },
   "3047": {
     "key": 3047,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3046,
@@ -5375,7 +5375,7 @@
   },
   "3046": {
     "key": 3046,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3044,
@@ -5391,7 +5391,7 @@
   },
   "3045": {
     "key": 3045,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3044,
@@ -5423,7 +5423,7 @@
   },
   "3043": {
     "key": 3043,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3042,
@@ -5453,7 +5453,7 @@
   },
   "3041": {
     "key": 3041,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3040,
@@ -5468,7 +5468,7 @@
   },
   "3040": {
     "key": 3040,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3038,
@@ -5484,7 +5484,7 @@
   },
   "3071": {
     "key": 3071,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3070,
@@ -5499,7 +5499,7 @@
   },
   "3070": {
     "key": 3070,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3068,
@@ -5514,7 +5514,7 @@
   },
   "3069": {
     "key": 3069,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3068,
@@ -5544,7 +5544,7 @@
   },
   "3067": {
     "key": 3067,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3066,
@@ -5559,7 +5559,7 @@
   },
   "3066": {
     "key": 3066,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3065,
@@ -5591,7 +5591,7 @@
   },
   "3064": {
     "key": 3064,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3063,
@@ -5606,7 +5606,7 @@
   },
   "3063": {
     "key": 3063,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3061,
@@ -5621,7 +5621,7 @@
   },
   "3062": {
     "key": 3062,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3061,
@@ -5635,7 +5635,7 @@
   },
   "3061": {
     "key": 3061,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3059,
@@ -5651,7 +5651,7 @@
   },
   "3060": {
     "key": 3060,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3059,
@@ -5665,7 +5665,7 @@
   },
   "3059": {
     "key": 3059,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3057,
@@ -5728,7 +5728,7 @@
   },
   "3023": {
     "key": 3023,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3022,
@@ -5774,7 +5774,7 @@
   },
   "3016": {
     "key": 3016,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3014,
@@ -5790,7 +5790,7 @@
   },
   "3015": {
     "key": 3015,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3014,
@@ -5805,7 +5805,7 @@
   },
   "3014": {
     "key": 3014,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3012,
@@ -5834,7 +5834,7 @@
   },
   "3012": {
     "key": 3012,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3011,
@@ -5849,7 +5849,7 @@
   },
   "3011": {
     "key": 3011,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3009,
@@ -5864,7 +5864,7 @@
   },
   "3010": {
     "key": 3010,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3009,
@@ -5912,7 +5912,7 @@
   },
   "3039": {
     "key": 3039,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3038,
@@ -5927,7 +5927,7 @@
   },
   "3038": {
     "key": 3038,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3036,
@@ -5971,7 +5971,7 @@
   },
   "3035": {
     "key": 3035,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3033,
@@ -5986,7 +5986,7 @@
   },
   "3034": {
     "key": 3034,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3033,
@@ -6017,7 +6017,7 @@
   },
   "3032": {
     "key": 3032,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3031,
@@ -6049,7 +6049,7 @@
   },
   "3028": {
     "key": 3028,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3027,
@@ -6094,7 +6094,7 @@
   },
   "3025": {
     "key": 3025,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3024,
@@ -6111,7 +6111,7 @@
   },
   "3024": {
     "key": 3024,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3022,
@@ -6127,7 +6127,7 @@
   },
   "3007": {
     "key": 3007,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3006,
@@ -6142,7 +6142,7 @@
   },
   "3006": {
     "key": 3006,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3004,
@@ -6157,7 +6157,7 @@
   },
   "3005": {
     "key": 3005,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3004,
@@ -6189,7 +6189,7 @@
   },
   "3003": {
     "key": 3003,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3001,
@@ -6205,7 +6205,7 @@
   },
   "3002": {
     "key": 3002,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1301,
     "affTown": 229,
     "needHouseKey": 3001,
@@ -6237,7 +6237,7 @@
   },
   "2916": {
     "key": 2916,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2915,
@@ -6253,7 +6253,7 @@
   },
   "2915": {
     "key": 2915,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 0,
@@ -6268,7 +6268,7 @@
   },
   "2914": {
     "key": 2914,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2913,
@@ -6299,7 +6299,7 @@
   },
   "2912": {
     "key": 2912,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2911,
@@ -6364,7 +6364,7 @@
   },
   "2892": {
     "key": 2892,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2891,
@@ -6380,7 +6380,7 @@
   },
   "2891": {
     "key": 2891,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2889,
@@ -6411,7 +6411,7 @@
   },
   "2888": {
     "key": 2888,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2887,
@@ -6426,7 +6426,7 @@
   },
   "2887": {
     "key": 2887,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2886,
@@ -6442,7 +6442,7 @@
   },
   "2886": {
     "key": 2886,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 0,
@@ -6488,7 +6488,7 @@
   },
   "2883": {
     "key": 2883,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2882,
@@ -6503,7 +6503,7 @@
   },
   "2882": {
     "key": 2882,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2881,
@@ -6533,7 +6533,7 @@
   },
   "2911": {
     "key": 2911,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 0,
@@ -6549,7 +6549,7 @@
   },
   "2910": {
     "key": 2910,
-    "CP": 4,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 0,
@@ -6565,7 +6565,7 @@
   },
   "2909": {
     "key": 2909,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2908,
@@ -6596,7 +6596,7 @@
   },
   "2907": {
     "key": 2907,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2906,
@@ -6612,7 +6612,7 @@
   },
   "2906": {
     "key": 2906,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 0,
@@ -6628,7 +6628,7 @@
   },
   "2904": {
     "key": 2904,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2916,
@@ -6644,7 +6644,7 @@
   },
   "2903": {
     "key": 2903,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2904,
@@ -6693,7 +6693,7 @@
   },
   "2900": {
     "key": 2900,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2897,
@@ -6710,7 +6710,7 @@
   },
   "2898": {
     "key": 2898,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2897,
@@ -6741,7 +6741,7 @@
   },
   "2896": {
     "key": 2896,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2895,
@@ -6835,7 +6835,7 @@
   },
   "2857": {
     "key": 2857,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1141,
     "affTown": 221,
     "needHouseKey": 2855,
@@ -6851,7 +6851,7 @@
   },
   "2856": {
     "key": 2856,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1141,
     "affTown": 221,
     "needHouseKey": 2855,
@@ -6861,9 +6861,9 @@
       "1403": 2,
       "0": 1
     },
-    "x": 226880.359375,
-    "y": -4030.62646484375,
-    "z": -75834.9453125
+    "x": 226880.5,
+    "y": -4222.62646484375,
+    "z": -76007.671875
   },
   "2855": {
     "key": 2855,
@@ -6915,7 +6915,7 @@
   },
   "2852": {
     "key": 2852,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1141,
     "affTown": 221,
     "needHouseKey": 2851,
@@ -6963,7 +6963,7 @@
   },
   "2849": {
     "key": 2849,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1141,
     "affTown": 221,
     "needHouseKey": 2852,
@@ -6979,7 +6979,7 @@
   },
   "2848": {
     "key": 2848,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1153,
     "affTown": 202,
     "needHouseKey": 2847,
@@ -6995,7 +6995,7 @@
   },
   "2879": {
     "key": 2879,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2878,
@@ -7011,7 +7011,7 @@
   },
   "2878": {
     "key": 2878,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2877,
@@ -7026,7 +7026,7 @@
   },
   "2877": {
     "key": 2877,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2876,
@@ -7042,7 +7042,7 @@
   },
   "2876": {
     "key": 2876,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2875,
@@ -7058,7 +7058,7 @@
   },
   "2875": {
     "key": 2875,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 0,
@@ -7074,7 +7074,7 @@
   },
   "2874": {
     "key": 2874,
-    "CP": 4,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2873,
@@ -7092,7 +7092,7 @@
   },
   "2873": {
     "key": 2873,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2870,
@@ -7154,7 +7154,7 @@
   },
   "2867": {
     "key": 2867,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 2866,
@@ -7169,7 +7169,7 @@
   },
   "2866": {
     "key": 2866,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1101,
     "affTown": 202,
     "needHouseKey": 0,
@@ -7185,7 +7185,7 @@
   },
   "2865": {
     "key": 2865,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1160,
     "affTown": 221,
     "needHouseKey": 2864,
@@ -7260,7 +7260,7 @@
   },
   "2822": {
     "key": 2822,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 712,
     "affTown": 77,
     "needHouseKey": 2820,
@@ -7291,7 +7291,7 @@
   },
   "2820": {
     "key": 2820,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 712,
     "affTown": 77,
     "needHouseKey": 2818,
@@ -7339,7 +7339,7 @@
   },
   "2816": {
     "key": 2816,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 712,
     "affTown": 77,
     "needHouseKey": 2814,
@@ -7386,7 +7386,7 @@
   },
   "2845": {
     "key": 2845,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1153,
     "affTown": 202,
     "needHouseKey": 0,
@@ -7402,7 +7402,7 @@
   },
   "2844": {
     "key": 2844,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1158,
     "affTown": 202,
     "needHouseKey": 2843,
@@ -7479,7 +7479,7 @@
   },
   "2839": {
     "key": 2839,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1161,
     "affTown": 221,
     "needHouseKey": 2838,
@@ -7510,7 +7510,7 @@
   },
   "2837": {
     "key": 2837,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1159,
     "affTown": 221,
     "needHouseKey": 2836,
@@ -7571,7 +7571,7 @@
   },
   "2833": {
     "key": 2833,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1145,
     "affTown": 202,
     "needHouseKey": 2832,
@@ -7603,7 +7603,7 @@
   },
   "2303": {
     "key": 2303,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 608,
     "affTown": 126,
     "needHouseKey": 2301,
@@ -7620,7 +7620,7 @@
   },
   "2302": {
     "key": 2302,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 608,
     "affTown": 126,
     "needHouseKey": 2301,
@@ -7682,7 +7682,7 @@
   },
   "2253": {
     "key": 2253,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2252,
@@ -7698,7 +7698,7 @@
   },
   "2252": {
     "key": 2252,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2251,
@@ -7730,7 +7730,7 @@
   },
   "2249": {
     "key": 2249,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 328,
     "affTown": 32,
     "needHouseKey": 0,
@@ -7747,7 +7747,7 @@
   },
   "2247": {
     "key": 2247,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 0,
@@ -7761,7 +7761,7 @@
   },
   "2246": {
     "key": 2246,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 65,
     "affTown": 88,
     "needHouseKey": 2245,
@@ -7776,7 +7776,7 @@
   },
   "2245": {
     "key": 2245,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 65,
     "affTown": 88,
     "needHouseKey": 0,
@@ -7792,7 +7792,7 @@
   },
   "2244": {
     "key": 2244,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 64,
     "affTown": 88,
     "needHouseKey": 2243,
@@ -7854,7 +7854,7 @@
   },
   "2240": {
     "key": 2240,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 2238,
@@ -7885,7 +7885,7 @@
   },
   "2270": {
     "key": 2270,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2271,
@@ -7917,7 +7917,7 @@
   },
   "2268": {
     "key": 2268,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 0,
@@ -7947,7 +7947,7 @@
   },
   "2266": {
     "key": 2266,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2265,
@@ -7963,7 +7963,7 @@
   },
   "2265": {
     "key": 2265,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2264,
@@ -7977,7 +7977,7 @@
   },
   "2264": {
     "key": 2264,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2261,
@@ -7992,7 +7992,7 @@
   },
   "2263": {
     "key": 2263,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2262,
@@ -8008,7 +8008,7 @@
   },
   "2262": {
     "key": 2262,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2261,
@@ -8023,7 +8023,7 @@
   },
   "2261": {
     "key": 2261,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2260,
@@ -8055,7 +8055,7 @@
   },
   "2259": {
     "key": 2259,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2258,
@@ -8072,7 +8072,7 @@
   },
   "2258": {
     "key": 2258,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2256,
@@ -8087,7 +8087,7 @@
   },
   "2257": {
     "key": 2257,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 602,
     "affTown": 107,
     "needHouseKey": 2256,
@@ -8135,7 +8135,7 @@
   },
   "2222": {
     "key": 2222,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2172,
@@ -8198,7 +8198,7 @@
   },
   "2218": {
     "key": 2218,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 346,
     "affTown": 32,
     "needHouseKey": 0,
@@ -8214,7 +8214,7 @@
   },
   "2217": {
     "key": 2217,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 322,
     "affTown": 32,
     "needHouseKey": 2214,
@@ -8230,7 +8230,7 @@
   },
   "2216": {
     "key": 2216,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 322,
     "affTown": 32,
     "needHouseKey": 2215,
@@ -8261,7 +8261,7 @@
   },
   "2214": {
     "key": 2214,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 322,
     "affTown": 32,
     "needHouseKey": 2215,
@@ -8277,7 +8277,7 @@
   },
   "2213": {
     "key": 2213,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 323,
     "affTown": 32,
     "needHouseKey": 0,
@@ -8293,7 +8293,7 @@
   },
   "2212": {
     "key": 2212,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 344,
     "affTown": 52,
     "needHouseKey": 0,
@@ -8326,7 +8326,7 @@
   },
   "2210": {
     "key": 2210,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 302,
     "affTown": 52,
     "needHouseKey": 2211,
@@ -8359,7 +8359,7 @@
   },
   "2208": {
     "key": 2208,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 302,
     "affTown": 52,
     "needHouseKey": 2206,
@@ -8425,7 +8425,7 @@
   },
   "2236": {
     "key": 2236,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 2235,
@@ -8455,7 +8455,7 @@
   },
   "2234": {
     "key": 2234,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 2233,
@@ -8470,7 +8470,7 @@
   },
   "2233": {
     "key": 2233,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 2232,
@@ -8486,7 +8486,7 @@
   },
   "2232": {
     "key": 2232,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 2231,
@@ -8562,7 +8562,7 @@
   },
   "2226": {
     "key": 2226,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2227,
@@ -8641,7 +8641,7 @@
   },
   "2189": {
     "key": 2189,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2190,
@@ -8675,7 +8675,7 @@
   },
   "2186": {
     "key": 2186,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2184,
@@ -8691,7 +8691,7 @@
   },
   "2185": {
     "key": 2185,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2184,
@@ -8723,7 +8723,7 @@
   },
   "2182": {
     "key": 2182,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2225,
@@ -8772,7 +8772,7 @@
   },
   "2179": {
     "key": 2179,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2189,
@@ -8788,7 +8788,7 @@
   },
   "2178": {
     "key": 2178,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2170,
@@ -8804,7 +8804,7 @@
   },
   "2177": {
     "key": 2177,
-    "CP": 4,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2186,
@@ -8819,7 +8819,7 @@
   },
   "2176": {
     "key": 2176,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2175,
@@ -8883,7 +8883,7 @@
   },
   "2204": {
     "key": 2204,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 321,
     "affTown": 32,
     "needHouseKey": 2203,
@@ -8929,7 +8929,7 @@
   },
   "2201": {
     "key": 2201,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2202,
@@ -8974,7 +8974,7 @@
   },
   "2198": {
     "key": 2198,
-    "CP": 4,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2199,
@@ -8991,7 +8991,7 @@
   },
   "2197": {
     "key": 2197,
-    "CP": 5,
+    "CP": 3,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2152,
@@ -9023,7 +9023,7 @@
   },
   "2195": {
     "key": 2195,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2194,
@@ -9040,7 +9040,7 @@
   },
   "2194": {
     "key": 2194,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2196,
@@ -9058,7 +9058,7 @@
   },
   "2193": {
     "key": 2193,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2189,
@@ -9073,7 +9073,7 @@
   },
   "2192": {
     "key": 2192,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2191,
@@ -9090,7 +9090,7 @@
   },
   "2159": {
     "key": 2159,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2156,
@@ -9106,7 +9106,7 @@
   },
   "2158": {
     "key": 2158,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2159,
@@ -9156,7 +9156,7 @@
   },
   "2155": {
     "key": 2155,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2156,
@@ -9189,7 +9189,7 @@
   },
   "2153": {
     "key": 2153,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 0,
@@ -9204,7 +9204,7 @@
   },
   "2152": {
     "key": 2152,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2153,
@@ -9220,7 +9220,7 @@
   },
   "2151": {
     "key": 2151,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2153,
@@ -9235,7 +9235,7 @@
   },
   "2150": {
     "key": 2150,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 2149,
@@ -9250,7 +9250,7 @@
   },
   "2149": {
     "key": 2149,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 2148,
@@ -9344,7 +9344,7 @@
   },
   "2175": {
     "key": 2175,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2167,
@@ -9392,7 +9392,7 @@
   },
   "2172": {
     "key": 2172,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2173,
@@ -9409,7 +9409,7 @@
   },
   "2171": {
     "key": 2171,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2170,
@@ -9441,7 +9441,7 @@
   },
   "2169": {
     "key": 2169,
-    "CP": 4,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2178,
@@ -9473,7 +9473,7 @@
   },
   "2167": {
     "key": 2167,
-    "CP": 4,
+    "CP": 2,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2165,
@@ -9488,7 +9488,7 @@
   },
   "2166": {
     "key": 2166,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2165,
@@ -9503,7 +9503,7 @@
   },
   "2165": {
     "key": 2165,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2163,
@@ -9519,7 +9519,7 @@
   },
   "2164": {
     "key": 2164,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 301,
     "affTown": 32,
     "needHouseKey": 2163,
@@ -9613,7 +9613,7 @@
   },
   "2126": {
     "key": 2126,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 45,
     "affTown": 5,
     "needHouseKey": 2125,
@@ -9630,7 +9630,7 @@
   },
   "2125": {
     "key": 2125,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 45,
     "affTown": 5,
     "needHouseKey": 0,
@@ -9661,7 +9661,7 @@
   },
   "2122": {
     "key": 2122,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 27,
     "affTown": 5,
     "needHouseKey": 0,
@@ -9692,7 +9692,7 @@
   },
   "2120": {
     "key": 2120,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 26,
     "affTown": 5,
     "needHouseKey": 0,
@@ -9724,7 +9724,7 @@
   },
   "2118": {
     "key": 2118,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 44,
     "affTown": 5,
     "needHouseKey": 0,
@@ -9756,7 +9756,7 @@
   },
   "2116": {
     "key": 2116,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 21,
     "affTown": 5,
     "needHouseKey": 0,
@@ -9771,7 +9771,7 @@
   },
   "2115": {
     "key": 2115,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 22,
     "affTown": 5,
     "needHouseKey": 2114,
@@ -9865,7 +9865,7 @@
   },
   "2141": {
     "key": 2141,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 2142,
@@ -9881,7 +9881,7 @@
   },
   "2139": {
     "key": 2139,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 61,
     "affTown": 88,
     "needHouseKey": 2138,
@@ -9927,7 +9927,7 @@
   },
   "2136": {
     "key": 2136,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1002,
     "affTown": 182,
     "needHouseKey": 2135,
@@ -9958,7 +9958,7 @@
   },
   "2134": {
     "key": 2134,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1002,
     "affTown": 182,
     "needHouseKey": 0,
@@ -9988,7 +9988,7 @@
   },
   "2132": {
     "key": 2132,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 1002,
     "affTown": 182,
     "needHouseKey": 2133,
@@ -10004,7 +10004,7 @@
   },
   "2131": {
     "key": 2131,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1002,
     "affTown": 182,
     "needHouseKey": 2132,
@@ -10036,7 +10036,7 @@
   },
   "2129": {
     "key": 2129,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1002,
     "affTown": 182,
     "needHouseKey": 2128,
@@ -10098,7 +10098,7 @@
   },
   "2108": {
     "key": 2108,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1,
     "affTown": 5,
     "needHouseKey": 2105,
@@ -10130,7 +10130,7 @@
   },
   "2106": {
     "key": 2106,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 1,
     "affTown": 5,
     "needHouseKey": 2102,
@@ -10162,7 +10162,7 @@
   },
   "2104": {
     "key": 2104,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1,
     "affTown": 5,
     "needHouseKey": 2103,
@@ -10194,7 +10194,7 @@
   },
   "2102": {
     "key": 2102,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 1,
     "affTown": 5,
     "needHouseKey": 2107,
@@ -10210,7 +10210,7 @@
   },
   "2101": {
     "key": 2101,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 1,
     "affTown": 5,
     "needHouseKey": 0,
@@ -10244,7 +10244,7 @@
   },
   "2558": {
     "key": 2558,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2556,
@@ -10262,7 +10262,7 @@
   },
   "2557": {
     "key": 2557,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2556,
@@ -10278,7 +10278,7 @@
   },
   "2556": {
     "key": 2556,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2553,
@@ -10294,7 +10294,7 @@
   },
   "2555": {
     "key": 2555,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2554,
@@ -10310,7 +10310,7 @@
   },
   "2554": {
     "key": 2554,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2553,
@@ -10326,7 +10326,7 @@
   },
   "2553": {
     "key": 2553,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2552,
@@ -10390,7 +10390,7 @@
   },
   "2510": {
     "key": 2510,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2509,
@@ -10420,7 +10420,7 @@
   },
   "2508": {
     "key": 2508,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2506,
@@ -10451,7 +10451,7 @@
   },
   "2506": {
     "key": 2506,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2505,
@@ -10498,7 +10498,7 @@
   },
   "2502": {
     "key": 2502,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2500,
@@ -10515,7 +10515,7 @@
   },
   "2501": {
     "key": 2501,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2500,
@@ -10530,7 +10530,7 @@
   },
   "2500": {
     "key": 2500,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2498,
@@ -10546,7 +10546,7 @@
   },
   "2499": {
     "key": 2499,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2498,
@@ -10591,7 +10591,7 @@
   },
   "2496": {
     "key": 2496,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2494,
@@ -10622,7 +10622,7 @@
   },
   "2521": {
     "key": 2521,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2518,
@@ -10636,7 +10636,7 @@
   },
   "2520": {
     "key": 2520,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2519,
@@ -10668,7 +10668,7 @@
   },
   "2518": {
     "key": 2518,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2516,
@@ -10683,7 +10683,7 @@
   },
   "2517": {
     "key": 2517,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2516,
@@ -10730,7 +10730,7 @@
   },
   "2514": {
     "key": 2514,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 0,
@@ -10747,7 +10747,7 @@
   },
   "2513": {
     "key": 2513,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2514,
@@ -10763,7 +10763,7 @@
   },
   "2512": {
     "key": 2512,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2511,
@@ -10791,7 +10791,7 @@
   },
   "2478": {
     "key": 2478,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2476,
@@ -10808,7 +10808,7 @@
   },
   "2477": {
     "key": 2477,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2476,
@@ -10823,7 +10823,7 @@
   },
   "2476": {
     "key": 2476,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2473,
@@ -10853,7 +10853,7 @@
   },
   "2474": {
     "key": 2474,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2473,
@@ -10898,7 +10898,7 @@
   },
   "2471": {
     "key": 2471,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2469,
@@ -10913,7 +10913,7 @@
   },
   "2470": {
     "key": 2470,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2469,
@@ -10928,7 +10928,7 @@
   },
   "2469": {
     "key": 2469,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2468,
@@ -10961,7 +10961,7 @@
   },
   "2467": {
     "key": 2467,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2466,
@@ -10992,7 +10992,7 @@
   },
   "2495": {
     "key": 2495,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2494,
@@ -11024,7 +11024,7 @@
   },
   "2493": {
     "key": 2493,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2498,
@@ -11054,7 +11054,7 @@
   },
   "2491": {
     "key": 2491,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2490,
@@ -11070,7 +11070,7 @@
   },
   "2490": {
     "key": 2490,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2488,
@@ -11086,7 +11086,7 @@
   },
   "2489": {
     "key": 2489,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2488,
@@ -11101,7 +11101,7 @@
   },
   "2488": {
     "key": 2488,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2482,
@@ -11132,7 +11132,7 @@
   },
   "2486": {
     "key": 2486,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2485,
@@ -11178,7 +11178,7 @@
   },
   "2483": {
     "key": 2483,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2482,
@@ -11209,7 +11209,7 @@
   },
   "2481": {
     "key": 2481,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2480,
@@ -11271,7 +11271,7 @@
   },
   "2461": {
     "key": 2461,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2460,
@@ -11286,7 +11286,7 @@
   },
   "2460": {
     "key": 2460,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2458,
@@ -11302,7 +11302,7 @@
   },
   "2459": {
     "key": 2459,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2458,
@@ -11349,7 +11349,7 @@
   },
   "2456": {
     "key": 2456,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2455,
@@ -11367,7 +11367,7 @@
   },
   "2455": {
     "key": 2455,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2453,
@@ -11399,7 +11399,7 @@
   },
   "2453": {
     "key": 2453,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2452,
@@ -11479,7 +11479,7 @@
   },
   "2412": {
     "key": 2412,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2411,
@@ -11510,7 +11510,7 @@
   },
   "2410": {
     "key": 2410,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2407,
@@ -11526,7 +11526,7 @@
   },
   "2409": {
     "key": 2409,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2408,
@@ -11542,7 +11542,7 @@
   },
   "2408": {
     "key": 2408,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2407,
@@ -11558,7 +11558,7 @@
   },
   "2407": {
     "key": 2407,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2405,
@@ -11606,7 +11606,7 @@
   },
   "2404": {
     "key": 2404,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2403,
@@ -11668,7 +11668,7 @@
   },
   "2428": {
     "key": 2428,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2422,
@@ -11684,7 +11684,7 @@
   },
   "2426": {
     "key": 2426,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2425,
@@ -11702,7 +11702,7 @@
   },
   "2425": {
     "key": 2425,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2424,
@@ -11718,7 +11718,7 @@
   },
   "2424": {
     "key": 2424,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2422,
@@ -11734,7 +11734,7 @@
   },
   "2423": {
     "key": 2423,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2422,
@@ -11815,7 +11815,7 @@
   },
   "2418": {
     "key": 2418,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 601,
     "affTown": 77,
     "needHouseKey": 2417,
@@ -11864,7 +11864,7 @@
   },
   "2378": {
     "key": 2378,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 719,
     "affTown": 126,
     "needHouseKey": 2377,
@@ -11880,7 +11880,7 @@
   },
   "2377": {
     "key": 2377,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 719,
     "affTown": 126,
     "needHouseKey": 0,
@@ -11896,7 +11896,7 @@
   },
   "2376": {
     "key": 2376,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 670,
     "affTown": 107,
     "needHouseKey": 0,
@@ -11913,7 +11913,7 @@
   },
   "2375": {
     "key": 2375,
-    "CP": 3,
+    "CP": 1,
     "parentNode": 663,
     "affTown": 77,
     "needHouseKey": 0,
@@ -11947,7 +11947,7 @@
   },
   "2373": {
     "key": 2373,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 628,
     "affTown": 77,
     "needHouseKey": 0,
@@ -11964,7 +11964,7 @@
   },
   "2372": {
     "key": 2372,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 661,
     "affTown": 77,
     "needHouseKey": 0,
@@ -12013,7 +12013,7 @@
   },
   "2369": {
     "key": 2369,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2354,
@@ -12029,7 +12029,7 @@
   },
   "2368": {
     "key": 2368,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 633,
     "affTown": 77,
     "needHouseKey": 2367,
@@ -12060,7 +12060,7 @@
   },
   "2350": {
     "key": 2350,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2348,
@@ -12076,7 +12076,7 @@
   },
   "2349": {
     "key": 2349,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2348,
@@ -12122,7 +12122,7 @@
   },
   "2346": {
     "key": 2346,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2344,
@@ -12168,7 +12168,7 @@
   },
   "2343": {
     "key": 2343,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2341,
@@ -12246,7 +12246,7 @@
   },
   "2338": {
     "key": 2338,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2337,
@@ -12262,7 +12262,7 @@
   },
   "2337": {
     "key": 2337,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2336,
@@ -12278,7 +12278,7 @@
   },
   "2336": {
     "key": 2336,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2334,
@@ -12325,7 +12325,7 @@
   },
   "2365": {
     "key": 2365,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 603,
     "affTown": 77,
     "needHouseKey": 2364,
@@ -12340,7 +12340,7 @@
   },
   "2364": {
     "key": 2364,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 603,
     "affTown": 77,
     "needHouseKey": 2363,
@@ -12387,7 +12387,7 @@
   },
   "2361": {
     "key": 2361,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 603,
     "affTown": 77,
     "needHouseKey": 2360,
@@ -12404,7 +12404,7 @@
   },
   "2360": {
     "key": 2360,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 603,
     "affTown": 77,
     "needHouseKey": 2331,
@@ -12436,7 +12436,7 @@
   },
   "2358": {
     "key": 2358,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2357,
@@ -12451,7 +12451,7 @@
   },
   "2357": {
     "key": 2357,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2355,
@@ -12498,7 +12498,7 @@
   },
   "2354": {
     "key": 2354,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2351,
@@ -12514,7 +12514,7 @@
   },
   "2353": {
     "key": 2353,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2352,
@@ -12531,7 +12531,7 @@
   },
   "2352": {
     "key": 2352,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2351,
@@ -12563,7 +12563,7 @@
   },
   "2311": {
     "key": 2311,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 609,
     "affTown": 126,
     "needHouseKey": 2310,
@@ -12597,7 +12597,7 @@
   },
   "2309": {
     "key": 2309,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 609,
     "affTown": 126,
     "needHouseKey": 2308,
@@ -12629,7 +12629,7 @@
   },
   "2307": {
     "key": 2307,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 609,
     "affTown": 126,
     "needHouseKey": 0,
@@ -12645,7 +12645,7 @@
   },
   "2306": {
     "key": 2306,
-    "CP": 4,
+    "CP": 3,
     "parentNode": 608,
     "affTown": 126,
     "needHouseKey": 2304,
@@ -12660,7 +12660,7 @@
   },
   "2305": {
     "key": 2305,
-    "CP": 4,
+    "CP": 2,
     "parentNode": 608,
     "affTown": 126,
     "needHouseKey": 2302,
@@ -12678,7 +12678,7 @@
   },
   "2304": {
     "key": 2304,
-    "CP": 3,
+    "CP": 2,
     "parentNode": 608,
     "affTown": 126,
     "needHouseKey": 2303,
@@ -12694,7 +12694,7 @@
   },
   "2335": {
     "key": 2335,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 604,
     "affTown": 120,
     "needHouseKey": 2334,
@@ -12726,7 +12726,7 @@
   },
   "2333": {
     "key": 2333,
-    "CP": 2,
+    "CP": 1,
     "parentNode": 603,
     "affTown": 77,
     "needHouseKey": 2332,
