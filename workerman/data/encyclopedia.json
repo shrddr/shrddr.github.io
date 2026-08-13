@@ -1798,5 +1798,17 @@
     "itemkey": 303,
     "baseSize": 14.0,
     "varySize": 18.0
+  },
+  "821373": {
+    "key": 821373,
+    "itemkey": 304,
+    "baseSize": 52.0,
+    "varySize": 49.0
+  },
+  "821374": {
+    "key": 821374,
+    "itemkey": 305,
+    "baseSize": 30.0,
+    "varySize": 18.0
   }
 }

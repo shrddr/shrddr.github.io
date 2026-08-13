@@ -44,6 +44,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1749": {
+    "key": 1749,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "196": {
     "key": 196,
     "is_accessible": 1,
@@ -89,6 +98,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1702": {
+    "key": 1702,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 2091,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "52": {
     "key": 52,
     "is_accessible": 1,
@@ -97,6 +115,15 @@
     "waypoint": 302,
     "wareHouseCharacterKey": 41053,
     "npcWorkerCharacterKey": 41107
+  },
+  "1689": {
+    "key": 1689,
+    "is_accessible": 1,
+    "tradeoriginregion": 1689,
+    "regiongroup": 297,
+    "waypoint": 2111,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
   },
   "2": {
     "key": 2,
@@ -1007,6 +1034,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1736": {
+    "key": 1736,
+    "is_accessible": 1,
+    "tradeoriginregion": 1690,
+    "regiongroup": 298,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "28": {
     "key": 28,
     "is_accessible": 1,
@@ -1688,6 +1724,15 @@
     "tradeoriginregion": 67,
     "regiongroup": 23,
     "waypoint": 325,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1710": {
+    "key": 1710,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 2094,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -2600,6 +2645,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1756": {
+    "key": 1756,
+    "is_accessible": 1,
+    "tradeoriginregion": 1689,
+    "regiongroup": 297,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "110": {
     "key": 110,
     "is_accessible": 1,
@@ -2623,6 +2677,15 @@
     "is_accessible": 1,
     "tradeoriginregion": 577,
     "regiongroup": 203,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1716": {
+    "key": 1716,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
     "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
@@ -3212,6 +3275,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1752": {
+    "key": 1752,
+    "is_accessible": 1,
+    "tradeoriginregion": 1690,
+    "regiongroup": 298,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1404": {
     "key": 1404,
     "is_accessible": 1,
@@ -3478,6 +3550,15 @@
     "is_accessible": 1,
     "tradeoriginregion": 106,
     "regiongroup": 14,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1718": {
+    "key": 1718,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
     "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
@@ -4139,6 +4220,24 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1741": {
+    "key": 1741,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 2105,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1700": {
+    "key": 1700,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 2089,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "224": {
     "key": 224,
     "is_accessible": 1,
@@ -4325,6 +4424,15 @@
     "tradeoriginregion": 967,
     "regiongroup": 171,
     "waypoint": 1700,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1723": {
+    "key": 1723,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -4643,6 +4751,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1724": {
+    "key": 1724,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "356": {
     "key": 356,
     "is_accessible": 1,
@@ -4936,6 +5053,15 @@
     "is_accessible": 1,
     "tradeoriginregion": 90,
     "regiongroup": 64,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1706": {
+    "key": 1706,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
     "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
@@ -5426,6 +5552,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1754": {
+    "key": 1754,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "288": {
     "key": 288,
     "is_accessible": 1,
@@ -5468,6 +5603,15 @@
     "tradeoriginregion": 291,
     "regiongroup": 40,
     "waypoint": 704,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1725": {
+    "key": 1725,
+    "is_accessible": 1,
+    "tradeoriginregion": 1690,
+    "regiongroup": 298,
+    "waypoint": 2098,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -5768,6 +5912,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1751": {
+    "key": 1751,
+    "is_accessible": 1,
+    "tradeoriginregion": 1690,
+    "regiongroup": 298,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "307": {
     "key": 307,
     "is_accessible": 1,
@@ -5891,6 +6044,15 @@
     "tradeoriginregion": 313,
     "regiongroup": 34,
     "waypoint": 638,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1727": {
+    "key": 1727,
+    "is_accessible": 1,
+    "tradeoriginregion": 1690,
+    "regiongroup": 298,
+    "waypoint": 2100,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -6407,6 +6569,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1742": {
+    "key": 1742,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 2106,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "707": {
     "key": 707,
     "is_accessible": 1,
@@ -6848,6 +7019,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1730": {
+    "key": 1730,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "413": {
     "key": 413,
     "is_accessible": 1,
@@ -6962,6 +7142,15 @@
     "tradeoriginregion": 229,
     "regiongroup": 202,
     "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1713": {
+    "key": 1713,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
+    "waypoint": 2112,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -7955,6 +8144,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1693": {
+    "key": 1693,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 2110,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "617": {
     "key": 617,
     "is_accessible": 1,
@@ -8222,6 +8420,15 @@
     "tradeoriginregion": 605,
     "regiongroup": 284,
     "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1697": {
+    "key": 1697,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 2087,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -8819,6 +9026,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1757": {
+    "key": 1757,
+    "is_accessible": 1,
+    "tradeoriginregion": 1689,
+    "regiongroup": 297,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1231": {
     "key": 1231,
     "is_accessible": 1,
@@ -8861,6 +9077,15 @@
     "tradeoriginregion": 713,
     "regiongroup": 152,
     "waypoint": 1609,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1739": {
+    "key": 1739,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 2104,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -9098,6 +9323,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1732": {
+    "key": 1732,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "827": {
     "key": 827,
     "is_accessible": 1,
@@ -9185,6 +9419,15 @@
     "tradeoriginregion": 960,
     "regiongroup": 164,
     "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1695": {
+    "key": 1695,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 2085,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -9845,6 +10088,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1747": {
+    "key": 1747,
+    "is_accessible": 1,
+    "tradeoriginregion": 1690,
+    "regiongroup": 298,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1665": {
     "key": 1665,
     "is_accessible": 1,
@@ -10175,6 +10427,24 @@
     "tradeoriginregion": 832,
     "regiongroup": 188,
     "waypoint": 1729,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1717": {
+    "key": 1717,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 2107,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1708": {
+    "key": 1708,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -10790,6 +11060,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1692": {
+    "key": 1692,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1113": {
     "key": 1113,
     "is_accessible": 1,
@@ -11312,6 +11591,15 @@
     "wareHouseCharacterKey": 47251,
     "npcWorkerCharacterKey": 47239
   },
+  "1729": {
+    "key": 1729,
+    "is_accessible": 1,
+    "tradeoriginregion": 1689,
+    "regiongroup": 297,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1212": {
     "key": 1212,
     "is_accessible": 1,
@@ -11582,11 +11870,29 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1715": {
+    "key": 1715,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
+    "waypoint": 2096,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1260": {
     "key": 1260,
     "is_accessible": 1,
     "tradeoriginregion": 1210,
     "regiongroup": 113,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1712": {
+    "key": 1712,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
     "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
@@ -11735,6 +12041,24 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1719": {
+    "key": 1719,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 2097,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1740": {
+    "key": 1740,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1607": {
     "key": 1607,
     "is_accessible": 1,
@@ -11767,6 +12091,15 @@
     "is_accessible": 1,
     "tradeoriginregion": 1226,
     "regiongroup": 113,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1699": {
+    "key": 1699,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
     "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
@@ -11804,6 +12137,15 @@
     "tradeoriginregion": 1246,
     "regiongroup": 113,
     "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1703": {
+    "key": 1703,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 2092,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -11864,9 +12206,9 @@
   "1312": {
     "key": 1312,
     "is_accessible": 0,
-    "tradeoriginregion": 1219,
+    "tradeoriginregion": 1312,
     "regiongroup": 134,
-    "waypoint": 0,
+    "waypoint": 2055,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -11921,6 +12263,15 @@
     "tradeoriginregion": 229,
     "regiongroup": 245,
     "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1691": {
+    "key": 1691,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 2108,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -12194,6 +12545,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1726": {
+    "key": 1726,
+    "is_accessible": 1,
+    "tradeoriginregion": 1690,
+    "regiongroup": 298,
+    "waypoint": 2099,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1372": {
     "key": 1372,
     "is_accessible": 0,
@@ -12292,6 +12652,15 @@
     "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
+  },
+  "1733": {
+    "key": 1733,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 2057,
+    "wareHouseCharacterKey": 47745,
+    "npcWorkerCharacterKey": 47748
   },
   "1393": {
     "key": 1393,
@@ -12617,6 +12986,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1738": {
+    "key": 1738,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 2103,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1646": {
     "key": 1646,
     "is_accessible": 1,
@@ -12824,6 +13202,15 @@
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
+  "1690": {
+    "key": 1690,
+    "is_accessible": 1,
+    "tradeoriginregion": 1690,
+    "regiongroup": 298,
+    "waypoint": 2109,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
   "1501": {
     "key": 1501,
     "is_accessible": 1,
@@ -12938,6 +13325,15 @@
     "tradeoriginregion": 1419,
     "regiongroup": 256,
     "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1696": {
+    "key": 1696,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 2086,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
   },
@@ -13090,6 +13486,15 @@
     "is_accessible": 1,
     "tradeoriginregion": 605,
     "regiongroup": 285,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1734": {
+    "key": 1734,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
     "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
@@ -13630,6 +14035,222 @@
     "is_accessible": 1,
     "tradeoriginregion": 88,
     "regiongroup": 295,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1728": {
+    "key": 1728,
+    "is_accessible": 1,
+    "tradeoriginregion": 1689,
+    "regiongroup": 297,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1704": {
+    "key": 1704,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1705": {
+    "key": 1705,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 2093,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1707": {
+    "key": 1707,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1709": {
+    "key": 1709,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1721": {
+    "key": 1721,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1722": {
+    "key": 1722,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1731": {
+    "key": 1731,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 2101,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1735": {
+    "key": 1735,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 2102,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1750": {
+    "key": 1750,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1755": {
+    "key": 1755,
+    "is_accessible": 1,
+    "tradeoriginregion": 1691,
+    "regiongroup": 300,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1698": {
+    "key": 1698,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 2088,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1701": {
+    "key": 1701,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 2090,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1746": {
+    "key": 1746,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1753": {
+    "key": 1753,
+    "is_accessible": 1,
+    "tradeoriginregion": 1693,
+    "regiongroup": 299,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1694": {
+    "key": 1694,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1711": {
+    "key": 1711,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
+    "waypoint": 2095,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1714": {
+    "key": 1714,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1737": {
+    "key": 1737,
+    "is_accessible": 1,
+    "tradeoriginregion": 1713,
+    "regiongroup": 301,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1720": {
+    "key": 1720,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1748": {
+    "key": 1748,
+    "is_accessible": 1,
+    "tradeoriginregion": 1733,
+    "regiongroup": 296,
+    "waypoint": 0,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1743": {
+    "key": 1743,
+    "is_accessible": 1,
+    "tradeoriginregion": 1743,
+    "regiongroup": 302,
+    "waypoint": 2113,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1744": {
+    "key": 1744,
+    "is_accessible": 1,
+    "tradeoriginregion": 1744,
+    "regiongroup": 302,
+    "waypoint": 2114,
+    "wareHouseCharacterKey": 0,
+    "npcWorkerCharacterKey": 0
+  },
+  "1745": {
+    "key": 1745,
+    "is_accessible": 0,
+    "tradeoriginregion": 1733,
+    "regiongroup": 302,
     "waypoint": 0,
     "wareHouseCharacterKey": 0,
     "npcWorkerCharacterKey": 0
